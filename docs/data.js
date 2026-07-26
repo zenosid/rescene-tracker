@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 06:25",
+  "generated_at": "2026-07-27 07:28",
   "operator_contact": "네이버 카페 리시안셔스 '첸드'에게 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,83 @@ const SITE_DATA = {
       "date": "2026-07-27",
       "date_display": "2026년 07월 27일",
       "items": [
+        {
+          "title": "리센느, 'LOVE ATTACK' 역주행으로 '인기가요' 1위 등극 - iMBC 연예",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BeTVNak54VXV1Q2Rzb0tZcEpDLUZGRnV1RXBGazZULXZTTzZRZ1ZkaFh2cmFnX3RvZVZwdzVJOGRtVlUybXBVN2NFZWFwZ0FESWF0dTRJc1FzRnZJV0lmUA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "07:20",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, ‘LOVE ATTACK’으로 ‘인기가요’ 1위…음악방송 3관왕 완성 - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lUGljalBKMnZWZ2tuRU5FdXpJSXliV3FWNTlkYWdnbndQZTZsMlE4bkgzWUdmeF9EckYzcGFQMXhmTmdfZ2NMODBkUWZmbmlqZVNjSG1VWWZqMFVDc3Z5NnZTbGV1NTlaRlp5N3BjLUpzdw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "07:11",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, ‘LOVE ATTACK’ 첫 음악방송 1위...“꿈을 이루게 해준 리마인” - 싱글리스트",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0N0VCOGJiWkxuVnlkMVFlRUxFMG1hYnlRQ1JpeVNzUDQzS0FPcHhHczFFb29WeTFvV18zTEZ6Mk5UU2JvY3JKWlZXSllKaUttVTBPSUdGR1BTcmZWVWtMbWx2dzF1dw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "07:10",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'대세' 리센느, 음방마저 3관왕 등극..\"꿈을 이뤘어요\"[스타이슈] - starnewskorea.com",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SRGVJb0hPRWgzRXh2dXFuUFE0ZzBEX2I2bWt1RjlqM3AyYlh0aGVzS2JSblgtU0pvcEYzOXNwMmU5X2xVY1RvYUx4aTQta0RhQmdyaVBLMWN0eEtHU0Q1cHVjajh5blVDOUsxbksyYVlyd0Va?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "07:07",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘인기가요’ 리센느 첫 1위 - bntnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15YVlqQjhaTEZoa2VENk5tRHFpLUROd3MwSXJlRjFZUkpfTXBuMUljZE1INm1Fa2l5V0JvNGREWU1zVmVjdjVjVDN6MHFTcm1kSUc1b3ZrNXdnVjZ6T2ZQNzFYT2s?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "07:06",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 'LOVE ATTACK'으로 또 일냈다…발매 2년만 지상파 1위 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GSmlwVl8xSnVGVUItN3ZkSVJDRjdlR2ZHcEhySlRFVTMzd29nRU1WSVNuZ2dDNlVxampCVkdIb2lNX1RUeW5qQXVKN3IwN0xyeUxR?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "07:04",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "방탄소년단, 7월 가수 브랜드평판 1위…임영웅·리센느 '톱3' - 핀포인트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NWUFOZ3NONXM0cnZfZm8wVDRmNFBUYTU0a08xb19KQ3ozMElQNzBkNW9hSm5TMVhleVZZNXhGYUwyQ0FhcV9fT0haYkhIc01RRlZzYkhSNkpNV094dHNUemdLeG8xTS1fM1daZ1liM2hZNmPSAXdBVV95cUxOdVVoM3hQaFFKRHo1MkxKOWtJTEowSEc4czVSbXY4bFBRdWdKR1NPemxTU2RwSkV3bGJUcm9zVURNWDNPNkRQUU50RVZ5ZEwwNkJKY3pzUzdkZmEyUG5HZlczbDRLRmREZV85VUlkMmE2WHZrdFc4NA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "06:38",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
         {
           "title": "리센느, 2년 만의 역주행 신화 완성…'러브어택'으로 '인기가요' 1위 - 세계뉴스통신",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BeWRqODB6bkFObENWdGNhVlNEZ2hzS0toNTVYNVhUTmRqUFVFYkRxYTZMX2RKanJfTlF2aTBzcHR6YWZhdVVKUjFrRjctMlhYcWdXUTFocWJGWXoxaWo0RFk5NHZnV1VWT0JUWmMxM3g3Vmxq?oc=5",
@@ -198,6 +275,17 @@ const SITE_DATA = {
           "category": "음악방송",
           "members": [
             "원이"
+          ]
+        },
+        {
+          "title": "[한글자막] 존박에게 리센느 어떻게 섭외했냐고 묻다",
+          "link": "https://www.youtube.com/watch?v=F_hwM58VVUI",
+          "source_type": "youtube_collab",
+          "source_name": "피식대학Psick Univ",
+          "time": "19:28",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
           ]
         },
         {
@@ -2904,71 +2992,77 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 06:25"
+        "checked_at": "2026-07-27 07:28"
       },
       {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 06:25"
+        "checked_at": "2026-07-27 07:28"
       },
       {
         "rank": 14,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 06:25"
+        "checked_at": "2026-07-27 07:28"
       },
       {
         "rank": 59,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 06:25"
+        "checked_at": "2026-07-27 07:28"
       }
     ],
     "genie": [
       {
-        "rank": 232,
-        "song_title": "Pretty Girl",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 06:25"
-      },
-      {
-        "rank": 498,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 06:25"
-      },
-      {
-        "rank": 1614,
+        "rank": 214,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 06:25"
+        "checked_at": "2026-07-27 07:28"
+      },
+      {
+        "rank": 263,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-07-27 07:28"
+      },
+      {
+        "rank": 463,
+        "song_title": "Deja Vu",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-07-27 07:28"
       }
     ],
     "bugs": [
       {
-        "rank": 21,
+        "rank": 20,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 06:25"
+        "checked_at": "2026-07-27 07:28"
       },
       {
-        "rank": 91,
+        "rank": 90,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 06:25"
+        "checked_at": "2026-07-27 07:28"
       },
       {
-        "rank": 112,
+        "rank": 101,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 06:25"
+        "checked_at": "2026-07-27 07:28"
       },
       {
-        "rank": 295,
+        "rank": 263,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 06:25"
+        "checked_at": "2026-07-27 07:28"
+      },
+      {
+        "rank": 10025,
+        "song_title": "Pinball",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-07-27 07:28"
       }
     ]
   },
