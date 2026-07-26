@@ -1,12 +1,34 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-26 19:26",
-  "operator_contact": "네이버 카페 '리시안셔스' 쪽지",
+  "generated_at": "2026-07-26 19:35",
+  "operator_contact": "네이버 카페 리시안셔스 '첸드'에게 쪽지",
   "refresh_interval_hours": 3,
   "archive": [
     {
       "date": "2026-07-26",
       "date_display": "2026년 07월 26일",
       "items": [
+        {
+          "title": "리센느, 역주행 '러브어택' 음방 1위…원이 \"꿈 이루게 해줘서 감사\" 눈물 펑펑 [엑's 이슈] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14SzJ5R3M0cFRNZU4wNjZraDlVYzJPM1JxVkNHc2J5b3hTVURiWUhCd0o4RFFwaEVNVGVmUl9MQThqTTVDdVlaaEZkOHBHcHc?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "19:26",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느, 역주행 '러브어택' 음방 1위…원이 \"꿈 이루게 해줘서 감사\" 눈물 펑펑 [엑's 이슈] - xportsnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tU21tRVd4R3ZyVzNGOFRoZFR4QzJmWW01Vmt3bWs4U2RrS2JNcDUzXzUwOTE0WmVnYnBQWHlnc3M3NHpwaGVkc2JKcHBFTHFyUnE2eQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "19:24",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
         {
           "title": "'역주행 신화' 리센느, 데뷔 첫 음악방송 1위 - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40WWczS1o3Tjd0V0JpcFZ4QmhkZ3dLYnFMb2JjQjRmYVJrUjVsUlk5QzV1b2xMempDWGhaejBjQThIbWctTHg2U2dENVA0ekxBNnpz?oc=5",
@@ -1050,6 +1072,29 @@ const SITE_DATA = {
       "date_display": "2026년 07월 23일",
       "items": [
         {
+          "title": "리센느 리브 & 메이 | 프로듀스 1077 with. RESCENE | 배성재의 텐 | 20260722",
+          "link": "https://www.youtube.com/watch?v=4KDX8QhknBY",
+          "source_type": "youtube_collab",
+          "source_name": "코빨간배춘기 [배성재의 텐]",
+          "time": "19:35",
+          "category": "외부컨텐츠",
+          "members": [
+            "리브",
+            "메이"
+          ]
+        },
+        {
+          "title": "[리센느 메이킹 필름 EP.1] 리센느 MBC 아시안게임 홍보대사 촬영 비하인드",
+          "link": "https://www.youtube.com/watch?v=R8flNzqcl1Y",
+          "source_type": "youtube_collab",
+          "source_name": "스탐",
+          "time": "19:35",
+          "category": "외부컨텐츠",
+          "members": [
+            "메이"
+          ]
+        },
+        {
           "title": "#해나 님과 어디서나 당당하게 걷기 🎀",
           "link": "https://www.youtube.com/shorts/IuhYt6m-Vgk",
           "source_type": "youtube",
@@ -1616,6 +1661,17 @@ const SITE_DATA = {
       "date_display": "2026년 07월 12일",
       "items": [
         {
+          "title": "Pretty Girl - RESCENE (리센느) | SBS 260712 방송",
+          "link": "https://www.youtube.com/watch?v=cZmqrxABKqk",
+          "source_type": "youtube_collab",
+          "source_name": "SBSKPOP X INKIGAYO",
+          "time": "19:35",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "'COMEBACK' RESCENE (리센느) - Pretty Girl #엠카운트다운 EP.936 | Mnet 260709 방송",
           "link": "https://www.youtube.com/watch?v=Esd-KkxROxA",
           "source_type": "youtube_collab",
@@ -2094,6 +2150,17 @@ const SITE_DATA = {
       "date_display": "2026년 04월 26일",
       "items": [
         {
+          "title": "'최초 공개' RESCENE(리센느) - Runaway #엠카운트다운 EP.923 | Mnet 260409 방송",
+          "link": "https://www.youtube.com/watch?v=qt2FvoXRw1U",
+          "source_type": "youtube_collab",
+          "source_name": "Mnet K-POP",
+          "time": "12:05",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "[4K] RESCENE(리센느) “Runaway” Band LIVE | it's Live",
           "link": "https://www.youtube.com/watch?v=aDHmmrfizIE",
           "source_type": "youtube_collab",
@@ -2248,25 +2315,25 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:26"
+        "checked_at": "2026-07-26 19:35"
       },
       {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:26"
+        "checked_at": "2026-07-26 19:35"
       },
       {
         "rank": 12,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:26"
+        "checked_at": "2026-07-26 19:35"
       },
       {
         "rank": 44,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:26"
+        "checked_at": "2026-07-26 19:35"
       }
     ],
     "genie": [
@@ -2274,19 +2341,19 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:26"
+        "checked_at": "2026-07-26 19:35"
       },
       {
         "rank": 9,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:26"
+        "checked_at": "2026-07-26 19:35"
       },
       {
         "rank": 404,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:26"
+        "checked_at": "2026-07-26 19:35"
       }
     ],
     "bugs": [
@@ -2294,25 +2361,25 @@ const SITE_DATA = {
         "rank": 11,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:26"
+        "checked_at": "2026-07-26 19:35"
       },
       {
         "rank": 60,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:26"
+        "checked_at": "2026-07-26 19:35"
       },
       {
         "rank": 100,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:26"
+        "checked_at": "2026-07-26 19:35"
       },
       {
         "rank": 360,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:26"
+        "checked_at": "2026-07-26 19:35"
       }
     ]
   },
