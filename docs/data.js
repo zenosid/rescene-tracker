@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-26 22:23",
+  "generated_at": "2026-07-26 23:47",
   "operator_contact": "네이버 카페 리시안셔스 '첸드'에게 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,28 @@ const SITE_DATA = {
       "date": "2026-07-26",
       "date_display": "2026년 07월 26일",
       "items": [
+        {
+          "title": "리센느, 역주행곡 '러브어택'도 지상파 음방 첫 1위…원이 눈물 소감 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OV0cwTXZWTVBTQVpCVnh0eVd1NllXaFVNSWRpdzB1dzJwT0p3U0syeVhicFRjSzY3cHBybi1nYzJPZUJaekhkaW96MURwRHJsZjBfRXQ2eXNBMFM1S3RHddIBeEFVX3lxTE5odTFQenFqNXk5S0RpYmJZSjhJWTZDVnozZ1NmbFdqMkhxQTFMLWJyaTZCS0k3UmxiNEpZeVY3WVktY09uYnFCcEw4bkhMaFZZckFhM05CZDVTSTcwQXA5Nkh5UTNFUWhjTFkyRklNVGRmTHZhZ283OA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "22:33",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "'음중' 리센느, 리메이크 싱글 'Pretty Girl'로 공중파 첫 1위 - iMBC 연예",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1saEVXS2o3QmppMmtoNWdCVHk2a2h3OVJUUFVzMG03enJhdGYzRmVHa0pKTVJwNkNrLW83dmdtN09pdUdKa2lHbjg3elRTUFY0ZHZERngzODB0dE01d3Zyag?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "22:21",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
         {
           "title": "리센느, 지상파 음악방송 첫 1위 - 대구신문",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9uVWZGU0ZEV3RsSmVOa1FjMXJaNDhyNTZwd2xxVEE3ZS1jUGtWekRuVnhjYnFFM3MwbXRyZDhLUXhpNERhR3ZuYlZTSS1OMVJpdnMxVzh2REpIRHU0eEptendMdlpWX3JfVGhz?oc=5",
@@ -82,6 +104,17 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
+          ]
+        },
+        {
+          "title": "리센느 러브어택 인기가요 1위 등극 - OBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjTnBDRUxiMzlVSEFFR291cENmVWxZNFQtUmsyaUVSR3lXay1RYjhLTDB0ZlhmN3pOclgxZmtodU9fdVZUNm5iSjdLV1NBbUJsbXZEbmhvQXFMWDcxRzFQUFdnYlp1Y1BQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "19:04",
+          "category": "음악방송",
+          "members": [
+            "전체"
           ]
         },
         {
@@ -1045,6 +1078,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "\"이걸 어떻게 찾았지?\"…리센느 메이, '초딩 사진' 발굴됐다 '화제' [엑's 이슈] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yZU5venNKMXl2UFJBUDAtVl83N1lNWEpWbFJsVzQ3eUNLeF9fZHBJVEpib1NLSWVsTVN6UHVwRkVQLUVUNHEyMjNTSWtfUDA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "18:08",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
           "title": "[위클리비즈] 유통가도 ‘리센느 야호’…팬덤 소비 잡기 나섰다 - 서울경제TV",
           "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FZVRXemFWcGRMbS1FY2NIUzJ3REY2NUEtSTE1V1JiMUNRR0xBNDBDOHA1LWlaM0JwWkJnTk92a3pGTDJiVDIyRUxGMDNGSzZhdjNzamZFMFRFMFdkbm5IQUZBQmk?oc=5",
           "source_type": "news",
@@ -1554,6 +1598,23 @@ const SITE_DATA = {
           "source_name": "구글 뉴스 - 리센느",
           "time": "10:34",
           "category": "기타",
+          "members": [
+            "전체"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "date_display": "2026년 07월 20일",
+      "items": [
+        {
+          "title": "[4K] Pretty Girl - RESCENE (리센느) | SBS 260719 방송",
+          "link": "https://www.youtube.com/watch?v=eK-anMCLuiI",
+          "source_type": "youtube_collab",
+          "source_name": "SBSKPOP X INKIGAYO",
+          "time": "23:47",
+          "category": "외부컨텐츠",
           "members": [
             "전체"
           ]
@@ -2305,6 +2366,17 @@ const SITE_DATA = {
       "date_display": "2026년 04월 26일",
       "items": [
         {
+          "title": "RESCENE(리센느) - Runaway #엠카운트다운 EP.924 | Mnet 260416 방송",
+          "link": "https://www.youtube.com/watch?v=VB_vtps_wus",
+          "source_type": "youtube_collab",
+          "source_name": "Mnet K-POP",
+          "time": "16:17",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "'최초 공개' RESCENE(리센느) - Runaway #엠카운트다운 EP.923 | Mnet 260409 방송",
           "link": "https://www.youtube.com/watch?v=qt2FvoXRw1U",
           "source_type": "youtube_collab",
@@ -2501,6 +2573,23 @@ const SITE_DATA = {
           ]
         }
       ]
+    },
+    {
+      "date": "2024-04-12",
+      "date_display": "2024년 04월 12일",
+      "items": [
+        {
+          "title": "[영상] 리센느(RESCENE), ‘사랑스러운 요정들’ - CBC뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52YTQ3QUV3V0VvVEEwejZlcXg0MVR5b1lsMTBHMm1YTVUyV0pja3kxTnpXVGtMWVNJc3dJamZzdnRhVlBPTFNNNXY1cURsYl92QkhmZjBnX1FBdS11R1I0TTNpcXZraU8z?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - RESCENE",
+          "time": "16:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        }
+      ]
     }
   ],
   "chart": {
@@ -2509,71 +2598,71 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 22:23"
+        "checked_at": "2026-07-26 23:47"
       },
       {
-        "rank": 6,
+        "rank": 4,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 22:23"
+        "checked_at": "2026-07-26 23:47"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 22:23"
+        "checked_at": "2026-07-26 23:47"
       },
       {
-        "rank": 38,
+        "rank": 33,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 22:23"
+        "checked_at": "2026-07-26 23:47"
       }
     ],
     "genie": [
       {
-        "rank": 11,
+        "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 22:23"
+        "checked_at": "2026-07-26 23:47"
       },
       {
-        "rank": 43,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 22:23"
-      },
-      {
-        "rank": 62,
+        "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 22:23"
+        "checked_at": "2026-07-26 23:47"
+      },
+      {
+        "rank": 412,
+        "song_title": "Deja Vu",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-07-26 23:47"
       }
     ],
     "bugs": [
       {
-        "rank": 31,
+        "rank": 21,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 22:23"
+        "checked_at": "2026-07-26 23:47"
       },
       {
-        "rank": 91,
+        "rank": 101,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 22:23"
+        "checked_at": "2026-07-26 23:47"
       },
       {
         "rank": 110,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 22:23"
+        "checked_at": "2026-07-26 23:47"
       },
       {
-        "rank": 324,
+        "rank": 342,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 22:23"
+        "checked_at": "2026-07-26 23:47"
       }
     ]
   },
