@@ -571,8 +571,22 @@
 
 </div>
 
-<script src="data.js"></script>
-<script src="app.js"></script>
+<script>
+  // data.js가 브라우저에 캐싱되어 갱신이 늦게 보이는 것을 방지하기 위해
+  // 매번 다른 쿼리파라미터를 붙여서 "새 파일"로 인식하게 만듭니다.
+  // app.js는 SITE_DATA(= data.js의 내용)에 의존하므로, data.js 로드가
+  // 끝난 뒤에(onload) 이어서 불러옵니다.
+  (function () {
+    var dataScript = document.createElement("script");
+    dataScript.src = "data.js?t=" + Date.now();
+    dataScript.onload = function () {
+      var appScript = document.createElement("script");
+      appScript.src = "app.js";
+      document.body.appendChild(appScript);
+    };
+    document.body.appendChild(dataScript);
+  })();
+</script>
 <div class="toast" id="toast"></div>
 </body>
 </html>
