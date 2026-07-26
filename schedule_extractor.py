@@ -9,6 +9,8 @@
 import re
 from datetime import date, timedelta
 
+from kst import now_kst
+
 # 키워드가 걸리면 해당 타입으로 분류 (먼저 매칭되는 키워드 우선)
 EVENT_KEYWORDS = [
     ("시구", "행사"),
@@ -72,7 +74,7 @@ def extract_schedule_candidates(news_items, today=None):
     news_items: db.get_recent_items()에서 source_type == 'news'인 항목들
     반환: [{"date": "YYYY-MM-DD", "type": ..., "title": ..., "note": ..., "source_link": ...}, ...]
     """
-    today = today or date.today()
+    today = today or now_kst().date()
     candidates = []
 
     for item in news_items:

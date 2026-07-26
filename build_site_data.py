@@ -18,6 +18,7 @@ from config import SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_HOURS
 from db import init_db, get_conn, get_recent_items, get_auto_schedule
 from chart_tracker import get_latest_all
 from classify import classify_members, classify_category
+from kst import now_kst, to_kst
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_PATH = os.path.join(BASE_DIR, "docs", "data.js")
@@ -29,13 +30,15 @@ def build_archive():
 
     grouped = defaultdict(list)
     for item in items:
-        date_key = (item["published_at"] or item["fetched_at"])[:10]
+        raw_time = item["published_at"] or item["fetched_at"]
+        kst_dt = to_kst(raw_time)
+        date_key = kst_dt.strftime("%Y-%m-%d")
         entry = {
             "title": item["title"],
             "link": item["link"],
             "source_type": item["source_type"],
             "source_name": item["source_name"],
-            "time": (item["published_at"] or "")[11:16],
+            "time": kst_dt.strftime("%H:%M"),
             "category": classify_category(item["title"], item["source_type"]),
             "members": classify_members(item["title"]),
         }
@@ -62,7 +65,7 @@ def build_chart():
                 "rank": s["rank"],
                 "song_title": s["song_title"],
                 "artist_text": s["artist_text"],
-                "checked_at": s["checked_at"],
+                "checked_at": to_kst(s["checked_at"]).strftime("%Y-%m-%d %H:%M"),
             }
             for s in songs
         ]
@@ -70,7 +73,7 @@ def build_chart():
 
 
 def build_schedule():
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    today_str = now_kst().strftime("%Y-%m-%d")
 
     manual_items = [
         {**s, "is_estimated": False, "mention_count": 1} for s in SCHEDULE_ITEMS
@@ -110,7 +113,7 @@ def build_schedule():
 def main():
     init_db()
     data = {
-        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "generated_at": now_kst().strftime("%Y-%m-%d %H:%M"),
         "operator_contact": OPERATOR_CONTACT,
         "refresh_interval_hours": REFRESH_INTERVAL_HOURS,
         "archive": build_archive(),
