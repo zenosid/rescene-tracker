@@ -107,8 +107,8 @@ if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
 
 // ── 안내 탭: 연락처/갱신주기 채우기 ─────────────────────────
 document.getElementById("operatorContact").textContent = SITE_DATA.operator_contact || "-";
-document.getElementById("refreshIntervalText").textContent = SITE_DATA.refresh_interval_hours
-  ? `약 ${SITE_DATA.refresh_interval_hours}시간마다`
+document.getElementById("refreshIntervalText").textContent = SITE_DATA.refresh_interval_minutes
+  ? `약 ${SITE_DATA.refresh_interval_minutes}분마다`
   : "비정기적";
 
 // ── 필터 칩 렌더링 ────────────────────────────────────────

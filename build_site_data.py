@@ -14,7 +14,7 @@ import os
 from collections import defaultdict
 from datetime import datetime
 
-from config import SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_HOURS
+from config import SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES
 from db import init_db, get_conn, get_recent_items, get_auto_schedule
 from chart_tracker import get_latest_all
 from classify import classify_members, classify_category
@@ -115,7 +115,7 @@ def main():
     data = {
         "generated_at": now_kst().strftime("%Y-%m-%d %H:%M"),
         "operator_contact": OPERATOR_CONTACT,
-        "refresh_interval_hours": REFRESH_INTERVAL_HOURS,
+        "refresh_interval_minutes": REFRESH_INTERVAL_MINUTES,
         "archive": build_archive(),
         "chart": build_chart(),
         "schedule": build_schedule(),

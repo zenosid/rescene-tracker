@@ -1,9 +1,9 @@
 name: Refresh RESCENE Tracker Data
 
-# 3시간마다 자동 실행 + 수동 실행(Actions 탭에서 Run workflow) 둘 다 지원
+# 30분마다 자동 실행 + 수동 실행(Actions 탭에서 Run workflow) 둘 다 지원
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
 # data.js / DB를 저장소에 다시 커밋하려면 쓰기 권한이 필요합니다
