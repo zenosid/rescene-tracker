@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 05:05",
+  "generated_at": "2026-07-27 06:25",
   "operator_contact": "네이버 카페 리시안셔스 '첸드'에게 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,61 @@ const SITE_DATA = {
       "date": "2026-07-27",
       "date_display": "2026년 07월 27일",
       "items": [
+        {
+          "title": "리센느, 2년 만의 역주행 신화 완성…'러브어택'으로 '인기가요' 1위 - 세계뉴스통신",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BeWRqODB6bkFObENWdGNhVlNEZ2hzS0toNTVYNVhUTmRqUFVFYkRxYTZMX2RKanJfTlF2aTBzcHR6YWZhdVVKUjFrRjctMlhYcWdXUTFocWJGWXoxaWo0RFk5NHZnV1VWT0JUWmMxM3g3Vmxq?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "06:06",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“원 유니 야~호!” 여름 축제에도 이어진 ‘리센느 흥행 돌풍’ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KQkNoaV9nZWEyQ1d2b0F6YWg2aDFIWVJ5YkNudzNJRjAzd3NBeU9sdkEzYTBsc3BGNHl3OGJzNHZmemJSYTN6VUppUDB0MEU?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "06:02",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"저 정도면 차 깔고 지나갔다\"…금 '쫙쫙' 리센느 태블릿 재조명[IT썰] - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2YWZ3dTI5akFPTGN0YTBhUS1yTDkwbldrdE1WWUdPNlduNzhQZDZDNVlGLUlKckE5Yi0zQ2NWbWNQczhoRG1wR24xaUh0OVh5MUVEcDc4TjBSYVRQMlQ4R1FNTFlNNHFHVlRYTVBZc3BQVE84V1RBMg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "06:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"저 정도면 차 깔고 지나갔다\"…금 '쫙쫙' 리센느 태블릿 재조명[IT썰] - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uS1N2TWdocE1UcUxiSnM5Z2tBVUJZb25HOU00a2UyVFozT01hM2VaeXExUGRhZFY3SzNQSzNTT1VydGxHNmVQOFFZOVVCQkN4S1VmWWVUWHIxZTlrd0dJSk8wOFkyb1U?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "06:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“원 유니 야~호!” 여름 축제에도 이어진 ‘리센느 흥행 돌풍’ - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLTZsdzBtQlAyMG9pT25fV2FNRzlzcHhUZDFlTXR4S1BFWXJCVDhMMjNlS1NNUlRyeTVtVllJTml6ZmNFU0pWSEgyaWhZVnBrUVZMajlqTGY1YWJqZ1FUZ012X0FXS1Rfc2I1VHlpRnU3MVZvVU1yb0Q0eW5BeGwteVY5Z3psTkxBMjNBb1JRZG1QaFZl?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "06:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
         {
           "title": "‘가성비·직발감’ 다 잡았다…리센느 ‘Pretty Girl’처럼 산뜻한 BYD 아토3 시승기 [원성윤의 가요타요] - sportsseoul.com",
           "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5raDFURFNLai1YZjlvVEx5YTMxbXNfT19vbTBGYzUxZ1pfVG9JVVptRGkxY042X1QwbVRCaFQ5VHczTUlGbGFxREJUNzhQVmsxOW5vYmVHVkY?oc=5",
@@ -880,6 +935,17 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "09:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느·BTS도 선 무대…이 지역 축제를 찾으면 스타가 된다? - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXTTFBbDRYNHlVNmFYMGlVa09IZVBfUzNmZXhtNXdRZm52ZnlIZ1lZcjJfazZlZ2hHek9CUFNlSXJ1TUxqZmpHNUxmcm1XM1dvenY0RGhKMmZ2dw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:00",
           "category": "기타",
           "members": [
             "전체"
@@ -2607,6 +2673,23 @@ const SITE_DATA = {
       ]
     },
     {
+      "date": "2025-12-26",
+      "date_display": "2025년 12월 26일",
+      "items": [
+        {
+          "title": "RESCENE (리센느) - Bloom | Show! MusicCore | MBC251213방송",
+          "link": "https://www.youtube.com/watch?v=uCCV5qK0TBM",
+          "source_type": "youtube_collab",
+          "source_name": "MBCkpop",
+          "time": "04:55",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2025-09-25",
       "date_display": "2025년 09월 25일",
       "items": [
@@ -2636,6 +2719,23 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-08-26",
+      "date_display": "2025년 08월 26일",
+      "items": [
+        {
+          "title": "[리센느] 집밥은 못 참지🔥 제나 엄마찬스! 폭주하는 리센느에 회사는 그저 바라볼수밖에...😨 | #01",
+          "link": "https://www.youtube.com/watch?v=pHYC8bO6B2o",
+          "source_type": "youtube_collab",
+          "source_name": "Idol Backstage 아이돌백스테이지",
+          "time": "10:55",
+          "category": "외부컨텐츠",
+          "members": [
+            "제나"
           ]
         }
       ]
@@ -2804,25 +2904,25 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 05:05"
+        "checked_at": "2026-07-27 06:25"
       },
       {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 05:05"
+        "checked_at": "2026-07-27 06:25"
       },
       {
         "rank": 14,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 05:05"
+        "checked_at": "2026-07-27 06:25"
       },
       {
         "rank": 59,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 05:05"
+        "checked_at": "2026-07-27 06:25"
       }
     ],
     "genie": [
@@ -2830,19 +2930,19 @@ const SITE_DATA = {
         "rank": 232,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 05:05"
+        "checked_at": "2026-07-27 06:25"
       },
       {
         "rank": 498,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 05:05"
+        "checked_at": "2026-07-27 06:25"
       },
       {
         "rank": 1614,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 05:05"
+        "checked_at": "2026-07-27 06:25"
       }
     ],
     "bugs": [
@@ -2850,25 +2950,25 @@ const SITE_DATA = {
         "rank": 21,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 05:05"
+        "checked_at": "2026-07-27 06:25"
       },
       {
         "rank": 91,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 05:05"
+        "checked_at": "2026-07-27 06:25"
       },
       {
         "rank": 112,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 05:05"
+        "checked_at": "2026-07-27 06:25"
       },
       {
         "rank": 295,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 05:05"
+        "checked_at": "2026-07-27 06:25"
       }
     ]
   },
