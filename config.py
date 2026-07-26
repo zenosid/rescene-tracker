@@ -91,7 +91,7 @@ SCHEDULE_ITEMS = [
 SITE_URL = "https://zenosid.github.io/rescene-tracker/"
 
 # 카페 등에 안내할 운영자 연락처 (문의/삭제 요청용). 원하시는 값으로 바꿔주세요.
-OPERATOR_CONTACT = "네이버 카페 '리시안셔스' 쪽지"
+OPERATOR_CONTACT = "네이버 카페 리시안셔스 '첸드'에게 쪽지"
 
 # GitHub Actions가 몇 시간마다 자동 갱신하는지 (표시용 텍스트와 워크플로 cron이
 # 실제로 일치하도록 .github/workflows/refresh.yml의 cron도 함께 맞춰주세요)
