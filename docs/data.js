@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-26 19:35",
+  "generated_at": "2026-07-26 19:44",
   "operator_contact": "네이버 카페 리시안셔스 '첸드'에게 쪽지",
   "refresh_interval_hours": 3,
   "archive": [
@@ -1538,6 +1538,17 @@ const SITE_DATA = {
       "date_display": "2026년 07월 16일",
       "items": [
         {
+          "title": "[COMEBACK] RESCENE (리센느) - Pretty Girl + [SPECIAL STAGE] RESCENE (리센느) - Deja Vu",
+          "link": "https://www.youtube.com/watch?v=P8f1_PHwIq0",
+          "source_type": "youtube_collab",
+          "source_name": "ALL THE K-POP",
+          "time": "19:44",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "도미노 무슈스 피자 출시 (원이편)",
           "link": "https://www.youtube.com/shorts/oSqpWyEdxtc",
           "source_type": "youtube_collab",
@@ -2195,6 +2206,17 @@ const SITE_DATA = {
       "date_display": "2025년 07월 26일",
       "items": [
         {
+          "title": "[4K] RESCENE(리센느) “LOVE ATTACK” Band LIVE Concert 리센느와 잇라는 완벽하게 어울려💘 [it’s KPOP LIVE 잇츠라이브]",
+          "link": "https://www.youtube.com/watch?v=KRpt7OF4zso",
+          "source_type": "youtube_collab",
+          "source_name": "it's Live",
+          "time": "13:44",
+          "category": "Live",
+          "members": [
+            "리브"
+          ]
+        },
+        {
           "title": "LOVE ATTACK - RESCENE リセンヌ 리센느 [Music Bank] | KBS WORLD TV 240906",
           "link": "https://www.youtube.com/watch?v=5feUwAT9ohA",
           "source_type": "youtube_collab",
@@ -2315,25 +2337,25 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:35"
+        "checked_at": "2026-07-26 19:44"
       },
       {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:35"
+        "checked_at": "2026-07-26 19:44"
       },
       {
         "rank": 12,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:35"
+        "checked_at": "2026-07-26 19:44"
       },
       {
         "rank": 44,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:35"
+        "checked_at": "2026-07-26 19:44"
       }
     ],
     "genie": [
@@ -2341,19 +2363,19 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:35"
+        "checked_at": "2026-07-26 19:44"
       },
       {
         "rank": 9,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:35"
+        "checked_at": "2026-07-26 19:44"
       },
       {
         "rank": 404,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:35"
+        "checked_at": "2026-07-26 19:44"
       }
     ],
     "bugs": [
@@ -2361,25 +2383,25 @@ const SITE_DATA = {
         "rank": 11,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:35"
+        "checked_at": "2026-07-26 19:44"
       },
       {
         "rank": 60,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:35"
+        "checked_at": "2026-07-26 19:44"
       },
       {
         "rank": 100,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:35"
+        "checked_at": "2026-07-26 19:44"
       },
       {
         "rank": 360,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:35"
+        "checked_at": "2026-07-26 19:44"
       }
     ]
   },
