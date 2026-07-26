@@ -1,0 +1,43 @@
+name: Refresh RESCENE Tracker Data
+
+# 3시간마다 자동 실행 + 수동 실행(Actions 탭에서 Run workflow) 둘 다 지원
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}
+
+# data.js / DB를 저장소에 다시 커밋하려면 쓰기 권한이 필요합니다
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 유튜브·뉴스 수집
+        run: python collector.py
+
+      - name: 차트 조회
+        run: python chart_tracker.py
+
+      - name: 사이트 데이터 빌드
+        run: python build_site_data.py
+
+      - name: 변경사항 커밋 & 푸시
+        run: |
+          git config user.name "rescene-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add rescene_tracker.db site/data.js
+          git diff --quiet --cached || git commit -m "auto: refresh data ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push

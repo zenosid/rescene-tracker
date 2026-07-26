@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>RESCENE 덕질 트래커</title>
+<meta name="description" content="RESCENE(리센느) 팬메이드 트래커 — 아카이브·실시간 차트·스케줄을 한 곳에서" />
+
+<!-- 카카오톡/페이스북 등에 링크 공유 시 미리보기 카드용 -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="🩷 RESCENE TRACKER" />
+<meta property="og:description" content="RESCENE(리센느) 팬메이드 트래커 — 아카이브·실시간 차트·스케줄을 한 곳에서" />
+<meta property="og:image" content="https://your-github-id.github.io/rescene-tracker/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="🩷 RESCENE TRACKER" />
+<meta name="twitter:description" content="RESCENE(리센느) 팬메이드 트래커 — 아카이브·실시간 차트·스케줄을 한 곳에서" />
+<meta name="twitter:image" content="https://your-github-id.github.io/rescene-tracker/og-image.png" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap" />
+<style>
+  :root {
+    --void: #0a0918;
+    --void-soft: #120f26;
+    --card: rgba(255,255,255,0.045);
+    --card-border: rgba(255,255,255,0.09);
+    --card-hover: rgba(255,255,255,0.08);
+    --text-primary: #f3f1fb;
+    --text-muted: #a49bc4;
+    --text-faint: #6d6590;
+
+    --aurora-pink: #ff6fb0;
+    --aurora-violet: #9b6bff;
+    --aurora-cyan: #57e6ff;
+    --aurora-mint: #5cffb0;
+    --aurora-amber: #ffcf6f;
+
+    --grad-primary: linear-gradient(120deg, var(--aurora-pink), var(--aurora-violet) 55%, var(--aurora-cyan));
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--void);
+    color: var(--text-primary);
+    font-family: 'Pretendard', -apple-system, sans-serif;
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+
+  /* ── 오로라 배경 (시그니처 요소) ───────────────────────── */
+  .aurora-bg {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .aurora-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(90px);
+    opacity: 0.35;
+    mix-blend-mode: screen;
+  }
+  .aurora-blob.b1 {
+    width: 46vw; height: 46vw;
+    top: -12vw; left: -8vw;
+    background: var(--aurora-violet);
+    animation: drift1 26s ease-in-out infinite alternate;
+  }
+  .aurora-blob.b2 {
+    width: 38vw; height: 38vw;
+    top: 10vh; right: -10vw;
+    background: var(--aurora-pink);
+    animation: drift2 22s ease-in-out infinite alternate;
+  }
+  .aurora-blob.b3 {
+    width: 40vw; height: 40vw;
+    bottom: -14vw; left: 18vw;
+    background: var(--aurora-cyan);
+    animation: drift3 30s ease-in-out infinite alternate;
+  }
+  @keyframes drift1 { from { transform: translate(0,0) scale(1); } to { transform: translate(6vw, 8vh) scale(1.12); } }
+  @keyframes drift2 { from { transform: translate(0,0) scale(1); } to { transform: translate(-8vw, 6vh) scale(0.94); } }
+  @keyframes drift3 { from { transform: translate(0,0) scale(1); } to { transform: translate(4vw, -6vh) scale(1.08); } }
+  @media (prefers-reduced-motion: reduce) {
+    .aurora-blob { animation: none !important; }
+    html { scroll-behavior: auto; }
+  }
+
+  .page { position: relative; z-index: 1; max-width: 1120px; margin: 0 auto; padding: 0 20px 80px; }
+
+  /* ── 헤더 ─────────────────────────────────────────────── */
+  header.hero {
+    padding: 56px 0 28px;
+    text-align: center;
+  }
+  .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    color: var(--text-faint);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  h1.logo {
+    font-size: clamp(32px, 6vw, 52px);
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -0.01em;
+    background: var(--grad-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .tagline {
+    color: var(--text-muted);
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .generated-at {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-faint);
+    margin-top: 14px;
+  }
+
+  .refresh-btn {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--void);
+    background: var(--grad-primary);
+    border: none;
+    border-radius: 999px;
+    padding: 9px 22px;
+    cursor: pointer;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+  }
+  .refresh-btn:hover { transform: translateY(-1px); }
+  .refresh-btn:disabled { opacity: 0.55; cursor: wait; transform: none; }
+
+  .hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .share-btn {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text-primary);
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 999px;
+    padding: 9px 22px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .share-btn:hover { border-color: rgba(255,255,255,0.3); transform: translateY(-1px); }
+
+  /* ── 탭 네비게이션 ────────────────────────────────────── */
+  nav.tabs {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    padding: 14px 0;
+    margin-bottom: 28px;
+    background: linear-gradient(180deg, var(--void) 70%, transparent);
+  }
+  .tab-btn {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 999px;
+    padding: 9px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(12px);
+  }
+  .tab-btn:hover { color: var(--text-primary); border-color: rgba(255,255,255,0.2); }
+  .tab-btn.active {
+    color: var(--void);
+    background: var(--grad-primary);
+    border-color: transparent;
+    font-weight: 700;
+  }
+
+  .view { display: none; animation: fadein 0.35s ease; }
+  .view.active { display: block; }
+  @keyframes fadein { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+  /* ── 공통 카드 ─────────────────────────────────────────── */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    backdrop-filter: blur(14px);
+    transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  }
+  .card:hover { background: var(--card-hover); border-color: rgba(255,255,255,0.16); }
+
+  /* ── 필터 바 ──────────────────────────────────────────── */
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    padding: 16px 20px;
+    margin-bottom: 30px;
+  }
+  .filter-group { display: flex; flex-direction: column; gap: 8px; }
+  .filter-group .label {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--text-faint);
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    font-family: inherit;
+    font-size: 12.5px;
+    font-weight: 500;
+    color: var(--text-muted);
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--card-border);
+    border-radius: 999px;
+    padding: 6px 13px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+  }
+  .chip:hover { color: var(--text-primary); border-color: rgba(255,255,255,0.25); }
+  .chip.on {
+    color: var(--void);
+    font-weight: 700;
+    border-color: transparent;
+  }
+  .chip.on[data-chip="youtube"] { background: var(--aurora-violet); }
+  .chip.on[data-chip="youtube_collab"] { background: var(--aurora-mint); }
+  .chip.on[data-chip="news"] { background: var(--aurora-amber); }
+  .chip.on[data-member] { background: var(--grad-primary); }
+
+  /* ── 아카이브 ─────────────────────────────────────────── */
+  .date-group { margin-bottom: 36px; }
+  .date-heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  .date-heading h2 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+    white-space: nowrap;
+  }
+  .date-rule { flex: 1; height: 1px; background: linear-gradient(90deg, rgba(255,255,255,0.18), transparent); }
+
+  .item-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+  .item-card { padding: 15px 16px; position: relative; }
+  .item-top { display: flex; align-items: flex-start; gap: 10px; padding-right: 56px; }
+  .item-icon { font-size: 17px; line-height: 1; margin-top: 2px; }
+  .item-title {
+    font-size: 14.5px;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-decoration: none;
+    display: block;
+  }
+  .item-title:hover { color: var(--aurora-cyan); }
+  .item-actions {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    gap: 4px;
+  }
+  .item-action-btn {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    border: 1px solid var(--card-border);
+    background: rgba(255,255,255,0.03);
+    color: var(--text-muted);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .item-action-btn:hover { border-color: rgba(255,255,255,0.3); color: var(--text-primary); }
+  .item-action-btn.favorited { color: var(--aurora-amber); border-color: var(--aurora-amber); }
+  .item-meta {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--text-faint);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .badge {
+    font-size: 10.5px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+  }
+  .badge.category { background: rgba(255,255,255,0.08); color: var(--text-muted); }
+  .badge.member { color: var(--void); }
+  .badge.estimated {
+    background: rgba(255, 207, 111, 0.18);
+    color: var(--aurora-amber);
+    border: 1px solid rgba(255, 207, 111, 0.4);
+  }
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-faint);
+    font-size: 14px;
+  }
+
+  /* ── 차트 ─────────────────────────────────────────────── */
+  .chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+  .chart-card { padding: 22px 20px; }
+  .chart-card-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px; }
+  .chart-platform { font-size: 16px; font-weight: 800; }
+  .chart-checked { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: var(--text-faint); }
+  .chart-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .chart-row:first-of-type { border-top: none; }
+  .chart-rank {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-size: 20px;
+    width: 40px;
+    background: var(--grad-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .chart-song { font-size: 14px; font-weight: 600; }
+  .chart-empty { color: var(--text-faint); font-size: 13px; padding: 12px 0; }
+
+  /* ── 스케줄 ───────────────────────────────────────────── */
+  .schedule-list { display: flex; flex-direction: column; gap: 10px; }
+  .schedule-row {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 16px 20px;
+  }
+  .schedule-dday {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-size: 13px;
+    color: var(--void);
+    background: var(--grad-primary);
+    border-radius: 8px;
+    padding: 6px 10px;
+    min-width: 58px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .schedule-body { flex: 1; }
+  .schedule-date { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-faint); }
+  .schedule-title { font-size: 14.5px; font-weight: 600; margin-top: 2px; }
+  .schedule-note { font-size: 12.5px; color: var(--text-muted); margin-top: 3px; }
+  .schedule-type {
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--text-muted);
+    background: rgba(255,255,255,0.08);
+    border-radius: 999px;
+    padding: 3px 10px;
+    flex-shrink: 0;
+  }
+
+  section.block-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text-faint);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 30px 0 12px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  footer {
+    text-align: center;
+    padding: 40px 0 10px;
+    color: var(--text-faint);
+    font-size: 11.5px;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 1.8;
+  }
+
+  .about-card { padding: 30px 32px; }
+  .about-card h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 24px 0 10px;
+    color: var(--text-primary);
+  }
+  .about-card h3:first-child { margin-top: 0; }
+  .about-card p, .about-card li {
+    font-size: 13.5px;
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+  .about-card ul { margin: 6px 0; padding-left: 20px; }
+  .about-card .about-note {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-top: 10px;
+  }
+
+  /* ── 토스트 알림 (공유/즐겨찾기 피드백) ─────────────────── */
+  .toast {
+    position: fixed;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--void-soft);
+    border: 1px solid var(--card-border);
+    color: var(--text-primary);
+    font-size: 13px;
+    padding: 12px 20px;
+    border-radius: 999px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  @media (max-width: 640px) {
+    .page { padding: 0 14px 60px; }
+    header.hero { padding: 40px 0 20px; }
+    .filter-bar { gap: 16px; padding: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="aurora-bg">
+  <div class="aurora-blob b1"></div>
+  <div class="aurora-blob b2"></div>
+  <div class="aurora-blob b3"></div>
+</div>
+
+<div class="page">
+
+  <header class="hero">
+    <div class="eyebrow">FAN-MADE · NON-COMMERCIAL</div>
+    <h1 class="logo">🩷 RESCENE TRACKER</h1>
+    <div class="tagline">아카이브 · 실시간 차트 · 스케줄을 한 곳에서</div>
+    <div class="generated-at" id="generatedAt"></div>
+    <div class="hero-actions">
+      <button class="refresh-btn" id="refreshBtn" style="display:none;">🔄 새로고침</button>
+      <button class="share-btn" id="shareBtn">📤 공유하기</button>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="archive">🗂️ 아카이브</button>
+    <button class="tab-btn" data-tab="chart">📊 차트</button>
+    <button class="tab-btn" data-tab="schedule">📅 스케줄</button>
+    <button class="tab-btn" data-tab="favorites">⭐ 즐겨찾기</button>
+    <button class="tab-btn" data-tab="about">ℹ️ 안내</button>
+  </nav>
+
+  <!-- ══════════════ 아카이브 ══════════════ -->
+  <div class="view active" id="view-archive">
+    <div class="card filter-bar">
+      <div class="filter-group">
+        <div class="label">Source</div>
+        <div class="chip-row" id="sourceChips"></div>
+      </div>
+      <div class="filter-group">
+        <div class="label">Member</div>
+        <div class="chip-row" id="memberChips"></div>
+      </div>
+    </div>
+    <div id="archiveContent"></div>
+  </div>
+
+  <!-- ══════════════ 차트 ══════════════ -->
+  <div class="view" id="view-chart">
+    <div class="chart-grid" id="chartGrid"></div>
+  </div>
+
+  <!-- ══════════════ 스케줄 ══════════════ -->
+  <div class="view" id="view-schedule">
+    <section class="block-title">다가오는 일정</section>
+    <div class="schedule-list" id="scheduleUpcoming"></div>
+    <section class="block-title" id="pastTitle" style="display:none;">지난 일정</section>
+    <div class="schedule-list" id="schedulePast"></div>
+  </div>
+
+  <!-- ══════════════ 즐겨찾기 ══════════════ -->
+  <div class="view" id="view-favorites">
+    <div class="card" style="padding:14px 20px; margin-bottom:24px;">
+      <span style="font-size:12.5px; color:var(--text-muted);">
+        ⭐ 표시는 이 브라우저에만 저장됩니다 (다른 기기·다른 브라우저와 공유되지 않아요).
+      </span>
+    </div>
+    <div id="favoritesContent"></div>
+  </div>
+
+  <!-- ══════════════ 안내 ══════════════ -->
+  <div class="view" id="view-about">
+    <div class="card about-card">
+      <h3>이 사이트에 대해</h3>
+      <p>
+        RESCENE Tracker는 팬이 개인적으로 만든 <strong>비공식·비영리</strong> 정보
+        정리 도구입니다. RESCENE 및 소속사와 공식적인 관련이 없으며, 광고나 수익
+        창출 목적이 없습니다.
+      </p>
+
+      <h3>데이터 출처</h3>
+      <ul>
+        <li>아카이브(뉴스) — Google 뉴스 검색 RSS</li>
+        <li>아카이브(영상) — YouTube 채널 RSS / YouTube 공개 검색 결과</li>
+        <li>차트 — 멜론·지니·벅스 공개 차트 페이지 (로그인 불필요한 공개 정보)</li>
+        <li>스케줄 — 위 뉴스 기사에서 자동 추출(추정) + 운영자 수동 등록(공식)</li>
+      </ul>
+      <p class="about-note">
+        차트·스케줄 자동 추출 정보는 100% 정확하지 않을 수 있습니다.
+        <span class="badge estimated">추정</span> 배지가 붙은 항목은 공식 확인 전
+        정보이니 참고용으로만 봐주세요.
+      </p>
+
+      <h3>문의 / 삭제 요청</h3>
+      <p>
+        저작권 문제나 삭제를 원하시는 내용이 있다면 아래로 연락해 주세요.<br />
+        <strong id="operatorContact">-</strong>
+      </p>
+
+      <h3>업데이트 주기</h3>
+      <p>데이터는 자동화된 스케줄에 따라 주기적으로 갱신됩니다 (<span id="refreshIntervalText">-</span>).</p>
+    </div>
+  </div>
+
+  <footer>
+    RESCENE Tracker · fan-made, non-commercial<br />
+    ⓒ 각 데이터 저작권은 원저작자(언론사/방송사/유튜브 채널)에게 있습니다.
+  </footer>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+<div class="toast" id="toast"></div>
+</body>
+</html>
