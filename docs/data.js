@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 02:00",
+  "generated_at": "2026-07-27 03:30",
   "operator_contact": "네이버 카페 리시안셔스 '첸드'에게 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,17 @@ const SITE_DATA = {
       "date": "2026-07-27",
       "date_display": "2026년 07월 27일",
       "items": [
+        {
+          "title": "이찬원, 리센느 미담 공개 \"인사하려 1시간 넘게 기다려\" - 비즈엔터",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rRkc2eVB1MWsxOEFiQng1YzNRV09jeGN1c0xDV2NGS1F1T1NVenVDR3VGWk96SkI1cU1BMlVFRWM1amtoekp1QUZCZ2VHcE5ldi1xemF3?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "02:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
         {
           "title": "리센느, '인기가요'서 아이오아이·에스파 꺾고 1위! - 아시아뉴스통신",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45c08zYzJHUld6cEg1NWxvUzA3b29ublN2WGJMMHRjMWhWdUw2ZXJBdENwV2xqUTlyaHN5ZzIyUlNKaHo2Y01kUml6alRNajkxWV9QZVZmdUF5VzdB?oc=5",
@@ -1696,6 +1707,17 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
+        },
+        {
+          "title": "[덕질캡처용♥CLEAN] RESCENE(리센느) - Deja Vu (데자부) l Show Champion l EP.603 l 260715",
+          "link": "https://www.youtube.com/watch?v=PqpmFwNjDHg",
+          "source_type": "youtube_collab",
+          "source_name": "ALL THE K-POP",
+          "time": "03:30",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
         }
       ]
     },
@@ -1901,6 +1923,17 @@ const SITE_DATA = {
         {
           "title": "리센느, ‘2026 쿠팡플레이 시리즈’ 하프타임 쇼 출격 - Vogue korea",
           "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNOGE2ZGF4QUNzTlkxcmtOOElVOWx5ZE5CWHRCVElPNFpDeW84cUlhLUtpaWF5elJVZmNaQ3dRZVZlcEZucjdIU1hSbzJWM3JPYXMzWGNGVlJiQ3pGWHZUOEE2aGxWbHRQYWN6d3VWQXB4UjdIVENiLTFVSGZtWTdyX2ppemtQZm9OLUF6eUxCbXR3SEdzWE1aTGVKcEhDOThiTFB0NU93Q25IdUZTVTljdzh1YzFTd25PWXVDdVVSQ0FqeXlPNjAwNzlnQlFKYVloV3JNQWdZMkRlejA4dHhrRThpNTNOZlhNOEZ4TTF4VlBULTFhNW5kWnVjN3BtcVJDR0k0cGRWWFh6dEd5Vk1kalkxc2lWNGZhMFVBRzJNQ0Z4bXo3OXZLM1JIejFpLTkxUHc?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 ’무섭노’ 일베어라던 강사 여파?…미미미누 콘텐츠 비공개 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hYXh3RmxQLUxaSm1aTUZMR1E4WEVfUlBGeDMxeXN5eXpGdXgwY1BqdmNydjZ5UmpNUndQdWg2d0RoUkc3TGZRd0dDR2t2STcwTXJYSURJTWdwNFBvTXBxOV83MGFFU3M?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "16:00",
@@ -2693,25 +2726,25 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 02:00"
+        "checked_at": "2026-07-27 03:30"
       },
       {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 02:00"
+        "checked_at": "2026-07-27 03:30"
       },
       {
         "rank": 14,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 02:00"
+        "checked_at": "2026-07-27 03:30"
       },
       {
         "rank": 59,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 02:00"
+        "checked_at": "2026-07-27 03:30"
       }
     ],
     "genie": [
@@ -2719,19 +2752,19 @@ const SITE_DATA = {
         "rank": 232,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 02:00"
+        "checked_at": "2026-07-27 03:30"
       },
       {
         "rank": 498,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 02:00"
+        "checked_at": "2026-07-27 03:30"
       },
       {
         "rank": 1614,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 02:00"
+        "checked_at": "2026-07-27 03:30"
       }
     ],
     "bugs": [
@@ -2739,25 +2772,25 @@ const SITE_DATA = {
         "rank": 21,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 02:00"
+        "checked_at": "2026-07-27 03:30"
       },
       {
         "rank": 91,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 02:00"
+        "checked_at": "2026-07-27 03:30"
       },
       {
         "rank": 112,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 02:00"
+        "checked_at": "2026-07-27 03:30"
       },
       {
         "rank": 295,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 02:00"
+        "checked_at": "2026-07-27 03:30"
       }
     ]
   },
