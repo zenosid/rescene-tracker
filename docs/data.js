@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-26 19:50",
+  "generated_at": "2026-07-26 20:57",
   "operator_contact": "네이버 카페 리시안셔스 '첸드'에게 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,39 @@ const SITE_DATA = {
       "date": "2026-07-26",
       "date_display": "2026년 07월 26일",
       "items": [
+        {
+          "title": "역주행 '러브 어택' 인기가요 1위…'리센느' 리더 원이 눈물 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjVnlhdWF1OUJDYXllTU4xVUxkQW5Iazgyd1hxSmNoQWtCM0tqRk9jQVpCU1ZlaFpNY1NYRW9KTmhXendzUXZuRzZsRnRRb2FQQUNZ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "20:27",
+          "category": "음악방송",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "역주행 '러브 어택' 인기가요 1위…'리센느' 리더 원이 눈물 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHazRVc2xIWjBCVFM0NVF6SHNaWVQ3V3FTYjB5YXBXclpaSUJhREdPSjhtQUNhc3R6djNhaDY3UEJzQVFkRzVpOGgwUmNKVFh0UVZ1S1lZNnFRcktIWW5GV2lXSEJrYktwLUI2NXdCY09GV0nSAXhBVV95cUxOS0tjdktFcEFQVjJUMnQ3S19mYUQtQXFxenZfcFZjaVUwa2puUkNnb0cxV0hUTlFQaGFrTHljNmhMMnFubnhRdzAwR0xsbW94RU9qbDZLS3E3QUpwSWpoNVF1MXhGVnpoRXh3eDJ4Q2RqWG5SLWpueG0?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "20:26",
+          "category": "음악방송",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 리더 원이 눈물…'러브어택' 역주행 이어 '인기가요' 1위 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tMWlpUFFaZ2Y5SFhfVHlTdXpaQXQxMG5tcS15Qm8xWlNQSGVCUzU1NHpvTWl2T2trNDRJdGh3clYwUVo3ZVQ0eHJFcWZjTHZoM29HRkVfSQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "20:11",
+          "category": "음악방송",
+          "members": [
+            "원이"
+          ]
+        },
         {
           "title": "리센느, 역주행 '러브어택' 음방 1위…원이 \"꿈 이루게 해줘서 감사\" 눈물 펑펑 [엑's 이슈] - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14SzJ5R3M0cFRNZU4wNjZraDlVYzJPM1JxVkNHc2J5b3hTVURiWUhCd0o4RFFwaEVNVGVmUl9MQThqTTVDdVlaaEZkOHBHcHc?oc=5",
@@ -83,6 +116,17 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
+          ]
+        },
+        {
+          "title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+          "link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+          "source_type": "youtube_collab",
+          "source_name": "SBSKPOP X INKIGAYO",
+          "time": "17:57",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
           ]
         },
         {
@@ -1322,6 +1366,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "리센느, 초등학교 운동회에 주민센터까지..\"무대 크기 중요하지 않아\" ('인생84') [순간포착] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xbXV6SXhqTDJWa25qLTRyZlhBLXJOamZjRnBHTGlLeHBteUs4Zk41QkwtbVVMR29oQkdTaWR1aE1PWVAwY0lTbG9EZ0VLVGs?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "06:22",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "역주행인데 첫 정산 아직?…리센느 원이 눈물에, 장도연도 울컥 [Oh!쎈 예고] - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tOTFqdDhkSmtGY3U3SUxIWXdaQ1FuMXRrQjE3V05xRjRwb05Ib2lXRzZFM2l5cmFRelVMdTVhR2VsLVU4MVdJZ1NWemc2dWs?oc=5",
           "source_type": "news",
@@ -2377,25 +2432,25 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:50"
+        "checked_at": "2026-07-26 20:57"
       },
       {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:50"
+        "checked_at": "2026-07-26 20:57"
       },
       {
         "rank": 12,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:50"
+        "checked_at": "2026-07-26 20:57"
       },
       {
-        "rank": 44,
+        "rank": 46,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:50"
+        "checked_at": "2026-07-26 20:57"
       }
     ],
     "genie": [
@@ -2403,45 +2458,45 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:50"
+        "checked_at": "2026-07-26 20:57"
       },
       {
-        "rank": 9,
+        "rank": 81,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:50"
+        "checked_at": "2026-07-26 20:57"
       },
       {
-        "rank": 404,
+        "rank": 391,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:50"
+        "checked_at": "2026-07-26 20:57"
       }
     ],
     "bugs": [
       {
-        "rank": 11,
+        "rank": 21,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:50"
+        "checked_at": "2026-07-26 20:57"
       },
       {
-        "rank": 60,
+        "rank": 82,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:50"
+        "checked_at": "2026-07-26 20:57"
       },
       {
-        "rank": 100,
+        "rank": 122,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:50"
+        "checked_at": "2026-07-26 20:57"
       },
       {
-        "rank": 360,
+        "rank": 342,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 19:50"
+        "checked_at": "2026-07-26 20:57"
       }
     ]
   },
