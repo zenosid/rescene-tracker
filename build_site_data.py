@@ -20,7 +20,7 @@ from chart_tracker import get_latest_all
 from classify import classify_members, classify_category
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_PATH = os.path.join(BASE_DIR, "site", "data.js")
+OUTPUT_PATH = os.path.join(BASE_DIR, "docs", "data.js")
 
 
 def build_archive():

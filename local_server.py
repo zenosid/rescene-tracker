@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-로컬 서버. site/ 폴더를 서빙하면서, 화면의 "새로고침" 버튼이 누르는
+로컬 서버. docs/ 폴더를 서빙하면서, 화면의 "새로고침" 버튼이 누르는
 /api/refresh 엔드포인트를 처리합니다 (수집 → 차트조회 → 스케줄추정 → data.js 재생성).
 
 실행: python local_server.py  (또는 refresh_and_open.bat 더블클릭)
@@ -19,7 +19,7 @@ import build_site_data
 
 PORT = 8765
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SITE_DIR = os.path.join(BASE_DIR, "site")
+SITE_DIR = os.path.join(BASE_DIR, "docs")
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):

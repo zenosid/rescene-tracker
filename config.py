@@ -88,7 +88,7 @@ SCHEDULE_ITEMS = [
 
 # ── 배포 정보 ────────────────────────────────────────────────
 # GitHub Pages로 배포할 때 실제 주소로 바꿔주세요 (예: https://아이디.github.io/저장소명/)
-SITE_URL = "https://your-github-id.github.io/rescene-tracker/"
+SITE_URL = "https://zenosid.github.io/rescene-tracker/"
 
 # 카페 등에 안내할 운영자 연락처 (문의/삭제 요청용). 원하시는 값으로 바꿔주세요.
 OPERATOR_CONTACT = "네이버 카페 '리시안셔스' 쪽지"

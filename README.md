@@ -32,28 +32,31 @@ pip install -r requirements.txt
 
 ## 3. GitHub Pages로 배포하기
 
-1. GitHub에 새 저장소를 만들고 (예: `rescene-tracker`), 이 폴더 전체를 push합니다.
+`zenosid/rescene-tracker` 저장소 기준으로 이미 `config.py`의 `SITE_URL`과
+`docs/index.html`의 `og:image` 주소를 채워뒀습니다. 저장소 이름을 다르게
+만드셨다면 이 두 곳만 실제 주소로 바꿔서 다시 push해주세요.
+
+1. GitHub에 새 저장소를 만들고, 이 폴더 전체를 push합니다. (이미 하셨다면 생략)
    ```bash
    git init
    git add .
    git commit -m "init"
    git branch -M main
-   git remote add origin https://github.com/본인아이디/rescene-tracker.git
+   git remote add origin https://github.com/zenosid/rescene-tracker.git
    git push -u origin main
    ```
 2. 저장소 **Settings → Pages**에서:
    - Source: `Deploy from a branch`
-   - Branch: `main`, 폴더: `/site`
+   - Branch: `main`, 폴더: `/docs` (⚠️ GitHub Pages는 `/ (root)`와 `/docs`만
+     선택할 수 있어서 폴더명을 `docs`로 맞춰뒀습니다)
    - Save
-3. 몇 분 후 `https://본인아이디.github.io/rescene-tracker/`에서 사이트가 뜹니다.
-4. `config.py`의 `SITE_URL`을 실제 주소로 바꾸고, `site/index.html`의
-   `og:image`/`twitter:image` 두 줄에 있는 `your-github-id`도 실제 아이디로
-   바꿔서 다시 push해주세요 (카카오톡 공유 카드가 정상적으로 뜨려면 필요합니다).
-5. 저장소 **Settings → Actions → General**에서 "Workflow permissions"을
+3. 몇 분 후 `https://zenosid.github.io/rescene-tracker/`에서 사이트가 뜹니다.
+4. 저장소 **Settings → Actions → General**에서 "Workflow permissions"을
    **Read and write permissions**로 설정해주세요 (자동 커밋을 위해 필요합니다).
 
 이후로는 `.github/workflows/refresh.yml`이 자동으로 3시간마다 데이터를 갱신하고
 커밋합니다. Actions 탭에서 수동으로 "Run workflow"를 눌러 즉시 갱신할 수도 있습니다.
+
 
 ## 4. 화면 구성
 
@@ -75,11 +78,11 @@ rescene_tracker/
 ├── chart_tracker.py                 # 차트 조회
 ├── classify.py                       # 멤버/카테고리 분류
 ├── schedule_extractor.py             # 뉴스 → 일정 후보 추출
-├── build_site_data.py               # DB → site/data.js 변환
+├── build_site_data.py               # DB → docs/data.js 변환
 ├── local_server.py                   # (로컬 전용) 정적 서빙 + 새로고침 API
 ├── refresh_and_open.bat             # (로컬 전용) 실행 버튼
 ├── rescene_tracker.db               # (자동 생성/갱신) 데이터 저장소
-└── site/
+└── docs/
     ├── index.html                   # 화면
     ├── app.js                        # 렌더링 로직
     ├── data.js                       # (자동 생성) 화면에 뿌려질 데이터
