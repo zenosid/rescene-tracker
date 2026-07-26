@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 03:30",
+  "generated_at": "2026-07-27 05:05",
   "operator_contact": "네이버 카페 리시안셔스 '첸드'에게 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,28 @@ const SITE_DATA = {
       "date": "2026-07-27",
       "date_display": "2026년 07월 27일",
       "items": [
+        {
+          "title": "‘가성비·직발감’ 다 잡았다…리센느 ‘Pretty Girl’처럼 산뜻한 BYD 아토3 시승기 [원성윤의 가요타요] - sportsseoul.com",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5raDFURFNLai1YZjlvVEx5YTMxbXNfT19vbTBGYzUxZ1pfVG9JVVptRGkxY042X1QwbVRCaFQ5VHczTUlGbGFxREJUNzhQVmsxOW5vYmVHVkY?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "05:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, 브랜드평판지수 1위... 다른 리센느 멤버들은? - 금강일보",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FMnc4cGRfMFkzRkxCSTZiSDdCUWxlNkVZTTBrSkZVME1UN29pQ2pnSFpIR19vTWFwTk5RMUtDZTNGYUcydWlQcDNoTldXYlBBeU5UcHg3ckdZaWNNbDB4UzZqUkg1QkF0?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "04:20",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
         {
           "title": "이찬원, 리센느 미담 공개 \"인사하려 1시간 넘게 기다려\" - 비즈엔터",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rRkc2eVB1MWsxOEFiQng1YzNRV09jeGN1c0xDV2NGS1F1T1NVenVDR3VGWk96SkI1cU1BMlVFRWM1amtoekp1QUZCZ2VHcE5ldi1xemF3?oc=5",
@@ -1780,6 +1802,17 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
+        },
+        {
+          "title": "[PLAYLIST] RESCENE(리센느) 밴드 라이브 모음.zip 🗂️ | it's Live",
+          "link": "https://www.youtube.com/watch?v=pw4HQC4iKuA",
+          "source_type": "youtube_collab",
+          "source_name": "it's Live",
+          "time": "05:05",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
         }
       ]
     },
@@ -2376,6 +2409,17 @@ const SITE_DATA = {
       "date_display": "2026년 06월 26일",
       "items": [
         {
+          "title": "izna 'METRONOME' MV",
+          "link": "https://www.youtube.com/watch?v=NQRGAh7ukh8",
+          "source_type": "youtube_collab",
+          "source_name": "izna (이즈나)",
+          "time": "18:35",
+          "category": "MV",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "리센느, 6월 라이징 가수 브랜드평판 1위…SNS·커뮤니티서 화제 - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoSmc5QlJhM241bWMtMHItOHZpN1hTSDloVzVJSnZoSmxKZkQ4MzdXRTd0VWhJejJaYkEzQjlLREZVUEk2bnVpY3RqMHlkS05FUzFR?oc=5",
           "source_type": "news",
@@ -2524,6 +2568,40 @@ const SITE_DATA = {
           "category": "Live",
           "members": [
             "리브"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-03-27",
+      "date_display": "2026년 03월 27일",
+      "items": [
+        {
+          "title": "AtHeart 앳하트 ‘Butterfly Doors’ Official MV",
+          "link": "https://www.youtube.com/watch?v=ioK78YucIjc",
+          "source_type": "youtube_collab",
+          "source_name": "AtHeart",
+          "time": "11:05",
+          "category": "MV",
+          "members": [
+            "전체"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "date_display": "2026년 02월 25일",
+      "items": [
+        {
+          "title": "Hearts2Hearts 하츠투하츠 'RUDE!' MV",
+          "link": "https://www.youtube.com/watch?v=F7sGJVUrkjQ",
+          "source_type": "youtube_collab",
+          "source_name": "SMTOWN and Hearts2Hearts",
+          "time": "00:35",
+          "category": "MV",
+          "members": [
+            "전체"
           ]
         }
       ]
@@ -2726,25 +2804,25 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 03:30"
+        "checked_at": "2026-07-27 05:05"
       },
       {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 03:30"
+        "checked_at": "2026-07-27 05:05"
       },
       {
         "rank": 14,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 03:30"
+        "checked_at": "2026-07-27 05:05"
       },
       {
         "rank": 59,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 03:30"
+        "checked_at": "2026-07-27 05:05"
       }
     ],
     "genie": [
@@ -2752,19 +2830,19 @@ const SITE_DATA = {
         "rank": 232,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 03:30"
+        "checked_at": "2026-07-27 05:05"
       },
       {
         "rank": 498,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 03:30"
+        "checked_at": "2026-07-27 05:05"
       },
       {
         "rank": 1614,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 03:30"
+        "checked_at": "2026-07-27 05:05"
       }
     ],
     "bugs": [
@@ -2772,25 +2850,25 @@ const SITE_DATA = {
         "rank": 21,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 03:30"
+        "checked_at": "2026-07-27 05:05"
       },
       {
         "rank": 91,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 03:30"
+        "checked_at": "2026-07-27 05:05"
       },
       {
         "rank": 112,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 03:30"
+        "checked_at": "2026-07-27 05:05"
       },
       {
         "rank": 295,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 03:30"
+        "checked_at": "2026-07-27 05:05"
       }
     ]
   },
