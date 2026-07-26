@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 00:57",
+  "generated_at": "2026-07-27 02:00",
   "operator_contact": "네이버 카페 리시안셔스 '첸드'에게 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -424,6 +424,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "[HD포토] 리센느 리브, ‘수원 왕만두(머리)’ (보령머드축제 K-POP SUPER LIVE) - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PVWdTWkI0NHVKY3FYZllzRlpzbmJMUU9reHNJSlR2RWZxQkdsYklhUjhKRl92MVRtRmFBejVwTm5KZjFqOUgwYy1jNTBxT3ZMd05oRVZ4LTNZckV2dE15ZVRyU25zcTJQWDk3R1gxVHpIQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:00",
+          "category": "Live",
+          "members": [
+            "리브"
+          ]
+        },
+        {
           "title": "에베베벱베 😝",
           "link": "https://www.youtube.com/shorts/yuTme7lLho4",
           "source_type": "youtube",
@@ -462,6 +473,17 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "13:27",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 데뷔 2년 만에 지상파 음악방송 첫 1위…2관왕 달성 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aMzlkRzJrVFE3a2xYeE1mUXdhcWcwQTAwQzFtVXpPbmFVNHFFZ3k0QUpFUXRLT0hEMmJDVXUwcDk2Qlh6cDJCRW5aR2V3RlU?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "12:11",
           "category": "음악방송",
           "members": [
             "전체"
@@ -829,6 +851,17 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
+        },
+        {
+          "title": "이찬원, 리센느 2시간 기다림 미담 잘된 뒤에야 꺼낸 2년 전 이야기 : 네이버 블로그 - Naver Blog",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVDFyM1dSS3NtRnA4Zjl2YkdwV2dFQUE5bndhSUlFWWVwNWV6OVM2Tk1FRU81cDVySzQ3V0VDeHlOb2hKLWJwM3NCRTRwZnp0N0dLNjVBZklTLS1yOFUyTVBYVkhCN0dsdnBheG1FdFozZi0tN185RHZFV2NzYzd2YzFtb0RzQ3pkcEYzdnAwX2M?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "05:29",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
         }
       ]
     },
@@ -887,6 +920,17 @@ const SITE_DATA = {
           "source_name": "목캔디의 인디밴드 라이브",
           "time": "19:17",
           "category": "외부컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"리센느 보며 꿈 포기 않을 것\"…뉴비트, 눈물의 수상소감 [KMA 2026] - 마이데일리",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzcWlXS2MyMDVlQmQtYkczdXNkdUw0V05PQWpwZHVHMjVrZTJIMUMzRTFtRGtmTTNLZmk0aEl4MHYwQkJzMzU5MUllZzR0VVdTb2FrWDh2Wi1qbUxueF9FTA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "19:15",
+          "category": "기타",
           "members": [
             "전체"
           ]
@@ -1351,6 +1395,17 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "16:00",
           "category": "자체컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘대세’ 리센느, MBC 아시안게임 홍보대사 위촉… “기쁘고 영광” - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhZTdHaHllWno5a0w3dE1LU3AwczFId2g0SG1wVVE5azQzRVdsX1lqY2d2ZE5sVm51RWxMaFh1VmxBOEo2TVFzeFZfWkZFU2M?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:26",
+          "category": "기타",
           "members": [
             "전체"
           ]
@@ -2638,25 +2693,25 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 00:57"
+        "checked_at": "2026-07-27 02:00"
       },
       {
-        "rank": 4,
+        "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 00:57"
+        "checked_at": "2026-07-27 02:00"
       },
       {
-        "rank": 7,
+        "rank": 14,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 00:57"
+        "checked_at": "2026-07-27 02:00"
       },
       {
-        "rank": 30,
+        "rank": 59,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 00:57"
+        "checked_at": "2026-07-27 02:00"
       }
     ],
     "genie": [
@@ -2664,45 +2719,45 @@ const SITE_DATA = {
         "rank": 232,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 00:57"
+        "checked_at": "2026-07-27 02:00"
       },
       {
         "rank": 498,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 00:57"
+        "checked_at": "2026-07-27 02:00"
       },
       {
         "rank": 1614,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 00:57"
+        "checked_at": "2026-07-27 02:00"
       }
     ],
     "bugs": [
       {
-        "rank": 11,
+        "rank": 21,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 00:57"
+        "checked_at": "2026-07-27 02:00"
       },
       {
-        "rank": 92,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 00:57"
-      },
-      {
-        "rank": 100,
+        "rank": 91,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 00:57"
+        "checked_at": "2026-07-27 02:00"
       },
       {
-        "rank": 2410,
+        "rank": 112,
+        "song_title": "Deja Vu",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-07-27 02:00"
+      },
+      {
+        "rank": 295,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 00:57"
+        "checked_at": "2026-07-27 02:00"
       }
     ]
   },
