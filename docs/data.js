@@ -1,8 +1,25 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-26 23:47",
+  "generated_at": "2026-07-27 00:57",
   "operator_contact": "네이버 카페 리시안셔스 '첸드'에게 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
+    {
+      "date": "2026-07-27",
+      "date_display": "2026년 07월 27일",
+      "items": [
+        {
+          "title": "리센느, '인기가요'서 아이오아이·에스파 꺾고 1위! - 아시아뉴스통신",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45c08zYzJHUld6cEg1NWxvUzA3b29ublN2WGJMMHRjMWhWdUw2ZXJBdENwV2xqUTlyaHN5ZzIyUlNKaHo2Y01kUml6alRNajkxWV9QZVZmdUF5VzdB?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "00:11",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-26",
       "date_display": "2026년 07월 26일",
@@ -35,6 +52,17 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "21:14",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+          "link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+          "source_type": "youtube_collab",
+          "source_name": "SBSKPOP X INKIGAYO",
+          "time": "20:57",
           "category": "음악방송",
           "members": [
             "전체"
@@ -115,6 +143,18 @@ const SITE_DATA = {
           "category": "음악방송",
           "members": [
             "전체"
+          ]
+        },
+        {
+          "title": "[우쥬레코드] RESCENE 미나미, 제나 with 윤하 | 혜성, 늦은 후회, 행복한 나를, Pretty Girl | WOULD YOU RECORD (ENG/JPN)",
+          "link": "https://www.youtube.com/watch?v=MbCT-UmVNMw",
+          "source_type": "youtube_collab",
+          "source_name": "M2",
+          "time": "18:57",
+          "category": "외부컨텐츠",
+          "members": [
+            "미나미",
+            "제나"
           ]
         },
         {
@@ -2598,71 +2638,71 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 23:47"
+        "checked_at": "2026-07-27 00:57"
       },
       {
         "rank": 4,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 23:47"
+        "checked_at": "2026-07-27 00:57"
       },
       {
         "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 23:47"
+        "checked_at": "2026-07-27 00:57"
       },
       {
-        "rank": 33,
+        "rank": 30,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 23:47"
+        "checked_at": "2026-07-27 00:57"
       }
     ],
     "genie": [
       {
-        "rank": 1,
-        "song_title": "LOVE ATTACK",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 23:47"
-      },
-      {
-        "rank": 6,
+        "rank": 232,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 23:47"
+        "checked_at": "2026-07-27 00:57"
       },
       {
-        "rank": 412,
+        "rank": 498,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 23:47"
+        "checked_at": "2026-07-27 00:57"
+      },
+      {
+        "rank": 1614,
+        "song_title": "LOVE ATTACK",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-07-27 00:57"
       }
     ],
     "bugs": [
       {
-        "rank": 21,
+        "rank": 11,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 23:47"
+        "checked_at": "2026-07-27 00:57"
       },
       {
-        "rank": 101,
-        "song_title": "Pretty Girl",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 23:47"
-      },
-      {
-        "rank": 110,
+        "rank": 92,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 23:47"
+        "checked_at": "2026-07-27 00:57"
       },
       {
-        "rank": 342,
+        "rank": 100,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-07-27 00:57"
+      },
+      {
+        "rank": 2410,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-26 23:47"
+        "checked_at": "2026-07-27 00:57"
       }
     ]
   },
