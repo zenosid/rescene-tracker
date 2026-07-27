@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 12:25",
+  "generated_at": "2026-07-27 12:36",
   "operator_contact": "네이버 카페 '리시안셔스' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -2852,6 +2852,17 @@ const SITE_DATA = {
           "members": [
             "메이"
           ]
+        },
+        {
+          "title": "리마인 우리 리센느가 1등 가수 팬 하게 해줄게 #원이#리센느 #RESCENE #리마인 #REMINE - starnewskorea.com",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xeDJBMHp0S0ZyZDY1VV9fWVk5WVlyMUFubkdKUnNmS25qQmZmYjh5UWl1M3V0SWRTblR2UjRlU2ZVV2NMNzhpak56TDlMalhxY0JwV1ByUlh0RE82VS0wTGp1T2IxZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - RESCENE",
+          "time": "16:00",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
         }
       ]
     },
@@ -3479,25 +3490,25 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:25"
+        "checked_at": "2026-07-27 12:36"
       },
       {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:25"
+        "checked_at": "2026-07-27 12:36"
       },
       {
         "rank": 12,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:25"
+        "checked_at": "2026-07-27 12:36"
       },
       {
         "rank": 45,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:25"
+        "checked_at": "2026-07-27 12:36"
       }
     ],
     "genie": [
@@ -3505,19 +3516,19 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:25"
+        "checked_at": "2026-07-27 12:36"
       },
       {
         "rank": 10,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:25"
+        "checked_at": "2026-07-27 12:36"
       },
       {
         "rank": 477,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:25"
+        "checked_at": "2026-07-27 12:36"
       }
     ],
     "bugs": [
@@ -3525,25 +3536,25 @@ const SITE_DATA = {
         "rank": 20,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:25"
+        "checked_at": "2026-07-27 12:36"
       },
       {
         "rank": 91,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:25"
+        "checked_at": "2026-07-27 12:36"
       },
       {
         "rank": 101,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:25"
+        "checked_at": "2026-07-27 12:36"
       },
       {
         "rank": 326,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:25"
+        "checked_at": "2026-07-27 12:36"
       }
     ]
   },
@@ -3956,20 +3967,50 @@ const SITE_DATA = {
         {
           "name": "RESCENE 공식 유튜브",
           "url": "https://www.youtube.com/channel/UCtKtCiaWRz-d3EZn2xd1mdA"
+        },
+        {
+          "name": "RESCENE 공식 X(트위터)",
+          "url": "https://x.com/RESCENEofficial?s=20"
+        },
+        {
+          "name": "RESCENE 공식 멤버 X(트위터)",
+          "url": "https://x.com/RESCENE_twt?s=20"
+        },
+        {
+          "name": "RESCENE 공식 악플 신고",
+          "url": "https://themuze.kr/protect"
         }
       ]
     },
     {
       "category": "커뮤니티",
-      "items": []
+      "items": [
+        {
+          "name": "네이버 팬카페 '리시안셔스'",
+          "url": "https://cafe.naver.com/re5cene"
+        }
+      ]
     },
     {
       "category": "팬튜브",
-      "items": []
+      "items": [
+        {
+          "name": "르센느 아니고 리센느",
+          "url": "https://youtube.com/channel/UCfd9mp2QKKprT1Iwt_2Jhng?si=zTtCEXDcSt2S7gGO"
+        },
+        {
+          "name": "리센느서치P",
+          "url": "https://youtube.com/channel/UCkQ_VWRV5xw4HJOQqaucIHg?si=TSkbFCEMHNr7lRgq"
+        }
+      ]
     },
     {
       "category": "기타",
       "items": [
+        {
+          "name": "리센느 영상 모음",
+          "url": "https://adam-yam.github.io/SCENE-FLIX/?tab=allvideos"
+        },
         {
           "name": "리센느 얼굴 맞추기",
           "url": "https://rescenehertz.github.io/rescene-face-game/"
