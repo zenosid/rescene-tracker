@@ -32,6 +32,9 @@ jobs:
       - name: 공식 스케줄(Mnet Plus) 수집
         run: python official_schedule.py
 
+      - name: 플로 차트 수집
+        run: python flo_chart.py
+
       - name: 사이트 데이터 빌드
         run: python build_site_data.py
 

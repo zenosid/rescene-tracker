@@ -77,6 +77,45 @@ def _fetch_kworb_country_chart(url):
     return results
 
 
+FLO_BROWSE_URL = "https://www.music-flo.com/browse"
+
+
+def fetch_flo():
+    """
+    플로 "FLO차트"(24시간 누적, /browse 페이지)에서 리센느 곡만 추출.
+    /chart 경로는 봇 차단이 걸려있어서 /browse 경로를 사용합니다.
+    JS로 렌더링되는 페이지라 Playwright가 필요합니다 (공식 스케줄과 같은 방식).
+    """
+    from playwright.sync_api import sync_playwright  # 지연 import (미설치 환경 배려)
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page(ignore_https_errors=True)
+        page.goto(FLO_BROWSE_URL, timeout=30000)
+        page.wait_for_timeout(3500)
+        html = page.content()
+        browser.close()
+
+    soup = BeautifulSoup(html, "html.parser")
+    results = []
+    for row in soup.select("tr")[1:]:  # 첫 행은 헤더
+        num_el = row.select_one("td.num")
+        title_el = row.select_one(".tit__text")
+        artist_el = row.select_one("td.artist")
+        if not (num_el and title_el and artist_el):
+            continue
+        artist_text = artist_el.get_text(strip=True)
+        if _is_our_group(artist_text):
+            try:
+                rank = int(num_el.get_text(strip=True))
+            except ValueError:
+                continue
+            results.append(
+                {"rank": rank, "song_title": title_el.get_text(strip=True), "artist_text": artist_text}
+            )
+    return results
+
+
 def fetch_melon():
     """멜론 TOP100 전체를 순회하며 리센느 곡만 추출."""
     r = requests.get(CHART_SOURCES["melon"], headers=HEADERS, timeout=10)
@@ -241,7 +280,7 @@ def refresh_all_charts():
 def get_latest_all(conn):
     """플랫폼별 가장 최근 스냅샷을 딕셔너리로 반환."""
     apple_music_platforms = [f"apple_music_{cc}" for cc in APPLE_MUSIC_COUNTRIES]
-    all_platforms = list(FETCHERS.keys()) + _kworb_platform_list() + apple_music_platforms
+    all_platforms = list(FETCHERS.keys()) + _kworb_platform_list() + apple_music_platforms + ["flo"]
     return {platform: get_latest_chart_snapshot(conn, platform) for platform in all_platforms}
 
 

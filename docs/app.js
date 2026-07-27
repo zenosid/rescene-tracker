@@ -19,6 +19,7 @@ const PLATFORM_LABELS = {
   melon: "멜론",
   genie: "지니",
   bugs: "벅스",
+  flo: "FLO",
   spotify_kr: "Spotify (KR)",
   spotify_us: "Spotify (US)",
   spotify_jp: "Spotify (JP)",

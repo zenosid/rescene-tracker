@@ -13,11 +13,11 @@
 - **🔗 링크 탭**: 공식 계정·커뮤니티·팬튜브 채널 등을 카테고리별로 정리한 링크 모음.
 - **💬 팬 반응 탭**: YouTube Data API(공식 API)로 최근 영상들의 인기 댓글을
   좋아요 순으로 모아봅니다. API 키 설정이 필요합니다 (아래 참고).
-- **📊 차트 확장**: 멜론·지니·벅스에 더해 kworb.net(스포티파이/유튜브/샤잠 미러링)과
-  애플 공식 공개 API(rss.applemarketingtools.com)를 통해 Spotify·Shazam·YouTube·
-  Apple Music 각각 한국/미국/일본까지 총 15개 플랫폼. 모든 플랫폼에 전 회차 대비
-  순위 변동(▲상승/▼하락/NEW신규) 표시. 아직 어느 나라 차트에도 없으면 정직하게
-  "없음"으로 표시.
+- **📊 차트 확장**: 멜론·지니·벅스·**플로**에 더해 kworb.net(스포티파이/유튜브/샤잠
+  미러링)과 애플 공식 공개 API(rss.applemarketingtools.com)를 통해 Spotify·
+  Shazam·YouTube·Apple Music 각각 한국/미국/일본까지 총 16개 플랫폼. 모든
+  플랫폼에 전 회차 대비 순위 변동(▲상승/▼하락/NEW신규) 표시. 아직 어느 나라
+  차트에도 없으면 정직하게 "없음"으로 표시.
 - **🔄 자동 새로고침**: 페이지를 켜둔 채로 있으면 2분마다 새 데이터가 있는지
   조용히 확인해서, 있으면 자동으로 새로고침합니다 (수동으로 F5 누를 필요 없음).
 - **📅 공식 스케줄(Mnet Plus)**: 이번 달 포함 앞으로 6개월치(설정 가능)를
@@ -82,8 +82,8 @@ python -m playwright install chromium
 
 - **🗂️ 아카이브**: 날짜별로 묶은 유튜브(공식/콜라보)·뉴스. 소스·카테고리·멤버별
   필터, 각 카드에 즐겨찾기·공유 버튼.
-- **📊 차트**: 멜론·지니·벅스 + Spotify·Shazam·YouTube·Apple Music(각 KR/US/JP)
-  실시간 순위 + 전 회차 대비 변동(▲▼NEW). 총 15개 플랫폼.
+- **📊 차트**: 멜론·지니·벅스·플로 + Spotify·Shazam·YouTube·Apple Music(각 KR/US/JP)
+  실시간 순위 + 전 회차 대비 변동(▲▼NEW). 총 16개 플랫폼.
 - **📅 스케줄**: ① Mnet Plus 공식 아티스트 페이지에서 자동 수집한 확정 일정
   (배지 없음 = 공식), ② 수동 등록한 확실한 일정, ③ 뉴스 기사에서 자동 추정한
   일정(`추정` 배지). 같은 날짜에 공식 일정이 이미 있으면 불확실한 추정 항목은
@@ -120,6 +120,7 @@ rescene_tracker/
 ├── classify.py                        # 멤버/카테고리 분류
 ├── schedule_extractor.py              # 뉴스 → 일정 후보 추출 (추정)
 ├── official_schedule.py               # Mnet Plus 공식 스케줄 수집 (Playwright)
+├── flo_chart.py                        # 플로 차트 수집 (Playwright)
 ├── fan_reactions.py                    # 유튜브 댓글(팬 반응) 수집 (공식 API)
 ├── kst.py                              # UTC → KST 시간대 변환 유틸
 ├── build_site_data.py                 # DB → docs/data.js 변환
