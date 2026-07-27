@@ -14,8 +14,9 @@ YOUTUBE_CHANNELS = [
 # ── 콜라보/외부 채널 (수동 등록) ──────────────────────────────
 # 확실히 챙기고 싶은 채널은 여기 등록하면 조회수 상관없이 항상 수집합니다.
 COLLAB_CHANNELS = [
-    {"name": "침착맨", "channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ"},
-    {"name": "도미노피자", "channel_id": "UCrDYPLah4QRsqEZVvWQ6t7g"},
+    {"name": "SBS 인기가요", "channel_id": "UCS_hnpJLQTvBkqALgapi_4g"},
+    {"name": "더쇼", "channel_id": "UCoRXPcv8XK5fAplLbk9PTww"},
+    {"name": "음악중심", "channel_id": "UCe52oeb7Xv_KaJsEzcKXJJg"},
 ]
 
 # ── 콜라보 자동 발견 (유튜브 검색 기반) ─────────────────────────
@@ -83,6 +84,13 @@ LINK_COLLECTIONS = [
         "category": "팬튜브",
         "items": [
             # {"name": "채널명", "url": "https://www.youtube.com/@..."},
+        ],
+    },
+    {
+        "category": "기타",
+        "items": [
+            {"name": "리센느 얼굴 맞추기", "url": "https://rescenehertz.github.io/rescene-face-game/"},
+            {"name": "메이즈러너", "url": "https://twilight-dream-ed96.sparkeredm.workers.dev/"},
         ],
     },
 ]
