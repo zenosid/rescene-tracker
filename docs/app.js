@@ -35,7 +35,7 @@ const CATEGORY_LIST = ["음악방송", "MV", "Live", "Shorts", "자체컨텐츠"
 
 // ── 상태 ──────────────────────────────────────────────────
 const state = {
-  sources: new Set(Object.keys(SOURCE_META)), // 기본: 전체 선택
+  sourceTab: "all", // 단일 선택: "all" | "youtube" | "youtube_collab" | "news"
   members: new Set(), // 비어있으면 전체
   categories: new Set(), // 비어있으면 전체
 };
@@ -133,21 +133,22 @@ document.getElementById("refreshIntervalText").textContent = SITE_DATA.refresh_i
 function buildSourceChips() {
   const wrap = document.getElementById("sourceChips");
   wrap.innerHTML = "";
-  Object.entries(SOURCE_META).forEach(([key, meta]) => {
-    const chip = document.createElement("button");
-    chip.className = "chip" + (state.sources.has(key) ? " on" : "");
-    chip.dataset.chip = key;
-    chip.textContent = meta.icon + " " + meta.label;
-    chip.addEventListener("click", () => {
-      if (state.sources.has(key)) {
-        state.sources.delete(key);
-      } else {
-        state.sources.add(key);
-      }
+
+  const options = [{ key: "all", icon: "🗂️", label: "전체" }].concat(
+    Object.entries(SOURCE_META).map(([key, meta]) => ({ key, icon: meta.icon, label: meta.label }))
+  );
+
+  options.forEach(({ key, icon, label }) => {
+    const tab = document.createElement("button");
+    tab.className = "source-tab" + (state.sourceTab === key ? " active" : "");
+    tab.dataset.chip = key;
+    tab.textContent = icon + " " + label;
+    tab.addEventListener("click", () => {
+      state.sourceTab = key;
       buildSourceChips();
       renderArchive();
     });
-    wrap.appendChild(chip);
+    wrap.appendChild(tab);
   });
 }
 
@@ -197,7 +198,7 @@ function buildCategoryChips() {
 
 // ── 아이템 카드 (아카이브·즐겨찾기 공용) ───────────────────
 function itemPassesFilter(item) {
-  if (!state.sources.has(item.source_type)) return false;
+  if (state.sourceTab !== "all" && item.source_type !== state.sourceTab) return false;
   if (state.categories.size > 0 && !state.categories.has(item.category)) return false;
   if (state.members.size > 0) {
     const hasOverlap = item.members.some((m) => state.members.has(m));

@@ -254,6 +254,27 @@
   .chip.on[data-member] { background: var(--grad-primary); }
   .chip.on[data-category] { background: var(--aurora-cyan); }
 
+  /* SOURCE 전용: 단일 선택 탭 스타일 (여러 개 켜는 필터가 아니라 하나만 선택) */
+  .source-tab {
+    font-family: inherit;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--card-border);
+    border-radius: 999px;
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .source-tab:hover { color: var(--text-primary); border-color: rgba(255,255,255,0.25); }
+  .source-tab.active {
+    color: var(--void);
+    font-weight: 700;
+    border-color: transparent;
+    background: var(--grad-primary);
+  }
+
   /* ── 아카이브 ─────────────────────────────────────────── */
   .date-group { margin-bottom: 36px; }
   .date-heading {
