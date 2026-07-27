@@ -20,6 +20,8 @@ const PLATFORM_LABELS = {
   genie: "지니",
   bugs: "벅스",
   spotify_kr: "Spotify (KR)",
+  spotify_us: "Spotify (US)",
+  spotify_jp: "Spotify (JP)",
   youtube_kr: "YouTube (KR)",
   shazam_kr: "Shazam (KR)",
 };
