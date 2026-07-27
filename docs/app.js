@@ -22,8 +22,12 @@ const PLATFORM_LABELS = {
   spotify_kr: "Spotify (KR)",
   spotify_us: "Spotify (US)",
   spotify_jp: "Spotify (JP)",
-  youtube_kr: "YouTube (KR)",
   shazam_kr: "Shazam (KR)",
+  shazam_us: "Shazam (US)",
+  shazam_jp: "Shazam (JP)",
+  youtube_kr: "YouTube (KR)",
+  youtube_us: "YouTube (US)",
+  youtube_jp: "YouTube (JP)",
 };
 const FAVORITES_KEY = "rescene_tracker_favorites"; // localStorage 키 (이 브라우저 전용)
 
