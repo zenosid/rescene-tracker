@@ -1,12 +1,13 @@
-name: Refresh RESCENE Tracker Data
+name: Refresh Official Schedule (Mnet Plus)
 
-# 30분마다 자동 실행 + 수동 실행(Actions 탭에서 Run workflow) 둘 다 지원
+# 뉴스/차트보다 낮은 빈도(6시간마다)로 실행 - 공식 일정은 자주 안 바뀌고,
+# Playwright(브라우저 자동화)가 설치 시간이 오래 걸려서 Actions 무료 실행
+# 시간을 아끼기 위해 별도 워크플로로 분리했습니다.
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch: {}
 
-# data.js / DB를 저장소에 다시 커밋하려면 쓰기 권한이 필요합니다
 permissions:
   contents: write
 
@@ -25,11 +26,11 @@ jobs:
       - name: 의존성 설치
         run: pip install -r requirements.txt
 
-      - name: 유튜브·뉴스 수집
-        run: python collector.py
+      - name: Playwright 브라우저 설치
+        run: python -m playwright install --with-deps chromium
 
-      - name: 차트 조회
-        run: python chart_tracker.py
+      - name: 공식 스케줄(Mnet Plus) 수집
+        run: python official_schedule.py
 
       - name: 사이트 데이터 빌드
         run: python build_site_data.py
@@ -39,12 +40,9 @@ jobs:
           git config user.name "rescene-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
           git add rescene_tracker.db docs/data.js
-          git diff --quiet --cached || git commit -m "auto: refresh data ($(date -u +'%Y-%m-%d %H:%M UTC'))"
-          # 다른 워크플로(공식 스케줄 수집 등)가 그 사이 먼저 push했을 수 있어
-          # 항상 pull 먼저 시도하고, DB 충돌 시엔 방금 만든 내 결과를 우선함
-          # (어차피 수집은 누적/멱등이라 다음 주기에 서로의 데이터가 다시 채워짐)
+          git diff --quiet --cached || git commit -m "auto: refresh official schedule ($(date -u +'%Y-%m-%d %H:%M UTC'))"
           git pull --rebase -X ours || (git rebase --abort; git fetch origin main; git reset --hard origin/main)
           python build_site_data.py
           git add rescene_tracker.db docs/data.js
-          git diff --quiet --cached || git commit -m "auto: refresh data ($(date -u +'%Y-%m-%d %H:%M UTC')) [retry]"
+          git diff --quiet --cached || git commit -m "auto: refresh official schedule ($(date -u +'%Y-%m-%d %H:%M UTC')) [retry]"
           git push

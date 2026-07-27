@@ -77,21 +77,27 @@ CHART_SOURCES = {
     "bugs": "https://music.bugs.co.kr/chart",
 }
 
-# ── 스케줄 (수동 관리) ───────────────────────────────────────────
-# Mnet Plus 등 공식 스케줄은 인증 없이 안정적으로 자동 수집하기 어려워
-# 우선 수동 입력 방식으로 시작합니다. 새 일정이 뜨면 여기에 추가해주세요.
+# ── 스케줄 (수동 관리, 최우선 신뢰) ──────────────────────────────
+# 자동 수집(공식/추정)보다 우선하고 싶은 확실한 정보가 있으면 여기에 직접 추가.
 # date는 'YYYY-MM-DD' 형식, type은 자유롭게 (방송/라디오/행사/팬사인회/공연 등)
 SCHEDULE_ITEMS = [
-    # {"date": "2026-07-31", "type": "행사", "title": "롯데 자이언츠 시구 (미나미)", "note": "사직구장, 삼성전"},
     # {"date": "2026-08-02", "type": "공연", "title": "보령머드축제", "note": ""},
 ]
+
+# ── 공식 스케줄 (Mnet Plus, 자동 수집) ──────────────────────────
+# https://artist.mnetplus.world/main/{환경}/{아티스트 슬러그}/schedule/{연도}/{월}
+# 형태의 공식 아티스트 페이지에서 실제 방영된 일정 그대로를 가져옵니다.
+# JS로 렌더링되는 페이지라 Playwright(브라우저 자동화)로 접근하며,
+# 부하를 줄이기 위해 이 부분만 6시간마다(뉴스/차트보다 낮은 빈도) 갱신됩니다.
+MNET_PLUS_ENV = "stg"
+MNET_PLUS_ARTIST_SLUG = "rescene-official"
 
 # ── 배포 정보 ────────────────────────────────────────────────
 # GitHub Pages로 배포할 때 실제 주소로 바꿔주세요 (예: https://아이디.github.io/저장소명/)
 SITE_URL = "https://zenosid.github.io/rescene-tracker/"
 
 # 카페 등에 안내할 운영자 연락처 (문의/삭제 요청용). 원하시는 값으로 바꿔주세요.
-OPERATOR_CONTACT = "네이버 카페 리시안셔스 '첸드'에게 쪽지"
+OPERATOR_CONTACT = "네이버 카페 '리시안셔스' 쪽지"
 
 # GitHub Actions가 몇 분마다 자동 갱신하는지 (표시용 텍스트와 워크플로 cron이
 # 실제로 일치하도록 .github/workflows/refresh.yml의 cron도 함께 맞춰주세요)

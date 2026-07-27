@@ -38,6 +38,16 @@ CREATE TABLE IF NOT EXISTS auto_schedule (
     source_link TEXT NOT NULL UNIQUE,  -- 같은 기사에서 중복 추출 방지
     created_at TEXT DEFAULT (datetime('now'))
 );
+
+CREATE TABLE IF NOT EXISTS official_schedule (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    date TEXT NOT NULL,             -- 'YYYY-MM-DD'
+    time_text TEXT,                 -- 'PM 10:00' 등 원문 표기 그대로
+    title TEXT NOT NULL,
+    category TEXT,
+    dedup_key TEXT NOT NULL UNIQUE,  -- date+title+time_text 조합, 중복 저장 방지
+    created_at TEXT DEFAULT (datetime('now'))
+);
 """
 
 
@@ -122,3 +132,17 @@ def insert_auto_schedule(conn, date, type_, title, note, source_link):
 
 def get_auto_schedule(conn):
     return conn.execute("SELECT * FROM auto_schedule ORDER BY date ASC").fetchall()
+
+
+# ── 공식 스케줄 (Mnet Plus) ─────────────────────────────────
+def insert_official_schedule(conn, date, time_text, title, category, dedup_key):
+    cur = conn.execute(
+        """INSERT OR IGNORE INTO official_schedule (date, time_text, title, category, dedup_key)
+           VALUES (?, ?, ?, ?, ?)""",
+        (date, time_text, title, category, dedup_key),
+    )
+    return cur.rowcount > 0
+
+
+def get_official_schedule(conn):
+    return conn.execute("SELECT * FROM official_schedule ORDER BY date ASC").fetchall()

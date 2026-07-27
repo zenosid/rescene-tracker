@@ -15,7 +15,7 @@ from collections import defaultdict
 from datetime import datetime
 
 from config import SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES
-from db import init_db, get_conn, get_recent_items, get_auto_schedule
+from db import init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule
 from chart_tracker import get_latest_all
 from classify import classify_members, classify_category
 from kst import now_kst, to_kst
@@ -79,8 +79,28 @@ def build_schedule():
         {**s, "is_estimated": False, "mention_count": 1} for s in SCHEDULE_ITEMS
     ]
 
-    # 자동 추출된 항목은 (날짜, 타입)이 같으면 하나로 합치고, 몇 건의 기사에서
-    # 언급됐는지 기록 (기사가 많을수록 신뢰도가 높다는 신호)
+    # 공식 스케줄(Mnet Plus) - 이미 확정된 정보이므로 추정 표시 없음
+    with get_conn() as conn:
+        official_rows = get_official_schedule(conn)
+
+    official_items = []
+    for row in official_rows:
+        title = row["title"]
+        if row["time_text"]:
+            title = f"{title} ({row['time_text']})"
+        official_items.append(
+            {
+                "date": row["date"],
+                "type": row["category"] or "기타",
+                "title": title,
+                "note": "출처: Mnet Plus 공식 스케줄",
+                "is_estimated": False,
+                "mention_count": 1,
+            }
+        )
+
+    # 자동 추출된 항목(뉴스 기반)은 (날짜, 타입)이 같으면 하나로 합치고, 몇 건의
+    # 기사에서 언급됐는지 기록 (기사가 많을수록 신뢰도가 높다는 신호)
     with get_conn() as conn:
         auto_rows = get_auto_schedule(conn)
 
@@ -104,7 +124,12 @@ def build_schedule():
         if item["mention_count"] > 1:
             item["note"] += f" 외 {item['mention_count'] - 1}건 추가 언급"
 
-    all_items = manual_items + auto_items
+    # 같은 날짜에 공식 스케줄이 이미 있으면, 뉴스 기반 추정 항목은 굳이 중복
+    # 표시하지 않음 (공식 정보가 있는데 불확실한 추정을 같이 보여줄 필요 없음)
+    official_dates = {item["date"] for item in official_items}
+    auto_items = [item for item in auto_items if item["date"] not in official_dates]
+
+    all_items = manual_items + official_items + auto_items
     upcoming = sorted([s for s in all_items if s["date"] >= today_str], key=lambda s: s["date"])
     past = sorted([s for s in all_items if s["date"] < today_str], key=lambda s: s["date"], reverse=True)
     return {"upcoming": upcoming, "past": past}
