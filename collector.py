@@ -302,7 +302,10 @@ def collect_naver_news(conn):
                 continue
             # 네이버 검색이 느슨하게 매칭해서 무관한 기사가 섞여 들어올 수 있어
             # 제목+본문에 실제로 우리 그룹 키워드가 있는지 한 번 더 확인
-            if not _is_our_group(f"{title} {snippet}"):
+            # 본문 어딘가에 스쳐 지나가듯 언급된 것(예: "OOO축제에 존박·웬디·
+            # 리센느 등 출연" 같은 라인업 나열 기사)까지 걸리는 걸 막기 위해,
+            # 제목에 실제로 우리 그룹이 있는 기사만 인정 (본문은 보지 않음)
+            if not _is_our_group(title):
                 continue
             is_new = insert_item(conn, "news", "네이버 뉴스", title, link, published_at, snippet)
             if is_new:

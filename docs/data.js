@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 22:56",
+  "generated_at": "2026-07-27 23:03",
   "operator_contact": "네이버 카페 '리시안셔스' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,28 +7,6 @@ const SITE_DATA = {
       "date": "2026-07-27",
       "date_display": "2026년 07월 27일",
       "items": [
-        {
-          "title": "존박, 베를린 테크노 클럽 입장 성공 &quot;핑크 후드에 반바지, 테크노에 미...",
-          "link": "http://www.osen.co.kr/article/G1112847502",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "22:16",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[HD포토] 레드벨벳 웬디, '진행도 완벽한 페스티벌 여신 비주얼' (보령머...",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147193",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "22:14",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
         {
           "title": "리센느 미나미, 트와이스 사나와 만남에…&quot;나 완전 원스력 보여드리고 ...",
           "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147185",
@@ -38,116 +16,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "외국인 늘고 장마 비껴가…북적이는 바다",
-          "link": "https://news.knn.co.kr/news/article/190563",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "20:48",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[HD포토] 키빗업 루키아, '폭염 속 열정 넘치는 비니 패션' (보령머드축...",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147179",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "20:46",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[HD포토] 키빗업 재인, '행복한 미소' (보령머드축제 K-POP SUPER LIVE)",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147164",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "20:12",
-          "category": "Live",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[HD포토] 키빗업 현민, '눈빛 뭐야뭐야' (보령머드축제 K-POP SUPER LIVE)",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147148",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "20:04",
-          "category": "Live",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[HD포토] 키빗업 태환, '즐거운 페스티벌 무대' (보령머드축제 K-POP SUPER...",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147132",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "19:52",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[HD포토] 키빗업 세나, '청량 소년 비주얼' (보령머드축제 K-POP SUPER LIVE)",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147127",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "19:42",
-          "category": "Live",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[HD포토] 키빗업, '여름 밤의 열정' (보령머드축제 K-POP SUPER LIVE)",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147124",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "19:34",
-          "category": "Live",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "K팝 매출 100배 뛰었다…예상밖 외국인들 '덕질 명소' 떠오른 곳 [트렌드...",
-          "link": "https://www.hankyung.com/article/202607277378g",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "19:01",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "아일릿, 日 신곡 이어 4일 앙코르…'It's Me' 차트 강세",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147097",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "18:40",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "영주시, 야간축제로 확 바뀐 '2026 시원나잇 페스타' 개막",
-          "link": "https://www.dkilbo.com/news/articleView.html?idxno=549776",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "18:36",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -206,17 +74,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "뉴비트, 눈물의 첫 수상→'KMA 2026' 무대 장악",
-          "link": "http://www.atstar1.com/news/articleView.html?idxno=6037005",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "17:52",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 미나미, '최애' 트와이스 사나 만난다…'냉터뷰' 출연",
           "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147017",
           "source_type": "news",
@@ -236,17 +93,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "영주 여름축제 '시원나잇 페스타' 개막",
-          "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1278406",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "17:12",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -276,17 +122,6 @@ const SITE_DATA = {
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10NDBWRkpOeWM2N3FqaWlUME4zM0U0TkVVd0o5bGlRX2VvWDd2bk9RamJPU29xY0kxR1lhaEhHRDN0Z09nVzJZX3RwZGJXV0dpODN2LVI5LXpqanZyN3gxZmNwRFJpLUM3R0tCdlJR?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
-          "time": "16:50",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "KB금융·KB국민은행 &quot;하반기 AX·리스크 관리 올인&quot; 합심",
-          "link": "https://www.joongangenews.com/news/articleView.html?idxno=535716",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
           "time": "16:50",
           "category": "기타",
           "members": [
@@ -443,17 +278,6 @@ const SITE_DATA = {
           "source_name": "구글 뉴스 - 리센느",
           "time": "10:06",
           "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[경남 브리핑 모음(7월27일)] 진주시-프랑스 투레트市 ‘자매결연’ 추...",
-          "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202607261325363550531",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "10:02",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -705,17 +529,6 @@ const SITE_DATA = {
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fTFo0UXkyQUVERUN2WEJnakkxYWhLcEdhTU5sSnZtdlFHc29wQXdodGlPUTFiRUx3U1RPNHM2bVZOaXdkRmxRTS1raGZBSzhScGxyTlk3U2tOSXZVb0Y4TjE1UmRzb2JDQnNMdTd5aw?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
-          "time": "08:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "'문원♥' 신지, &quot;거제야호&quot; 외쳤는데…깡마른 몸매에 걱정 쏟아졌다",
-          "link": "https://www.mydaily.co.kr/page/view/2026072622151250353",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
           "time": "08:00",
           "category": "기타",
           "members": [
