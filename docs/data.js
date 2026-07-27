@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 12:36",
+  "generated_at": "2026-07-27 14:06",
   "operator_contact": "네이버 카페 '리시안셔스' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -1152,6 +1152,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "리센느 성공은 '기적'…아이돌 연예계 안착에 '100억' - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50b01QN2ZETnM1VHhKWkdNclpCMlFyWEpUam95azlkTHIzS2lhb2JjempSMUFiTzdPWENaUkFpeXQtb3VtRFhZY1pzYnNKUmZ6UWRSTURaUXdmNmfSAWBBVV95cUxQOVlRTVdfZUJxdXByRnB6R01rZm8yV0JNdHR6b3dhRHNWZW9UbFNTVG9TYjA2SnJWa2xfUGFobDZtYTB2aFRXaXpQRDBITkxoMFJCdW5UenhQcWduNFdNcVY?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:30",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "리센느 성공은 ’기적’…아이돌 연예계 안착에 ’100억’ - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1VzdPdE5vc0dOTWlEemktbW94RWlwQWQzaHR2am1uSmt4TkN5WXhiQlJYVWVwLUpIdjhHZ1BOZm1PQ3lCLVphS3Qzb1AtQUNkX2NsdklzMnV3N3A4VUhTTXRsZ2ZLV1E?oc=5",
           "source_type": "news",
@@ -1642,6 +1653,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "'역주행' 리센느 \"재밌어야겠다는 부담 생겨, 웃겨야 할 것 같아\" (집대성) - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KM3lJdEVqSW5CX3FZdktMcmRmMFNGdDdyYmZucGtGSEgzUGt4ZWNxdkRjamwzaW9paDZVRDg4Y19TSUkzNGpvQnNHTUVFVEk?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "07:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "'역주행 신화' 리센느, 알고 보니 K리그 '승리 요정'이었다 - 네이트 스포츠",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIVWZ4MmwyUndlYmJ2TUM2NUQzNHQtQzdaTF8yNmM0ZkRTVDdDSkJWRHhFekIzdXdCYUJFckFhdVZlWUVoSFlmNGdEZWZZYzh1T1MtOEZPZWJSaWd1?oc=5",
           "source_type": "news",
@@ -1689,6 +1711,17 @@ const SITE_DATA = {
           "category": "외부컨텐츠",
           "members": [
             "전체"
+          ]
+        },
+        {
+          "title": "리센느 미나미 \"언제든 갸루 '야호' 나올 수 있도록 준비\" [집대성] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VRFJqd0VEM0VGa1NUSmI0emt2LUlObVlacnM3cUxPM2Qwdk5lOG5FekJVR1lWZDNSTWdVTXByaDN2TENxMEFsRS1DMFo4T3M?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "18:57",
+          "category": "기타",
+          "members": [
+            "미나미"
           ]
         },
         {
@@ -1830,6 +1863,17 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "15:16",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "소란·리센느·윤마치 출동…KB금융, 콘서트 ‘별방 수면회’ 개최 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GSzJMS01qVVFtRTNzanAwNmhVVlJoTFg1STd3MUswcTJQc0VhMFo1N3lyQlFCM3E5ZWg5ODY0SVg1T3pyVDM5dHJUYWh4eG8?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:33",
           "category": "기타",
           "members": [
             "전체"
@@ -2863,6 +2907,17 @@ const SITE_DATA = {
           "members": [
             "원이"
           ]
+        },
+        {
+          "title": "맏언니지만 장난은 치고 싶은 원이😂 #원이 #리센느 #RESCENE - starnewskorea.com",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jTkN1dFVETzR3WUZ3ZU5PNmZmdzRoQVpzQW9EcTJITk16RFM1eXNIMnNBa3VqSWM0eDhDRnZKR282LTRWUXl3UmFMMFpkQ21HR1dhMC1PTXh6UmRRcldWVTNnUmgwUEtJUm5rWTUyYnE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - RESCENE",
+          "time": "16:00",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
         }
       ]
     },
@@ -3490,25 +3545,25 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:36"
+        "checked_at": "2026-07-27 14:06"
       },
       {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:36"
+        "checked_at": "2026-07-27 14:06"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:36"
+        "checked_at": "2026-07-27 14:06"
       },
       {
-        "rank": 45,
+        "rank": 49,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:36"
+        "checked_at": "2026-07-27 14:06"
       }
     ],
     "genie": [
@@ -3516,19 +3571,19 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:36"
+        "checked_at": "2026-07-27 14:06"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:36"
+        "checked_at": "2026-07-27 14:06"
       },
       {
-        "rank": 477,
+        "rank": 404,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:36"
+        "checked_at": "2026-07-27 14:06"
       }
     ],
     "bugs": [
@@ -3536,25 +3591,31 @@ const SITE_DATA = {
         "rank": 20,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:36"
+        "checked_at": "2026-07-27 14:06"
       },
       {
-        "rank": 91,
+        "rank": 90,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:36"
+        "checked_at": "2026-07-27 14:06"
       },
       {
-        "rank": 101,
+        "rank": 100,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:36"
+        "checked_at": "2026-07-27 14:06"
       },
       {
-        "rank": 326,
+        "rank": 981,
+        "song_title": "Pinball",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-07-27 14:06"
+      },
+      {
+        "rank": 5832,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 12:36"
+        "checked_at": "2026-07-27 14:06"
       }
     ]
   },
