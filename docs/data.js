@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 23:12",
+  "generated_at": "2026-07-27 23:15",
   "operator_contact": "네이버 카페 '리시안셔스' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -8,7 +8,7 @@ const SITE_DATA = {
       "date_display": "2026년 07월 27일",
       "items": [
         {
-          "title": "리센느 미나미, 트와이스 사나와 만남에…&quot;나 완전 원스력 보여드리고 ...",
+          "title": "리센느 미나미, 트와이스 사나와 만남에…\"나 완전 원스력 보여드리고 ...",
           "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147185",
           "source_type": "news",
           "source_name": "네이버 뉴스",
@@ -85,7 +85,7 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 데뷔 초부터 이상형 언급한 나솔사계 출연자…&quot;저점 매수의 신&quot;",
+          "title": "리센느 데뷔 초부터 이상형 언급한 나솔사계 출연자…\"저점 매수의 신\"",
           "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260727010009881",
           "source_type": "news",
           "source_name": "네이버 뉴스",
@@ -261,7 +261,7 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느, 'LOVE ATTACK'으로 첫 음방 1위...2년 만의 역주행 기적 &quot;꿈 이뤘...",
+          "title": "리센느, 'LOVE ATTACK'으로 첫 음방 1위...2년 만의 역주행 기적 \"꿈 이뤘...",
           "link": "http://www.starnewsk.com/news/articleView.html?idxno=57629",
           "source_type": "news",
           "source_name": "네이버 뉴스",

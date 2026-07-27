@@ -5,6 +5,7 @@ API 키가 전혀 필요 없는 무료 수집 단계입니다.
 
 실행: python collector.py
 """
+import html
 import os
 import re
 import json
@@ -267,8 +268,12 @@ _NAVER_TAG_RE = re.compile(r"</?b>")
 
 
 def _strip_naver_tags(text):
-    """네이버 검색 API 응답은 검색어를 <b>태그</b>로 감싸서 줌 - 제거."""
-    return _NAVER_TAG_RE.sub("", text or "")
+    """
+    네이버 검색 API 응답은 검색어를 <b>태그</b>로 감싸고, "&quot;" 같은 HTML
+    엔티티도 그대로 줘서 둘 다 정리합니다.
+    """
+    without_tags = _NAVER_TAG_RE.sub("", text or "")
+    return html.unescape(without_tags)
 
 
 def _is_our_group(text):
