@@ -1,6 +1,6 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 21:20",
-  "operator_contact": "네이버 카페 리시안셔스'첸드' 쪽지",
+  "generated_at": "2026-07-27 21:45",
+  "operator_contact": "네이버 카페 '리시안셔스' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
     {
@@ -3743,7 +3743,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3752,7 +3752,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3761,7 +3761,7 @@ const SITE_DATA = {
         "rank": 9,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3770,7 +3770,7 @@ const SITE_DATA = {
         "rank": 51,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3781,7 +3781,7 @@ const SITE_DATA = {
         "rank": 21,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3790,7 +3790,7 @@ const SITE_DATA = {
         "rank": 61,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3799,7 +3799,7 @@ const SITE_DATA = {
         "rank": 301,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3810,7 +3810,7 @@ const SITE_DATA = {
         "rank": 20,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3819,7 +3819,7 @@ const SITE_DATA = {
         "rank": 101,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3828,7 +3828,7 @@ const SITE_DATA = {
         "rank": 165,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3837,7 +3837,7 @@ const SITE_DATA = {
         "rank": 331,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3848,7 +3848,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3857,7 +3857,7 @@ const SITE_DATA = {
         "rank": 3,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3866,7 +3866,7 @@ const SITE_DATA = {
         "rank": 14,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3875,7 +3875,7 @@ const SITE_DATA = {
         "rank": 27,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3884,7 +3884,7 @@ const SITE_DATA = {
         "rank": 64,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3897,7 +3897,7 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3906,7 +3906,7 @@ const SITE_DATA = {
         "rank": 21,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3915,7 +3915,7 @@ const SITE_DATA = {
         "rank": 22,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3924,7 +3924,7 @@ const SITE_DATA = {
         "rank": 72,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3933,7 +3933,7 @@ const SITE_DATA = {
         "rank": 103,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3945,9 +3945,9 @@ const SITE_DATA = {
         "rank": 82,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
-          "kind": "new"
+          "kind": "same"
         }
       }
     ],
@@ -3956,7 +3956,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3965,7 +3965,7 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -3974,7 +3974,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 21:20",
+        "checked_at": "2026-07-27 21:45",
         "change": {
           "kind": "same"
         }
@@ -4445,6 +4445,708 @@ const SITE_DATA = {
           "url": "https://twilight-dream-ed96.sparkeredm.workers.dev/"
         }
       ]
+    }
+  ],
+  "fan_reactions": [
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@geojesi_official",
+      "text": "금요일 야호~🧜‍♀️ 리센느 대성하자호~🥹💓",
+      "like_count": 13281
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@atriix-_-3584",
+      "text": "안원잘부손실 채워준 집대성 감사한입",
+      "like_count": 9904
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@nirvanaspero",
+      "text": "근래 나온 리센느 단체 방송 중에서 이게 최고인듯. 대성 진짜 잘 뽑아낸다 ㅋㅋㅋㅋㅋㅋ",
+      "like_count": 9497
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@hyesung27",
+      "text": "마지막 기회였는데 공중파 1위 연속으로 2번시켜준 기특한 리마인들 모여라",
+      "like_count": 5998
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@Incognito-x5m",
+      "text": "와 진짜 왜 무도급 아이돌이라고 하는지 알겠네.",
+      "like_count": 5852
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=L16ezTKcwrY",
+      "video_title": "1화보다 더 재밌을걸?😆 리센느의 스릴 넘치는 여름휴가 보러 오이데~⭐️ [4K] | My Daytrip to Jeongseon Ep 02. #리센느 #rescene #마이데이트립",
+      "author": "@kbsworldtv",
+      "text": "안녕하세요? 마데트 PD 입니다. 리센느의 예쁘고 재밌는 모습들이 많았는데 방송 분량상 보여드리지 못한 촬영분이 아직 많이 남아있습니다. <여름휴가 2편 조회수 100만>이 넘으면 제가 밤을 새서라도 비하인드 영상을 편집해오겠습니다. '마이데이트립' 사랑해주셔서 감사합니다. 홍보 좀 잘 부탁드립니다! (아울러 '아이돌부스'도 많이 사랑해주세요~)",
+      "like_count": 5608
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@sorkrmfls",
+      "text": "36:16 절 협박은 진짜 예능에서 처음보네 ㅋㅋㅋㅋㅋㅋㅋㅋ체급이다르다 ㅋㅋㅋㅋㅋㅋ",
+      "like_count": 5277
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=L16ezTKcwrY",
+      "video_title": "1화보다 더 재밌을걸?😆 리센느의 스릴 넘치는 여름휴가 보러 오이데~⭐️ [4K] | My Daytrip to Jeongseon Ep 02. #리센느 #rescene #마이데이트립",
+      "author": "@geojesi_official",
+      "text": "힐링 한 입! 피톤치드 그립감이 좋다!",
+      "like_count": 4646
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@슝믹",
+      "text": "재출연 섭외 먼저 요청해주신 인기가요, 라이브날 열심히 투표해주신 리마인, 그리고 투표가 익숙하지 않은 삼촌,이모팬들 위해서 커뮤니티에 열심히 투표방법 올려주신 대장님들 모두 감사하고 축복합니다.\n리센느 원이미나미리브메이제나\n오리지널 곡으로 첫 1위 축하해요.",
+      "like_count": 4637
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@ryu.x_x",
+      "text": "컴백곡은 프리티걸 1위 후보곡은 러브어택 스페셜 무대는 데자부ㅋㅋㅋㅋㅋ 진짜 온 세상이 리센느다",
+      "like_count": 4540
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@wowowo-n6f",
+      "text": "선미님이 옆에서 자기 일처럼 축하해주시는게 너무 좋네요",
+      "like_count": 4154
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@Win_Kyungeun",
+      "text": "\"꿈이라는 걸 꾸는게 아니라 이룰 수 있게 해주셔서 감사합니다\"",
+      "like_count": 4041
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@꼬부기-t2m6p",
+      "text": "리브가 물건이네\n\n원이랑 메이가 조금이라도 던져주면 이긴경은이 싹 다 캐치해서 골로 연결시켜주네",
+      "like_count": 3721
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@딥뿌-j6v",
+      "text": "아직 프리티걸 발표전에 찍은거면\n애들이 긴장 할만한데\n대성이 오빠가 편하게 판을 깔아주니까\n애들이 그냥 날라다님ㅋㅋㅋㅋ",
+      "like_count": 3657
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@hooni-da",
+      "text": "리트와 메트는 올해 최고의 듀오다 ㅋㅋㅋ",
+      "like_count": 3576
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
+      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
+      "author": "@Heoguyeonlovesdome",
+      "text": "1위 가수님을 뵙습니다",
+      "like_count": 3114
+    },
+    {
+      "video_link": "https://www.youtube.com/shorts/yuTme7lLho4",
+      "video_title": "에베베벱베 😝",
+      "author": "@whywhy6158",
+      "text": "그래그래 알았어 투표할게",
+      "like_count": 2864
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@꼬부기-t2m6p",
+      "text": "얘네들은 보면 볼수록 운이 아니라 실력으로 뜬 것 같은데\n\n예능 체급이 말이 안 됨 ㅋㅋㅋㅋㅋ 치고 빠지는 타이밍을 아이돌이 어케 아는거냐",
+      "like_count": 2755
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=L16ezTKcwrY",
+      "video_title": "1화보다 더 재밌을걸?😆 리센느의 스릴 넘치는 여름휴가 보러 오이데~⭐️ [4K] | My Daytrip to Jeongseon Ep 02. #리센느 #rescene #마이데이트립",
+      "author": "@songsesesong",
+      "text": "안원잘부 휴재로 인한 리센느 금단 증상의 유일한 치료제",
+      "like_count": 2681
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@michaelbyeongjun5140",
+      "text": "우와 2년전 곡으로 1위를 했어? 이게 말이 되니",
+      "like_count": 2516
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@성이름-q1f7g",
+      "text": "팬심 이런거 거르고 순수재미로 스킵없이 다 봄 ㅋㅋㅋ 진짜 웃기네 ㅋㅋㅋㅋㅋ",
+      "like_count": 2463
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@chang357100",
+      "text": "정주행곡으로 1위\n역주행곡으로 1위\n\n이게 같은 주에 일어난 일...\n내가 알기로는 최초",
+      "like_count": 2331
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@seren-h2y",
+      "text": "와 미친거아냐 에스파에 ioi사이에서 1등은 진짜 ㅋㅋㅋㅋㅋㅋㅋ 대중성도 그렇고 파급력이 크긴 하구나",
+      "like_count": 2225
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@Kimjungho01",
+      "text": "까엉이는 오늘 라방켜라ㅋㅋㅋㅋ소감 말하게",
+      "like_count": 2081
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@Win_Kyungeun",
+      "text": "2년전 노래로 공중파 1위 시켜준 리마인분들 진심으로 감사드립니다",
+      "like_count": 1968
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@hyuni4426",
+      "text": "목요일 아버지 떠나보낸 아저씨입니다...장려식 끝내고 이제정신차리고 너무슬퍼하고있다가 리센느 때문에 힘이납니다...눈물나지만 리마인응원때문에 더욱더힘내서 열심히 살아가겠습니다...고맙습니다",
+      "like_count": 1950
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=F_hwM58VVUI",
+      "video_title": "[한글자막] 존박에게 리센느 어떻게 섭외했냐고 묻다",
+      "author": "@DinosaurJr.",
+      "text": "사실 리센느 섭외하고 싶은 피식대학이면 개추 ㅋㅋㅋ",
+      "like_count": 1782
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@ehpk-k2v",
+      "text": "43:00 동생꺼 가차없이 내던지는 미남씨 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "like_count": 1771
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
+      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
+      "author": "@mrq1245",
+      "text": "카라 팬들도 리센느 많이 힘을 보태주었습니다. 감사합니다. ㅠㅠ",
+      "like_count": 1746
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@원이가조타",
+      "text": "데자부로 스페셜 무대 만들어서 직접 수상할수있게 기회주신 인기가요\n현장에서도 애들이 울고 웃을때 다같이 걱정해주고 이뻐해주신 타돌 팬분들한테도 감사드립니다 :)",
+      "like_count": 1741
+    },
+    {
+      "video_link": "https://www.youtube.com/shorts/yuTme7lLho4",
+      "video_title": "에베베벱베 😝",
+      "author": "@sc_rain",
+      "text": "혹시 리브가 하자고 시켰니? ㅋㅋㅋㅋ",
+      "like_count": 1645
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
+      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
+      "author": "@karuta-z4e",
+      "text": "너희들이 카라의 뒤를 이을 완벽한 그룹이다...카라보다 더 흥해라....지나가던 카밀리아..",
+      "like_count": 1565
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@codluv",
+      "text": "리센느 1위 하는거 보려고 15년만에 본방사수 함 ㅋㅋㅋㅋ",
+      "like_count": 1495
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@ryu.x_x",
+      "text": "\"꿈이라는 걸 꾸는 게 아니라 이룰 수 있게 해주셔서 감사합니다\" 이 말이 진짜 너무 와닿는다.... 진짜 거의 명언급임",
+      "like_count": 1395
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@tjpark",
+      "text": "빨리 1위 발표 후 직캠영상 올려주시오....😊",
+      "like_count": 1348
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
+      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
+      "author": "@뿌링팝콘먹은원이",
+      "text": "리센느 공중파 첫 1위 축하해요!!! ㅠㅠ🎉🎉",
+      "like_count": 1307
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
+      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
+      "author": "@geojesi_official",
+      "text": "1위는그립감이조~타🌊짜랸다짜래센둥이들 ⭐️이쁘고멋지고다하는니콜선배님💖(나만늙었네용..🥹)",
+      "like_count": 1303
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=MbCT-UmVNMw",
+      "video_title": "[우쥬레코드] RESCENE 미나미, 제나 with 윤하 | 혜성, 늦은 후회, 행복한 나를, Pretty Girl | WOULD YOU RECORD (ENG/JPN)",
+      "author": "@jdhwhs-n7k",
+      "text": "인가 1위 축하해🎉",
+      "like_count": 1283
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=L16ezTKcwrY",
+      "video_title": "1화보다 더 재밌을걸?😆 리센느의 스릴 넘치는 여름휴가 보러 오이데~⭐️ [4K] | My Daytrip to Jeongseon Ep 02. #리센느 #rescene #마이데이트립",
+      "author": "@1230-v7q",
+      "text": "리센느한테 지갑 많이 털리시는 감독님",
+      "like_count": 1260
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@user-hb7sm7ww9t",
+      "text": "데자뷰 가사 중에 \n\"처음 스친 그때 이 향길 기억해 줘\"\n라는 가사가 있는데, 리센느를 처음 스쳤을 때 대중들이 느꼈던 향기를 계속 기억해줘서 리센느가 지금 걷고 있는 꽃길이 앞으로도 계속 이어지면 좋겠다",
+      "like_count": 1141
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=L16ezTKcwrY",
+      "video_title": "1화보다 더 재밌을걸?😆 리센느의 스릴 넘치는 여름휴가 보러 오이데~⭐️ [4K] | My Daytrip to Jeongseon Ep 02. #리센느 #rescene #마이데이트립",
+      "author": "@4season_ss",
+      "text": "피디니무 이건 경고요. 당장 비하인드 영상을 가져오시오.",
+      "like_count": 1089
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@사모예드-t4b",
+      "text": "리메이크가 아닌 자기노래로 1위했네!",
+      "like_count": 1089
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=L16ezTKcwrY",
+      "video_title": "1화보다 더 재밌을걸?😆 리센느의 스릴 넘치는 여름휴가 보러 오이데~⭐️ [4K] | My Daytrip to Jeongseon Ep 02. #리센느 #rescene #마이데이트립",
+      "author": "@mayday-v8r",
+      "text": "이예빈 '메'드무비\n08:45 시동거는 메트\n09:04 옹알이 시작\n09:43 사탄들린 이예빈ㅋㅋㅋㅋㅋㅋㅋㅋ\n10:32 메스코리아의 고음\n10:53 감독니무를 애타게 찾는\n11:10 그로울링\n11:24 탈진",
+      "like_count": 1054
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@yogurping",
+      "text": "선민 , 영우 : 워..원이야…   😂",
+      "like_count": 1053
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@user-rjy",
+      "text": "원이가 목 매여서 말 못할 때 받아서 얘기하는 메이!!",
+      "like_count": 1019
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@썬레드-m6h",
+      "text": "옆에 펄쩍펄쩍 뛰면서 좋아하는 선미센배 감사한입ㅜㅜ",
+      "like_count": 1004
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@너도나도진경은",
+      "text": "이번주 공중파 2관왕.\n1위 가수를 뵙습니다.",
+      "like_count": 996
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@SKY-CLEAR",
+      "text": "가영이는 이런데서 고장나서 시키지도 않는 게 너무 웃겨 ㅋㅋㅋ",
+      "like_count": 973
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=L16ezTKcwrY",
+      "video_title": "1화보다 더 재밌을걸?😆 리센느의 스릴 넘치는 여름휴가 보러 오이데~⭐️ [4K] | My Daytrip to Jeongseon Ep 02. #리센느 #rescene #마이데이트립",
+      "author": "@Liv_and_May",
+      "text": "9:43 메이는 내려갈때도 입이 쉬질 않아 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "like_count": 948
+    },
+    {
+      "video_link": "https://www.youtube.com/shorts/yuTme7lLho4",
+      "video_title": "에베베벱베 😝",
+      "author": "@신라리마인",
+      "text": "두건 미나미 진짜 미치도록 귀엽다ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "like_count": 926
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@reminder-x4b",
+      "text": "화면 필터를 영화필터로 했네 올해 가요계의 왕사남이다",
+      "like_count": 912
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=L16ezTKcwrY",
+      "video_title": "1화보다 더 재밌을걸?😆 리센느의 스릴 넘치는 여름휴가 보러 오이데~⭐️ [4K] | My Daytrip to Jeongseon Ep 02. #리센느 #rescene #마이데이트립",
+      "author": "@S.H.Lee0317",
+      "text": "09:44 메이 무서워도 입은 안쉬넼ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "like_count": 889
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@미크슨",
+      "text": "오늘 1위가 특별한게 사전점수 하나 없이 순수 체급빨로 심지어 러브어택으로 1위 한게 진짜 간지그자체임",
+      "like_count": 852
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bmLaavZCiN8",
+      "video_title": "[Full] 리센느 RESCENE / 원유니버스페스티벌 260725 @인천 파라다이스시티",
+      "author": "@리슬렁리슬렁",
+      "text": "원이 방금 버블에 몸살땜에 수액 맞고 공연했다는데..건강 관리 잘 하면서 지내길...빠른 업뎃 해주신 쥔장님껜 감사 한입!!",
+      "like_count": 826
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@seouljeju547",
+      "text": "불과 얼마전까지 TOP100에 들기만 해도 꿈 같을거라고 꿈꾸던 소녀들이 전무후무한 기록으로 음방 릴레이 1위를 거두다니... \n정말 꿈은 꾸는게 아니라 이룰수 있다라는걸 현실에서 보여줘서 너무너무 고마워요 리센느!!",
+      "like_count": 822
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@ZIP_DS",
+      "text": "📢 이치방쿠지 신상품 소식을 빠르게!💨\n\n➡카카오채널\nhttps://pf.kakao.com/_nLIxcn\n➡인스타\nhttps://www.instagram.com/ichibankuji.korea/\n➡페이스북\nhttps://www.facebook.com/ichibankuji.korea \n\n✨✨꽝 없는 캐릭터 뽑기 이치방쿠지✨✨\n✨✨마지막 1장을 뽑을 때 받는 라스트원상✨✨\n✨✨한번 더 기회를 !! 더블찬스 ✨✨",
+      "like_count": 801
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@muk_table",
+      "text": "프나도 브브걸도 자기일처럼 축하해주는거 넘 보기좋네요 1위축하해!",
+      "like_count": 777
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=MbCT-UmVNMw",
+      "video_title": "[우쥬레코드] RESCENE 미나미, 제나 with 윤하 | 혜성, 늦은 후회, 행복한 나를, Pretty Girl | WOULD YOU RECORD (ENG/JPN)",
+      "author": "@너도나도진경은",
+      "text": "미나미는 음악 관련 컨텐츠일때 더욱 행복해보이고, 눈이 정말 빛나는 듯.",
+      "like_count": 758
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bmLaavZCiN8",
+      "video_title": "[Full] 리센느 RESCENE / 원유니버스페스티벌 260725 @인천 파라다이스시티",
+      "author": "@은전한닢-e4v",
+      "text": "멜론114위 했던 노래에요~ 저희 아시나요? 했을때 그 썰렁했던 반응과 비교해서 얼마나 행복할까 아무 관계도 없는 내가 다 뿌듯하네",
+      "like_count": 701
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
+      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
+      "author": "@BEEAR-v7c",
+      "text": "니콜 선배님!! 오늘 프리티걸 공중파 1위를 했습니다 !!  🎉🎉🎉🎉🎉",
+      "like_count": 699
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@수도빌런",
+      "text": "야호에서 시작해서 1위까지 영화로 만들어도 되겠다",
+      "like_count": 693
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@딥뿌-j6v",
+      "text": "다시 보니까 마지막에 집대성 쓴거 원이였어ㅋㅋㅋㅋㅋㅋㅋ\n센스 미쳤네ㅋㅋㅋㅋㅋ",
+      "like_count": 684
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=F_hwM58VVUI",
+      "video_title": "[한글자막] 존박에게 리센느 어떻게 섭외했냐고 묻다",
+      "author": "@데이비드초",
+      "text": "리센느 단독콘서트하명 무조건 존박 초대해서 존박버전 불러야된다 공감되는사람 개추 ㅋ",
+      "like_count": 668
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=MbCT-UmVNMw",
+      "video_title": "[우쥬레코드] RESCENE 미나미, 제나 with 윤하 | 혜성, 늦은 후회, 행복한 나를, Pretty Girl | WOULD YOU RECORD (ENG/JPN)",
+      "author": "@리센느이제시작이라구",
+      "text": "신인시절 윤하의 눈에서 반짝이던 별이 미나미의 눈에 옮겨간 것만 같다",
+      "like_count": 668
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@라딘칼",
+      "text": "리센느의 큰 장점 중 하나가 '아이돌 문화'나 '걸그룹'을 좋아하는 게 아니라 \n'리센느니까' 좋아하는 팬 비중이 굉장히 높다는 것임.",
+      "like_count": 651
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=MSPLKSR0cNU",
+      "video_title": "[4K] Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@magickswify",
+      "text": "진짜 이노래 묻혔으면 어쩔뻔했냐",
+      "like_count": 624
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
+      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
+      "author": "@안녕하세요요-k2w",
+      "text": "1위 축하하고 내일 인기가요도 1위 하자 !\n프리티걸 1위는 카라에게도 의미가 남다르겠다 ㅠ ㅎ 다들 고생 많았다",
+      "like_count": 616
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@Anti_007bbang",
+      "text": "덕연아, 은미야 억수로 고맙데잉~😊",
+      "like_count": 615
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@사탄보다더",
+      "text": "대중 = 선민, 영우",
+      "like_count": 590
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=F_hwM58VVUI",
+      "video_title": "[한글자막] 존박에게 리센느 어떻게 섭외했냐고 묻다",
+      "author": "@클리니-e5p",
+      "text": "러브어택 1등 공신\n1. 유영우 하트어택\n2. 존박스타일 러브어택\n3. 대기업 따버리는 미친 리마인들",
+      "like_count": 576
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=F_hwM58VVUI",
+      "video_title": "[한글자막] 존박에게 리센느 어떻게 섭외했냐고 묻다",
+      "author": "@akfhsjd8313",
+      "text": "리센느 향기 나는 건 다 본다는 마인드",
+      "like_count": 544
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=L16ezTKcwrY",
+      "video_title": "1화보다 더 재밌을걸?😆 리센느의 스릴 넘치는 여름휴가 보러 오이데~⭐️ [4K] | My Daytrip to Jeongseon Ep 02. #리센느 #rescene #마이데이트립",
+      "author": "@sorkchlrhektptkddkejaqufk",
+      "text": "6:56 여기 개웃긴데 왜 아무도 언급이 없지ㅋㅋㅋㅋㅋㅋㅋㅋ양 기강잡는 리트",
+      "like_count": 512
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=F_hwM58VVUI",
+      "video_title": "[한글자막] 존박에게 리센느 어떻게 섭외했냐고 묻다",
+      "author": "@서민준-r3r",
+      "text": "4년 동안 섭외하고 싶었다면서 어떻게 제목이 \"리센느 어떻게 섭외했는지 묻다.\"ㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "like_count": 500
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@둔둔이-d5k",
+      "text": "오리지널 곡으로 1위 해서 더 뜻깊을 거 같아요 축하해요 리센느 리마인들!!",
+      "like_count": 480
+    },
+    {
+      "video_link": "https://www.youtube.com/shorts/yuTme7lLho4",
+      "video_title": "에베베벱베 😝",
+      "author": "@Rehamots",
+      "text": "1위 가수도 저렇게 열심히 사는데 내가 뭐라고 일요일에 늦잠을 잤을까.....ㅠㅠ",
+      "like_count": 455
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bmLaavZCiN8",
+      "video_title": "[Full] 리센느 RESCENE / 원유니버스페스티벌 260725 @인천 파라다이스시티",
+      "author": "@까까미미감자-e1n",
+      "text": "리센느 방금 음중1위~~~축하해~~~~~좋아눌러~~~~ㅊㅋㅊㅋ",
+      "like_count": 444
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bmLaavZCiN8",
+      "video_title": "[Full] 리센느 RESCENE / 원유니버스페스티벌 260725 @인천 파라다이스시티",
+      "author": "@치바오피셜",
+      "text": "공중파 MBC 쇼음악중심   1위❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤",
+      "like_count": 419
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@jojojop1898",
+      "text": "선미 리센느 1위 되니까 옆에서 방방 뛰는거ㅋㅋㅋㅋㅋㅋㅋ 리센느 멤버인줄 알았음... 정말 선미 마음 내 마음이다... 온 세상이 리센느야",
+      "like_count": 413
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=F_hwM58VVUI",
+      "video_title": "[한글자막] 존박에게 리센느 어떻게 섭외했냐고 묻다",
+      "author": "@ro3401",
+      "text": "이젠 \"리센느\" 글자만 들어가면 다 눌러봄 이거 병인가요?",
+      "like_count": 406
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=MSPLKSR0cNU",
+      "video_title": "[4K] Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@암어메스코리아",
+      "text": "데자부 무대 4K로 찍어준 인기가요 감사 한입",
+      "like_count": 405
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bmLaavZCiN8",
+      "video_title": "[Full] 리센느 RESCENE / 원유니버스페스티벌 260725 @인천 파라다이스시티",
+      "author": "@nicelee2299",
+      "text": "원이야 리더라 아파도 꾹참고 버텨내는구나 날도더운데 스케쥴소화한다고 고생이 많구나\n리센느 멤버들 모두 밥잘챙겨먹고틈틈히 휴식취하면서 활동하자\n조금만 더 버티다보면 언젠가 다가올 탑오브탑이 다가오고있을꺼다",
+      "like_count": 389
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=PB_LhQF56S4",
+      "video_title": "[SUB] Hello, We’re RESCENE! Nice to Meet You! | ZIP DAESUNG ep.117 RESCENE",
+      "author": "@R21-b11",
+      "text": "대성도 참 좋은 사람이다. 가오잡거나 꼰대스럽게 하는 거 1도 없이, 한참 후배를 정말 귀한 게스트로 유쾌하게 대접해주는 모습이 보기 좋음.\n더욱이 대한민국 아이돌 역사의 전설로 남을 '빅뱅' 멤버가 이렇게 격없이 대해주고 진행을 보니 더 대단하게 느껴짐!",
+      "like_count": 386
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=MbCT-UmVNMw",
+      "video_title": "[우쥬레코드] RESCENE 미나미, 제나 with 윤하 | 혜성, 늦은 후회, 행복한 나를, Pretty Girl | WOULD YOU RECORD (ENG/JPN)",
+      "author": "@MnetM2",
+      "text": "🎵 0:00 [우쥬레코드] RESCENE 미나미, 제나 편\r\n🎵 5:55 혜성 (원곡: 윤하 (YOUNHA))\r\n🎵 10:55 늦은 후회 (원곡: 보보)\r\n🎵 23:20 행복한 나를 (원곡: 에코 (ECO))\r\n🎵 29:06 리센느 메들리 (Cotton Candy / New World / Mood / CRASH)\r\n🎵 34:17 Pretty Girl (원곡: RESCENE (리센느))",
+      "like_count": 372
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=F_hwM58VVUI",
+      "video_title": "[한글자막] 존박에게 리센느 어떻게 섭외했냐고 묻다",
+      "author": "@오늘하루는종일맑음",
+      "text": "박존 이제 너도 리센느다",
+      "like_count": 358
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
+      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
+      "author": "@나이키-x2r",
+      "text": "하라야 오늘 프리티걸 공중파 1등했다..너도 좋았으면 좋겠어",
+      "like_count": 343
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=F_hwM58VVUI",
+      "video_title": "[한글자막] 존박에게 리센느 어떻게 섭외했냐고 묻다",
+      "author": "@long-qn3vw",
+      "text": "리센느가 출연한건 아니지만 리센느를 언급해주셨기 때문에 이것도 봐주겠습니다",
+      "like_count": 343
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=L16ezTKcwrY",
+      "video_title": "1화보다 더 재밌을걸?😆 리센느의 스릴 넘치는 여름휴가 보러 오이데~⭐️ [4K] | My Daytrip to Jeongseon Ep 02. #리센느 #rescene #마이데이트립",
+      "author": "@mysteryoh9585",
+      "text": "9:44 메이 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ말은해야겠고 속도는 무섭고  읋흥얏흘글르륽~ \nㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "like_count": 341
+    },
+    {
+      "video_link": "https://www.youtube.com/shorts/igJq3rvLld8",
+      "video_title": "멜빵 애햄이 등장이요 💙",
+      "author": "@JS-wd1kh",
+      "text": "프리티걸 애햄이 끝나지 말아줘ㅠㅠ 너무 좋다",
+      "like_count": 309
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
+      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
+      "author": "@FIGO99-o2s",
+      "text": "니콜누나 18년만에 프리티걸 공중파 1위했다 ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ 고맙다 \n리센느 축하해",
+      "like_count": 307
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bmLaavZCiN8",
+      "video_title": "[Full] 리센느 RESCENE / 원유니버스페스티벌 260725 @인천 파라다이스시티",
+      "author": "@Nyong___",
+      "text": "3개월 전만해도 저희 누군지 아세요? 라던 그룹이 이제는 런어웨이가 뭔지 아세요? 라고 물어보면 네~ 라고 대답한다니 ㅠㅠㅠㅠㅠㅠㅠㅠ 즐겨라 애들아!!!",
+      "like_count": 296
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@MwoMwa-lg8fy",
+      "text": "김덕연, 박은미, 미치루 여사님들께도 감사...\n메이랑 리브 어머니 성함은 차차 알게되겠지요",
+      "like_count": 283
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=MbCT-UmVNMw",
+      "video_title": "[우쥬레코드] RESCENE 미나미, 제나 with 윤하 | 혜성, 늦은 후회, 행복한 나를, Pretty Girl | WOULD YOU RECORD (ENG/JPN)",
+      "author": "@15786",
+      "text": "미나미는 진짜 보물이다.. 음색이며 감정몰입력 가창력 다...",
+      "like_count": 281
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@Shooshoobahnah",
+      "text": "와 앵콜직캠 조회수가 30만다되어 가네 ㄷㄷㄷ\n리센느 파워진짜 쩐다",
+      "like_count": 274
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
+      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
+      "author": "@임건영-m5h",
+      "text": "1위 축하!!! 니콜 선배니무 관리 보소 ㄷㄷ 전혀 안 밀리시네잉",
+      "like_count": 268
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
+      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
+      "author": "@mrq1245",
+      "text": "중소돌의 기적 여기서 마지막이 아니라고 봅니다. 리센느 확실히 다르다고 봅니다. 더 대박날 리센느 입니다. 100%",
+      "like_count": 261
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
+      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@딥뿌-j6v",
+      "text": "공중파에서\n한 주에 역주행 정주행 동시 1위 ㄷㄷ",
+      "like_count": 257
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=MSPLKSR0cNU",
+      "video_title": "[4K] Deja Vu - RESCENE (리센느) | SBS 260726 방송",
+      "author": "@helloiamggugguggunicetomeetyou",
+      "text": "7월 아이돌 브랜드평판 1위(리센느)\n7월 걸그룹 브랜드평판 1위(리센느)\n7월 아이돌 개인 브랜드평판 1위(원이)\n음악중심 1위\n인기가요 1위\n더쇼 1위\n멜론 TOP100 1위\n\n이 백성 1위 가수님을 뵙습니다",
+      "like_count": 254
+    },
+    {
+      "video_link": "https://www.youtube.com/shorts/yuTme7lLho4",
+      "video_title": "에베베벱베 😝",
+      "author": "@샤우팅박명수",
+      "text": "미치겠다 미나미 왜이러시는거에요ㅋㅋㅋㅋㅋㅋ",
+      "like_count": 249
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
+      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
+      "author": "@SVTmcarat0526",
+      "text": "진짜 비하인드 빨리 올려주네..편집자님 속도 보소..",
+      "like_count": 245
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
+      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
+      "author": "@hwadong486",
+      "text": "1위 Attack 해버렸네ㄷㄷㄷㄷ😂",
+      "like_count": 237
     }
   ]
 };
