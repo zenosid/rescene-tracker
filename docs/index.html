@@ -404,6 +404,22 @@
     margin: 30px 0 12px;
     font-family: 'JetBrains Mono', monospace;
   }
+  section.block-title:first-child { margin-top: 0; }
+
+  .link-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+  .link-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .link-card .link-icon { font-size: 16px; }
+  .link-card:hover { color: var(--aurora-cyan); }
+  .link-empty { color: var(--text-faint); font-size: 13px; padding: 4px 0 20px; }
 
   footer {
     text-align: center;
@@ -489,6 +505,7 @@
     <button class="tab-btn" data-tab="chart">📊 차트</button>
     <button class="tab-btn" data-tab="schedule">📅 스케줄</button>
     <button class="tab-btn" data-tab="favorites">⭐ 즐겨찾기</button>
+    <button class="tab-btn" data-tab="links">🔗 링크</button>
     <button class="tab-btn" data-tab="about">ℹ️ 안내</button>
   </nav>
 
@@ -528,6 +545,11 @@
       </span>
     </div>
     <div id="favoritesContent"></div>
+  </div>
+
+  <!-- ══════════════ 링크 모음 ══════════════ -->
+  <div class="view" id="view-links">
+    <div id="linksContent"></div>
   </div>
 
   <!-- ══════════════ 안내 ══════════════ -->

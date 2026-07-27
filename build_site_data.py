@@ -14,7 +14,7 @@ import os
 from collections import defaultdict
 from datetime import datetime
 
-from config import SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES
+from config import SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS
 from db import init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule
 from chart_tracker import get_latest_all
 from classify import classify_members, classify_category
@@ -144,6 +144,7 @@ def main():
         "archive": build_archive(),
         "chart": build_chart(),
         "schedule": build_schedule(),
+        "links": LINK_COLLECTIONS,
     }
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write("const SITE_DATA = ")

@@ -18,7 +18,7 @@ from datetime import datetime
 
 from bs4 import BeautifulSoup
 
-from config import MNET_PLUS_ENV, MNET_PLUS_ARTIST_SLUG
+from config import MNET_PLUS_ENV, MNET_PLUS_ARTIST_SLUG, MNET_PLUS_MONTHS_AHEAD
 from db import init_db, get_conn, insert_official_schedule
 from kst import now_kst
 
@@ -87,27 +87,35 @@ def _parse_month_html(html):
 
 
 def collect_official_schedule():
-    """이번 달 + 다음 달 공식 스케줄을 가져와서 DB에 저장."""
+    """이번 달부터 MNET_PLUS_MONTHS_AHEAD개월 뒤까지 공식 스케줄을 가져와서 DB에 저장."""
     init_db()
     today = now_kst().date()
-    months_to_fetch = [(today.year, today.month)]
-    next_month = today.month + 1
-    next_year = today.year
-    if next_month > 12:
-        next_month, next_year = 1, next_year + 1
-    months_to_fetch.append((next_year, next_month))
+
+    months_to_fetch = []
+    year, month = today.year, today.month
+    for _ in range(MNET_PLUS_MONTHS_AHEAD + 1):  # 이번 달 포함
+        months_to_fetch.append((year, month))
+        month += 1
+        if month > 12:
+            month, year = 1, year + 1
 
     new_count = 0
+    consecutive_empty = 0
     with get_conn() as conn:
         for year, month in months_to_fetch:
             try:
                 html = _fetch_month_html(year, month)
             except Exception as e:
                 print(f"  [경고] {year}-{month:02d} 페이지 로딩 실패: {e}")
+                consecutive_empty += 1
+                if consecutive_empty >= 2:
+                    print("  연속 2개월 조회 실패라 이후 달은 건너뜁니다 (다음 실행에서 재시도).")
+                    break
                 continue
 
             events = _parse_month_html(html)
             print(f"  {year}-{month:02d}: {len(events)}건 발견")
+            consecutive_empty = consecutive_empty + 1 if len(events) == 0 else 0
             for ev in events:
                 dedup_key = f"{ev['date']}|{ev['title']}|{ev['time_text']}"
                 is_new = insert_official_schedule(
@@ -116,6 +124,13 @@ def collect_official_schedule():
                 if is_new:
                     new_count += 1
                     print(f"    [신규] {ev['date']} {ev['time_text']} - {ev['title']}")
+
+            # 아직 일정이 안 잡힌 먼 미래 달이 연속으로 비어있으면 굳이 더 안 봐도 됨
+            # (그래도 최소 몇 달은 항상 확인하도록 위에서 이미 목록을 다 만들어뒀음)
+            if consecutive_empty >= 3:
+                print("  연속 3개월간 일정이 없어 이후 달 조회를 생략합니다.")
+                break
+
     print(f"\n공식 스케줄 신규 {new_count}건")
     return new_count
 

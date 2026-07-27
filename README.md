@@ -106,6 +106,7 @@ rescene_tracker/
 - `CATEGORY_KEYWORDS` — 음악방송/MV/Live 등 자동 분류 키워드
 - `SCHEDULE_ITEMS` — 확실한 일정 수동 등록 (공식 자동 수집보다 더 신뢰)
 - `MNET_PLUS_ARTIST_SLUG` — 공식 스케줄을 가져올 Mnet Plus 아티스트 페이지 슬러그
+- `MNET_PLUS_MONTHS_AHEAD` — 이번 달 포함해서 앞으로 몇 개월치를 가져올지 (기본 6개월 뒤까지, 총 7개월)
 
 콜라보 채널은 이제 두 가지 경로로 잡힙니다: ① `COLLAB_CHANNELS`에 등록한 채널은
 조회수 상관없이 항상, ② 등록하지 않은 채널이라도 "리센느" 검색 결과에서 조회수

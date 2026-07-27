@@ -60,9 +60,31 @@ NEWS_RSS_FEEDS = [
     },
 ]
 
-# ── 인스타그램 (자동 수집 대신 수동 확인용 링크만) ──────────────────
-INSTAGRAM_LINKS = [
-    {"name": "RESCENE 공식 인스타그램", "url": "https://www.instagram.com/rescene_official/"},
+# ── 링크 모음 ────────────────────────────────────────────────
+# 카페 공지·팬튜브 채널·공식 계정 등을 카테고리별로 정리해서 "🔗 링크" 탭에 보여줍니다.
+# 얼마든지 카테고리/항목을 추가하셔도 됩니다.
+LINK_COLLECTIONS = [
+    {
+        "category": "공식 계정",
+        "items": [
+            {"name": "RESCENE 공식 인스타그램", "url": "https://www.instagram.com/rescene_official/"},
+            {"name": "RESCENE 공식 유튜브", "url": "https://www.youtube.com/channel/UCtKtCiaWRz-d3EZn2xd1mdA"},
+            # {"name": "RESCENE 공식 X(트위터)", "url": "https://x.com/..."},
+            # {"name": "RESCENE 공식 팬카페", "url": "https://cafe.naver.com/..."},
+        ],
+    },
+    {
+        "category": "커뮤니티",
+        "items": [
+            # {"name": "네이버 팬카페 '리시안셔스'", "url": "https://cafe.naver.com/..."},
+        ],
+    },
+    {
+        "category": "팬튜브",
+        "items": [
+            # {"name": "채널명", "url": "https://www.youtube.com/@..."},
+        ],
+    },
 ]
 
 # ── 차트 추적 ───────────────────────────────────────────────────
@@ -91,6 +113,8 @@ SCHEDULE_ITEMS = [
 # 부하를 줄이기 위해 이 부분만 6시간마다(뉴스/차트보다 낮은 빈도) 갱신됩니다.
 MNET_PLUS_ENV = "stg"
 MNET_PLUS_ARTIST_SLUG = "rescene-official"
+# 이번 달 포함해서 몇 달치를 미리 가져올지 (예: 6이면 이번 달 + 앞으로 6개월 = 총 7개월)
+MNET_PLUS_MONTHS_AHEAD = 6
 
 # ── 배포 정보 ────────────────────────────────────────────────
 # GitHub Pages로 배포할 때 실제 주소로 바꿔주세요 (예: https://아이디.github.io/저장소명/)

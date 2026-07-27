@@ -88,6 +88,7 @@ document.querySelectorAll(".tab-btn").forEach((btn) => {
     btn.classList.add("active");
     document.getElementById("view-" + btn.dataset.tab).classList.add("active");
     if (btn.dataset.tab === "favorites") renderFavorites();
+    if (btn.dataset.tab === "links") renderLinks();
   });
 });
 
@@ -268,6 +269,42 @@ function renderFavorites() {
   grid.className = "item-grid";
   favItems.forEach((item) => grid.appendChild(buildItemCard(item)));
   container.appendChild(grid);
+}
+
+// ── 링크 모음 렌더링 ─────────────────────────────────────────
+function renderLinks() {
+  const container = document.getElementById("linksContent");
+  container.innerHTML = "";
+
+  const collections = SITE_DATA.links || [];
+  const hasAny = collections.some((c) => c.items && c.items.length > 0);
+
+  if (!hasAny) {
+    container.innerHTML = `<div class="empty-state">등록된 링크가 없습니다.<br/>config.py의 LINK_COLLECTIONS에 추가해주세요.</div>`;
+    return;
+  }
+
+  collections.forEach((col) => {
+    if (!col.items || col.items.length === 0) return;
+
+    const title = document.createElement("section");
+    title.className = "block-title";
+    title.textContent = col.category;
+    container.appendChild(title);
+
+    const grid = document.createElement("div");
+    grid.className = "link-grid";
+    col.items.forEach((item) => {
+      const a = document.createElement("a");
+      a.className = "card link-card";
+      a.href = item.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.innerHTML = `<span class="link-icon">🔗</span><span>${escapeHtml(item.name)}</span>`;
+      grid.appendChild(a);
+    });
+    container.appendChild(grid);
+  });
 }
 
 // ── 차트 렌더링 ───────────────────────────────────────────
