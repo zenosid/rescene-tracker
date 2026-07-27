@@ -80,7 +80,7 @@ python -m playwright install chromium
 
 ## 4. 화면 구성
 
-- **🗂️ 아카이브**: 날짜별로 묶은 유튜브(공식/콜라보)·뉴스. 소스·카테고리·멤버별
+- **🗂️ 아카이브**: 날짜별로 묶은 유튜브(공식/콜라보)·뉴스(구글+네이버). 소스·카테고리·멤버별
   필터, 각 카드에 즐겨찾기·공유 버튼.
 - **📊 차트**: 멜론·지니·벅스·플로 + Spotify·Shazam·YouTube·Apple Music(각 KR/US/JP)
   실시간 순위 + 전 회차 대비 변동(▲▼NEW). 총 16개 플랫폼.
@@ -106,7 +106,20 @@ python -m playwright install chromium
 
 키를 설정 안 하면 이 기능만 조용히 건너뛰고 나머지는 그대로 작동합니다.
 
-## 6. 폴더 구조
+## 6. 네이버 뉴스 검색 기능 켜기 — 선택사항
+
+구글 뉴스 RSS 외에 네이버 뉴스도 같이 수집하고 싶으면 네이버 오픈 API가 필요합니다 (무료).
+
+1. [네이버 개발자센터](https://developers.naver.com/apps/#/register)에서 애플리케이션 등록
+2. 사용 API에서 **검색** 체크
+3. 비로그인 오픈 API 서비스 환경 → WEB 설정 → URL에 `http://localhost` 입력
+4. 등록 후 발급되는 **Client ID**, **Client Secret** 확인
+5. **배포용**: 저장소 Secrets에 `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` 각각 등록
+6. **로컬 테스트용**: `$env:NAVER_CLIENT_ID="..."`, `$env:NAVER_CLIENT_SECRET="..."`
+
+역시 키가 없으면 이 기능만 건너뛰고 구글 뉴스 수집은 그대로 작동합니다.
+
+## 7. 폴더 구조
 
 ```
 rescene_tracker/
@@ -134,7 +147,7 @@ rescene_tracker/
     └── og-image.png                    # 공유 미리보기 카드 이미지
 ```
 
-## 7. 커스터마이징 (`config.py`)
+## 8. 커스터마이징 (`config.py`)
 
 - `YOUTUBE_CHANNELS` — 공식/준공식 채널 (전체 영상 수집)
 - `COLLAB_CHANNELS` — 반드시 챙기고 싶은 콜라보 채널 (조회수 상관없이 항상 수집)
@@ -150,13 +163,14 @@ rescene_tracker/
   — 각 플랫폼별로 차트를 가져올 국가 코드 목록 (기본: kr, us, jp)
 - `YOUTUBE_COMMENTS_MAX_VIDEOS` / `YOUTUBE_COMMENTS_PER_VIDEO` — 팬 반응용으로
   최근 영상 몇 개, 영상당 댓글 몇 개까지 가져올지
+- `NAVER_NEWS_QUERIES` / `NAVER_NEWS_MAX_RESULTS` — 네이버 뉴스 검색어와 검색어당 최대 건수
 
 콜라보 채널은 이제 두 가지 경로로 잡힙니다: ① `COLLAB_CHANNELS`에 등록한 채널은
 조회수 상관없이 항상, ② 등록하지 않은 채널이라도 "리센느" 검색 결과에서 조회수
 10만 이상이면 자동으로. 둘 다 공식 채널(YOUTUBE_CHANNELS)과 겹치는 영상은
 채널 ID 기준으로 정확히 제외해서 중복 없이 수집됩니다.
 
-## 8. 알아두어야 할 제약
+## 9. 알아두어야 할 제약
 
 - **차트**: 멜론·지니·벅스 공개 페이지를 저빈도 조회합니다. 사이트 구조가
   바뀌면 파싱이 깨질 수 있습니다.

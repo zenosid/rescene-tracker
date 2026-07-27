@@ -5,6 +5,7 @@ API 키가 전혀 필요 없는 무료 수집 단계입니다.
 
 실행: python collector.py
 """
+import os
 import re
 import json
 import feedparser
@@ -14,6 +15,7 @@ from datetime import datetime, timezone, timedelta
 from config import (
     YOUTUBE_CHANNELS, NEWS_RSS_FEEDS, COLLAB_CHANNELS,
     CHART_KEYWORDS, MEMBER_KEYWORDS, SEARCH_QUERIES, SEARCH_MIN_VIEWS,
+    NAVER_NEWS_QUERIES, NAVER_NEWS_MAX_RESULTS,
 )
 from db import init_db, get_conn, insert_item, get_recent_items, insert_auto_schedule
 from schedule_extractor import extract_schedule_candidates
@@ -238,6 +240,69 @@ def collect_news(conn):
     return new_count
 
 
+_NAVER_TAG_RE = re.compile(r"</?b>")
+
+
+def _strip_naver_tags(text):
+    """네이버 검색 API 응답은 검색어를 <b>태그</b>로 감싸서 줌 - 제거."""
+    return _NAVER_TAG_RE.sub("", text or "")
+
+
+def _naver_pubdate_to_iso(pub_date_text):
+    """'Mon, 27 Jul 2026 10:00:00 +0900' 형식을 UTC ISO로 변환."""
+    try:
+        from email.utils import parsedate_to_datetime
+
+        dt = parsedate_to_datetime(pub_date_text)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc).isoformat()
+    except Exception:
+        return datetime.now(timezone.utc).isoformat()
+
+
+def collect_naver_news(conn):
+    """
+    네이버 공식 검색 API(오픈 API)로 뉴스를 가져옵니다. 키가 없으면 조용히 건너뜁니다.
+    """
+    client_id = os.environ.get("NAVER_CLIENT_ID")
+    client_secret = os.environ.get("NAVER_CLIENT_SECRET")
+    if not client_id or not client_secret:
+        print("NAVER_CLIENT_ID/SECRET이 설정되어 있지 않아 네이버 뉴스 수집을 건너뜁니다.")
+        return 0
+
+    headers = {
+        "X-Naver-Client-Id": client_id,
+        "X-Naver-Client-Secret": client_secret,
+    }
+    new_count = 0
+    for query in NAVER_NEWS_QUERIES:
+        try:
+            r = requests.get(
+                "https://openapi.naver.com/v1/search/news.json",
+                headers=headers,
+                params={"query": query, "display": NAVER_NEWS_MAX_RESULTS, "sort": "date"},
+                timeout=15,
+            )
+            r.raise_for_status()
+        except requests.RequestException as e:
+            print(f"  [경고] 네이버 뉴스 검색 실패 ({query}): {e}")
+            continue
+
+        for item in r.json().get("items", []):
+            title = _strip_naver_tags(item.get("title", "(제목 없음)"))
+            link = item.get("originallink") or item.get("link", "")
+            snippet = _strip_naver_tags(item.get("description", ""))[:500]
+            published_at = _naver_pubdate_to_iso(item.get("pubDate", ""))
+            if not link:
+                continue
+            is_new = insert_item(conn, "news", "네이버 뉴스", title, link, published_at, snippet)
+            if is_new:
+                new_count += 1
+                print(f"  [신규/네이버뉴스] {title}")
+    return new_count
+
+
 def collect_auto_schedule(conn):
     """이미 수집된 뉴스 전체를 스캔해서 일정 후보를 추출 (중복은 UNIQUE 제약으로 자동 방지)."""
     news_items = [i for i in get_recent_items(conn, limit=1000) if i["source_type"] == "news"]
@@ -262,14 +327,17 @@ def run_collection():
         collab_new = collect_collab(conn)
         print("유튜브(콜라보-검색발견) 수집 중...")
         search_new = collect_collab_by_search(conn)
-        print("뉴스 수집 중...")
+        print("뉴스(구글) 수집 중...")
         news_new = collect_news(conn)
+        print("뉴스(네이버) 수집 중...")
+        naver_news_new = collect_naver_news(conn)
         print("뉴스에서 일정 추정 중...")
         schedule_new = collect_auto_schedule(conn)
-    total = yt_new + collab_new + search_new + news_new
+    total = yt_new + collab_new + search_new + news_new + naver_news_new
     print(
         f"\n완료: 신규 {total}건 "
-        f"(공식 {yt_new} / 콜라보-등록 {collab_new} / 콜라보-검색 {search_new} / 뉴스 {news_new}) "
+        f"(공식 {yt_new} / 콜라보-등록 {collab_new} / 콜라보-검색 {search_new} / "
+        f"뉴스-구글 {news_new} / 뉴스-네이버 {naver_news_new}) "
         f"· 추정 일정 {schedule_new}건"
     )
     return total

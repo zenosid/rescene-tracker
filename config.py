@@ -49,7 +49,7 @@ CATEGORY_KEYWORDS = {
 }
 
 
-# ── 뉴스 RSS ────────────────────────────────────────────────────
+# ── 뉴스 RSS (구글) ─────────────────────────────────────────────
 NEWS_RSS_FEEDS = [
     {
         "name": "구글 뉴스 - 리센느",
@@ -60,6 +60,15 @@ NEWS_RSS_FEEDS = [
         "url": "https://news.google.com/rss/search?q=RESCENE+%EA%B0%80%EC%88%98&hl=ko&gl=KR&ceid=KR:ko",
     },
 ]
+
+# ── 뉴스 (네이버, 공식 검색 API 필요) ─────────────────────────────
+# 네이버 개발자센터(developers.naver.com)에서 앱 등록 후 Client ID/Secret 발급.
+# 보안을 위해 이 파일에 직접 적지 말고 환경변수로 설정해주세요:
+#   로컬:  $env:NAVER_CLIENT_ID="...", $env:NAVER_CLIENT_SECRET="..." (PowerShell)
+#   배포:  저장소 Settings → Secrets and variables → Actions에 각각 등록
+# 키가 없으면 이 기능은 조용히 건너뜁니다 (구글 뉴스 수집엔 영향 없음).
+NAVER_NEWS_QUERIES = ["리센느", "RESCENE"]
+NAVER_NEWS_MAX_RESULTS = 20  # 검색어당 최대 몇 건
 
 # ── 링크 모음 ────────────────────────────────────────────────
 # 카페 공지·팬튜브 채널·공식 계정 등을 카테고리별로 정리해서 "🔗 링크" 탭에 보여줍니다.
@@ -148,7 +157,7 @@ MNET_PLUS_MONTHS_AHEAD = 6
 SITE_URL = "https://zenosid.github.io/rescene-tracker/"
 
 # 카페 등에 안내할 운영자 연락처 (문의/삭제 요청용). 원하시는 값으로 바꿔주세요.
-OPERATOR_CONTACT = "네이버 카페 리시안셔스 '첸드' 쪽지"
+OPERATOR_CONTACT = "네이버 카페 '리시안셔스' 쪽지"
 
 # GitHub Actions가 몇 분마다 자동 갱신하는지 (표시용 텍스트와 워크플로 cron이
 # 실제로 일치하도록 .github/workflows/refresh.yml의 cron도 함께 맞춰주세요)
