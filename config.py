@@ -70,25 +70,29 @@ LINK_COLLECTIONS = [
         "items": [
             {"name": "RESCENE 공식 인스타그램", "url": "https://www.instagram.com/rescene_official/"},
             {"name": "RESCENE 공식 유튜브", "url": "https://www.youtube.com/channel/UCtKtCiaWRz-d3EZn2xd1mdA"},
-            # {"name": "RESCENE 공식 X(트위터)", "url": "https://x.com/..."},
+            {"name": "RESCENE 공식 X(트위터)", "https://x.com/RESCENEofficial?s=20"},
+            {"name": "RESCENE 공식 멤버 X(트위터)", "https://x.com/RESCENE_twt?s=20"},
+            {"name": "RESCENE 공식 악플 신고", "https://themuze.kr/protect"},
             # {"name": "RESCENE 공식 팬카페", "url": "https://cafe.naver.com/..."},
         ],
     },
     {
         "category": "커뮤니티",
         "items": [
-            # {"name": "네이버 팬카페 '리시안셔스'", "url": "https://cafe.naver.com/..."},
+            {"name": "네이버 팬카페 '리시안셔스'", "url": "https://cafe.naver.com/re5cene"},
         ],
     },
     {
         "category": "팬튜브",
         "items": [
-            # {"name": "채널명", "url": "https://www.youtube.com/@..."},
+            {"name": "르센느 아니고 리센느", "url": "https://youtube.com/channel/UCfd9mp2QKKprT1Iwt_2Jhng?si=zTtCEXDcSt2S7gGO"},
+            {"name": "리센느서치P", "url": "https://youtube.com/channel/UCkQ_VWRV5xw4HJOQqaucIHg?si=TSkbFCEMHNr7lRgq"},
         ],
     },
     {
         "category": "기타",
         "items": [
+            {"name": "리센느 영상 모음", "url": "https://adam-yam.github.io/SCENE-FLIX/?tab=allvideos"},
             {"name": "리센느 얼굴 맞추기", "url": "https://rescenehertz.github.io/rescene-face-game/"},
             {"name": "메이즈러너", "url": "https://twilight-dream-ed96.sparkeredm.workers.dev/"},
         ],
