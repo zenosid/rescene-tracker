@@ -25,16 +25,30 @@ EVENT_KEYWORDS = [
     ("생방송", "방송"),
     ("출연", "방송"),
     ("공연", "공연"),
+    ("출격", "행사"),
+    # 아래 둘은 다른 키워드보다 범용적이라 맨 뒤에 둡니다 (다른 키워드가 먼저 매칭되면 그걸 우선)
+    ("확정", "행사"),
+    ("예정", "행사"),
 ]
 
+# 이 뒤에 나오면 "안 한다/못 한다"는 뜻이라 스케줄로 잡으면 안 되는 경우들
+# (예: "출연없이 1위" = 방송에 안 나왔다는 뜻이지 출연 예정이라는 뜻이 아님)
+_NEGATION_SUFFIXES = ["없이", "없는", "없다", "안 ", "무산", "취소", "불참", "못 "]
+
 _FULL_DATE_RE = re.compile(r"(\d{1,2})\s*월\s*(\d{1,2})\s*일")
+_NUMERIC_DATE_RE = re.compile(r"(?<!\d)(\d{1,2})[./](\d{1,2})(?!\d)")
 _DAY_ONLY_RE = re.compile(r"(\d{1,2})\s*일")
 
 
 def _match_event_type(text):
     for keyword, event_type in EVENT_KEYWORDS:
-        if keyword in text:
-            return event_type, keyword
+        idx = text.find(keyword)
+        if idx == -1:
+            continue
+        after = text[idx + len(keyword): idx + len(keyword) + 4]
+        if any(after.startswith(neg) for neg in _NEGATION_SUFFIXES):
+            continue  # 부정형 표현이므로 이 키워드는 건너뛰고 다음 후보 키워드로
+        return event_type, keyword
     return None, None
 
 
@@ -88,9 +102,15 @@ def extract_schedule_candidates(news_items, today=None):
         if m_full:
             event_date = _resolve_full_date(int(m_full.group(1)), int(m_full.group(2)), today)
         else:
-            m_day = _DAY_ONLY_RE.search(text)
-            if m_day:
-                event_date = _resolve_day_only(int(m_day.group(1)), today)
+            m_numeric = _NUMERIC_DATE_RE.search(text)
+            if m_numeric:
+                month, day = int(m_numeric.group(1)), int(m_numeric.group(2))
+                if 1 <= month <= 12 and 1 <= day <= 31:
+                    event_date = _resolve_full_date(month, day, today)
+            if not event_date:
+                m_day = _DAY_ONLY_RE.search(text)
+                if m_day:
+                    event_date = _resolve_day_only(int(m_day.group(1)), today)
 
         if not event_date:
             continue
