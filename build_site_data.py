@@ -15,7 +15,7 @@ from collections import defaultdict
 from datetime import datetime
 
 from config import SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS
-from db import init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule, get_previous_ranks
+from db import init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule, get_previous_ranks, get_recent_fan_reactions
 from chart_tracker import get_latest_all
 from classify import classify_members, classify_category
 from kst import now_kst, to_kst
@@ -150,6 +150,21 @@ def build_schedule():
     return {"upcoming": upcoming, "past": past}
 
 
+def build_fan_reactions():
+    with get_conn() as conn:
+        rows = get_recent_fan_reactions(conn, limit=100)
+    return [
+        {
+            "video_link": r["video_link"],
+            "video_title": r["video_title"],
+            "author": r["author"],
+            "text": r["text"],
+            "like_count": r["like_count"],
+        }
+        for r in rows
+    ]
+
+
 def main():
     init_db()
     data = {
@@ -160,6 +175,7 @@ def main():
         "chart": build_chart(),
         "schedule": build_schedule(),
         "links": LINK_COLLECTIONS,
+        "fan_reactions": build_fan_reactions(),
     }
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write("const SITE_DATA = ")
@@ -168,7 +184,8 @@ def main():
     total_archive = sum(len(d["items"]) for d in data["archive"])
     print(f"data.js 생성 완료: 아카이브 {total_archive}건, "
           f"차트 {sum(len(v) for v in data['chart'].values())}건, "
-          f"스케줄 {len(data['schedule']['upcoming'])}건(예정)")
+          f"스케줄 {len(data['schedule']['upcoming'])}건(예정), "
+          f"팬반응 {len(data['fan_reactions'])}건")
 
 
 if __name__ == "__main__":

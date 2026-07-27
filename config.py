@@ -116,6 +116,16 @@ KWORB_SPOTIFY_COUNTRIES = ["kr", "us", "jp"]
 KWORB_SHAZAM_COUNTRIES = ["kr", "us", "jp"]
 KWORB_YOUTUBE_COUNTRIES = ["kr", "us", "jp"]
 
+# ── 팬 반응 (유튜브 댓글, 공식 API 필요) ──────────────────────────
+# YouTube Data API v3 키가 필요합니다 (무료, Google Cloud Console에서 발급).
+# 보안을 위해 이 파일에 직접 적지 말고 환경변수로 설정해주세요:
+#   로컬:  $env:YOUTUBE_API_KEY="여기에_키"  (PowerShell)
+#   배포:  저장소 Settings → Secrets and variables → Actions → New repository secret
+#          이름: YOUTUBE_API_KEY
+# 키가 없으면 이 기능은 조용히 건너뜁니다 (다른 기능엔 영향 없음).
+YOUTUBE_COMMENTS_MAX_VIDEOS = 15  # 최근 영상 몇 개까지 댓글을 확인할지
+YOUTUBE_COMMENTS_PER_VIDEO = 15   # 영상당 댓글 몇 개까지 가져올지 (인기순)
+
 # ── 스케줄 (수동 관리, 최우선 신뢰) ──────────────────────────────
 # 자동 수집(공식/추정)보다 우선하고 싶은 확실한 정보가 있으면 여기에 직접 추가.
 # date는 'YYYY-MM-DD' 형식, type은 자유롭게 (방송/라디오/행사/팬사인회/공연 등)
@@ -138,7 +148,7 @@ MNET_PLUS_MONTHS_AHEAD = 6
 SITE_URL = "https://zenosid.github.io/rescene-tracker/"
 
 # 카페 등에 안내할 운영자 연락처 (문의/삭제 요청용). 원하시는 값으로 바꿔주세요.
-OPERATOR_CONTACT = "네이버 카페 리시안셔스'첸드' 쪽지"
+OPERATOR_CONTACT = "네이버 카페 '리시안셔스' 쪽지"
 
 # GitHub Actions가 몇 분마다 자동 갱신하는지 (표시용 텍스트와 워크플로 cron이
 # 실제로 일치하도록 .github/workflows/refresh.yml의 cron도 함께 맞춰주세요)

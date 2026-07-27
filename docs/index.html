@@ -252,6 +252,7 @@
   .chip.on[data-chip="youtube_collab"] { background: var(--aurora-mint); }
   .chip.on[data-chip="news"] { background: var(--aurora-amber); }
   .chip.on[data-member] { background: var(--grad-primary); }
+  .chip.on[data-category] { background: var(--aurora-cyan); }
 
   /* ── 아카이브 ─────────────────────────────────────────── */
   .date-group { margin-bottom: 36px; }
@@ -434,6 +435,31 @@
   .link-card:hover { color: var(--aurora-cyan); }
   .link-empty { color: var(--text-faint); font-size: 13px; padding: 4px 0 20px; }
 
+  /* ── 팬 반응 ──────────────────────────────────────────── */
+  .reaction-card { padding: 15px 18px; margin-bottom: 10px; }
+  .reaction-video {
+    font-size: 12px;
+    color: var(--text-faint);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  .reaction-video:hover { color: var(--aurora-cyan); }
+  .reaction-text { font-size: 14px; color: var(--text-primary); line-height: 1.6; }
+  .reaction-meta {
+    margin-top: 8px;
+    font-size: 11.5px;
+    color: var(--text-faint);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .reaction-like {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--aurora-pink);
+    font-weight: 700;
+  }
+
   footer {
     text-align: center;
     padding: 40px 0 10px;
@@ -519,6 +545,7 @@
     <button class="tab-btn" data-tab="schedule">📅 스케줄</button>
     <button class="tab-btn" data-tab="favorites">⭐ 즐겨찾기</button>
     <button class="tab-btn" data-tab="links">🔗 링크</button>
+    <button class="tab-btn" data-tab="reactions">💬 반응</button>
     <button class="tab-btn" data-tab="about">ℹ️ 안내</button>
   </nav>
 
@@ -528,6 +555,10 @@
       <div class="filter-group">
         <div class="label">Source</div>
         <div class="chip-row" id="sourceChips"></div>
+      </div>
+      <div class="filter-group">
+        <div class="label">Category</div>
+        <div class="chip-row" id="categoryChips"></div>
       </div>
       <div class="filter-group">
         <div class="label">Member</div>
@@ -563,6 +594,16 @@
   <!-- ══════════════ 링크 모음 ══════════════ -->
   <div class="view" id="view-links">
     <div id="linksContent"></div>
+  </div>
+
+  <!-- ══════════════ 팬 반응 ══════════════ -->
+  <div class="view" id="view-reactions">
+    <div class="card" style="padding:14px 20px; margin-bottom:24px;">
+      <span style="font-size:12.5px; color:var(--text-muted);">
+        💬 최근 유튜브 영상들의 인기 댓글을 모아봤습니다 (좋아요 많은 순).
+      </span>
+    </div>
+    <div id="reactionsContent"></div>
   </div>
 
   <!-- ══════════════ 안내 ══════════════ -->

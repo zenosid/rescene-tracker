@@ -48,6 +48,18 @@ CREATE TABLE IF NOT EXISTS official_schedule (
     dedup_key TEXT NOT NULL UNIQUE,  -- date+title+time_text 조합, 중복 저장 방지
     created_at TEXT DEFAULT (datetime('now'))
 );
+
+CREATE TABLE IF NOT EXISTS fan_reactions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    video_link TEXT NOT NULL,
+    video_title TEXT NOT NULL,
+    author TEXT NOT NULL,
+    text TEXT NOT NULL,
+    like_count INTEGER DEFAULT 0,
+    published_at TEXT,
+    comment_id TEXT NOT NULL UNIQUE,  -- 유튜브 댓글 고유 ID, 중복 저장 방지
+    fetched_at TEXT DEFAULT (datetime('now'))
+);
 """
 
 
@@ -166,3 +178,21 @@ def insert_official_schedule(conn, date, time_text, title, category, dedup_key):
 
 def get_official_schedule(conn):
     return conn.execute("SELECT * FROM official_schedule ORDER BY date ASC").fetchall()
+
+
+# ── 팬 반응 (유튜브 댓글) ────────────────────────────────────
+def insert_fan_reaction(conn, video_link, video_title, author, text, like_count, published_at, comment_id):
+    cur = conn.execute(
+        """INSERT OR IGNORE INTO fan_reactions
+           (video_link, video_title, author, text, like_count, published_at, comment_id)
+           VALUES (?, ?, ?, ?, ?, ?, ?)""",
+        (video_link, video_title, author, text, like_count, published_at, comment_id),
+    )
+    return cur.rowcount > 0
+
+
+def get_recent_fan_reactions(conn, limit=100):
+    return conn.execute(
+        "SELECT * FROM fan_reactions ORDER BY like_count DESC, fetched_at DESC LIMIT ?",
+        (limit,),
+    ).fetchall()

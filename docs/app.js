@@ -31,10 +31,13 @@ const PLATFORM_LABELS = {
 };
 const FAVORITES_KEY = "rescene_tracker_favorites"; // localStorage 키 (이 브라우저 전용)
 
+const CATEGORY_LIST = ["음악방송", "MV", "Live", "Shorts", "자체컨텐츠", "외부컨텐츠", "기타"];
+
 // ── 상태 ──────────────────────────────────────────────────
 const state = {
   sources: new Set(Object.keys(SOURCE_META)), // 기본: 전체 선택
   members: new Set(), // 비어있으면 전체
+  categories: new Set(), // 비어있으면 전체
 };
 
 // ── 즐겨찾기 (localStorage, 이 브라우저에만 저장) ───────────
@@ -102,6 +105,7 @@ document.querySelectorAll(".tab-btn").forEach((btn) => {
     document.getElementById("view-" + btn.dataset.tab).classList.add("active");
     if (btn.dataset.tab === "favorites") renderFavorites();
     if (btn.dataset.tab === "links") renderLinks();
+    if (btn.dataset.tab === "reactions") renderReactions();
   });
 });
 
@@ -169,9 +173,32 @@ function buildMemberChips() {
   });
 }
 
+function buildCategoryChips() {
+  const wrap = document.getElementById("categoryChips");
+  if (!wrap) return;
+  wrap.innerHTML = "";
+  CATEGORY_LIST.forEach((cat) => {
+    const chip = document.createElement("button");
+    chip.className = "chip" + (state.categories.has(cat) ? " on category-on" : "");
+    chip.dataset.category = cat;
+    chip.textContent = cat;
+    chip.addEventListener("click", () => {
+      if (state.categories.has(cat)) {
+        state.categories.delete(cat);
+      } else {
+        state.categories.add(cat);
+      }
+      buildCategoryChips();
+      renderArchive();
+    });
+    wrap.appendChild(chip);
+  });
+}
+
 // ── 아이템 카드 (아카이브·즐겨찾기 공용) ───────────────────
 function itemPassesFilter(item) {
   if (!state.sources.has(item.source_type)) return false;
+  if (state.categories.size > 0 && !state.categories.has(item.category)) return false;
   if (state.members.size > 0) {
     const hasOverlap = item.members.some((m) => state.members.has(m));
     if (!hasOverlap) return false;
@@ -329,6 +356,34 @@ function changeBadgeHtml(change) {
   return `<span class="chart-change same">–</span>`;
 }
 
+// ── 팬 반응 렌더링 ───────────────────────────────────────────
+function renderReactions() {
+  const container = document.getElementById("reactionsContent");
+  container.innerHTML = "";
+
+  const reactions = SITE_DATA.fan_reactions || [];
+  if (reactions.length === 0) {
+    container.innerHTML = `<div class="empty-state">아직 수집된 팬 반응이 없습니다.<br/>(YouTube API 키 설정이 필요할 수 있습니다)</div>`;
+    return;
+  }
+
+  reactions.forEach((r) => {
+    const card = document.createElement("div");
+    card.className = "card reaction-card";
+    card.innerHTML = `
+      <a class="reaction-video" href="${r.video_link}" target="_blank" rel="noopener noreferrer">
+        ▶️ ${escapeHtml(r.video_title)}
+      </a>
+      <div class="reaction-text">${escapeHtml(r.text)}</div>
+      <div class="reaction-meta">
+        <span>${escapeHtml(r.author)}</span>
+        <span class="reaction-like">👍 ${r.like_count.toLocaleString()}</span>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
 // ── 차트 렌더링 ───────────────────────────────────────────
 function renderChart() {
   const grid = document.getElementById("chartGrid");
@@ -458,6 +513,7 @@ if (refreshBtn) {
 
 // ── 초기 렌더 ─────────────────────────────────────────────
 buildSourceChips();
+buildCategoryChips();
 buildMemberChips();
 renderArchive();
 renderChart();

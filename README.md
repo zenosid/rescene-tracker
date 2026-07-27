@@ -11,10 +11,13 @@
   모바일에서는 기기 공유 시트가, 데스크톱에서는 링크 복사가 뜹니다. 카카오톡 등에
   링크를 붙여넣으면 og 메타태그 덕분에 미리보기 카드가 자동으로 뜹니다.
 - **🔗 링크 탭**: 공식 계정·커뮤니티·팬튜브 채널 등을 카테고리별로 정리한 링크 모음.
-- **📊 차트 확장**: 멜론·지니·벅스에 더해 kworb.net(스포티파이가 공개한 데이터를
-  미러링하는 공개 통계 사이트)을 통해 Spotify(한국/미국/일본)·YouTube(한국)·
-  Shazam(한국)까지 총 8개 플랫폼. 모든 플랫폼에 전 회차 대비 순위 변동
-  (▲상승/▼하락/NEW신규) 표시. 미국·일본은 아직 차트에 없으면 정직하게 "없음"으로 표시.
+- **💬 팬 반응 탭**: YouTube Data API(공식 API)로 최근 영상들의 인기 댓글을
+  좋아요 순으로 모아봅니다. API 키 설정이 필요합니다 (아래 참고).
+- **📊 차트 확장**: 멜론·지니·벅스에 더해 kworb.net(스포티파이/유튜브/샤잠이
+  공개한 데이터를 미러링하는 2012년부터 운영된 공개 통계 사이트)을 통해
+  Spotify·Shazam·YouTube 각각 한국/미국/일본 순위까지 총 12개 플랫폼. 모든
+  플랫폼에 전 회차 대비 순위 변동(▲상승/▼하락/NEW신규) 표시. 아직 어느 나라
+  차트에도 없으면 정직하게 "없음"으로 표시.
 - **📅 공식 스케줄(Mnet Plus)**: 이번 달 포함 앞으로 6개월치(설정 가능)를
   자동으로 가져와서 확정 일정으로 표시.
 - **ℹ️ 안내 탭**: 비공식·비영리 안내, 데이터 출처, 문의/삭제 요청 연락처, 자동
@@ -75,19 +78,33 @@ python -m playwright install chromium
 
 ## 4. 화면 구성
 
-- **🗂️ 아카이브**: 날짜별로 묶은 유튜브(공식/콜라보)·뉴스. 소스·멤버별 필터,
-  각 카드에 즐겨찾기·공유 버튼.
-- **📊 차트**: 멜론·지니·벅스·Spotify(KR/US/JP)·YouTube(KR)·Shazam(KR) 실시간
-  순위 + 전 회차 대비 변동(▲▼NEW).
+- **🗂️ 아카이브**: 날짜별로 묶은 유튜브(공식/콜라보)·뉴스. 소스·카테고리·멤버별
+  필터, 각 카드에 즐겨찾기·공유 버튼.
+- **📊 차트**: 멜론·지니·벅스 + Spotify·Shazam·YouTube(각 KR/US/JP) 실시간
+  순위 + 전 회차 대비 변동(▲▼NEW). 총 12개 플랫폼.
 - **📅 스케줄**: ① Mnet Plus 공식 아티스트 페이지에서 자동 수집한 확정 일정
   (배지 없음 = 공식), ② 수동 등록한 확실한 일정, ③ 뉴스 기사에서 자동 추정한
   일정(`추정` 배지). 같은 날짜에 공식 일정이 이미 있으면 불확실한 추정 항목은
   자동으로 숨겨집니다.
 - **⭐ 즐겨찾기**: 이 브라우저에서 즐겨찾기한 항목만 모아보기.
 - **🔗 링크**: 공식 계정·커뮤니티·팬튜브 채널 등 카테고리별 링크 모음.
+- **💬 반응**: 최근 유튜브 영상 인기 댓글 모음.
 - **ℹ️ 안내**: 비공식 고지, 데이터 출처, 문의 연락처.
 
-## 5. 폴더 구조
+## 5. 팬 반응(유튜브 댓글) 기능 켜기 — 선택사항
+
+이 기능만 YouTube Data API v3 키가 필요합니다 (무료).
+
+1. [Google Cloud Console](https://console.cloud.google.com)에서 프로젝트 생성
+2. **API 및 서비스 → 라이브러리** → "YouTube Data API v3" 검색 → 사용 설정
+3. **API 및 서비스 → 사용자 인증 정보 → API 키 만들기** → 키 복사
+4. **배포용(GitHub Actions)**: 저장소 **Settings → Secrets and variables →
+   Actions → New repository secret** → 이름 `YOUTUBE_API_KEY`, 값에 키 붙여넣기
+5. **로컬 테스트용**: 터미널에서 `$env:YOUTUBE_API_KEY="키값"` (PowerShell)
+
+키를 설정 안 하면 이 기능만 조용히 건너뛰고 나머지는 그대로 작동합니다.
+
+## 6. 폴더 구조
 
 ```
 rescene_tracker/
@@ -101,6 +118,7 @@ rescene_tracker/
 ├── classify.py                        # 멤버/카테고리 분류
 ├── schedule_extractor.py              # 뉴스 → 일정 후보 추출 (추정)
 ├── official_schedule.py               # Mnet Plus 공식 스케줄 수집 (Playwright)
+├── fan_reactions.py                    # 유튜브 댓글(팬 반응) 수집 (공식 API)
 ├── kst.py                              # UTC → KST 시간대 변환 유틸
 ├── build_site_data.py                 # DB → docs/data.js 변환
 ├── local_server.py                     # (로컬 전용) 정적 서빙 + 새로고침 API
@@ -113,7 +131,7 @@ rescene_tracker/
     └── og-image.png                    # 공유 미리보기 카드 이미지
 ```
 
-## 6. 커스터마이징 (`config.py`)
+## 7. 커스터마이징 (`config.py`)
 
 - `YOUTUBE_CHANNELS` — 공식/준공식 채널 (전체 영상 수집)
 - `COLLAB_CHANNELS` — 반드시 챙기고 싶은 콜라보 채널 (조회수 상관없이 항상 수집)
@@ -125,14 +143,17 @@ rescene_tracker/
 - `MNET_PLUS_ARTIST_SLUG` — 공식 스케줄을 가져올 Mnet Plus 아티스트 페이지 슬러그
 - `MNET_PLUS_MONTHS_AHEAD` — 이번 달 포함해서 앞으로 몇 개월치를 가져올지 (기본 6개월 뒤까지, 총 7개월)
 - `LINK_COLLECTIONS` — 🔗 링크 탭에 표시할 카테고리별 링크 모음 (공식 계정/커뮤니티/팬튜브 등)
-- `KWORB_SPOTIFY_COUNTRIES` — 스포티파이 차트를 가져올 국가 코드 목록 (기본: kr, us, jp)
+- `KWORB_SPOTIFY_COUNTRIES` / `KWORB_SHAZAM_COUNTRIES` / `KWORB_YOUTUBE_COUNTRIES`
+  — 각 플랫폼별로 차트를 가져올 국가 코드 목록 (기본: kr, us, jp)
+- `YOUTUBE_COMMENTS_MAX_VIDEOS` / `YOUTUBE_COMMENTS_PER_VIDEO` — 팬 반응용으로
+  최근 영상 몇 개, 영상당 댓글 몇 개까지 가져올지
 
 콜라보 채널은 이제 두 가지 경로로 잡힙니다: ① `COLLAB_CHANNELS`에 등록한 채널은
 조회수 상관없이 항상, ② 등록하지 않은 채널이라도 "리센느" 검색 결과에서 조회수
 10만 이상이면 자동으로. 둘 다 공식 채널(YOUTUBE_CHANNELS)과 겹치는 영상은
 채널 ID 기준으로 정확히 제외해서 중복 없이 수집됩니다.
 
-## 7. 알아두어야 할 제약
+## 8. 알아두어야 할 제약
 
 - **차트**: 멜론·지니·벅스 공개 페이지를 저빈도 조회합니다. 사이트 구조가
   바뀌면 파싱이 깨질 수 있습니다.

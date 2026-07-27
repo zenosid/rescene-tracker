@@ -31,6 +31,11 @@ jobs:
       - name: 차트 조회
         run: python chart_tracker.py
 
+      - name: 팬 반응(유튜브 댓글) 수집
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python fan_reactions.py
+
       - name: 사이트 데이터 빌드
         run: python build_site_data.py
 
