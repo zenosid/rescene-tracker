@@ -220,7 +220,26 @@ def collect_collab_by_search(conn):
     return new_count
 
 
-def collect_news(conn):
+_TITLE_SOURCE_SUFFIX_RE = re.compile(r"\s*[-–—]\s*[^-–—]{1,20}$")  # "제목 - 언론사명" 꼬리표 제거
+_TITLE_NORMALIZE_RE = re.compile(r"[^\w가-힣]+")  # 공백/기호 제거 비교용
+
+
+def _normalize_title_for_dedup(title):
+    """
+    구글 뉴스와 네이버 뉴스가 같은 기사를 서로 다른 링크로 줄 때도 같은 기사로
+    인식하기 위해, 제목 끝의 "- 언론사명" 꼬리표를 떼고 공백/기호를 없애서 비교.
+    """
+    without_source = _TITLE_SOURCE_SUFFIX_RE.sub("", title)
+    return _TITLE_NORMALIZE_RE.sub("", without_source).lower()
+
+
+def _load_existing_news_titles(conn):
+    """이미 저장된 뉴스 항목들의 정규화된 제목 집합을 반환 (중복 판정용)."""
+    rows = conn.execute("SELECT title FROM items WHERE source_type = 'news'").fetchall()
+    return {_normalize_title_for_dedup(row["title"]) for row in rows}
+
+
+def collect_news(conn, seen_titles):
     new_count = 0
     for feed_conf in NEWS_RSS_FEEDS:
         feed = feedparser.parse(feed_conf["url"])
@@ -231,11 +250,15 @@ def collect_news(conn):
             snippet = entry.get("summary", "")[:500]
             if not link:
                 continue
+            normalized = _normalize_title_for_dedup(title)
+            if normalized in seen_titles:
+                continue  # 이미 (구글이든 네이버든) 같은 제목의 기사를 저장했음
             is_new = insert_item(
                 conn, "news", feed_conf["name"], title, link, published_at, snippet
             )
             if is_new:
                 new_count += 1
+                seen_titles.add(normalized)
                 print(f"  [신규/뉴스] {feed_conf['name']} - {title}")
     return new_count
 
@@ -265,7 +288,7 @@ def _naver_pubdate_to_iso(pub_date_text):
         return datetime.now(timezone.utc).isoformat()
 
 
-def collect_naver_news(conn):
+def collect_naver_news(conn, seen_titles):
     """
     네이버 공식 검색 API(오픈 API)로 뉴스를 가져옵니다. 키가 없으면 조용히 건너뜁니다.
     """
@@ -307,9 +330,13 @@ def collect_naver_news(conn):
             # 제목에 실제로 우리 그룹이 있는 기사만 인정 (본문은 보지 않음)
             if not _is_our_group(title):
                 continue
+            normalized = _normalize_title_for_dedup(title)
+            if normalized in seen_titles:
+                continue  # 구글 뉴스에서 이미 같은 제목의 기사를 저장했음
             is_new = insert_item(conn, "news", "네이버 뉴스", title, link, published_at, snippet)
             if is_new:
                 new_count += 1
+                seen_titles.add(normalized)
                 print(f"  [신규/네이버뉴스] {title}")
     return new_count
 
@@ -339,9 +366,10 @@ def run_collection():
         print("유튜브(콜라보-검색발견) 수집 중...")
         search_new = collect_collab_by_search(conn)
         print("뉴스(구글) 수집 중...")
-        news_new = collect_news(conn)
+        seen_titles = _load_existing_news_titles(conn)
+        news_new = collect_news(conn, seen_titles)
         print("뉴스(네이버) 수집 중...")
-        naver_news_new = collect_naver_news(conn)
+        naver_news_new = collect_naver_news(conn, seen_titles)
         print("뉴스에서 일정 추정 중...")
         schedule_new = collect_auto_schedule(conn)
     total = yt_new + collab_new + search_new + news_new + naver_news_new

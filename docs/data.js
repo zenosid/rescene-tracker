@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 23:03",
+  "generated_at": "2026-07-27 23:10",
   "operator_contact": "네이버 카페 '리시안셔스' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -24,17 +24,6 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "18:12",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느, 사랑스러운 소녀들의 티파티…청순 비주얼",
-          "link": "https://sports.donga.com/ent/article/all/20260727/134374346/1",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "18:07",
           "category": "기타",
           "members": [
             "전체"
@@ -71,17 +60,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 미나미, '최애' 트와이스 사나 만난다…'냉터뷰' 출연",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16147017",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "17:34",
-          "category": "기타",
-          "members": [
-            "미나미"
           ]
         },
         {
@@ -140,17 +118,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "2년 전 발매 ‘러브어택’으로 지상파 음방 1위…5060 투표 이끌어낸 리센느의 ‘역주행 신화’ - 세계일보",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aWXhpQnFsZE5HdFhXZXJVRFBNMXlxa3ItaDZtbjFodmtFeDh3eHVHY2trX1kza21QRkowTHhPUXBMUlNYMnNLd0w5dGctTm51cU12NlhuVVfSAVRBVV95cUxPMmRjd3pUdHdNYXF3RU5BSnhMNW9SamxqbkpFNHo3eEtoLUo5ZG5lR3ZjRG1vdTQ3MUFxS3V4SkNkemJLXzlFVDZHOFpGMGNIa1hlSFk?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "16:27",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "뉴비트 “리센느 선배님들 보며 달려가겠다” 뭉클한 수상 소감 - 스포츠경향",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82bFk0b2JqcU1zblNSVllkWHNubkljM3B2c1ZiZTMzOVc2WWJaYjNjZnJlUXZxRlQwa0tLcHhiTW1ZQS10YU5YQzBodV9qalFuTkp6d2ZlZVFGb2U1RGfSAWNBVV95cUxQUmZWYlZ1RlAwOVJjOThtNF85azdIb0tYTDdmUkJlSjVlU1FkZS1MVzBzRWNBQWtINEdKbXpCd25LYlZlVklVQVBILWtheW9kMndzQmRoLUx1R0RvQkVMQThKSXM?oc=5",
           "source_type": "news",
@@ -173,34 +140,12 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "누군가를 꿈꾸던 리센느, 누군가의 꿈이 됐다 [MD포커스]",
-          "link": "https://www.mydaily.co.kr/page/view/2026072715131876751",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "15:19",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "누군가를 꿈꾸던 리센느, 누군가의 꿈이 됐다 [MD포커스] - 마이데일리",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RR0tZclBhc3JaOEVXNWhfaUplSWNoR3JGU0pQVnZMTkc4dXFSejRadnZWNXZPNHdUeEFKRmd3ODZBME1mUEJ2RVJ0b1gtN2V3OEdsdTB5QkZrNGc2dDlvbnFqWGkwZw?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "15:18",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 'LOVE ATTACK', 음원 역주행→음악방송도 정상…'인기가요' 첫 1위",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16146730",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "12:12",
-          "category": "음악방송",
           "members": [
             "전체"
           ]
@@ -272,30 +217,8 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "그룹 리센느, 지상파 음방 잇따라 석권…역주행 히트곡 '러브 어택' SBS 인기가요 1위 - news.sbs.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZUdlU3JyT0xCZldWblVFbXlpUkhhNmpPOHBrWEFlaXdnSl9xYjl0TTBLN0d0MUJjR1VxV280UW84U2VjMlNHd0NhMUJPMWxCWjd2aTFJMS1OdFBvZVFHMzVFWl9hYnRhOUFSM2dLbUU2LTNfMWJNQ05oYmZEbTM2R1JsNURoUQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "10:06",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 '인기가요'서 '러브어택' 1위…눈물의 소감 \"더 열심히 할 것\" - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMV3hEQ0xuanVfQ1pVSWl1b1hXalgzVTIwb3ljcjhIWi11QjdCWWdYV3h6MUNyMzFIQ0otazFUTVFJMHJHbF95eWJaZ1BxOENONXZ0TVRDcUtQeXB2OVBWNA?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "10:00",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 '인기가요'서 '러브어택' 1위…눈물의 소감 \"더 열심히 할 것\" - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xODVxcjdtMGF0S0FlZ0x0M09nVDhISmNmMnBxTFdQMFFwb1JTMklzSDVQaUxmUHJ6LVdZWGd1OHdMUGU4alVHN1pVeTF4NGgxSEVB?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "10:00",
@@ -349,17 +272,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느, ‘러브 어택’으로 ‘인기가요’도 1위…통상 세 번째 트로피",
-          "link": "https://www.dailian.co.kr/news/view/1671083/?sc=Naver",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "09:30",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "각종 억까도 이겨낸 리센느, '러브어택'으로 '인기가요' 1위...역주행 신...",
           "link": "https://www.pennmike.com/news/articleView.html?idxno=124423",
           "source_type": "news",
@@ -404,17 +316,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느, ‘LOVE ATTACK’로 ‘인기가요’ 눈물의 1위...역주행 신화 대미",
-          "link": "https://www.mk.co.kr/article/12108020",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "09:24",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "꿈꾸던 순간에 눈물 펑펑…리센느, ‘러브 어택’으로 지상파 1위 - 위키트리",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GTVVIRDNxZEc5SzdLQUUwNmozbjVvY2IxcFZlYmtjSjFabF9vQUJkZTdMZV9TdjlReXhkeGFnX3V1TTN0cGFCMmZveW1rQmdEV1RIQUVB?oc=5",
           "source_type": "news",
@@ -426,33 +327,11 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "역주행 신드롬 완성! 리센느, '인가'서 'LOVE ATTACK' 첫 1위",
-          "link": "https://www.etnews.com/20260727000018",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "08:44",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "역주행 신드롬 완성! 리센느, '인가'서 'LOVE ATTACK' 첫 1위 - 전자신문",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IMFJ6aGh3ZERUbDZ4S21renNWdVV4UzQ4Y0ZTRHQ4WlpCbTRNY0JFeWJ4djRFVHZJR3NnWFNWSzROWXBxQUZGLU0xTXRLdw?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "08:43",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 ‘러브어택’ 음방 첫 1위···“꿈 이뤘다”",
-          "link": "https://sports.khan.co.kr/article/202607270838003?pt=nv",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "08:39",
           "category": "기타",
           "members": [
             "전체"
@@ -602,39 +481,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 원이 ‘눈물 펑펑’…2년 만에 이룬 ‘러브어택’ 1위 - 스포츠월드",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CTThCeGhJX3BsSDBFcWVHcnlPekh1MmFIZnpVYzk5TGRYLTFwYkpxZGlBRGZQMjEzUTk3dWhXWkxtYjkta1IzLVNXNVFINmxqSWl6S0lwaENSVlZQSC14RnZR?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "07:28",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "리센느, 데뷔 2년 만에 지상파 음악방송 첫 1위 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55Zk9ZODBXV2t0UEUxN0dsMXdVaWZhamtFRnhBWEpVTjZBd0k0RHk4cHd4bzdrbFItOFBlZ0VqVEZ0aF94U0pWUGlPSXZGVXMtMzFMeEttT21XMGtIOE9fNWJjTC1ZbjQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "07:28",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느, 'LOVE ATTACK' 역주행으로 '인기가요' 1위 등극 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DYWVTbk0wZjB2U1ptdURUM1J4T21mZGwta2VZUzJNYktyZXBVVEFRT0dzcURrQnh5b2NqbVRqVnR4Zjl0NGNueUFXM21fVXgyN1Jr?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "07:22",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느, 'LOVE ATTACK' 역주행으로 '인기가요' 1위 등극 - iMBC 연예",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BeTVNak54VXV1Q2Rzb0tZcEpDLUZGRnV1RXBGazZULXZTTzZRZ1ZkaFh2cmFnX3RvZVZwdzVJOGRtVlUybXBVN2NFZWFwZ0FESWF0dTRJc1FzRnZJV0lmUA?oc=5",
           "source_type": "news",
@@ -734,30 +580,8 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "\"저 정도면 차 깔고 지나갔다\"…금 '쫙쫙' 리센느 태블릿 재조명[IT썰] - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2YWZ3dTI5akFPTGN0YTBhUS1yTDkwbldrdE1WWUdPNlduNzhQZDZDNVlGLUlKckE5Yi0zQ2NWbWNQczhoRG1wR24xaUh0OVh5MUVEcDc4TjBSYVRQMlQ4R1FNTFlNNHFHVlRYTVBZc3BQVE84V1RBMg?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "06:01",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "\"저 정도면 차 깔고 지나갔다\"…금 '쫙쫙' 리센느 태블릿 재조명[IT썰] - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uS1N2TWdocE1UcUxiSnM5Z2tBVUJZb25HOU00a2UyVFozT01hM2VaeXExUGRhZFY3SzNQSzNTT1VydGxHNmVQOFFZOVVCQkN4S1VmWWVUWHIxZTlrd0dJSk8wOFkyb1U?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "06:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "“원 유니 야~호!” 여름 축제에도 이어진 ‘리센느 흥행 돌풍’ - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLTZsdzBtQlAyMG9pT25fV2FNRzlzcHhUZDFlTXR4S1BFWXJCVDhMMjNlS1NNUlRyeTVtVllJTml6ZmNFU0pWSEgyaWhZVnBrUVZMajlqTGY1YWJqZ1FUZ012X0FXS1Rfc2I1VHlpRnU3MVZvVU1yb0Q0eW5BeGwteVY5Z3psTkxBMjNBb1JRZG1QaFZl?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "06:00",
@@ -894,17 +718,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 리더 원이 눈물…'러브어택' 역주행 이어 '인기가요' 1위 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RNll0SGY4bnBUMGxFUzUwbFgxVU5EVzZLdTFxRXZydUQwNVo3UTluU0RtSHdNYk53ZXRrQVVUWHhZN29ZR2dJdkJBSmNOWm8?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "20:13",
-          "category": "음악방송",
-          "members": [
-            "원이"
-          ]
-        },
-        {
           "title": "리센느 리더 원이 눈물…'러브어택' 역주행 이어 '인기가요' 1위 - 뉴스1",
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tMWlpUFFaZ2Y5SFhfVHlTdXpaQXQxMG5tcS15Qm8xWlNQSGVCUzU1NHpvTWl2T2trNDRJdGh3clYwUVo3ZVQ0eHJFcWZjTHZoM29HRkVfSQ?oc=5",
           "source_type": "news",
@@ -932,17 +745,6 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "19:26",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "리센느, 역주행 '러브어택' 음방 1위…원이 \"꿈 이루게 해줘서 감사\" 눈물 펑펑 [엑's 이슈] - xportsnews.com",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tU21tRVd4R3ZyVzNGOFRoZFR4QzJmWW01Vmt3bWs4U2RrS2JNcDUzXzUwOTE0WmVnYnBQWHlnc3M3NHpwaGVkc2JKcHBFTHFyUnE2eQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "19:24",
           "category": "기타",
           "members": [
             "원이"
@@ -981,28 +783,6 @@ const SITE_DATA = {
           "members": [
             "리브",
             "메이"
-          ]
-        },
-        {
-          "title": "'역주행 신화' 리센느, 데뷔 첫 음악방송 1위 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40WWczS1o3Tjd0V0JpcFZ4QmhkZ3dLYnFMb2JjQjRmYVJrUjVsUlk5QzV1b2xMempDWGhaejBjQThIbWctTHg2U2dENVA0ekxBNnpz?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "18:30",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "'역주행 신화' 리센느, 데뷔 첫 음악방송 1위 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBYU1JNUkVRVVFvWlBnNnZvYWQ1bVRwZU12TmNzenFNTzAtTWozUm9HeUxJLUlwaldBNlFzVjF3OG9XMExKT0E?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "18:29",
-          "category": "음악방송",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -1055,17 +835,6 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "17:53",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느, ‘음악중심’ 이어 ‘인기가요’도 1위…식지 않는 ‘역주행 돌풍’ - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5wYTFENTlOR0tGUWlvN2lKaXhrcUVDLWNrNVdQa0k3THlLNUhEeDFzaGRMempPNzMwZmpGbDF3RXo4NThXaHhDa1FJTDF2VWhVRnByRE8tQQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "17:52",
           "category": "음악방송",
           "members": [
             "전체"
@@ -1127,33 +896,11 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느, 또 울었다… '인기가요' 1위 등극 \"꿈 이뤄줘 감사\" [TV나우] - 티브이데일리",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5yZUJaU3gxMGh0RmJCak1lNFFZWmtUZktITFpZNlRzajZ3LTdxdW85aTAtWkEycFRHRGVkOEx2RjVMNXAyd0RtWVQxZzdRZENXUHJhTDVLek1PZ1JnWlhteHBTMFhydGFFdTEw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "17:07",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 '러브어택', '인기가요' 1위 등극…원이 눈물 - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtYTBINUNYMWhTdE9adjhyelFmVmVYZ1FldzI5bWstTV9BM0cwSG85aW5EM1RqQURkREJLaVIzT1gzcThWNUcyOHZJUW50MUFjcUdoRHJaLUhqcTJzWm1hSg?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "17:04",
-          "category": "음악방송",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "리센느 '러브어택', '인기가요' 1위 등극…원이 눈물 - 비즈엔터",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DUzN5MFpGdklVSTNaZExFdTAzb191RWpJdjZlc3h1dE5LMjEyMFl6S1cwaDVzSHcyUVRvYVQ3X0N4UHd5a0hMQXZtNThDRk1hVGVIcmF3?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "17:03",
           "category": "음악방송",
           "members": [
             "원이"
@@ -1198,17 +945,6 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "16:49",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느, ‘음중’ 이어 ‘인가’까지 1위… “팬들에게 감사해” 눈물 - 일간스포츠",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TSUNIcnU0SGV2cG9OazdQQ1NHSnVKLXRHbzkzalVmV0l5ZnNUN1lVMzd2SzZwcGNMb0hfMjlJQU5UUEFDRXd3MWFDTFAzcmFFZHN3Y1pJd2dxaTA?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "16:48",
           "category": "기타",
           "members": [
             "전체"
@@ -1339,28 +1075,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느, 지상파 음악방송 첫 1위…“초심 잃지 않겠다” - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13bnBuQmNmWDlTZjd1Zm1iYmVqbGtHbFF0OXpURG5PLTNsMkNVUFhuWlRZOXMtN1BGb1hPNGJXZzh1alQ4bThEclFzSGJtS2Y0UDYta1VxVDd6Qmc?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "13:27",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느, 데뷔 2년 만에 지상파 음악방송 첫 1위…2관왕 달성 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aMzlkRzJrVFE3a2xYeE1mUXdhcWcwQTAwQzFtVXpPbmFVNHFFZ3k0QUpFUXRLT0hEMmJDVXUwcDk2Qlh6cDJCRW5aR2V3RlU?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "12:11",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느, 데뷔 2년 만에 지상파 음악방송 첫 1위…2관왕 달성 - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TT2RjcW9tVnFTZl9jMDFXdXhBN0padGhZUU0tMjJYWklvekJnczZuaU5YV2dhMjF6RGNpNkpMZzdTUHZ4UHF4cGhrYmIxbG11ZWNv?oc=5",
           "source_type": "news",
@@ -1388,17 +1102,6 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "11:20",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "'거제 야호' 외치더니 지상파 정상까지…리센느, 첫 1위 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjNDEwdW40ODEtb0lZUDhiblBtZ3k5SUFZSHc0LVBYdmxUUTRLYWJoSDQzVl9nTlNTQ2J2d2hUbzd1dHc4cWh5Z0FtRmZJdU5xNFIw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "11:15",
           "category": "기타",
           "members": [
             "전체"
@@ -1460,39 +1163,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 성공은 '기적'…아이돌 연예계 안착에 '100억' - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aakc4NmwzV3duREs1X01FaUpha3hxdkNKYTIxVmVmNmFLLVRKdVFhaEJKQnpaUnUwSFhZYjdJLTBJVW5HTjdIWmROV3o0dEdmSTJJ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "10:31",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 성공은 '기적'…아이돌 연예계 안착에 '100억' - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5WVFNV19lQnF1cHJGcHpHTWtmbzJXQk10dHpvd2FEc1Zlb1RsU1NUb1NiMDZKclZrbF9QYWhsNm1hMHZoVFdpelBEMEhOTGgwUkJ1blR6eFBxZ240V01xVtIBYEFVX3lxTFA5WVFNV19lQnF1cHJGcHpHTWtmbzJXQk10dHpvd2FEc1Zlb1RsU1NUb1NiMDZKclZrbF9QYWhsNm1hMHZoVFdpelBEMEhOTGgwUkJ1blR6eFBxZ240V01xVg?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "10:30",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 성공은 '기적'…아이돌 연예계 안착에 '100억' - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50b01QN2ZETnM1VHhKWkdNclpCMlFyWEpUam95azlkTHIzS2lhb2JjempSMUFiTzdPWENaUkFpeXQtb3VtRFhZY1pzYnNKUmZ6UWRSTURaUXdmNmfSAWBBVV95cUxQOVlRTVdfZUJxdXByRnB6R01rZm8yV0JNdHR6b3dhRHNWZW9UbFNTVG9TYjA2SnJWa2xfUGFobDZtYTB2aFRXaXpQRDBITkxoMFJCdW5UenhQcWduNFdNcVY?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "10:30",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 성공은 ’기적’…아이돌 연예계 안착에 ’100억’ - 연합뉴스TV",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1VzdPdE5vc0dOTWlEemktbW94RWlwQWQzaHR2am1uSmt4TkN5WXhiQlJYVWVwLUpIdjhHZ1BOZm1PQ3lCLVphS3Qzb1AtQUNkX2NsdklzMnV3N3A4VUhTTXRsZ2ZLV1E?oc=5",
           "source_type": "news",
@@ -1506,17 +1176,6 @@ const SITE_DATA = {
         {
           "title": "리센느, 'Pretty Girl'로 '음중' 1위 \"앞으로도 초심 잃지 않을 것\"(공식) - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzSWdfLWcyNkZDanFVZW1DaHJYQ245dC0yRnBwSHRnZG1jVWNyOXM3dGJmWTEzaWswLUNvRHBwdDJxVWtNaVBQZmpRdXpXY21LNXFF?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "10:24",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "지상파 첫 1위…리센느, '프리티 걸'로 '음중'서 트로피 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JUkVSSTIzOVk1SXFwTUdJak1rYnpWbnVHTVUwdkNMWU10dTlLNWp5TV9VbFVZTm45SUhYVVFmTUxyV1pJSXo3S2o1MnM2NHIwWGVr?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "10:24",
@@ -1548,17 +1207,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느, 음악방송 2관왕 - 스포츠경향",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52SmFtZzVycWJZWkYtUTNndERmNWpFSDI1M3RmT3pyMUpYUmVJVmh3MlhpMWNOWmZRYlM5WThZZmpUVTJRa2g5Rk5oTnZlN3V0T2NTNDk4ckV5TVJ5aTEtc1BkONIBY0FVX3lxTE52SmFtZzVycWJZWkYtUTNndERmNWpFSDI1M3RmT3pyMUpYUmVJVmh3MlhpMWNOWmZRYlM5WThZZmpUVTJRa2g5Rk5oTnZlN3V0T2NTNDk4ckV5TVJ5aTEtc1BkOA?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "10:23",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "\"이 지역 축제 다녀오면 톱스타 된다?\"…BTS·르센느 거쳐 간 의외의 무대 - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11S1ZYajhEam9uZ0JROGZGcVZyZXBaMjNHSVRyY25vZ2s1cUJLckh2VmFma1ZvbW44X1R1V0NOUnRtbFk0OEZ1N25MMEQ1UjM2bjVJ?oc=5",
           "source_type": "news",
@@ -1575,17 +1223,6 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "10:08",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느, 'Pretty Girl'로 '쇼! 음악중심' 1위 - 스타데일리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qRGFVRU9pYTZ0SDBxaVNMRUR6SmdSblZIVWdLdGVFakpEdnR3OXdKY3pXQ2lwdlVZLWdieVphQ28zN1kydHc1OGpkaS02ZFJzUGtNdHFrdXU1TkNUSXoxNDRWMmxFV0hCSXFQbUxyQ2llOGZI0gF4QVVfeXFMT3h1eGZMdzlFZ0hUcXBSb1dzUTg5cVBjRkI3dVFoal9BVndBb05Wa0IwV3BybEJZdFNOelpnT1dnTU1veFZEQWV1cTdVOXlRclJhNTVTaXFDcVk0eUpSOEFQYmVHeVZPZHNjTl9WX1pFcU16b29scEt3?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "10:07",
           "category": "음악방송",
           "members": [
             "전체"
@@ -1724,28 +1361,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느·BTS도 선 무대…이 지역 축제를 찾으면 스타가 된다? - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kLVo1UThvODRadDQ3YS00TFU0N0NSdmJJX29WU0l4V2lBei1iRjI1WGFPdnJEZU9Nek9uaG4xcWNzeUR5UkQxQlVRdlRtOXc?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "09:01",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느·BTS도 선 무대…이 지역 축제를 찾으면 스타가 된다? - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXTTFBbDRYNHlVNmFYMGlVa09IZVBfUzNmZXhtNXdRZm52ZnlIZ1lZcjJfazZlZ2hHek9CUFNlSXJ1TUxqZmpHNUxmcm1XM1dvenY0RGhKMmZ2dw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "09:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "이찬원, 리센느 2시간 기다림 미담 잘된 뒤에야 꺼낸 2년 전 이야기 : 네이버 블로그 - Naver Blog",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVDFyM1dSS3NtRnA4Zjl2YkdwV2dFQUE5bndhSUlFWWVwNWV6OVM2Tk1FRU81cDVySzQ3V0VDeHlOb2hKLWJwM3NCRTRwZnp0N0dLNjVBZklTLS1yOFUyTVBYVkhCN0dsdnBheG1FdFozZi0tN185RHZFV2NzYzd2YzFtb0RzQ3pkcEYzdnAwX2M?oc=5",
           "source_type": "news",
@@ -1802,17 +1417,6 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "19:59",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "\"리센느 보며 꿈 포기 않을 것\"…뉴비트, 눈물의 수상소감 [KMA 2026] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3X0xKN3FkdHY0Z2VkeWhhazFCSGxIR2NsUnJ6eXpIYTNRQVJXazAxRDVIYS0tbWZ3QjVNd1plcWdxT1RReHFkc2x6U3FseVk?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "19:17",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -2064,17 +1668,6 @@ const SITE_DATA = {
           "category": "외부컨텐츠",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 미나미 \"언제든 갸루 '야호' 나올 수 있도록 준비\" [집대성] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VRFJqd0VEM0VGa1NUSmI0emt2LUlObVlacnM3cUxPM2Qwdk5lOG5FekJVR1lWZDNSTWdVTXByaDN2TENxMEFsRS1DMFo4T3M?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "18:57",
-          "category": "기타",
-          "members": [
-            "미나미"
           ]
         },
         {
@@ -3262,17 +2855,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리마인 우리 리센느가 1등 가수 팬 하게 해줄게 #원이#리센느 #RESCENE #리마인 #REMINE - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xeDJBMHp0S0ZyZDY1VV9fWVk5WVlyMUFubkdKUnNmS25qQmZmYjh5UWl1M3V0SWRTblR2UjRlU2ZVV2NMNzhpak56TDlMalhxY0JwV1ByUlh0RE82VS0wTGp1T2IxZw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
           "title": "맏언니지만 장난은 치고 싶은 원이😂 #원이 #리센느 #RESCENE - starnewskorea.com",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jTkN1dFVETzR3WUZ3ZU5PNmZmdzRoQVpzQW9EcTJITk16RFM1eXNIMnNBa3VqSWM0eDhDRnZKR282LTRWUXl3UmFMMFpkQ21HR1dhMC1PTXh6UmRRcldWVTNnUmgwUEtJUm5rWTUyYnE?oc=5",
           "source_type": "news",
@@ -3281,18 +2863,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "리센느 데뷔요? 2024년 3월 26일이요💕 #리브 #제나 #리센느 #RESCENE - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1TGt3UE1URnhkTFZTc3RIZE83NnV0MHNSdDJld3Q0ZTNkS0drdGhXQm5LZ1VZMnZ4MVpJVGRRcl9ydHczX3UzT2xhNFIzVWtxT29aSnd5Rmh3Z2RzWkhjelA2VHBHNmY1cnhXMmxYQQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "리브",
-            "제나"
           ]
         }
       ]
@@ -3572,17 +3142,6 @@ const SITE_DATA = {
         {
           "title": "리센느, 온 세상을 물들여~(출국)[뉴스엔TV] - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51V01LZVZwQ0VtR1V5cG8wRTFlbUpHVUVKNEVtbGhfYk1NVmFjUnhzY0RDZkdFSWtoYkpNXzJKcG1kUTJ4OWw0LWpLazBrTzlhWFY4?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느, 온 세상을 물들여~(출국)[뉴스엔TV] - 뉴스엔",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yNHE5M2JOSnpCRm5XbUhqODVQaDJKSmpxWmloSlN3aVJLLUcya2YwSjBqN0E4dm50YUdqeHRIYnBmV3g5alNGMmN0dzk3MEhvQVlnd2g4NHNIOGFhdVdhc29FV05uUWdM?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - RESCENE",
           "time": "16:00",
