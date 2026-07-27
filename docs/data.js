@@ -1,6 +1,6 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 11:03",
-  "operator_contact": "네이버 카페 리시안셔스 '첸드'에게 쪽지",
+  "generated_at": "2026-07-27 11:41",
+  "operator_contact": "네이버 카페 '리시안셔스' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
     {
@@ -3391,12 +3391,373 @@ const SITE_DATA = {
       {
         "date": "2026-07-31",
         "type": "행사",
-        "title": "리센느 미나미, 31일 롯데 시구 확정⋯사직 마운드 선다 - 이투데이",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 시구) · 구글 뉴스 - 리센느 외 1건 추가 언급",
-        "is_estimated": true,
-        "mention_count": 2
+        "title": "롯데자이언츠 시구 (09:30 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-09",
+        "type": "방송",
+        "title": "<2026 쿠팡플레이 시리즈> 하프타임 쇼 (11:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-14",
+        "type": "기타",
+        "title": "KCON LA 2026 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-15",
+        "type": "기타",
+        "title": "KCON LA 2026 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-16",
+        "type": "기타",
+        "title": "KCON LA 2026 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
       }
     ],
-    "past": []
+    "past": [
+      {
+        "date": "2026-07-26",
+        "type": "행사",
+        "title": "2026 캐리비안베이 워터뮤직풀파티 (05:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-26",
+        "type": "방송",
+        "title": "SBS <인기가요> (06:10 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-26",
+        "type": "기타",
+        "title": "별방수면회 (10:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-25",
+        "type": "공연",
+        "title": "2026 원 유니버스 페스티벌 (03:45 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-25",
+        "type": "기타",
+        "title": "보령 KBS 슈퍼라이브 (07:45 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-25",
+        "type": "방송",
+        "title": "SBS <인기가요> 사전녹화 (07:30 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-24",
+        "type": "기타",
+        "title": "JUST MAKEUP IN TOKYO 2027 (07:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-21",
+        "type": "행사",
+        "title": "섬의 날 홍보대사 위촉식 (05:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-21",
+        "type": "행사",
+        "title": "KT위즈 시구&시투 (09:30 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-19",
+        "type": "방송",
+        "title": "SBS <인기가요> 사전녹화 (12:05 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-19",
+        "type": "방송",
+        "title": "SBS <인기가요> (06:10 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-18",
+        "type": "방송",
+        "title": "MBC <쇼! 음악중심> (06:15 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-18",
+        "type": "팬사인회",
+        "title": "[Pretty Girl] 대면 팬사인회 by PlusChat (10:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-17",
+        "type": "방송",
+        "title": "KBS2 <뮤직뱅크> 사전 녹화 (12:10 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-17",
+        "type": "방송",
+        "title": "KBS2 <뮤직뱅크> (08:15 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-17",
+        "type": "방송",
+        "title": "KBS WORLD <마이데이트립> (09:20 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-17",
+        "type": "방송",
+        "title": "<쇼음악중심> 사전 녹화(+미니 팬미팅) (11:15 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-16",
+        "type": "기타",
+        "title": "캐릭터 라이선싱 페어 2026 (02:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-15",
+        "type": "방송",
+        "title": "MBC M <쇼! 챔피언> 사전녹화 2 (03:50 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-15",
+        "type": "방송",
+        "title": "MBC M <쇼! 챔피언> (08:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-15",
+        "type": "라디오",
+        "title": "MBC FM4U 아이돌라디오 (12:00 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-14",
+        "type": "방송",
+        "title": "SBS M <더 쇼> (09:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-14",
+        "type": "방송",
+        "title": "SBS M <THE K-POP FANPOPTY> 녹화 (11:10 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-14",
+        "type": "방송",
+        "title": "KBS <키스 더 라디오> (01:30 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-14",
+        "type": "방송",
+        "title": "MBC M <쇼! 챔피언> 사전녹화 1 (08:00 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-13",
+        "type": "방송",
+        "title": "SBS M <더쇼> 사전녹화 (10:35 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-12",
+        "type": "방송",
+        "title": "SBS <인기가요> (06:10 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-12",
+        "type": "방송",
+        "title": "MBC <최우수산> (09:05 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-12",
+        "type": "팬사인회",
+        "title": "[Pretty Girl] 대면/영상통화 팬사인회 by million music (11:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-11",
+        "type": "방송",
+        "title": "MBC <쇼! 음악중심> (06:20 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-11",
+        "type": "공연",
+        "title": "2026 현대 N 페스티벌 Round 3 스페셜 퍼포먼스 (11:30 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-11",
+        "type": "방송",
+        "title": "MBC <전지적 참견 시점> (02:10 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-10",
+        "type": "방송",
+        "title": "KBS2 <뮤직뱅크> (08:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-10",
+        "type": "팬사인회",
+        "title": "[Pretty Girl] 대면/영상통화 팬사인회 by million music (11:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-09",
+        "type": "방송",
+        "title": "MBC <쇼! 음악중심> 사전녹화 (12:40 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-09",
+        "type": "방송",
+        "title": "Mnet <M COUNTDOWN> (09:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-09",
+        "type": "방송",
+        "title": "Mnet  <Check-in! 아이돌 빙고> (10:50 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-09",
+        "type": "방송",
+        "title": "KBS2 <뮤직뱅크> 사전녹화 (11:15 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-08",
+        "type": "발매",
+        "title": "Pretty Girl - Special Single (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-08",
+        "type": "방송",
+        "title": "Mnet <M COUNTDOWN> 사전녹화 (07:00 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-07-06",
+        "type": "방송",
+        "title": "SBS <인기가요> 사전녹화 (10:00 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      }
+    ]
   }
 };
