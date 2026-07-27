@@ -10,12 +10,19 @@
 - **📤 공유하기**: 상단 공유 버튼(사이트 전체) + 각 카드의 공유 버튼(개별 항목).
   모바일에서는 기기 공유 시트가, 데스크톱에서는 링크 복사가 뜹니다. 카카오톡 등에
   링크를 붙여넣으면 og 메타태그 덕분에 미리보기 카드가 자동으로 뜹니다.
+- **🔗 링크 탭**: 공식 계정·커뮤니티·팬튜브 채널 등을 카테고리별로 정리한 링크 모음.
+- **📅 공식 스케줄(Mnet Plus)**: 이번 달 포함 앞으로 6개월치(설정 가능)를
+  자동으로 가져와서 확정 일정으로 표시.
 - **ℹ️ 안내 탭**: 비공식·비영리 안내, 데이터 출처, 문의/삭제 요청 연락처, 자동
   갱신 주기를 명시 — 카페 등에 공식 배포할 때 필요한 최소한의 고지입니다.
-- **🤖 자동 갱신(GitHub Actions)**: 배포 후에는 방문자 브라우저에서 수집을 실행할
-  수 없으므로, `.github/workflows/refresh.yml`이 30분마다 자동으로 수집·차트조회·
-  스케줄추정을 실행하고 결과를 저장소에 커밋합니다. (로컬에서 쓰던 "🔄 새로고침"
-  버튼은 localhost에서 실행할 때만 보이고, 배포 후 방문자에게는 보이지 않습니다.)
+- **🤖 자동 갱신(GitHub Actions, 2개 워크플로)**:
+  - `refresh.yml` — 30분마다 유튜브·뉴스·차트·뉴스기반 일정추정을 갱신
+  - `official_schedule.yml` — 6시간마다 Mnet Plus 공식 스케줄을 갱신 (Playwright
+    설치 시간이 있어서 더 낮은 빈도로 분리)
+
+  배포 후에는 방문자 브라우저에서 수집을 실행할 수 없어서 이 두 워크플로가
+  대신 갱신합니다. (로컬에서 쓰던 "🔄 새로고침" 버튼은 localhost에서 실행할
+  때만 보이고, 배포 후 방문자에게는 보이지 않습니다.)
 
 ## 1. 설치 (로컬 테스트용)
 
@@ -72,28 +79,33 @@ python -m playwright install chromium
   일정(`추정` 배지). 같은 날짜에 공식 일정이 이미 있으면 불확실한 추정 항목은
   자동으로 숨겨집니다.
 - **⭐ 즐겨찾기**: 이 브라우저에서 즐겨찾기한 항목만 모아보기.
+- **🔗 링크**: 공식 계정·커뮤니티·팬튜브 채널 등 카테고리별 링크 모음.
 - **ℹ️ 안내**: 비공식 고지, 데이터 출처, 문의 연락처.
 
 ## 5. 폴더 구조
 
 ```
 rescene_tracker/
-├── .github/workflows/refresh.yml  # 자동 갱신 (GitHub Actions)
-├── config.py                       # 채널/키워드/스케줄/배포 설정
-├── db.py                            # SQLite 저장소
-├── collector.py                     # 유튜브(공식·콜라보·검색발견)·뉴스 수집
-├── chart_tracker.py                 # 차트 조회
-├── classify.py                       # 멤버/카테고리 분류
-├── schedule_extractor.py             # 뉴스 → 일정 후보 추출
-├── build_site_data.py               # DB → docs/data.js 변환
-├── local_server.py                   # (로컬 전용) 정적 서빙 + 새로고침 API
-├── refresh_and_open.bat             # (로컬 전용) 실행 버튼
-├── rescene_tracker.db               # (자동 생성/갱신) 데이터 저장소
+├── .github/workflows/
+│   ├── refresh.yml                  # 자동 갱신 (뉴스·차트·유튜브, 30분마다)
+│   └── official_schedule.yml        # 공식 스케줄 자동 갱신 (Mnet Plus, 6시간마다)
+├── config.py                        # 채널/키워드/스케줄/링크/배포 설정
+├── db.py                             # SQLite 저장소
+├── collector.py                      # 유튜브(공식·콜라보·검색발견)·뉴스 수집
+├── chart_tracker.py                  # 차트 조회
+├── classify.py                        # 멤버/카테고리 분류
+├── schedule_extractor.py              # 뉴스 → 일정 후보 추출 (추정)
+├── official_schedule.py               # Mnet Plus 공식 스케줄 수집 (Playwright)
+├── kst.py                              # UTC → KST 시간대 변환 유틸
+├── build_site_data.py                 # DB → docs/data.js 변환
+├── local_server.py                     # (로컬 전용) 정적 서빙 + 새로고침 API
+├── refresh_and_open.bat               # (로컬 전용) 실행 버튼
+├── rescene_tracker.db                 # (자동 생성/갱신) 데이터 저장소
 └── docs/
-    ├── index.html                   # 화면
-    ├── app.js                        # 렌더링 로직
-    ├── data.js                       # (자동 생성) 화면에 뿌려질 데이터
-    └── og-image.png                  # 공유 미리보기 카드 이미지
+    ├── index.html                     # 화면
+    ├── app.js                          # 렌더링 로직
+    ├── data.js                         # (자동 생성) 화면에 뿌려질 데이터
+    └── og-image.png                    # 공유 미리보기 카드 이미지
 ```
 
 ## 6. 커스터마이징 (`config.py`)
@@ -107,6 +119,7 @@ rescene_tracker/
 - `SCHEDULE_ITEMS` — 확실한 일정 수동 등록 (공식 자동 수집보다 더 신뢰)
 - `MNET_PLUS_ARTIST_SLUG` — 공식 스케줄을 가져올 Mnet Plus 아티스트 페이지 슬러그
 - `MNET_PLUS_MONTHS_AHEAD` — 이번 달 포함해서 앞으로 몇 개월치를 가져올지 (기본 6개월 뒤까지, 총 7개월)
+- `LINK_COLLECTIONS` — 🔗 링크 탭에 표시할 카테고리별 링크 모음 (공식 계정/커뮤니티/팬튜브 등)
 
 콜라보 채널은 이제 두 가지 경로로 잡힙니다: ① `COLLAB_CHANNELS`에 등록한 채널은
 조회수 상관없이 항상, ② 등록하지 않은 채널이라도 "리센느" 검색 결과에서 조회수
