@@ -70,9 +70,9 @@ LINK_COLLECTIONS = [
         "items": [
             {"name": "RESCENE 공식 인스타그램", "url": "https://www.instagram.com/rescene_official/"},
             {"name": "RESCENE 공식 유튜브", "url": "https://www.youtube.com/channel/UCtKtCiaWRz-d3EZn2xd1mdA"},
-            {"name": "RESCENE 공식 X(트위터)", "https://x.com/RESCENEofficial?s=20"},
-            {"name": "RESCENE 공식 멤버 X(트위터)", "https://x.com/RESCENE_twt?s=20"},
-            {"name": "RESCENE 공식 악플 신고", "https://themuze.kr/protect"},
+            {"name": "RESCENE 공식 X(트위터)", "url": "https://x.com/RESCENEofficial?s=20"},
+            {"name": "RESCENE 공식 멤버 X(트위터)", "url": "https://x.com/RESCENE_twt?s=20"},
+            {"name": "RESCENE 공식 악플 신고", "url": "https://themuze.kr/protect"},
             # {"name": "RESCENE 공식 팬카페", "url": "https://cafe.naver.com/..."},
         ],
     },
