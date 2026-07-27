@@ -14,8 +14,9 @@ YOUTUBE_CHANNELS = [
 # ── 콜라보/외부 채널 (수동 등록) ──────────────────────────────
 # 확실히 챙기고 싶은 채널은 여기 등록하면 조회수 상관없이 항상 수집합니다.
 COLLAB_CHANNELS = [
-    {"name": "침착맨", "channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ"},
-    {"name": "도미노피자", "channel_id": "UCrDYPLah4QRsqEZVvWQ6t7g"},
+    {"name": "SBS 인기가요", "channel_id": "UCS_hnpJLQTvBkqALgapi_4g"},
+    {"name": "더쇼", "channel_id": "UCoRXPcv8XK5fAplLbk9PTww"},
+    {"name": "음악중심", "channel_id": "UCe52oeb7Xv_KaJsEzcKXJJg"},
 ]
 
 # ── 콜라보 자동 발견 (유튜브 검색 기반) ─────────────────────────
@@ -69,20 +70,31 @@ LINK_COLLECTIONS = [
         "items": [
             {"name": "RESCENE 공식 인스타그램", "url": "https://www.instagram.com/rescene_official/"},
             {"name": "RESCENE 공식 유튜브", "url": "https://www.youtube.com/channel/UCtKtCiaWRz-d3EZn2xd1mdA"},
-            # {"name": "RESCENE 공식 X(트위터)", "url": "https://x.com/..."},
+            {"name": "RESCENE 공식 X(트위터)", "url": "https://x.com/RESCENEofficial?s=20"},
+            {"name": "RESCENE 공식 멤버 X(트위터)", "url": "https://x.com/RESCENE_twt?s=20"},
+            {"name": "RESCENE 공식 악플 신고", "url": "https://themuze.kr/protect"},
             # {"name": "RESCENE 공식 팬카페", "url": "https://cafe.naver.com/..."},
         ],
     },
     {
         "category": "커뮤니티",
         "items": [
-            # {"name": "네이버 팬카페 '리시안셔스'", "url": "https://cafe.naver.com/..."},
+            {"name": "네이버 팬카페 '리시안셔스'", "url": "https://cafe.naver.com/re5cene"},
         ],
     },
     {
         "category": "팬튜브",
         "items": [
-            # {"name": "채널명", "url": "https://www.youtube.com/@..."},
+            {"name": "르센느 아니고 리센느", "url": "https://youtube.com/channel/UCfd9mp2QKKprT1Iwt_2Jhng?si=zTtCEXDcSt2S7gGO"},
+            {"name": "리센느서치P", "url": "https://youtube.com/channel/UCkQ_VWRV5xw4HJOQqaucIHg?si=TSkbFCEMHNr7lRgq"},
+        ],
+    },
+    {
+        "category": "기타",
+        "items": [
+            {"name": "리센느 영상 모음", "url": "https://adam-yam.github.io/SCENE-FLIX/?tab=allvideos"},
+            {"name": "리센느 얼굴 맞추기", "url": "https://rescenehertz.github.io/rescene-face-game/"},
+            {"name": "메이즈러너", "url": "https://twilight-dream-ed96.sparkeredm.workers.dev/"},
         ],
     },
 ]
@@ -98,6 +110,11 @@ CHART_SOURCES = {
     "genie": "https://www.genie.co.kr/chart/top200",
     "bugs": "https://music.bugs.co.kr/chart",
 }
+
+# kworb.net 국가별 차트에서 가져올 국가 코드 (플랫폼별로 지원 국가가 다를 수 있음)
+KWORB_SPOTIFY_COUNTRIES = ["kr", "us", "jp"]
+KWORB_SHAZAM_COUNTRIES = ["kr", "us", "jp"]
+KWORB_YOUTUBE_COUNTRIES = ["kr", "us", "jp"]
 
 # ── 스케줄 (수동 관리, 최우선 신뢰) ──────────────────────────────
 # 자동 수집(공식/추정)보다 우선하고 싶은 확실한 정보가 있으면 여기에 직접 추가.
@@ -126,9 +143,6 @@ OPERATOR_CONTACT = "네이버 카페 '리시안셔스' 쪽지"
 # GitHub Actions가 몇 분마다 자동 갱신하는지 (표시용 텍스트와 워크플로 cron이
 # 실제로 일치하도록 .github/workflows/refresh.yml의 cron도 함께 맞춰주세요)
 REFRESH_INTERVAL_MINUTES = 30
-
-# kworb.net 국가별 스포티파이 차트에서 가져올 국가 코드
-KWORB_SPOTIFY_COUNTRIES = ["kr", "us", "jp"]
 
 # ── 저장소 ──────────────────────────────────────────────────────
 DB_PATH = "rescene_tracker.db"
