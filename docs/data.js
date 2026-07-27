@@ -1,12 +1,56 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 18:56",
-  "operator_contact": "네이버 카페 리시안셔스 '첸드' 쪽지",
+  "generated_at": "2026-07-27 20:36",
+  "operator_contact": "zenosid3@gmail.com",
   "refresh_interval_minutes": 30,
   "archive": [
     {
       "date": "2026-07-27",
       "date_display": "2026년 07월 27일",
       "items": [
+        {
+          "title": "리센느, 사랑스러운 티파티 화보 공개…랑방 '에끌라 드 아르페쥬 화이트 티' 로맨틱 감성 담았다 - 피플게이트",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOGgyNW5mb3p4NnFvYUlwYWpOTGRYSEN2ZmFkR3I5YlliTkt4OXFUOVFQMWdzdkdPMzY0Z0VMY1JLanh2bDhPM3hraDg5aHo3TlgwazZhN19XNFpLQmF3WUNCbHlNZTR2amwwSFVnbW10SURhRFhFdHNIbXg2Z3ZZXzh0Vk5qMXVrbFBKbHFkYUVoNzU2ZnJ6bjl1NmtsQ1VxT2c?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "18:12",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 사랑스러운 소녀들의 티파티…청순 비주얼 - 스포츠동아",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pcG9tRGNQTS1iYXJpMjgxODcza0NRWVFaMEpybjk0TTN0VnVpRTBUY1Z4LVFwblZOa3BCTlZHYTNZR3NQN1RsVkJOR1YtUWpQUXRZR2RQTkZiQlNENnBOQzlnV0luV0ZIcDdKQmp3?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "18:06",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 사랑스러운 소녀들의 티파티…청순 비주얼｜포토뷰 - 스포츠동아",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TbUV2VVpzS3NIUlJDUEhHS2JnRWpjTzhtbUpKSEJSTmtqWVF1WnFXWlg0QS14WnE2NWV3S0RQOHQxTWg1NXRvV3VsY3luUHd1V0xYem13RU5EUWh3c2U4Uy1KdF9venVRMTc0b0lzc1BfdVRMc0Q1UU02UQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "18:06",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, “사랑스러운 소녀들의 Tea Party” 화보 공개 - 패션서울",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE01Y3BEVDNOcEt0VjlOdUZ2QmFkblRna0d1S04yS1hFVFpKS1BrdWNySTNFN0RhYlBzWU9xWFExVzQzSVBmVkE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:55",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
         {
           "title": "리센느 미나미, '최애' 트와이스 사나 만난다…'냉터뷰' 출연 - 톱스타뉴스",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xNk1jYS1qWmtRcjBRY1AyTFBoYjNDQ21DODU4SEFJM3UzekF3M1kwZ1hFM2hyUWM4LThiZXNMQzdvbXprVHA2dHJsVWRnVTV0b1I3clp3cHFNdUdLNjN0b3ZHRlY1bmdkQm9jQnIyc2dTUQ?oc=5",
@@ -35,6 +79,17 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "16:28",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "2년 전 발매 ‘러브어택’으로 지상파 음방 1위…5060 투표 이끌어낸 리센느의 ‘역주행 신화’ - 세계일보",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aWXhpQnFsZE5HdFhXZXJVRFBNMXlxa3ItaDZtbjFodmtFeDh3eHVHY2trX1kza21QRkowTHhPUXBMUlNYMnNLd0w5dGctTm51cU12NlhuVVfSAVRBVV95cUxPMmRjd3pUdHdNYXF3RU5BSnhMNW9SamxqbkpFNHo3eEtoLUo5ZG5lR3ZjRG1vdTQ3MUFxS3V4SkNkemJLXzlFVDZHOFpGMGNIa1hlSFk?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:27",
           "category": "기타",
           "members": [
             "전체"
@@ -3655,77 +3710,281 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "same"
+        }
       },
       {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "same"
+        }
       },
       {
-        "rank": 12,
+        "rank": 9,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "up",
+          "delta": 3
+        }
       },
       {
-        "rank": 46,
+        "rank": 47,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "down",
+          "delta": 1
+        }
       }
     ],
     "genie": [
       {
-        "rank": 2,
+        "rank": 11,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "down",
+          "delta": 9
+        }
       },
       {
-        "rank": 9,
+        "rank": 71,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "down",
+          "delta": 62
+        }
       },
       {
-        "rank": 364,
+        "rank": 311,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "up",
+          "delta": 53
+        }
       }
     ],
     "bugs": [
       {
-        "rank": 10,
+        "rank": 21,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "down",
+          "delta": 11
+        }
       },
       {
-        "rank": 80,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
-      },
-      {
-        "rank": 90,
+        "rank": 92,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "down",
+          "delta": 2
+        }
       },
       {
-        "rank": 415,
+        "rank": 111,
+        "song_title": "Deja Vu",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "down",
+          "delta": 31
+        }
+      },
+      {
+        "rank": 345,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "up",
+          "delta": 70
+        }
+      }
+    ],
+    "spotify_kr": [
+      {
+        "rank": 2,
+        "song_title": "LOVE ATTACK",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
       },
       {
-        "rank": 1002,
+        "rank": 3,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 14,
+        "song_title": "Deja Vu",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 27,
+        "song_title": "Runaway",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 64,
         "song_title": "Pinball",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 17:53"
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      }
+    ],
+    "youtube_kr": [
+      {
+        "rank": 2,
+        "song_title": "LOVE ATTACK",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 4,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 10,
+        "song_title": "Deja Vu",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 33,
+        "song_title": "Pinball",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 35,
+        "song_title": "Runaway",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 52,
+        "song_title": "Glow Up",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 60,
+        "song_title": "Bloom",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 79,
+        "song_title": "Busy Boy",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      }
+    ],
+    "shazam_kr": [
+      {
+        "rank": 7,
+        "song_title": "LOVE ATTACK",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 21,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 22,
+        "song_title": "Deja Vu",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 72,
+        "song_title": "Runaway",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
+      },
+      {
+        "rank": 103,
+        "song_title": "Pinball",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-07-27 20:36",
+        "change": {
+          "kind": "new"
+        }
       }
     ]
   },
