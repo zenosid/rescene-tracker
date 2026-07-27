@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 23:39",
+  "generated_at": "2026-07-27 23:40",
   "operator_contact": "네이버 카페 리시안셔스 '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
