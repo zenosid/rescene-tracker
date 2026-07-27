@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-27 22:42",
+  "generated_at": "2026-07-27 22:44",
   "operator_contact": "네이버 카페 리시안셔스 '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -1879,6 +1879,18 @@ const SITE_DATA = {
       "date_display": "2026년 07월 24일",
       "items": [
         {
+          "title": "[LIVE] RESCENE 미나미 - 혜성 (원곡: 윤하 (YOUNHA)) | 우쥬레코드 리센느 편",
+          "link": "https://www.youtube.com/watch?v=K-beRJuRjQQ",
+          "source_type": "youtube_collab",
+          "source_name": "M2",
+          "time": "22:44",
+          "category": "Live",
+          "members": [
+            "리브",
+            "미나미"
+          ]
+        },
+        {
           "title": "1화보다 더 재밌을걸?😆 리센느의 스릴 넘치는 여름휴가 보러 오이데~⭐️ [4K] | My Daytrip to Jeongseon Ep 02. #리센느 #rescene #마이데이트립",
           "link": "https://www.youtube.com/watch?v=L16ezTKcwrY",
           "source_type": "youtube_collab",
@@ -3116,6 +3128,18 @@ const SITE_DATA = {
           "members": [
             "원이"
           ]
+        },
+        {
+          "title": "리센느 데뷔요? 2024년 3월 26일이요💕 #리브 #제나 #리센느 #RESCENE - starnewskorea.com",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1TGt3UE1URnhkTFZTc3RIZE83NnV0MHNSdDJld3Q0ZTNkS0drdGhXQm5LZ1VZMnZ4MVpJVGRRcl9ydHczX3UzT2xhNFIzVWtxT29aSnd5Rmh3Z2RzWkhjelA2VHBHNmY1cnhXMmxYQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - RESCENE",
+          "time": "16:00",
+          "category": "기타",
+          "members": [
+            "리브",
+            "제나"
+          ]
         }
       ]
     },
@@ -3754,7 +3778,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3763,7 +3787,7 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3772,7 +3796,7 @@ const SITE_DATA = {
         "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3781,7 +3805,7 @@ const SITE_DATA = {
         "rank": 42,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3792,7 +3816,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3801,7 +3825,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3810,7 +3834,7 @@ const SITE_DATA = {
         "rank": 311,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3821,7 +3845,7 @@ const SITE_DATA = {
         "rank": 20,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3830,7 +3854,7 @@ const SITE_DATA = {
         "rank": 106,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3839,7 +3863,7 @@ const SITE_DATA = {
         "rank": 111,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3848,7 +3872,7 @@ const SITE_DATA = {
         "rank": 330,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3859,7 +3883,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3868,7 +3892,7 @@ const SITE_DATA = {
         "rank": 3,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3877,7 +3901,7 @@ const SITE_DATA = {
         "rank": 14,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3886,7 +3910,7 @@ const SITE_DATA = {
         "rank": 27,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3895,7 +3919,7 @@ const SITE_DATA = {
         "rank": 64,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3908,7 +3932,7 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3917,7 +3941,7 @@ const SITE_DATA = {
         "rank": 21,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3926,7 +3950,7 @@ const SITE_DATA = {
         "rank": 22,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3935,7 +3959,7 @@ const SITE_DATA = {
         "rank": 72,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3944,7 +3968,7 @@ const SITE_DATA = {
         "rank": 103,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3956,7 +3980,7 @@ const SITE_DATA = {
         "rank": 82,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3967,7 +3991,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3976,7 +4000,7 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3985,7 +4009,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -3998,7 +4022,7 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "LOVE ATTACK",
         "artist_text": "리센느",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -4007,7 +4031,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "리센느",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -4016,7 +4040,7 @@ const SITE_DATA = {
         "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "리센느",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -4025,7 +4049,7 @@ const SITE_DATA = {
         "rank": 21,
         "song_title": "Runaway",
         "artist_text": "리센느",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -4034,7 +4058,7 @@ const SITE_DATA = {
         "rank": 22,
         "song_title": "Pinball",
         "artist_text": "리센느",
-        "checked_at": "2026-07-27 22:42",
+        "checked_at": "2026-07-27 22:44",
         "change": {
           "kind": "same"
         }
@@ -4755,11 +4779,25 @@ const SITE_DATA = {
       "like_count": 1395
     },
     {
+      "video_link": "https://www.youtube.com/watch?v=K-beRJuRjQQ",
+      "video_title": "[LIVE] RESCENE 미나미 - 혜성 (원곡: 윤하 (YOUNHA)) | 우쥬레코드 리센느 편",
+      "author": "@별빛기니",
+      "text": "살면서 본 일본인 중 가장 메인보컬스러움",
+      "like_count": 1365
+    },
+    {
       "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
       "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
       "author": "@tjpark",
       "text": "빨리 1위 발표 후 직캠영상 올려주시오....😊",
       "like_count": 1348
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=K-beRJuRjQQ",
+      "video_title": "[LIVE] RESCENE 미나미 - 혜성 (원곡: 윤하 (YOUNHA)) | 우쥬레코드 리센느 편",
+      "author": "@gato8185",
+      "text": "오늘 유튜브만 4편 실화냐",
+      "like_count": 1346
     },
     {
       "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
@@ -4788,6 +4826,20 @@ const SITE_DATA = {
       "author": "@1230-v7q",
       "text": "리센느한테 지갑 많이 털리시는 감독님",
       "like_count": 1260
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=K-beRJuRjQQ",
+      "video_title": "[LIVE] RESCENE 미나미 - 혜성 (원곡: 윤하 (YOUNHA)) | 우쥬레코드 리센느 편",
+      "author": "@ryu.x_x",
+      "text": "진짜 선곡 잘했다 미나미랑 찰떡임ㅋㅋㅋㅋ 1절은 일본어 2절은 한국어로 불러주는 게 너무 좋음",
+      "like_count": 1206
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=K-beRJuRjQQ",
+      "video_title": "[LIVE] RESCENE 미나미 - 혜성 (원곡: 윤하 (YOUNHA)) | 우쥬레코드 리센느 편",
+      "author": "@최규빈임",
+      "text": "한국어를 수준급으로 하니까 두가지 버전이 다 되는구나",
+      "like_count": 1176
     },
     {
       "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
@@ -4921,6 +4973,13 @@ const SITE_DATA = {
       "author": "@너도나도진경은",
       "text": "미나미는 음악 관련 컨텐츠일때 더욱 행복해보이고, 눈이 정말 빛나는 듯.",
       "like_count": 758
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=K-beRJuRjQQ",
+      "video_title": "[LIVE] RESCENE 미나미 - 혜성 (원곡: 윤하 (YOUNHA)) | 우쥬레코드 리센느 편",
+      "author": "@dudu4786",
+      "text": "도입부는 ㄹㅇ 그시절 윤하가 들리네 ㅋㅋㅋㅋㅋㅋ",
+      "like_count": 712
     },
     {
       "video_link": "https://www.youtube.com/watch?v=bmLaavZCiN8",
@@ -5091,6 +5150,13 @@ const SITE_DATA = {
       "like_count": 386
     },
     {
+      "video_link": "https://www.youtube.com/watch?v=K-beRJuRjQQ",
+      "video_title": "[LIVE] RESCENE 미나미 - 혜성 (원곡: 윤하 (YOUNHA)) | 우쥬레코드 리센느 편",
+      "author": "@날씨의아이-p1f",
+      "text": "다들 “나도 리센느 찍었어 보러와 ㅋ“ 하고 선공개 계속 올라오네",
+      "like_count": 373
+    },
+    {
       "video_link": "https://www.youtube.com/watch?v=MbCT-UmVNMw",
       "video_title": "[우쥬레코드] RESCENE 미나미, 제나 with 윤하 | 혜성, 늦은 후회, 행복한 나를, Pretty Girl | WOULD YOU RECORD (ENG/JPN)",
       "author": "@MnetM2",
@@ -5103,6 +5169,20 @@ const SITE_DATA = {
       "author": "@오늘하루는종일맑음",
       "text": "박존 이제 너도 리센느다",
       "like_count": 358
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=K-beRJuRjQQ",
+      "video_title": "[LIVE] RESCENE 미나미 - 혜성 (원곡: 윤하 (YOUNHA)) | 우쥬레코드 리센느 편",
+      "author": "@hygjjj233",
+      "text": "미나미 목소리엔 뭔가 있는 것 같아",
+      "like_count": 352
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=K-beRJuRjQQ",
+      "video_title": "[LIVE] RESCENE 미나미 - 혜성 (원곡: 윤하 (YOUNHA)) | 우쥬레코드 리센느 편",
+      "author": "@mukbbab",
+      "text": "1:14 여기서 한국어로 딱 바뀌는데 방과후 설렘 때 처음으로 보여준 무대인 소원을 말해봐 생각나서 울컥함😿 미나미 그동안 너무 수고했어🥺🩵",
+      "like_count": 352
     },
     {
       "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
@@ -5147,67 +5227,11 @@ const SITE_DATA = {
       "like_count": 296
     },
     {
-      "video_link": "https://www.youtube.com/watch?v=4a0Qp71ZaHo",
-      "video_title": "드디어!! LOVE ATTACK 으로 지상파 1위!!(리센느)",
-      "author": "@MwoMwa-lg8fy",
-      "text": "김덕연, 박은미, 미치루 여사님들께도 감사...\n메이랑 리브 어머니 성함은 차차 알게되겠지요",
-      "like_count": 283
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=MbCT-UmVNMw",
-      "video_title": "[우쥬레코드] RESCENE 미나미, 제나 with 윤하 | 혜성, 늦은 후회, 행복한 나를, Pretty Girl | WOULD YOU RECORD (ENG/JPN)",
-      "author": "@15786",
-      "text": "미나미는 진짜 보물이다.. 음색이며 감정몰입력 가창력 다...",
-      "like_count": 281
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
-      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
-      "author": "@Shooshoobahnah",
-      "text": "와 앵콜직캠 조회수가 30만다되어 가네 ㄷㄷㄷ\n리센느 파워진짜 쩐다",
-      "like_count": 274
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
-      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
-      "author": "@임건영-m5h",
-      "text": "1위 축하!!! 니콜 선배니무 관리 보소 ㄷㄷ 전혀 안 밀리시네잉",
-      "like_count": 268
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
-      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
-      "author": "@mrq1245",
-      "text": "중소돌의 기적 여기서 마지막이 아니라고 봅니다. 리센느 확실히 다르다고 봅니다. 더 대박날 리센느 입니다. 100%",
-      "like_count": 261
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=v1C6hfjSNYk",
-      "video_title": "Deja Vu - RESCENE (리센느) | SBS 260726 방송",
-      "author": "@딥뿌-j6v",
-      "text": "공중파에서\n한 주에 역주행 정주행 동시 1위 ㄷㄷ",
-      "like_count": 257
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=MSPLKSR0cNU",
-      "video_title": "[4K] Deja Vu - RESCENE (리센느) | SBS 260726 방송",
-      "author": "@helloiamggugguggunicetomeetyou",
-      "text": "7월 아이돌 브랜드평판 1위(리센느)\n7월 걸그룹 브랜드평판 1위(리센느)\n7월 아이돌 개인 브랜드평판 1위(원이)\n음악중심 1위\n인기가요 1위\n더쇼 1위\n멜론 TOP100 1위\n\n이 백성 1위 가수님을 뵙습니다",
-      "like_count": 254
-    },
-    {
-      "video_link": "https://www.youtube.com/shorts/yuTme7lLho4",
-      "video_title": "에베베벱베 😝",
-      "author": "@샤우팅박명수",
-      "text": "미치겠다 미나미 왜이러시는거에요ㅋㅋㅋㅋㅋㅋ",
-      "like_count": 249
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=bd42NE8dFDI",
-      "video_title": "카라 선배님 사랑합니다🩷ㅣRESCENE (리센느) 'Pretty Girl' 스페셜 무대 Behind",
-      "author": "@SVTmcarat0526",
-      "text": "진짜 비하인드 빨리 올려주네..편집자님 속도 보소..",
-      "like_count": 245
+      "video_link": "https://www.youtube.com/watch?v=K-beRJuRjQQ",
+      "video_title": "[LIVE] RESCENE 미나미 - 혜성 (원곡: 윤하 (YOUNHA)) | 우쥬레코드 리센느 편",
+      "author": "@저승산책",
+      "text": "일본 데뷔 먼저 한 윤하가 바라보는, 미나미가 얼마나 대견하고 뿌듯할까??",
+      "like_count": 290
     }
   ]
 };
