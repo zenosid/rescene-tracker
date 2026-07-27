@@ -248,6 +248,10 @@ def _strip_naver_tags(text):
     return _NAVER_TAG_RE.sub("", text or "")
 
 
+def _is_our_group(text):
+    return any(keyword in text for keyword in CHART_KEYWORDS)
+
+
 def _naver_pubdate_to_iso(pub_date_text):
     """'Mon, 27 Jul 2026 10:00:00 +0900' 형식을 UTC ISO로 변환."""
     try:
@@ -295,6 +299,10 @@ def collect_naver_news(conn):
             snippet = _strip_naver_tags(item.get("description", ""))[:500]
             published_at = _naver_pubdate_to_iso(item.get("pubDate", ""))
             if not link:
+                continue
+            # 네이버 검색이 느슨하게 매칭해서 무관한 기사가 섞여 들어올 수 있어
+            # 제목+본문에 실제로 우리 그룹 키워드가 있는지 한 번 더 확인
+            if not _is_our_group(f"{title} {snippet}"):
                 continue
             is_new = insert_item(conn, "news", "네이버 뉴스", title, link, published_at, snippet)
             if is_new:
