@@ -358,8 +358,21 @@
     background-clip: text;
     color: transparent;
   }
-  .chart-song { font-size: 14px; font-weight: 600; }
+  .chart-song { font-size: 14px; font-weight: 600; flex: 1; }
   .chart-empty { color: var(--text-faint); font-size: 13px; padding: 12px 0; }
+
+  .chart-change {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .chart-change.new { background: rgba(255, 207, 111, 0.18); color: var(--aurora-amber); }
+  .chart-change.up { background: rgba(92, 255, 176, 0.14); color: var(--aurora-mint); }
+  .chart-change.down { background: rgba(255, 111, 176, 0.14); color: var(--aurora-pink); }
+  .chart-change.same { background: rgba(255,255,255,0.06); color: var(--text-faint); }
 
   /* ── 스케줄 ───────────────────────────────────────────── */
   .schedule-list { display: flex; flex-direction: column; gap: 10px; }

@@ -119,6 +119,26 @@ def get_chart_history(conn, platform, song_title, limit=30):
     ).fetchall()
 
 
+def get_previous_ranks(conn, platform):
+    """
+    해당 플랫폼의 '가장 최근' 스냅샷 이전, 즉 그 전 회차의 곡별 순위를
+    {곡제목: 순위} 딕셔너리로 반환. (최신 대비 변동 계산용)
+    """
+    times = conn.execute(
+        """SELECT DISTINCT checked_at FROM chart_snapshots
+           WHERE platform = ? ORDER BY checked_at DESC LIMIT 2""",
+        (platform,),
+    ).fetchall()
+    if len(times) < 2:
+        return {}
+    prev_time = times[1]["checked_at"]
+    rows = conn.execute(
+        "SELECT song_title, rank FROM chart_snapshots WHERE platform = ? AND checked_at = ?",
+        (platform, prev_time),
+    ).fetchall()
+    return {row["song_title"]: row["rank"] for row in rows}
+
+
 # ── 뉴스 기반 자동 스케줄 ────────────────────────────────────
 def insert_auto_schedule(conn, date, type_, title, note, source_link):
     """같은 기사(source_link)에서는 한 번만 추출되도록 UNIQUE 제약으로 중복 방지."""

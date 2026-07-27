@@ -15,7 +15,7 @@ from collections import defaultdict
 from datetime import datetime
 
 from config import SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS
-from db import init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule
+from db import init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule, get_previous_ranks
 from chart_tracker import get_latest_all
 from classify import classify_members, classify_category
 from kst import now_kst, to_kst
@@ -58,17 +58,32 @@ def build_archive():
 def build_chart():
     with get_conn() as conn:
         latest = get_latest_all(conn)
-    result = {}
-    for platform, songs in latest.items():
-        result[platform] = [
-            {
-                "rank": s["rank"],
-                "song_title": s["song_title"],
-                "artist_text": s["artist_text"],
-                "checked_at": to_kst(s["checked_at"]).strftime("%Y-%m-%d %H:%M"),
-            }
-            for s in songs
-        ]
+        result = {}
+        for platform, songs in latest.items():
+            prev_ranks = get_previous_ranks(conn, platform)
+            entries = []
+            for s in songs:
+                prev_rank = prev_ranks.get(s["song_title"])
+                if prev_rank is None:
+                    change = {"kind": "new"}
+                else:
+                    delta = prev_rank - s["rank"]  # 양수 = 순위 상승(숫자는 작아짐)
+                    if delta > 0:
+                        change = {"kind": "up", "delta": delta}
+                    elif delta < 0:
+                        change = {"kind": "down", "delta": -delta}
+                    else:
+                        change = {"kind": "same"}
+                entries.append(
+                    {
+                        "rank": s["rank"],
+                        "song_title": s["song_title"],
+                        "artist_text": s["artist_text"],
+                        "checked_at": to_kst(s["checked_at"]).strftime("%Y-%m-%d %H:%M"),
+                        "change": change,
+                    }
+                )
+            result[platform] = entries
     return result
 
 

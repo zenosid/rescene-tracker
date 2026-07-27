@@ -15,7 +15,14 @@ const MEMBER_COLORS = {
   "제나": "var(--aurora-amber)",
 };
 
-const PLATFORM_LABELS = { melon: "멜론", genie: "지니", bugs: "벅스" };
+const PLATFORM_LABELS = {
+  melon: "멜론",
+  genie: "지니",
+  bugs: "벅스",
+  spotify_kr: "Spotify (KR)",
+  youtube_kr: "YouTube (KR)",
+  shazam_kr: "Shazam (KR)",
+};
 const FAVORITES_KEY = "rescene_tracker_favorites"; // localStorage 키 (이 브라우저 전용)
 
 // ── 상태 ──────────────────────────────────────────────────
@@ -307,6 +314,15 @@ function renderLinks() {
   });
 }
 
+// ── 차트 변동 배지 ────────────────────────────────────────
+function changeBadgeHtml(change) {
+  if (!change) return "";
+  if (change.kind === "new") return `<span class="chart-change new">NEW</span>`;
+  if (change.kind === "up") return `<span class="chart-change up">▲ ${change.delta}</span>`;
+  if (change.kind === "down") return `<span class="chart-change down">▼ ${change.delta}</span>`;
+  return `<span class="chart-change same">–</span>`;
+}
+
 // ── 차트 렌더링 ───────────────────────────────────────────
 function renderChart() {
   const grid = document.getElementById("chartGrid");
@@ -328,6 +344,7 @@ function renderChart() {
         <div class="chart-row">
           <div class="chart-rank">${s.rank}</div>
           <div class="chart-song">${escapeHtml(s.song_title)}</div>
+          ${changeBadgeHtml(s.change)}
         </div>`
         )
         .join("");
