@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 멜론 / 지니 / 벅스 공개 차트 페이지(로그인 불필요) + kworb.net(2012년부터 운영된
-공개 음원 통계 사이트 - 스포티파이/유튜브/샤잠이 공개한 데이터를 미러링)에서
-리센느 곡의 실시간 순위를 조회해서 DB에 기록합니다.
+공개 음원 통계 사이트 - 스포티파이/유튜브/샤잠이 공개한 데이터를 미러링) +
+애플 공식 공개 API(rss.applemarketingtools.com, 로그인/키 불필요)에서 리센느
+곡의 실시간 순위를 조회해서 DB에 기록합니다.
 
 kworb의 국가별 전체 차트(TOP 200 등)를 멜론/지니/벅스와 똑같은 방식으로
 "전체 목록을 훑어서 우리 그룹만 골라내는" 방식으로 처리합니다. 국가는
@@ -151,6 +152,32 @@ def fetch_bugs():
     return results
 
 
+KWORB_ARTIST_SUMMARY_URL = "https://kworb.net/itunes/artist/rescene.html"
+_KWORB_SUMMARY_LINE_RE = re.compile(r"^(\w[\w\s]*?):\s*#(\d+)\s+(.+?)\s*\(([^)]+)\)$")
+
+# 애플이 직접 제공하는 공식 공개 API (로그인/키 불필요) - "가장 많이 재생된 곡"
+# 국가별 TOP 100을 그대로 제공합니다. kworb보다 훨씬 안정적이라 이쪽을 우선 사용.
+APPLE_MUSIC_API_URL = "https://rss.applemarketingtools.com/api/v2/{cc}/music/most-played/100/songs.json"
+APPLE_MUSIC_COUNTRIES = ["kr", "us", "jp"]
+
+
+def fetch_apple_music_country(country_code):
+    """애플 공식 API에서 국가별 TOP100 중 리센느 곡만 추출."""
+    url = APPLE_MUSIC_API_URL.format(cc=country_code)
+    r = requests.get(url, headers=HEADERS, timeout=15)
+    r.raise_for_status()
+    results_json = r.json().get("feed", {}).get("results", [])
+
+    results = []
+    for i, song in enumerate(results_json):
+        artist_name = song.get("artistName", "")
+        if _is_our_group(artist_name):
+            results.append(
+                {"rank": i + 1, "song_title": song.get("name", ""), "artist_text": artist_name}
+            )
+    return results
+
+
 FETCHERS = {
     "melon": fetch_melon,
     "genie": fetch_genie,
@@ -197,12 +224,24 @@ def refresh_all_charts():
                     errors.append((platform, str(e)))
                     summary[platform] = []
 
+        for country_code in APPLE_MUSIC_COUNTRIES:
+            platform = f"apple_music_{country_code}"
+            try:
+                songs = fetch_apple_music_country(country_code)
+                for s in songs:
+                    save_chart_snapshot(conn, platform, s["rank"], s["song_title"], s["artist_text"])
+                summary[platform] = songs
+            except Exception as e:
+                errors.append((platform, str(e)))
+                summary[platform] = []
+
     return summary, errors
 
 
 def get_latest_all(conn):
     """플랫폼별 가장 최근 스냅샷을 딕셔너리로 반환."""
-    all_platforms = list(FETCHERS.keys()) + _kworb_platform_list()
+    apple_music_platforms = [f"apple_music_{cc}" for cc in APPLE_MUSIC_COUNTRIES]
+    all_platforms = list(FETCHERS.keys()) + _kworb_platform_list() + apple_music_platforms
     return {platform: get_latest_chart_snapshot(conn, platform) for platform in all_platforms}
 
 

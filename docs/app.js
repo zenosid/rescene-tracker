@@ -28,6 +28,9 @@ const PLATFORM_LABELS = {
   youtube_kr: "YouTube (KR)",
   youtube_us: "YouTube (US)",
   youtube_jp: "YouTube (JP)",
+  apple_music_kr: "Apple Music (KR)",
+  apple_music_us: "Apple Music (US)",
+  apple_music_jp: "Apple Music (JP)",
 };
 const FAVORITES_KEY = "rescene_tracker_favorites"; // localStorage 키 (이 브라우저 전용)
 
@@ -512,6 +515,30 @@ if (refreshBtn) {
   });
 }
 
+// ── 자동 새로고침 감지 ───────────────────────────────────────
+// 방문자가 페이지를 계속 켜두고 있어도, 새 데이터가 서버(GitHub Pages)에
+// 올라오면 몇 분 안에 자동으로 알아채서 새로고침합니다 (수동 새로고침 불필요).
+const AUTO_REFRESH_CHECK_INTERVAL_MS = 2 * 60 * 1000; // 2분마다 확인
+
+function startAutoRefreshWatcher() {
+  if (!SITE_DATA || !SITE_DATA.generated_at) return;
+  const loadedAt = SITE_DATA.generated_at;
+
+  setInterval(async () => {
+    try {
+      const res = await fetch("data.js?t=" + Date.now(), { cache: "no-store" });
+      if (!res.ok) return;
+      const text = await res.text();
+      const m = text.match(/"generated_at":\s*"([^"]+)"/);
+      if (m && m[1] !== loadedAt) {
+        location.reload();
+      }
+    } catch (e) {
+      // file:// 로컬 테스트 등 fetch가 안 되는 환경에서는 조용히 무시
+    }
+  }, AUTO_REFRESH_CHECK_INTERVAL_MS);
+}
+
 // ── 초기 렌더 ─────────────────────────────────────────────
 buildSourceChips();
 buildCategoryChips();
@@ -519,3 +546,4 @@ buildMemberChips();
 renderArchive();
 renderChart();
 renderSchedule();
+startAutoRefreshWatcher();
