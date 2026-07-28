@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-29 04:28",
+  "generated_at": "2026-07-29 04:59",
   "operator_contact": "네이버 카페 리시안셔스 '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,62 @@ const SITE_DATA = {
       "date": "2026-07-29",
       "date_display": "2026년 07월 29일",
       "items": [
+        {
+          "title": "'살롱드립' 미나미·원이 \"리센느 대표, 블랙핑크 만들어준다고 설득\" - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80ZmxkU3d1Tm44ZUtpVktYMzdLd2VncENFRXVBRVR6YTl2Q2phRFFXNHdmNzhwbDJQYVQzVzBVanRyZjU1bmZieFFVRjF5NVVyem81SFVKRnpvamNOalNrZQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "04:50",
+          "category": "기타",
+          "members": [
+            "원이",
+            "미나미"
+          ]
+        },
+        {
+          "title": "리센느 미나미, 소속사 대표 폭로 \"블랙핑크 만들어주겠다고…\" - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2V3FCbFNjUkY3SkRaREVpMVRiaFVlS0gzQ2JxWXd1dEVfTThkYWxhdHFhTGs4STJJWTlmYmFxcS14S2MtS3ZiWnU5RlpET0lmRTR3?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "04:42",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "리센느 미나미, 소속사 대표 폭로 \"블랙핑크 만들어주겠다고…\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Ib3FWZjlwSUVWLUFQMGEwRm5GSG9fX09oZ0Y1Wk1lVExlbU9idHdvajQyYXY4a3lRLXNUajJCa1Jxb0k5TTFUQXN5RHhmOUEwOWlhOGRpelV6dG4tUjhpMk93cDFXa1g5NXhPa2VFa00xUDjSAXhBVV95cUxQeVYxZjdFanNEUTFXRENCQTdaS1ppcDdiTDF2QWx5VnlEbEhRcmpWaFZIMzdSdlhZX2htWk5rQ0g5WGV5ejQ5cmRyWE01OXZra2tNU0hBS0l1M2ZhRDNRc28zUDVWWjZUMVRwZlFIa3RvUWlvS2ptanM?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "04:41",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "리센느 원이, 첫 정산 꿈꾸다 눈물 \"엄마에게 소고기 사주고 싶어\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tNXJiZTB6Y0lGT1pudm9yejFWZ2NmelZWOGN4ckl3dVA4aVoxS3hBdHA5S0lkVURKdmg4emNSNzEtMnR6VzV0LWkwME5mdlItaGhyM0JEMkg3eTBqZmpZWWp6cWNNLVdWamJ0d1ZUMUhpVUHSAXhBVV95cUxOd1EzM1E3RGdmYXREcjVnTExNSTlybkdqRGgwY1F4TVVTRlFlVEZzcm5GTEhzaUcxT2Y0UGxZWG1xUEdETEdRXzNQaUtXbVJFNjhoSHFGSHgtZVp5YUxzbThsNFY5Y3ZaYS02a1B1R0wzOVZVQ0ttR1Q?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "04:09",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 첫 정산 꿈꾸다 눈물 \"엄마에게 소고기 사주고 싶어\"",
+          "link": "https://www.mt.co.kr/entertainment/2026/07/29/2026072903284443731",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "04:09",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
         {
           "title": "리센느 미나미, 한국어 첫마디가 ‘죄송합니다’…“죄송할 일 많을 거...",
           "link": "https://sports.donga.com/ent/article/all/20260728/134383998/1",
@@ -3439,6 +3495,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "[레오 강의 K팝 댄스] 리센느(RESCENE)가 불러낸 K팝 퍼포먼스 - 스포츠경향",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9USFY0eURzMkw4LVdmVjlQNXZMNkdEeUNEbHBTd0l5MVJSaThKbTE1Zzc3ckRSdmxHUzgzN3VoSjkzUW5Vc1E5Z3pMX2hGRS12UWt4X0tWT0lOTlloMGfSAWNBVV95cUxPMlNLM3lvRXlGdkcyUXlQOWc3SFk3b2dHMmQzSmo5YWw4VmZSbkxsQU9JamlBMm5YaTVTT3g2aGdkTm13d1NYNWw4U2hqbnVVYkxkRlB1N01xUVQxekVWZnZpOW8?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - RESCENE",
+          "time": "16:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "[아이돌부스 1화] 아니 제발 그만 뽑아줘... 리센느의 도파민 폭주🔥선물뽑기 결말은? [ENG/IDN/CHN/MYS] 4K | IDOL Booth Ep 01 #RESCENE",
           "link": "https://www.youtube.com/watch?v=Hw8KH7RqHQo",
           "source_type": "youtube_collab",
@@ -4597,7 +4664,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4606,7 +4673,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4615,7 +4682,7 @@ const SITE_DATA = {
         "rank": 13,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4624,7 +4691,7 @@ const SITE_DATA = {
         "rank": 65,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4635,7 +4702,7 @@ const SITE_DATA = {
         "rank": 509,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4644,7 +4711,7 @@ const SITE_DATA = {
         "rank": 1715,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4653,7 +4720,7 @@ const SITE_DATA = {
         "rank": 2111,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4664,7 +4731,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4673,7 +4740,7 @@ const SITE_DATA = {
         "rank": 91,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4682,7 +4749,7 @@ const SITE_DATA = {
         "rank": 102,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4691,7 +4758,7 @@ const SITE_DATA = {
         "rank": 3313,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4702,45 +4769,49 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 3,
+        "rank": 4,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       },
       {
-        "rank": 14,
+        "rank": 13,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       },
       {
-        "rank": 24,
+        "rank": 25,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       },
       {
-        "rank": 59,
+        "rank": 62,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 3
         }
       }
     ],
@@ -4751,7 +4822,7 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4760,7 +4831,7 @@ const SITE_DATA = {
         "rank": 23,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4769,7 +4840,7 @@ const SITE_DATA = {
         "rank": 24,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4778,7 +4849,7 @@ const SITE_DATA = {
         "rank": 66,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4787,7 +4858,7 @@ const SITE_DATA = {
         "rank": 115,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4799,7 +4870,7 @@ const SITE_DATA = {
         "rank": 76,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4810,7 +4881,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4819,7 +4890,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4828,7 +4899,7 @@ const SITE_DATA = {
         "rank": 11,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4841,7 +4912,7 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "LOVE ATTACK",
         "artist_text": "리센느",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4850,7 +4921,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "리센느",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4859,7 +4930,7 @@ const SITE_DATA = {
         "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "리센느",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
@@ -4868,18 +4939,19 @@ const SITE_DATA = {
         "rank": 22,
         "song_title": "Runaway",
         "artist_text": "리센느",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 23,
+        "rank": 24,
         "song_title": "Pinball",
         "artist_text": "리센느",
-        "checked_at": "2026-07-29 03:13",
+        "checked_at": "2026-07-29 04:59",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       }
     ],
