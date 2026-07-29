@@ -252,7 +252,6 @@
   .chip.on[data-chip="youtube_collab"] { background: var(--aurora-mint); }
   .chip.on[data-chip="news"] { background: var(--aurora-amber); }
   .chip.on[data-member] { background: var(--grad-primary); }
-  .chip.on[data-category] { background: var(--aurora-cyan); }
 
   /* SOURCE 전용: 단일 선택 탭 스타일 (여러 개 켜는 필터가 아니라 하나만 선택) */
   .source-tab {
@@ -357,11 +356,22 @@
   }
 
   /* ── 차트 ─────────────────────────────────────────────── */
-  .chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+  .chart-grid-inner { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin-bottom: 8px; }
   .chart-card { padding: 22px 20px; }
   .chart-card-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px; }
   .chart-platform { font-size: 16px; font-weight: 800; }
+  .chart-subtitle { font-size: 11px; color: var(--text-faint); margin-top: 2px; }
   .chart-checked { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: var(--text-faint); }
+  .chart-country-block { margin-top: 14px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.06); }
+  .chart-country-block:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  .chart-country-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--text-faint);
+    letter-spacing: 0.06em;
+    margin-bottom: 6px;
+  }
   .chart-row {
     display: flex;
     align-items: center;
@@ -591,7 +601,7 @@
 
   <!-- ══════════════ 차트 ══════════════ -->
   <div class="view" id="view-chart">
-    <div class="chart-grid" id="chartGrid"></div>
+    <div id="chartGrid"></div>
   </div>
 
   <!-- ══════════════ 스케줄 ══════════════ -->

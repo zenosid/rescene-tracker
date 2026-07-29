@@ -15,6 +15,27 @@ const MEMBER_COLORS = {
   "제나": "var(--aurora-amber)",
 };
 
+// 국내 차트 (플랫폼별 카드 하나씩)
+const DOMESTIC_CHARTS = [
+  { platform: "melon", label: "멜론", subtitle: "TOP 100" },
+  { platform: "genie", label: "지니", subtitle: "TOP 200" },
+  { platform: "bugs", label: "벅스", subtitle: "실시간 차트" },
+  { platform: "flo", label: "FLO", subtitle: "FLO차트(24시간 누적)" },
+];
+
+// 해외 차트 (서비스 하나당 국가별 3개를 한 카드에 모아서 표시)
+const INTERNATIONAL_SERVICES = [
+  { key: "spotify", label: "Spotify" },
+  { key: "shazam", label: "Shazam" },
+  { key: "youtube", label: "YouTube" },
+  { key: "apple_music", label: "Apple Music" },
+];
+const CHART_COUNTRIES = [
+  { code: "kr", label: "KR" },
+  { code: "us", label: "US" },
+  { code: "jp", label: "JP" },
+];
+
 const PLATFORM_LABELS = {
   melon: "멜론",
   genie: "지니",
@@ -40,8 +61,8 @@ const CATEGORY_LIST = ["음악방송", "MV", "Live", "Shorts", "자체컨텐츠"
 // ── 상태 ──────────────────────────────────────────────────
 const state = {
   sourceTab: "all", // 단일 선택: "all" | "youtube" | "youtube_collab" | "news"
+  categoryTab: "all", // 단일 선택: "all" | "음악방송" | "MV" | ...
   members: new Set(), // 비어있으면 전체
-  categories: new Set(), // 비어있으면 전체
 };
 
 // ── 즐겨찾기 (localStorage, 이 브라우저에만 저장) ───────────
@@ -182,28 +203,26 @@ function buildCategoryChips() {
   const wrap = document.getElementById("categoryChips");
   if (!wrap) return;
   wrap.innerHTML = "";
-  CATEGORY_LIST.forEach((cat) => {
-    const chip = document.createElement("button");
-    chip.className = "chip" + (state.categories.has(cat) ? " on category-on" : "");
-    chip.dataset.category = cat;
-    chip.textContent = cat;
-    chip.addEventListener("click", () => {
-      if (state.categories.has(cat)) {
-        state.categories.delete(cat);
-      } else {
-        state.categories.add(cat);
-      }
+
+  const options = ["all", ...CATEGORY_LIST];
+  options.forEach((cat) => {
+    const tab = document.createElement("button");
+    tab.className = "source-tab" + (state.categoryTab === cat ? " active" : "");
+    tab.dataset.category = cat;
+    tab.textContent = cat === "all" ? "🗂️ 전체" : cat;
+    tab.addEventListener("click", () => {
+      state.categoryTab = cat;
       buildCategoryChips();
       renderArchive();
     });
-    wrap.appendChild(chip);
+    wrap.appendChild(tab);
   });
 }
 
 // ── 아이템 카드 (아카이브·즐겨찾기 공용) ───────────────────
 function itemPassesFilter(item) {
   if (state.sourceTab !== "all" && item.source_type !== state.sourceTab) return false;
-  if (state.categories.size > 0 && !state.categories.has(item.category)) return false;
+  if (state.categoryTab !== "all" && item.category !== state.categoryTab) return false;
   if (state.members.size > 0) {
     const hasOverlap = item.members.some((m) => state.members.has(m));
     if (!hasOverlap) return false;
@@ -390,41 +409,85 @@ function renderReactions() {
 }
 
 // ── 차트 렌더링 ───────────────────────────────────────────
+function chartRowsHtml(songs) {
+  if (songs.length === 0) {
+    return `<div class="chart-empty">현재 차트에 리센느 곡이 없습니다.</div>`;
+  }
+  return songs
+    .map(
+      (s) => `
+    <div class="chart-row">
+      <div class="chart-rank">${s.rank}</div>
+      <div class="chart-song">${escapeHtml(s.song_title)}</div>
+      ${changeBadgeHtml(s.change)}
+    </div>`
+    )
+    .join("");
+}
+
 function renderChart() {
   const grid = document.getElementById("chartGrid");
   grid.innerHTML = "";
 
-  Object.entries(PLATFORM_LABELS).forEach(([platform, label]) => {
+  // ── 국내 차트 섹션 ──────────────────────────────────────
+  const domesticTitle = document.createElement("section");
+  domesticTitle.className = "block-title";
+  domesticTitle.textContent = "국내 차트";
+  grid.appendChild(domesticTitle);
+
+  const domesticGrid = document.createElement("div");
+  domesticGrid.className = "chart-grid-inner";
+  DOMESTIC_CHARTS.forEach(({ platform, label, subtitle }) => {
     const songs = (SITE_DATA.chart && SITE_DATA.chart[platform]) || [];
+    const checkedAt = songs.length > 0 ? songs[0].checked_at : null;
+    const card = document.createElement("div");
+    card.className = "card chart-card";
+    card.innerHTML = `
+      <div class="chart-card-head">
+        <div>
+          <div class="chart-platform">${label}</div>
+          <div class="chart-subtitle">${subtitle}</div>
+        </div>
+        <div class="chart-checked">${checkedAt ? checkedAt : "미조회"}</div>
+      </div>
+      ${chartRowsHtml(songs)}
+    `;
+    domesticGrid.appendChild(card);
+  });
+  grid.appendChild(domesticGrid);
+
+  // ── 해외 차트 섹션 (서비스 하나당 국가별 묶어서 카드 하나) ────
+  const intlTitle = document.createElement("section");
+  intlTitle.className = "block-title";
+  intlTitle.textContent = "해외 차트 (KR·US·JP)";
+  grid.appendChild(intlTitle);
+
+  const intlGrid = document.createElement("div");
+  intlGrid.className = "chart-grid-inner";
+  INTERNATIONAL_SERVICES.forEach(({ key, label }) => {
     const card = document.createElement("div");
     card.className = "card chart-card";
 
-    const checkedAt = songs.length > 0 ? songs[0].checked_at : null;
-    let rowsHtml = "";
-    if (songs.length === 0) {
-      rowsHtml = `<div class="chart-empty">현재 차트에 리센느 곡이 없습니다.</div>`;
-    } else {
-      rowsHtml = songs
-        .map(
-          (s) => `
-        <div class="chart-row">
-          <div class="chart-rank">${s.rank}</div>
-          <div class="chart-song">${escapeHtml(s.song_title)}</div>
-          ${changeBadgeHtml(s.change)}
-        </div>`
-        )
-        .join("");
-    }
+    const countryBlocks = CHART_COUNTRIES.map(({ code, label: countryLabel }) => {
+      const platform = `${key}_${code}`;
+      const songs = (SITE_DATA.chart && SITE_DATA.chart[platform]) || [];
+      return `
+        <div class="chart-country-block">
+          <div class="chart-country-label">${countryLabel}</div>
+          ${chartRowsHtml(songs)}
+        </div>
+      `;
+    }).join("");
 
     card.innerHTML = `
       <div class="chart-card-head">
         <div class="chart-platform">${label}</div>
-        <div class="chart-checked">${checkedAt ? checkedAt : "미조회"}</div>
       </div>
-      ${rowsHtml}
+      ${countryBlocks}
     `;
-    grid.appendChild(card);
+    intlGrid.appendChild(card);
   });
+  grid.appendChild(intlGrid);
 }
 
 // ── 스케줄 렌더링 ─────────────────────────────────────────
