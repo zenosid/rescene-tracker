@@ -143,8 +143,7 @@ RESCENE_ALL_SONGS = [
     "Busy Boy",              # 2026 발매곡
     "밤밤밤",                  # OST 참여곡
     "고백주파수",                # OST 참여곡
-    "Higher",                    # OST 참여곡
-    "Dearest",                    # 발매곡
+    "Higher",                    # OST 참여곡    
 ]
 
 # ── 팬 반응 (유튜브 댓글, 공식 API 필요) ──────────────────────────
