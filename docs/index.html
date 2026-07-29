@@ -372,6 +372,42 @@
     letter-spacing: 0.06em;
     margin-bottom: 6px;
   }
+
+  /* ── 곡별 종합 차트 테이블 ────────────────────────────── */
+  .chart-table-wrap { padding: 20px; margin-bottom: 28px; }
+  .chart-table-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 14px; }
+  .chart-table-scroll { overflow-x: auto; }
+  .chart-table { width: 100%; border-collapse: collapse; min-width: 640px; }
+  .chart-table th {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-faint);
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 6px 4px 10px;
+    white-space: nowrap;
+  }
+  .chart-table td { text-align: center; padding: 8px 4px; border-top: 1px solid rgba(255,255,255,0.06); }
+  .chart-song-cell {
+    text-align: left !important;
+    font-size: 13.5px;
+    font-weight: 600;
+    white-space: nowrap;
+    padding-right: 16px !important;
+  }
+  .chart-cell { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; min-height: 34px; }
+  .chart-cell.empty { color: var(--text-faint); font-size: 13px; display: flex; align-items: center; justify-content: center; min-height: 34px; }
+  .chart-cell-rank {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-size: 15px;
+    background: var(--grad-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
   .chart-row {
     display: flex;
     align-items: center;

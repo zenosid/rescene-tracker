@@ -380,7 +380,7 @@ function changeBadgeHtml(change) {
   if (change.kind === "new") return `<span class="chart-change new">NEW</span>`;
   if (change.kind === "up") return `<span class="chart-change up">▲ ${change.delta}</span>`;
   if (change.kind === "down") return `<span class="chart-change down">▼ ${change.delta}</span>`;
-  return `<span class="chart-change same">–</span>`;
+  return ""; // 변동 없음(same)은 아무 표시도 안 함 - 매번 "-"가 뜨면 지저분해짐
 }
 
 // ── 팬 반응 렌더링 ───────────────────────────────────────────
