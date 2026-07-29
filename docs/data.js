@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-29 08:55",
+  "generated_at": "2026-07-29 11:01",
   "operator_contact": "네이버 카페 리시안셔스 '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -8,11 +8,210 @@ const SITE_DATA = {
       "date_display": "2026년 07월 29일",
       "items": [
         {
+          "title": "리센느 대표, 첫 음방서 어깨 들썩이며 오열…원이 \"남성이 그렇게 펑펑...",
+          "link": "https://www.xportsnews.com/article/2177323",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:59",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "아이돌 그룹 ‘리센느’ 원이 고백에 눈물 “엄마에게 소고기 사드리고...",
+          "link": "https://www.donga.com/news/Culture/article/all/20260729/134385636/2",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:49",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 1위, 7월 라이징 가수 브랜드평판 정상..2위 코르티스·3위 아이...",
+          "link": "http://www.breaknews.com/1225209",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:36",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이·미나미가 밝힌 캐스팅 비화... \"대표님이 블랙핑크 만들어...",
+          "link": "https://www.insight.co.kr/news/565269",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:34",
+          "category": "기타",
+          "members": [
+            "원이",
+            "미나미"
+          ]
+        },
+        {
+          "title": "장도연, 리센느 원이와 인터뷰하다 돌연 눈물... '이 한마디'에 울컥",
+          "link": "https://www.insight.co.kr/news/565278",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:24",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[TF초점] '리센느 나비효과?'…늘어나는 중소돌 관심도 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wSUpyMG5jSjkzQ0tuWHlQV2t1U2E0RURtX0NiMFVFLVFKb2RaNTR4eGRIcW5SSzB0eTYwbUEtd2ZhbUF2WnZXRFhmRjNTT0E?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, 데뷔 전 YG·하이브 오디션 합격 일화 공개",
+          "link": "https://www.insight.co.kr/news/565273",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:00",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느, 7월 라이징 가수 브랜드평판 1위 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42eXBaNXp2MVpab3ZxVjBuVHVZTTFQaTE2Smwxd1VxY0xfcDE3XzdhZ2pETHRRV1FHX0pBRnh5TG9qamo1S25OSlB3YlpjbmpoVml1WWgwXzlSVDkwTFAw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:46",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "방탄소년단·영탁·리센느 등 각 부문 선두…'2026 SKA' 팬투표에 글로벌...",
+          "link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=831339",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "09:40",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이 \"엄마 소고기 사 드리고 싶어\"-장도연 '왈칵'",
+          "link": "https://www.mediafine.co.kr/news/articleView.html?idxno=84914",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "09:40",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이 \"엄마 소고기 사 드리고 싶어\"-장도연 '왈칵' - 미디어파인",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kLVZPN0JaZ0xmSnM5aFMzVkpBLWJyckJpODZSTDJDampueXRURmRrNTNmcHBMQkszeHhYai1HVU5ZdHllaUthOVFWbVRIV3JfSzllalAweUhkMnY3empLUGhkNGJqZDBIQUtPVHdR?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:39",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "방탄소년단·영탁·리센느 등 각 부문 선두…'2026 SKA' 팬투표에 글로벌 팬덤 화력 집중 - SPOTV NEWS",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ncGJPdjE4c3diV054TWxPODFqNVZmWURzeG52MVE2RjJ1QlBQcU9YQWJtRFZxUmQ3TDhrckFXSWVDN05Xc2VKdGd3MjJueWhjVy1pY1dEVEZzbTE3YUVadWFfQUxYU3otTHh1T2plY9IBc0FVX3lxTE5wSTRGLVA5YkZxZm1nTFc1YXljR1Y5NmJKLXVDdHJmcDEtM1ZRd3cwUVZweXdNYTY1bVFISGJkSmJxNmlMZERWZFZUTUdqMGVVdnRQMm9YTld3OVNMUjFpQWpHdXRQY05PRk1RdEFUYVhhUGs?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:39",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 “정각마다 셀프 스트리밍…큰 회사 아니니까 더 열심히 해야”(살롱드립) - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HWTNQWE9kVlRpQnBRSWdwemhlQ1hFVncydGNHOTZTRjJfaWQwS25kT1JtOTZuVDkwRGJBRWpSZHYwcHBwbWJLYWJESjY3blE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:38",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 “정각마다 셀프 스트리밍…큰 회사 아니니까 더 열심히 해야”...",
+          "link": "https://sports.khan.co.kr/article/202607290937003?pt=nv",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "09:38",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "인스타 계정 ‘블루배지’ 획득… 리센느 홍보대사 효과 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mdFpxbF83OWhzMjVqa2E3NmRXdkE5a18zSkd3RE1TcHE4Tl9FUXlraUdGc2x3NklSbEEybFprN3A0ZmRJVW9UbDBuczF1Sm42?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:36",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "장도연, 촬영 중 눈물 쏟았다…리센느 원이에 \"다치지 않았으면\" ('살롱드립') - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40RDZ2cXFkejZoVWRQU3NGV0d2dWJ1VFFVVzdaN3JhaklnbGZyQjM2WnA0M1lhUnlaQ2Q0ZmRReU5IdFQ5STd3VUhYM3Y3dTA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:02",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "장도연, 촬영 중 눈물 쏟았다…리센느 원이에 \"다치지 않았으면\" ('살롱...",
+          "link": "https://www.tenasia.co.kr/article/2026072918184",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "09:01",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
           "title": "리센느 원이 “YG·하이브도 가봤다…JYP·SM은 나이 때문에 못 가” (살...",
           "link": "https://sports.khan.co.kr/article/202607290851003?pt=nv",
           "source_type": "news",
           "source_name": "네이버 뉴스",
           "time": "08:52",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이 “YG·하이브도 가봤다…JYP·SM은 나이 때문에 못 가” (살롱드립) - 스포츠경향",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jV0o3d0UzMFNzdWRHU3BtNDZYMjhQQzAwTU1mVEJUaGRJWTNwZlUyRVRpbGpVTlBRV3lYb1ZJOXVzR2RvVUxjNU1NQ0Vhbk5PRXdKdldyTFdQaUNSS3fSAWNBVV95cUxNdXdieXpySUphbDZYZFE5U3FVY1Rjbm5oWmZsdVl0LWc5dTYzcmExWU1SQzZXanhfZERHd083b2Z0VzBVWVpWaGQtcVYyYXYxN3hOWTEzYXFudkNoYVVUUnRuUms?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:51",
           "category": "기타",
           "members": [
             "원이"
@@ -112,6 +311,17 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "07:30",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "포토홈 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jUmxva1duRzNVbExyR1BuX0FOSGoxSjNlTDFBSUpBcDd1cDVHcEtBbXFMNDM4bHk5WmRCekZ0RTkzWkJzbUZEa1NzVXRWTl9xeVBEQnp2WVFXWnJxYktHZmFXS2JxQ3BycmdHcHVkbEFHQWlD?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "07:19",
           "category": "기타",
           "members": [
             "전체"
@@ -5011,39 +5221,39 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 5,
+        "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
-          "kind": "up",
+          "kind": "down",
           "delta": 1
         }
       },
       {
-        "rank": 8,
+        "rank": 10,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
-          "kind": "up",
-          "delta": 5
+          "kind": "down",
+          "delta": 2
         }
       },
       {
-        "rank": 44,
+        "rank": 50,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
-          "kind": "up",
-          "delta": 21
+          "kind": "down",
+          "delta": 6
         }
       }
     ],
@@ -5052,30 +5262,29 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
-          "kind": "up",
-          "delta": 213
+          "kind": "same"
         }
       },
       {
-        "rank": 75,
+        "rank": 91,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
-          "kind": "up",
-          "delta": 54
+          "kind": "down",
+          "delta": 16
         }
       },
       {
-        "rank": 2519,
+        "rank": 407,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
-          "kind": "down",
-          "delta": 2073
+          "kind": "up",
+          "delta": 2112
         }
       }
     ],
@@ -5084,46 +5293,38 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
+        }
+      },
+      {
+        "rank": 80,
+        "song_title": "Deja Vu",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-07-29 11:00",
+        "change": {
+          "kind": "up",
+          "delta": 20
         }
       },
       {
         "rank": 90,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 100,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 959,
-        "song_title": "Pinball",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
-        "change": {
-          "kind": "new"
-        }
-      },
-      {
-        "rank": 3117,
+        "rank": 337,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "up",
-          "delta": 1698
+          "delta": 2780
         }
       }
     ],
@@ -5132,7 +5333,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5141,7 +5342,7 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5150,7 +5351,7 @@ const SITE_DATA = {
         "rank": 13,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5159,7 +5360,7 @@ const SITE_DATA = {
         "rank": 25,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5168,7 +5369,7 @@ const SITE_DATA = {
         "rank": 62,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:54",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5181,7 +5382,7 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5190,7 +5391,7 @@ const SITE_DATA = {
         "rank": 23,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5199,7 +5400,7 @@ const SITE_DATA = {
         "rank": 24,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5208,7 +5409,7 @@ const SITE_DATA = {
         "rank": 66,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5217,7 +5418,7 @@ const SITE_DATA = {
         "rank": 115,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5229,7 +5430,7 @@ const SITE_DATA = {
         "rank": 76,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5240,7 +5441,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5249,7 +5450,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5258,7 +5459,7 @@ const SITE_DATA = {
         "rank": 11,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5271,7 +5472,7 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "LOVE ATTACK",
         "artist_text": "리센느",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5280,7 +5481,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "리센느",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5289,25 +5490,26 @@ const SITE_DATA = {
         "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "리센느",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 22,
+        "rank": 23,
         "song_title": "Runaway",
         "artist_text": "리센느",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       },
       {
         "rank": 24,
         "song_title": "Pinball",
         "artist_text": "리센느",
-        "checked_at": "2026-07-29 08:55",
+        "checked_at": "2026-07-29 11:00",
         "change": {
           "kind": "same"
         }
@@ -5426,9 +5628,9 @@ const SITE_DATA = {
         "date": "2026-07-28",
         "type": "방송",
         "title": "리센느 \"소속사 대표, '블랙핑크 만들어 줄게' 설득..직접 캐스팅\"[살롱...",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 출연) · 네이버 뉴스 외 9건 추가 언급",
+        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 출연) · 네이버 뉴스 외 15건 추가 언급",
         "is_estimated": true,
-        "mention_count": 10
+        "mention_count": 16
       },
       {
         "date": "2026-07-27",
