@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-29 21:58",
+  "generated_at": "2026-07-29 22:04",
   "operator_contact": "네이버 카페 리시안셔스 '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -6010,14 +6010,6 @@ const SITE_DATA = {
   "schedule": {
     "upcoming": [
       {
-        "date": "2026-07-29",
-        "type": "방송",
-        "title": "‘돈선태’, 리센느 원이 이용했나…“뭐가 무섭노?” 선공개 영상 썸네...",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 출연) · 네이버 뉴스 외 1건 추가 언급",
-        "is_estimated": true,
-        "mention_count": 2
-      },
-      {
         "date": "2026-07-31",
         "type": "행사",
         "title": "롯데자이언츠 시구 (09:30 AM)",
@@ -6029,9 +6021,9 @@ const SITE_DATA = {
         "date": "2026-08-02",
         "type": "행사",
         "title": "영주시, 야간축제로 확 바뀐 '2026 시원나잇 페스타' 개막",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 축제) · 네이버 뉴스 외 1건 추가 언급",
+        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 축제) · 네이버 뉴스",
         "is_estimated": true,
-        "mention_count": 2
+        "mention_count": 1
       },
       {
         "date": "2026-08-09",
@@ -6091,22 +6083,6 @@ const SITE_DATA = {
       }
     ],
     "past": [
-      {
-        "date": "2026-07-28",
-        "type": "방송",
-        "title": "리센느 \"소속사 대표, '블랙핑크 만들어 줄게' 설득..직접 캐스팅\"[살롱...",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 출연) · 네이버 뉴스 외 17건 추가 언급",
-        "is_estimated": true,
-        "mention_count": 18
-      },
-      {
-        "date": "2026-07-27",
-        "type": "방송",
-        "title": "리센느 미나미, '최애' 트와이스 사나 만난다…'냉터뷰' 출연",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 출연) · 네이버 뉴스 외 1건 추가 언급",
-        "is_estimated": true,
-        "mention_count": 2
-      },
       {
         "date": "2026-07-26",
         "type": "행사",

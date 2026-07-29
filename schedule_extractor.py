@@ -23,7 +23,6 @@ EVENT_KEYWORDS = [
     ("페스티벌", "행사"),
     ("축제", "행사"),
     ("생방송", "방송"),
-    ("출연", "방송"),
     ("공연", "공연"),
     ("출격", "행사"),
     # 아래 둘은 다른 키워드보다 범용적이라 맨 뒤에 둡니다 (다른 키워드가 먼저 매칭되면 그걸 우선)
@@ -34,6 +33,17 @@ EVENT_KEYWORDS = [
 # 이 뒤에 나오면 "안 한다/못 한다"는 뜻이라 스케줄로 잡으면 안 되는 경우들
 # (예: "출연없이 1위" = 방송에 안 나왔다는 뜻이지 출연 예정이라는 뜻이 아님)
 _NEGATION_SUFFIXES = ["없이", "없는", "없다", "안 ", "무산", "취소", "불참", "못 "]
+
+# 이런 표현이 기사에 있으면 "이미 나온 콘텐츠에 대한 소식"이지 앞으로 갈 일정이
+# 아니므로, 다른 키워드가 매칭되더라도 통째로 스케줄 후보에서 제외합니다.
+_CONTENT_RELEASE_INDICATORS = [
+    "선공개", "공개된", "영상 공개", "화보 공개", "포스터 공개", "티저 공개",
+    "썸네일", "예고편",
+]
+
+
+def _is_content_release_news(text):
+    return any(indicator in text for indicator in _CONTENT_RELEASE_INDICATORS)
 
 _FULL_DATE_RE = re.compile(r"(\d{1,2})\s*월\s*(\d{1,2})\s*일")
 _NUMERIC_DATE_RE = re.compile(r"(?<!\d)(\d{1,2})[./](\d{1,2})(?!\d)")
@@ -93,6 +103,8 @@ def extract_schedule_candidates(news_items, today=None):
 
     for item in news_items:
         text = f"{item['title']} {item['snippet'] or ''}"
+        if _is_content_release_news(text):
+            continue  # "선공개/영상 공개" 등은 이미 나온 콘텐츠 소식이지 예정된 일정이 아님
         event_type, matched_keyword = _match_event_type(text)
         if not event_type:
             continue
