@@ -125,6 +125,27 @@ KWORB_SPOTIFY_COUNTRIES = ["kr", "us", "jp"]
 KWORB_SHAZAM_COUNTRIES = ["kr", "us", "jp"]
 KWORB_YOUTUBE_COUNTRIES = ["kr", "us", "jp"]
 
+# ── 전체 곡 목록 (차트 테이블 기준 행) ──────────────────────────
+# 차트에 현재 없는 곡도 "-"로 표시되도록, 발매된 곡 전체를 기준으로 둡니다.
+# 새 곡이 나오면 여기에 추가해주세요. (위키백과/나무위키 기준으로 정리, 2026-07 기준)
+RESCENE_ALL_SONGS = [
+    "YoYo",       # 2024 선공개곡
+    "UhUh",        # 2024 데뷔곡
+    "LOVE ATTACK",  # 2024 1st 미니앨범 SCENEDROME 타이틀
+    "Pinball",       # 2024 1st 미니앨범 SCENEDROME 타이틀
+    "Glow Up",        # 2025 2nd 미니앨범 타이틀
+    "Heart Drop",      # 2025 3rd 미니앨범 lip bomb 타이틀
+    "Bloom",            # 2025 3rd 미니앨범 lip bomb 타이틀
+    "Pretty Girl",        # 2026 리메이크 싱글
+    "Deja Vu",             # 발매곡
+    "Runaway",              # 2026 발매곡
+    "Busy Boy",              # 2026 발매곡
+    "밤밤밤",                  # OST 참여곡
+    "고백주파수",                # OST 참여곡
+    "Higher",                    # OST 참여곡
+    "Dearest",                    # 발매곡
+]
+
 # ── 팬 반응 (유튜브 댓글, 공식 API 필요) ──────────────────────────
 # YouTube Data API v3 키가 필요합니다 (무료, Google Cloud Console에서 발급).
 # 보안을 위해 이 파일에 직접 적지 말고 환경변수로 설정해주세요:
@@ -157,7 +178,7 @@ MNET_PLUS_MONTHS_AHEAD = 6
 SITE_URL = "https://zenosid.github.io/rescene-tracker/"
 
 # 카페 등에 안내할 운영자 연락처 (문의/삭제 요청용). 원하시는 값으로 바꿔주세요.
-OPERATOR_CONTACT = "네이버 카페 리시안셔스 '첸드' 쪽지"
+OPERATOR_CONTACT = "네이버 카페 '리시안셔스' 쪽지"
 
 # GitHub Actions가 몇 분마다 자동 갱신하는지 (표시용 텍스트와 워크플로 cron이
 # 실제로 일치하도록 .github/workflows/refresh.yml의 cron도 함께 맞춰주세요)

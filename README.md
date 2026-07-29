@@ -164,6 +164,7 @@ rescene_tracker/
 - `YOUTUBE_COMMENTS_MAX_VIDEOS` / `YOUTUBE_COMMENTS_PER_VIDEO` — 팬 반응용으로
   최근 영상 몇 개, 영상당 댓글 몇 개까지 가져올지
 - `NAVER_NEWS_QUERIES` / `NAVER_NEWS_MAX_RESULTS` — 네이버 뉴스 검색어와 검색어당 최대 건수
+- `RESCENE_ALL_SONGS` — 차트 테이블에 항상 표시할 전체 곡 목록 (새 곡 발매 시 추가)
 
 콜라보 채널은 이제 두 가지 경로로 잡힙니다: ① `COLLAB_CHANNELS`에 등록한 채널은
 조회수 상관없이 항상, ② 등록하지 않은 채널이라도 "리센느" 검색 결과에서 조회수

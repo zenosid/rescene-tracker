@@ -15,23 +15,26 @@ const MEMBER_COLORS = {
   "제나": "var(--aurora-amber)",
 };
 
-// 국내 차트 (플랫폼별 카드 하나씩)
-const DOMESTIC_CHARTS = [
-  { platform: "melon", label: "멜론", subtitle: "TOP 100" },
-  { platform: "genie", label: "지니", subtitle: "TOP 200" },
-  { platform: "bugs", label: "벅스", subtitle: "실시간 차트" },
-  { platform: "flo", label: "FLO", subtitle: "FLO차트(24시간 누적)" },
+// 곡별 종합 테이블에 쓸 컬럼 (한국 기준 8개 플랫폼)
+const CHART_TABLE_PLATFORMS = [
+  { key: "melon", label: "MELON" },
+  { key: "genie", label: "GENIE" },
+  { key: "bugs", label: "BUGS" },
+  { key: "flo", label: "FLO" },
+  { key: "spotify_kr", label: "SPOTIFY" },
+  { key: "shazam_kr", label: "SHAZAM" },
+  { key: "youtube_kr", label: "YT MUSIC" },
+  { key: "apple_music_kr", label: "APPLE MUSIC" },
 ];
 
-// 해외 차트 (서비스 하나당 국가별 3개를 한 카드에 모아서 표시)
-const INTERNATIONAL_SERVICES = [
+// 해외(미국·일본)는 곡별 테이블 아래 작은 보조 섹션으로 따로 표시
+const INTERNATIONAL_EXTRA_SERVICES = [
   { key: "spotify", label: "Spotify" },
   { key: "shazam", label: "Shazam" },
   { key: "youtube", label: "YouTube" },
   { key: "apple_music", label: "Apple Music" },
 ];
-const CHART_COUNTRIES = [
-  { code: "kr", label: "KR" },
+const INTERNATIONAL_EXTRA_COUNTRIES = [
   { code: "us", label: "US" },
   { code: "jp", label: "JP" },
 ];
@@ -425,50 +428,103 @@ function chartRowsHtml(songs) {
     .join("");
 }
 
+// ── 곡별 종합 테이블용 데이터 피벗 ───────────────────────────
+function buildSongChartRows() {
+  const songMap = {}; // 곡제목 -> { platformKey: {rank, change} }
+
+  // 1) 전체 곡 목록을 기준으로 행을 먼저 만들어둠 (차트에 없어도 "-"로 표시)
+  (SITE_DATA.all_songs || []).forEach((title) => {
+    songMap[title] = {};
+  });
+
+  // 2) 실제 차트에 잡힌 곡은 순위 정보를 채워넣음 (목록에 없던 곡이면 새로 추가)
+  CHART_TABLE_PLATFORMS.forEach(({ key }) => {
+    const songs = (SITE_DATA.chart && SITE_DATA.chart[key]) || [];
+    songs.forEach((s) => {
+      if (!songMap[s.song_title]) songMap[s.song_title] = {};
+      songMap[s.song_title][key] = { rank: s.rank, change: s.change };
+    });
+  });
+
+  const rows = Object.entries(songMap).map(([title, platforms]) => ({ title, platforms }));
+  rows.sort((a, b) => {
+    const ranksA = Object.values(a.platforms).map((p) => p.rank);
+    const ranksB = Object.values(b.platforms).map((p) => p.rank);
+    const bestA = ranksA.length ? Math.min(...ranksA) : Infinity;
+    const bestB = ranksB.length ? Math.min(...ranksB) : Infinity;
+    return bestA - bestB;
+  });
+  return rows;
+}
+
+function chartCellHtml(cell) {
+  if (!cell) return `<div class="chart-cell empty">-</div>`;
+  const changeHtml = cell.change ? changeBadgeHtml(cell.change) : "";
+  return `<div class="chart-cell"><span class="chart-cell-rank">${cell.rank}</span>${changeHtml}</div>`;
+}
+
 function renderChart() {
   const grid = document.getElementById("chartGrid");
   grid.innerHTML = "";
 
-  // ── 국내 차트 섹션 ──────────────────────────────────────
-  const domesticTitle = document.createElement("section");
-  domesticTitle.className = "block-title";
-  domesticTitle.textContent = "국내 차트";
-  grid.appendChild(domesticTitle);
+  // 최근 조회 시각 (아무 플랫폼이나 하나 참고)
+  let checkedAt = null;
+  for (const { key } of CHART_TABLE_PLATFORMS) {
+    const songs = (SITE_DATA.chart && SITE_DATA.chart[key]) || [];
+    if (songs.length > 0) {
+      checkedAt = songs[0].checked_at;
+      break;
+    }
+  }
 
-  const domesticGrid = document.createElement("div");
-  domesticGrid.className = "chart-grid-inner";
-  DOMESTIC_CHARTS.forEach(({ platform, label, subtitle }) => {
-    const songs = (SITE_DATA.chart && SITE_DATA.chart[platform]) || [];
-    const checkedAt = songs.length > 0 ? songs[0].checked_at : null;
-    const card = document.createElement("div");
-    card.className = "card chart-card";
-    card.innerHTML = `
-      <div class="chart-card-head">
-        <div>
-          <div class="chart-platform">${label}</div>
-          <div class="chart-subtitle">${subtitle}</div>
-        </div>
-        <div class="chart-checked">${checkedAt ? checkedAt : "미조회"}</div>
-      </div>
-      ${chartRowsHtml(songs)}
-    `;
-    domesticGrid.appendChild(card);
-  });
-  grid.appendChild(domesticGrid);
+  const tableWrap = document.createElement("div");
+  tableWrap.className = "card chart-table-wrap";
 
-  // ── 해외 차트 섹션 (서비스 하나당 국가별 묶어서 카드 하나) ────
+  const rows = buildSongChartRows();
+  const headerCells = CHART_TABLE_PLATFORMS.map((p) => `<th>${p.label}</th>`).join("");
+
+  let bodyHtml;
+  if (rows.length === 0) {
+    bodyHtml = `<tr><td colspan="${CHART_TABLE_PLATFORMS.length + 1}"><div class="chart-empty">현재 차트에 리센느 곡이 없습니다.</div></td></tr>`;
+  } else {
+    bodyHtml = rows
+      .map(
+        (row) => `
+      <tr>
+        <td class="chart-song-cell">${escapeHtml(row.title)}</td>
+        ${CHART_TABLE_PLATFORMS.map((p) => `<td>${chartCellHtml(row.platforms[p.key])}</td>`).join("")}
+      </tr>`
+      )
+      .join("");
+  }
+
+  tableWrap.innerHTML = `
+    <div class="chart-table-head">
+      <div class="chart-platform">국내 종합 차트</div>
+      <div class="chart-checked">${checkedAt ? checkedAt + " 기준" : "미조회"}</div>
+    </div>
+    <div class="chart-table-scroll">
+      <table class="chart-table">
+        <thead><tr><th></th>${headerCells}</tr></thead>
+        <tbody>${bodyHtml}</tbody>
+      </table>
+    </div>
+  `;
+  grid.appendChild(tableWrap);
+
+  // ── 해외(미국·일본) 보조 섹션 ───────────────────────────
   const intlTitle = document.createElement("section");
   intlTitle.className = "block-title";
-  intlTitle.textContent = "해외 차트 (KR·US·JP)";
+  intlTitle.textContent = "해외 차트 (US·JP)";
   grid.appendChild(intlTitle);
 
   const intlGrid = document.createElement("div");
   intlGrid.className = "chart-grid-inner";
-  INTERNATIONAL_SERVICES.forEach(({ key, label }) => {
+  INTERNATIONAL_EXTRA_SERVICES.forEach(({ key, label }) => {
     const card = document.createElement("div");
     card.className = "card chart-card";
 
-    const countryBlocks = CHART_COUNTRIES.map(({ code, label: countryLabel }) => {
+    const countryBlocks = INTERNATIONAL_EXTRA_COUNTRIES.map(({ code, label: countryLabel }) => {
       const platform = `${key}_${code}`;
       const songs = (SITE_DATA.chart && SITE_DATA.chart[platform]) || [];
       return `
