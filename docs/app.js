@@ -66,6 +66,7 @@ const state = {
   sourceTab: "all", // 단일 선택: "all" | "youtube" | "youtube_collab" | "news"
   categoryTab: "all", // 단일 선택: "all" | "음악방송" | "MV" | ...
   members: new Set(), // 비어있으면 전체
+  reactionSort: "likes", // "likes" | "recent"
 };
 
 // ── 즐겨찾기 (localStorage, 이 브라우저에만 저장) ───────────
@@ -394,7 +395,30 @@ function renderReactions() {
     return;
   }
 
-  reactions.forEach((r) => {
+  // 정렬 토글 (좋아요순 기본 / 최신순)
+  const sortBar = document.createElement("div");
+  sortBar.className = "reaction-sort-bar";
+  sortBar.innerHTML = `
+    <button class="source-tab${state.reactionSort === "likes" ? " active" : ""}" data-sort="likes">👍 좋아요순</button>
+    <button class="source-tab${state.reactionSort === "recent" ? " active" : ""}" data-sort="recent">🕒 최신순</button>
+  `;
+  sortBar.querySelectorAll("button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.reactionSort = btn.dataset.sort;
+      renderReactions();
+    });
+  });
+  container.appendChild(sortBar);
+
+  const sorted = [...reactions].sort((a, b) => {
+    if (state.reactionSort === "recent") {
+      return (b.published_at_raw || "").localeCompare(a.published_at_raw || "");
+    }
+    return b.like_count - a.like_count;
+  });
+
+  const list = document.createElement("div");
+  sorted.forEach((r) => {
     const card = document.createElement("div");
     card.className = "card reaction-card";
     card.innerHTML = `
@@ -405,10 +429,12 @@ function renderReactions() {
       <div class="reaction-meta">
         <span>${escapeHtml(r.author)}</span>
         <span class="reaction-like">👍 ${r.like_count.toLocaleString()}</span>
+        ${r.published_at ? `<span>${r.published_at}</span>` : ""}
       </div>
     `;
-    container.appendChild(card);
+    list.appendChild(card);
   });
+  container.appendChild(list);
 }
 
 // ── 차트 렌더링 ───────────────────────────────────────────

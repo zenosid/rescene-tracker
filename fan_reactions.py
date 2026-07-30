@@ -28,7 +28,7 @@ def _extract_video_id(link):
 
 
 def _fetch_comments_for_video(api_key, video_id, max_results):
-    """댓글이 잠겨있거나 사용 중지된 영상은 조용히 빈 목록을 반환."""
+    """댓글이 잠겨있거나 비활성화된 영상은 조용히 빈 목록 반환. 그 외 에러는 표시."""
     params = {
         "part": "snippet",
         "videoId": video_id,
@@ -40,11 +40,22 @@ def _fetch_comments_for_video(api_key, video_id, max_results):
     try:
         r = requests.get(API_URL, params=params, timeout=15)
     except requests.RequestException as e:
-        return [], str(e)
+        return [], f"네트워크 오류: {e}"
 
     if r.status_code != 200:
-        # 댓글 사용 중지 등은 흔한 정상 상황이라 에러로 취급하지 않고 조용히 건너뜀
-        return [], None
+        error_info = {}
+        try:
+            error_info = r.json().get("error", {})
+        except Exception:
+            pass
+        reasons = [e.get("reason", "") for e in error_info.get("errors", [])]
+
+        if "commentsDisabled" in reasons or "videoNotFound" in reasons:
+            return [], None  # 흔한 정상 상황 - 조용히 건너뜀
+
+        # 그 외(할당량 초과, 키 오류 등)는 진짜 문제니 표시해야 함
+        message = error_info.get("message") or r.text[:200]
+        return [], f"HTTP {r.status_code} - {message}"
 
     items = r.json().get("items", [])
     results = []

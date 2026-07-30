@@ -152,17 +152,22 @@ def build_schedule():
 
 def build_fan_reactions():
     with get_conn() as conn:
-        rows = get_recent_fan_reactions(conn, limit=100)
-    return [
-        {
-            "video_link": r["video_link"],
-            "video_title": r["video_title"],
-            "author": r["author"],
-            "text": r["text"],
-            "like_count": r["like_count"],
-        }
-        for r in rows
-    ]
+        rows = get_recent_fan_reactions(conn, limit=150)
+    result = []
+    for r in rows:
+        published_dt = to_kst(r["published_at"]) if r["published_at"] else None
+        result.append(
+            {
+                "video_link": r["video_link"],
+                "video_title": r["video_title"],
+                "author": r["author"],
+                "text": r["text"],
+                "like_count": r["like_count"],
+                "published_at": published_dt.strftime("%Y-%m-%d %H:%M") if published_dt else "",
+                "published_at_raw": r["published_at"] or "",
+            }
+        )
+    return result
 
 
 def main():
