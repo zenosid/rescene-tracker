@@ -141,8 +141,10 @@ def build_schedule():
 
     # 같은 날짜에 공식 스케줄이 이미 있으면, 뉴스 기반 추정 항목은 굳이 중복
     # 표시하지 않음 (공식 정보가 있는데 불확실한 추정을 같이 보여줄 필요 없음)
-    official_dates = {item["date"] for item in official_items}
-    auto_items = [item for item in auto_items if item["date"] not in official_dates]
+    # 공식(Mnet Plus) 또는 운영자가 직접 등록한 날짜와 겹치면, 불확실한 추정
+    # 항목은 굳이 같이 보여줄 필요 없음
+    trusted_dates = {item["date"] for item in official_items} | {item["date"] for item in manual_items}
+    auto_items = [item for item in auto_items if item["date"] not in trusted_dates]
 
     all_items = manual_items + official_items + auto_items
     upcoming = sorted([s for s in all_items if s["date"] >= today_str], key=lambda s: s["date"])

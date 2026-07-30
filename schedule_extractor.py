@@ -46,7 +46,6 @@ def _is_content_release_news(text):
     return any(indicator in text for indicator in _CONTENT_RELEASE_INDICATORS)
 
 _FULL_DATE_RE = re.compile(r"(\d{1,2})\s*월\s*(\d{1,2})\s*일")
-_NUMERIC_DATE_RE = re.compile(r"(?<!\d)(\d{1,2})[./](\d{1,2})(?!\d)")
 _DAY_ONLY_RE = re.compile(r"(\d{1,2})\s*일")
 
 
@@ -121,15 +120,9 @@ def extract_schedule_candidates(news_items, today=None):
         if m_full:
             event_date = _resolve_full_date(int(m_full.group(1)), int(m_full.group(2)), today)
         else:
-            m_numeric = _NUMERIC_DATE_RE.search(search_text)
-            if m_numeric:
-                month, day = int(m_numeric.group(1)), int(m_numeric.group(2))
-                if 1 <= month <= 12 and 1 <= day <= 31:
-                    event_date = _resolve_full_date(month, day, today)
-            if not event_date:
-                m_day = _DAY_ONLY_RE.search(search_text)
-                if m_day:
-                    event_date = _resolve_day_only(int(m_day.group(1)), today)
+            m_day = _DAY_ONLY_RE.search(search_text)
+            if m_day:
+                event_date = _resolve_day_only(int(m_day.group(1)), today)
 
         if not event_date:
             continue

@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-30 19:21",
+  "generated_at": "2026-07-30 19:28",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -5994,6 +5994,22 @@ const SITE_DATA = {
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
+      },
+      {
+        "date": "2026-12-05",
+        "type": "행사",
+        "title": "AAA 2026 (1일차)",
+        "note": "2026.12.05(토)~12.06(일) 진행",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-12-06",
+        "type": "행사",
+        "title": "AAA 2026 (2일차)",
+        "note": "2026.12.05(토)~12.06(일) 진행",
+        "is_estimated": false,
+        "mention_count": 1
       }
     ],
     "past": [
@@ -7763,6 +7779,7 @@ const SITE_DATA = {
     "Busy Boy",
     "밤밤밤",
     "고백주파수",
-    "Higher"
+    "Higher",
+    "Dearest"
   ]
 };
