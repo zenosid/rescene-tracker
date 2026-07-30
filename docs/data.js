@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-07-30 08:57",
+  "generated_at": "2026-07-30 11:08",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,501 @@ const SITE_DATA = {
       "date": "2026-07-30",
       "date_display": "2026년 07월 30일",
       "items": [
+        {
+          "title": "'충주맨' 김선태, 리센느 '무섭노' 영상 논란에 바로 사과...\"무책임했다...",
+          "link": "https://ent.sbs.co.kr/news/article.do?article_id=E10010319871&plink=ORI&cooper=NAVER",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:07",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘충주맨’ 김선태, 리센느 원이 논란 재소환 사과…“명백한 제 잘못”",
+          "link": "https://www.sportsworldi.com/newsView/20260730507498",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:07",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "김선태, 리센느 원이 '무섭노 사건' 재소환 역풍 사과…\"명백한 제 잘못...",
+          "link": "https://www.sidae.com/article/2026073010522294726",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:07",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "도미노피자, 젠지(Gen-Z) 아이콘 ‘리센느’ 한정판 포토카드 증정 프로...",
+          "link": "https://www.socialvalue.kr/news/view/1065578667435501",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:06",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"죄송합니다\" 충주맨 김선태, 결국 고개 숙였다…리센느 원이 2차 가해 ...",
+          "link": "https://www.tenasia.co.kr/article/2026073051894",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:04",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "'나락' 감지 센서 켜졌나...김선태, 리센느 2차 가해 논란에 긴금 영상 ...",
+          "link": "https://www.insight.co.kr/news/565530",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:04",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "카사베르디·나랑드사이다, 리센느 모델로 협업 프로젝트 진행",
+          "link": "https://www.hankookilbo.com/news/article/A2026072916210000554?did=NA",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "소지섭, 7월 라이징 스타 브랜드평판 1위…리센느·윤경호 뒤이어 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00Q2QxUDQtVzJIVFptb0lYZ19lallFQTJTMVJtczQxVWYxNkE0a2VKM0YyaUZhSzJkUG1La3EwZDkyVFVQMGN5RGxfMjg2eUZpZlYw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:59",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"사전 검토 못했다\"…김선태, 리센느 영상 논란 사과 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FNU90S0lRTWt1aTl6ekdFem9HRTZmNDZsN0hPcWw0R0JoOS1meEt1S25lOF9WcU9GNVJaVEppZE1kNVh4X21faHJMLUNHU1RsbjI0?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:58",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "김선태, 리센느 원이 '무섭노' 2차 가해 논란에 사과 영상 게재 \"정말 무책임했다\" - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XdjJsUlVDODk0M21DSFlhYW5odXlHWkZJMEJCd0ZOWlVUNW4yTGRIVndSQ0UxZEQtZ3pwWExLc1hCNWZDaGQ5aDQzWVBVTjNoNUJz?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:58",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "김선태, 리센느 원이 ‘무섭노’ 2차 가해 논란에 사과 영상 게재 “정...",
+          "link": "https://www.heraldmuse.com/article/10825471?ref=naver",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:58",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "김선태, 리센느 원이 '무섭노' 재소환 논란에 사과 \"죄송합니다\" - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ycGJ6UUNNemYwMmRGMmtQaXBzQVA0ZGJHVm10MkFuazVVUC1UdDU0T1FsU040UXVPWVNYdldkVk01X0lDNEdFUm9PbWtVWWVsbHdZ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:54",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"뭐가 무섭노\"…'돈선태' 리센느 원이 2차 가해 논란→결국 영상 비공개",
+          "link": "https://mhnse.com/news/articleView.html?idxno=1471927",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:54",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "김선태, 리센느에 결국 사과 “무리한 언급 제 잘못” - 스포츠경향",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjdzJ2S0pxdTJsZWhQZXZfelRYdWpuc1FNRWNEUmxGazA3M252eTdka0ctejE3N3JicGt5Yk5ibTBkVFljbm1OUFFGTWx1TUNQdWFuZTBqeTZfcGFaN3fSAWNBVV95cUxPZ0F4ZExYSzBqQm40ZGd3TElXUFo0clh0UEVaWmZDMFlSUmRNb09XWUZFcVJBWklDMVFtbWJzcURVRnBucU16emxHaVhRUXpkVGJTNmdvQ0oxaFBTRktyTUhHWjg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:53",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "원이 '무섭노' 2차 가해 논란..김선태 결국 사과 \"리센느 죄송\"[스타이슈...",
+          "link": "https://www.starnewskorea.com/star/2026/07/30/2026073010455391403",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:53",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[공식] 김선태, 리센느 원이 `2차 가해` 논란에 사과…\"죄송합니다\" [MD이슈] - mydaily.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oNUpOdjNGdlI5NWtWZ1h2bVJ4ZmlnakdaSnVuZXdZaG5zcGwwSUx1M3J1dWJiWmY4dHNaTXBNSVpwaVhWWDVvbDZjTEk4cDVGZ3haUl9YUFM5SzVTNVVIOTZnWmJQUQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:44",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "'돈선태' 리센느 원이 논란 재소환 역풍… 2차 가해 비판 속 유튜브 채널 비공개 전환 사태 정리 - animalplanet.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qR1U0Z0hsenVtU3oxS1Y3QUduampUYWhGWjI1Wm02cmY1OEpoYm0telo2dnBzWlBmeExvVDFVNU1CMzd0Y29pRy1GbzF1V25UZFg5MzRCZUtjMkFFTFBz?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:44",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"명백한 제 잘못\"…김선태, 리센느 영상 논란에 공개사과 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93OGFzNFlqNzRCcFFmSG4zZkFiWHNjUUZsbHJUUkpROXlMZHhzemItNnJBLUh1RHlMU1JhT19SU05SWTI3X0sxcTEwSkxIWTNwMlpr?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:42",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "조회수 위해 리센느 '무섭노' 논란 또 꺼냈나...김선태·KBS 유튜브 썸네...",
+          "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=438979",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:42",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 '무섭노' 또 꺼냈다가…정치인 태그 논란에 결국 '비공개' - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGT2ptSjc3NlhaX3dVQXdyOWJTRkZyblJ1cF9EMDF2RzN0N2V6eW16NGUwMVpoV2NfRDRZTEN5a0V3NnFBTElYVWtKSnc0TG9zTWZJ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "김선태, ‘돈선태’ 리센느 원이 2차 가해 논란 사과 “언행에 더욱 신중 기하겠다” - slist.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FT05vU3hHNExnbndDMnhnVUFJVU9jN2lhSC0zNG5qYm5ua1dBc0VfdEd4aWEzS0JLbGNaMjd3NGRtcWpkUkRzOXREaWdKV25XWnVQLV9UOURwNzFzLWVWa2o3WUNxZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:38",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "'돈선태', 리센느 원이 '무섭노' 2차 가해 논란에 결국 영상 삭제 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9fMk1peURTVWpTTjdPd21wZXVBbEFhaHUwZm1BUEV3dDhzaU0wcEQ1cUZuSWo0QlFGRk1FeGhLQllpam5QRUJSSFhDTE1pb28?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:28",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "‘일베 논란’ 입 연 리센느 원이 “너무 무서웠다” - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sTE1SQ2ZCdUtxWXNOUGhWa2JUWE5TMmtBNnJ3REt5eW03eFUxN1NWYXMzbUlpRnBLc1lCZ29rcTFGcWVOQndjMFdON3pjeTZGbkhQUlZnb1VaaUxvdnFvcFc4TFNEU2tHQU5FeWwxc2ZzQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:24",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 건드린 김선태, 극락과 나락 사이 아슬아슬한 줄타기 [엑's 이슈] - xportsnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tek93UkYxemVaeFpyVzljcDdicm0zejExQ1JEbW55Ml93RG5Qbmt0T3VoTk9CdDJDanNqOFFVY0xJbG56OU55dGh1T1NKWExaV015ZA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:13",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이 '무섭노' 논란 이후 심경 밝혔다 \"평소 쓰던 말인데 당황\" - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xUmozXzZta19Xb2RrZnJ6aUw4YTUwQThqVFBQbTFRUFlvWlNlbTEtUzlDOVdIdHFQZTdFemJuUmtvb0w2cHdDaWtLeF96QnA2Rncw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:01",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이에게 '무섭노?'…'돈선태', 비판 일자 영상 비공개 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA2UzlfeTl0UFVnZVNRbUNjMTJwY0pSWHZldVc1U2hEcUxoX3kwYmVMc0U0a1BKajJwYmZSNkhScUhwc0E1U1FCYVZ4ZGdGQVM2dno0?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:01",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "도미노피자, 대세 걸그룹 '리센느' 한정판 포토카드 쏜다 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1OeGJ3d3lXbkFDVWEtYXhzTFMtOHZtMmJERzVSZ1FLa0xVanpEaFNBSDRtVjlaaEttbjkzRENtRDZMdjhoOTEtY2VBYm9ka0N4alduSFVSX216VzF1Q2JxNdIBeEFVX3lxTE15T2xVSS1EVk1WSl9kZDZPZk9DcmJFdjN3UlZwQWNJUDVzcU1tT0ZEWGJpWTIweEs5NnJWRTdSbkFtTjVDcjdma19nYWFGY0xmUGl6X2pIdUc2VzNkcXVHY3Vrc1k1R3ZpWE1HTEtsRGE2OU0xRHVKVg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "카사베르디·나랑드사이다, ‘리센느 유니버스’ 프로젝트 전개 - 스포츠동아",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4TXdVYi1IMlhwYXB1c2ZvZzRjYmtYM0txMXNUbl9rM2xPbHltRXZWQ3hNbzR1eUZLa3VidGR3OXliZTRrMGlHdDk4VVJPcVprcXJtemlQMzllUTFWdWRRLW5XX2tTSjV3TDc4OHY4dw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, '무섭노' 논란 첫 심경 고백 \"'노'는 감탄사...너무 무섭고...",
+          "link": "http://www.starnewsk.com/news/articleView.html?idxno=57751",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "09:58",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"무섭노\" 리센느 원이 첫 심경 고백했는데…영상 돌연 비공개 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqT0tsS0FKdXU4RE1sU2lEVjF1emtEVnc3MmJaY2h0M2ZHaFRrNUExdzY4RnU1Ri1MOWd2MEdaakhLR05yeDZkVkxjNE16X1g3Sktn?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:56",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "김선태, 리센느 원이 '무섭노 사건' 재소환 역풍…영상 비공개 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGb0dKM0VxMW4wR2JOM3RURU5oX3dSMG41VnZjX0hjZ1AxeExzTFM1Q2RPazJtNS11dnVka1pxQkhGTUhEdU53eTJFOGJrS0ZqZEJmNDVEZ1dGSXNQZWdoN9IBeEFVX3lxTE8wOWlhRXhUdXFmaDdDQzVkdlc1Z2dQcE9KMFdsTW1iU29veXUxQjI3dHVPVldWcTBRdlVtZHBUT2NoV1hTdDZ6TUw3MVhObUZ2MXEzVERLejQ1MUFDeVdwc0NQTE00YXptREpEbjdpQlBfNkh3WWpSQw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:53",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"억까였다\" 위로하더니…리센느 원이 심경 고백에 '2차 가해' 얹은 '돈선태'[MK★이슈] - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pUXFTS1l2bnZ3OWhpRDZhLVJIel83TXVXX0VWWks0ZWpqQm1oWVVRS0NIY1FQX0oxQzRxMFlhcVBPaDVQdjhsLVVWZkVPUUFnQjNj?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:53",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[뮤즈이슈]리센느 원이 '무섭노' 재소환했다 역풍…'돈선태', 영상 돌연 비공개 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DcVVPSnMxMklBakF0YzZ3aXRPQU9vMWFRSGN2VDNyRm1hdzZnVUE5ZTVId1VxenZRYU9oRTZxMzBBeUF4TlhqdkgxY09uSk01OW5F?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:52",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"뉴스에 나와 무서웠다\"…'무섭노' 논란 심경 밝힌 리센느 '원이' - 아이뉴스24",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBueWxoTTlMeDNGWlJRLXhVdlpVSk1XaDZqd04ycXVrLUhnTC1zUm9WRndqc0lrMF9DZHVOSWp1VUsxSG4xR1JFaWtkUQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:32",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "'돈선태' 리센느 원이 '무섭노' 언급에 '2차 가해' 역풍…결국 '영상 비공개' - SPOTV NEWS",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XQTYzSzR2VmxubEs1M3V2QzZlczNYWXpleXdyNURoMHZiLW0xeWM2SGZYUURlR0hhQmd4V0w4RkVja0RoVlpXbXJqRzg4bTlSeWFzYk5VSFZTQlI0djczekt0ZEQzSmNPTnhnZWg4c9IBc0FVX3lxTFBGbTFnTUlXUTNxN2pkNm1LNDhkOWVfUmhROU5RV1p0NUgxT2oxYTNlb2xpZ2hXQzFtUVJsVkFXRzBLczlWRlhGcGZaeWtmWjFWREdsUXJHVi1PSERjd0kxVHJGRW1rMzZOaDZQYzlaTFJNeUE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:29",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이에 '무섭노' 심경+해시 태그 논란…'돈선태', 선공개 영상 비공개 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oOEpsM3QyUTBGNkVGd3E1Mk92R0dPRVk3YnhUWmpQbGNlN0lIcGg1V0ZkYnAybmV5Q0Rrd1FmbG5xam81c1YtaE5fM0dydWU3WUJ3?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:25",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이 '무섭노' 2차 가해 논란…'돈선태' 결국 영상 삭제 - 데일리안",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNaVZZcXNaeVFUazZkYndvalVJZHg3Smk4MEVTV2l0NzktdUNuSTlNYXotaDZUaDJtSU9FR0RwN29kNzl1cFZzUlVjRklpU2x3S2RyZ3NyYUFZZ1lVQjBHem9uTURhamVEQWJZRXpLaVZrZk9Oa1kwRnk4VU9IRWJiRGZMcFllRnZwY0twMWdsS3F1ZUxyNkRLUDdaWmNvM19yZnFTMHk5MUlEOW1fcDAwVVhqcTVlYmY3SVdsbFoyN2M4OTk1WmxHOEdQR2pNTWhpQWZUbkt5d3ItREFlMUdDWDRqOFRJczBHQ05iczNYRnpVOXRzaEgyUjhoMXFZMVpSMkc3czVXRVU1YUF6dWc?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:21",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "감없는 '돈선태', 리센느 2차 가해에 영상 전면 비공개 [이슈&톡] - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUZERXbzFINTU1dWNIYmVYZHJHX09kMS1vTmVyNndUd3BMSllOaE8wVzI4cml4b09CdG9ZNkZlMEVkRE5DV19HUFFWUEFRTWJPS0xn?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:18",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'무섭노'가 바이럴?…'돈선태', 리센느 원이 2차 가해 논란→영상 비공...",
+          "link": "http://www.stoo.com/article.php?aid=108007338530",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "09:10",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "`무섭노` 논란에 기름 부은 KBS… 팬들 \"리센느 원이 그만 괴롭혀라\" 폭발 [MD이슈] - mydaily.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Da0lMNUJBT3lVTm14YWJXRTJRUTlpOVZzZU9XdEdjYjQyOEh5Y0VITHlNZThFSWZyVFc5U3VDTk5UVWhDbzU3emNVajFuZDVaQm56ZnltR0FmaVpMV3g2Y1QzTDFTUQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:09",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "'뭐가 무섭노?' 크게 쓰고 유명인 태그 도배…'돈선태'가 키운 리센느 논란 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9weGlNWFpNdTFqWk13LWNjMnRVVjBJeWZzNWpVeDYzdWwxZmNmTnFGOF9PWFdfWE5pc0plS3psUVdocm1ITnAtMWY0dXhoMXVDdWJMa3JuY1NrTzNULS1FXw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:07",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이 초대해 \"'무섭노' 논란 심경은?\"…비판 쏟아지자 영상 비공개 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14OWo0OWpIWUVCQkhjSnQwSHFoRkF6QU9sUndMU1NoeWMzeVdQVzg1QVhoREZtQ2NJMXZKbkZzcE9BR1dhTVJrVUxSbVAxRFRGNElJ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:04",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"무섭노\" 리센느 원이, 첫 심경 영상 돌연 비공개 - 주간조선",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oSWhhdWdjdDkzS3dTYWFCc3JRN3JNVjQ2SE9oREg0SWRPZmFMV1ktcXE2RlJHQkNHVVhjNUFEREJ0aC1QN2ppa0FwS21FaXZXWV9vcFRzNnNUdldBdVBndVA4eVN4STZqMzdF?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:59",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느, 'AAA 2026' 뜬다…있지·키키·하츠투하츠와 출격",
+          "link": "https://www.gpkorea.com/news/articleView.html?idxno=145207",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "08:58",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느·있지·키키·하츠투하츠, 시상식 무대 선다…‘AAA 2026’ 라인업...",
+          "link": "https://swtvnews.com/news/newsview.php?ncode=1065570621259759",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "08:58",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
         {
           "title": "도미노피자, 리센느 한정판 포토카드 증정 프로모션 진행 - 비욘드포스트",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11U0xoRnI5dVNfUlFhLWxQOFBMdHU1eEZwR0ZTQXFyUW5maWhQVUFVbVRZQzlKamo3Q1JxOER0ZC1GaVJldlIwUDFIN0h0UW9UYmhubUpBNmNKUE9pSXlQSGRFWjBpQzdHMXZTc1FNZFk4c3RFY1FLcXpjcks?oc=5",
@@ -5106,588 +5601,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "[레오 강의 K팝 댄스] 리센느(RESCENE)가 불러낸 K팝 퍼포먼스 - 스포츠경향",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9USFY0eURzMkw4LVdmVjlQNXZMNkdEeUNEbHBTd0l5MVJSaThKbTE1Zzc3ckRSdmxHUzgzN3VoSjkzUW5Vc1E5Z3pMX2hGRS12UWt4X0tWT0lOTlloMGfSAWNBVV95cUxPMlNLM3lvRXlGdkcyUXlQOWc3SFk3b2dHMmQzSmo5YWw4VmZSbkxsQU9JamlBMm5YaTVTT3g2aGdkTm13d1NYNWw4U2hqbnVVYkxkRlB1N01xUVQxekVWZnZpOW8?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[아이돌부스 1화] 아니 제발 그만 뽑아줘... 리센느의 도파민 폭주🔥선물뽑기 결말은? [ENG/IDN/CHN/MYS] 4K | IDOL Booth Ep 01 #RESCENE",
-          "link": "https://www.youtube.com/watch?v=Hw8KH7RqHQo",
-          "source_type": "youtube_collab",
-          "source_name": "KBS WORLD TV",
-          "time": "08:29",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "ヤッホー! 요즘 대세 리센느에게 떡상의 이유를 묻다! 광희랑 딱 30분만! EP.03",
-          "link": "https://www.youtube.com/watch?v=tZis2XexN0g",
-          "source_type": "youtube_collab",
-          "source_name": "솔로몬코드 SOLOMONCHORD",
-          "time": "07:32",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "date_display": "2026년 07월 16일",
-      "items": [
-        {
-          "title": "[COMEBACK] RESCENE (리센느) - Pretty Girl + [SPECIAL STAGE] RESCENE (리센느) - Deja Vu",
-          "link": "https://www.youtube.com/watch?v=P8f1_PHwIq0",
-          "source_type": "youtube_collab",
-          "source_name": "ALL THE K-POP",
-          "time": "19:44",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "도미노 무슈스 피자 출시 (원이편)",
-          "link": "https://www.youtube.com/shorts/oSqpWyEdxtc",
-          "source_type": "youtube_collab",
-          "source_name": "도미노피자",
-          "time": "16:19",
-          "category": "외부컨텐츠",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "\"0 하나 빠진거 아냐?\" 리센느 굿즈 가격 '충격' [엑's 이슈] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Eejl5TGs5cDdtUWtRNjBGS0Z3VHFMd25Yd3pkUm1wQnh1LURRRWNEZXQwelN6MFgtYmYxRjRxalBnbmFtQm84bmFKZy04eGM?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "도미노 무슈스 피자 출시 (제나편)",
-          "link": "https://www.youtube.com/shorts/25zXP7m89sM",
-          "source_type": "youtube_collab",
-          "source_name": "도미노피자",
-          "time": "15:48",
-          "category": "외부컨텐츠",
-          "members": [
-            "제나"
-          ]
-        },
-        {
-          "title": "도미노 무슈스 피자 출시 (메이편)",
-          "link": "https://www.youtube.com/shorts/2F-GUn8uxns",
-          "source_type": "youtube_collab",
-          "source_name": "도미노피자",
-          "time": "15:46",
-          "category": "외부컨텐츠",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "도미노 무슈스 피자 출시 (미나미편)",
-          "link": "https://www.youtube.com/shorts/RA_MzUSzSb8",
-          "source_type": "youtube_collab",
-          "source_name": "도미노피자",
-          "time": "15:44",
-          "category": "외부컨텐츠",
-          "members": [
-            "미나미"
-          ]
-        },
-        {
-          "title": "도미노 무슈스 피자 출시 (리브편)",
-          "link": "https://www.youtube.com/shorts/DD3jJIyrFe4",
-          "source_type": "youtube_collab",
-          "source_name": "도미노피자",
-          "time": "15:43",
-          "category": "외부컨텐츠",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[Hanhae’s Kiss the Radio] Amazing Guest Corner with RESCENE | Aired on KBS 07/14/26",
-          "link": "https://www.youtube.com/watch?v=0P82T5cadNw",
-          "source_type": "youtube_collab",
-          "source_name": "KBS CoolFM",
-          "time": "03:54",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-15",
-      "date_display": "2026년 07월 15일",
-      "items": [
-        {
-          "title": "리센느, ‘2026 쿠팡플레이 시리즈’ 하프타임 쇼 출격 - Vogue korea",
-          "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNOGE2ZGF4QUNzTlkxcmtOOElVOWx5ZE5CWHRCVElPNFpDeW84cUlhLUtpaWF5elJVZmNaQ3dRZVZlcEZucjdIU1hSbzJWM3JPYXMzWGNGVlJiQ3pGWHZUOEE2aGxWbHRQYWN6d3VWQXB4UjdIVENiLTFVSGZtWTdyX2ppemtQZm9OLUF6eUxCbXR3SEdzWE1aTGVKcEhDOThiTFB0NU93Q25IdUZTVTljdzh1YzFTd25PWXVDdVVSQ0FqeXlPNjAwNzlnQlFKYVloV3JNQWdZMkRlejA4dHhrRThpNTNOZlhNOEZ4TTF4VlBULTFhNW5kWnVjN3BtcVJDR0k0cGRWWFh6dEd5Vk1kalkxc2lWNGZhMFVBRzJNQ0Z4bXo3OXZLM1JIejFpLTkxUHc?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 ’무섭노’ 일베어라던 강사 여파?…미미미누 콘텐츠 비공개 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hYXh3RmxQLUxaSm1aTUZMR1E4WEVfUlBGeDMxeXN5eXpGdXgwY1BqdmNydjZ5UmpNUndQdWg2d0RoUkc3TGZRd0dDR2t2STcwTXJYSURJTWdwNFBvTXBxOV83MGFFU3M?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "올라보엑스, 리센느 공식 캐릭터 ‘레미니’ 공개 - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oMHhyX0xtMFNtUnlnOW94T3lpNUduZ1g1SlRCd1RWeWwxRXNBNVpFb3VkTjRBenhQVlVnX3B2Sk8wZkJ6cEEybmpOa0RMR1BvV19jTktKNjdQNDg?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[In-Depth Issue] The miracle created by indie idol group 'RESCENE'… Just how extraordinary is the...",
-          "link": "https://www.youtube.com/watch?v=shtkOEs3XuY",
-          "source_type": "youtube_collab",
-          "source_name": "KBS News",
-          "time": "14:35",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "나의 계곡 아저씨 선민 삼촌과 함께한 1위 가수 리센느 원이 미나미의 첫 계곡 힐링기🍀 [성수기 스핀오프 EP.2]",
-          "link": "https://www.youtube.com/watch?v=r5oAQkNvMGk",
-          "source_type": "youtube_collab",
-          "source_name": "MUSINSA TV",
-          "time": "03:13",
-          "category": "외부컨텐츠",
-          "members": [
-            "원이",
-            "미나미"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-14",
-      "date_display": "2026년 07월 14일",
-      "items": [
-        {
-          "title": "리센느 역주행…중소 아이돌 생존경쟁 - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHcTROYnhUMnlnbk5SZFQ4R05Od3pnQjI4S2pQUG9yZ2hoU2pqYWZ3WjFzZ0VVZUJjSE1pZ0VMQ1AxQmh5RDF3dXgyNmhKQmc3c1dZY2xvVzVXbm8?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[K-팝] ‘역주행 기적’ 걸 그룹 리센느(RESCENE) 수장은 ‘버클리 음대·하이브로우’ 출신 이주헌 대표 - 굿모닝베트남미디어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HcUh3VmVMblNfcl8wZ1JJbmlWQXFHVDNxZURZZzB6enR3WF9lVkpHaVlNb2ZrM0xURWhMSFNYeEhiUHFVSFFpTXNqTU8xMUZMeUtBTnRiQVpWeXF5VHNzRGpMLUoxZHRZYlFCZDRYQW0?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느, 데뷔 첫 음악방송 1위에 눈물 \"노력 헛되지 않아\" - JTBC",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Xb2ZXTkR5NTgtR2RINnZPUWJkdnNhbGhFZXZhQ21LUzctVFN3UC01a3ZEOUN5UWVOZ211M3JoNEJBMjhhamgteXZqTWJrWkZQUjlPWg?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "16:00",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-13",
-      "date_display": "2026년 07월 13일",
-      "items": [
-        {
-          "title": "트레저 '더위와 함께 돌아오다ㅎㅎ' - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RQWxScDQ4STRTT1VDTzM0Y2ZsR3pORF9UWUMxaXVTcDZuQkZtUUpOZkZBR0xpS0xkbUdQcG5hdzNzb2RCQlVfWEgxR212cm9xcWNKcmV1b1lYb1RqZXFuVTVFeTRsVHRrSUxfbU5xYkQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "07:43",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-12",
-      "date_display": "2026년 07월 12일",
-      "items": [
-        {
-          "title": "Pretty Girl - RESCENE (리센느) | SBS 260712 방송",
-          "link": "https://www.youtube.com/watch?v=cZmqrxABKqk",
-          "source_type": "youtube_collab",
-          "source_name": "SBSKPOP X INKIGAYO",
-          "time": "19:35",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "'COMEBACK' RESCENE (리센느) - Pretty Girl #엠카운트다운 EP.936 | Mnet 260709 방송",
-          "link": "https://www.youtube.com/watch?v=Esd-KkxROxA",
-          "source_type": "youtube_collab",
-          "source_name": "Mnet K-POP",
-          "time": "19:26",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "RESCENE (리센느) - Pretty Girl | Show! MusicCore | MBC260711방송",
-          "link": "https://www.youtube.com/watch?v=j4LlqGxOr2E",
-          "source_type": "youtube_collab",
-          "source_name": "MBCkpop",
-          "time": "19:17",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[전참시] 한 번도 빛난 적 없었던 리센느의 향으로 온 세상을 물들여💗 | #리센느 #원이 #미나미 MBC260711방송",
-          "link": "https://www.youtube.com/watch?v=adbzlafaesU",
-          "source_type": "youtube_collab",
-          "source_name": "엠뚜루마뚜루 : MBC 공식 종합 채널",
-          "time": "19:17",
-          "category": "외부컨텐츠",
-          "members": [
-            "원이",
-            "미나미"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-11",
-      "date_display": "2026년 07월 11일",
-      "items": [
-        {
-          "title": "Endless Rain",
-          "link": "https://www.youtube.com/shorts/F5CbMShscuk",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "02:31",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-10",
-      "date_display": "2026년 07월 10일",
-      "items": [
-        {
-          "title": "오빻",
-          "link": "https://www.youtube.com/shorts/VUufd3Hd_2Q",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "22:13",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "거제 불주먹 양키",
-          "link": "https://www.youtube.com/shorts/qzhjmlxNl8s",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "22:13",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "양키의 하루 배워보기 | 캐릭터 외전",
-          "link": "https://www.youtube.com/watch?v=5spDxl-yzUQ",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "19:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "‘M Countdown’ RESCENE X KARA’s Nicole ‘Pretty Girl’ surprise collab - 스포츠경향",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSlc1bWp2UzBNajB2amQtb1FkMEJwQ1ZRQmVrc2FVTFNVZ0plTHFGaVJoejFqM1lEaDdDcmdwZVJpeDBGZ1VDOFlxanQteGxuejhrOGkxRmQ0ZVNYUkxtOG9sS3VnNUpydll6MWVQejVtY3pwaEdjT1h0a0dhZnpfNEtneGZXbVNLZUlldlR6OF9ra3hma2xSS2J5c0hJTllRZXlNLVN5VjF2S1RoaTEwTg?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-09",
-      "date_display": "2026년 07월 09일",
-      "items": [
-        {
-          "title": "“The Revival of Pink Rubber Gloves” RESCENE draws attention with a standout homage to KARA - 스포츠경향",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tdjFnMy1zeGhVY1VUbUxxbUU0LWdneGxtbHUyaFBIQkxsWVotRkkybFNFRWY0TjQwa2JsZDk4Tk5TbmptR2VlWWVnR1hfTWN6ZkZyR2xoOGlzSFNrVUFSWVNR?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-08",
-      "date_display": "2026년 07월 08일",
-      "items": [
-        {
-          "title": "투어스 '상큼발랄 매력' - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QREVlYVREMmN2S19tSlhiU3lHd1VMX0tkQ3ItWXZLdThFVUh0ejVKTlJJT3c0eEd0Y2hPNDZUMVFVenRsaXdzejItZERleGpadThEaFdXczZtLUd1dzFKN3k4dGp5OEFCdEVpVWw5bGQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "촬영 중 진짜로 화난 리센느 제나🤣 #제나 #뭔데요 #리센느 #RESCENE - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LX0k5akpKN1lKSDFkYkJEX2FaUEJ3TkVnUTNVckx0aUt1dWxQNDQySEFlaEFRN2dlZmlzaUM0ektjczZJR2kzZHJ6RzBOakxQb2JrY2hfaVFMLTJ6aGhmU01tR25PZw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "10:30",
-          "category": "기타",
-          "members": [
-            "제나"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "date_display": "2026년 07월 07일",
-      "items": [
-        {
-          "title": "리마인 우리 리센느가 1등 가수 팬 하게 해줄게 #원이#리센느 #RESCENE #리마인 #REMINE - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tdmJZSnl4S3oyZHBTdFBKdnFUU2k2YlpmcjBzVHd4Rms4aGs3QTBQbnFQc3BnSThaZEZvMzhSYUdYMVJQTkN1OVl5bjlqSlZ0Ry04SGV0c3NLaWtWdTdrTm0ydXlhT1VveUs4TWpPaw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "리센느 데뷔요? 2024년 3월 26일이요💕 #리브 #제나 #리센느 #RESCENE - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FY1JaaTdhLTE5S2ZDWlpiZEhiS1pKMS1lMFlNMGY5T1VkWjh6SlF6eHpiMEZuUEFweVFmWTRULXlwUEdFQmpjUTZ4WVgyOVN5UDJGN1EyQkNfZFRRU01UQWtNbWpPYjZFQkZjOFpaS1Y?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "리브",
-            "제나"
-          ]
-        },
-        {
-          "title": "리센느(RESCENE) 스타뉴스 인터뷰 \"'프리티걸' 리센느 버전 많이 사랑해주세요\" #리센느 #RESCENE #야호 #카라 #프리티걸 #리메이크 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFOHl0eEZBaW4xMHV0d3lyUUVBZmN2T0JrcGlOTGxuMHhtdFhJR1NOVVF2aTVocmJPeWdXV3pxUDhtZ0RwSVcyeGloZzViTVVydUQ2ZWdXRFIya3loSjhocTFZY2E2aTFhclhBZjlOZw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "맏언니지만 장난은 치고 싶은 원이😂 #원이 #리센느 #RESCENE - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jTkN1dFVETzR3WUZ3ZU5PNmZmdzRoQVpzQW9EcTJITk16RFM1eXNIMnNBa3VqSWM0eDhDRnZKR282LTRWUXl3UmFMMFpkQ21HR1dhMC1PTXh6UmRRcldWVTNnUmgwUEtJUm5rWTUyYnE?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-04",
-      "date_display": "2026년 07월 04일",
-      "items": [
-        {
-          "title": "원이의 꿈",
-          "link": "https://www.youtube.com/shorts/jilQNKreZBM",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "21:40",
-          "category": "자체컨텐츠",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "센빠이!",
-          "link": "https://www.youtube.com/shorts/4ciHuGLi_1I",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "21:35",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "새로운 등교 친구",
-          "link": "https://www.youtube.com/shorts/FxbR-V8GOjE",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "21:29",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "좋지 않아?",
-          "link": "https://www.youtube.com/shorts/tDs3mcabrFM",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "21:29",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-03",
-      "date_display": "2026년 07월 03일",
-      "items": [
-        {
-          "title": "미나미의 뿌리를 찾아서 | 최종화",
-          "link": "https://www.youtube.com/watch?v=Yy58f1A6F-c",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "19:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "미나미"
-          ]
-        },
-        {
-          "title": "리센느 미나미 \"갸루 은퇴 NO! '프리티걸' 가수로서의 매력 먼저 보여드릴게요!\"[인터뷰②] - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5iTS05Z3ZzR01lUHZLdkltRWF6YU94U3NBMjVNeTd4YjZ0SnlORW9HN2V3RFpfWmQxZXJrdjBzWGlBWTdqc0ZVN01IZjcwVkxNQjJvZWFweUg1TGdPYlk0b0dDOWpfMUZuYlc2bGVaRU9wejA?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "미나미"
-          ]
-        },
-        {
-          "title": "After Rescene shouted “Geoje Yaho,” city governments came running - 스포츠경향",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpTWdmUmc1T3BHYS0weGZDSXFMUXAtODJDaW1WY3V6NHdnc0VsbHFpOWtjbEJpUlhxT05wenlOaUFveVAyMEpYZFdpTVpZZ3BfNy1xYTBCaGRMTW52NG9aTkFR?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "date_display": "2026년 07월 01일",
-      "items": [
-        {
-          "title": "리센느(RESCENE), 카사베르디 CF 촬영현장 담은 메이킹 영상 공개 - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE53ekpRUk1MTkxFZkdhV1JTLTR6ZjdJV2RQZ3J3MEJXbjhaV2pwN0pISkM4Tzl6RHNKNzdxOHlYYmV6c2tEUklMb1FaYw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "메이"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-29",
-      "date_display": "2026년 06월 29일",
-      "items": [
-        {
-          "title": "＂그렇게 하는 거 아닌데ㅎ?＂ 🎀버블 시대 갸루 출신🎀 엄마한테 전수 받은 리센느(RESCENE) 미나미 스킬에 서장훈X강호동 반응ㅋㅋㅋ｜아는 형님｜JTBC 260620 방송",
-          "link": "https://www.youtube.com/watch?v=xTf6dmFwinA",
-          "source_type": "youtube_collab",
-          "source_name": "JTBC Voyage",
-          "time": "22:26",
-          "category": "외부컨텐츠",
-          "members": [
-            "미나미"
-          ]
         }
       ]
     }
@@ -5698,18 +5611,18 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 5,
+        "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "up",
+          "kind": "down",
           "delta": 1
         }
       },
@@ -5717,20 +5630,19 @@ const SITE_DATA = {
         "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "up",
-          "delta": 3
+          "kind": "same"
         }
       },
       {
-        "rank": 45,
+        "rank": 52,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "up",
-          "delta": 21
+          "kind": "down",
+          "delta": 7
         }
       }
     ],
@@ -5739,30 +5651,29 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "up",
-          "delta": 213
+          "kind": "same"
         }
       },
       {
-        "rank": 715,
+        "rank": 91,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "down",
-          "delta": 693
+          "kind": "up",
+          "delta": 624
         }
       },
       {
-        "rank": 2918,
+        "rank": 367,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "down",
-          "delta": 2445
+          "kind": "up",
+          "delta": 2551
         }
       }
     ],
@@ -5771,48 +5682,49 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
       },
       {
         "rank": 90,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
-        "change": {
-          "kind": "up",
-          "delta": 1
-        }
-      },
-      {
-        "rank": 110,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "up",
-          "delta": 2
+          "delta": 20
         }
       },
       {
-        "rank": 351,
-        "song_title": "Runaway",
+        "rank": 100,
+        "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "down",
-          "delta": 8
+          "delta": 10
         }
       },
       {
-        "rank": 9112,
+        "rank": 245,
+        "song_title": "Runaway",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-07-30 11:08",
+        "change": {
+          "kind": "up",
+          "delta": 106
+        }
+      },
+      {
+        "rank": 9532,
         "song_title": "Pinball",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "new"
+          "kind": "down",
+          "delta": 420
         }
       }
     ],
@@ -5821,7 +5733,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5830,49 +5742,45 @@ const SITE_DATA = {
         "rank": 3,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "up",
-          "delta": 1
+          "kind": "same"
         }
       },
       {
         "rank": 10,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "up",
-          "delta": 3
+          "kind": "same"
         }
       },
       {
         "rank": 27,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "down",
-          "delta": 2
+          "kind": "same"
         }
       },
       {
         "rank": 58,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "up",
-          "delta": 4
+          "kind": "same"
         }
       },
       {
         "rank": 197,
         "song_title": "Glow Up",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
-          "kind": "new"
+          "kind": "same"
         }
       }
     ],
@@ -5883,7 +5791,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5892,7 +5800,7 @@ const SITE_DATA = {
         "rank": 21,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5901,7 +5809,7 @@ const SITE_DATA = {
         "rank": 22,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5910,7 +5818,7 @@ const SITE_DATA = {
         "rank": 57,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5919,7 +5827,7 @@ const SITE_DATA = {
         "rank": 111,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5931,7 +5839,7 @@ const SITE_DATA = {
         "rank": 73,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5942,7 +5850,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5951,7 +5859,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5960,7 +5868,7 @@ const SITE_DATA = {
         "rank": 11,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5973,7 +5881,7 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "LOVE ATTACK",
         "artist_text": "리센느",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5982,7 +5890,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "리센느",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -5991,7 +5899,7 @@ const SITE_DATA = {
         "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "리센느",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -6000,7 +5908,7 @@ const SITE_DATA = {
         "rank": 23,
         "song_title": "Pinball",
         "artist_text": "리센느",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -6009,7 +5917,7 @@ const SITE_DATA = {
         "rank": 24,
         "song_title": "Runaway",
         "artist_text": "리센느",
-        "checked_at": "2026-07-30 08:56",
+        "checked_at": "2026-07-30 11:08",
         "change": {
           "kind": "same"
         }
@@ -6065,6 +5973,14 @@ const SITE_DATA = {
         "note": "[추정] 뉴스 기사 자동 추출 (키워드: 축제) · 네이버 뉴스 외 1건 추가 언급",
         "is_estimated": true,
         "mention_count": 2
+      },
+      {
+        "date": "2026-08-06",
+        "type": "행사",
+        "title": "리센느, 'AAA 2026' 뜬다…있지·키키·하츠투하츠와 출격",
+        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 출격) · 네이버 뉴스",
+        "is_estimated": true,
+        "mention_count": 1
       },
       {
         "date": "2026-08-09",
