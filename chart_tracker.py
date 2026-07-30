@@ -152,7 +152,10 @@ def fetch_genie():
             continue
         artist_text = artist_el.get_text(strip=True)
         if _is_our_group(artist_text):
-            rank_num = "".join(ch for ch in rank_el.get_text() if ch.isdigit())
+            # .number 안에는 순위 숫자 뒤에 "N계단 상승/하락" 같은 변동 표시가
+            # 중첩 태그로 더 들어있어서, 맨 앞 직접 텍스트(순위)만 취함
+            direct_text = rank_el.find(string=True, recursive=False) or ""
+            rank_num = "".join(ch for ch in direct_text if ch.isdigit())
             if not rank_num:
                 continue
             results.append(
@@ -178,7 +181,11 @@ def fetch_bugs():
             continue
         artist_text = artist_el.get_text(strip=True)
         if _is_our_group(artist_text):
-            rank_num = "".join(ch for ch in rank_el.get_text() if ch.isdigit())
+            # .ranking 안에는 순위(<strong>)와 전일 대비 변동(<p class="change">)이
+            # 같이 들어있어서, <strong> 태그 안의 순위만 정확히 취함
+            strong_el = rank_el.select_one("strong")
+            rank_text = strong_el.get_text(strip=True) if strong_el else ""
+            rank_num = "".join(ch for ch in rank_text if ch.isdigit())
             if not rank_num:
                 continue
             results.append(
