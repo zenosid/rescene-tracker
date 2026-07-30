@@ -20,7 +20,7 @@ def cleanup():
             if _is_content_release_news(text):
                 to_delete.append(row["id"])
                 continue
-            event_type, _keyword = _match_event_type(text)
+            event_type, _keyword, _idx = _match_event_type(text)
             if not event_type:
                 to_delete.append(row["id"])
 

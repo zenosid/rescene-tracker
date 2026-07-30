@@ -58,8 +58,8 @@ def _match_event_type(text):
         after = text[idx + len(keyword): idx + len(keyword) + 4]
         if any(after.startswith(neg) for neg in _NEGATION_SUFFIXES):
             continue  # 부정형 표현이므로 이 키워드는 건너뛰고 다음 후보 키워드로
-        return event_type, keyword
-    return None, None
+        return event_type, keyword, idx
+    return None, None, -1
 
 
 def _resolve_full_date(month, day, today):
@@ -105,22 +105,29 @@ def extract_schedule_candidates(news_items, today=None):
         text = f"{item['title']} {item['snippet'] or ''}"
         if _is_content_release_news(text):
             continue  # "선공개/영상 공개" 등은 이미 나온 콘텐츠 소식이지 예정된 일정이 아님
-        event_type, matched_keyword = _match_event_type(text)
+        event_type, matched_keyword, keyword_idx = _match_event_type(text)
         if not event_type:
             continue
 
+        # 날짜는 키워드와 완전히 무관한 곳(기사 다른 부분)에 있으면 안 되므로,
+        # 키워드 주변(앞뒤 약 40자) 범위에서만 날짜를 찾음 - 서로 관련 없는
+        # 키워드와 날짜가 우연히 한 기사에 같이 있어서 잘못 엮이는 걸 방지
+        window_start = max(0, keyword_idx - 40)
+        window_end = keyword_idx + len(matched_keyword) + 40
+        search_text = text[window_start:window_end]
+
         event_date = None
-        m_full = _FULL_DATE_RE.search(text)
+        m_full = _FULL_DATE_RE.search(search_text)
         if m_full:
             event_date = _resolve_full_date(int(m_full.group(1)), int(m_full.group(2)), today)
         else:
-            m_numeric = _NUMERIC_DATE_RE.search(text)
+            m_numeric = _NUMERIC_DATE_RE.search(search_text)
             if m_numeric:
                 month, day = int(m_numeric.group(1)), int(m_numeric.group(2))
                 if 1 <= month <= 12 and 1 <= day <= 31:
                     event_date = _resolve_full_date(month, day, today)
             if not event_date:
-                m_day = _DAY_ONLY_RE.search(text)
+                m_day = _DAY_ONLY_RE.search(search_text)
                 if m_day:
                     event_date = _resolve_day_only(int(m_day.group(1)), today)
 
