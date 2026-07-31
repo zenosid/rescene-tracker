@@ -439,6 +439,9 @@ def collect_naver_blog(conn, seen_titles):
                 seen_titles.add(normalized)
                 print(f"  [신규/블로그] {blogger_name} - {title}")
     return new_count
+
+
+def collect_auto_schedule(conn):
     """이미 수집된 뉴스 전체를 스캔해서 일정 후보를 추출 (중복은 UNIQUE 제약으로 자동 방지)."""
     news_items = [i for i in get_recent_items(conn, limit=1000) if i["source_type"] == "news"]
     candidates = extract_schedule_candidates(news_items)
