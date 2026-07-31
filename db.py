@@ -209,6 +209,13 @@ def get_recent_fan_reactions(conn, limit=100):
 
 # ── 트로피(1위 수상 기록) ────────────────────────────────────
 def insert_trophy(conn, date, show, title, source_link):
+    # 같은 날 같은 방송 수상 소식을 여러 언론사가 각자 다른 링크로 보도해도,
+    # 실제로는 같은 수상 하나이므로 (날짜, 방송사) 기준으로 하나만 남김
+    existing = conn.execute(
+        "SELECT id FROM trophies WHERE date = ? AND show = ?", (date, show)
+    ).fetchone()
+    if existing:
+        return False
     cur = conn.execute(
         "INSERT OR IGNORE INTO trophies (date, show, title, source_link) VALUES (?, ?, ?, ?)",
         (date, show, title, source_link),

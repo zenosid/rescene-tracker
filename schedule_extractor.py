@@ -109,18 +109,25 @@ def extract_schedule_candidates(news_items, today=None):
             continue
 
         # 날짜는 키워드와 완전히 무관한 곳(기사 다른 부분)에 있으면 안 되므로,
-        # 키워드 주변(앞뒤 약 40자) 범위에서만 날짜를 찾음 - 서로 관련 없는
-        # 키워드와 날짜가 우연히 한 기사에 같이 있어서 잘못 엮이는 걸 방지
-        window_start = max(0, keyword_idx - 40)
-        window_end = keyword_idx + len(matched_keyword) + 40
-        search_text = text[window_start:window_end]
+        # 키워드 주변 범위에서만 날짜를 찾음 - 서로 관련 없는 키워드와 날짜가
+        # 우연히 한 기사에 같이 있어서 잘못 엮이는 걸 방지.
+        # "N월 N일"처럼 확실한 형태는 조금 넓게(40자), "N일"만 있는 애매한
+        # 형태(예: "라인업 발표는 지난 6일" 같은 발표일 언급과 헷갈리기 쉬움)는
+        # 훨씬 좁게(12자, 사실상 바로 붙어있는 경우만) 봅니다.
+        wide_start = max(0, keyword_idx - 40)
+        wide_end = keyword_idx + len(matched_keyword) + 40
+        wide_text = text[wide_start:wide_end]
+
+        narrow_start = max(0, keyword_idx - 12)
+        narrow_end = keyword_idx + len(matched_keyword) + 12
+        narrow_text = text[narrow_start:narrow_end]
 
         event_date = None
-        m_full = _FULL_DATE_RE.search(search_text)
+        m_full = _FULL_DATE_RE.search(wide_text)
         if m_full:
             event_date = _resolve_full_date(int(m_full.group(1)), int(m_full.group(2)), today)
         else:
-            m_day = _DAY_ONLY_RE.search(search_text)
+            m_day = _DAY_ONLY_RE.search(narrow_text)
             if m_day:
                 event_date = _resolve_day_only(int(m_day.group(1)), today)
 
