@@ -467,63 +467,6 @@
   .trophy-title { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
   .trophy-date { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-faint); margin-left: auto; white-space: nowrap; }
 
-  /* ── 소장품 ───────────────────────────────────────────── */
-  .collection-form { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
-  .collection-form input[type="text"] {
-    flex: 1;
-    min-width: 200px;
-    background: var(--card);
-    border: 1px solid var(--card-border);
-    border-radius: 10px;
-    padding: 10px 14px;
-    color: var(--text-primary);
-    font-family: inherit;
-    font-size: 13.5px;
-  }
-  .collection-form select {
-    background: var(--card);
-    border: 1px solid var(--card-border);
-    border-radius: 10px;
-    padding: 10px 14px;
-    color: var(--text-primary);
-    font-family: inherit;
-    font-size: 13.5px;
-  }
-  .collection-filter-bar { display: flex; gap: 8px; margin-bottom: 16px; }
-  .collection-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 13px 16px;
-    margin-bottom: 8px;
-  }
-  .collection-item .collection-name { flex: 1; font-size: 14px; font-weight: 600; }
-  .collection-item .collection-status-badge {
-    font-size: 11px;
-    font-weight: 700;
-    padding: 3px 10px;
-    border-radius: 999px;
-  }
-  .collection-item .collection-status-badge.보유 { background: rgba(92,255,176,0.15); color: var(--aurora-mint); }
-  .collection-item .collection-status-badge.위시 { background: rgba(255,207,111,0.15); color: var(--aurora-amber); }
-  .collection-item .collection-delete-btn {
-    background: none;
-    border: none;
-    color: var(--text-faint);
-    cursor: pointer;
-    font-size: 16px;
-    padding: 4px 8px;
-  }
-  .collection-item .collection-delete-btn:hover { color: var(--aurora-pink); }
-
-  /* ── 하이라이트(X/인스타그램 임베드) ──────────────────── */
-  .highlight-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 16px;
-    align-items: start;
-  }
-  .highlight-embed { display: flex; justify-content: center; }
   .schedule-row {
     display: flex;
     align-items: center;
@@ -692,8 +635,6 @@
     <button class="tab-btn" data-tab="chart">📊 차트</button>
     <button class="tab-btn" data-tab="schedule">📅 스케줄</button>
     <button class="tab-btn" data-tab="trophies">🏆 트로피</button>
-    <button class="tab-btn" data-tab="collection">📦 소장품</button>
-    <button class="tab-btn" data-tab="highlights">🌟 하이라이트</button>
     <button class="tab-btn" data-tab="favorites">⭐ 즐겨찾기</button>
     <button class="tab-btn" data-tab="links">🔗 링크</button>
     <button class="tab-btn" data-tab="reactions">💬 반응</button>
@@ -744,41 +685,6 @@
       </span>
     </div>
     <div id="trophiesContent"></div>
-  </div>
-
-  <!-- ══════════════ 소장품 ══════════════ -->
-  <div class="view" id="view-collection">
-    <div class="card" style="padding:14px 20px; margin-bottom:20px;">
-      <span style="font-size:12.5px; color:var(--text-muted);">
-        📦 포토카드·앨범 소장 현황을 이 브라우저에만 저장합니다 (다른 기기와
-        공유되지 않아요). 즐겨찾기와 같은 방식입니다.
-      </span>
-    </div>
-    <div class="collection-form">
-      <input type="text" id="collectionNameInput" placeholder="예: LOVE ATTACK 포토카드 (원이)" />
-      <select id="collectionStatusInput">
-        <option value="보유">보유 중</option>
-        <option value="위시">위시리스트</option>
-      </select>
-      <button id="collectionAddBtn" class="refresh-btn" style="margin-top:0;">추가</button>
-    </div>
-    <div class="collection-filter-bar">
-      <button class="source-tab active" data-collection-filter="all">전체</button>
-      <button class="source-tab" data-collection-filter="보유">보유 중</button>
-      <button class="source-tab" data-collection-filter="위시">위시리스트</button>
-    </div>
-    <div id="collectionContent"></div>
-  </div>
-
-  <!-- ══════════════ 하이라이트(X/인스타그램) ══════════════ -->
-  <div class="view" id="view-highlights">
-    <div class="card" style="padding:14px 20px; margin-bottom:20px;">
-      <span style="font-size:12.5px; color:var(--text-muted);">
-        🌟 운영자가 직접 고른 X·인스타그램 게시물을 각 플랫폼의 공식 임베드로
-        그대로 보여드립니다 (자동 검색이 아니라 수동으로 골라 넣는 방식입니다).
-      </span>
-    </div>
-    <div id="highlightsContent" class="highlight-grid"></div>
   </div>
 
   <!-- ══════════════ 즐겨찾기 ══════════════ -->

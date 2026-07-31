@@ -206,14 +206,5 @@ MEMBER_BIRTHDAYS = {
     "제나": "11-27",
 }
 
-# ── X·인스타그램 하이라이트 게시물 ────────────────────────────
-# 자동 수집(검색)은 여전히 안 되지만, 공식 임베드 위젯으로 특정 게시물 하나를
-# "그대로" 예쁘게 보여줄 수는 있습니다. URL을 여기에 추가하면 🌟 하이라이트
-# 탭에 실제 X/인스타그램 카드(좋아요 수, 프로필 포함)로 뜹니다.
-HIGHLIGHT_POSTS = [
-    # {"platform": "x", "url": "https://x.com/RESCENEofficial/status/1234567890"},
-    # {"platform": "instagram", "url": "https://www.instagram.com/p/AbCdEfGhIjK/"},
-]
-
 # ── 저장소 ──────────────────────────────────────────────────────
 DB_PATH = "rescene_tracker.db"

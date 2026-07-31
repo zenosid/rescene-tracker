@@ -16,7 +16,7 @@ from datetime import datetime, date
 
 from config import (
     SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS,
-    RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS, HIGHLIGHT_POSTS,
+    RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS,
 )
 from db import (
     init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule,
@@ -249,7 +249,6 @@ def main():
         "all_songs": RESCENE_ALL_SONGS,
         "anniversaries": build_anniversaries(),
         "trophies": build_trophies(),
-        "highlight_posts": HIGHLIGHT_POSTS,
     }
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write("const SITE_DATA = ")
