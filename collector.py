@@ -20,8 +20,9 @@ from config import (
     NAVER_CAFE_QUERIES, NAVER_CAFE_MAX_RESULTS,
     NAVER_BLOG_QUERIES, NAVER_BLOG_MAX_RESULTS,
 )
-from db import init_db, get_conn, insert_item, get_recent_items, insert_auto_schedule
+from db import init_db, get_conn, insert_item, get_recent_items, insert_auto_schedule, insert_trophy
 from schedule_extractor import extract_schedule_candidates
+from trophy_extractor import extract_trophy_candidates
 
 YOUTUBE_RSS_TEMPLATE = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
 YOUTUBE_SEARCH_URL = "https://www.youtube.com/results?search_query={query}"
@@ -456,6 +457,19 @@ def collect_auto_schedule(conn):
     return new_count
 
 
+def collect_trophies(conn):
+    """이미 수집된 뉴스에서 음악방송 1위 수상 기록을 추출."""
+    news_items = [i for i in get_recent_items(conn, limit=1000) if i["source_type"] == "news"]
+    candidates = extract_trophy_candidates(news_items)
+    new_count = 0
+    for c in candidates:
+        is_new = insert_trophy(conn, c["date"], c["show"], c["title"], c["source_link"])
+        if is_new:
+            new_count += 1
+            print(f"  [신규/트로피] {c['date']} {c['show']} - {c['title']}")
+    return new_count
+
+
 def run_collection():
     init_db()
     with get_conn() as conn:
@@ -476,13 +490,15 @@ def run_collection():
         blog_new = collect_naver_blog(conn, seen_titles)
         print("뉴스에서 일정 추정 중...")
         schedule_new = collect_auto_schedule(conn)
+        print("뉴스에서 1위 수상 기록 추출 중...")
+        trophy_new = collect_trophies(conn)
     total = yt_new + collab_new + search_new + news_new + naver_news_new + cafe_new + blog_new
     print(
         f"\n완료: 신규 {total}건 "
         f"(공식 {yt_new} / 콜라보-등록 {collab_new} / 콜라보-검색 {search_new} / "
         f"뉴스-구글 {news_new} / 뉴스-네이버 {naver_news_new} / "
         f"카페글 {cafe_new} / 블로그 {blog_new}) "
-        f"· 추정 일정 {schedule_new}건"
+        f"· 추정 일정 {schedule_new}건 · 신규 트로피 {trophy_new}건"
     )
     return total
 

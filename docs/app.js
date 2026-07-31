@@ -573,6 +573,142 @@ function renderChart() {
   grid.appendChild(intlGrid);
 }
 
+// ── 기념일 D-day 렌더링 ───────────────────────────────────
+function renderAnniversaries() {
+  const grid = document.getElementById("anniversaryGrid");
+  if (!grid) return;
+  grid.innerHTML = "";
+
+  const items = SITE_DATA.anniversaries || [];
+  if (items.length === 0) {
+    grid.innerHTML = `<div class="empty-state">등록된 기념일이 없습니다. config.py에서 멤버 생일을 채워주세요.</div>`;
+    return;
+  }
+
+  items.forEach((a) => {
+    const card = document.createElement("div");
+    card.className = "card dday-card";
+    const label = a.d_day === 0 ? "D-DAY" : `D-${a.d_day}`;
+    card.innerHTML = `
+      <div class="dday-value">${label}</div>
+      <div class="dday-name">${escapeHtml(a.name)}</div>
+      <div class="dday-date">${a.date}</div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+// ── 트로피 렌더링 ─────────────────────────────────────────
+function renderTrophies() {
+  const container = document.getElementById("trophiesContent");
+  container.innerHTML = "";
+
+  const trophies = SITE_DATA.trophies || [];
+  if (trophies.length === 0) {
+    container.innerHTML = `<div class="empty-state">아직 감지된 1위 수상 기록이 없습니다.</div>`;
+    return;
+  }
+
+  trophies.forEach((t) => {
+    const row = document.createElement("a");
+    row.className = "card trophy-row";
+    row.href = t.source_link;
+    row.target = "_blank";
+    row.rel = "noopener noreferrer";
+    row.style.textDecoration = "none";
+    row.style.color = "inherit";
+    row.innerHTML = `
+      <span class="trophy-icon">🏆</span>
+      <div style="flex:1;">
+        <div class="trophy-show">${escapeHtml(t.show)}</div>
+        <div class="trophy-title">${escapeHtml(t.title)}</div>
+      </div>
+      <div class="trophy-date">${t.date}</div>
+    `;
+    container.appendChild(row);
+  });
+}
+
+// ── 소장품(포토카드/앨범) 렌더링 - localStorage 기반 ─────────
+const COLLECTION_KEY = "rescene_tracker_collection";
+let collectionFilter = "all";
+
+function loadCollection() {
+  try {
+    const raw = localStorage.getItem(COLLECTION_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    return [];
+  }
+}
+function saveCollection(items) {
+  try {
+    localStorage.setItem(COLLECTION_KEY, JSON.stringify(items));
+  } catch (e) {
+    // 저장 불가 환경(프라이빗 모드 등)이면 조용히 무시
+  }
+}
+
+function renderCollection() {
+  const container = document.getElementById("collectionContent");
+  container.innerHTML = "";
+
+  const items = loadCollection();
+  const filtered = collectionFilter === "all" ? items : items.filter((i) => i.status === collectionFilter);
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<div class="empty-state">아직 등록된 소장품이 없습니다.<br/>위에서 이름을 입력하고 추가해보세요.</div>`;
+    return;
+  }
+
+  filtered.forEach((item, displayIndex) => {
+    const realIndex = items.indexOf(item);
+    const row = document.createElement("div");
+    row.className = "card collection-item";
+    row.innerHTML = `
+      <span class="collection-name">${escapeHtml(item.name)}</span>
+      <span class="collection-status-badge ${item.status}">${item.status}</span>
+      <button class="collection-delete-btn" title="삭제">✕</button>
+    `;
+    row.querySelector(".collection-delete-btn").addEventListener("click", () => {
+      const all = loadCollection();
+      all.splice(realIndex, 1);
+      saveCollection(all);
+      renderCollection();
+    });
+    container.appendChild(row);
+  });
+}
+
+function initCollectionForm() {
+  const addBtn = document.getElementById("collectionAddBtn");
+  const nameInput = document.getElementById("collectionNameInput");
+  const statusInput = document.getElementById("collectionStatusInput");
+  if (!addBtn) return;
+
+  addBtn.addEventListener("click", () => {
+    const name = nameInput.value.trim();
+    if (!name) return;
+    const items = loadCollection();
+    items.unshift({ name, status: statusInput.value });
+    saveCollection(items);
+    nameInput.value = "";
+    renderCollection();
+  });
+  nameInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") addBtn.click();
+  });
+
+  document.querySelectorAll("[data-collection-filter]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("[data-collection-filter]").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      collectionFilter = btn.dataset.collectionFilter;
+      renderCollection();
+    });
+  });
+}
+
 // ── 스케줄 렌더링 ─────────────────────────────────────────
 function dDayLabel(dateStr) {
   const today = new Date();
@@ -693,4 +829,8 @@ buildMemberChips();
 renderArchive();
 renderChart();
 renderSchedule();
+renderAnniversaries();
+renderTrophies();
+initCollectionForm();
+renderCollection();
 startAutoRefreshWatcher();

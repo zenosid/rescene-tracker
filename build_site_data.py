@@ -12,10 +12,16 @@ file:// 로 index.html을 열어도 fetch()의 CORS 제약 없이 동작하도�
 import json
 import os
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, date
 
-from config import SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS, RESCENE_ALL_SONGS
-from db import init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule, get_previous_ranks, get_recent_fan_reactions
+from config import (
+    SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS,
+    RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS,
+)
+from db import (
+    init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule,
+    get_previous_ranks, get_recent_fan_reactions, get_recent_trophies,
+)
 from chart_tracker import get_latest_all
 from classify import classify_members, classify_category
 from kst import now_kst, to_kst
@@ -152,6 +158,63 @@ def build_schedule():
     return {"upcoming": upcoming, "past": past}
 
 
+def build_anniversaries():
+    """데뷔일 + 멤버 생일의 다음 도래 시점을 계산해서 가까운 순으로 정렬."""
+    today = now_kst().date()
+    items = []
+
+    debut = datetime.strptime(DEBUT_DATE, "%Y-%m-%d").date()
+
+    def _next_occurrence(month, day):
+        try:
+            candidate = date(today.year, month, day)
+        except ValueError:
+            return None
+        if candidate < today:
+            candidate = date(today.year + 1, month, day)
+        return candidate
+
+    debut_next = _next_occurrence(debut.month, debut.day)
+    if debut_next:
+        years = debut_next.year - debut.year
+        items.append(
+            {
+                "type": "데뷔",
+                "name": f"데뷔 {years}주년",
+                "date": debut_next.isoformat(),
+                "d_day": (debut_next - today).days,
+            }
+        )
+
+    for member, mmdd in MEMBER_BIRTHDAYS.items():
+        try:
+            month, day = (int(x) for x in mmdd.split("-"))
+        except ValueError:
+            continue
+        next_bday = _next_occurrence(month, day)
+        if next_bday:
+            items.append(
+                {
+                    "type": "생일",
+                    "name": f"{member} 생일",
+                    "date": next_bday.isoformat(),
+                    "d_day": (next_bday - today).days,
+                }
+            )
+
+    items.sort(key=lambda x: x["d_day"])
+    return items
+
+
+def build_trophies():
+    with get_conn() as conn:
+        rows = get_recent_trophies(conn, limit=100)
+    return [
+        {"date": r["date"], "show": r["show"], "title": r["title"], "source_link": r["source_link"]}
+        for r in rows
+    ]
+
+
 def build_fan_reactions():
     with get_conn() as conn:
         rows = get_recent_fan_reactions(conn, limit=150)
@@ -184,6 +247,8 @@ def main():
         "links": LINK_COLLECTIONS,
         "fan_reactions": build_fan_reactions(),
         "all_songs": RESCENE_ALL_SONGS,
+        "anniversaries": build_anniversaries(),
+        "trophies": build_trophies(),
     }
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write("const SITE_DATA = ")

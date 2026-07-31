@@ -444,6 +444,77 @@
 
   /* ── 스케줄 ───────────────────────────────────────────── */
   .schedule-list { display: flex; flex-direction: column; gap: 10px; }
+
+  /* ── 기념일 D-day ─────────────────────────────────────── */
+  .dday-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; margin-bottom: 30px; }
+  .dday-card { padding: 16px; text-align: center; }
+  .dday-card .dday-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-size: 22px;
+    background: var(--grad-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .dday-card .dday-name { font-size: 12.5px; color: var(--text-muted); margin-top: 4px; }
+  .dday-card .dday-date { font-size: 10.5px; color: var(--text-faint); font-family: 'JetBrains Mono', monospace; margin-top: 2px; }
+
+  /* ── 트로피 ───────────────────────────────────────────── */
+  .trophy-row { display: flex; align-items: center; gap: 14px; padding: 14px 18px; margin-bottom: 8px; }
+  .trophy-icon { font-size: 22px; }
+  .trophy-show { font-weight: 700; font-size: 13.5px; color: var(--aurora-amber); }
+  .trophy-title { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+  .trophy-date { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-faint); margin-left: auto; white-space: nowrap; }
+
+  /* ── 소장품 ───────────────────────────────────────────── */
+  .collection-form { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .collection-form input[type="text"] {
+    flex: 1;
+    min-width: 200px;
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 13.5px;
+  }
+  .collection-form select {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 13.5px;
+  }
+  .collection-filter-bar { display: flex; gap: 8px; margin-bottom: 16px; }
+  .collection-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 16px;
+    margin-bottom: 8px;
+  }
+  .collection-item .collection-name { flex: 1; font-size: 14px; font-weight: 600; }
+  .collection-item .collection-status-badge {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 999px;
+  }
+  .collection-item .collection-status-badge.보유 { background: rgba(92,255,176,0.15); color: var(--aurora-mint); }
+  .collection-item .collection-status-badge.위시 { background: rgba(255,207,111,0.15); color: var(--aurora-amber); }
+  .collection-item .collection-delete-btn {
+    background: none;
+    border: none;
+    color: var(--text-faint);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px 8px;
+  }
+  .collection-item .collection-delete-btn:hover { color: var(--aurora-pink); }
   .schedule-row {
     display: flex;
     align-items: center;
@@ -611,6 +682,8 @@
     <button class="tab-btn active" data-tab="archive">🗂️ 아카이브</button>
     <button class="tab-btn" data-tab="chart">📊 차트</button>
     <button class="tab-btn" data-tab="schedule">📅 스케줄</button>
+    <button class="tab-btn" data-tab="trophies">🏆 트로피</button>
+    <button class="tab-btn" data-tab="collection">📦 소장품</button>
     <button class="tab-btn" data-tab="favorites">⭐ 즐겨찾기</button>
     <button class="tab-btn" data-tab="links">🔗 링크</button>
     <button class="tab-btn" data-tab="reactions">💬 반응</button>
@@ -643,10 +716,48 @@
 
   <!-- ══════════════ 스케줄 ══════════════ -->
   <div class="view" id="view-schedule">
+    <section class="block-title">기념일 D-day</section>
+    <div class="dday-grid" id="anniversaryGrid"></div>
+
     <section class="block-title">다가오는 일정</section>
     <div class="schedule-list" id="scheduleUpcoming"></div>
     <section class="block-title" id="pastTitle" style="display:none;">지난 일정</section>
     <div class="schedule-list" id="schedulePast"></div>
+  </div>
+
+  <!-- ══════════════ 트로피 ══════════════ -->
+  <div class="view" id="view-trophies">
+    <div class="card" style="padding:14px 20px; margin-bottom:24px;">
+      <span style="font-size:12.5px; color:var(--text-muted);">
+        🏆 뉴스 기사에서 자동으로 감지한 음악방송 1위 기록입니다. 언론사 보도
+        기준이라 누락되는 경우가 있을 수 있습니다.
+      </span>
+    </div>
+    <div id="trophiesContent"></div>
+  </div>
+
+  <!-- ══════════════ 소장품 ══════════════ -->
+  <div class="view" id="view-collection">
+    <div class="card" style="padding:14px 20px; margin-bottom:20px;">
+      <span style="font-size:12.5px; color:var(--text-muted);">
+        📦 포토카드·앨범 소장 현황을 이 브라우저에만 저장합니다 (다른 기기와
+        공유되지 않아요). 즐겨찾기와 같은 방식입니다.
+      </span>
+    </div>
+    <div class="collection-form">
+      <input type="text" id="collectionNameInput" placeholder="예: LOVE ATTACK 포토카드 (원이)" />
+      <select id="collectionStatusInput">
+        <option value="보유">보유 중</option>
+        <option value="위시">위시리스트</option>
+      </select>
+      <button id="collectionAddBtn" class="refresh-btn" style="margin-top:0;">추가</button>
+    </div>
+    <div class="collection-filter-bar">
+      <button class="source-tab active" data-collection-filter="all">전체</button>
+      <button class="source-tab" data-collection-filter="보유">보유 중</button>
+      <button class="source-tab" data-collection-filter="위시">위시리스트</button>
+    </div>
+    <div id="collectionContent"></div>
   </div>
 
   <!-- ══════════════ 즐겨찾기 ══════════════ -->

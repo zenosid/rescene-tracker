@@ -60,6 +60,15 @@ CREATE TABLE IF NOT EXISTS fan_reactions (
     comment_id TEXT NOT NULL UNIQUE,  -- 유튜브 댓글 고유 ID, 중복 저장 방지
     fetched_at TEXT DEFAULT (datetime('now'))
 );
+
+CREATE TABLE IF NOT EXISTS trophies (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    date TEXT NOT NULL,           -- 뉴스 발행일(KST) 기준 'YYYY-MM-DD'
+    show TEXT NOT NULL,           -- 음악방송 이름
+    title TEXT NOT NULL,          -- 원 기사 제목
+    source_link TEXT NOT NULL UNIQUE,
+    created_at TEXT DEFAULT (datetime('now'))
+);
 """
 
 
@@ -195,4 +204,19 @@ def get_recent_fan_reactions(conn, limit=100):
     return conn.execute(
         "SELECT * FROM fan_reactions ORDER BY like_count DESC, fetched_at DESC LIMIT ?",
         (limit,),
+    ).fetchall()
+
+
+# ── 트로피(1위 수상 기록) ────────────────────────────────────
+def insert_trophy(conn, date, show, title, source_link):
+    cur = conn.execute(
+        "INSERT OR IGNORE INTO trophies (date, show, title, source_link) VALUES (?, ?, ?, ?)",
+        (date, show, title, source_link),
+    )
+    return cur.rowcount > 0
+
+
+def get_recent_trophies(conn, limit=100):
+    return conn.execute(
+        "SELECT * FROM trophies ORDER BY date DESC LIMIT ?", (limit,)
     ).fetchall()
