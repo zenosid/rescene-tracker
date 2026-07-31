@@ -197,12 +197,23 @@ def build_anniversaries():
                 {
                     "type": "생일",
                     "name": f"{member} 생일",
+                    "member": member,
                     "date": next_bday.isoformat(),
                     "d_day": (next_bday - today).days,
                 }
             )
 
-    items.sort(key=lambda x: x["d_day"])
+    # 가까운 순이 아니라, 지정된 고정 순서(데뷔 → 원이 → 미나미 → 리브 → 메이 → 제나)로 정렬
+    FIXED_ORDER = ["데뷔", "원이", "미나미", "리브", "메이", "제나"]
+
+    def _sort_key(item):
+        label = item["type"] if item["type"] == "데뷔" else item.get("member", "")
+        try:
+            return FIXED_ORDER.index(label)
+        except ValueError:
+            return len(FIXED_ORDER)  # 목록에 없는 항목은 맨 뒤로
+
+    items.sort(key=_sort_key)
     return items
 
 
