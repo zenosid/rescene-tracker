@@ -70,6 +70,14 @@ NEWS_RSS_FEEDS = [
 NAVER_NEWS_QUERIES = ["리센느", "RESCENE"]
 NAVER_NEWS_MAX_RESULTS = 20  # 검색어당 최대 몇 건
 
+# 네이버 카페글/블로그 검색도 같은 Client ID/Secret으로 됩니다 (별도 키 불필요).
+# 팬카페·개인 블로그에 올라오는 콜라보/후기 소식은 뉴스로는 안 잡히는 경우가 많아서
+# 추가한 소스입니다. (예: 브랜드 콜라보 이벤트를 다녀온 블로그 후기 등)
+NAVER_CAFE_QUERIES = ["리센느", "RESCENE"]
+NAVER_CAFE_MAX_RESULTS = 20
+NAVER_BLOG_QUERIES = ["리센느", "RESCENE"]
+NAVER_BLOG_MAX_RESULTS = 20
+
 # ── 링크 모음 ────────────────────────────────────────────────
 # 카페 공지·팬튜브 채널·공식 계정 등을 카테고리별로 정리해서 "🔗 링크" 탭에 보여줍니다.
 # 얼마든지 카테고리/항목을 추가하셔도 됩니다.

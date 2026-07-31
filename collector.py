@@ -17,6 +17,8 @@ from config import (
     YOUTUBE_CHANNELS, NEWS_RSS_FEEDS, COLLAB_CHANNELS,
     CHART_KEYWORDS, MEMBER_KEYWORDS, SEARCH_QUERIES, SEARCH_MIN_VIEWS,
     NAVER_NEWS_QUERIES, NAVER_NEWS_MAX_RESULTS,
+    NAVER_CAFE_QUERIES, NAVER_CAFE_MAX_RESULTS,
+    NAVER_BLOG_QUERIES, NAVER_BLOG_MAX_RESULTS,
 )
 from db import init_db, get_conn, insert_item, get_recent_items, insert_auto_schedule
 from schedule_extractor import extract_schedule_candidates
@@ -346,7 +348,97 @@ def collect_naver_news(conn, seen_titles):
     return new_count
 
 
-def collect_auto_schedule(conn):
+def collect_naver_cafe(conn, seen_titles):
+    """
+    네이버 카페글 검색 API - 리시안셔스뿐 아니라 검색에 공개적으로 노출되는
+    모든 네이버 카페의 게시글을 검색합니다. 브랜드 콜라보 후기 등 뉴스로는
+    안 잡히는 소식을 잡기 위한 용도. 키가 없으면 조용히 건너뜁니다.
+    """
+    client_id = os.environ.get("NAVER_CLIENT_ID")
+    client_secret = os.environ.get("NAVER_CLIENT_SECRET")
+    if not client_id or not client_secret:
+        return 0
+
+    headers = {"X-Naver-Client-Id": client_id, "X-Naver-Client-Secret": client_secret}
+    new_count = 0
+    for query in NAVER_CAFE_QUERIES:
+        try:
+            r = requests.get(
+                "https://openapi.naver.com/v1/search/cafearticle.json",
+                headers=headers,
+                params={"query": query, "display": NAVER_CAFE_MAX_RESULTS, "sort": "date"},
+                timeout=15,
+            )
+            r.raise_for_status()
+        except requests.RequestException as e:
+            print(f"  [경고] 네이버 카페글 검색 실패 ({query}): {e}")
+            continue
+
+        for item in r.json().get("items", []):
+            title = _strip_naver_tags(item.get("title", "(제목 없음)"))
+            link = item.get("link", "")
+            snippet = _strip_naver_tags(item.get("description", ""))[:500]
+            cafe_name = _strip_naver_tags(item.get("cafename", "네이버 카페"))
+            if not link or not _is_our_group(title):
+                continue
+            normalized = _normalize_title_for_dedup(title)
+            if normalized in seen_titles:
+                continue
+            is_new = insert_item(
+                conn, "community", f"네이버 카페 · {cafe_name}", title, link,
+                datetime.now(timezone.utc).isoformat(), snippet,
+            )
+            if is_new:
+                new_count += 1
+                seen_titles.add(normalized)
+                print(f"  [신규/카페글] {cafe_name} - {title}")
+    return new_count
+
+
+def collect_naver_blog(conn, seen_titles):
+    """
+    네이버 블로그 검색 API - 개인 블로거의 방문 후기/콜라보 소식 등을 잡습니다.
+    키가 없으면 조용히 건너뜁니다.
+    """
+    client_id = os.environ.get("NAVER_CLIENT_ID")
+    client_secret = os.environ.get("NAVER_CLIENT_SECRET")
+    if not client_id or not client_secret:
+        return 0
+
+    headers = {"X-Naver-Client-Id": client_id, "X-Naver-Client-Secret": client_secret}
+    new_count = 0
+    for query in NAVER_BLOG_QUERIES:
+        try:
+            r = requests.get(
+                "https://openapi.naver.com/v1/search/blog.json",
+                headers=headers,
+                params={"query": query, "display": NAVER_BLOG_MAX_RESULTS, "sort": "date"},
+                timeout=15,
+            )
+            r.raise_for_status()
+        except requests.RequestException as e:
+            print(f"  [경고] 네이버 블로그 검색 실패 ({query}): {e}")
+            continue
+
+        for item in r.json().get("items", []):
+            title = _strip_naver_tags(item.get("title", "(제목 없음)"))
+            link = item.get("link", "")
+            snippet = _strip_naver_tags(item.get("description", ""))[:500]
+            blogger_name = _strip_naver_tags(item.get("bloggername", "네이버 블로그"))
+            if not link or not _is_our_group(title):
+                continue
+            normalized = _normalize_title_for_dedup(title)
+            if normalized in seen_titles:
+                continue
+            is_new = insert_item(
+                conn, "community", f"네이버 블로그 · {blogger_name}", title, link,
+                datetime.now(timezone.utc).isoformat(), snippet,
+            )
+            if is_new:
+                new_count += 1
+                seen_titles.add(normalized)
+                print(f"  [신규/블로그] {blogger_name} - {title}")
+    return new_count
     """이미 수집된 뉴스 전체를 스캔해서 일정 후보를 추출 (중복은 UNIQUE 제약으로 자동 방지)."""
     news_items = [i for i in get_recent_items(conn, limit=1000) if i["source_type"] == "news"]
     candidates = extract_schedule_candidates(news_items)
@@ -375,13 +467,18 @@ def run_collection():
         news_new = collect_news(conn, seen_titles)
         print("뉴스(네이버) 수집 중...")
         naver_news_new = collect_naver_news(conn, seen_titles)
+        print("커뮤니티(네이버 카페글) 수집 중...")
+        cafe_new = collect_naver_cafe(conn, seen_titles)
+        print("커뮤니티(네이버 블로그) 수집 중...")
+        blog_new = collect_naver_blog(conn, seen_titles)
         print("뉴스에서 일정 추정 중...")
         schedule_new = collect_auto_schedule(conn)
-    total = yt_new + collab_new + search_new + news_new + naver_news_new
+    total = yt_new + collab_new + search_new + news_new + naver_news_new + cafe_new + blog_new
     print(
         f"\n완료: 신규 {total}건 "
         f"(공식 {yt_new} / 콜라보-등록 {collab_new} / 콜라보-검색 {search_new} / "
-        f"뉴스-구글 {news_new} / 뉴스-네이버 {naver_news_new}) "
+        f"뉴스-구글 {news_new} / 뉴스-네이버 {naver_news_new} / "
+        f"카페글 {cafe_new} / 블로그 {blog_new}) "
         f"· 추정 일정 {schedule_new}건"
     )
     return total
