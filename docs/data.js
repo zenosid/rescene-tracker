@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-01 03:51",
+  "generated_at": "2026-08-01 04:35",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -12058,7 +12058,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-07-31 23:49",
+        "checked_at": "2026-08-01 04:35",
         "change": {
           "kind": "same"
         }
@@ -12067,7 +12067,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-07-31 23:49",
+        "checked_at": "2026-08-01 04:35",
         "change": {
           "kind": "same"
         }
@@ -12076,7 +12076,7 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-07-31 23:49",
+        "checked_at": "2026-08-01 04:35",
         "change": {
           "kind": "same"
         }
@@ -12087,18 +12087,18 @@ const SITE_DATA = {
     "upcoming": [
       {
         "date": "2026-08-02",
-        "type": "행사",
-        "title": "영주시, 야간축제로 확 바뀐 '2026 시원나잇 페스타' 개막",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 축제) · 네이버 뉴스",
-        "is_estimated": true,
+        "type": "기타",
+        "title": "2026 영주 시원나잇 페스타 (12:00 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
         "mention_count": 1
       },
       {
         "date": "2026-08-06",
-        "type": "행사",
-        "title": "리센느, 'AAA 2026' 뜬다…있지·키키·하츠투하츠와 출격",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 출격) · 네이버 뉴스",
-        "is_estimated": true,
+        "type": "기타",
+        "title": "2026 섬의 날 행사 (02:20 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
         "mention_count": 1
       },
       {
