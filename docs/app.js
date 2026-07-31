@@ -136,6 +136,7 @@ document.querySelectorAll(".tab-btn").forEach((btn) => {
     if (btn.dataset.tab === "favorites") renderFavorites();
     if (btn.dataset.tab === "links") renderLinks();
     if (btn.dataset.tab === "reactions") renderReactions();
+    if (btn.dataset.tab === "highlights") renderHighlights();
   });
 });
 
@@ -436,6 +437,69 @@ function renderReactions() {
     list.appendChild(card);
   });
   container.appendChild(list);
+}
+
+// ── 하이라이트(X/인스타그램 공식 임베드) ─────────────────────
+// 자동 검색이 아니라, config.py에 등록해둔 특정 게시물을 각 플랫폼이 공식
+// 제공하는 위젯 스크립트로 그대로 렌더링합니다 (스크래핑 아님).
+let _twitterWidgetsLoaded = false;
+let _instagramEmbedLoaded = false;
+
+function _loadScriptOnce(src, onLoaded) {
+  const s = document.createElement("script");
+  s.src = src;
+  s.async = true;
+  s.onload = onLoaded;
+  document.body.appendChild(s);
+}
+
+function renderHighlights() {
+  const container = document.getElementById("highlightsContent");
+  if (!container) return;
+  container.innerHTML = "";
+
+  const posts = SITE_DATA.highlight_posts || [];
+  if (posts.length === 0) {
+    container.innerHTML = `<div class="empty-state">등록된 하이라이트 게시물이 없습니다.<br/>config.py의 HIGHLIGHT_POSTS에 URL을 추가해주세요.</div>`;
+    return;
+  }
+
+  let hasX = false;
+  let hasInstagram = false;
+
+  posts.forEach((p) => {
+    const wrap = document.createElement("div");
+    wrap.className = "highlight-embed";
+    if (p.platform === "x") {
+      hasX = true;
+      wrap.innerHTML = `<blockquote class="twitter-tweet"><a href="${p.url}"></a></blockquote>`;
+    } else if (p.platform === "instagram") {
+      hasInstagram = true;
+      wrap.innerHTML = `<blockquote class="instagram-media" data-instgrm-permalink="${p.url}" data-instgrm-version="14"></blockquote>`;
+    }
+    container.appendChild(wrap);
+  });
+
+  if (hasX) {
+    if (window.twttr && window.twttr.widgets) {
+      window.twttr.widgets.load(container);
+    } else if (!_twitterWidgetsLoaded) {
+      _twitterWidgetsLoaded = true;
+      _loadScriptOnce("https://platform.twitter.com/widgets.js", () => {
+        if (window.twttr) window.twttr.widgets.load(container);
+      });
+    }
+  }
+  if (hasInstagram) {
+    if (window.instgrm) {
+      window.instgrm.Embeds.process();
+    } else if (!_instagramEmbedLoaded) {
+      _instagramEmbedLoaded = true;
+      _loadScriptOnce("https://www.instagram.com/embed.js", () => {
+        if (window.instgrm) window.instgrm.Embeds.process();
+      });
+    }
+  }
 }
 
 // ── 차트 렌더링 ───────────────────────────────────────────
