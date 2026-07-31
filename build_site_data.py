@@ -16,7 +16,7 @@ from datetime import datetime, date
 
 from config import (
     SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS,
-    RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS,
+    RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS, ARCHIVE_DISPLAY_LIMIT,
 )
 from db import (
     init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule,
@@ -32,7 +32,7 @@ OUTPUT_PATH = os.path.join(BASE_DIR, "docs", "data.js")
 
 def build_archive():
     with get_conn() as conn:
-        items = get_recent_items(conn, limit=500)
+        items = get_recent_items(conn, limit=ARCHIVE_DISPLAY_LIMIT)
 
     grouped = defaultdict(list)
     for item in items:
