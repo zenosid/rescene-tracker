@@ -12,10 +12,11 @@ from collections import defaultdict
 from datetime import date as date_cls
 
 from trophy_extractor import _match_song
-from db import get_conn
+from db import init_db, get_conn
 
 
 def cleanup():
+    init_db()
     with get_conn() as conn:
         rows = conn.execute("SELECT * FROM trophies ORDER BY id ASC").fetchall()
 
