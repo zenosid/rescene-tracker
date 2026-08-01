@@ -7,6 +7,7 @@
 """
 import re
 
+from config import RESCENE_ALL_SONGS, SONG_ALIASES
 from kst import to_kst
 
 _SHOW_KEYWORDS = [
@@ -18,10 +19,21 @@ _WIN_INDICATORS = ["1위", "정상"]
 _EXCLUDE_KEYWORDS = ["쇼케이스"]  # 이 단어가 있으면 "1위 기념 행사" 기사일 뿐 수상 발표가 아닐 수 있어 제외
 
 
+def _match_song(title):
+    """제목에서 실제 곡명을 찾아냄 (영문/한글 발음 별칭 다 포함). 못 찾으면 None."""
+    for song in RESCENE_ALL_SONGS:
+        if song.lower() in title.lower():
+            return song
+        for alias in SONG_ALIASES.get(song, []):
+            if alias in title:
+                return song
+    return None
+
+
 def extract_trophy_candidates(news_items):
     """
     news_items: db.get_recent_items()에서 source_type == 'news'인 항목들
-    반환: [{"date": "YYYY-MM-DD", "show": ..., "title": ..., "source_link": ...}, ...]
+    반환: [{"date": "YYYY-MM-DD", "show": ..., "song": ..., "title": ..., "source_link": ...}, ...]
     """
     candidates = []
     seen_keys = set()
@@ -41,21 +53,26 @@ def extract_trophy_candidates(news_items):
         if not matched_show:
             continue
 
+        matched_song = _match_song(title)
+        if not matched_song:
+            continue  # 곡명을 특정 못 하면 신뢰도가 낮으니 트로피로 안 잡음
+
         raw_date = item["published_at"] or item["fetched_at"]
         try:
             event_date = to_kst(raw_date).strftime("%Y-%m-%d")
         except Exception:
             continue
 
-        key = (event_date, matched_show)
+        key = (event_date, matched_show, matched_song)
         if key in seen_keys:
-            continue  # 같은 날 같은 방송 수상 기사가 여러 언론사에서 나온 경우 하나만
+            continue  # 같은 날 같은 방송 같은 곡 수상 기사가 여러 언론사에서 나온 경우 하나만
         seen_keys.add(key)
 
         candidates.append(
             {
                 "date": event_date,
                 "show": matched_show,
+                "song": matched_song,
                 "title": title[:80],
                 "source_link": item["link"],
             }

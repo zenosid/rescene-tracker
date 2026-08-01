@@ -65,6 +65,7 @@ CREATE TABLE IF NOT EXISTS trophies (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     date TEXT NOT NULL,           -- 뉴스 발행일(KST) 기준 'YYYY-MM-DD'
     show TEXT NOT NULL,           -- 음악방송 이름
+    song TEXT,                    -- 1위한 곡명
     title TEXT NOT NULL,          -- 원 기사 제목
     source_link TEXT NOT NULL UNIQUE,
     created_at TEXT DEFAULT (datetime('now'))
@@ -86,6 +87,10 @@ def get_conn():
 def init_db():
     with get_conn() as conn:
         conn.executescript(SCHEMA)
+        # 이미 만들어져 있던 DB에는 song 컬럼이 없을 수 있어서 있는지 확인 후 추가
+        cols = [row["name"] for row in conn.execute("PRAGMA table_info(trophies)").fetchall()]
+        if "song" not in cols:
+            conn.execute("ALTER TABLE trophies ADD COLUMN song TEXT")
 
 
 # ── 아카이브(items) ──────────────────────────────────────────
@@ -208,17 +213,32 @@ def get_recent_fan_reactions(conn, limit=100):
 
 
 # ── 트로피(1위 수상 기록) ────────────────────────────────────
-def insert_trophy(conn, date, show, title, source_link):
-    # 같은 날 같은 방송 수상 소식을 여러 언론사가 각자 다른 링크로 보도해도,
-    # 실제로는 같은 수상 하나이므로 (날짜, 방송사) 기준으로 하나만 남김
-    existing = conn.execute(
-        "SELECT id FROM trophies WHERE date = ? AND show = ?", (date, show)
-    ).fetchone()
-    if existing:
-        return False
+def insert_trophy(conn, date, show, song, title, source_link):
+    # 같은 수상을 언론사마다 하루이틀 차이나는 날짜로 보도하는 경우가 많아서,
+    # 같은 방송+같은 곡이 최근 며칠(3일) 이내에 이미 있으면 중복으로 보고 건너뜀
+    from datetime import date as _date_cls
+
+    existing_rows = conn.execute(
+        "SELECT id, date FROM trophies WHERE show = ? AND song = ?", (show, song)
+    ).fetchall()
+    try:
+        new_date = _date_cls.fromisoformat(date)
+    except ValueError:
+        new_date = None
+
+    for row in existing_rows:
+        if new_date is None:
+            return False  # 날짜 파싱이 안 되면 안전하게 중복 취급
+        try:
+            existing_date = _date_cls.fromisoformat(row["date"])
+        except ValueError:
+            continue
+        if abs((new_date - existing_date).days) <= 3:
+            return False
+
     cur = conn.execute(
-        "INSERT OR IGNORE INTO trophies (date, show, title, source_link) VALUES (?, ?, ?, ?)",
-        (date, show, title, source_link),
+        "INSERT OR IGNORE INTO trophies (date, show, song, title, source_link) VALUES (?, ?, ?, ?, ?)",
+        (date, show, song, title, source_link),
     )
     return cur.rowcount > 0
 

@@ -221,7 +221,13 @@ def build_trophies():
     with get_conn() as conn:
         rows = get_recent_trophies(conn, limit=100)
     return [
-        {"date": r["date"], "show": r["show"], "title": r["title"], "source_link": r["source_link"]}
+        {
+            "date": r["date"],
+            "show": r["show"],
+            "song": r["song"] if r["song"] else "",
+            "title": r["title"],
+            "source_link": r["source_link"],
+        }
         for r in rows
     ]
 

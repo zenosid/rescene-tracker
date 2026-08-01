@@ -620,7 +620,7 @@ function renderTrophies() {
     row.innerHTML = `
       <span class="trophy-icon">🏆</span>
       <div style="flex:1;">
-        <div class="trophy-show">${escapeHtml(t.show)}</div>
+        <div class="trophy-show">${escapeHtml(t.show)}${t.song ? ` · ${escapeHtml(t.song)}` : ""}</div>
         <div class="trophy-title">${escapeHtml(t.title)}</div>
       </div>
       <div class="trophy-date">${t.date}</div>

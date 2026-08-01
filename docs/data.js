@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-01 08:56",
+  "generated_at": "2026-08-01 10:49",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -14405,30 +14405,35 @@ const SITE_DATA = {
     {
       "date": "2026-07-31",
       "show": "더쇼",
+      "song": "",
       "title": "K팝 음악방송 '더쇼' Apple Music과 손잡고 글로벌 리브랜딩… 리센느 첫 1위 견인 - v.daum.net",
       "source_link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9leEQzV2NqTDFuSy1XUF9EZTZpYUZ5VmtDWXpOWktRV3pfZkVnSk5IbWw4VlNmTHZuc0xBQ0lKdFZndkhJbkFFMWhZb1FSOFk?oc=5"
     },
     {
       "date": "2026-07-27",
       "show": "인기가요",
+      "song": "",
       "title": "리센느 'LOVE ATTACK', 음원 역주행→음악방송도 정상…'인기가요' 첫 1위 - 톱스타뉴스",
       "source_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE11cWVNd3R4Nm1vWEFrOS1QaHR6WC14UVd4SVNRZHlnYTNIWll3NU9xbms5MG1iMEJJdXMzaGVHNWUwbzVEdndEOS1kMGxkaU5pX2NrZ2dRNzFWSklUa1ExOGpWZVEyYWlnV1BnQi1peThIdw?oc=5"
     },
     {
       "date": "2026-07-26",
       "show": "인기가요",
+      "song": "",
       "title": "역주행 '러브 어택' 인기가요 1위…'리센느' 리더 원이 눈물 - 네이트",
       "source_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjVnlhdWF1OUJDYXllTU4xVUxkQW5Iazgyd1hxSmNoQWtCM0tqRk9jQVpCU1ZlaFpNY1NYRW9KTmhXendzUXZuRzZsRnRRb2FQQUNZ?oc=5"
     },
     {
       "date": "2026-07-26",
       "show": "더쇼",
+      "song": "",
       "title": "리센느, '더쇼' 이어 '음중'도 1위 \"초심 잃지 않고 보답할 것\" - v.daum.net",
       "source_link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRU0FTU0NscFJrS3ZfLS11c2lOelZTc2dtRHFrQ3p2WU5Tb0JieVl4Rm52WEJVQlFPeUw5ekwwblc0MEpaY0RQQ21YSEduOFU?oc=5"
     },
     {
       "date": "2026-07-26",
       "show": "음악중심",
+      "song": "",
       "title": "리센느, 'Pretty Girl'로 '쇼! 음악중심' 1위 - 네이트",
       "source_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lbU5VbEluR2RXMEtGcmwyM2dYRXR5VWstYlVNakxobE1Wa2VRTTI0ZDMxUkNKazNzWEoyWGZKaDFHU2VBcjl1eEdWb3YwQjRxcjkw?oc=5"
     }

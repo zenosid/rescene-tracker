@@ -463,10 +463,10 @@ def collect_trophies(conn):
     candidates = extract_trophy_candidates(news_items)
     new_count = 0
     for c in candidates:
-        is_new = insert_trophy(conn, c["date"], c["show"], c["title"], c["source_link"])
+        is_new = insert_trophy(conn, c["date"], c["show"], c["song"], c["title"], c["source_link"])
         if is_new:
             new_count += 1
-            print(f"  [신규/트로피] {c['date']} {c['show']} - {c['title']}")
+            print(f"  [신규/트로피] {c['date']} {c['show']} - {c['song']}")
     return new_count
 
 
