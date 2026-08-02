@@ -11,10 +11,21 @@ from config import RESCENE_ALL_SONGS, SONG_ALIASES
 from kst import to_kst
 
 _SHOW_KEYWORDS = [
-    "엠카운트다운", "M COUNTDOWN", "뮤직뱅크", "Music Bank", "인기가요", "Inkigayo",
-    "음악중심", "쇼! 음악중심", "쇼챔피언", "Show Champion", "더쇼", "The Show",
+    "엠카운트다운", "M COUNTDOWN", "엠카", "뮤직뱅크", "Music Bank", "뮤뱅",
+    "인기가요", "Inkigayo", "인가",
+    "음악중심", "쇼! 음악중심", "음중", "쇼챔피언", "Show Champion", "쇼챔",
+    "더쇼", "The Show",
     "쇼케이스",  # 쇼케이스는 방송 이름은 아니지만 "1위 기념 쇼케이스"류 기사 방지용 제외 목록에 사용
 ]
+# 줄임말이 매칭되면 이 정식 명칭으로 통일 (다른 기사가 전체 이름을 써도 같은 방송으로 인식되게)
+_SHOW_CANONICAL = {
+    "M COUNTDOWN": "엠카운트다운", "엠카": "엠카운트다운",
+    "Music Bank": "뮤직뱅크", "뮤뱅": "뮤직뱅크",
+    "Inkigayo": "인기가요", "인가": "인기가요",
+    "쇼! 음악중심": "음악중심", "음중": "음악중심",
+    "Show Champion": "쇼챔피언", "쇼챔": "쇼챔피언",
+    "The Show": "더쇼",
+}
 _WIN_INDICATORS = ["1위", "정상"]
 _EXCLUDE_KEYWORDS = ["쇼케이스"]  # 이 단어가 있으면 "1위 기념 행사" 기사일 뿐 수상 발표가 아닐 수 있어 제외
 
@@ -28,6 +39,34 @@ def _match_song(title):
             if alias in title:
                 return song
     return None
+
+
+def _match_show(title):
+    """
+    "1위/정상"이라는 표현과 가장 가까운 위치에 있는 방송명을 찾음.
+    (예: "더쇼 이어 '음중'도 1위" 같은 제목은 앞쪽 "더쇼"가 아니라
+    "1위" 바로 앞의 "음중"이 실제로 이번에 수상한 방송이므로)
+    """
+    lower_title = title.lower()
+    win_positions = [lower_title.find(w.lower()) for w in _WIN_INDICATORS]
+    win_positions = [p for p in win_positions if p != -1]
+    if not win_positions:
+        return None
+    win_pos = min(win_positions)
+
+    best_show = None
+    best_distance = None
+    for show in _SHOW_KEYWORDS:
+        if show == "쇼케이스":
+            continue
+        idx = lower_title.find(show.lower())
+        if idx == -1:
+            continue
+        distance = abs(idx - win_pos)
+        if best_distance is None or distance < best_distance:
+            best_distance = distance
+            best_show = show
+    return _SHOW_CANONICAL.get(best_show, best_show)
 
 
 def extract_trophy_candidates(news_items):
@@ -45,11 +84,7 @@ def extract_trophy_candidates(news_items):
         if not any(ind in title for ind in _WIN_INDICATORS):
             continue
 
-        matched_show = None
-        for show in _SHOW_KEYWORDS:
-            if show.lower() in title.lower() and show != "쇼케이스":
-                matched_show = show
-                break
+        matched_show = _match_show(title)
         if not matched_show:
             continue
 
