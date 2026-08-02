@@ -16,7 +16,7 @@ from datetime import datetime, date
 
 from config import (
     SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS,
-    RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS, ARCHIVE_DISPLAY_LIMIT,
+    RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS, ARCHIVE_DISPLAY_LIMIT, TROPHY_ITEMS,
 )
 from db import (
     init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule,
@@ -218,18 +218,54 @@ def build_anniversaries():
 
 
 def build_trophies():
+    from datetime import date as _date_cls
+
+    manual_items = [
+        {
+            "date": t["date"],
+            "show": t["show"],
+            "song": t["song"],
+            "title": t.get("note", ""),
+            "source_link": "",
+            "is_manual": True,
+        }
+        for t in TROPHY_ITEMS
+    ]
+
     with get_conn() as conn:
         rows = get_recent_trophies(conn, limit=100)
-    return [
+    auto_items = [
         {
             "date": r["date"],
             "show": r["show"],
             "song": r["song"] if r["song"] else "",
             "title": r["title"],
             "source_link": r["source_link"],
+            "is_manual": False,
         }
         for r in rows
     ]
+
+    # 수동 등록과 (방송, 곡)이 같고 날짜도 3일 이내로 가까우면 자동 감지 쪽은
+    # 중복이니 빼고 수동 등록(더 신뢰할 수 있는 쪽)만 남김
+    def _is_near_manual(auto_item):
+        for m in manual_items:
+            if m["show"] != auto_item["show"] or m["song"] != auto_item["song"]:
+                continue
+            try:
+                d1 = _date_cls.fromisoformat(m["date"])
+                d2 = _date_cls.fromisoformat(auto_item["date"])
+            except ValueError:
+                continue
+            if abs((d1 - d2).days) <= 3:
+                return True
+        return False
+
+    auto_items = [a for a in auto_items if not _is_near_manual(a)]
+
+    all_items = manual_items + auto_items
+    all_items.sort(key=lambda x: x["date"], reverse=True)
+    return all_items
 
 
 def build_fan_reactions():
