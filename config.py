@@ -98,6 +98,8 @@ LINK_COLLECTIONS = [
         "category": "커뮤니티",
         "items": [
             {"name": "네이버 팬카페 '리시안셔스'", "url": "https://cafe.naver.com/re5cene"},
+            {"name": "이것도봐주마협회", "url": "https://bwajuma.club/"},
+            {"name": "리센느 갤러리", "url": "https://gall.dcinside.com/mgallery/board/lists/?id=rescene1"},
         ],
     },
     {
