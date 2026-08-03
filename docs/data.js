@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-03 21:46",
+  "generated_at": "2026-08-03 23:43",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -20215,7 +20215,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-03 18:50",
+        "checked_at": "2026-08-03 23:43",
         "change": {
           "kind": "same"
         }
@@ -20224,7 +20224,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-03 18:50",
+        "checked_at": "2026-08-03 23:43",
         "change": {
           "kind": "same"
         }
@@ -20233,10 +20233,9 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-03 18:50",
+        "checked_at": "2026-08-03 23:43",
         "change": {
-          "kind": "up",
-          "delta": 1
+          "kind": "same"
         }
       }
     ]
@@ -20247,6 +20246,14 @@ const SITE_DATA = {
         "date": "2026-08-06",
         "type": "기타",
         "title": "2026 섬의 날 행사 (02:20 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-06",
+        "type": "기타",
+        "title": "2026 섬의 날 행사 (12:00 PM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
