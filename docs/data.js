@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-04 16:43",
+  "generated_at": "2026-08-04 17:40",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -22443,7 +22443,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-04 11:42",
+        "checked_at": "2026-08-04 17:40",
         "change": {
           "kind": "same"
         }
@@ -22452,18 +22452,19 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-04 11:42",
+        "checked_at": "2026-08-04 17:40",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 8,
+        "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-04 11:42",
+        "checked_at": "2026-08-04 17:40",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       }
     ]
@@ -22522,6 +22523,14 @@ const SITE_DATA = {
         "date": "2026-09-02",
         "type": "기타",
         "title": "2026 천안 K-컬처 박람회 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-04",
+        "type": "기타",
+        "title": "One Summer Night with K-POP Concert Season 2 (10:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
