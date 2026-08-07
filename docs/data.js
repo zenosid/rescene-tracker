@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-08 03:09",
+  "generated_at": "2026-08-08 04:00",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -31180,7 +31180,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-07 22:08",
+        "checked_at": "2026-08-08 04:00",
         "change": {
           "kind": "same"
         }
@@ -31189,7 +31189,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-07 22:08",
+        "checked_at": "2026-08-08 04:00",
         "change": {
           "kind": "same"
         }
@@ -31198,7 +31198,7 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-07 22:08",
+        "checked_at": "2026-08-08 04:00",
         "change": {
           "kind": "same"
         }
@@ -31313,6 +31313,14 @@ const SITE_DATA = {
       },
       {
         "date": "2026-09-04",
+        "type": "기타",
+        "title": "원 썸머 나잇 위드 케이팝 시즌 2 (10:30 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-05",
         "type": "기타",
         "title": "원 썸머 나잇 위드 케이팝 시즌 2 (10:30 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
