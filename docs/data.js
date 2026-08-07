@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-07 15:49",
+  "generated_at": "2026-08-07 16:19",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -29722,7 +29722,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-07 09:04",
+        "checked_at": "2026-08-07 16:19",
         "change": {
           "kind": "same"
         }
@@ -29731,18 +29731,18 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-07 09:04",
+        "checked_at": "2026-08-07 16:19",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 9,
+        "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-07 09:04",
+        "checked_at": "2026-08-07 16:19",
         "change": {
-          "kind": "down",
+          "kind": "up",
           "delta": 2
         }
       }
@@ -29866,6 +29866,14 @@ const SITE_DATA = {
         "date": "2026-09-06",
         "type": "기타",
         "title": "SPOTV K-POP AWARDS(SKA) (09:30 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-10",
+        "type": "기타",
+        "title": "Spotify House Seoul (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
