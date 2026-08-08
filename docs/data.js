@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-08 21:34",
+  "generated_at": "2026-08-08 21:52",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -33677,7 +33677,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-08 15:56",
+        "checked_at": "2026-08-08 21:52",
         "change": {
           "kind": "same"
         }
@@ -33686,7 +33686,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-08 15:56",
+        "checked_at": "2026-08-08 21:52",
         "change": {
           "kind": "same"
         }
@@ -33695,7 +33695,7 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-08 15:56",
+        "checked_at": "2026-08-08 21:52",
         "change": {
           "kind": "same"
         }
@@ -33708,22 +33708,6 @@ const SITE_DATA = {
         "date": "2026-08-08",
         "type": "방송",
         "title": "MBC <전지적 참견 시점> (02:10 PM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-08-09",
-        "type": "방송",
-        "title": "<2026 쿠팡플레이 시리즈> 하프타임 쇼 (11:00 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-08-09",
-        "type": "방송",
-        "title": "<2026 쿠팡플레이 시리즈> 맨시티 vs 아틀레티코 마드리드 하프타임쇼 (11:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -33786,32 +33770,8 @@ const SITE_DATA = {
       },
       {
         "date": "2026-09-02",
-        "type": "기타",
-        "title": "2026 천안 K-컬처 박람회 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-09-02",
         "type": "공연",
         "title": "2026 천안 K-컬처 박람회 개막 공연 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-09-04",
-        "type": "기타",
-        "title": "One Summer Night with K-POP Concert Season 2 (10:00 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-09-04",
-        "type": "기타",
-        "title": "원 썸머 나잇 위드 케이팝 시즌 2 (10:30 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -33851,23 +33811,7 @@ const SITE_DATA = {
       {
         "date": "2026-09-27",
         "type": "기타",
-        "title": "Objet K-pop Festa 2026 (10:00 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-09-27",
-        "type": "기타",
         "title": "OBJET K-POP FESTA 2026 (OKF2026) - 인천 (10:00 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-10-03",
-        "type": "공연",
-        "title": "2026 IBK콘서트 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -33898,24 +33842,8 @@ const SITE_DATA = {
       },
       {
         "date": "2026-10-17",
-        "type": "공연",
-        "title": "NOL 페스티벌 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-10-17",
         "type": "기타",
         "title": "NOL FESTIVAL - 고양 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-11-07",
-        "type": "기타",
-        "title": "2026 KGMA (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -33962,22 +33890,6 @@ const SITE_DATA = {
       }
     ],
     "past": [
-      {
-        "date": "2026-08-06",
-        "type": "기타",
-        "title": "2026 섬의 날 행사 (02:20 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-08-06",
-        "type": "기타",
-        "title": "2026 섬의 날 행사 (12:00 PM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
       {
         "date": "2026-08-06",
         "type": "기타",
