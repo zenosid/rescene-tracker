@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-09 03:27",
+  "generated_at": "2026-08-09 03:40",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -33536,7 +33536,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-08 21:52",
+        "checked_at": "2026-08-09 03:40",
         "change": {
           "kind": "same"
         }
@@ -33545,7 +33545,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-08 21:52",
+        "checked_at": "2026-08-09 03:40",
         "change": {
           "kind": "same"
         }
@@ -33554,7 +33554,7 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-08 21:52",
+        "checked_at": "2026-08-09 03:40",
         "change": {
           "kind": "same"
         }
@@ -33591,6 +33591,14 @@ const SITE_DATA = {
         "date": "2026-08-15",
         "type": "기타",
         "title": "KCON LA 2026 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-15",
+        "type": "방송",
+        "title": "tvN <놀라운 토요일> (10:30 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
