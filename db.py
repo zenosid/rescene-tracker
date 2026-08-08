@@ -190,6 +190,12 @@ def insert_official_schedule(conn, date, time_text, title, category, dedup_key):
     return cur.rowcount > 0
 
 
+def delete_official_schedule_month(conn, year, month):
+    """특정 연-월의 공식 스케줄을 전부 지움 (다시 최신 상태로 채워넣기 전 초기화용)."""
+    prefix = f"{year}-{month:02d}-"
+    conn.execute("DELETE FROM official_schedule WHERE date LIKE ?", (prefix + "%",))
+
+
 def get_official_schedule(conn):
     return conn.execute("SELECT * FROM official_schedule ORDER BY date ASC").fetchall()
 

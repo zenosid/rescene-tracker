@@ -19,7 +19,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 
 from config import MNET_PLUS_ENV, MNET_PLUS_ARTIST_SLUG, MNET_PLUS_MONTHS_AHEAD
-from db import init_db, get_conn, insert_official_schedule
+from db import init_db, get_conn, insert_official_schedule, delete_official_schedule_month
 from kst import now_kst
 
 BASE_URL = "https://artist.mnetplus.world/main/{env}/{slug}/schedule/{year}/{month:02d}"
@@ -116,6 +116,10 @@ def collect_official_schedule():
             events = _parse_month_html(html)
             print(f"  {year}-{month:02d}: {len(events)}건 발견")
             consecutive_empty = consecutive_empty + 1 if len(events) == 0 else 0
+
+            # 이번에 조회한 달은 최신 상태로 완전히 교체 (Mnet에서 삭제/변경된
+            # 일정이 저희 DB에 예전 상태로 계속 남아있는 걸 방지)
+            delete_official_schedule_month(conn, year, month)
             for ev in events:
                 dedup_key = f"{ev['date']}|{ev['title']}|{ev['time_text']}"
                 is_new = insert_official_schedule(
