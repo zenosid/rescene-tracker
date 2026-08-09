@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-09 10:11",
+  "generated_at": "2026-08-09 10:52",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -33553,27 +33553,19 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-09 03:40",
+        "checked_at": "2026-08-09 10:52",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 6,
+        "rank": 8,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-09 03:40",
+        "checked_at": "2026-08-09 10:52",
         "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 7,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-09 03:40",
-        "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 2
         }
       }
     ]
@@ -33583,7 +33575,7 @@ const SITE_DATA = {
       {
         "date": "2026-08-09",
         "type": "방송",
-        "title": "<2026 쿠팡플레이 시리즈> 프리뷰쇼 (09:30 AM)",
+        "title": "<2026 쿠팡플레이 시리즈> 프리뷰쇼 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
