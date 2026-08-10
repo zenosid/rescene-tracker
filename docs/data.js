@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-11 02:46",
+  "generated_at": "2026-08-11 03:47",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,17 @@ const SITE_DATA = {
       "date": "2026-08-11",
       "date_display": "2026년 08월 11일",
       "items": [
+        {
+          "title": "리센느 원이의 비법! 전참시 샐러드 젤리로 건강하게 챙겨요✨",
+          "link": "https://blog.naver.com/every_report/224374613776",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 오늘의정보",
+          "time": "03:47",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
         {
           "title": "“맨체스터 시티 선수 1명 연봉이면 리센느 회사 산다고?” 마드리....",
           "link": "https://blog.naver.com/1004gywl/224374614334",
@@ -2839,6 +2850,17 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
+          ]
+        },
+        {
+          "title": "[전참시] 니 숟가락도 내꺼, 내 숟가락도 내꺼😋 음식부터 빨대까지 모든 걸 공용으로 쓰는 다섯 자매 리센느 | #리센느 MBC260808방송",
+          "link": "https://www.youtube.com/watch?v=YCBH298cRQM",
+          "source_type": "youtube_collab",
+          "source_name": "엠뚜루마뚜루 : MBC 공식 종합 채널",
+          "time": "10:47",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
           ]
         },
         {
@@ -33203,28 +33225,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "리센느, 전참시 단독 게스트 최초 8년 방송사상 전례 없는 파격... ",
-          "link": "https://blog.naver.com/make2t0418/224365434886",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 우유한모금",
-          "time": "08:28",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 전참시 단독 게스트 최초 특집, 새 숙소·국밥·눈물까지... ",
-          "link": "https://blog.naver.com/nudgepinch/224365435391",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 일상속 작은 공간 이야기",
-          "time": "08:28",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
         }
       ]
     }
@@ -33235,7 +33235,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33244,7 +33244,7 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33253,7 +33253,7 @@ const SITE_DATA = {
         "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33262,7 +33262,7 @@ const SITE_DATA = {
         "rank": 66,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33273,7 +33273,7 @@ const SITE_DATA = {
         "rank": 16,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33282,7 +33282,7 @@ const SITE_DATA = {
         "rank": 23,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33291,7 +33291,7 @@ const SITE_DATA = {
         "rank": 40,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33302,7 +33302,7 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33311,7 +33311,7 @@ const SITE_DATA = {
         "rank": 13,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33320,7 +33320,7 @@ const SITE_DATA = {
         "rank": 15,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33329,7 +33329,7 @@ const SITE_DATA = {
         "rank": 35,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33338,7 +33338,7 @@ const SITE_DATA = {
         "rank": 90,
         "song_title": "Pinball",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33349,7 +33349,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33358,7 +33358,7 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33367,7 +33367,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33376,7 +33376,7 @@ const SITE_DATA = {
         "rank": 40,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33385,7 +33385,7 @@ const SITE_DATA = {
         "rank": 73,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33394,7 +33394,7 @@ const SITE_DATA = {
         "rank": 177,
         "song_title": "Glow Up",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33407,7 +33407,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33416,7 +33416,7 @@ const SITE_DATA = {
         "rank": 24,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33425,7 +33425,7 @@ const SITE_DATA = {
         "rank": 27,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33434,7 +33434,7 @@ const SITE_DATA = {
         "rank": 77,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33443,7 +33443,7 @@ const SITE_DATA = {
         "rank": 117,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33455,7 +33455,7 @@ const SITE_DATA = {
         "rank": 68,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33466,7 +33466,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33475,7 +33475,7 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33484,7 +33484,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33497,7 +33497,7 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "LOVE ATTACK",
         "artist_text": "리센느",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
@@ -33506,36 +33506,39 @@ const SITE_DATA = {
         "rank": 8,
         "song_title": "Pretty Girl",
         "artist_text": "리센느",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 10,
+        "rank": 9,
         "song_title": "Deja Vu",
         "artist_text": "리센느",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       },
       {
-        "rank": 28,
+        "rank": 27,
         "song_title": "Pinball",
         "artist_text": "리센느",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       },
       {
-        "rank": 42,
+        "rank": 41,
         "song_title": "Runaway",
         "artist_text": "리센느",
-        "checked_at": "2026-08-11 02:46",
+        "checked_at": "2026-08-11 03:47",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       }
     ],
@@ -34604,6 +34607,15 @@ const SITE_DATA = {
       "published_at_raw": "2026-08-07T09:40:06Z"
     },
     {
+      "video_link": "https://www.youtube.com/watch?v=YCBH298cRQM",
+      "video_title": "[전참시] 니 숟가락도 내꺼, 내 숟가락도 내꺼😋 음식부터 빨대까지 모든 걸 공용으로 쓰는 다섯 자매 리센느 | #리센느 MBC260808방송",
+      "author": "@ez디맥스",
+      "text": "메이 역병 드립은 진짜.... ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "like_count": 1912,
+      "published_at": "2026-08-10 10:42",
+      "published_at_raw": "2026-08-10T01:42:34Z"
+    },
+    {
       "video_link": "https://www.youtube.com/watch?v=lyDiaDjdKLg",
       "video_title": "[전지적 참견 시점 선공개] 리센느 NEW 숙소는 너무 넓어🤣 베개싸움에 숨바꼭질까지?! 리센느의 새로운 숙소 일상✨, MBC 260808 방송",
       "author": "@hello-d2j2l",
@@ -34683,6 +34695,15 @@ const SITE_DATA = {
       "like_count": 1645,
       "published_at": "2026-07-26 15:34",
       "published_at_raw": "2026-07-26T06:34:10Z"
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=YCBH298cRQM",
+      "video_title": "[전참시] 니 숟가락도 내꺼, 내 숟가락도 내꺼😋 음식부터 빨대까지 모든 걸 공용으로 쓰는 다섯 자매 리센느 | #리센느 MBC260808방송",
+      "author": "@keidin__",
+      "text": "개인폰없으니 원래같으면 폰볼시간에 팬레터읽음 와 진짜 감동",
+      "like_count": 1629,
+      "published_at": "2026-08-10 12:18",
+      "published_at_raw": "2026-08-10T03:18:32Z"
     },
     {
       "video_link": "https://www.youtube.com/watch?v=vRQv8DpMffU",
@@ -34982,6 +35003,15 @@ const SITE_DATA = {
       "published_at_raw": "2026-08-07T10:42:06Z"
     },
     {
+      "video_link": "https://www.youtube.com/watch?v=YCBH298cRQM",
+      "video_title": "[전참시] 니 숟가락도 내꺼, 내 숟가락도 내꺼😋 음식부터 빨대까지 모든 걸 공용으로 쓰는 다섯 자매 리센느 | #리센느 MBC260808방송",
+      "author": "@동그라미-f2o",
+      "text": "개인 핸드폰 없앤거 너무 잘한듯...\n대기시간에 폰안보고 편지읽는 모습이 너무 이쁨",
+      "like_count": 1184,
+      "published_at": "2026-08-10 11:41",
+      "published_at_raw": "2026-08-10T02:41:44Z"
+    },
+    {
       "video_link": "https://www.youtube.com/watch?v=uub-FNatu4E",
       "video_title": "KBS, 리센느 불러놓고 웬 대통령·한동훈 태그?…'2차 가해' 논란도｜지금 이 뉴스",
       "author": "@칼라한-t8t1n",
@@ -34989,6 +35019,15 @@ const SITE_DATA = {
       "like_count": 1184,
       "published_at": "2026-07-30 16:22",
       "published_at_raw": "2026-07-30T07:22:33Z"
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=YCBH298cRQM",
+      "video_title": "[전참시] 니 숟가락도 내꺼, 내 숟가락도 내꺼😋 음식부터 빨대까지 모든 걸 공용으로 쓰는 다섯 자매 리센느 | #리센느 MBC260808방송",
+      "author": "@비가-j2v",
+      "text": "핸드폰이 편리함을 준 대신 많은걸 잃어 버렸다는걸  리센느 보면서 깨우쳤네",
+      "like_count": 1181,
+      "published_at": "2026-08-10 12:08",
+      "published_at_raw": "2026-08-10T03:08:10Z"
     },
     {
       "video_link": "https://www.youtube.com/watch?v=K-beRJuRjQQ",
@@ -35142,6 +35181,15 @@ const SITE_DATA = {
       "like_count": 1050,
       "published_at": "2026-08-09 13:53",
       "published_at_raw": "2026-08-09T04:53:26Z"
+    },
+    {
+      "video_link": "https://www.youtube.com/watch?v=YCBH298cRQM",
+      "video_title": "[전참시] 니 숟가락도 내꺼, 내 숟가락도 내꺼😋 음식부터 빨대까지 모든 걸 공용으로 쓰는 다섯 자매 리센느 | #리센느 MBC260808방송",
+      "author": "@ginetama922",
+      "text": "메이의 주요 워딩 : 역병, 장이 꼬일것 같다, 호랑이소굴 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "like_count": 1047,
+      "published_at": "2026-08-10 10:47",
+      "published_at_raw": "2026-08-10T01:47:11Z"
     },
     {
       "video_link": "https://www.youtube.com/watch?v=Jhg9ZpaJgfA",
@@ -35520,51 +35568,6 @@ const SITE_DATA = {
       "like_count": 823,
       "published_at": "2026-07-30 15:20",
       "published_at_raw": "2026-07-30T06:20:17Z"
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=rzfjou7vPP0",
-      "video_title": "[앵콜캠4K] 리센느 'LOVE ATTACK' 인기가요 1위 앵콜 직캠 (RESCENE Encore Fancam) @SBS Inkigayo 260726",
-      "author": "@seouljeju547",
-      "text": "불과 얼마전까지 TOP100에 들기만 해도 꿈 같을거라고 꿈꾸던 소녀들이 전무후무한 기록으로 음방 릴레이 1위를 거두다니... \n정말 꿈은 꾸는게 아니라 이룰수 있다라는걸 현실에서 보여줘서 너무너무 고마워요 리센느!!",
-      "like_count": 822,
-      "published_at": "2026-07-26 21:47",
-      "published_at_raw": "2026-07-26T12:47:52Z"
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=yq_nZPUBHuU",
-      "video_title": "원이짱 미나미짱 상담하러 교무실로 오이데-★ | EP. 150 리센느 원이 미나미 | 살롱드립",
-      "author": "@Junudrawing",
-      "text": "“결혼식 뷔페 먹으려고 전날부터 굶었다” 뷔페를 향한 순수한 진심 그것은 무대위의 절실함과 닮아있다",
-      "like_count": 821,
-      "published_at": "2026-07-28 19:28",
-      "published_at_raw": "2026-07-28T10:28:32Z"
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=1oa2lvQAfUM",
-      "video_title": "챌린지 열차 출발🚂 | RESCENE (리센느) 'Pretty Girl' 챌린지 Behind",
-      "author": "@super_ssangdvan",
-      "text": "와 비하인드 30분ㅋㅋㅋ 감사합니다 팬튜브님",
-      "like_count": 814,
-      "published_at": "2026-08-05 20:00",
-      "published_at_raw": "2026-08-05T11:00:16Z"
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=IxZpnEIYIT4",
-      "video_title": "RESCENE - LOVE ATTACK [Trot Cover]",
-      "author": "@hba4171",
-      "text": "앨범커버만 해도 쌉인정이다ㅋㅋ",
-      "like_count": 812,
-      "published_at": "2026-07-28 21:34",
-      "published_at_raw": "2026-07-28T12:34:35Z"
-    },
-    {
-      "video_link": "https://www.youtube.com/watch?v=fAk7CpZtii4",
-      "video_title": "[전지적 참견 시점] 활동 끝난 기념으로 가져보는 회식!🍖 함께 껍데기와 고기를 먹으러 온 리센느, MBC 260808 방송",
-      "author": "@Jjjngss",
-      "text": "나이 먹고 보니 왜 어른들이 어린 친구들의 꿈을 응원하는지 알 것 같다.\n\n잘돼서 예쁜 게 아니라, 아직 꿈을 믿고 온 힘을 다하는 모습에서 어느새 잊고 살았던 우리 어린 날이 보여서 그런 것 같다.\n\n살다 보면 꿈보다 현실을 배우고, 도전보다 포기에 익숙해지는데 리센느를 보고 있으면 괜히 한 번 더 잘됐으면 좋겠다는 마음이 든다.\n\n내가 포기한 꿈을 대신 이뤄달라는 게 아니라,\n적어도 저 아이들의 노력만큼은 현실에 지지 않았으면 좋겠다.\n\n아마 어른들이 리센느를 응원하는 이유는,\n아이들을 보면서 한때 꿈 많았던 자기 자신도 함께 응원하고 있기 때문 아닐까.\n\n그러니 꼭 잘됐으면 좋겠다.\n아주 많이.",
-      "like_count": 808,
-      "published_at": "2026-08-09 01:22",
-      "published_at_raw": "2026-08-08T16:22:53Z"
     }
   ],
   "all_songs": [
