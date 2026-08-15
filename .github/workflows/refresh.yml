@@ -29,6 +29,7 @@ jobs:
         env:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+	  X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: python collector.py
 
       - name: 차트 조회
