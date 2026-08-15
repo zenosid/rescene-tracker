@@ -6,6 +6,7 @@ const SOURCE_META = {
   youtube_collab: { icon: "🤝", label: "콜라보" },
   news: { icon: "📰", label: "뉴스" },
   community: { icon: "💬", label: "카페/블로그" },
+  x: { icon: "𝕏", label: "X" },
 };
 
 const MEMBER_COLORS = {
