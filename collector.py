@@ -23,6 +23,8 @@ from config import (
 from db import init_db, get_conn, insert_item, get_recent_items, insert_auto_schedule, insert_trophy
 from schedule_extractor import extract_schedule_candidates
 from trophy_extractor import extract_trophy_candidates
+from x_collector import collect_x
+from moderation_scan import scan_for_moderation
 
 YOUTUBE_RSS_TEMPLATE = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
 YOUTUBE_SEARCH_URL = "https://www.youtube.com/results?search_query={query}"
@@ -488,17 +490,22 @@ def run_collection():
         cafe_new = collect_naver_cafe(conn, seen_titles)
         print("커뮤니티(네이버 블로그) 수집 중...")
         blog_new = collect_naver_blog(conn, seen_titles)
+        print("X(트위터) 수집 중... (토큰 없으면 건너뜀)")
+        x_new = collect_x(conn)
         print("뉴스에서 일정 추정 중...")
         schedule_new = collect_auto_schedule(conn)
         print("뉴스에서 1위 수상 기록 추출 중...")
         trophy_new = collect_trophies(conn)
-    total = yt_new + collab_new + search_new + news_new + naver_news_new + cafe_new + blog_new
+        print("모더레이션(악플/부적절 콘텐츠 후보) 검토용 스캔 중...")
+        moderation_new = scan_for_moderation(conn)
+    total = yt_new + collab_new + search_new + news_new + naver_news_new + cafe_new + blog_new + x_new
     print(
         f"\n완료: 신규 {total}건 "
         f"(공식 {yt_new} / 콜라보-등록 {collab_new} / 콜라보-검색 {search_new} / "
         f"뉴스-구글 {news_new} / 뉴스-네이버 {naver_news_new} / "
-        f"카페글 {cafe_new} / 블로그 {blog_new}) "
-        f"· 추정 일정 {schedule_new}건 · 신규 트로피 {trophy_new}건"
+        f"카페글 {cafe_new} / 블로그 {blog_new} / X {x_new}) "
+        f"· 추정 일정 {schedule_new}건 · 신규 트로피 {trophy_new}건 · "
+        f"모더레이션 검토대상 {moderation_new}건"
     )
     return total
 

@@ -70,6 +70,17 @@ CREATE TABLE IF NOT EXISTS trophies (
     source_link TEXT NOT NULL UNIQUE,
     created_at TEXT DEFAULT (datetime('now'))
 );
+
+CREATE TABLE IF NOT EXISTS moderation_flags (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    source_type TEXT NOT NULL,     -- 'news' | 'community' | 'x'
+    source_name TEXT NOT NULL,
+    title TEXT NOT NULL,
+    link TEXT NOT NULL UNIQUE,
+    matched_keyword TEXT NOT NULL, -- 어떤 키워드에 걸렸는지 (검토 시 참고용)
+    reviewed INTEGER DEFAULT 0,    -- 운영자가 확인했는지 (0/1), 직접 DB에서 체크
+    fetched_at TEXT DEFAULT (datetime('now'))
+);
 """
 
 
@@ -252,4 +263,22 @@ def insert_trophy(conn, date, show, song, title, source_link):
 def get_recent_trophies(conn, limit=100):
     return conn.execute(
         "SELECT * FROM trophies ORDER BY date DESC LIMIT ?", (limit,)
+    ).fetchall()
+
+
+# ── 모더레이션 플래그(악플/부적절 콘텐츠 후보, 운영자 전용) ─────────
+def insert_moderation_flag(conn, source_type, source_name, title, link, matched_keyword):
+    cur = conn.execute(
+        """INSERT OR IGNORE INTO moderation_flags
+           (source_type, source_name, title, link, matched_keyword)
+           VALUES (?, ?, ?, ?, ?)""",
+        (source_type, source_name, title, link, matched_keyword),
+    )
+    return cur.rowcount > 0
+
+
+def get_unreviewed_moderation_flags(conn, limit=50):
+    return conn.execute(
+        "SELECT * FROM moderation_flags WHERE reviewed = 0 ORDER BY fetched_at DESC LIMIT ?",
+        (limit,),
     ).fetchall()
