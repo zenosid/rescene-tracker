@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-15 19:46",
+  "generated_at": "2026-08-15 19:55",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -35812,6 +35812,153 @@ const SITE_DATA = {
       "title": "SBS Life '더쇼' 케이블 음악방송 첫 1위 (데뷔 841일만)",
       "source_link": "",
       "is_manual": true
+    }
+  ],
+  "photocard_releases": [
+    {
+      "date": "2026-08-05",
+      "release_name": "LOVE ATTACK - Broadcast Photocard (Gyaru Ver.)",
+      "type": "방송"
+    },
+    {
+      "date": "2026-07-30",
+      "release_name": "Pretty Girl - Broadcast Photocard",
+      "type": "방송"
+    },
+    {
+      "date": "2026-07-30",
+      "release_name": "Dearest - Million Music Photocard Set (5종)",
+      "type": "기타"
+    },
+    {
+      "date": "2026-07-24",
+      "release_name": "Lip bomb - Official Photocard (QR)",
+      "type": "기타"
+    },
+    {
+      "date": "2026-07-24",
+      "release_name": "Runaway - Million Music 팬사인회 포토카드",
+      "type": "팬사인회"
+    },
+    {
+      "date": "2026-07-24",
+      "release_name": "제나 - Pretty Girl 방송 포토카드",
+      "type": "방송"
+    },
+    {
+      "date": "2026-07-24",
+      "release_name": "Lip bomb - 쇼케이스 입장 포토카드 + 스페셜 기프트",
+      "type": "기타"
+    },
+    {
+      "date": "2026-07-20",
+      "release_name": "Lip bomb - 포토카드 세트 (5종)",
+      "type": "기타"
+    },
+    {
+      "date": "2026-07-20",
+      "release_name": "메이 - Lip bomb 방송 포토카드",
+      "type": "방송"
+    },
+    {
+      "date": "2026-07-20",
+      "release_name": "Pretty Girl - 2주차 방송 포토카드",
+      "type": "방송"
+    },
+    {
+      "date": "2026-07-20",
+      "release_name": "Pretty Girl - 1주차 방송 포토카드",
+      "type": "방송"
+    },
+    {
+      "date": "2026-07-14",
+      "release_name": "Pretty Girl - 방송 포토카드",
+      "type": "방송"
+    },
+    {
+      "date": "2026-07-14",
+      "release_name": "메이 - 방송 포토카드",
+      "type": "방송"
+    },
+    {
+      "date": "2026-07-10",
+      "release_name": "방송 포토카드",
+      "type": "방송"
+    },
+    {
+      "date": "2026-07-07",
+      "release_name": "방송 포토카드",
+      "type": "방송"
+    },
+    {
+      "date": "2026-07-07",
+      "release_name": "Runaway - Withmuu 팬사인회 포토카드 R2",
+      "type": "팬사인회"
+    },
+    {
+      "date": "2026-07-02",
+      "release_name": "Runaway - Withmuu 팬사인회 포토카드",
+      "type": "팬사인회"
+    },
+    {
+      "date": "2026-07-02",
+      "release_name": "Dearest - Million Music 팬사인회 포토카드 R2",
+      "type": "팬사인회"
+    },
+    {
+      "date": "2026-06-30",
+      "release_name": "Lip bomb - Million Music 팬사인회 포토카드",
+      "type": "팬사인회"
+    },
+    {
+      "date": "2026-06-30",
+      "release_name": "Dearest - Million Music 팬사인회 포토카드",
+      "type": "팬사인회"
+    },
+    {
+      "date": "2026-06-25",
+      "release_name": "방송 유닛 포토카드",
+      "type": "방송"
+    },
+    {
+      "date": "2026-06-25",
+      "release_name": "Lip bomb - 쇼케이스 포토카드",
+      "type": "기타"
+    },
+    {
+      "date": "2026-06-23",
+      "release_name": "It's LIVE 방송 포토카드",
+      "type": "방송"
+    },
+    {
+      "date": "2026-06-23",
+      "release_name": "Lip bomb - 방송 포토카드",
+      "type": "방송"
+    },
+    {
+      "date": "2025-12-29",
+      "release_name": "Dearest - ITTA 팬사인회 포토카드 (QR Ver.)",
+      "type": "팬사인회"
+    },
+    {
+      "date": "2025-12-29",
+      "release_name": "Dearest - Who's Fan 팬사인회 포토카드 (QR Ver.)",
+      "type": "팬사인회"
+    },
+    {
+      "date": "2025-12-26",
+      "release_name": "Lip bomb - 방송 미니팬미팅 포토카드",
+      "type": "팬사인회"
+    },
+    {
+      "date": "2025-12-17",
+      "release_name": "Re:Scene - 팬사인회 앨범 컷페이지",
+      "type": "팬사인회"
+    },
+    {
+      "date": "2025-12-16",
+      "release_name": "SCENEDROME - 팬사인회 앨범 컷페이지",
+      "type": "팬사인회"
     }
   ]
 };

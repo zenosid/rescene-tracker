@@ -207,6 +207,44 @@ MNET_PLUS_ARTIST_SLUG = "rescene-official"
 # 이번 달 포함해서 몇 달치를 미리 가져올지 (예: 6이면 이번 달 + 앞으로 6개월 = 총 7개월)
 MNET_PLUS_MONTHS_AHEAD = 6
 
+# ── 포토카드 발매 기록 (텍스트 정보만, 이미지 없음) ────────────────
+# hallyusuperstore.com의 판매 목록을 참고해서 정리했습니다 (2026-08 기준,
+# 최신 30건). 실제 소장 여부와 무관하게 "이런 포토카드가 나왔다"는 발매
+# 기록입니다. type: "방송"(음악방송 출연 기념) / "팬사인회" / "기타"
+PHOTOCARD_RELEASES = [
+    {"date": "2026-08-05", "release_name": "LOVE ATTACK - Broadcast Photocard (Gyaru Ver.)", "type": "방송"},
+    {"date": "2026-07-30", "release_name": "Pretty Girl - Broadcast Photocard", "type": "방송"},
+    {"date": "2026-07-30", "release_name": "Dearest - Million Music Photocard Set (5종)", "type": "기타"},
+    {"date": "2026-07-24", "release_name": "Lip bomb - Official Photocard (QR)", "type": "기타"},
+    {"date": "2026-07-24", "release_name": "Runaway - Million Music 팬사인회 포토카드", "type": "팬사인회"},
+    {"date": "2026-07-24", "release_name": "제나 - Pretty Girl 방송 포토카드", "type": "방송"},
+    {"date": "2026-07-24", "release_name": "Lip bomb - 쇼케이스 입장 포토카드 + 스페셜 기프트", "type": "기타"},
+    {"date": "2026-07-20", "release_name": "Lip bomb - 포토카드 세트 (5종)", "type": "기타"},
+    {"date": "2026-07-20", "release_name": "메이 - Lip bomb 방송 포토카드", "type": "방송"},
+    {"date": "2026-07-20", "release_name": "Pretty Girl - 2주차 방송 포토카드", "type": "방송"},
+    {"date": "2026-07-20", "release_name": "Pretty Girl - 1주차 방송 포토카드", "type": "방송"},
+    {"date": "2026-07-14", "release_name": "Pretty Girl - 방송 포토카드", "type": "방송"},
+    {"date": "2026-07-14", "release_name": "메이 - 방송 포토카드", "type": "방송"},
+    {"date": "2026-07-10", "release_name": "방송 포토카드", "type": "방송"},
+    {"date": "2026-07-07", "release_name": "방송 포토카드", "type": "방송"},
+    {"date": "2026-07-07", "release_name": "Runaway - Withmuu 팬사인회 포토카드 R2", "type": "팬사인회"},
+    {"date": "2026-07-02", "release_name": "Runaway - Withmuu 팬사인회 포토카드", "type": "팬사인회"},
+    {"date": "2026-07-02", "release_name": "Dearest - Million Music 팬사인회 포토카드 R2", "type": "팬사인회"},
+    {"date": "2026-06-30", "release_name": "Lip bomb - Million Music 팬사인회 포토카드", "type": "팬사인회"},
+    {"date": "2026-06-30", "release_name": "Dearest - Million Music 팬사인회 포토카드", "type": "팬사인회"},
+    {"date": "2026-06-25", "release_name": "방송 유닛 포토카드", "type": "방송"},
+    {"date": "2026-06-25", "release_name": "Lip bomb - 쇼케이스 포토카드", "type": "기타"},
+    {"date": "2026-06-23", "release_name": "It's LIVE 방송 포토카드", "type": "방송"},
+    {"date": "2026-06-23", "release_name": "Lip bomb - 방송 포토카드", "type": "방송"},
+    {"date": "2025-12-29", "release_name": "Dearest - ITTA 팬사인회 포토카드 (QR Ver.)", "type": "팬사인회"},
+    {"date": "2025-12-29", "release_name": "Dearest - Who's Fan 팬사인회 포토카드 (QR Ver.)", "type": "팬사인회"},
+    {"date": "2025-12-26", "release_name": "Lip bomb - 방송 미니팬미팅 포토카드", "type": "팬사인회"},
+    {"date": "2025-12-17", "release_name": "Re:Scene - 팬사인회 앨범 컷페이지", "type": "팬사인회"},
+    {"date": "2025-12-16", "release_name": "SCENEDROME - 팬사인회 앨범 컷페이지", "type": "팬사인회"},
+]
+# 참고: hallyusuperstore.com/collections/rescene 기준 130개 상품 중 최신 30건만
+# 반영했습니다. 나머지 페이지도 원하시면 이어서 채워드릴 수 있습니다.
+
 # ── 배포 정보 ────────────────────────────────────────────────
 # GitHub Pages로 배포할 때 실제 주소로 바꿔주세요 (예: https://아이디.github.io/저장소명/)
 SITE_URL = "https://zenosid.github.io/rescene-tracker/"

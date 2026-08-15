@@ -17,6 +17,7 @@ from datetime import datetime, date
 from config import (
     SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS,
     RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS, ARCHIVE_DISPLAY_LIMIT, TROPHY_ITEMS,
+    PHOTOCARD_RELEASES,
 )
 from db import (
     init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule,
@@ -302,6 +303,7 @@ def main():
         "all_songs": RESCENE_ALL_SONGS,
         "anniversaries": build_anniversaries(),
         "trophies": build_trophies(),
+        "photocard_releases": PHOTOCARD_RELEASES,
     }
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write("const SITE_DATA = ")
@@ -311,7 +313,8 @@ def main():
     print(f"data.js 생성 완료: 아카이브 {total_archive}건, "
           f"차트 {sum(len(v) for v in data['chart'].values())}건, "
           f"스케줄 {len(data['schedule']['upcoming'])}건(예정), "
-          f"팬반응 {len(data['fan_reactions'])}건")
+          f"팬반응 {len(data['fan_reactions'])}건, "
+          f"포토카드 {len(data['photocard_releases'])}건")
 
 
 if __name__ == "__main__":

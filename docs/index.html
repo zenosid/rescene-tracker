@@ -172,6 +172,7 @@
     z-index: 10;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 4px;
     padding: 14px 0;
     margin-bottom: 28px;
@@ -467,6 +468,21 @@
   .trophy-title { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
   .trophy-date { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-faint); margin-left: auto; white-space: nowrap; }
 
+  /* ── 포토카드 발매 기록 ───────────────────────────────── */
+  .photocard-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 18px;
+    margin-bottom: 6px;
+  }
+  .photocard-date { font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: var(--text-faint); white-space: nowrap; }
+  .photocard-name { flex: 1; font-size: 13.5px; font-weight: 600; }
+  .photocard-type { font-size: 10.5px; font-weight: 700; padding: 3px 10px; border-radius: 999px; white-space: nowrap; }
+  .badge-broadcast { background: rgba(92,255,176,0.15); color: var(--aurora-mint); }
+  .badge-fansign { background: rgba(255,207,111,0.15); color: var(--aurora-amber); }
+  .badge-etc { background: rgba(255,255,255,0.08); color: var(--text-muted); }
+
   .schedule-row {
     display: flex;
     align-items: center;
@@ -635,6 +651,7 @@
     <button class="tab-btn" data-tab="chart">📊 차트</button>
     <button class="tab-btn" data-tab="schedule">📅 스케줄</button>
     <button class="tab-btn" data-tab="trophies">🏆 트로피</button>
+    <button class="tab-btn" data-tab="photocards">🎴 포토카드</button>
     <button class="tab-btn" data-tab="favorites">⭐ 즐겨찾기</button>
     <button class="tab-btn" data-tab="links">🔗 링크</button>
     <button class="tab-btn" data-tab="reactions">💬 반응</button>
@@ -687,6 +704,17 @@
     <div id="trophiesContent"></div>
   </div>
 
+  <!-- ══════════════ 포토카드 ══════════════ -->
+  <div class="view" id="view-photocards">
+    <div class="card" style="padding:14px 20px; margin-bottom:20px;">
+      <span style="font-size:12.5px; color:var(--text-muted);">
+        🎴 hallyusuperstore.com 판매 목록을 참고해 정리한 포토카드 발매
+        이력입니다 (텍스트 정보만, 이미지는 포함하지 않습니다).
+      </span>
+    </div>
+    <div id="photocardContent"></div>
+  </div>
+
   <!-- ══════════════ 즐겨찾기 ══════════════ -->
   <div class="view" id="view-favorites">
     <div class="card" style="padding:14px 20px; margin-bottom:24px;">
@@ -732,6 +760,8 @@
           2012년부터 운영된 공개 통계 사이트) + 애플 공식 공개 API(rss.applemarketingtools.com)</li>
         <li>스케줄(공식) — Mnet Plus 공식 아티스트 페이지 자동 수집</li>
         <li>스케줄(추정) — 뉴스 기사에서 자동 추출 + 운영자 수동 등록(공식 신뢰)</li>
+        <li>트로피 — 뉴스 기사 자동 감지 + 운영자 수동 등록(나무위키 교차 확인)</li>
+        <li>포토카드 발매 기록 — hallyusuperstore.com 판매 목록 기준 정리(텍스트만)</li>
         <li>팬 반응 — YouTube Data API(공식)로 가져온 영상 댓글</li>
         <li>링크 모음 — 운영자가 직접 정리한 공식 계정·커뮤니티·팬튜브 링크</li>
       </ul>
