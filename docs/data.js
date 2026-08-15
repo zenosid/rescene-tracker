@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-08 20:00",
+  "generated_at": "2026-08-15 19:35",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -33815,54 +33815,6 @@ const SITE_DATA = {
   "schedule": {
     "upcoming": [
       {
-        "date": "2026-08-08",
-        "type": "방송",
-        "title": "MBC <전지적 참견 시점> (02:10 PM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-08-09",
-        "type": "방송",
-        "title": "<2026 쿠팡플레이 시리즈> 하프타임 쇼 (11:00 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-08-09",
-        "type": "방송",
-        "title": "<2026 쿠팡플레이 시리즈> 맨시티 vs 아틀레티코 마드리드 하프타임쇼 (11:00 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-08-09",
-        "type": "방송",
-        "title": "<2026 쿠팡플레이 시리즈> 프리뷰쇼 (09:30 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-08-09",
-        "type": "방송",
-        "title": "<2026 쿠팡플레이 시리즈> 맨시티 vs AT마드리드 하프타임쇼 (11:00 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-08-14",
-        "type": "기타",
-        "title": "KCON LA 2026 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
         "date": "2026-08-15",
         "type": "기타",
         "title": "KCON LA 2026 (All Day)",
@@ -34072,6 +34024,54 @@ const SITE_DATA = {
       }
     ],
     "past": [
+      {
+        "date": "2026-08-14",
+        "type": "기타",
+        "title": "KCON LA 2026 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-09",
+        "type": "방송",
+        "title": "<2026 쿠팡플레이 시리즈> 하프타임 쇼 (11:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-09",
+        "type": "방송",
+        "title": "<2026 쿠팡플레이 시리즈> 맨시티 vs 아틀레티코 마드리드 하프타임쇼 (11:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-09",
+        "type": "방송",
+        "title": "<2026 쿠팡플레이 시리즈> 프리뷰쇼 (09:30 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-09",
+        "type": "방송",
+        "title": "<2026 쿠팡플레이 시리즈> 맨시티 vs AT마드리드 하프타임쇼 (11:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-08",
+        "type": "방송",
+        "title": "MBC <전지적 참견 시점> (02:10 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-08-06",
         "type": "기타",
@@ -35902,42 +35902,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 230
+      "d_day": 223
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 290
+      "d_day": 283
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 113
+      "d_day": 106
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2026-10-11",
-      "d_day": 64
+      "d_day": 57
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2026-08-19",
-      "d_day": 11
+      "d_day": 4
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 111
+      "d_day": 104
     }
   ],
   "trophies": [
