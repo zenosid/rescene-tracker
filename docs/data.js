@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-16 18:48",
+  "generated_at": "2026-08-16 19:12",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,317 @@ const SITE_DATA = {
       "date": "2026-08-16",
       "date_display": "2026년 08월 16일",
       "items": [
+        {
+          "title": "리센느 원이X태연 프리티걸 챌린지 화제｜만찬가 뮤직비디오에서 ....",
+          "link": "https://blog.naver.com/thanatosv/224380430906",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 망자매's House",
+          "time": "19:12",
+          "category": "MV",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느, 인기가요 1위 대세 왜 주목받나",
+          "link": "https://blog.naver.com/dreaming0/224380433112",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 피드코드",
+          "time": "19:12",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 인기가요 1위 비결 4가지｜러브 어택 역주행이 만든 대세 반....",
+          "link": "https://blog.naver.com/shjiny1004/224380436523",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 오늘 뜬 이야기",
+          "time": "19:12",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이X태연 프리티걸 챌린지 화제, 만찬가 뮤비 인연부터 놀....",
+          "link": "https://blog.naver.com/shjiny1004/224380438997",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 오늘 뜬 이야기",
+          "time": "19:12",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이X태연 프리티걸 챌린지 화제, 만찬가에서 놀토까지 이어....",
+          "link": "https://blog.naver.com/trendzip63/224380443437",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 지구한바퀴",
+          "time": "19:12",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이X태연 프리티걸 챌린지 왜 주목받나",
+          "link": "https://blog.naver.com/yhking119/224380444269",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 우주에서 온 잡한다식",
+          "time": "19:12",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이와 태연의 프리티걸 챌린지, 만찬가에서 놀토까지 이어....",
+          "link": "https://blog.naver.com/thanatosv2/224380444746",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 일상 연구소",
+          "time": "19:12",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "▶거제 야호 '리센느' 명곡 알아보기",
+          "link": "https://blog.naver.com/yellowapple99/224380446795",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 노란사과 쥐피티",
+          "time": "19:12",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이 누구? 장원영·제니 제치고 브랜드평판 1위…멤버 전원 ....",
+          "link": "https://blog.naver.com/ogal2/224380448774",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 브토롤",
+          "time": "19:12",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이X태연 프리티걸 챌린지 화제, 만찬가 뮤직비디오로 이어....",
+          "link": "https://blog.naver.com/trandzip64/224380449704",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 알아두면 쓸모있는 하루",
+          "time": "19:12",
+          "category": "MV",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이X태연 프리티걸 챌린지 깜짝 공개 화제",
+          "link": "https://blog.naver.com/dance6141/224380450094",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 리라의 이불킥 핫뉴스",
+          "time": "19:12",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이X태연 프리티걸 챌린지 폭발적 반응",
+          "link": "https://blog.naver.com/ledeye01/224380450291",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 로아의 정신줄 가출기",
+          "time": "19:12",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이X태연 프리티걸 챌린지 깜짝 성사된 이유",
+          "link": "https://blog.naver.com/blackwitch74/224380449798",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 아리 까리 핫 뉴스룸",
+          "time": "19:12",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "먹짱 리센느 원이가 제대로 인증해버림.........한 통 순삭한 대만과자 정체....",
+          "link": "https://cafe.naver.com/inthetv/426",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 티비속 그들이 사는세상 [티비속 그사세]",
+          "time": "19:12",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "&lt; 팬싸컷 문의 받아요 &gt; Fansigncut foreigner⭕️ paypal ⭕️ https://t.co/oPTAZWrcY6   ",
+          "link": "https://x.com/chkiiicut/status/2088931013791810047",
+          "source_type": "x",
+          "source_name": "X · @chkiiicut",
+          "time": "19:08",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "&lt; 팬싸컷 문의 받아요 &gt; Fansigncut foreigner⭕️ paypal ⭕️ https://t.co/oPTAZWrcY6   ",
+          "link": "https://x.com/chkiiicut/status/2088930980040155383",
+          "source_type": "x",
+          "source_name": "X · @chkiiicut",
+          "time": "19:08",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "트위터 노출안되는 깡통계 0.5에 판매 판매 #서치벤 ㅅㅊㅂ 트친소 서치벤테스트 리센느 거제야호 대여 남돌 구매 콘서트 삽니다 포카 코르티스 응",
+          "link": "https://x.com/fahrendorf87664/status/2088930356795953165",
+          "source_type": "x",
+          "source_name": "X · @fahrendorf87664",
+          "time": "19:06",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "260816 #리센느 오피셜 #리브 #미나미  너 오늘부터 내 남자친구야 😉 https://t.co/kNgXQYIiOo",
+          "link": "https://x.com/045a42/status/2088930320863412447",
+          "source_type": "x",
+          "source_name": "X · @045a42",
+          "time": "19:06",
+          "category": "기타",
+          "members": [
+            "리브",
+            "미나미"
+          ]
+        },
+        {
+          "title": "김종민, 리센느 야호 몰라?…거제에서 세상 정직한 '야호' (1박 2일)  #김종민 #리센느 #1박2일   https://t.co/maByZR6",
+          "link": "https://x.com/xportsnews/status/2088930068068495609",
+          "source_type": "x",
+          "source_name": "X · @xportsnews",
+          "time": "19:05",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 포카 양도 ✅ 역제시 가능 qyop  wts wtb rescene woni liv minami may zena runaway lip bo",
+          "link": "https://x.com/gds_yangdo/status/2088930065103065467",
+          "source_type": "x",
+          "source_name": "X · @gds_yangdo",
+          "time": "19:05",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "260816 #리센느 오피셜 #리브 #미나미 https://t.co/lHpexwwa5m",
+          "link": "https://x.com/wonlibbu/status/2088929634301903319",
+          "source_type": "x",
+          "source_name": "X · @wonlibbu",
+          "time": "19:03",
+          "category": "기타",
+          "members": [
+            "리브",
+            "미나미"
+          ]
+        },
+        {
+          "title": "투어스 오버드라이브는 못맞춰도 리센느 러브어택은 바로 맞추는 남자ㅋㅋㅋ https://t.co/2LZDx31euc",
+          "link": "https://x.com/chachajyut/status/2088929521529754012",
+          "source_type": "x",
+          "source_name": "X · @chachajyut",
+          "time": "19:03",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "너 오늘부터 내 남자친구야 😉  🔗 https://t.co/Y1v8E5yj8H  #LIV #리브 #リブ #MINAMI #미나미 #ミナミ #RES",
+          "link": "https://x.com/RESCENEofficial/status/2088929371612688612",
+          "source_type": "x",
+          "source_name": "X · @RESCENEofficial",
+          "time": "19:02",
+          "category": "기타",
+          "members": [
+            "리브",
+            "미나미"
+          ]
+        },
+        {
+          "title": "260816 공식인스타 #리브 ♡   #리센느 #LIV #RESCENE https://t.co/iokaPbb8wM",
+          "link": "https://x.com/vvv8wv/status/2088929346107167083",
+          "source_type": "x",
+          "source_name": "X · @vvv8wv",
+          "time": "19:02",
+          "category": "기타",
+          "members": [
+            "리브"
+          ]
+        },
+        {
+          "title": "@KKJJ8686 리센느 계속 가즈아~",
+          "link": "https://x.com/FinFinbiz/status/2088929090929856816",
+          "source_type": "x",
+          "source_name": "X · @FinFinbiz",
+          "time": "19:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "쇼 음악중심 3주 연속 1위  리센느 멈출지 모르네요~  리센느 대박 가자  아직 멀었다`~ https://t.co/pj1jpaKLJ2",
+          "link": "https://x.com/KKJJ8686/status/2088928911585615877",
+          "source_type": "x",
+          "source_name": "X · @KKJJ8686",
+          "time": "19:00",
+          "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "지금 보자.. 타카네코 9명  메모리아 4명 카레아이 11명  iLiFE! 9명 , =LOVE 10명 +1(사이토 나기사), XINXIN 루카 ",
+          "link": "https://x.com/Tk_one10/status/2088927668783960108",
+          "source_type": "x",
+          "source_name": "X · @Tk_one10",
+          "time": "18:55",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "알록달록 리센느 https://t.co/M7bX9EEhp1",
+          "link": "https://x.com/lvzear/status/2088927624076910709",
+          "source_type": "x",
+          "source_name": "X · @lvzear",
+          "time": "18:55",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
         {
           "title": "리센느 원이 프리티걸 열풍 총정리｜카라 원곡 리메이크와 러브어....",
           "link": "https://blog.naver.com/trendzip0001/224380413246",
@@ -33107,316 +33418,6 @@ const SITE_DATA = {
             "리브",
             "메이"
           ]
-        },
-        {
-          "title": "리센느 리브-메이, 쿠팡플레이 하프타임쇼 장식한 ‘리트와 메트’ [포...",
-          "link": "https://www.newsen.com/news_view.php?uid=202608092230415510",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "22:31",
-          "category": "기타",
-          "members": [
-            "리브",
-            "메이"
-          ]
-        },
-        {
-          "title": "리센느 미나미, ‘쿠팡플레이 야호~’ [포토엔HD] - 뉴스엔",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4xZG5OZlNSLUo0eTVPekNjVU9KR3VKcndVQmxYVVYxY1lXdHM5TnJZUlprbHJ3Q1hTdG1iZUltNk9Pc3FIT0pKQy1rZnRJcWc5SVA5bVRVNGdyU2NSa1o0V29iRkt3VjZsT1BTRjZoVTBQTkNBcjZPak9mVQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "22:29",
-          "category": "기타",
-          "members": [
-            "미나미"
-          ]
-        },
-        {
-          "title": "[4K 초고화질 무편집 원본] 리센느 - LOVE ATTACK, Pinball, Pretty Girl (쿠팡플레이 시리즈 하프타임 특별 공연)",
-          "link": "https://www.youtube.com/watch?v=vRQv8DpMffU",
-          "source_type": "youtube_collab",
-          "source_name": "풋티재 FOOTYJAE",
-          "time": "22:05",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 미나미렌즈? 코코뷰렌즈 원데이 글로우핑크 착용후기 야호- ....",
-          "link": "https://blog.naver.com/mzhuahuaaa/224373218100",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 치와와 공주의 일상 훔쳐보기",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "미나미"
-          ]
-        },
-        {
-          "title": "리센느 원이 \"엄마 돈 한 푼도 안 썼다\" 전참시 단독 출연 화제...대....",
-          "link": "https://blog.naver.com/mydream2930/224373139044",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 여름이야",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "리센느 가능공주님 쿠팡플레이 네이버모바일메인광고",
-          "link": "https://blog.naver.com/dr181231/224373228788",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 가능공주님 호위본부",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "전참시 리센느 대세아이돌로 급성장",
-          "link": "https://blog.naver.com/tvnolja/224373229828",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 티비야놀자(드라마,영화,음악,예능,시사)",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "'연예인 병 조심' 리센느, 99평 새 숙소 입성에 광고 100개 러시까지 ....",
-          "link": "https://blog.naver.com/chch462513/224373234163",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 데일리잇슈 | 연예•방송 이모저모",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "전참시 리센느 대표 \"왜 왔지\" 고백…멤버들이 폭로한 '월급 대신 받....",
-          "link": "https://blog.naver.com/dltjdgh0928/224373234845",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 오늘뭐봄",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 원이가 밝힌 소속사 대표의 남다른 진심과 아이돌 데뷔 비화",
-          "link": "https://blog.naver.com/hbhg8184/224372888863",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 도파민 헌터",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "리센느 원이를 풀어놓고 키운 어머님.jpg",
-          "link": "https://blog.naver.com/ku212/224373192192",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 블로그를 무인도처럼 운용하는 외톨이",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "리센느 노래 프리티 걸 Pretty Girl, 카라 원곡인데 원곡 가수한테 돈 ....",
-          "link": "https://blog.naver.com/jelpy0706/224373240076",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 옴니보어 리뷰어 레미뷰",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 - 프리티걸  / 어디서나 당당하게 걷기",
-          "link": "https://blog.naver.com/yuri1tym/224373243308",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 백합천사유리",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "화장실 3개 99평 숙소로 이사한 리센느, 이번엔 AT마드리드-맨시티전 ....",
-          "link": "https://blog.naver.com/behd105ghwlsk/224373243001",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 느리지만 괜찮아,살림고수되는길",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 공연보려고 쿠팡가입..",
-          "link": "https://cafe.naver.com/re5cene/15003",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "개인적으로 리센느는 러브어택 말고 대중적이고 듣기 좋은곡 2~3곡은 더 뽑....",
-          "link": "https://cafe.naver.com/dieselmania/47355169",
-          "source_type": "community",
-          "source_name": "네이버 카페 · ●디젤매니아● 대한민국 일등 패션 커뮤니티 디매인 DMAIN",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느응원봉구매처",
-          "link": "https://cafe.naver.com/re5cene/15004",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[리센느] 너무 잘 놀아서 신기한 축구단과 걸그룹",
-          "link": "https://cafe.naver.com/andyhug/2840726",
-          "source_type": "community",
-          "source_name": "네이버 카페 · [앤디훅 종합격투기]UFC,헬스,이종격투기,주짓수,ZFN,블랙컴벳",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 쿠팡플레이 하프타임 무대 사진 AT마드리드 맨시티",
-          "link": "https://cafe.naver.com/prodream9/35876",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "상암 리센느 라이브 좀 치는 근황",
-          "link": "https://cafe.naver.com/olyounglounge/3435",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 올영라운지 [올리브영//화장품/다이소/다이어트/유머]",
-          "time": "21:36",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느앨범까엉",
-          "link": "https://cafe.naver.com/re5cene/15011",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[맨체스터 시티 vs 아틀레티코 마드리드] 축하공연 리센느.gif",
-          "link": "https://cafe.naver.com/arsnl/535128",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 아스날리쉬[Arsenalish] : 아스날팬들의 집합체",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 무대는 처음보는데 라이브 무슨일...? 오늘 맨시티 아틀레티코마드....",
-          "link": "https://cafe.naver.com/leedalja/326",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 이달자",
-          "time": "21:36",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 이뿌다!!!",
-          "link": "https://cafe.naver.com/re5cene/15013",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 탈퇴하려한 메이의 부모님을 설득했던 원이",
-          "link": "https://cafe.naver.com/bucketlisthome/78028",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 버킷리스트(Bucket List)",
-          "time": "21:36",
-          "category": "기타",
-          "members": [
-            "원이",
-            "메이"
-          ]
-        },
-        {
-          "title": "[사진]리센느 제나,'축구장 공연 어땠나요?' - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR29Id1Ewakp5ZC1xME01NzIweXVvZWk4Nm9UTEp6R2dnemk5WkxTSDBVZExYZ3dXRFFoM1ozcXR6Qk9NQzc2Y3FneDlrZTZhSWZpMUtvcU93RGI3TWFYc3dvckhPdXFMRkFVSlI5RG9tQnNIakxIcFR2cWl5SG5EVFRtdk1Zcm92WklOa29QWk5pbWp0SnZF?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "21:24",
-          "category": "기타",
-          "members": [
-            "제나"
-          ]
-        },
-        {
-          "title": "리센느, 2026 쿠팡플레이 2차전 하프타임쇼 [포토엔HD] - 뉴스엔",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1wMlM0TklQTEpaeS1Kck95MVZfNmJSUmxSTzRhenkxUjZLXzVLUnQ1WjVaTWhLbTZ2MmMxbWR3aldyam0wdnR6c1hDcXR3em5xcHN0QWQwS3pSczZvOVpDUjdMM1RkbnF4ZEVGSm9JLUhSVkQ1a1hXdXBqSQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "21:23",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 메이 '눈 속에 별이 박혔어'[엑's HD포토] - news.nate.com",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE43VTc1N0w0N0lNRmcydzhOVUs5QVFtSHZDdkxWLVhZRGl2RDg0bGFGUk9LYnlxbDJvVmoyaXVOZ3U1czBLSFhneWZfaklINndPT2FzenROZDE1d2pWMjVSZUZCb2RILURGRkRPaFJDUnlHSG9SaGN3aQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "21:23",
-          "category": "기타",
-          "members": [
-            "메이"
-          ]
         }
       ]
     }
@@ -33427,7 +33428,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33436,7 +33437,7 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33445,18 +33446,19 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 57,
+        "rank": 58,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       }
     ],
@@ -33465,7 +33467,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33474,18 +33476,19 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 22,
+        "rank": 19,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 3
         }
       }
     ],
@@ -33494,45 +33497,48 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 7,
+        "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       },
       {
         "rank": 9,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 47,
+        "rank": 24,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 23
         }
       },
       {
-        "rank": 61,
+        "rank": 87,
         "song_title": "Pinball",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 26
         }
       }
     ],
@@ -33541,7 +33547,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33550,7 +33556,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33559,7 +33565,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33568,7 +33574,7 @@ const SITE_DATA = {
         "rank": 30,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33577,7 +33583,7 @@ const SITE_DATA = {
         "rank": 63,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33586,7 +33592,7 @@ const SITE_DATA = {
         "rank": 196,
         "song_title": "Glow Up",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33599,7 +33605,7 @@ const SITE_DATA = {
         "rank": 11,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33608,7 +33614,7 @@ const SITE_DATA = {
         "rank": 20,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33617,7 +33623,7 @@ const SITE_DATA = {
         "rank": 27,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33626,7 +33632,7 @@ const SITE_DATA = {
         "rank": 55,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33635,7 +33641,7 @@ const SITE_DATA = {
         "rank": 103,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33644,7 +33650,7 @@ const SITE_DATA = {
         "rank": 113,
         "song_title": "Bloom",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33656,7 +33662,7 @@ const SITE_DATA = {
         "rank": 48,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33667,7 +33673,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33676,7 +33682,7 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33685,7 +33691,7 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33698,7 +33704,7 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "LOVE ATTACK",
         "artist_text": "리센느",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33707,7 +33713,7 @@ const SITE_DATA = {
         "rank": 9,
         "song_title": "Pretty Girl",
         "artist_text": "리센느",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33716,7 +33722,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "Deja Vu",
         "artist_text": "리센느",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33725,7 +33731,7 @@ const SITE_DATA = {
         "rank": 24,
         "song_title": "Pinball",
         "artist_text": "리센느",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
@@ -33734,7 +33740,7 @@ const SITE_DATA = {
         "rank": 42,
         "song_title": "Runaway",
         "artist_text": "리센느",
-        "checked_at": "2026-08-16 18:48",
+        "checked_at": "2026-08-16 19:12",
         "change": {
           "kind": "same"
         }
