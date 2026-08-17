@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-17 20:19",
+  "generated_at": "2026-08-17 20:24",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -8212,17 +8212,6 @@ const SITE_DATA = {
         },
         {
           "title": "🤧",
-          "link": "https://www.youtube.com/watch?v=APsQuHhnFvM",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "21:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "🤧",
           "link": "https://www.youtube.com/shorts/APsQuHhnFvM",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -8706,17 +8695,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "제나"
-          ]
-        },
-        {
-          "title": "막내들의 반란",
-          "link": "https://www.youtube.com/watch?v=Kudseb848Lw",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "20:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -9388,17 +9366,6 @@ const SITE_DATA = {
           "source_name": "X · @KKJJ8686",
           "time": "19:00",
           "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "너 오늘부터 내 남자친구야 😉",
-          "link": "https://www.youtube.com/watch?v=Fj_5OIRNMdM",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "19:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -10732,17 +10699,6 @@ const SITE_DATA = {
         },
         {
           "title": "리마인이 된 리센느",
-          "link": "https://www.youtube.com/watch?v=COnZ3rYrAXc",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "17:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리마인이 된 리센느",
           "link": "https://www.youtube.com/shorts/COnZ3rYrAXc",
           "source_type": "youtube",
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
@@ -11783,17 +11739,6 @@ const SITE_DATA = {
           "source_name": "X · @scenedbag",
           "time": "16:01",
           "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#TAEYEON #GirlsGeneration 선배님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=k1WgN5t8BCs",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "16:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -17884,17 +17829,6 @@ const SITE_DATA = {
         },
         {
           "title": "#YoungK 선배님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=mYPwa8wufbU",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "23:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#YoungK 선배님과 어디서나 당당하게 걷기 🎀",
           "link": "https://www.youtube.com/shorts/mYPwa8wufbU",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -22850,17 +22784,6 @@ const SITE_DATA = {
           "source_name": "네이버 카페 · ●디젤매니아● 대한민국 일등 패션 커뮤니티 디매인 DMAIN",
           "time": "21:51",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "드라켄의 진실",
-          "link": "https://www.youtube.com/watch?v=8aZYgM9GeL0",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "21:41",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -34281,17 +34204,6 @@ const SITE_DATA = {
         },
         {
           "title": "#산 선배님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=CSIJgpCNoO4",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "20:30",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#산 선배님과 어디서나 당당하게 걷기 🎀",
           "link": "https://www.youtube.com/shorts/CSIJgpCNoO4",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -34477,17 +34389,6 @@ const SITE_DATA = {
           "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
           "time": "18:54",
           "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#케리아 선수님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=_sO0s5vkm3E",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "18:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -37337,17 +37238,6 @@ const SITE_DATA = {
         },
         {
           "title": "⚽",
-          "link": "https://www.youtube.com/watch?v=JqEGmAzW11o",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "20:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "⚽",
           "link": "https://www.youtube.com/shorts/JqEGmAzW11o",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -37640,17 +37530,6 @@ const SITE_DATA = {
           "source_name": "네이버 카페 · 시크먼트 명품, 패션 커뮤니티 [샤넬 에르메스 반클리프 롤렉스]",
           "time": "18:55",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "😉💛",
-          "link": "https://www.youtube.com/watch?v=4JGsHqPE5dc",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "18:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -38033,17 +37912,6 @@ const SITE_DATA = {
         },
         {
           "title": "바이바이바이올린 🎻",
-          "link": "https://www.youtube.com/watch?v=i_shJetSp-o",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "17:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "바이바이바이올린 🎻",
           "link": "https://www.youtube.com/shorts/i_shJetSp-o",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -38093,17 +37961,6 @@ const SITE_DATA = {
           "source_name": "네이버 뉴스",
           "time": "16:20",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "하지하지마",
-          "link": "https://www.youtube.com/watch?v=8VT11lkGggg",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "16:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -44641,17 +44498,6 @@ const SITE_DATA = {
           "source_name": "구글 뉴스 - 리센느",
           "time": "18:26",
           "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#최홍만 선배님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=XA3zJwWrsIk",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "18:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -51633,17 +51479,6 @@ const SITE_DATA = {
         },
         {
           "title": "얼딩이 프리티걸 🎀",
-          "link": "https://www.youtube.com/watch?v=7DDsEVYWAwc",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "16:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "얼딩이 프리티걸 🎀",
           "link": "https://www.youtube.com/shorts/7DDsEVYWAwc",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -54149,32 +53984,10 @@ const SITE_DATA = {
         },
         {
           "title": "[B컷] 의자 안 돌아가요",
-          "link": "https://www.youtube.com/watch?v=o-B0F16GwL0",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "21:33",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[B컷] 의자 안 돌아가요",
           "link": "https://www.youtube.com/shorts/o-B0F16GwL0",
           "source_type": "youtube",
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
           "time": "21:33",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "백제자객과 프리티걸",
-          "link": "https://www.youtube.com/watch?v=gNJrbCSN2TM",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "21:24",
           "category": "자체컨텐츠",
           "members": [
             "전체"
@@ -57516,17 +57329,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "on my mind",
-          "link": "https://www.youtube.com/watch?v=TbcgAtfA13Y",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "16:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -71491,17 +71293,6 @@ const SITE_DATA = {
         },
         {
           "title": "#영재 선배님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=hO2eASCpOnY",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "15:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#영재 선배님과 어디서나 당당하게 걷기 🎀",
           "link": "https://www.youtube.com/shorts/hO2eASCpOnY",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -76009,17 +75800,6 @@ const SITE_DATA = {
         },
         {
           "title": "#ACHIRAYA 님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=I4ymlF3Rzac",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "16:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#ACHIRAYA 님과 어디서나 당당하게 걷기 🎀",
           "link": "https://www.youtube.com/shorts/I4ymlF3Rzac",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -76319,17 +76099,6 @@ const SITE_DATA = {
           "source_name": "구글 뉴스 - 리센느",
           "time": "15:02",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#원호 선배님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=D60DJ6htkCM",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "15:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -79551,17 +79320,6 @@ const SITE_DATA = {
         },
         {
           "title": "#조은찬 님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=Pxh0l3o8H14",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "21:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#조은찬 님과 어디서나 당당하게 걷기 🎀",
           "link": "https://www.youtube.com/shorts/Pxh0l3o8H14",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -81399,17 +81157,6 @@ const SITE_DATA = {
         },
         {
           "title": "에베베벱베 😝",
-          "link": "https://www.youtube.com/watch?v=yuTme7lLho4",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "15:30",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "에베베벱베 😝",
           "link": "https://www.youtube.com/shorts/yuTme7lLho4",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -82152,17 +81899,6 @@ const SITE_DATA = {
         },
         {
           "title": "멜빵 애햄이 등장이요 💙",
-          "link": "https://www.youtube.com/watch?v=igJq3rvLld8",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "17:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "멜빵 애햄이 등장이요 💙",
           "link": "https://www.youtube.com/shorts/igJq3rvLld8",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -82214,17 +81950,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "POV: This is us every time we’re together.",
-          "link": "https://www.youtube.com/watch?v=WDuntolfPOU",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "16:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -82368,17 +82093,6 @@ const SITE_DATA = {
         },
         {
           "title": "#해나 님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=IuhYt6m-Vgk",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "18:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#해나 님과 어디서나 당당하게 걷기 🎀",
           "link": "https://www.youtube.com/shorts/IuhYt6m-Vgk",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -82428,17 +82142,6 @@ const SITE_DATA = {
           "source_name": "구글 뉴스 - 리센느",
           "time": "17:54",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#지석진 #지예은 선배님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=9saSBNQlZMs",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "17:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -82505,17 +82208,6 @@ const SITE_DATA = {
           "source_name": "구글 뉴스 - 리센느",
           "time": "16:05",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#임지환 님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=nAYmW1eiO-I",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "16:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -82638,17 +82330,6 @@ const SITE_DATA = {
         },
         {
           "title": "Pretty Girl 애햄이 🎀",
-          "link": "https://www.youtube.com/watch?v=5hVieaykssU",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "17:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "Pretty Girl 애햄이 🎀",
           "link": "https://www.youtube.com/shorts/5hVieaykssU",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -82665,17 +82346,6 @@ const SITE_DATA = {
           "source_name": "구글 뉴스 - 리센느",
           "time": "16:04",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#LEEMINHYUK 선배님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/watch?v=O3q2OA3N1Q0",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "16:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -82715,32 +82385,10 @@ const SITE_DATA = {
         },
         {
           "title": "#손주원 #엄지원 님과 온 세상을 물들여 💎",
-          "link": "https://www.youtube.com/watch?v=DdysLSAO-Kc",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "15:30",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#손주원 #엄지원 님과 온 세상을 물들여 💎",
           "link": "https://www.youtube.com/shorts/DdysLSAO-Kc",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
           "time": "15:30",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "다이죠부이데쇼 🐘💛",
-          "link": "https://www.youtube.com/watch?v=ix6RkeDawsU",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "14:00",
           "category": "자체컨텐츠",
           "members": [
             "전체"
@@ -82836,17 +82484,6 @@ const SITE_DATA = {
           "source_name": "인생84",
           "time": "19:17",
           "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#YEONJUN 선배님과 익숙한 deja vu 🌱",
-          "link": "https://www.youtube.com/watch?v=kalnsqjQD0Y",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "19:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -84149,17 +83786,6 @@ const SITE_DATA = {
         },
         {
           "title": "Endless Rain",
-          "link": "https://www.youtube.com/watch?v=F5CbMShscuk",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "02:31",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "Endless Rain",
           "link": "https://www.youtube.com/shorts/F5CbMShscuk",
           "source_type": "youtube",
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
@@ -84188,29 +83814,7 @@ const SITE_DATA = {
       "items": [
         {
           "title": "오빻",
-          "link": "https://www.youtube.com/watch?v=VUufd3Hd_2Q",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "22:13",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "오빻",
           "link": "https://www.youtube.com/shorts/VUufd3Hd_2Q",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "22:13",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "거제 불주먹 양키",
-          "link": "https://www.youtube.com/watch?v=qzhjmlxNl8s",
           "source_type": "youtube",
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
           "time": "22:13",
@@ -84765,17 +84369,6 @@ const SITE_DATA = {
       "items": [
         {
           "title": "원이의 꿈",
-          "link": "https://www.youtube.com/watch?v=jilQNKreZBM",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "21:40",
-          "category": "자체컨텐츠",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "원이의 꿈",
           "link": "https://www.youtube.com/shorts/jilQNKreZBM",
           "source_type": "youtube",
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
@@ -84783,17 +84376,6 @@ const SITE_DATA = {
           "category": "자체컨텐츠",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "센빠이!",
-          "link": "https://www.youtube.com/watch?v=4ciHuGLi_1I",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "21:35",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -84809,29 +84391,7 @@ const SITE_DATA = {
         },
         {
           "title": "새로운 등교 친구",
-          "link": "https://www.youtube.com/watch?v=FxbR-V8GOjE",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "21:29",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "새로운 등교 친구",
           "link": "https://www.youtube.com/shorts/FxbR-V8GOjE",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "21:29",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "좋지 않아?",
-          "link": "https://www.youtube.com/watch?v=tDs3mcabrFM",
           "source_type": "youtube",
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
           "time": "21:29",
@@ -85125,17 +84685,6 @@ const SITE_DATA = {
         },
         {
           "title": "서예하는 미나미",
-          "link": "https://www.youtube.com/watch?v=5qmyo1nR3no",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "16:54",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "서예하는 미나미",
           "link": "https://www.youtube.com/shorts/5qmyo1nR3no",
           "source_type": "youtube",
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
@@ -85158,32 +84707,10 @@ const SITE_DATA = {
         },
         {
           "title": "고멘네!",
-          "link": "https://www.youtube.com/watch?v=GUHzPMtxAqY",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "15:51",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "고멘네!",
           "link": "https://www.youtube.com/shorts/GUHzPMtxAqY",
           "source_type": "youtube",
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
           "time": "15:51",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "장롱에 누군가 있다",
-          "link": "https://www.youtube.com/watch?v=y2TOOxHF35E",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "15:50",
           "category": "자체컨텐츠",
           "members": [
             "전체"
@@ -85242,17 +84769,6 @@ const SITE_DATA = {
           "source_name": "구글 뉴스 - RESCENE",
           "time": "16:00",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "쪽팔려게임",
-          "link": "https://www.youtube.com/watch?v=beKjAiS8n44",
-          "source_type": "youtube",
-          "source_name": "안녕하세요원이입니다잘부탁드립니다",
-          "time": "14:00",
-          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]

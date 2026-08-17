@@ -121,7 +121,12 @@ def collect_youtube(conn):
             continue
         for entry in feed.entries:
             title = entry.get("title", "(제목 없음)")
-            link = entry.get("link", "")
+            # RSS가 쇼츠는 "shorts/영상ID", 일반 영상은 "watch?v=영상ID" 형식으로
+            # 링크를 서로 다르게 줘서, 같은 영상이 백필(항상 watch?v= 형식) 결과와
+            # 다른 링크로 인식돼 중복 저장되는 문제가 있었음 - video ID 기준으로
+            # 항상 watch?v= 형식으로 통일해서 저장
+            video_id = entry.get("yt_videoid")
+            link = f"https://www.youtube.com/watch?v={video_id}" if video_id else entry.get("link", "")
             published_at = _parsed_time_to_iso(entry)
             snippet = entry.get("summary", "")[:500]
             if not link:
@@ -148,7 +153,8 @@ def collect_collab(conn):
             title = entry.get("title", "(제목 없음)")
             if not _is_relevant_to_us(title):
                 continue  # 리센느와 무관한 영상은 건너뜀
-            link = entry.get("link", "")
+            video_id = entry.get("yt_videoid")
+            link = f"https://www.youtube.com/watch?v={video_id}" if video_id else entry.get("link", "")
             published_at = _parsed_time_to_iso(entry)
             snippet = entry.get("summary", "")[:500]
             if not link:
