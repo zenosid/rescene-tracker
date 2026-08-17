@@ -67,6 +67,7 @@ const CATEGORY_LIST = ["음악방송", "MV", "Live", "Shorts", "자체컨텐츠"
 const state = {
   sourceTab: "all", // 단일 선택: "all" | "youtube" | "youtube_collab" | "news"
   categoryTab: "all", // 단일 선택: "all" | "음악방송" | "MV" | ...
+  yearTab: "all", // 단일 선택: "all" | "2026" | "2025" | ...
   members: new Set(), // 비어있으면 전체
   reactionSort: "likes", // "likes" | "recent"
   archiveSort: "newest", // "newest" | "oldest"
@@ -226,6 +227,31 @@ function buildCategoryChips() {
   });
 }
 
+function buildYearChips() {
+  const wrap = document.getElementById("yearChips");
+  if (!wrap) return;
+  wrap.innerHTML = "";
+
+  // 아카이브에 실제 있는 연도만 최신순으로 뽑아냄
+  const years = [...new Set((SITE_DATA.archive || []).map((g) => g.date.slice(0, 4)))].sort(
+    (a, b) => b.localeCompare(a)
+  );
+
+  const options = ["all", ...years];
+  options.forEach((year) => {
+    const tab = document.createElement("button");
+    tab.className = "source-tab" + (state.yearTab === year ? " active" : "");
+    tab.dataset.year = year;
+    tab.textContent = year === "all" ? "🗂️ 전체" : year + "년";
+    tab.addEventListener("click", () => {
+      state.yearTab = year;
+      buildYearChips();
+      renderArchive();
+    });
+    wrap.appendChild(tab);
+  });
+}
+
 // ── 아이템 카드 (아카이브·즐겨찾기 공용) ───────────────────
 function itemPassesFilter(item) {
   if (state.sourceTab !== "all" && item.source_type !== state.sourceTab) return false;
@@ -318,6 +344,8 @@ function renderArchive() {
   let lastYear = null;
 
   orderedGroups.forEach((group) => {
+    if (state.yearTab !== "all" && group.date.slice(0, 4) !== state.yearTab) return;
+
     const visibleItems = group.items.filter(itemPassesFilter);
     if (visibleItems.length === 0) return;
     totalShown += visibleItems.length;
@@ -803,6 +831,7 @@ function startAutoRefreshWatcher() {
 // ── 초기 렌더 ─────────────────────────────────────────────
 buildSourceChips();
 buildCategoryChips();
+buildYearChips();
 buildMemberChips();
 renderArchive();
 renderChart();
