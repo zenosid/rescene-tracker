@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-17 18:41",
+  "generated_at": "2026-08-17 18:42",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7248,6 +7248,17 @@ const SITE_DATA = {
         },
         {
           "title": "🤧",
+          "link": "https://www.youtube.com/watch?v=APsQuHhnFvM",
+          "source_type": "youtube",
+          "source_name": "RESCENE 공식 유튜브",
+          "time": "21:00",
+          "category": "자체컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "🤧",
           "link": "https://www.youtube.com/shorts/APsQuHhnFvM",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -7731,6 +7742,17 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "제나"
+          ]
+        },
+        {
+          "title": "막내들의 반란",
+          "link": "https://www.youtube.com/watch?v=Kudseb848Lw",
+          "source_type": "youtube",
+          "source_name": "RESCENE 공식 유튜브",
+          "time": "20:00",
+          "category": "자체컨텐츠",
+          "members": [
+            "전체"
           ]
         },
         {
@@ -8402,6 +8424,17 @@ const SITE_DATA = {
           "source_name": "X · @KKJJ8686",
           "time": "19:00",
           "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "너 오늘부터 내 남자친구야 😉",
+          "link": "https://www.youtube.com/watch?v=Fj_5OIRNMdM",
+          "source_type": "youtube",
+          "source_name": "RESCENE 공식 유튜브",
+          "time": "19:00",
+          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -9735,6 +9768,17 @@ const SITE_DATA = {
         },
         {
           "title": "리마인이 된 리센느",
+          "link": "https://www.youtube.com/watch?v=COnZ3rYrAXc",
+          "source_type": "youtube",
+          "source_name": "안녕하세요원이입니다잘부탁드립니다",
+          "time": "17:00",
+          "category": "자체컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리마인이 된 리센느",
           "link": "https://www.youtube.com/shorts/COnZ3rYrAXc",
           "source_type": "youtube",
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
@@ -10775,6 +10819,17 @@ const SITE_DATA = {
           "source_name": "X · @scenedbag",
           "time": "16:01",
           "category": "음악방송",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "#TAEYEON #GirlsGeneration 선배님과 어디서나 당당하게 걷기 🎀",
+          "link": "https://www.youtube.com/watch?v=k1WgN5t8BCs",
+          "source_type": "youtube",
+          "source_name": "RESCENE 공식 유튜브",
+          "time": "16:00",
+          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -16865,6 +16920,17 @@ const SITE_DATA = {
         },
         {
           "title": "#YoungK 선배님과 어디서나 당당하게 걷기 🎀",
+          "link": "https://www.youtube.com/watch?v=mYPwa8wufbU",
+          "source_type": "youtube",
+          "source_name": "RESCENE 공식 유튜브",
+          "time": "23:00",
+          "category": "자체컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "#YoungK 선배님과 어디서나 당당하게 걷기 🎀",
           "link": "https://www.youtube.com/shorts/mYPwa8wufbU",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -21820,6 +21886,17 @@ const SITE_DATA = {
           "source_name": "네이버 카페 · ●디젤매니아● 대한민국 일등 패션 커뮤니티 디매인 DMAIN",
           "time": "21:51",
           "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "드라켄의 진실",
+          "link": "https://www.youtube.com/watch?v=8aZYgM9GeL0",
+          "source_type": "youtube",
+          "source_name": "안녕하세요원이입니다잘부탁드립니다",
+          "time": "21:41",
+          "category": "자체컨텐츠",
           "members": [
             "전체"
           ]
@@ -33240,6 +33317,17 @@ const SITE_DATA = {
         },
         {
           "title": "#산 선배님과 어디서나 당당하게 걷기 🎀",
+          "link": "https://www.youtube.com/watch?v=CSIJgpCNoO4",
+          "source_type": "youtube",
+          "source_name": "RESCENE 공식 유튜브",
+          "time": "20:30",
+          "category": "자체컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "#산 선배님과 어디서나 당당하게 걷기 🎀",
           "link": "https://www.youtube.com/shorts/CSIJgpCNoO4",
           "source_type": "youtube",
           "source_name": "RESCENE 공식 유튜브",
@@ -33387,98 +33475,6 @@ const SITE_DATA = {
           "source_type": "community",
           "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
           "time": "18:54",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "RESCENE 리센느 (원이+리브+미나미+메이+제나) 를 응원합니다",
-          "link": "https://cafe.naver.com/re5cene/15745",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "time": "18:54",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
-          "title": "260811 리센느 엠넷 플러스챗 사진 업데이트 (프리티걸 음악방송 비하인드) #....",
-          "link": "https://cafe.naver.com/re5cene/15751",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "time": "18:54",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "️ RESCENE (리센느) MBC 음악중심 959회 사전투표 안내",
-          "link": "https://cafe.naver.com/re5cene/15754",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "time": "18:54",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#케리아 선수님과 어디서나 당당하게 걷기 🎀",
-          "link": "https://www.youtube.com/shorts/_sO0s5vkm3E",
-          "source_type": "youtube",
-          "source_name": "RESCENE 공식 유튜브",
-          "time": "18:00",
-          "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "내가 생각하는 리센느가 뜬 이유",
-          "link": "https://blog.naver.com/contentsmith/224375319037",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 스미스 블로그",
-          "time": "17:47",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 전참시 효과 제대로 터졌다! TV·OTT 화제성 1위 만든 이유",
-          "link": "https://blog.naver.com/issuefocus365/224375323388",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 이슈포커스365",
-          "time": "17:47",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 전원일기편 사진찍기",
-          "link": "https://blog.naver.com/syowoo/224375336104",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 어썸's 취미 블로그",
-          "time": "17:47",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느(RESCENE) 2nd Single Album 《Dearest》 리뷰",
-          "link": "https://blog.naver.com/enterinsider/224375338860",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · enterinsider님의 블로그",
-          "time": "17:47",
           "category": "기타",
           "members": [
             "전체"
