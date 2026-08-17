@@ -543,6 +543,21 @@
 
   /* ── 팬 반응 ──────────────────────────────────────────── */
   .reaction-sort-bar { display: flex; gap: 8px; margin-bottom: 16px; }
+
+  /* ── 아카이브 연도 구분 / 정렬 ────────────────────────── */
+  .archive-sort-bar { display: flex; gap: 8px; margin-bottom: 24px; }
+  .year-heading {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    margin: 40px 0 18px;
+    background: var(--grad-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .year-heading:first-of-type { margin-top: 0; }
   .reaction-card { padding: 15px 18px; margin-bottom: 10px; }
   .reaction-video {
     font-size: 12px;
@@ -800,7 +815,7 @@
     dataScript.src = "data.js?t=" + Date.now();
     dataScript.onload = function () {
       var appScript = document.createElement("script");
-      appScript.src = "app.js";
+      appScript.src = "app.js?t=" + Date.now();
       document.body.appendChild(appScript);
     };
     document.body.appendChild(dataScript);

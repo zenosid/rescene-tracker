@@ -117,6 +117,8 @@ def insert_item(conn, source_type, source_name, title, link, published_at, snipp
 
 
 def get_recent_items(conn, limit=200):
+    if limit is None:
+        return conn.execute("SELECT * FROM items ORDER BY published_at DESC").fetchall()
     return conn.execute(
         "SELECT * FROM items ORDER BY published_at DESC LIMIT ?", (limit,)
     ).fetchall()

@@ -69,6 +69,7 @@ const state = {
   categoryTab: "all", // 단일 선택: "all" | "음악방송" | "MV" | ...
   members: new Set(), // 비어있으면 전체
   reactionSort: "likes", // "likes" | "recent"
+  archiveSort: "newest", // "newest" | "oldest"
 };
 
 // ── 즐겨찾기 (localStorage, 이 브라우저에만 저장) ───────────
@@ -294,12 +295,42 @@ function renderArchive() {
   const container = document.getElementById("archiveContent");
   container.innerHTML = "";
 
-  let totalShown = 0;
+  // 정렬 토글 (최신순 기본 / 과거순)
+  const sortBar = document.createElement("div");
+  sortBar.className = "archive-sort-bar";
+  sortBar.innerHTML = `
+    <button class="source-tab${state.archiveSort === "newest" ? " active" : ""}" data-archive-sort="newest">🕒 최신순</button>
+    <button class="source-tab${state.archiveSort === "oldest" ? " active" : ""}" data-archive-sort="oldest">📜 과거순</button>
+  `;
+  sortBar.querySelectorAll("button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.archiveSort = btn.dataset.archiveSort;
+      renderArchive();
+    });
+  });
+  container.appendChild(sortBar);
 
-  SITE_DATA.archive.forEach((group) => {
+  // SITE_DATA.archive는 항상 최신순으로 옴 - 과거순이면 그대로 뒤집으면 됨
+  const orderedGroups =
+    state.archiveSort === "oldest" ? [...SITE_DATA.archive].reverse() : SITE_DATA.archive;
+
+  let totalShown = 0;
+  let lastYear = null;
+
+  orderedGroups.forEach((group) => {
     const visibleItems = group.items.filter(itemPassesFilter);
     if (visibleItems.length === 0) return;
     totalShown += visibleItems.length;
+
+    // 날짜(YYYY-MM-DD)의 앞 4자리로 연도 구분, 바뀔 때마다 큰 연도 헤더 삽입
+    const year = group.date.slice(0, 4);
+    if (year !== lastYear) {
+      const yearHeading = document.createElement("div");
+      yearHeading.className = "year-heading";
+      yearHeading.textContent = year + "년";
+      container.appendChild(yearHeading);
+      lastYear = year;
+    }
 
     const dateGroup = document.createElement("div");
     dateGroup.className = "date-group";
