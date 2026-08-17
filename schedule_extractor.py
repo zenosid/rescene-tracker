@@ -12,12 +12,14 @@ from datetime import date, timedelta
 from kst import now_kst
 
 # 키워드가 걸리면 해당 타입으로 분류 (먼저 매칭되는 키워드 우선)
+# "컴백"은 뺐습니다 - 팬덤 기사에서 "이번 컴백 활동을 돌아보니" 식으로 이미
+# 지나간 활동을 가리킬 때도 워낙 흔하게 쓰여서, 앞으로 있을 일정인지 판단하는
+# 근거로 쓰기엔 너무 애매합니다 (예: 컴백 평가 설문 기사가 스케줄로 오탐됨).
 EVENT_KEYWORDS = [
     ("시구", "행사"),
     ("팬사인회", "팬사인회"),
     ("팬미팅", "팬미팅"),
     ("쇼케이스", "쇼케이스"),
-    ("컴백", "발매"),
     ("발매", "발매"),
     ("콘서트", "공연"),
     ("페스티벌", "행사"),
@@ -40,6 +42,11 @@ _CONTENT_RELEASE_INDICATORS = [
     "선공개", "공개된", "영상 공개", "화보 공개", "포스터 공개", "티저 공개",
     "썸네일", "예고편",
 ]
+
+# 실제 K팝 활동 일정은 보통 몇 주 전에나 공지되지, 몇 달씩 미리 확정되진
+# 않습니다. 추출된 날짜가 오늘로부터 이만큼(일)보다 더 멀면, 날짜 추출
+# 자체가 잘못됐을 가능성이 높다고 보고 후보에서 제외합니다.
+_MAX_FUTURE_DAYS = 90
 
 
 def _is_content_release_news(text):
@@ -135,6 +142,11 @@ def extract_schedule_candidates(news_items, today=None):
             continue
         # 너무 먼 과거로 잘못 추정된 경우는 제외 (감지 실패 가능성이 높음)
         if event_date < today - timedelta(days=3):
+            continue
+        # 너무 먼 미래로 튄 경우도 제외 - 대부분 무관한 날짜가 잘못 엮여서
+        # 연도가 넘어가버린 경우입니다 (예: 컴백 회고 기사의 설문 기간이
+        # 다음 해 날짜로 잘못 해석되는 경우)
+        if event_date > today + timedelta(days=_MAX_FUTURE_DAYS):
             continue
 
         candidates.append(
