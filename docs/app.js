@@ -71,6 +71,8 @@ const state = {
   members: new Set(), // 비어있으면 전체
   reactionSort: "likes", // "likes" | "recent"
   archiveSort: "newest", // "newest" | "oldest"
+  archiveSearch: "", // 제목 텍스트 검색어
+  archiveVisibleGroups: 30, // "더보기"로 늘어나는, 화면에 그릴 날짜 그룹 개수
 };
 
 // ── 즐겨찾기 (localStorage, 이 브라우저에만 저장) ───────────
@@ -139,6 +141,7 @@ document.querySelectorAll(".tab-btn").forEach((btn) => {
     if (btn.dataset.tab === "favorites") renderFavorites();
     if (btn.dataset.tab === "links") renderLinks();
     if (btn.dataset.tab === "reactions") renderReactions();
+    if (btn.dataset.tab === "stats") renderStats();
   });
 });
 
@@ -178,6 +181,7 @@ function buildSourceChips() {
     tab.textContent = icon + " " + label;
     tab.addEventListener("click", () => {
       state.sourceTab = key;
+      state.archiveVisibleGroups = 30;
       buildSourceChips();
       renderArchive();
     });
@@ -200,6 +204,7 @@ function buildMemberChips() {
       } else {
         state.members.add(name);
       }
+      state.archiveVisibleGroups = 30;
       buildMemberChips();
       renderArchive();
     });
@@ -220,6 +225,7 @@ function buildCategoryChips() {
     tab.textContent = cat === "all" ? "🗂️ 전체" : cat;
     tab.addEventListener("click", () => {
       state.categoryTab = cat;
+      state.archiveVisibleGroups = 30;
       buildCategoryChips();
       renderArchive();
     });
@@ -245,6 +251,7 @@ function buildYearChips() {
     tab.textContent = year === "all" ? "🗂️ 전체" : year + "년";
     tab.addEventListener("click", () => {
       state.yearTab = year;
+      state.archiveVisibleGroups = 30;
       buildYearChips();
       renderArchive();
     });
@@ -259,6 +266,10 @@ function itemPassesFilter(item) {
   if (state.members.size > 0) {
     const hasOverlap = item.members.some((m) => state.members.has(m));
     if (!hasOverlap) return false;
+  }
+  if (state.archiveSearch.trim()) {
+    const query = state.archiveSearch.trim().toLowerCase();
+    if (!item.title.toLowerCase().includes(query)) return false;
   }
   return true;
 }
@@ -321,6 +332,23 @@ function renderArchive() {
   const container = document.getElementById("archiveContent");
   container.innerHTML = "";
 
+  // 검색창
+  const searchBar = document.createElement("div");
+  searchBar.className = "archive-search-bar";
+  searchBar.innerHTML = `
+    <input type="text" id="archiveSearchInput" placeholder="🔍 제목으로 검색..." value="${escapeHtml(state.archiveSearch)}" />
+  `;
+  container.appendChild(searchBar);
+  searchBar.querySelector("input").addEventListener("input", (e) => {
+    state.archiveSearch = e.target.value;
+    state.archiveVisibleGroups = 30; // 검색어 바뀌면 페이지네이션 처음부터
+    renderArchive();
+    // 입력 중 포커스가 날아가지 않도록 다시 포커스 + 커서 위치 복원
+    const input = document.getElementById("archiveSearchInput");
+    input.focus();
+    input.setSelectionRange(state.archiveSearch.length, state.archiveSearch.length);
+  });
+
   // 정렬 토글 (최신순 기본 / 과거순)
   const sortBar = document.createElement("div");
   sortBar.className = "archive-sort-bar";
@@ -331,6 +359,7 @@ function renderArchive() {
   sortBar.querySelectorAll("button").forEach((btn) => {
     btn.addEventListener("click", () => {
       state.archiveSort = btn.dataset.archiveSort;
+      state.archiveVisibleGroups = 30;
       renderArchive();
     });
   });
@@ -340,14 +369,22 @@ function renderArchive() {
   const orderedGroups =
     state.archiveSort === "oldest" ? [...SITE_DATA.archive].reverse() : SITE_DATA.archive;
 
+  // 필터를 통과하는 그룹만 먼저 추려서, 그중 앞에서부터 N개(더보기 단위)만 실제로 그림
+  // - 9000건 넘게 쌓인 상태라 한 번에 다 그리면 느려져서, 처음엔 일부만 그리고
+  //   "더보기"를 눌러야 더 그리는 방식으로 부담을 줄임
+  const matchingGroups = [];
+  orderedGroups.forEach((group) => {
+    if (state.yearTab !== "all" && group.date.slice(0, 4) !== state.yearTab) return;
+    const visibleItems = group.items.filter(itemPassesFilter);
+    if (visibleItems.length === 0) return;
+    matchingGroups.push({ group, visibleItems });
+  });
+
+  const groupsToRender = matchingGroups.slice(0, state.archiveVisibleGroups);
   let totalShown = 0;
   let lastYear = null;
 
-  orderedGroups.forEach((group) => {
-    if (state.yearTab !== "all" && group.date.slice(0, 4) !== state.yearTab) return;
-
-    const visibleItems = group.items.filter(itemPassesFilter);
-    if (visibleItems.length === 0) return;
+  groupsToRender.forEach(({ group, visibleItems }) => {
     totalShown += visibleItems.length;
 
     // 날짜(YYYY-MM-DD)의 앞 4자리로 연도 구분, 바뀔 때마다 큰 연도 헤더 삽입
@@ -376,8 +413,21 @@ function renderArchive() {
     container.appendChild(dateGroup);
   });
 
-  if (totalShown === 0) {
-    container.innerHTML = `<div class="empty-state">조건에 맞는 항목이 없습니다.<br/>필터를 조정하거나 데이터를 새로고침해주세요.</div>`;
+  if (matchingGroups.length === 0) {
+    container.innerHTML += `<div class="empty-state">조건에 맞는 항목이 없습니다.<br/>필터를 조정하거나 검색어를 바꿔보세요.</div>`;
+    return;
+  }
+
+  if (matchingGroups.length > groupsToRender.length) {
+    const moreBtn = document.createElement("button");
+    moreBtn.className = "refresh-btn archive-more-btn";
+    const remainingGroups = matchingGroups.length - groupsToRender.length;
+    moreBtn.textContent = `더보기 (날짜 ${remainingGroups}개 더 있음)`;
+    moreBtn.addEventListener("click", () => {
+      state.archiveVisibleGroups += 30;
+      renderArchive();
+    });
+    container.appendChild(moreBtn);
   }
 }
 
@@ -690,6 +740,162 @@ function renderTrophies() {
 }
 
 // ── 포토카드 발매 기록 렌더링 ─────────────────────────────
+// ── 통계 대시보드 렌더링 ─────────────────────────────────────
+function renderStats() {
+  const container = document.getElementById("statsContent");
+  if (!container) return;
+  container.innerHTML = "";
+
+  const allItems = (SITE_DATA.archive || []).flatMap((g) =>
+    g.items.map((item) => ({ ...item, date: g.date }))
+  );
+
+  if (allItems.length === 0) {
+    container.innerHTML = `<div class="empty-state">아직 통계를 낼 데이터가 없습니다.</div>`;
+    return;
+  }
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  // ── 이번 주 / 이번 달 요약 ────────────────────────────
+  const weekAgo = new Date(today);
+  weekAgo.setDate(weekAgo.getDate() - 7);
+  const monthAgo = new Date(today);
+  monthAgo.setDate(monthAgo.getDate() - 30);
+
+  const isAfter = (dateStr, cutoff) => new Date(dateStr + "T00:00:00") >= cutoff;
+
+  const weekItems = allItems.filter((i) => isAfter(i.date, weekAgo));
+  const monthItems = allItems.filter((i) => isAfter(i.date, monthAgo));
+
+  const weekTrophies = (SITE_DATA.trophies || []).filter((t) => isAfter(t.date, weekAgo));
+
+  const summaryCard = document.createElement("div");
+  summaryCard.className = "card stats-summary-card";
+  summaryCard.innerHTML = `
+    <div class="stats-summary-grid">
+      <div class="stats-summary-item">
+        <div class="stats-summary-value">${weekItems.length}</div>
+        <div class="stats-summary-label">최근 7일 신규 소식</div>
+      </div>
+      <div class="stats-summary-item">
+        <div class="stats-summary-value">${monthItems.length}</div>
+        <div class="stats-summary-label">최근 30일 신규 소식</div>
+      </div>
+      <div class="stats-summary-item">
+        <div class="stats-summary-value">${weekTrophies.length}</div>
+        <div class="stats-summary-label">최근 7일 신규 트로피</div>
+      </div>
+      <div class="stats-summary-item">
+        <div class="stats-summary-value">${allItems.length.toLocaleString()}</div>
+        <div class="stats-summary-label">누적 전체 소식</div>
+      </div>
+    </div>
+  `;
+  container.appendChild(summaryCard);
+
+  // ── 최근 7일 카테고리 분포 ────────────────────────────
+  if (weekItems.length > 0) {
+    const catTitle = document.createElement("section");
+    catTitle.className = "block-title";
+    catTitle.textContent = "이번 주 카테고리 분포";
+    container.appendChild(catTitle);
+
+    const catCounts = {};
+    weekItems.forEach((i) => {
+      catCounts[i.category] = (catCounts[i.category] || 0) + 1;
+    });
+    const maxCat = Math.max(...Object.values(catCounts));
+
+    const catCard = document.createElement("div");
+    catCard.className = "card stats-bar-card";
+    catCard.innerHTML = Object.entries(catCounts)
+      .sort((a, b) => b[1] - a[1])
+      .map(
+        ([cat, count]) => `
+        <div class="stats-bar-row">
+          <div class="stats-bar-label">${escapeHtml(cat)}</div>
+          <div class="stats-bar-track"><div class="stats-bar-fill" style="width:${(count / maxCat) * 100}%"></div></div>
+          <div class="stats-bar-count">${count}</div>
+        </div>`
+      )
+      .join("");
+    container.appendChild(catCard);
+  }
+
+  // ── 월별 소식 수 추이(최근 12개월) ───────────────────────
+  const monthTitle = document.createElement("section");
+  monthTitle.className = "block-title";
+  monthTitle.textContent = "월별 소식 수 추이 (최근 12개월)";
+  container.appendChild(monthTitle);
+
+  const monthCounts = {};
+  allItems.forEach((i) => {
+    const monthKey = i.date.slice(0, 7); // YYYY-MM
+    monthCounts[monthKey] = (monthCounts[monthKey] || 0) + 1;
+  });
+
+  const months = [];
+  const cursor = new Date(today.getFullYear(), today.getMonth(), 1);
+  for (let i = 0; i < 12; i++) {
+    const key = `${cursor.getFullYear()}-${String(cursor.getMonth() + 1).padStart(2, "0")}`;
+    months.unshift(key);
+    cursor.setMonth(cursor.getMonth() - 1);
+  }
+  const maxMonth = Math.max(1, ...months.map((m) => monthCounts[m] || 0));
+
+  const monthCard = document.createElement("div");
+  monthCard.className = "card stats-monthchart-card";
+  monthCard.innerHTML = `
+    <div class="stats-monthchart">
+      ${months
+        .map((m) => {
+          const count = monthCounts[m] || 0;
+          const heightPct = Math.max(3, (count / maxMonth) * 100);
+          const label = m.slice(2).replace("-", ".");
+          return `
+          <div class="stats-monthbar-wrap">
+            <div class="stats-monthbar-count">${count}</div>
+            <div class="stats-monthbar" style="height:${heightPct}%"></div>
+            <div class="stats-monthbar-label">${label}</div>
+          </div>`;
+        })
+        .join("")}
+    </div>
+  `;
+  container.appendChild(monthCard);
+
+  // ── 트로피 누적 (방송별) ────────────────────────────
+  const trophies = SITE_DATA.trophies || [];
+  if (trophies.length > 0) {
+    const trophyTitle = document.createElement("section");
+    trophyTitle.className = "block-title";
+    trophyTitle.textContent = "방송별 누적 트로피";
+    container.appendChild(trophyTitle);
+
+    const showCounts = {};
+    trophies.forEach((t) => {
+      showCounts[t.show] = (showCounts[t.show] || 0) + 1;
+    });
+
+    const trophyCard = document.createElement("div");
+    trophyCard.className = "card stats-bar-card";
+    trophyCard.innerHTML = Object.entries(showCounts)
+      .sort((a, b) => b[1] - a[1])
+      .map(
+        ([show, count]) => `
+        <div class="stats-bar-row">
+          <div class="stats-bar-label">🏆 ${escapeHtml(show)}</div>
+          <div class="stats-bar-track"><div class="stats-bar-fill" style="width:${(count / trophies.length) * 100}%"></div></div>
+          <div class="stats-bar-count">${count}</div>
+        </div>`
+      )
+      .join("");
+    container.appendChild(trophyCard);
+  }
+}
+
 function renderPhotocards() {
   const container = document.getElementById("photocardContent");
   if (!container) return;
@@ -839,4 +1045,5 @@ renderSchedule();
 renderAnniversaries();
 renderTrophies();
 renderPhotocards();
+renderStats();
 startAutoRefreshWatcher();
