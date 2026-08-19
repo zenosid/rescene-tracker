@@ -60,6 +60,8 @@ const PLATFORM_LABELS = {
   apple_music_jp: "Apple Music (JP)",
 };
 const FAVORITES_KEY = "rescene_tracker_favorites"; // localStorage 키 (이 브라우저 전용)
+const REACTION_API_BASE = "https://rescene-reactions.zenosid1.workers.dev";
+const REACTION_EMOJIS = ["👍", "🥹", "🔥", "😍"];
 
 const CATEGORY_LIST = ["음악방송", "MV", "Live", "Shorts", "자체컨텐츠", "외부컨텐츠", "기타"];
 
@@ -287,6 +289,7 @@ function buildItemCard(item) {
   card.className = "card item-card";
 
   const isFav = favorites.has(item.link);
+  const reactionId = encodeURIComponent(item.link);
 
   card.innerHTML = `
     <a class="item-top" href="${item.link}" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
@@ -298,6 +301,14 @@ function buildItemCard(item) {
       ${memberBadgeHtml(item.members)}
       <span>${escapeHtml(item.source_name)}</span>
       ${item.time ? `<span>· ${item.time}</span>` : ""}
+    </div>
+    <div class="item-reactions">
+      ${REACTION_EMOJIS.map(
+        (emoji) => `
+        <button class="reaction-btn" data-emoji="${emoji}" type="button">
+          <span class="reaction-emoji">${emoji}</span><span class="reaction-count">·</span>
+        </button>`
+      ).join("")}
     </div>
     <div class="item-actions">
       <button class="item-action-btn fav-btn${isFav ? " favorited" : ""}" title="즐겨찾기" type="button">${isFav ? "★" : "☆"}</button>
@@ -324,7 +335,65 @@ function buildItemCard(item) {
     shareLink(item.link, item.title);
   });
 
+  setupReactionButtons(card, reactionId);
+
   return card;
+}
+
+// ── 반응(이모지) 버튼 - Cloudflare Worker + KV로 익명 카운트 저장 ──────
+function setupReactionButtons(card, reactionId) {
+  const buttons = card.querySelectorAll(".reaction-btn");
+
+  // 이 브라우저에서 이미 누른 이모지는 표시만 해두고(서버도 하루 1회로 막지만,
+  // 굳이 실패할 요청을 또 보내지 않도록 미리 비활성화)
+  buttons.forEach((btn) => {
+    const emoji = btn.dataset.emoji;
+    const reactedKey = `rescene_reacted_${reactionId}_${emoji}`;
+    if (localStorage.getItem(reactedKey)) {
+      btn.classList.add("reacted");
+    }
+    btn.addEventListener("click", async (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (btn.classList.contains("reacted")) return;
+
+      btn.disabled = true;
+      try {
+        const res = await fetch(`${REACTION_API_BASE}/react`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ id: reactionId, emoji }),
+        });
+        if (res.ok) {
+          const data = await res.json();
+          btn.querySelector(".reaction-count").textContent = data[emoji];
+          btn.classList.add("reacted");
+          try {
+            localStorage.setItem(`rescene_reacted_${reactionId}_${emoji}`, "1");
+          } catch (err) {
+            // localStorage 사용 불가 환경이면 조용히 무시
+          }
+        }
+      } catch (err) {
+        // 네트워크 오류 등은 조용히 무시 (반응 기능은 부가 기능이라 실패해도 사이트 이용엔 지장 없음)
+      }
+      btn.disabled = false;
+    });
+  });
+
+  // 카드가 만들어질 때 현재 카운트를 비동기로 가져와서 채워넣음
+  fetch(`${REACTION_API_BASE}/counts?id=${reactionId}`)
+    .then((res) => (res.ok ? res.json() : null))
+    .then((counts) => {
+      if (!counts) return;
+      buttons.forEach((btn) => {
+        const emoji = btn.dataset.emoji;
+        btn.querySelector(".reaction-count").textContent = counts[emoji] || 0;
+      });
+    })
+    .catch(() => {
+      // 네트워크 오류 등은 조용히 무시
+    });
 }
 
 // ── 아카이브 렌더링 ───────────────────────────────────────

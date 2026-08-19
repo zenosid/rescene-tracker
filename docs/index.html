@@ -303,6 +303,23 @@
     display: block;
   }
   .item-title:hover { color: var(--aurora-cyan); }
+  .item-reactions { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+  .reaction-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--card-border);
+    border-radius: 999px;
+    padding: 4px 9px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.15s ease;
+  }
+  .reaction-btn:hover { border-color: rgba(255,255,255,0.3); transform: translateY(-1px); }
+  .reaction-btn:disabled { cursor: wait; opacity: 0.6; }
+  .reaction-btn.reacted { background: rgba(155,107,255,0.18); border-color: var(--aurora-violet); }
+  .reaction-count { font-family: 'JetBrains Mono', monospace; color: var(--text-muted); font-size: 11px; min-width: 8px; text-align: center; }
   .item-actions {
     position: absolute;
     top: 12px;
