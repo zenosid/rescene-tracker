@@ -61,7 +61,7 @@ const PLATFORM_LABELS = {
 };
 const FAVORITES_KEY = "rescene_tracker_favorites"; // localStorage 키 (이 브라우저 전용)
 const REACTION_API_BASE = "https://rescene-reactions.zenosid1.workers.dev";
-const REACTION_EMOJIS = ["👍", "🥹", "🔥", "😍"];
+const REACTION_EMOJIS = ["👍", "🥹", "🔥", "😍", "❤️"];
 
 const CATEGORY_LIST = ["음악방송", "MV", "Live", "Shorts", "자체컨텐츠", "외부컨텐츠", "기타"];
 
@@ -341,6 +341,8 @@ function buildItemCard(item) {
 }
 
 // ── 반응(이모지) 버튼 - Cloudflare Worker + KV로 익명 카운트 저장 ──────
+let pendingReactionQueue = []; // 카드마다 개별 조회하지 않고 모았다가 한 번에 배치 조회
+
 function setupReactionButtons(card, reactionId) {
   const buttons = card.querySelectorAll(".reaction-btn");
 
@@ -355,7 +357,6 @@ function setupReactionButtons(card, reactionId) {
     btn.addEventListener("click", async (e) => {
       e.preventDefault();
       e.stopPropagation();
-      if (btn.classList.contains("reacted")) return;
 
       btn.disabled = true;
       try {
@@ -367,9 +368,13 @@ function setupReactionButtons(card, reactionId) {
         if (res.ok) {
           const data = await res.json();
           btn.querySelector(".reaction-count").textContent = data[emoji];
-          btn.classList.add("reacted");
+          btn.classList.toggle("reacted", data.reacted);
           try {
-            localStorage.setItem(`rescene_reacted_${reactionId}_${emoji}`, "1");
+            if (data.reacted) {
+              localStorage.setItem(reactedKey, "1");
+            } else {
+              localStorage.removeItem(reactedKey);
+            }
           } catch (err) {
             // localStorage 사용 불가 환경이면 조용히 무시
           }
@@ -381,19 +386,37 @@ function setupReactionButtons(card, reactionId) {
     });
   });
 
-  // 카드가 만들어질 때 현재 카운트를 비동기로 가져와서 채워넣음
-  fetch(`${REACTION_API_BASE}/counts?id=${reactionId}`)
-    .then((res) => (res.ok ? res.json() : null))
-    .then((counts) => {
+  // 카드마다 바로 조회하면 카드 수만큼 요청이 쏟아져서 느려지므로, 일단 큐에만
+  // 쌓아두고 렌더링이 다 끝난 뒤 flushReactionCountQueue()가 한 번에 처리함
+  pendingReactionQueue.push({ reactionId, buttons });
+}
+
+// 큐에 쌓인 카드들의 반응 개수를 한 번의 요청으로 모아서 가져옴
+// (renderArchive/renderFavorites 등 카드를 다 그린 직후에 호출해야 함)
+async function flushReactionCountQueue() {
+  if (pendingReactionQueue.length === 0) return;
+  const queue = pendingReactionQueue;
+  pendingReactionQueue = [];
+
+  try {
+    const res = await fetch(`${REACTION_API_BASE}/counts-batch`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ids: queue.map((q) => q.reactionId) }),
+    });
+    if (!res.ok) return;
+    const data = await res.json();
+    queue.forEach(({ reactionId, buttons }) => {
+      const counts = data[reactionId];
       if (!counts) return;
       buttons.forEach((btn) => {
         const emoji = btn.dataset.emoji;
         btn.querySelector(".reaction-count").textContent = counts[emoji] || 0;
       });
-    })
-    .catch(() => {
-      // 네트워크 오류 등은 조용히 무시
     });
+  } catch (err) {
+    // 네트워크 오류 등은 조용히 무시
+  }
 }
 
 // ── 아카이브 렌더링 ───────────────────────────────────────
@@ -498,6 +521,8 @@ function renderArchive() {
     });
     container.appendChild(moreBtn);
   }
+
+  flushReactionCountQueue();
 }
 
 // ── 즐겨찾기 탭 렌더링 ───────────────────────────────────────
@@ -517,6 +542,8 @@ function renderFavorites() {
   grid.className = "item-grid";
   favItems.forEach((item) => grid.appendChild(buildItemCard(item)));
   container.appendChild(grid);
+
+  flushReactionCountQueue();
 }
 
 // ── 링크 모음 렌더링 ─────────────────────────────────────────
