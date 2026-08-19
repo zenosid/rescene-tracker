@@ -74,7 +74,7 @@ const state = {
   reactionSort: "likes", // "likes" | "recent"
   archiveSort: "newest", // "newest" | "oldest"
   archiveSearch: "", // 제목 텍스트 검색어
-  archiveVisibleGroups: 30, // "더보기"로 늘어나는, 화면에 그릴 날짜 그룹 개수
+  archiveVisibleItemTarget: 150, // "더보기"로 늘어나는, 화면에 그릴 대략적인 카드 개수 목표
 };
 
 // ── 즐겨찾기 (localStorage, 이 브라우저에만 저장) ───────────
@@ -183,7 +183,7 @@ function buildSourceChips() {
     tab.textContent = icon + " " + label;
     tab.addEventListener("click", () => {
       state.sourceTab = key;
-      state.archiveVisibleGroups = 30;
+      state.archiveVisibleItemTarget = 150;
       buildSourceChips();
       renderArchive();
     });
@@ -206,7 +206,7 @@ function buildMemberChips() {
       } else {
         state.members.add(name);
       }
-      state.archiveVisibleGroups = 30;
+      state.archiveVisibleItemTarget = 150;
       buildMemberChips();
       renderArchive();
     });
@@ -227,7 +227,7 @@ function buildCategoryChips() {
     tab.textContent = cat === "all" ? "🗂️ 전체" : cat;
     tab.addEventListener("click", () => {
       state.categoryTab = cat;
-      state.archiveVisibleGroups = 30;
+      state.archiveVisibleItemTarget = 150;
       buildCategoryChips();
       renderArchive();
     });
@@ -253,7 +253,7 @@ function buildYearChips() {
     tab.textContent = year === "all" ? "🗂️ 전체" : year + "년";
     tab.addEventListener("click", () => {
       state.yearTab = year;
-      state.archiveVisibleGroups = 30;
+      state.archiveVisibleItemTarget = 150;
       buildYearChips();
       renderArchive();
     });
@@ -433,7 +433,7 @@ function renderArchive() {
   container.appendChild(searchBar);
   searchBar.querySelector("input").addEventListener("input", (e) => {
     state.archiveSearch = e.target.value;
-    state.archiveVisibleGroups = 30; // 검색어 바뀌면 페이지네이션 처음부터
+    state.archiveVisibleItemTarget = 150; // 검색어 바뀌면 페이지네이션 처음부터
     renderArchive();
     // 입력 중 포커스가 날아가지 않도록 다시 포커스 + 커서 위치 복원
     const input = document.getElementById("archiveSearchInput");
@@ -451,7 +451,7 @@ function renderArchive() {
   sortBar.querySelectorAll("button").forEach((btn) => {
     btn.addEventListener("click", () => {
       state.archiveSort = btn.dataset.archiveSort;
-      state.archiveVisibleGroups = 30;
+      state.archiveVisibleItemTarget = 150;
       renderArchive();
     });
   });
@@ -461,9 +461,11 @@ function renderArchive() {
   const orderedGroups =
     state.archiveSort === "oldest" ? [...SITE_DATA.archive].reverse() : SITE_DATA.archive;
 
-  // 필터를 통과하는 그룹만 먼저 추려서, 그중 앞에서부터 N개(더보기 단위)만 실제로 그림
-  // - 9000건 넘게 쌓인 상태라 한 번에 다 그리면 느려져서, 처음엔 일부만 그리고
-  //   "더보기"를 눌러야 더 그리는 방식으로 부담을 줄임
+  // 필터를 통과하는 그룹만 먼저 추려서, 카드 누적 개수가 목표치를 넘을 때까지만
+  // 실제로 그림 - 9000건 넘게 쌓인 상태인데, 하루에 카드가 수백 개씩 몰린 날도
+  // 있어서 "날짜 그룹 30개"처럼 그룹 개수로만 제한하면 여전히 느려질 수 있음.
+  // 그래서 그룹이 아니라 실제 카드 개수를 기준으로 끊습니다 (다만 그룹 하나를
+  // 쪼개서 반만 보여주면 이상하니, 목표치를 넘기는 그 그룹까지는 통째로 포함).
   const matchingGroups = [];
   orderedGroups.forEach((group) => {
     if (state.yearTab !== "all" && group.date.slice(0, 4) !== state.yearTab) return;
@@ -472,7 +474,14 @@ function renderArchive() {
     matchingGroups.push({ group, visibleItems });
   });
 
-  const groupsToRender = matchingGroups.slice(0, state.archiveVisibleGroups);
+  const groupsToRender = [];
+  let accumulatedItems = 0;
+  for (const entry of matchingGroups) {
+    if (accumulatedItems >= state.archiveVisibleItemTarget) break;
+    groupsToRender.push(entry);
+    accumulatedItems += entry.visibleItems.length;
+  }
+
   let totalShown = 0;
   let lastYear = null;
 
@@ -513,10 +522,16 @@ function renderArchive() {
   if (matchingGroups.length > groupsToRender.length) {
     const moreBtn = document.createElement("button");
     moreBtn.className = "refresh-btn archive-more-btn";
-    const remainingGroups = matchingGroups.length - groupsToRender.length;
-    moreBtn.textContent = `더보기 (날짜 ${remainingGroups}개 더 있음)`;
+    const remainingItems = matchingGroups
+      .slice(groupsToRender.length)
+      .reduce((sum, g) => sum + g.visibleItems.length, 0);
+    moreBtn.textContent = `더보기 (${remainingItems.toLocaleString()}건 더 있음)`;
     moreBtn.addEventListener("click", () => {
-      state.archiveVisibleGroups += 30;
+      // 그냥 목표치에 150을 더하면, 특정 날짜 하나에 카드가 아주 많이 몰려있을
+      // 때(예: 320개) 목표치가 여전히 그 날짜 하나를 못 넘어서 버튼을 눌러도
+      // 아무 변화가 없는 것처럼 보일 수 있음 - 그래서 "방금까지 실제로 보여준
+      // 개수"를 기준으로 +150을 해서, 누르면 항상 눈에 보이는 변화가 있게 함
+      state.archiveVisibleItemTarget = accumulatedItems + 150;
       renderArchive();
     });
     container.appendChild(moreBtn);
