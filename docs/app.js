@@ -422,28 +422,37 @@ async function flushReactionCountQueue() {
 // ── 아카이브 렌더링 ───────────────────────────────────────
 function renderArchive() {
   const container = document.getElementById("archiveContent");
-  container.innerHTML = "";
 
-  // 검색창
-  const searchBar = document.createElement("div");
-  searchBar.className = "archive-search-bar";
-  searchBar.innerHTML = `
-    <input type="text" id="archiveSearchInput" placeholder="🔍 제목으로 검색..." value="${escapeHtml(state.archiveSearch)}" />
-  `;
-  container.appendChild(searchBar);
-  searchBar.querySelector("input").addEventListener("input", (e) => {
-    state.archiveSearch = e.target.value;
-    state.archiveVisibleItemTarget = 150; // 검색어 바뀌면 페이지네이션 처음부터
-    renderArchive();
-    // 입력 중 포커스가 날아가지 않도록 다시 포커스 + 커서 위치 복원
+  // 검색창/정렬바가 이미 있으면 절대 다시 만들지 않음 - 검색어 입력할 때마다
+  // 이 부분(특히 <input>)을 통째로 지웠다가 다시 만들면, 브라우저가 한글
+  // 조합(IME) 상태를 잃어버려서 "ㄹㅓ브어택"처럼 자음/모음이 안 붙는 문제와,
+  // 검색 결과가 한 번 비어버리면 그 뒤로 입력창이 먹통이 되는 문제가 생겼음.
+  // 그래서 검색창/정렬바는 최초 1번만 만들고, 그 아래 결과 영역만 매번 다시 그림.
+  if (!document.getElementById("archiveControls")) {
+    container.innerHTML = `
+      <div id="archiveControls">
+        <div class="archive-search-bar">
+          <input type="text" id="archiveSearchInput" placeholder="🔍 제목으로 검색..." />
+        </div>
+        <div class="archive-sort-bar" id="archiveSortBar"></div>
+      </div>
+      <div id="archiveResults"></div>
+    `;
     const input = document.getElementById("archiveSearchInput");
-    input.focus();
-    input.setSelectionRange(state.archiveSearch.length, state.archiveSearch.length);
-  });
+    input.value = state.archiveSearch;
+    input.addEventListener("input", (e) => {
+      state.archiveSearch = e.target.value;
+      state.archiveVisibleItemTarget = 150; // 검색어 바뀌면 페이지네이션 처음부터
+      renderArchiveResults(); // 검색창 자체는 절대 건드리지 않고 결과만 다시 그림
+    });
+  }
 
-  // 정렬 토글 (최신순 기본 / 과거순)
-  const sortBar = document.createElement("div");
-  sortBar.className = "archive-sort-bar";
+  renderArchiveSortBar();
+  renderArchiveResults();
+}
+
+function renderArchiveSortBar() {
+  const sortBar = document.getElementById("archiveSortBar");
   sortBar.innerHTML = `
     <button class="source-tab${state.archiveSort === "newest" ? " active" : ""}" data-archive-sort="newest">🕒 최신순</button>
     <button class="source-tab${state.archiveSort === "oldest" ? " active" : ""}" data-archive-sort="oldest">📜 과거순</button>
@@ -452,10 +461,15 @@ function renderArchive() {
     btn.addEventListener("click", () => {
       state.archiveSort = btn.dataset.archiveSort;
       state.archiveVisibleItemTarget = 150;
-      renderArchive();
+      renderArchiveSortBar();
+      renderArchiveResults();
     });
   });
-  container.appendChild(sortBar);
+}
+
+function renderArchiveResults() {
+  const container = document.getElementById("archiveResults");
+  container.innerHTML = "";
 
   // SITE_DATA.archive는 항상 최신순으로 옴 - 과거순이면 그대로 뒤집으면 됨
   const orderedGroups =
@@ -515,7 +529,7 @@ function renderArchive() {
   });
 
   if (matchingGroups.length === 0) {
-    container.innerHTML += `<div class="empty-state">조건에 맞는 항목이 없습니다.<br/>필터를 조정하거나 검색어를 바꿔보세요.</div>`;
+    container.innerHTML = `<div class="empty-state">조건에 맞는 항목이 없습니다.<br/>필터를 조정하거나 검색어를 바꿔보세요.</div>`;
     return;
   }
 
@@ -532,7 +546,7 @@ function renderArchive() {
       // 아무 변화가 없는 것처럼 보일 수 있음 - 그래서 "방금까지 실제로 보여준
       // 개수"를 기준으로 +150을 해서, 누르면 항상 눈에 보이는 변화가 있게 함
       state.archiveVisibleItemTarget = accumulatedItems + 150;
-      renderArchive();
+      renderArchiveResults();
     });
     container.appendChild(moreBtn);
   }
