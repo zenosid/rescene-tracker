@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-23 17:55",
+  "generated_at": "2026-08-23 18:03",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -173754,7 +173754,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-23 15:43",
+        "checked_at": "2026-08-23 18:03",
         "change": {
           "kind": "same"
         }
@@ -173763,19 +173763,18 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-23 15:43",
+        "checked_at": "2026-08-23 18:03",
         "change": {
-          "kind": "up",
-          "delta": 1
+          "kind": "same"
         }
       },
       {
         "rank": 9,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-23 15:43",
+        "checked_at": "2026-08-23 18:03",
         "change": {
-          "kind": "new"
+          "kind": "same"
         }
       }
     ]
@@ -173796,14 +173795,6 @@ const SITE_DATA = {
         "title": "2026 천안 K-컬처 박람회 개막 공연 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-09-04",
-        "type": "공연",
-        "title": "‘리센느·다비치·멜로망스 온다’ 천안 K-컬처박람회, 체험형으로 확...",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 콘서트) · 네이버 뉴스",
-        "is_estimated": true,
         "mention_count": 1
       },
       {
@@ -173901,30 +173892,6 @@ const SITE_DATA = {
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
-      },
-      {
-        "date": "2026-12-05",
-        "type": "행사",
-        "title": "AAA 2026 (1일차)",
-        "note": "2026.12.05(토)~12.06(일) 진행",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-12-06",
-        "type": "행사",
-        "title": "AAA 2026 (2일차)",
-        "note": "2026.12.05(토)~12.06(일) 진행",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2027-07-20",
-        "type": "발매",
-        "title": "리센느 '프리티 걸'에 팬심 응답…미나미, 콘셉트 소화 1위",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 컴백) · 네이버 뉴스",
-        "is_estimated": true,
-        "mention_count": 1
       }
     ],
     "past": [
@@ -173967,14 +173934,6 @@ const SITE_DATA = {
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
-      },
-      {
-        "date": "2026-08-12",
-        "type": "공연",
-        "title": "리센느 제나 ‘공주님 손하트’ [MK포토]",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 콘서트) · 네이버 뉴스 외 9건 추가 언급",
-        "is_estimated": true,
-        "mention_count": 10
       },
       {
         "date": "2026-08-09",
@@ -174022,14 +173981,6 @@ const SITE_DATA = {
         "title": "롯데자이언츠 시구 (09:30 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-07-29",
-        "type": "행사",
-        "title": "리센느 원이 \"'무섭노', 무서웠다\" 심경 고백..\"뭐가 무섭노?\" 김선태 '돈...",
-        "note": "[추정] 뉴스 기사 자동 추출 (키워드: 출격) · 네이버 뉴스",
-        "is_estimated": true,
         "mention_count": 1
       },
       {
