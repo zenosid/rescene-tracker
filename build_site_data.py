@@ -17,7 +17,7 @@ from datetime import datetime, date
 from config import (
     OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS,
     RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS, ARCHIVE_DISPLAY_LIMIT, TROPHY_ITEMS,
-    PHOTOCARD_RELEASES,
+    PHOTOCARD_RELEASES, RADIO_CHANNELS,
 )
 from db import (
     init_db, get_conn, get_recent_items, get_official_schedule,
@@ -271,6 +271,7 @@ def main():
         "anniversaries": build_anniversaries(),
         "trophies": build_trophies(),
         "photocard_releases": PHOTOCARD_RELEASES,
+        "radio_channels": RADIO_CHANNELS,
     }
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write("const SITE_DATA = ")

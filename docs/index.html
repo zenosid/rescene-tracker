@@ -515,6 +515,51 @@
   .stats-monthbar-label { font-family: 'JetBrains Mono', monospace; font-size: 9.5px; color: var(--text-faint); margin-top: 6px; white-space: nowrap; }
 
   /* ── 포토카드 발매 기록 ───────────────────────────────── */
+  .letter-form-card { padding: 24px 20px; margin-bottom: 16px; }
+  .letter-field { margin-bottom: 16px; }
+  .letter-field:last-of-type { margin-bottom: 0; }
+  .letter-field label { display: block; font-size: 12.5px; color: var(--text-muted); margin-bottom: 6px; font-weight: 600; }
+  .letter-field input[type="text"],
+  .letter-field select,
+  .letter-field textarea {
+    width: 100%;
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 14px;
+    resize: vertical;
+  }
+  .letter-field input:focus,
+  .letter-field select:focus,
+  .letter-field textarea:focus { outline: none; border-color: var(--aurora-violet); }
+  .letter-preview-card { padding: 22px 20px; }
+  .letter-preview-text {
+    font-size: 14.5px;
+    line-height: 1.8;
+    white-space: pre-wrap;
+    color: var(--text-primary);
+  }
+  .letter-radio-section { margin-top: 20px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08); }
+  .letter-radio-label { font-size: 12px; color: var(--text-faint); margin-bottom: 10px; }
+  .letter-radio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+  .letter-radio-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 10px 12px;
+    text-decoration: none;
+    transition: all 0.15s ease;
+  }
+  .letter-radio-btn:hover { border-color: var(--aurora-violet); background: rgba(155,107,255,0.1); }
+  .letter-radio-broadcaster { font-size: 10.5px; font-weight: 700; color: var(--aurora-violet); }
+  .letter-radio-name { font-size: 13px; font-weight: 600; color: var(--text-primary); }
   .photocard-row {
     display: flex;
     align-items: center;
@@ -729,6 +774,7 @@
     <button class="tab-btn" data-tab="stats">📈 통계</button>
     <button class="tab-btn" data-tab="photocards">🎴 포토카드</button>
     <button class="tab-btn" data-tab="favorites">⭐ 즐겨찾기</button>
+    <button class="tab-btn" data-tab="letter">✍️ 사연쓰기</button>
     <button class="tab-btn" data-tab="links">🔗 링크</button>
     <button class="tab-btn" data-tab="reactions">💬 반응</button>
     <button class="tab-btn" data-tab="about">ℹ️ 안내</button>
@@ -811,6 +857,40 @@
   </div>
 
   <!-- ══════════════ 링크 모음 ══════════════ -->
+  <!-- ══════════════ 사연쓰기 ══════════════ -->
+  <div class="view" id="view-letter">
+    <div class="card" style="padding:14px 20px; margin-bottom:20px;">
+      <span style="font-size:12.5px; color:var(--text-muted);">
+        ✍️ 아래 내용을 채우시면 사연 초안을 만들어드립니다. 실제 방송사에
+        자동으로 보내지 않으며, 만들어진 초안을 복사해서 직접 신청하시면 됩니다.
+      </span>
+    </div>
+    <div class="card letter-form-card">
+      <div class="letter-field">
+        <label for="letterSong">신청곡</label>
+        <select id="letterSong"></select>
+      </div>
+      <div class="letter-field">
+        <label for="letterMood">오늘 나의 상황/기분 (짧게)</label>
+        <input type="text" id="letterMood" placeholder="예: 시험 끝나고 홀가분한 기분이에요" />
+      </div>
+      <div class="letter-field">
+        <label for="letterMessage">하고 싶은 말 (자유롭게)</label>
+        <textarea id="letterMessage" rows="4" placeholder="예: 힘든 하루였는데 이 노래 들으면서 힘내려고요"></textarea>
+      </div>
+      <button id="letterGenerateBtn" class="refresh-btn" style="margin-top:14px;">사연 만들기</button>
+    </div>
+    <div class="card letter-preview-card" id="letterPreviewCard" style="display:none;">
+      <div class="letter-preview-text" id="letterPreviewText"></div>
+      <button id="letterCopyBtn" class="share-btn" style="margin-top:14px;">📋 복사하기</button>
+
+      <div class="letter-radio-section">
+        <div class="letter-radio-label">📱 문자로 신청하기 (채널 선택 → 문자 앱에 번호+내용 자동으로 채워짐, 전송은 직접)</div>
+        <div class="letter-radio-grid" id="letterRadioGrid"></div>
+      </div>
+    </div>
+  </div>
+
   <div class="view" id="view-links">
     <div id="linksContent"></div>
   </div>

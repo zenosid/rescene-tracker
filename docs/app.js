@@ -1021,6 +1021,65 @@ function renderStats() {
   }
 }
 
+// ── 사연쓰기 도우미 (자동 제출 아님, 초안만 만들어서 복사하는 용도) ────
+function initLetterForm() {
+  const songSelect = document.getElementById("letterSong");
+  if (!songSelect) return;
+
+  (SITE_DATA.all_songs || []).forEach((song) => {
+    const opt = document.createElement("option");
+    opt.value = song;
+    opt.textContent = song;
+    songSelect.appendChild(opt);
+  });
+
+  document.getElementById("letterGenerateBtn").addEventListener("click", () => {
+    const song = songSelect.value || "신청곡";
+    const mood = document.getElementById("letterMood").value.trim();
+    const message = document.getElementById("letterMessage").value.trim();
+
+    const lines = [];
+    lines.push("안녕하세요, RESCENE(리센느) 팬입니다.");
+    if (mood) lines.push(mood + ".");
+    if (message) lines.push(message);
+    lines.push(`오늘 리센느의 '${song}' 신청하고 싶습니다. 예쁘게 틀어주시면 감사하겠습니다!`);
+
+    document.getElementById("letterPreviewText").textContent = lines.join(" ");
+    document.getElementById("letterPreviewCard").style.display = "block";
+    renderLetterRadioGrid(lines.join(" "));
+  });
+
+  document.getElementById("letterCopyBtn").addEventListener("click", async () => {
+    const text = document.getElementById("letterPreviewText").textContent;
+    try {
+      await navigator.clipboard.writeText(text);
+      showToast("복사했어요 📋 방송사 신청 페이지에 붙여넣어주세요");
+    } catch (e) {
+      showToast("복사에 실패했습니다. 직접 선택해서 복사해주세요.");
+    }
+  });
+}
+
+// 채널을 누르면 문자 앱이 "번호+내용 미리 채워진 채로" 열림 (sms: 링크는
+// 메일 앱 여는 mailto: 링크와 같은 원리 - 실제 전송은 사용자가 직접 눌러야 함)
+function renderLetterRadioGrid(letterText) {
+  const grid = document.getElementById("letterRadioGrid");
+  if (!grid) return;
+  grid.innerHTML = "";
+
+  const channels = SITE_DATA.radio_channels || [];
+  channels.forEach((ch) => {
+    const a = document.createElement("a");
+    a.className = "letter-radio-btn";
+    a.href = `sms:${ch.sms_number}?body=${encodeURIComponent(letterText)}`;
+    a.innerHTML = `
+      <span class="letter-radio-broadcaster">${escapeHtml(ch.broadcaster)}</span>
+      <span class="letter-radio-name">${escapeHtml(ch.name)} · #${escapeHtml(ch.sms_number)}</span>
+    `;
+    grid.appendChild(a);
+  });
+}
+
 function renderPhotocards() {
   const container = document.getElementById("photocardContent");
   if (!container) return;
@@ -1171,4 +1230,5 @@ renderAnniversaries();
 renderTrophies();
 renderPhotocards();
 renderStats();
+initLetterForm();
 startAutoRefreshWatcher();
