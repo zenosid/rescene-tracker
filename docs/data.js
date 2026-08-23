@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-23 22:42",
+  "generated_at": "2026-08-24 03:32",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -175507,7 +175507,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-23 21:43",
+        "checked_at": "2026-08-24 03:32",
         "change": {
           "kind": "same"
         }
@@ -175516,7 +175516,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-23 21:43",
+        "checked_at": "2026-08-24 03:32",
         "change": {
           "kind": "same"
         }
@@ -175525,7 +175525,7 @@ const SITE_DATA = {
         "rank": 9,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-23 21:43",
+        "checked_at": "2026-08-24 03:32",
         "change": {
           "kind": "same"
         }
@@ -175538,6 +175538,14 @@ const SITE_DATA = {
         "date": "2026-08-27",
         "type": "기타",
         "title": "2026 K-WORLD DREAM AWARDS (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-08-30",
+        "type": "기타",
+        "title": "SBS 열혈농구단2 (02:05 PM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -177518,42 +177526,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 215
+      "d_day": 214
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 275
+      "d_day": 274
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 98
+      "d_day": 97
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2026-10-11",
-      "d_day": 49
+      "d_day": 48
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2027-08-19",
-      "d_day": 361
+      "d_day": 360
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 96
+      "d_day": 95
     }
   ],
   "trophies": [
