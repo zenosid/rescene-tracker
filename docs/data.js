@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-23 22:08",
+  "generated_at": "2026-08-23 22:23",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -177751,6 +177751,43 @@ const SITE_DATA = {
       "date": "2025-12-16",
       "release_name": "SCENEDROME - 팬사인회 앨범 컷페이지",
       "type": "팬사인회"
+    }
+  ],
+  "radio_channels": [
+    {
+      "broadcaster": "KBS",
+      "name": "쿨FM (Happy/Cool)",
+      "sms_number": "8910"
+    },
+    {
+      "broadcaster": "KBS",
+      "name": "해피FM",
+      "sms_number": "1061"
+    },
+    {
+      "broadcaster": "KBS",
+      "name": "클래식FM",
+      "sms_number": "9310"
+    },
+    {
+      "broadcaster": "MBC",
+      "name": "FM4U",
+      "sms_number": "8000"
+    },
+    {
+      "broadcaster": "MBC",
+      "name": "표준FM",
+      "sms_number": "8001"
+    },
+    {
+      "broadcaster": "SBS",
+      "name": "파워FM",
+      "sms_number": "1077"
+    },
+    {
+      "broadcaster": "SBS",
+      "name": "러브FM",
+      "sms_number": "1035"
     }
   ]
 };
