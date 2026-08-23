@@ -291,7 +291,63 @@ RADIO_CHANNELS = [
     {"broadcaster": "MBC", "name": "표준FM", "sms_number": "8001"},
     {"broadcaster": "SBS", "name": "파워FM", "sms_number": "1077"},
     {"broadcaster": "SBS", "name": "러브FM", "sms_number": "1035"},
+    {"broadcaster": "EBS", "name": "FM", "sms_number": "1045"},
 ]
+
+# ── 채널별 시간대 편성표 (DJ 자동 감지용) ────────────────────────
+# 사연쓰기 탭에서 채널을 누르면, 지금 시각 기준으로 이 표에서 DJ를 찾아
+# 인사말에 자동으로 넣어줍니다. 아직 KBS 쿨FM(평일)만 채워뒀고, 나머지
+# 채널/주말 시간표는 확인되는 대로 추가하면 됩니다. days는
+# "mon","tue","wed","thu","fri","sat","sun" 조합.
+# (나무위키 KBS 2FM 문서 기준으로 정리, 2026-07 기준 - 개편되면 바뀔 수 있음)
+RADIO_SCHEDULE = {
+    "8910": [  # KBS 쿨FM
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "05:00", "end": "07:00", "dj": "허유원"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "07:00", "end": "09:00", "dj": "조정식"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "09:00", "end": "11:00", "dj": "이현우"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "11:00", "end": "12:00", "dj": "박명수"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "12:00", "end": "14:00", "dj": "폴킴"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "14:00", "end": "16:00", "dj": "가비"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "16:00", "end": "18:00", "dj": "윤정수, 남창희"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "18:00", "end": "20:00", "dj": "이금희"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "20:00", "end": "22:00", "dj": "효정"},
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "start": "22:00", "end": "24:00", "dj": "한해"},
+    ],
+    "8000": [  # MBC FM4U
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "07:00", "end": "09:00", "dj": "테이"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "09:00", "end": "11:00", "dj": "윤상"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "11:00", "end": "12:00", "dj": "이문세"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "12:00", "end": "14:00", "dj": "김신영"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "14:00", "end": "16:00", "dj": "안영미"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "16:00", "end": "18:00", "dj": "이상순"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "18:00", "end": "20:00", "dj": "배철수"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "20:00", "end": "22:00", "dj": "김이나"},
+        {"days": ["mon", "tue", "wed"], "start": "22:00", "end": "24:00", "dj": "친한친구 방송반"},
+        {"days": ["thu", "fri"], "start": "22:00", "end": "24:00", "dj": "IDOL RADIO"},
+    ],
+    "1077": [  # SBS 파워FM
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "07:00", "end": "09:00", "dj": "김영철"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "09:00", "end": "11:00", "dj": "봉태규"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "11:00", "end": "12:00", "dj": "박하선"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "12:00", "end": "14:00", "dj": "주현영"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "14:00", "end": "16:00", "dj": "정찬우, 김태균"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "16:00", "end": "18:00", "dj": "황제성"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "18:00", "end": "20:00", "dj": "박소현"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "20:00", "end": "22:00", "dj": "웬디"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "22:00", "end": "23:00", "dj": "배성재"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "23:00", "end": "01:00", "dj": "딘딘"},
+    ],
+    "1035": [  # SBS 러브FM
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "09:00", "end": "11:00", "dj": "이숙영"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "12:00", "end": "14:00", "dj": "유민상"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "14:00", "end": "16:00", "dj": "정엽"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "18:00", "end": "20:00", "dj": "김창완"},
+        {"days": ["mon", "tue", "wed", "thu", "fri"], "start": "20:00", "end": "22:00", "dj": "김윤상"},
+    ],
+    "1045": [  # EBS FM - "경청"에 아이돌 게스트/신청곡 코너가 실제로 있어서 유용
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat"], "start": "22:00", "end": "24:00", "dj": "경청 DJ"},
+    ],
+}
 
 # ── 저장소 ──────────────────────────────────────────────────────
 DB_PATH = "rescene_tracker.db"
