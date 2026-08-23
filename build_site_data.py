@@ -15,12 +15,12 @@ from collections import defaultdict
 from datetime import datetime, date
 
 from config import (
-    SCHEDULE_ITEMS, OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS,
+    OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS,
     RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS, ARCHIVE_DISPLAY_LIMIT, TROPHY_ITEMS,
     PHOTOCARD_RELEASES,
 )
 from db import (
-    init_db, get_conn, get_recent_items, get_auto_schedule, get_official_schedule,
+    init_db, get_conn, get_recent_items, get_official_schedule,
     get_previous_ranks, get_recent_fan_reactions, get_recent_trophies,
 )
 from chart_tracker import get_latest_all
@@ -95,13 +95,13 @@ def build_chart():
 
 
 def build_schedule():
+    """
+    Mnet Plus 공식 스케줄만 사용합니다. 뉴스 기반 추정(auto_schedule)과 수동
+    등록(SCHEDULE_ITEMS)은 그동안 여러 차례 오탐이 있었어서(엉뚱한 날짜로
+    튀는 등) 신뢰도 문제로 뺐습니다. 공식 확인된 정보만 보여줍니다.
+    """
     today_str = now_kst().strftime("%Y-%m-%d")
 
-    manual_items = [
-        {**s, "is_estimated": False, "mention_count": 1} for s in SCHEDULE_ITEMS
-    ]
-
-    # 공식 스케줄(Mnet Plus) - 이미 확정된 정보이므로 추정 표시 없음
     with get_conn() as conn:
         official_rows = get_official_schedule(conn)
 
@@ -121,41 +121,8 @@ def build_schedule():
             }
         )
 
-    # 자동 추출된 항목(뉴스 기반)은 (날짜, 타입)이 같으면 하나로 합치고, 몇 건의
-    # 기사에서 언급됐는지 기록 (기사가 많을수록 신뢰도가 높다는 신호)
-    with get_conn() as conn:
-        auto_rows = get_auto_schedule(conn)
-
-    grouped_auto = {}
-    for row in auto_rows:
-        key = (row["date"], row["type"])
-        if key not in grouped_auto:
-            grouped_auto[key] = {
-                "date": row["date"],
-                "type": row["type"],
-                "title": row["title"],
-                "note": row["note"],
-                "is_estimated": True,
-                "mention_count": 1,
-            }
-        else:
-            grouped_auto[key]["mention_count"] += 1
-
-    auto_items = list(grouped_auto.values())
-    for item in auto_items:
-        if item["mention_count"] > 1:
-            item["note"] += f" 외 {item['mention_count'] - 1}건 추가 언급"
-
-    # 같은 날짜에 공식 스케줄이 이미 있으면, 뉴스 기반 추정 항목은 굳이 중복
-    # 표시하지 않음 (공식 정보가 있는데 불확실한 추정을 같이 보여줄 필요 없음)
-    # 공식(Mnet Plus) 또는 운영자가 직접 등록한 날짜와 겹치면, 불확실한 추정
-    # 항목은 굳이 같이 보여줄 필요 없음
-    trusted_dates = {item["date"] for item in official_items} | {item["date"] for item in manual_items}
-    auto_items = [item for item in auto_items if item["date"] not in trusted_dates]
-
-    all_items = manual_items + official_items + auto_items
-    upcoming = sorted([s for s in all_items if s["date"] >= today_str], key=lambda s: s["date"])
-    past = sorted([s for s in all_items if s["date"] < today_str], key=lambda s: s["date"], reverse=True)
+    upcoming = sorted([s for s in official_items if s["date"] >= today_str], key=lambda s: s["date"])
+    past = sorted([s for s in official_items if s["date"] < today_str], key=lambda s: s["date"], reverse=True)
     return {"upcoming": upcoming, "past": past}
 
 
