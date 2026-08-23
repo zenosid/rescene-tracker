@@ -517,6 +517,8 @@
   /* ── 포토카드 발매 기록 ───────────────────────────────── */
   .letter-form-card { padding: 24px 20px; margin-bottom: 16px; }
   .letter-field { margin-bottom: 16px; }
+  .letter-mode-toggle { display: flex; gap: 8px; margin-bottom: 20px; }
+  .letter-btn-row { display: flex; gap: 8px; margin-top: 14px; }
   .letter-field:last-of-type { margin-bottom: 0; }
   .letter-field label { display: block; font-size: 12.5px; color: var(--text-muted); margin-bottom: 6px; font-weight: 600; }
   .letter-field input[type="text"],
@@ -866,19 +868,58 @@
       </span>
     </div>
     <div class="card letter-form-card">
-      <div class="letter-field">
-        <label for="letterSong">신청곡</label>
-        <select id="letterSong"></select>
+      <div class="letter-mode-toggle">
+        <button class="source-tab active" data-letter-mode="build" type="button">🧩 선택해서 만들기</button>
+        <button class="source-tab" data-letter-mode="raw" type="button">✏️ 직접 입력</button>
       </div>
-      <div class="letter-field">
-        <label for="letterMood">오늘 나의 상황/기분 (짧게)</label>
-        <input type="text" id="letterMood" placeholder="예: 시험 끝나고 홀가분한 기분이에요" />
+
+      <div id="letterBuildMode">
+        <div class="letter-field">
+          <label for="letterSong">신청곡</label>
+          <select id="letterSong"></select>
+        </div>
+        <div class="letter-field">
+          <label for="letterSituation">상황</label>
+          <select id="letterSituation">
+            <option value="commute">출퇴근/이동 중</option>
+            <option value="home">집에서 쉬는 중</option>
+            <option value="study">공부/일하는 중</option>
+            <option value="hardday">힘든 하루를 보냄</option>
+            <option value="goodday">기분 좋은 하루를 보냄</option>
+            <option value="none">그냥 문득</option>
+          </select>
+        </div>
+        <div class="letter-field">
+          <label for="letterMoodSelect">분위기</label>
+          <select id="letterMoodSelect">
+            <option value="honest">솔직하게</option>
+            <option value="cheerful">밝고 경쾌하게</option>
+            <option value="calm">차분하게</option>
+            <option value="emotional">감성적으로</option>
+          </select>
+        </div>
+        <div class="letter-field">
+          <label for="letterMessage">추가로 하고 싶은 말 (선택)</label>
+          <textarea id="letterMessage" rows="3" placeholder="예: 오늘따라 이 노래가 듣고 싶었어요"></textarea>
+        </div>
       </div>
-      <div class="letter-field">
-        <label for="letterMessage">하고 싶은 말 (자유롭게)</label>
-        <textarea id="letterMessage" rows="4" placeholder="예: 힘든 하루였는데 이 노래 들으면서 힘내려고요"></textarea>
+
+      <div id="letterRawMode" style="display:none;">
+        <div class="letter-field">
+          <label for="letterRawText">사연 직접 입력</label>
+          <textarea id="letterRawText" rows="6" placeholder="원하시는 사연을 그대로 입력해주세요"></textarea>
+        </div>
       </div>
-      <button id="letterGenerateBtn" class="refresh-btn" style="margin-top:14px;">사연 만들기</button>
+
+      <div class="letter-field">
+        <label for="letterDjName">DJ 이름 (아시면 적어주세요, 인사말에 들어갑니다)</label>
+        <input type="text" id="letterDjName" placeholder="예: OOO" />
+      </div>
+
+      <div class="letter-btn-row">
+        <button id="letterGenerateBtn" class="refresh-btn">사연 만들기</button>
+        <button id="letterRegenerateBtn" class="share-btn" style="display:none;">🔄 다시 생성</button>
+      </div>
     </div>
     <div class="card letter-preview-card" id="letterPreviewCard" style="display:none;">
       <div class="letter-preview-text" id="letterPreviewText"></div>

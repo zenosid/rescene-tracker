@@ -1022,6 +1022,53 @@ function renderStats() {
 }
 
 // ── 사연쓰기 도우미 (자동 제출 아님, 초안만 만들어서 복사하는 용도) ────
+// 상황/분위기별 문구 후보 (다시 생성 누르면 이 중에서 무작위로 다시 뽑음)
+const LETTER_SITUATION_PHRASES = {
+  commute: ["출퇴근길에", "이동하는 길에", "차 안에서 라디오 듣다가"],
+  home: ["집에서 쉬다가", "편하게 쉬는 중에"],
+  study: ["공부하다가 잠깐", "일하다가 잠깐 쉬면서"],
+  hardday: ["오늘 좀 힘든 하루였는데", "조금 지치는 하루였는데"],
+  goodday: ["오늘 기분 좋은 일이 있었는데", "좋은 하루를 보내고"],
+  none: ["문득 생각나서", "그냥 듣고 싶어져서"],
+};
+const LETTER_MOOD_PHRASES = {
+  honest: ["솔직히 말하면", ""],
+  cheerful: ["기분 좋게", "신나게"],
+  calm: ["차분하게", "조용히"],
+  emotional: ["마음이 몽글몽글해지면서", "괜히 뭉클해지면서"],
+};
+
+function _pickRandom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function buildLetterText() {
+  const djName = document.getElementById("letterDjName").value.trim();
+  const opener = djName ? `${djName}님, 안녕하세요!` : "안녕하세요!";
+
+  const rawMode = document.querySelector('[data-letter-mode="raw"]').classList.contains("active");
+  if (rawMode) {
+    const rawText = document.getElementById("letterRawText").value.trim();
+    return [opener, rawText].filter(Boolean).join(" ");
+  }
+
+  const song = document.getElementById("letterSong").value || "신청곡";
+  const situation = document.getElementById("letterSituation").value;
+  const mood = document.getElementById("letterMoodSelect").value;
+  const extra = document.getElementById("letterMessage").value.trim();
+
+  const situationPhrase = _pickRandom(LETTER_SITUATION_PHRASES[situation] || [""]);
+  const moodPhrase = _pickRandom(LETTER_MOOD_PHRASES[mood] || [""]);
+
+  const middle = [situationPhrase, moodPhrase].filter(Boolean).join(" ");
+  const lines = [opener];
+  if (middle) lines.push(middle + " 신청 남깁니다.");
+  if (extra) lines.push(extra);
+  lines.push(`'${song}' 들려주시면 정말 감사하겠습니다!`);
+
+  return lines.join(" ");
+}
+
 function initLetterForm() {
   const songSelect = document.getElementById("letterSong");
   if (!songSelect) return;
@@ -1033,21 +1080,27 @@ function initLetterForm() {
     songSelect.appendChild(opt);
   });
 
-  document.getElementById("letterGenerateBtn").addEventListener("click", () => {
-    const song = songSelect.value || "신청곡";
-    const mood = document.getElementById("letterMood").value.trim();
-    const message = document.getElementById("letterMessage").value.trim();
-
-    const lines = [];
-    lines.push("안녕하세요, RESCENE(리센느) 팬입니다.");
-    if (mood) lines.push(mood + ".");
-    if (message) lines.push(message);
-    lines.push(`오늘 리센느의 '${song}' 신청하고 싶습니다. 예쁘게 틀어주시면 감사하겠습니다!`);
-
-    document.getElementById("letterPreviewText").textContent = lines.join(" ");
-    document.getElementById("letterPreviewCard").style.display = "block";
-    renderLetterRadioGrid(lines.join(" "));
+  // 모드 전환(선택해서 만들기 / 직접 입력)
+  document.querySelectorAll("[data-letter-mode]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("[data-letter-mode]").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      const isRaw = btn.dataset.letterMode === "raw";
+      document.getElementById("letterBuildMode").style.display = isRaw ? "none" : "block";
+      document.getElementById("letterRawMode").style.display = isRaw ? "block" : "none";
+    });
   });
+
+  const generate = () => {
+    const text = buildLetterText();
+    document.getElementById("letterPreviewText").textContent = text;
+    document.getElementById("letterPreviewCard").style.display = "block";
+    document.getElementById("letterRegenerateBtn").style.display = "inline-block";
+    renderLetterRadioGrid(text);
+  };
+
+  document.getElementById("letterGenerateBtn").addEventListener("click", generate);
+  document.getElementById("letterRegenerateBtn").addEventListener("click", generate);
 
   document.getElementById("letterCopyBtn").addEventListener("click", async () => {
     const text = document.getElementById("letterPreviewText").textContent;
