@@ -1024,32 +1024,47 @@ function renderStats() {
 // ── 사연쓰기 도우미 (자동 제출 아님, 초안만 만들어서 복사하는 용도) ────
 // 상황/분위기별 문구 후보 (다시 생성 누르면 이 중에서 무작위로 다시 뽑음)
 const LETTER_SITUATION_PHRASES = {
-  commute: ["출퇴근길에", "이동하는 길에", "차 안에서 라디오 듣다가"],
-  home: ["집에서 쉬다가", "편하게 쉬는 중에"],
-  study: ["공부하다가 잠깐", "일하다가 잠깐 쉬면서"],
-  hardday: ["오늘 좀 힘든 하루였는데", "조금 지치는 하루였는데"],
-  goodday: ["오늘 기분 좋은 일이 있었는데", "좋은 하루를 보내고"],
-  none: ["문득 생각나서", "그냥 듣고 싶어져서"],
+  commute: [
+    "야근 끝나고 텅 빈 늦은 버스 타고 집 가는 길인데",
+    "복잡한 출근길에 사람들 틈에 끼어서 가는 중인데",
+    "퇴근하고 지하철에 앉아서 가는 길인데",
+  ],
+  home: [
+    "하루 종일 집에서 뒹굴거리다가",
+    "밀린 집안일 다 끝내고 소파에 잠깐 앉았는데",
+  ],
+  study: [
+    "도서관에서 공부하다가 잠깐 머리 식히는 중인데",
+    "야근하다가 잠깐 숨 돌리는 중인데",
+  ],
+  hardday: [
+    "오늘따라 유난히 정신없고 힘든 하루였는데",
+    "종일 신경 쓸 일이 많아서 지친 하루였는데",
+  ],
+  goodday: [
+    "오늘 오랜만에 기분 좋은 일이 있었는데",
+    "생각보다 하루가 술술 풀려서 기분 좋은 채로 있는데",
+  ],
+  none: [
+    "딱히 별다른 이유는 없는데 그냥 듣고 싶어져서",
+    "라디오 듣다가 문득 이 노래가 생각나서",
+  ],
 };
-const LETTER_MOOD_PHRASES = {
-  honest: ["솔직히 말하면", ""],
-  cheerful: ["기분 좋게", "신나게"],
-  calm: ["차분하게", "조용히"],
-  emotional: ["마음이 몽글몽글해지면서", "괜히 뭉클해지면서"],
+const LETTER_MOOD_CLOSING = {
+  honest: ["솔직히 말하면 요즘 계속 이 노래만 듣고 있어요", "숨기지 않고 말하면 요즘 이 노래에 완전히 꽂혔어요"],
+  cheerful: ["신나게 텐션 좀 슬쩍 올리고 싶어요", "밝은 기운 좀 받고 싶더라고요"],
+  calm: ["차분하게 마음 좀 가라앉히고 싶어요", "조용히 하루를 마무리하고 싶어요"],
+  emotional: ["듣다 보면 괜히 마음이 몽글몽글해져요", "듣다 보면 괜히 뭉클해지더라고요"],
 };
 
 function _pickRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function buildLetterText() {
-  const djName = document.getElementById("letterDjName").value.trim();
-  const opener = djName ? `${djName}님, 안녕하세요!` : "안녕하세요!";
-
+function buildLetterBody() {
   const rawMode = document.querySelector('[data-letter-mode="raw"]').classList.contains("active");
   if (rawMode) {
-    const rawText = document.getElementById("letterRawText").value.trim();
-    return [opener, rawText].filter(Boolean).join(" ");
+    return document.getElementById("letterRawText").value.trim();
   }
 
   const song = document.getElementById("letterSong").value || "신청곡";
@@ -1058,15 +1073,55 @@ function buildLetterText() {
   const extra = document.getElementById("letterMessage").value.trim();
 
   const situationPhrase = _pickRandom(LETTER_SITUATION_PHRASES[situation] || [""]);
-  const moodPhrase = _pickRandom(LETTER_MOOD_PHRASES[mood] || [""]);
+  const moodClosing = _pickRandom(LETTER_MOOD_CLOSING[mood] || [""]);
 
-  const middle = [situationPhrase, moodPhrase].filter(Boolean).join(" ");
-  const lines = [opener];
-  if (middle) lines.push(middle + " 신청 남깁니다.");
-  if (extra) lines.push(extra);
-  lines.push(`'${song}' 들려주시면 정말 감사하겠습니다!`);
+  const lines = [];
+  // 1문장: 상황 + 분위기를 자연스럽게 이어붙인 서술 (예시 화면처럼 좀 더
+  // 길고 구체적인 느낌이 나도록)
+  if (situationPhrase && moodClosing) {
+    lines.push(`${situationPhrase}, ${moodClosing}.`);
+  } else if (situationPhrase) {
+    lines.push(situationPhrase + ".");
+  }
+  if (extra) lines.push(extra + ".");
+  // 2문장: 실제 신청 멘트
+  lines.push(`지친 하루 끝에 리센느의 '${song}' 신청해 봅니다, 틀어주시면 감사하겠습니다!`);
 
   return lines.join(" ");
+}
+
+// djOverride를 넘기면 그 이름으로, 안 넘기면 직접 입력한 DJ 이름(비어있으면
+// 그냥 "안녕하세요!")으로 인사말을 만듦 - 채널마다 지금 시각 DJ가 다를 수
+// 있어서, 채널 버튼 만들 때 채널별로 다시 계산해서 씀
+function buildLetterText(djOverride) {
+  const manualDj = document.getElementById("letterDjName").value.trim();
+  const djName = djOverride || manualDj;
+  const opener = djName ? `${djName}님, 안녕하세요!` : "안녕하세요!";
+  return [opener, buildLetterBody()].filter(Boolean).join(" ");
+}
+
+// 채널의 편성표(RADIO_SCHEDULE)에서 "지금 이 시각"에 해당하는 DJ를 찾음.
+// 편성표가 없거나 지금 시간대가 표에 없으면 null (수동 입력 DJ로 대체됨).
+function _getCurrentDjForChannel(smsNumber) {
+  const schedule = (SITE_DATA.radio_schedule || {})[smsNumber];
+  if (!schedule || schedule.length === 0) return null;
+
+  const now = new Date();
+  const dayNames = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+  const currentDay = dayNames[now.getDay()];
+  const currentMinutes = now.getHours() * 60 + now.getMinutes();
+
+  for (const slot of schedule) {
+    if (!slot.days.includes(currentDay)) continue;
+    const [startH, startM] = slot.start.split(":").map(Number);
+    const [endH, endM] = slot.end.split(":").map(Number);
+    const startMinutes = startH * 60 + startM;
+    const endMinutes = endH * 60 + endM;
+    if (currentMinutes >= startMinutes && currentMinutes < endMinutes) {
+      return slot.dj;
+    }
+  }
+  return null;
 }
 
 function initLetterForm() {
@@ -1096,7 +1151,7 @@ function initLetterForm() {
     document.getElementById("letterPreviewText").textContent = text;
     document.getElementById("letterPreviewCard").style.display = "block";
     document.getElementById("letterRegenerateBtn").style.display = "inline-block";
-    renderLetterRadioGrid(text);
+    renderLetterRadioGrid();
   };
 
   document.getElementById("letterGenerateBtn").addEventListener("click", generate);
@@ -1115,19 +1170,23 @@ function initLetterForm() {
 
 // 채널을 누르면 문자 앱이 "번호+내용 미리 채워진 채로" 열림 (sms: 링크는
 // 메일 앱 여는 mailto: 링크와 같은 원리 - 실제 전송은 사용자가 직접 눌러야 함)
-function renderLetterRadioGrid(letterText) {
+function renderLetterRadioGrid() {
   const grid = document.getElementById("letterRadioGrid");
   if (!grid) return;
   grid.innerHTML = "";
 
   const channels = SITE_DATA.radio_channels || [];
   channels.forEach((ch) => {
+    const autoDj = _getCurrentDjForChannel(ch.sms_number);
+    const channelText = buildLetterText(autoDj);
+
     const a = document.createElement("a");
     a.className = "letter-radio-btn";
-    a.href = `sms:${ch.sms_number}?body=${encodeURIComponent(letterText)}`;
+    a.href = `sms:${ch.sms_number}?body=${encodeURIComponent(channelText)}`;
     a.innerHTML = `
       <span class="letter-radio-broadcaster">${escapeHtml(ch.broadcaster)}</span>
       <span class="letter-radio-name">${escapeHtml(ch.name)} · #${escapeHtml(ch.sms_number)}</span>
+      ${autoDj ? `<span class="letter-radio-dj">🎙️ 지금 DJ: ${escapeHtml(autoDj)}</span>` : ""}
     `;
     grid.appendChild(a);
   });
