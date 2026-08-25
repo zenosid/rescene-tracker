@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-25 21:24",
+  "generated_at": "2026-08-25 21:51",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -184828,7 +184828,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-25 15:51",
+        "checked_at": "2026-08-25 21:51",
         "change": {
           "kind": "same"
         }
@@ -184837,17 +184837,16 @@ const SITE_DATA = {
         "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-25 15:51",
+        "checked_at": "2026-08-25 21:51",
         "change": {
-          "kind": "down",
-          "delta": 1
+          "kind": "same"
         }
       },
       {
         "rank": 9,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-25 15:51",
+        "checked_at": "2026-08-25 21:51",
         "change": {
           "kind": "same"
         }
@@ -184875,7 +184874,7 @@ const SITE_DATA = {
       {
         "date": "2026-09-02",
         "type": "공연",
-        "title": "2026 천안 K-컬처 박람회 개막 공연 (All Day)",
+        "title": "2026 천안 K-컬처 박람회 개막 공연 (11:40 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -184891,7 +184890,7 @@ const SITE_DATA = {
       {
         "date": "2026-09-06",
         "type": "기타",
-        "title": "SPOTV K-POP AWARDS(SKA) (09:30 AM)",
+        "title": "SPOTV K-POP AWARDS(SKA) (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
