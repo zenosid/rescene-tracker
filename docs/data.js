@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-30 20:28",
+  "generated_at": "2026-08-30 21:57",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -5834,17 +5834,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[데스크라인] '안원잘부', 가짜세상 속 진짜의 외침 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zc21lX0NsbDhSN2hnT2VUWl9kS0ZsTkpBTmFPSnJYMnV2TmFWMjFuMzMyQlhSZjFvcUJlTXcydnYySVVjdFZNVm5kSTU5Zw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "06:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느(RESCENE), ‘2026 K WORLD DREAM AWARDS’서 2관왕 - 스포츠경향",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14bEo4MnYwMTRFZmVnNmlqSnE5RFFxajduRW1lOVBvYlJyN0JtX3NzUGhfV3JSVnNFcUUzX1VPSUpWcVJ0YXl2QlNENTQyRzdDb21pSXlIT05NcVJsQ1HSAWNBVV95cUxNSEFPX3NxU0tUbmlwalkyS0twUG15NUUzNDladF9nV2RxS1ZFR1dTeE9zal80VWMzeFNtWDYxczFQaDYtWWlfRDdZTFppZC16U1FDdjNjbDF1RkFxUk1KQ05hQlk?oc=5",
           "source_type": "news",
@@ -9712,17 +9701,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[INKIGAYO LIVE in TOKYO🗼] Niziu 로부터 온 편지 💌",
-          "link": "https://www.youtube.com/watch?v=jtZwpgLUoC0",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "20:00",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "[HD포토] 리센느 리브, ‘볼콕? 아 볼콕!’ (2026 KWDA 블루카펫) - 톱스타뉴스",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jekliQUlpLTNmbXBJMV91VGRVOGlldjJzVzVKQ3dOMjBia0hVRDJTVGZwbGlXSE9FY21yQlE0WFI3STQ0TW01azhmQVVyb2stTnRYZmhITi1OUmdTcFZaWDFFMHFUdGlCSThBcHV0cnFfZw?oc=5",
           "source_type": "news",
@@ -9907,17 +9885,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "[🔴라이브] 08/29 SATㅣ쇼! 음악중심ㅣKPOP LIVEㅣ#TUIDE #NCT127 #ENHYPEN #ALPHADRIVEONE #Hearts2Hearts #KiiiKiii",
-          "link": "https://www.youtube.com/watch?v=zJ7sv3sVeis",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "17:40",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -12247,17 +12214,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "[미래세대와 함께하는 강원랜드] 워터월드·액티비티까지…'늦캉스' 즐기러 오세요 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6NlZoOGFUTVNyM1p1Zi1PTEF1eTVVb3NUVFUxSFlGUFIyRWxzN29EdE41aGY2OG5pdjZBT0EwX2NWU1hFU3NnMDRJZU5UXzZfNldv?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "05:31",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -15942,17 +15898,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "The most Rescene-like scene is at CU! Every scene of daily life, CU 💜",
-          "link": "https://www.youtube.com/watch?v=LB3jV93Qc5c",
-          "source_type": "youtube_collab",
-          "source_name": "CU [씨유튜브]",
-          "time": "19:11",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "260827 KWDA 케이월드드림어워즈 대리찍사 대리캠 합니다  🐩 프로필 오픈카톡 문의  라이즈 RIIZE 에이티즈 ATEEZ 앤더블 AND2",
           "link": "https://x.com/sweardata001/status/2092554602382282842",
           "source_type": "x",
@@ -16610,17 +16555,6 @@ const SITE_DATA = {
             "미나미",
             "메이",
             "제나"
-          ]
-        },
-        {
-          "title": "[INKIGAYO LIVE in TOKYO🗼] 전체 Lineup 공개 🌟 | Lineup Teaser",
-          "link": "https://www.youtube.com/watch?v=c5X1Euz9Iio",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "18:00",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -18442,17 +18376,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "앨범 너머의 팬심, K-pop 팬덤은 사회를 움직인다 - civicnews.com",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90a3hPNjNKWkp1V21vSjU5WjZqRnVPNnptQ1NFY2pvSHpLQjdZM2FQRjNqX2E5UTRteGZsSUZaU3ZhLVRxOGZuLThmcVJmSTR5ck5pZG9XYkp5U20ydFRBQ3c5Ujl5aVVudGFn?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "14:30",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 할리스 커피 신라공주 제나 포카 포토카드 개당 배송비 포함 2.0에 판매 양도합니다 하자 절대 X Rescene hollys Zena p",
           "link": "https://x.com/3CAT9Xp46RVQsJ2/status/2092483815478600169",
           "source_type": "x",
@@ -18916,17 +18839,6 @@ const SITE_DATA = {
             "원이",
             "미나미",
             "제나"
-          ]
-        },
-        {
-          "title": "[오늘의 카페] 할리스·투썸플레이스·컴포즈커피·서울카페쇼 - 파이낸셜리뷰",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VaW8xNzN4RzJhM1lBbDF6WGpJakM3ak9rRVJLaTYzRldZN25Qb19lNVBDTWVkU0xxNEMzbWlNSXFzbmdCTXRaeXlPY0d1b0hTVnB6cHZld1RGRDZ2aVRWbHBHV2dZN21XWHBJUUtNQjdFWkhu?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "13:44",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -29065,17 +28977,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[거제 24시] 거제시, 수해 여파로 주요 축제 잇따라 취소 - 시사저널",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE55U2dmV1lOWFJZYnZ0VHNOVGdnWjY2NU9hZG9KWmU1X25ua04tZjlYZGtxbnBtbEZCT3Q3YXN3TmZpbUJneGkyWFZoM2l1YmZtd2VGeXF6YVV2MHExdXhzS05leG41ckQwQ1lmVGppRdIBc0FVX3lxTFAtcGVMbGZQQjdaanRhTjl6NkhLYUt1VWNobVh4c3l0WlFMRHdfY3p0eGJ5V3IyNVhiaExGQUtIMUFLODg0TWxqaDFIbDNyRUZDVHRCT09IN3ZyQm45U0xmSlJnTFA4ZTJtMTVSQVVheGFydDQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "11:25",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 원이, 진짜 대세됐데이~ - 앳스타일",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JZEg3VnlGeF9pa05LaWpWd2RyajZGdGtQT2ktY3I0MUcybXdtc0ItMnlzRU5yanVINzViVXRuNjBKUl90ZXVwNms0N2NLT0xJVG1RcXR2bzgxOTBXZzdvQzZ1cEtzeUV2dUHSAW5BVV95cUxPWDd4XzZkNldlNlN4N3VHRnY1TE10MVhJYW5OUHBOT19MVXhncWlUbzBEbG11UTJFbUl0VUNnQlBUckxZQzNBSjFUOHBuVWtlOGczemJEUjVJLTVqN05Db1NlNUplTE0yc2U1N3IwUQ?oc=5",
           "source_type": "news",
@@ -37405,28 +37306,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "고윤정, '닮은꼴' 제나에 '650만원어치' 통큰 선물..\"센둥이들 화이팅♥\"[핫피플] - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWHZjNEYwX1loaTFwN3NZYVRGSl8zYjZSTU9Hbk1FX1NvVEJqLS0zWHFQOWVCWVZWejNQeUQ2cExzUlJveGNEdnhiNXZxbHhsaHRVY0VQUFY2M1dkY3hVQVdHUWxWcElna01od2FTcFJ6WE0yOFJ1S3ZKWU5UZmhfVXZ0M1RfeFR0NkE?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "14:36",
-          "category": "기타",
-          "members": [
-            "제나"
-          ]
-        },
-        {
-          "title": "고윤정, '닮은꼴' 제나에 '650만원어치' 통큰 선물..\"센둥이들 화이팅♥\"[핫피플] - 조선비즈 - Chosunbiz",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaVBRem5qcjNYb3p6VS1uM09vSHAwY0JQbUdJY2h6WWFOblh5aWVtNDhNUFVBR05MN3BwM21DclA0cjBhZmlkWFNZUXhWS1N3emxnZGJpVGlXZmhMNlpBRTdNUDY2MEp4VUMxaE5jNndpMGh5cUhHRklPNVUydXVEeHF1Y1hmeVdjaXFOd1hLMjh4Nk3SAacBQVVfeXFMUGFRaFBWeThsUk93anlZbVptLWZnY1hxejJneFBWcnBvU1R4VHRZNEstaHJXQmZ3TnY4Tm1tc20wdU1VTWJtZkxxTVdIM0w2MTZlRUJoWmc1cE1FV1R1eldjaHRHUm8tZzRCS1hmanJlOVhTNGNtQTJzMkZMd2oxVHJWZzl3UXNxbG9wZFlnYTlBQXRVLUZwRGZ1WXdkU24tMlNOTk0yZHM?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "14:36",
-          "category": "기타",
-          "members": [
-            "제나"
-          ]
-        },
-        {
           "title": "@miHoYo_Loyelty 그니까 뭔조롱 븅ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ저 한남한테 따져 그건못해??ㅋㅋㅋㅋ왜 원이한테 ㅈㄹ 그리고 나 리센느 팬 아님",
           "link": "https://x.com/dada04216492316/status/2091398976792940563",
           "source_type": "x",
@@ -39195,17 +39074,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "고윤정, 제나 이사 선물만 약 650만원…거울 하나가 432만원 '통 큰 언니' [엑's 이슈] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91TUROa2ZaaWhlRERZRUE4NGw1QlZlVzA0ZkNZMGJyemN5elFWNHVmSTdtbmp4dTNnOFJWLWFOWW80aUo4ZjRvdU41cXNDaHc?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "11:22",
-          "category": "기타",
-          "members": [
-            "제나"
           ]
         },
         {
@@ -47187,17 +47055,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "3위가 임영웅…8월 가수 브랜드평판 '영광의 1위'는 바로 - 위키트리",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yRHhUZDJGVktRdGNSUWtlT05LcG5CWTYxYl9ERmhxV08zNXNRTDhOQmlDYVpGOGVndDVIRFVQTjB6aTNTc2lscE5JVDFQWC10WmtVWGJB?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "16:15",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느가 BTS·임영웅을 제쳤다? 8월 가수 브랜드평판 1위 오른 이유",
           "link": "https://blog.naver.com/grieve707/224386618305",
           "source_type": "community",
@@ -51184,17 +51041,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @SHUYAPICTURE",
           "time": "09:02",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "돌아온 고양고양이, 숏폼 253만 뷰…3년 공백 딛고 화려한 복귀[고양톡톡] - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhcXU1TTNmVldxQk9TOTdzTlBRYzFkU2g5OVhjVHUzV1hHUVh5MUl0bW1FemJLNmxKQWFyeXJ6QlM5ODg5dXJ2cE5tNXlpSVU4bW53?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "09:01",
           "category": "기타",
           "members": [
             "전체"
@@ -57742,17 +57588,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "📹 2026 가요대전 SUMMER 비하인드 : EP2. 🥹우리 제베원이 왜이리 무리해🥹 #ZEROBASEONE 🍧 @SBS GAYODAEJEON Summer 2026",
-          "link": "https://www.youtube.com/watch?v=2TkpU0j4jvo",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "18:00",
-          "category": "외부컨텐츠",
-          "members": [
-            "원이"
-          ]
-        },
-        {
           "title": "갸루가 유행이라고요? 요즘 갸루는 이것이 다릅니다  🔽🔽🔽Click‼️ https://t.co/BoBzaaXhha  #문명특급 #MMTG #이민",
           "link": "https://x.com/allurekorea/status/2090725602332475444",
           "source_type": "x",
@@ -57981,17 +57816,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "[INKIGAYO LIVE in TOKYO🗼] Lineup Teaser💌 인가라이브 인 도쿄 라인업 티저 공개🌠",
-          "link": "https://www.youtube.com/watch?v=H-veRx5K4D8",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "17:30",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -67490,17 +67314,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "[🔴라이브] 08/22(SAT)ㅣ쇼! 음악중심ㅣ3:20 PMㅣKPOP LIVE STREAMㅣ#KiIiKiIi #KISSOFLIFE #ENHYPEN #OURBIRTHDAY",
-          "link": "https://www.youtube.com/watch?v=KYzOmbpVqro",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "18:32",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -80991,17 +80804,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "\"메이야, 생일 축하해!\"…고향에서 보내는 따뜻한 응원 - 보도자료 | 기사 - news.tf.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JN3QwVEdXUE5EckRxbXlnTndHRFZJVmI2YU5kWHUtU01ic2c5Y3RnSE9uc3hycWkwTE5PeVd0UjgwbzNSeGhxSWY3R0JxN0Ezc3NwV0Utcmc1M3daLTNN?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "17:32",
-          "category": "기타",
-          "members": [
-            "메이"
-          ]
-        },
-        {
           "title": "트위터 노출안되는 깡통계 0.5에 판매 콘서트 티켓팅 #서치벤 팝니다 삽니다 생일카페 서치밴 판매 남돌 #서치벤 리센느 대리티켓 서치벤테스트 응",
           "link": "https://x.com/fahrendorf87664/status/2089993316461146408",
           "source_type": "x",
@@ -82607,17 +82409,6 @@ const SITE_DATA = {
           "category": "자체컨텐츠",
           "members": [
             "메이"
-          ]
-        },
-        {
-          "title": "[INKIGAYO LIVE IN TOKYO🗼] IVE 로부터 온 편지💌",
-          "link": "https://www.youtube.com/watch?v=xt7GdQqDN08",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "15:30",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -87703,17 +87494,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "\"카리나 향수 뭐 써요?\"… 1030세대가 30만원대 향수에 열광하는 이유 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ0VXeFNodkwyRUwxQVBVVnQtX1pQTUZPY0VycVR1RHJQakp5TzJaT1pfQV8tbFEwTDZfNjd1VjdoSFkwQjluTjliZDhIM3Jac2JHU3JWMmh6b2xpMUNka1QwN0xHWk1PbFhvWGx0LVZNb3ZVYk9lM0FVM1lsMk5FczRkbG9LZw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "03:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "네온 팬싸컷 상담     📂 모든 그룹 상담본 [ 최소 500자 이상 ] 📂 업계 최다 데이터 보유중  그룹별 후기는 본계정 검색 후 빠르게 확",
           "link": "https://x.com/postypeneon/status/2089772113070788811",
           "source_type": "x",
@@ -88061,17 +87841,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @Yangkyaeng11",
           "time": "01:01",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "‘안원잘부’ 200만 구독자 코앞에 두고..“100만 기념 Q&A 질문 받는다” - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYVFhBaml0Vnp1VnVtNkNYTHJUbTd1WVFxN2x6cm9tT2FKWm1GZk8wYS1KdmVXWWNienJIQnpoeHdmcHVFZGtucmVqRU43clU?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "01:00",
           "category": "기타",
           "members": [
             "전체"
@@ -92221,17 +91990,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[오늘 뭐 먹지] 할리스·오리온·더벤티 외 - 프라임경제",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMaUh2X0ZtYllFbDlUX182TW4zd2VZckZuMjVEWXNEdVY2dnVRR1dWdm0zWDZ2QnBZajdrdmhZVlhzVHZqeTBPdk5VVV9mb085VExXQ0ctUnNobUtjUDFsNg?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "17:19",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "\"거제의 역대급 폭우에도 삼성 조선소 피해가 거의 없었던 이유\"  1. '리센느' 원이의 고향 거제에 기록적인 폭우가 쏟아짐. 이틀간 1,000",
           "link": "https://x.com/Profit_Lx/status/2089627416763535861",
           "source_type": "x",
@@ -92976,17 +92734,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "미나미 ‘파라파라’ 췄던 “거제 야호” 그 바다, 흙탕물에 초토화됐다 - 서울신문",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BZTJsUkNIRGphZFgxbTc3QzNmYjNaYTZGeHNUMjd5b0R3OXNwSW5XMVRrczJ3M0g5enN2cWVVdmpyQkk5eGU1Y3dEOGZaY0x6M0FaWl9sVGJ1aUZwRmpVbmg5RDl4cFpvaW1WUWpFMA?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "15:44",
-          "category": "기타",
-          "members": [
-            "미나미"
           ]
         },
         {
@@ -96546,17 +96293,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "Refreshing Love Attack arrangement performance #kcon #rescene",
-          "link": "https://www.youtube.com/watch?v=F7Op4NdafB8",
-          "source_type": "youtube_collab",
-          "source_name": "레전드zip",
-          "time": "08:12",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -103896,17 +103632,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "리브"
-          ]
-        },
-        {
-          "title": "BTS 다음이 이 그룹이라고?… 아이브마저 제치고 '2위' 폭격한 대세 걸그룹 정체 - wikitree.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VSUZ4Vll6MHV6OFY5SGUyZ3hJMHEySWNJamNnUXRJRXVheWZJYWNHVXIwYVBDVTEwZW4yS1AzcHRzSDgxb2V3Snhzek9kSF9Lbm9lLUpR?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "11:29",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -112819,17 +112544,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "선택한 촌스러움에 ‘야호-!’ - 캐나다 한국일보",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9uS2d0anBWTE02TjZZcElxVFNVcEpBczZtemd4bUh1MkVpLWdVOE9OdjBCR0RobXFiU3NacGFzWHlVZTExQXF1c0Y5TXBmT1BkMXVhTXVlVm1KZHNhMndoczNINmZHdw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "13:55",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "트위터 노출안되는 깡통계 0.5에 판매 서치벤테스트 거제야호 티켓팅 트친소 콘서트 응원봉 삽니다 거래계 이거야 ㅅㅊㅂ 생일카페 에이티즈 구매 남",
           "link": "https://x.com/fahrendorf87664/status/2088850165415432652",
           "source_type": "x",
@@ -118780,19 +118494,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "“막내가 가져오라고” 제나, 원이·리브 꼰대력 저격 (‘놀토’) - 매일경제",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eDlCR1lzcGxpaWRqT1M5QzYyWW9HQk1lSXFCdXhWZFkwV3pqc2QzZ1ZqekxwY0JmWUhHNVhQZW9NNjV0LVhqUnY5TVRkaFRNemdtZEVqdzZJMWp2eUhJd1ZMRWctQQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "21:33",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "제나"
-          ]
-        },
-        {
           "title": "20cm 스탠딩화 대여 ‼️타래 마감일 확인 엔하이픈 엔시티드림 하투하 투어스 보넥도 코르티스  에스파 아일릿 르세라핌 아이브 사녹 팬콘 미팬 ",
           "link": "https://x.com/LJAuqVN/status/2088604298305569280",
           "source_type": "x",
@@ -119001,17 +118702,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "신라하면 경주, 경주하면 제나👑 신라공주 제나의 기세 넘치는 경주 이행시✌️#놀라운토요일 | amazingsaturday EP.430 | tvN 260815 방송",
-          "link": "https://www.youtube.com/watch?v=egZLcQlcfAc",
-          "source_type": "youtube_collab",
-          "source_name": "놀라운 토요일 Amazing Saturday",
-          "time": "21:14",
-          "category": "외부컨텐츠",
-          "members": [
-            "제나"
           ]
         },
         {
@@ -119408,17 +119098,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "'놀토' 원이 \"연습생 때부터 들어\" 태연 노래 열창 '훈훈 선후배' - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE95ZDlibHlMMmJ3em1HVGRUYzg2NUVKRTVVSmhBeERNVDRaWTlKZV9ZQS1oV3hxX1U0UmdyQ0xiaENmNlRKMWJNTjN3V0JBMTE1cEFoczFST1FJcW9NVlIxd9IBZkFVX3lxTE00Y1EteTZyRDhHY3I2UGp3M0d2Z3VBdGg1WU1nNndHZXJrd21aYkczTmZKZ3dyY2hyUWg0bFF6aEhVZmZISUNHZEZYWlkxTk50WENKeWxSYm95RTV5Sl9yZHFfS3E3Zw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "20:31",
-          "category": "기타",
-          "members": [
-            "원이"
           ]
         },
         {
@@ -124015,17 +123694,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "미나미 첫 시구에 日 가족도 부산행⋯\"사직 열기 대단해\" - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kZ1BpeUNhVnhSZUJjWHZHUnhXcW9ZWjRXWWI2VzM2UUliQnkxLVFXblJHYm1zdUpxbGZpc2FVQjRob1UtaEZvYU1TVVN2WFFJWWFhWg?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "16:35",
-          "category": "기타",
-          "members": [
-            "미나미"
-          ]
-        },
-        {
           "title": "바이오던스, 리센느 원이 앰버서더 발탁… 'My First Collagen' 캠페인 펼쳐 - 브랜드브리프",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OZW41Z3oxRHFuYWU4SVhiZFVPaXNXSzhTUEFzVFk4WVJIVlJZcko4c2tRVlRzZjV3UDFIQ3YwN0d4N21Qd1hPcDBrTmp5S3BvQlhuRUpsRXZqQzRzWnBVR1AwSER6TE5tNTRCMUk3SQ?oc=5",
           "source_type": "news",
@@ -124321,17 +123989,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "[방송소식] 웨이브, 4년 만에 '레벨업 프로젝트' 시즌6 공개 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vaHFKckNXN29DZGIxcEpJUFJYSUFlMl90eFQ0N1pOUDdjV2sxWjU1VGVrLXVCaDgzM09WN3BXV0NIZkZKUm0waVlaQlJlQ2lZLUs4cy1rOHU1dEnSAWBBVV95cUxOWkN2eS04RlA1R0lSZTA2WEpLS0NJTHdzQllCTmxNMDhxenNQU000N0JWZmNlbnp0V2FoU0toSXpiYnNRQk4tYzhnSEV4WEhtNlNDSWlocm5LVkVLMjF0U24?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "14:47",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -126696,17 +126353,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "천방지축 빙글빙글 돌아가는 원이의 성대모사 #UP코노",
-          "link": "https://www.youtube.com/shorts/t4AZRvzIbUA",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "20:00",
-          "category": "외부컨텐츠",
-          "members": [
-            "원이"
-          ]
-        },
-        {
           "title": "리센느(RESCENE), 힙한 꾸대표님을 바라보는 원이 [4K] 리센느(RESCENE), ....",
           "link": "https://blog.naver.com/cashflowgood/224377684998",
           "source_type": "community",
@@ -127166,17 +126812,6 @@ const SITE_DATA = {
           "source_name": "네이버 뉴스",
           "time": "18:36",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[포토] 멋지게 걸어오는 세븐틴 민규 - isplus.live.joins.com",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hRW9CRk8wekJWY3VtSnZYTXJ1ZGFFd1czaUxCTm1neG5DV3pGeHVnVGU4TTVvX2plMEE4NlVMdVdySVBGTTl0QXVNUDJIREljV0hoQW91NGxMdmNsMUJoOU1PS3k0eGR2?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "18:27",
-          "category": "Live",
           "members": [
             "전체"
           ]
@@ -127650,17 +127285,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[🔴라이브] 08/15(SAT)ㅣ쇼! 음악중심ㅣ3:20 PMㅣKPOP LIVE STREAMㅣ#StrayKids #KiiKii #WayV #KISSOFLIFE #NOWZ",
-          "link": "https://www.youtube.com/watch?v=wWKqIuAuxqs",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "15:10",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -128593,17 +128217,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "세븐틴 민규 '언제나 멋진 자태!' [STARPIC] SEVENTEEN MINGYU Departure at Incheon Airport 20260813 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16ejRsSzZMN1RiSWlfUTNHQWhQVlNGLXdzd2w3ck53XzRMWFJJMVlDc1FfSnVkcW5zcUNyQVdqTXM5SFVZTmk3Z2M2N0xDdUprZGgxLVNCQlpLdmY2ZWxtRnpwT3A0N1ZNbXgzZ3BTOA?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "09:41",
-          "category": "기타",
-          "members": [
-            "제나"
-          ]
-        },
-        {
           "title": "에이페, 리센느 브랜드 모델 발탁 - 한스경제",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80TmNCY3pFYzN3QllZT2ctTjl2SU1zVFVGWXo0T3lPNFlTWFdQUFhOekZqamZIVXBLaGMwOUtseklSdVRCb1JUcTNNQVFKQ2hrNDU0aUNvclZEV1QtYmN2VUpfTnBfa2lPYlRz0gFvQVVfeXFMUGtoQVpuZHEyWmo2TWZTR21UVm50VWQwZVBjeDFkaXFwYTQxZ2ZOU3BiTk13SXpsWFBfUHdwdDh5Smc4NFZwOUFGRXM4Y3hWNE80SjFySXBGbjBRMm1qeElxUzFGZ3hfaDFITDJzV2pz?oc=5",
           "source_type": "news",
@@ -129022,17 +128635,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "스타가 띄운 갤럭시, 논란도 따라온다…삼성전자 '유명인 마케팅' 명암 - ngetnews.com",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjcTllMjg2YWstWGtoRF9OWFFTRm8tMlVnVFlFYkZFdDMtT0d5eld5eDdLdUwtWnhiRU42c2N6N3dMVEc1SXd1ZTVFS2liaUtJbW5xcXdhRFBuT1RxdGNSUm5SSmpQTGdaUlo4?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "06:15",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 리브도 ‘샤라웃’ 하트오브우먼, 레트로 패러다임 뒤엎은 ‘Y3K’ [줌인] - 일간스포츠",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vdi1EakM4eWxPYk16RGZZWkRJLXhKUGw4cWZNdXVFVDBLM0RIN3BBMjBPWWU5WVVucE5aWkp5MHBzZXhPVWlUNi1EbkhFT0R6Q2tjczhZWGktcjg?oc=5",
           "source_type": "news",
@@ -129041,17 +128643,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "리브"
-          ]
-        },
-        {
-          "title": "웰컴 투 유튜브…‘북부대공’ 산·우영, 9트가 필요 없네 [IS포커스] - 일간스포츠",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GMDhFMEF5Z0dOX1R1LVVJekdQYjdmT2xTYncyRllidWhRd2t1WmRYWVhMcFFoYmM0Z2x0ZHJnbURjZ2ZoNXFYa24wWmZOVk5EeV9OWTRJcWVPQ0VZblpSN3Z3?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "06:00",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -129104,17 +128695,6 @@ const SITE_DATA = {
           "source_type": "community",
           "source_name": "네이버 카페 · 다낭 고스트 - 베트남 다낭자유여행 ,다낭여행,맛집,호텔리조트",
           "time": "04:35",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "TXT 'KCON에서 만나요!' [STARPIC] TOMORROW_X_TOGETHER Departure at Incheon Airport 20260813 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9RZXVNaFdtMlhQRzkzb2N6eVduZnBYN2VBd0k5dW5NU2Z5UUoxMWtzTDYtNUhsdVFueVdZS0ExVDM0enNHUF9NUTk1c2I4T1pIX2tyb1JaTVgxYTlm?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "04:10",
           "category": "기타",
           "members": [
             "전체"
@@ -130800,17 +130380,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "하츠투하츠, 일본 첫 싱글 ‘아이코닉 하트’ 발매…정식 데뷔 - 일간스포츠",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55TU9zdDQ2Um9obWJFY1l5VmVCc2FEMlR0S3dzcFhhRnUwNWFHM0ZVSU9hZm5tVWtRS3E0c2VWcXlkV0FoOGFYNE9ZY01OdVY3OVZzTXJHZVBycDZKVHNGX3VB?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "17:34",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "[영상] 리센느 향해 쌩까네? 뭘 째려봐 발언한 기자 - 아주경제",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pSUg5bUpQYnVSY0NTdzRaTnh5VTRmZGxlSXlmTG9GMXRCSWI2cmtDZVgzdktzNmxLVmxSQUNVcGVYdjhINlVkZV9rcWlxOHhMeGpaLWNsLVVyd9IBWEFVX3lxTFB5aTVQT1pPalhPR0RxTEFxdGlRdmRDcG90UmJJSHhtOWhCa2pQUUh6MzVSRHRTUGZPaFMtTEs2MEVnTDYwQjNsYlg1ZHk4ZE01R3loLXkxSFI?oc=5",
           "source_type": "news",
@@ -131131,17 +130700,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "3rd Gen Idol’s Elite Family Lineage Spotlighted Belatedly - Koreaboo",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONHp5N2kta1hXR0lxbjY1djVLVXUwbHh1NGhVdTRCN0VCNHJPOU9UcGZsdFF5WE1HcHVqM2JldzNIb1l4NDRfaGlsSTJNZWRTQkhXZXJUc3dSVk1LaDRQWUhXMmZZTmV3VlNQN3NrQXFabXotTjREbFJNOW1qbkpHUHNIdXdLX3JHZDdrVVJsWlk?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "17:04",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느·효리수 만든 일등공신…지금은 `자컨` 시대 [MD포커스] - 마이데일리",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QUXhla01CNVVTczd4U2ZhNjdKVHdsTldDel93dzd0X0puVEJUeGcteXR6T0xveUdfdTctQU9GTjFoSy1oMmlUS1IwRWdXSGwxMVZxdllhMmREMlZJX21jQ3htN3pnUQ?oc=5",
           "source_type": "news",
@@ -131360,17 +130918,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[K-팝] 세대·국경 넘는 리메이크 열풍… K팝 신구 조화로 시장 확장에 속도 - 굿모닝베트남미디어",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44UzVzYW5PZ2dtZ3ppUXltR0g3NTBOeUdWa2tSUE9Gb3VQc3BFTTdUYzlXTjR6ZUd5Z2VSRFc5N1NaOXVvblAzdFFyZzYtSlQycldwWnNHMmY4b3RuUlY3M3RKSUhTaG5nY0RRTzQ0emI?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "15:35",
-          "category": "기타",
-          "members": [
-            "메이"
           ]
         },
         {
@@ -132736,17 +132283,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[현장포토] \"취향저격, 볼하트\"…메이, 러블리 똑단발 - 디스패치",
-          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE51ZHVuNWZtaWh1bkdDbEpHR0FDdUhJTS14YzFxY3RKN2NuMlVqQ0N5T3NjMVJTMWJESXRYeElIWm5VUy1LQ0FfWDJ3?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "12:00",
-          "category": "기타",
-          "members": [
-            "메이"
-          ]
-        },
-        {
           "title": "[포토] 리센느, 미나미가 쏘아 올린 '야호' - 일간스포츠",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jWFVudkxGV3ZLeVpZTmYyTUF4Z2pwN0RjYWNINTBoYjZHYzNlM051RUx0WURlNkg3LVBNOFZMU05PMk04TjlmdVZ1MldLWlNCUnY2NkZlcHJ0UFU?oc=5",
           "source_type": "news",
@@ -133256,17 +132792,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "에스파 '잘 다녀왔어요~' [STARPIC] aespa Arrival at Incheon Airport 20260812 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KYzFNajYyWUlPbWxBYU8xeHRoQ3plX3BjWmdkUTRlUFJfRVR3UUFhX283Z05MM0pscFNjRC1DT0lyN2tUc1hhanppOW5nQWFXR2FiUDl2RTYyaVdldkU2TVJxQWxGUl94dVRCcWhNWVA?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "08:33",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "\"우리 조카 원이 최고!\" 개그맨 이선민, 걸그룹 '리센느' 상암 무대 ....",
           "link": "https://blog.naver.com/inkoz7/224375861688",
           "source_type": "community",
@@ -133352,17 +132877,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "클로즈 유어 아이즈 CLOSE YOUR EYES, 너무 친한 멤버들🤣| ACON 2026 밸런스게임|‘Would you rather’ game | ENG SUB #ACON2026 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uVW1LM0ZUcFJRRXVRd3ZLa25oekozTU9mcXhRWnpGa0FfbUJ2VGQ0OFZtU2E4RWRaMng2TXFWcVppTkhKQnNxa1NKNDZvYVUwSENyYlJ3aWNwa1Zk?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "08:00",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -133891,28 +133405,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "기자들 격려해 주는 파이팅 넘치는 스트레이키즈 한(Stray Kids HAN) #StrayKids #HAN - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9keUpJMzJveUpqeGFWV2xDU0dHTEx0WXZXQmx2Nl9oLTA3Y0wxamRRZUU3MUpRdVExdThnRnpGMXlnc0I3bXZzRzdsc1RHWDVoOGpOSFo1NS1UN0RlTTU0TFRxd3dXZTRNanY1bEVtcw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "00:12",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "스트레이키즈 한(Stray Kids HAN), 기자들한테 파이팅 해주는 파이팅 넘치는 에너자이저! #StrayKids #HAN - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1RWVlT3BJR2JyeXRQd0dTNDZBaGFrdlFhQnR2Zk9wS0hsYlhPN0Fzamh1bWEyZkVtcEtpWmt1c05tWG01bUVBRDdlTWZxcEU3VU1sam03UkFxdk5xaWNORzRiY0FCUQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "00:07",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         }
       ]
@@ -135699,17 +135191,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "\"삼촌이 늘 응원해\"…이선민, 1년 전 원이 '연수 아저씨'→역주행 무대에 '감격' [RE:스타] - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91ZnhRcWdzYzlCbE1kQUFpd2lSMlMydzV3N0k2bFN6M3dFR01seFdBb3RVZ2lHc21nNjdVOHE5WEl0dGJyeVZOc282TEhMcXFrTzA4?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "11:56",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
           "title": "리센느, '전참시' 효과 톡톡…TV-OTT 비드라마 출연자 화제성 1위",
           "link": "https://www.slist.kr/news/articleView.html?idxno=758065",
           "source_type": "news",
@@ -136531,28 +136012,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "라이즈 앤톤, 주황 머리 찰떡! #RIIZE #ANTON - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FV3ZXM0VaRkQwVEdIQndxWV9UYmRVUjFjQTVFcXZFVnlXUkxIVXJBajg4dlphNXZ2UkJmbDNFeVhVZFlvTHJIaFZBUEs3SFZZY1ozRERkS3JERlhGRDYzeTBJRjhCT2VuU0EzLTlBaw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "02:10",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "라이즈(RIIZE), 여름 향기 물씬 나는 비주얼 멤버들🔥 #라이즈 #RIIZE - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Xb25Ic3FRZEV6QS1EZ2V5UW9BYndjMXZuNjgyWUtSVVJJZ3E3Q1RkOFlvc3VkdWs1bi1KSER2azRTanNoanBlZS1PaTluVkFwUGJYc0lQOHpJU1ZIYXBPc3RvSEVucnVxa0NHN0pwc08?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "02:08",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느가 뉴욕 타임스스퀘어에? ‘LOVE ATTACK’ 인기가요 1위가 만든 ....",
           "link": "https://blog.naver.com/mr_fundamental_/224374585401",
           "source_type": "community",
@@ -136636,17 +136095,6 @@ const SITE_DATA = {
           "source_type": "community",
           "source_name": "네이버 카페 · 비뇨기과 빅맨 /티링후기,실리콘구슬,다마,요도구슬,라이펜,진피",
           "time": "01:47",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "“하나 펴볼게요!” 임영웅, 국민가수 다운 ‘칼박 퍼포먼스’로 등심 손질 성공★ - sbs.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRHR6Z0ltN2hLNDBFSXg2NjlBTHlLYTlWb0J3WTZLNTZxNjFnckxnSEhtSjZyVC05Zng2WWR3cDFPX1FMWWNtYUVDQVNkdVlmUUV0R1JKY3NPRGNsWU5pV2NBN01NSHJLZVphT0VkRHZZRG55d2V4YzBVM3F0eUpXUmdR?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "00:57",
           "category": "기타",
           "members": [
             "전체"
@@ -137496,17 +136944,6 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "20:00",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "BTS·장원영·최산, 경기장에 뜬 K팝 아티스트 4 - 마리끌레르 코리아",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aUThZTXhoZTVicnlnWVdVTGxUMGVIalFLRmpCUW04Q29qYmJQSnpxUzZGZ1BPQTMzdEFMbWVTLVVHVWExVmdfcVhFR2FVU05fdEJQVjRFaWxPQU1DaURJMXhsSTFZN0dqdXdXbU1NM3pYR1k?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "19:31",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -140613,17 +140050,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "'이강인 데뷔전' 맨시티 vs ATM - 포토슬라이드 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0blRReE9nRHBlX2VJZ3hCNWxiUEdETElpSUhUNzFVVHpLcWdWay0tSVhyUzVjakhhV0hIUkpCTWNnLXZpZnlpVXliMV9VUDZ3MXhScmdrZ0NuZXNQcEp1dERXaWhEb2plcHRF?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "06:01",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "스윗한 이강인, ‘대세’ 리센느 향해 ‘월클’급 팬서비스[스한 스틸컷] - sports.hankooki.com",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04aXA3VGxFTVNQTVJNVEs3TDlwTlQwTzZKb3BtMEU1SFk2NWo5dHVoaUlZTmNPbDNKWFlFVHpjVFZrTXlLcVRMbFZzV2pUYzNsWmt2ekRhaTJjT3FKbkstZS1pZnFIZUpWNXJLMGZJMmvSAXRBVV95cUxNWmlYWXRLaGs0ZTdoQXlZUGZpVThPd0FmR2VuTmVUWWl3RVgyeUwwRF9WWWM2aEdCb2lxenVNczZuQTl0WkpjNVQ5OUxIc29NNzZQVDNxSDJqSDBHWWY0NzVtTFA1VjBxLTF3UWFvUC0wempOUA?oc=5",
           "source_type": "news",
@@ -140786,17 +140212,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "트레저 '언제나 멋진 트레저!' [STARPIC] TREASURE Arrival at Incheon Airport 20260810 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBbU1ueHZ4cDVNX0p4YUpNTkptRXB5YkVZMHl1VlQ4T3VDRDZJcF9CVEpKNFVLc1lXREhESDBycUwxUFpxOVROd3N3TXVkV21jNFcxUEJIMVE2Z3g0aUhDVE94cVpNQQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "03:47",
-          "category": "기타",
-          "members": [
-            "제나"
           ]
         },
         {
@@ -150791,17 +150206,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "Silla Princess vs. Baekje Assassin: Real-time Reaction Compilation | One-Stop \"An-Won-Jal-Bu\" Sea...",
-          "link": "https://www.youtube.com/watch?v=INqgHQ1mPCM",
-          "source_type": "youtube_collab",
-          "source_name": "이센느",
-          "time": "20:32",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느, 소탈한 국밥 먹방 팬들에 설렁탕 역조공",
           "link": "https://blog.naver.com/eork139/224372285783",
           "source_type": "community",
@@ -151808,17 +151212,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "A2O MAY (에이투오 메이) - Love Got Me Ooh | Show! MusicCore | MBC260808방송",
-          "link": "https://www.youtube.com/watch?v=7btHp31Cbaw",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "15:52",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
           "title": "\"고독하다\"…김선태, 리센느 '무섭노' 2차 가해 논란 후 근황 - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkazMtbHFqV1JaMmxvNXpjaDN0NlE3MHJQQ2pXVWdTREpST04tN2NyWFNHSGRCc3VZSVVQM1A2Wk90LVBfVVdUdEhmcFBzdHV0QU5F?oc=5",
           "source_type": "news",
@@ -152316,17 +151709,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "메이"
-          ]
-        },
-        {
-          "title": "르센느, 알고보니 탈퇴 위기 있었다…\"희망 보이지 않아, 원이가 부모님 설득\" ('전참시') - 텐아시아",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TNXAzZ19uSU5qMkJsVlR1TncyRkRTNmQzSkJuYlAtaUljekhhNWdGTmZQZVdwSFc4RTBmWGFLYXhLNzRVQVdFaHlUTDRuM0NmbUN6c3VTSEFmUlE?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "14:29",
-          "category": "기타",
-          "members": [
-            "원이"
           ]
         },
         {
@@ -156171,17 +155553,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[🔴LIVE] 2026 THE SHOW Ep.397 (2026.08.11) l KISS OF LIFE, ARTMS, POW, NOWZ, NouerA, etc.",
-          "link": "https://www.youtube.com/watch?v=Pxy3hI8DB6Y",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "10:27",
-          "category": "Live",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "“무전기까지?”... 리센느, 99평 새 보금자리 전격 공개 (전참시) - 스포츠서울",
           "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5yTmhWOXZubnk0bHotODAwVTNaS0VuUWpWaTNWeS00SjFwLXY4cHhpdmIxd0hYdDh2ZkVFY3paa2hULWRHZDNvXzBJLTdCOFRnZHBqZ0I0dms?oc=5",
           "source_type": "news",
@@ -157637,17 +157008,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "[🔴라이브] 08/08(SAT)ㅣ쇼! 음악중심ㅣ3:20 PMㅣKPOP LIVE STREAMㅣ#RedVelvet #Picheolin #StrayKids #BABYMONSTER",
-          "link": "https://www.youtube.com/watch?v=Nh3XcjrwMgs",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "16:37",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -160085,17 +159445,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "신수정 시의원, “‘거제야호’ 관심을 관광 경쟁력으로” - geojeoneul.com",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HNk13M2Z1ZUJ6WHlOal9FV0lid0ZYanBCbDN2X3hOQ1B1b2tULUtQb1JRYlE0RmljRjRfYkk4eWQ4MEdfQUZhcXVoNXJaNUgtOTNqS1c3a3Zwd3ZFeVhTcVo4cnNGSHJDRXNB?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "17:26",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "[KVIC NEWS] 리센느의 더뮤즈엔터테인먼트, K-콘텐츠 성장... ",
           "link": "https://blog.naver.com/k-vic/224368863999",
           "source_type": "community",
@@ -161262,17 +160611,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "걸그룹 르센느, 한국벤처투자 명예홍보대사됐다 - 메트로신문",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Vay12RkR6VF83SG12QnE2LWhCRzhSMlR0b2pDOWJhSEFHcUZMcVlIeWdtb0cwamtQMGMyVmZtT1pNcDJmZ3BvUGd0VEZHUHFiOHFwRV9KdnZzUlFsRGQ3Vg?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "08:13",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 고향 사랑, 지역 상생으로…티오더, 경기·경상권 외식업 지원",
           "link": "https://www.bntnews.co.kr/article/view/bnt202608050069",
           "source_type": "news",
@@ -162356,17 +161694,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "음반 제작비 100억 시대 ‘중소돌의 기적’ 사라진다 - 서울경제",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lNEI1UFBJbUdVdVotS2hLY1BsRjRsZ2MyUm50TGl0SUkzZG5FWnFVZUxyWGlOc1ZYVGltN3ozMUFsb1JvNHZ5a3JNempaY05NSUHSAVNBVV95cUxQdnV6akVDOVNLZjJYQWJQd3pGT3AteG5sNmlzODFveE8wa0hlR0prdERha2pYVXl5M05uS3YwdlpJdEwzbThRZDNkUWdMMGVIWUNSbw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "18:24",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "[뮤즈이슈]\"과거 사진 보고 탈덕 말길\" 리센느 원이, 일진설 종결 후 첫 근황 - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DU0RpNHpuWS1KZVdfR19PdUxqM1l3SW5fUGREVmdQZ2NvNU1oMnJ4OW5zeEhPNk43d190Mmo2M1lfNHFFeko5ZEpxR3hYZkp4UzNBbGo5cGxrTmRkY2s3Sw?oc=5",
           "source_type": "news",
@@ -162604,17 +161931,6 @@ const SITE_DATA = {
           "source_name": "구글 뉴스 - 리센느",
           "time": "16:40",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "라이즈·알파드라이브원·연준·제로베이스원·투모로우바이투게더, 'AAA 2026' 출연 확정 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNT2dHcmJBaWVaWk1hZXF4ZlAzMzBUN3k5cUZobGs0ODdpbm8yT1VZaFREeGp1QlhHdTNGNnNWdUZmR01KY2hHckdVUmstY3BMVFptRFdYM0NvcHlPQjV5YTVMX2p0ME9Jb1dXekQ3WVlRcXU4UWZHalJXeWl2N21XV3MtbGNtc3E1ZGc?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:18",
-          "category": "Live",
           "members": [
             "전체"
           ]
@@ -163161,17 +162477,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "라이즈·알파드라이브원·연준·제로베이스원·투모로우바이투게더, 'AAA 2026' 출격 [공식] - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aTXFaV0hiMGhHN1NOWk55d2FuRjlpcVVtTm9WbjM4TXRIUk5YUVFtMmVVSkhCejVLcVRUczhJM1pMSnVfWGppbEtOWi0?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "11:14",
-          "category": "Live",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -163985,17 +163290,6 @@ const SITE_DATA = {
           "source_type": "community",
           "source_name": "네이버 카페 · [앤디훅 종합격투기]UFC,헬스,이종격투기,주짓수,ZFN,블랙컴벳",
           "time": "07:02",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "\"데뷔와 동시에 빚 50억\"…해체 직전 살아남은 아이돌 현실 - 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90VklaaFdYZG5vU3FNdlpOM3R6N3hSWlZGN1V1NUdHNjl5NHJiQWU4MlRMMTJnV2ZmemtWbGljUFJ0YXNNQTREeUNlU2hLZ1FxQmdjUTZpR3FXQQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "07:00",
           "category": "기타",
           "members": [
             "전체"
@@ -164844,17 +164138,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[패트롤]경주시-칠곡군-청도군-수성구-iM뱅크 - 에너지경제신문",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56cmdCQkZKUmdWMGhSSW5tdmswMmIza3RPVER3eWhCRUR1OEZPT2xJdUhnREt1ejVrVE5odmJrQ2ZHYUlabF9XMmI2RTB0TTFYRTVNR0YtOHVZdUlSaGVkNlBwVQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "21:14",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "홍보대사 위촉식 참석한 스타들|리센느, 신라공주로 변신…경주시 홍보대사 첫 공식 활동 - ZUM 뉴스",
           "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1SbjFPeEZkM3NWZ1R1Qi1qWVkxOVhudFYxbUpCZWRQWEltU21ZeWN1eVdjdXhLX3FOTko5ejhVRlplek5GTnZIam9zdXU4WmVtUWtENHozY2o?oc=5",
           "source_type": "news",
@@ -165564,17 +164847,6 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "15:38",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "\"일이 잘 해결된 듯하니\"…원이 '일진설'에 직접 반박한 담임교사 계정 삭제 - 파이낸셜뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DZHBqdG1TZl9XNzJ5MmE3V3FmMTZ0UGFnUEZ4MTFORFJCQ0ZlTVBTalJ1WkFkcnRZOG9VQ2FWR3dsN1BKQTZDdjdYTmNONmVFS1U5UHJvaktHQQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "15:31",
           "category": "기타",
           "members": [
             "원이"
@@ -167046,17 +166318,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "수원 출신 아이돌이 콕 짚은 ‘진짜 수원’…영상으로 매력 알린다 - 세계일보",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tWWgtRENpYkkxLVJ6T0NVMThnV2ZyZzAzZC05R1dCNlY5bERZZGFobDVNTDM5eEJIUUV4UzFIc1FxZ0h3ei1jMm1UVmhBOERGNkswN3hLbHQ3eXJILW5MTHdNYjc3c0lHN1dV0gFUQVVfeXFMTnVjZlZoejFGSGtqLWxiZkZObzlHNkxsRzZCeUNrTTd1SS1xajlKZ2FjS1UyT3VBOVZUZ2JCa3liRGVfV04xOGlJcjlVYkVFZVR5dFVk?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "08:19",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 원이 담임 교사, 쿨하게 계정 삭제…\"잘 해결된듯 하니, 이만\" - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oVEFBYUtwNldVSldveVotdHB3eWZWekFIWHdlNHdwSU5yeXhBV3A0R3d1STBHN3pxRGhpdExVS1VlZHQyalpQWGlCcDdMd3BUQWNOME9jZThnbHV0dXotTQ?oc=5",
           "source_type": "news",
@@ -167855,17 +167116,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[태평로] \"일베가 나타났다\"는 힘이 세다 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ0FLendqcVdZcFhSSGJUd2tDcncwRHRLdnk2TTk2LUYzZXFPVHA0bXl4ZjJSQTk2MWUxMG5kVzg1SFk4alZjakVucmpmdVltSlFxZm1KYTVLbjU0a2QtUndtVTQ0Mi1NV0J2RjdhZEE5X1drYjh1WXhzd29zeUFCRHdLTDhXRDIx?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "23:40",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "“‘무섭노’는 정말 문제 있는 말일까?” 리센느 원이 논란과... ",
           "link": "https://blog.naver.com/sopingliveconcert/224365984267",
           "source_type": "community",
@@ -168626,17 +167876,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "원이 ‘수난 시대’ 멈춰…학폭 논란에 담임쌤이 직접 반박 - sports.donga.com",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xU0ZvTzdFOV83WGZJX2NjOHEtaEU2c1d3Q2NMYXU3djNLS0JoZnBhTEVKMGJDUUR3M2plcmFoTUxlRTdLN0YwMW5oQTc2MTJWNUMtbUpCV0FWcDhnR0RFVzFNa2tPYXNuU3ppZWlB?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "16:49",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
           "title": "리센느 원이 '일진설'에 중학교 담임 반박 \"근거없어...성실하고 고마운...",
           "link": "https://www.slist.kr/news/articleView.html?idxno=755955",
           "source_type": "news",
@@ -169086,17 +168325,6 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "14:55",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "원이가 일진?…담임 반박에 폭로자 계정까지 삭제 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fV054aFUxMWU1UTdZT01UYnZ6VkhXYjBXcjBqSXQ2VTY3WXV5dUxkLXJrQkl0eFhEa1BrZ19hMl9MUlBCUDhyMldPckp4bHVwOW1nY0cwLXFTdi1LaHVNTdIBeEFVX3lxTFBUSEZ0N3NWTzJRc3lQYmRQSkN6TWphbHVrbk1uMmM3T2pFVUlQT0hHeE1LNWJoWWpicFdUck9BN0dfQlRnWXZ6bmtJNGVneGpEc3ZfZnZWQzlLbUo1cXBMenM1UXRpc3ZtUi1ORlh0Wkk0S183VzhneQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "14:54",
           "category": "기타",
           "members": [
             "원이"
@@ -174847,17 +174075,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "‘무섭노’ 재점화 논란 김선태 “해당방송 자진 하차…능력부족 실감” - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01Sm1nN2Fja3lKZ1JpdzBwclgzZ2I5XzVabkhER3gtbGtLRnBpX0JtclNPZHBqUW9mQmY0MXp4TGg0YUQxbGVhZTNqRmV3dWxINFFVam5yR2pIVTJZSi16VjlCWnI2Wkp5dE9fZG5DZFdqMmNoeVHSAWZBVV95cUxQZ0RxaDZKQ2pLNDBkOC1BWnZiS19zbGI1enEtdGJBd24wVk9Gdmt0T3dZQVU2YU16NzhVN3lPYmQzcm5veXQ0cVVnMFczX0YzSEdyVmotYkU3X3BiaDhPSk9HbVdxRUE?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "13:13",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "김선태, '돈선태' 자진하차 \"리센느 대표에 직접 사과…멤버들이 걱정\" - news.nate.com",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCVjctVTBtcHpIVXhoVE5uN29FNk1vamx6YnlZZHdXaUdzVGdyZkF1M0JWR0VHOEJTQjlTTHVzTU5SaWNxM1daY2NQMmFyeDMySUxF?oc=5",
           "source_type": "news",
@@ -176162,17 +175379,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "팬 향해 하트 발사 윈터의 무장해제 모먼트 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92a3MzbmpfUkYzYm44YVVWX2sxbFMwSFZZcUJPWERfYXRqYnliXzhOMmlLQ0xfWXRZVEtvMU5uNWtOMEkzWUVnQTBOWm0xUk5tZ0xSeVBiVGt1QVZJ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "도미노피자, 리센느와 협업... MZ세대 고객 접점 확대",
           "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=205006",
           "source_type": "news",
@@ -176192,17 +175398,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "김선태도 사과했지만…'원이 2차 가해' 역풍 맞았다 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2bUhfM0lzcHNNZWJIeG5WNGQyS0xQSE02X0FEeElUNnlSeVE2OWlXN3pXeXRSRjAxTGthbHE5SlBycUpNSGZkVzBNdEJHbzVJSmdMZU5mY1A2cUJ4Q3VJVdIBeEFVX3lxTE9vTi1lWmtPZkZVSzRLWUJGUlNUUzVGYWFFc2gwekh5T1NWTjJrZVhKYXZVandWNVRIUHVXMWItM3VCVVdSYTEzRzZfcEZJSURhRzEzRE9lQ3JNcDFUTlR3Z29wTUM3eFdZS05VVWI1SHZqNmRBa1ZXYg?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "15:50",
-          "category": "기타",
-          "members": [
-            "원이"
           ]
         },
         {
@@ -176544,17 +175739,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[🔴라이브] 08/01(SAT)ㅣ쇼! 음악중심ㅣ3:20 PMㅣKPOP LIVE STREAMㅣ#fromis_9 #YoungK #KARD #idntt #8TURN",
-          "link": "https://www.youtube.com/watch?v=L7MR8RF08lE",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "14:38",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "카사베르디·나랑드사이다, 리센느 매개로 공동 마케팅 전개 - 이코노미스트",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXOHFQY3YtS3kzVDJrR1dTc0lib0lTVktNZkF4N0JTNmRTZm4zS2E0RWJJcGpVQndtS0l2S1N2ZEJRYWowenBoci1aNVRtY3NjcjJQQm9jUE1IMUVuT3NmXzJR?oc=5",
           "source_type": "news",
@@ -176593,17 +175777,6 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "14:33",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "원이 “너무 무서웠다“는데…’무섭노’ 또 꺼낸 김선태 사과 - 연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvLTQ3NmtFbFYtdDkzTjlYd2haMU9tYTNrZnBfbVNReGhaM0lrZEM5WDNCQlR3aUFmNDExdUlHRVNzY0ZURU11ZnNZX0JwTkF2Nm5BbkNtbkpuSXNNWnJKakUzbkpZb28?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "14:20",
           "category": "기타",
           "members": [
             "원이"
@@ -178414,17 +177587,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "AI 시대, 음악은 왜 향수를 입는가 [이선미의 퍼퓸테크] - IT조선",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NR3JJRk1Oa2gxNTBUaGc2U0IzZDliZVZqN0VxWVFxV1g2cHBOZVNaVG5wdFZfX25nUk9mSE16N3c4cFQzdXZDMmRvcWxmWENvejY0RUhQN2VWWUV5TDNsRHllTWp1bWFwNllMUlVFclLSAXRBVV95cUxPaUFtc1hySE95SVl5SV9rRDVtSVhlSUNFbkJWQ0xmcDVaX2NIY0NqRUdyR0RUU3J5dkJFT2Fva2VWTUlPQUk5NVNLYlY4V2tYVElJUEJ0TGpMak4yS1dnVnRRZUJoSzFJblZpbF9HT0ZzNk81aQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "06:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "\"무섭노, 바이럴?\"..김선태 '돈선태', 리센느 원이 '2차 가해' 역풍 [스타...",
           "link": "https://www.starnewskorea.com/star/2026/07/30/2026073000401467956",
           "source_type": "news",
@@ -178455,17 +177617,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "Jenna filming Anwonjal #Ricenne #rescene",
-          "link": "https://www.youtube.com/watch?v=n_pqCr_bJ8k",
-          "source_type": "youtube_collab",
-          "source_name": "잔잔채령류진",
-          "time": "02:56",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -178761,17 +177912,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "티파니X뱀뱀X노희영X기은세, ‘커머스 경쟁 프로그램? 한 사람이 브랜드가 되는 프로그램’ #엑스더리그 #XTHELEAGUE - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JN1VSYmZNQXB3OXc0NjlFdjVWNEZxUVBOMktFME9LQTU2cnh0VHpQVklOV3M4dTBmaFF6aFV0QlRyRWNmMG43MUtTUm5tNllTajMyd3Y2RGQ4VnhzRkpQZnE2S1R4c2tQMGcxYXJERQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 데뷔 캐스팅 비화, 진심과 눈물로 완성하며 스타트렌드 정상",
           "link": "https://www.joongangenews.com/news/articleView.html?idxno=536335",
           "source_type": "news",
@@ -178923,17 +178063,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "미나미 \"부모님께 20만원 드려…조금이라도 드려 다행\" - 세계일보",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96Y3BvQ1R0WDktajFITnNta2pLMjNGbmdEUE1ZdDdIUGEwckstN2NaOVlSX2U1cUxFSFNuV3JybjUyeGZVZl9hZjN6WnBmZDZvekdsYTctMzNRWkt1dG9IMWNSU3R1WXhFeHVJ0gFUQVVfeXFMT082RWVmSzRRS0FaZWtSMTNpdGdGVzJyS1o2em50clhBVm1QRE8xWjVnejVQbVNMQV9Qcmw0N29jS0NfZUUxS2RMUHR5alZ5OWstUWRz?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "12:27",
-          "category": "기타",
-          "members": [
-            "미나미"
           ]
         },
         {
@@ -179323,17 +178452,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "포토홈 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jUmxva1duRzNVbExyR1BuX0FOSGoxSjNlTDFBSUpBcDd1cDVHcEtBbXFMNDM4bHk5WmRCekZ0RTkzWkJzbUZEa1NzVXRWTl9xeVBEQnp2WVFXWnJxYktHZmFXS2JxQ3BycmdHcHVkbEFHQWlD?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "07:19",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느, 코르티스·아이오아이 제치고 7월 라이징 가수 평판 1위 - 싱글리스트",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FUEdOc0diM0tQZU1DME5uSzZLRUx5TllySWlkNnpybS1vQ0RQZXBaOXBlLUhobGVjSGZCdFFsQk1YVzBTQnpMSFVQYTJUZ3hjWnZzN0VJTE5IaTZOU1RNWDlOdmI0QQ?oc=5",
           "source_type": "news",
@@ -179630,17 +178748,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "\"우리 위치 생각하자\"…원이, 멤버들 '정신교육' 고백 - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIREF2cHgyVnYtMnhNUjJ4N29feXhTMlZsQVlMMmhzN1F1SjBBdWc4NG1Tc2QxeDBxVk9oeEp5TzFjbHM5dVVPMWNESldGVTYyOFNmbkNqQ0xENWM3RnhBMdIBeEFVX3lxTE9BSlo1X1dzemZlcC1lR3NUdjVYSjFUaE93ekJFWk45QzVSODVhc3p6YnR3RHJtSTZuRnVvOTB5UXl6MWpSaFRTcFZ0c3RRS0RrWnhpZ2MtQkZGNDg2aUxEcWV6RC14TERzeXNXM18zUUNUbG5Ba3BpTA?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "00:05",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
         }
       ]
     },
@@ -179657,17 +178764,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "미나미 \"연예인 기분 느끼고 싶었다\" - 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKTEY1WkpKUjlNcnBHNC1RWEJsY3VfTWVBdWZoRXdTUW5vZVNMS0dSUjh5SmJuUXBQeloxX1BfSmk0N2VzMWJtTjlTS1M4SElNTk1YM1dqR0lEQ3ktd2U3S9IBeEFVX3lxTE9nUzhERllfbmtTYkxoUmRFSzdsbHhQa0VUV1pGTktBUnJKeXpBbk5JOHl4VWljYVdpZDk1YWphQVU4WjR4c05mek5UM1E4bVIyZktJVjNRNWVzbXVqLTNmNTREUWZ3ZThkRklkdm1lWVlOYW45NUhjQg?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "21:06",
-          "category": "기타",
-          "members": [
-            "미나미"
           ]
         },
         {
@@ -180251,17 +179347,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[INKIGAYO LIVE IN TOKYO🗼] RIIZE 로부터 온 편지💌",
-          "link": "https://www.youtube.com/watch?v=RhwXYigai5w",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "10:14",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "‘트와이스 찐팬’ 리센느 미나미, 사나 ‘냉터뷰’ 출격 - bntnews.co.kr",
           "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JWHlva0k2Qjg4THBFVHpfN2xsT0lKOWZ4SU5qMWVJOV9fZUhSY2RZUlV4UXlSUzYtWE9CUllLOWZBMDVzX202NjNUcklWT2pfbFFaYUpwNmo3RTRLM1N6a0NTU1Q?oc=5",
           "source_type": "news",
@@ -180314,17 +179399,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[🔴LIVE] 2026 THE SHOW Ep.396 (2026.07.28) l ONE PACT, idntt, TRENDZ, VAYONN, 8TURN, etc.",
-          "link": "https://www.youtube.com/watch?v=-Pnn9aKdZaI",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "09:10",
-          "category": "Live",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -181124,17 +180198,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "Rescene Makes Reporters Shout 'Yahoo'... An Iconic Moment from the Scene / SBS / News Highlights",
-          "link": "https://www.youtube.com/watch?v=ZUEm8eRUJNc",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 뉴스",
-          "time": "00:10",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
         }
       ]
     },
@@ -181294,17 +180357,6 @@ const SITE_DATA = {
           "source_name": "구글 뉴스 - 리센느",
           "time": "18:29",
           "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "스타 깜짝 포토 - 포토슬라이드 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqY2syRklUaEdkZWVvYlZnYzdWXzJMMGJJNTdYTTRCMU9ET2F3bTJFeDFJWXpGSXBYUk1jUlF1YTZuWjZES2tVSi1MQllsTmhqZWpFS1loNV9hV25RaFh0MXlrSHJDUEoyT180?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "18:01",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -181704,17 +180756,6 @@ const SITE_DATA = {
           "source_name": "구글 뉴스 - 리센느",
           "time": "10:23",
           "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "\"이 지역 축제 다녀오면 톱스타 된다?\"…BTS·르센느 거쳐 간 의외의 무대 - 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11S1ZYajhEam9uZ0JROGZGcVZyZXBaMjNHSVRyY25vZ2s1cUJLckh2VmFma1ZvbW44X1R1V0NOUnRtbFk0OEZ1N25MMEQ1UjM2bjVJ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "10:13",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -182567,17 +181608,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[미공개] 메이 마이크 이슈 발생? | EP.2 #shorts [FANPOPTY]",
-          "link": "https://www.youtube.com/shorts/mKfs1wFPJrg",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "16:11",
-          "category": "Shorts",
-          "members": [
-            "메이"
-          ]
-        },
-        {
           "title": "리센느부터 NCT WISH·아이브까지…캐리비안 베이 여름 라인업 '역대급' - 뉴스핌",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LcEhpV0FQSFUzV1dPclY4VGRsX05kbnk4cXNDQ3RXSFE5QjNESnhXU01HWVdIYUlEa0lrNmF4SWdDRDBvcV9EZ0F2dDVzVGpHRlhlczNtY3JRdUFk?oc=5",
           "source_type": "news",
@@ -182700,17 +181730,6 @@ const SITE_DATA = {
           "source_name": "전지적참견시점",
           "time": "19:17",
           "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "BABYMONSTER - 'I LIKE IT' M/V",
-          "link": "https://www.youtube.com/watch?v=9cS2wv6AfHk",
-          "source_type": "youtube_collab",
-          "source_name": "BABYMONSTER",
-          "time": "18:14",
-          "category": "MV",
           "members": [
             "전체"
           ]
@@ -182935,17 +181954,6 @@ const SITE_DATA = {
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iTlNaYms5OFdsWC13eDlGWTNtc1hOSGlmSHRtUTVNR3FBNndmVkxRZG43S2MxcEcwOS1oSDF4VDZ0LWpndENrSlRNVE4wYjhSc0NoSlZiMzNKajTSAWBBVV95cUxNYWJXbzBCQk1yVlJ6VDVyMThFOWplZXZyNEhacXlHc3I3Yk9rd0FsRDd2RzFxUE11WDNteDQ1VE51VEtkd0ctd3RtaEZGaHdaZC13VGtCOGdWWUNuYTFkT3I?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "BTS 제이홉 '떡복이 먹고 푹 쉴게요!' [STARPIC] BTS J-Hope Arrival at Incheon Airport 20260722 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0bEszd2hUaVRRMS1sTTlMWVg4UHd2c2RIVnM1X1E2U0kwU1duLUZ4XzQ1ODJ4ZHc3bHpRV25xZGNHOUluek1zYUs0RlFRdThRa0hkaV8wYnV3OEl2ZDFWdGVkMnN3RXgyN1h4N2RwTQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
           "time": "16:00",
           "category": "기타",
           "members": [
@@ -183419,17 +182427,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "‘Geoje Yaho’ Rescene, takes firm action against malicious commenters…‘abuse rumor’ revisited - 스포츠경향",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5iZVcwallzcEdCWFVMLVBydDJQOWJ1Q3UzS25TRGxYTWZmV0d6OExMWElnMF9rSUtlbm5SRnB0RHdLbFRncFVvS0ExeWxfQllMTTBGYVhUQXdVQ3lLbk5yNjRn?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "Pretty Girl - RESCENE (리센느) [뮤직뱅크/Music Bank] | KBS 260717 방송 - YouTube",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zczhvWEdWbXhNN1NvTDVyZG9kMVd0ZlpDcWVCS25SNC10TUp6WmotMFZMMFh1ZVZ4ZVJabHBpYmNFaFVveVppc1Vfa3YxXzVveEhfdG00U1V3T1Jh?oc=5",
           "source_type": "news",
@@ -183524,17 +182521,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "도미노 무슈스 피자 출시 (원이편)",
-          "link": "https://www.youtube.com/shorts/oSqpWyEdxtc",
-          "source_type": "youtube_collab",
-          "source_name": "도미노피자",
-          "time": "16:19",
-          "category": "외부컨텐츠",
-          "members": [
-            "원이"
-          ]
-        },
-        {
           "title": "\"0 하나 빠진거 아냐?\" 리센느 굿즈 가격 '충격' [엑's 이슈] - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Eejl5TGs5cDdtUWtRNjBGS0Z3VHFMd25Yd3pkUm1wQnh1LURRRWNEZXQwelN6MFgtYmYxRjRxalBnbmFtQm84bmFKZy04eGM?oc=5",
           "source_type": "news",
@@ -183554,50 +182540,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "도미노 무슈스 피자 출시 (제나편)",
-          "link": "https://www.youtube.com/shorts/25zXP7m89sM",
-          "source_type": "youtube_collab",
-          "source_name": "도미노피자",
-          "time": "15:48",
-          "category": "외부컨텐츠",
-          "members": [
-            "제나"
-          ]
-        },
-        {
-          "title": "도미노 무슈스 피자 출시 (메이편)",
-          "link": "https://www.youtube.com/shorts/2F-GUn8uxns",
-          "source_type": "youtube_collab",
-          "source_name": "도미노피자",
-          "time": "15:46",
-          "category": "외부컨텐츠",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "도미노 무슈스 피자 출시 (미나미편)",
-          "link": "https://www.youtube.com/shorts/RA_MzUSzSb8",
-          "source_type": "youtube_collab",
-          "source_name": "도미노피자",
-          "time": "15:44",
-          "category": "외부컨텐츠",
-          "members": [
-            "미나미"
-          ]
-        },
-        {
-          "title": "도미노 무슈스 피자 출시 (리브편)",
-          "link": "https://www.youtube.com/shorts/DD3jJIyrFe4",
-          "source_type": "youtube_collab",
-          "source_name": "도미노피자",
-          "time": "15:43",
-          "category": "외부컨텐츠",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -183911,17 +182853,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "‘It’ group Rescene, but… What is going on with May·Liv in Google search results? - 스포츠경향",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1teXBiMXBsZTJWRG9RTkZkazdFc0syZ3RFWDZtXzQ3WGJWVDFIa2FfandpZERIQ3gxY3kzZXRQVThKVE1Oc2F6Qm5ja3ZaZmdUeDlMZnFWa09WcGQySGRuWmx3?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "RESCENE to Unveil Resurgence Stage on “The Show” - sports.khan.co.kr",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjSzFNVXlUSVJhR2RKaER0NmxSMy1tWFpHMk1QbGhMUHVWNzZHWk1lclhqMkFaa2hQcWFMR0pkbWQxRWVJR2dnc0N2WEVoN251VWFKNHYwdGRjY0dOX1pQVHhB?oc=5",
           "source_type": "news",
@@ -184033,17 +182964,6 @@ const SITE_DATA = {
           "source_name": "M2",
           "time": "08:00",
           "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "트레저 '더위와 함께 돌아오다ㅎㅎ' - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RQWxScDQ4STRTT1VDTzM0Y2ZsR3pORF9UWUMxaXVTcDZuQkZtUUpOZkZBR0xpS0xkbUdQcG5hdzNzb2RCQlVfWEgxR212cm9xcWNKcmV1b1lYb1RqZXFuVTVFeTRsVHRrSUxfbU5xYkQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "07:43",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -184652,17 +183572,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "투어스 '상큼발랄 매력' - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QREVlYVREMmN2S19tSlhiU3lHd1VMX0tkQ3ItWXZLdThFVUh0ejVKTlJJT3c0eEd0Y2hPNDZUMVFVenRsaXdzejItZERleGpadThEaFdXczZtLUd1dzFKN3k4dGp5OEFCdEVpVWw5bGQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "RESCENE brings back a KARA classic - 스포츠경향",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12ekhBc01fUUtkN3ROUUF1NXN1bzB4MW14TWlCcmdRSnNNMXpBS0ttcDljYTIyWW5kVi1pdzZLdFpoS09TSWtCOXRFWjc5SHgxQ3ZYNTFydU9tbGZXd09MSXRR?oc=5",
           "source_type": "news",
@@ -184997,17 +183906,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "MEOVV(미야오) - ‘Hit 'Em’ PERFORMANCE VIDEO",
-          "link": "https://www.youtube.com/watch?v=vYq_Xzj8HUM",
-          "source_type": "youtube_collab",
-          "source_name": "MEOVV and THEBLACKLABEL",
-          "time": "17:33",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "#침착맨 님과 어디서나 당당하게 걷기 🎀",
           "link": "https://www.youtube.com/watch?v=u0YZVUvlGSk",
           "source_type": "youtube",
@@ -185044,17 +183942,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "After Rescene shouted “Geoje Yaho,” city governments came running - 스포츠경향",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpTWdmUmc1T3BHYS0weGZDSXFMUXAtODJDaW1WY3V6NHdnc0VsbHFpOWtjbEJpUlhxT05wenlOaUFveVAyMEpYZFdpTVpZZ3BfNy1xYTBCaGRMTW52NG9aTkFR?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -185147,17 +184034,6 @@ const SITE_DATA = {
       "date_display": "2026년 07월 01일",
       "items": [
         {
-          "title": "Hearts2Hearts 하츠투하츠 'Lemon Tang' MV",
-          "link": "https://www.youtube.com/watch?v=1VqxWNwgf5Q",
-          "source_type": "youtube_collab",
-          "source_name": "SMTOWN and Hearts2Hearts",
-          "time": "21:24",
-          "category": "MV",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "Come on Beautiful Girl 🪞🎀",
           "link": "https://www.youtube.com/watch?v=782SuTI6i2A",
           "source_type": "youtube",
@@ -185196,23 +184072,6 @@ const SITE_DATA = {
           "source_type": "youtube_collab",
           "source_name": "털어드림",
           "time": "09:55",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-30",
-      "date_display": "2026년 06월 30일",
-      "items": [
-        {
-          "title": "RESENE Woni & Minami Guest Interview",
-          "link": "https://www.youtube.com/watch?v=wbfy9Tm0UjA",
-          "source_type": "youtube_collab",
-          "source_name": "침착맨",
-          "time": "09:07",
           "category": "외부컨텐츠",
           "members": [
             "전체"
@@ -185337,17 +184196,6 @@ const SITE_DATA = {
       "date_display": "2026년 06월 27일",
       "items": [
         {
-          "title": "최대훈, ‘발차기란 이런 것!’ #김부장 #AgentKimReactivated - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE11dzJSUGV6dGRELTFkQXNaQUhCZGZKNXUtczEwR1ZUQmhsbUJSTjFYRlJXcFpkU193b19MSm5EZDFBMk9OZWVaVG44TS1yaWdRVk9RSTNFUUpfcy1TS3lBbFpVNnBOdw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "쪽팔려게임",
           "link": "https://www.youtube.com/shorts/beKjAiS8n44",
           "source_type": "youtube",
@@ -185371,17 +184219,6 @@ const SITE_DATA = {
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
           "time": "19:00",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "izna 'METRONOME' MV",
-          "link": "https://www.youtube.com/watch?v=NQRGAh7ukh8",
-          "source_type": "youtube_collab",
-          "source_name": "izna (이즈나)",
-          "time": "18:35",
-          "category": "MV",
           "members": [
             "전체"
           ]
@@ -185529,17 +184366,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "김부장 시청률 공약! “13% 넘으면 광화문에서 야~호? ” #김부장 #AgentKimReactivated - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WWGFZbjE3M2pieVU3RThwWXRCZTdyUHFCcnBYVzhaeTEtakhRMVhlUGJDM0pyMzdRYUl0VURPQWszdE5qQkdvcVQybUt2a29WV1JmOXZiQmQ4ZXhHdHFpWTlGSGZnSEdCWFMxa25uNlE?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
         }
       ]
     },
@@ -185629,17 +184455,6 @@ const SITE_DATA = {
           "category": "자체컨텐츠",
           "members": [
             "메이"
-          ]
-        },
-        {
-          "title": "Riina teasing May",
-          "link": "https://www.youtube.com/watch?v=6pL9qy3FtV0",
-          "source_type": "youtube_collab",
-          "source_name": "출구없는진경은",
-          "time": "21:02",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -185903,17 +184718,6 @@ const SITE_DATA = {
       "date": "2026-06-15",
       "date_display": "2026년 06월 15일",
       "items": [
-        {
-          "title": "BABYMONSTER - 'SUGAR HONEY ICE TEA' M/V",
-          "link": "https://www.youtube.com/watch?v=naoGk-Zjc1s",
-          "source_type": "youtube_collab",
-          "source_name": "BABYMONSTER",
-          "time": "21:48",
-          "category": "MV",
-          "members": [
-            "전체"
-          ]
-        },
         {
           "title": "캡컷프로 기간 얼마 안 남아서 해봤는데요",
           "link": "https://www.youtube.com/watch?v=a90mff6yEVE",
@@ -186212,17 +185016,6 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "19:59",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "르세라핌 '인형들의 출국길' - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE43QVA5Yi01X09GQURoWE92ZUhNNFYxRWdieERKYXhnNDNycmNTMkpxcS1FanZwcHJYZjNNQ0Q1dElfY0JBR0tSbHJ0Q0NJOVNXX3FpSG1CRGFrcGNMNXc?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -186579,28 +185372,6 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "17:00",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "ILLIT (아일릿) ‘It’s Me’ Official MV",
-          "link": "https://www.youtube.com/watch?v=bMhDJ0S0OBA",
-          "source_type": "youtube_collab",
-          "source_name": "HYBE LABELS and ILLIT",
-          "time": "10:55",
-          "category": "MV",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "NMIXX(엔믹스) “Heavy Serenade” M/V",
-          "link": "https://www.youtube.com/watch?v=6Ycn9qZK09I",
-          "source_type": "youtube_collab",
-          "source_name": "JYP Entertainment and NMIXX",
-          "time": "10:55",
-          "category": "MV",
           "members": [
             "전체"
           ]
@@ -187331,17 +186102,6 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "19:59",
           "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "김고은X박지현, ‘은중과 상연’ #백상예술대상 #BaeksangAwards - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblg0RzB5aEJTZEtSMDYzTThmcmZuOHZFMTJMenRyLUNkVnlOTUlDS0FjREtyM0UxTEstSG9jRS1MRWpGSExISFV2TTRpVXdOOUhwanBhQmx2bTRXY1E?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -188420,28 +187180,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "드라마 ‘모두가 자신의 무가치함과 싸우고 있다’ 기억에 남는 명대사는!? #모두가자신의무가치함과싸우고있다 #모자무싸 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FWXZKMFphOFJoQjZzblM5SHY5WFR3X2JRMVJrd1pialhjX3ZTVTJPVENRdFYyRzVmTUhQZmF5aEdISVlyMWc5T0JmdFFmang2SC1Hb2hBdHowUFpGSUN1SGRwSElpUQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "‘모자무싸’ 제작발표회 단체 포토타임 ‘기대되는 연기 차력쇼’ #모두가자신의무가치함과싸우고있다 #모자무싸 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUb2QybWhxaTJ0NWFLYUVMQmJvRnozaXZKdXBUcGRlN0NoSEt5YUFzQ21PRkJSSzVZRTRWWFdyNjhLc3Z5bG9zQTdiclBOc2F3MTRiVUc5UFhUbDJI?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "런어웨이 🩰🩷",
           "link": "https://www.youtube.com/watch?v=y8J4vyC-ZL0",
           "source_type": "youtube",
@@ -188487,28 +187225,6 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "16:00",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정수정, 예쁨 여전한 짱구 여친! #정수정 #크리스탈 #짱구 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Zb2xna18wLUV2NVVNOXpmUzhhRTI2Sld5RUpJbGo3dGNHb0I4ZlBVRFRkSUxXbTB4aGozRk1oUmk2NE9wUU1lblQtLVkwUXNLRmtSZkhnMktiRjJzSGp5NHNvVmM2aHV5aVNEQnB1UQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "NewJeans spotted in Denmark Sighting 0415 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYNVFpZGN3YmlWeHlKUEFyLUdTSjJ1WEM0Wjk2UGQzb29yXzZFZWVQRXBNMUJCMEhaZTlERXFCeWRNTkJOM3FWeXVDZjA5el9pbVVIMVgxSGZVaGxtRmJEZXBITjVwOGhDUDdrSFFrZw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -188659,17 +187375,6 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "16:00",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "성해은, 20kg 감량 후 또렷해진 이목구비! #성해은 #SungHaeeun - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CVzM1NnJQVWFkN3FJNFZUYmxKbTlVcjdhSjVrazZvbWttdC10VURtSGQ1SFJQTzdpU0xzWEM3ZjRPTmVHcy10OXdCakdSc1QyMnpOWGxZRjU2V2dYOHZTUDBKZjBiVngzc0hhcnBUOA?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -189078,17 +187783,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "키스오브라이프 쥴띠가 말아주는 ‘Who is she’ 포인트 안무! #키스오브라이프 #쥴리 #나띠 #KISSOFLIFE - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iVXpLc3NJN29YRzlKb3lnZXRjQ212OE4tcWpLN21ucDdyUm1EcUNqWWZ0U1phNHo1dThXNUxRUFh0Z0xZSkh4SmVQTUd0LVhXYU5QTUdUbHFDMUJC?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
         }
       ]
     },
@@ -189429,17 +188123,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "AtHeart 앳하트 ‘Butterfly Doors’ Official MV",
-          "link": "https://www.youtube.com/watch?v=ioK78YucIjc",
-          "source_type": "youtube_collab",
-          "source_name": "AtHeart",
-          "time": "11:05",
-          "category": "MV",
-          "members": [
-            "전체"
-          ]
         }
       ]
     },
@@ -189665,17 +188348,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "방탄소년단(BTS), '장꾸넘치는 멤버들의 RM 챙기는 방법ㅋㅋㅋ' #BTS #방탄소년단 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpYU9KV0NuaFlmT2J5RDI0RUw4YTI3QnFmOW5uVFVaZmVpNXdlUE4wUzdTcVZELWdvX0RqQ05lQW9yYW5feTdIMlQ2Mzd5akxmRHRtamZTTDVYR0Jj?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "대추노노 ❌❌",
           "link": "https://www.youtube.com/watch?v=VsuLUgltIBI",
           "source_type": "youtube",
@@ -189712,17 +188384,6 @@ const SITE_DATA = {
           "category": "자체컨텐츠",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[LIVE] Stray Kids HYUNJIN Departure at Incheon Airport 20260321 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHbHpzdkFJQThLT0hJOG1FeUZiTmExc05YSWZkRERJYi1DOWZVREUwazF0T01OV2R3cDZKYjBHYkhiS0V4RUxYWWQ3WUw5YU44bFdENVE1ZU4zc3R6?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "Live",
-          "members": [
-            "리브"
           ]
         }
       ]
@@ -189857,23 +188518,6 @@ const SITE_DATA = {
       ]
     },
     {
-      "date": "2026-03-09",
-      "date_display": "2026년 03월 09일",
-      "items": [
-        {
-          "title": "Dragon Pony(드래곤포니), '잠시만요...기억이 안나요ㅠ' #DragonPony #드래곤포니 #쇼케이스 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zUjliT3NVbHljQ1NtQ1ZXdDJSalZvS1FLaUN4YVM5TVlpNTFuR05CSjNLa3ZTMjZwX2tqWWFtd2RFd05sclB1Y21jcjl3OHZTVHBLVjdENnRfZjhuZk1lMTktSVJ0Zw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-03-08",
       "date_display": "2026년 03월 08일",
       "items": [
@@ -189895,17 +188539,6 @@ const SITE_DATA = {
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
           "time": "21:53",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "NouerA(누에라), 'Chill~이것이 포.인.트' #NouerA #누에라 #POPITLIKE - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Rc0E1aENYczRPeGhVUUlSeGMzdTVSMXg0cDFjbU9KWWs5SEFLLVJXWTdUOW5GaXdUUlhCYmtHeE1CZm9xR0N4UHFaMXhLUW44MzJnbEZBbV93Q0Qt?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "17:00",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -190409,17 +189042,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "MADEIN - \"안 봐도 비디오\" Super Obvious MV",
-          "link": "https://www.youtube.com/watch?v=yE6yETkVI3Q",
-          "source_type": "youtube_collab",
-          "source_name": "MADEIN",
-          "time": "03:25",
-          "category": "MV",
-          "members": [
-            "전체"
-          ]
         }
       ]
     },
@@ -190478,28 +189100,6 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "15:00",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "IVE 아이브 'BANG BANG' MV",
-          "link": "https://www.youtube.com/watch?v=9qkpcLK422o",
-          "source_type": "youtube_collab",
-          "source_name": "STARSHIP and IVE",
-          "time": "06:26",
-          "category": "MV",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "Hearts2Hearts 하츠투하츠 'RUDE!' MV",
-          "link": "https://www.youtube.com/watch?v=F7sGJVUrkjQ",
-          "source_type": "youtube_collab",
-          "source_name": "SMTOWN and Hearts2Hearts",
-          "time": "00:35",
-          "category": "MV",
           "members": [
             "전체"
           ]
@@ -191053,17 +189653,6 @@ const SITE_DATA = {
           "source_name": "안녕하세요원이입니다잘부탁드립니다",
           "time": "20:51",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "KiiiKiii 키키 '404 (New Era)' MV",
-          "link": "https://www.youtube.com/watch?v=zhHB4dZTChw",
-          "source_type": "youtube_collab",
-          "source_name": "STARSHIP and KiiiKiii",
-          "time": "10:30",
-          "category": "MV",
           "members": [
             "전체"
           ]
@@ -192019,17 +190608,6 @@ const SITE_DATA = {
       "date_display": "2026년 01월 09일",
       "items": [
         {
-          "title": "아이브(IVE) 이서 졸업식, “3년동안 행복했어요~” #한림예고졸업식 #Hanlim_Graduation - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2UWFiVFIwVjZpWGNhLVVRS2dRcVkzQ0NMeXc4UVpiaWZNeEdXbDJnWHZQWXZyeHNqekJUekc0enlJaFM5S215aGJVWFBfVUVFeUlOSUFGZk5JQVNs?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "17:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "Yum 😋",
           "link": "https://www.youtube.com/watch?v=-ELKdjqUUqk",
           "source_type": "youtube",
@@ -192064,17 +190642,6 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "18:00",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "아이들 미연(MIYEON), '막둥이의 귀여운 Point' #미연 #MIYEON #아이들 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DQXc4ME8xNXByX2ZWNXdWaUR1WVNaYzZrRm5NaFN4d1hQbXJFdUl2QTBCaDdYaWpyUnNLcDBJY194WFBmbldRMjVNVE9UNVRtN0dJWUdvSXJ3Z0tx?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "17:00",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -193669,17 +192236,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "[LIVE] ALPHA DRIVE ONE Departure - at Incheon Airport 20251125 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5HbnZYd1R6R2I4QzE5Z0wya2pONDFKLTg3cjhlenlTOUt3eUEzTExiOFZEVGNySXhtZjlKcEhXaUNfSWNTcktsamZwUF9BRk9vaGs1V2dWa0VBUmU1RUE?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "17:00",
-          "category": "Live",
-          "members": [
-            "리브"
-          ]
         }
       ]
     },
@@ -194451,17 +193007,6 @@ const SITE_DATA = {
           "category": "자체컨텐츠",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "RESENE | BaeTen compilation. Featuring our own take on the experience",
-          "link": "https://www.youtube.com/watch?v=gmCipfLyDx4",
-          "source_type": "youtube_collab",
-          "source_name": "이센느",
-          "time": "03:45",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -195349,28 +193894,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "걸그룹 라방 중 ‘악!’ 女 비명과 男 고성이…논란에 입 열었다 - twig24.com",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX3lwLUlIZlNkRDJuWVVWQjBqQjNJdll2dUxjMTNJSTVCTU43c190TTBMZmZKcjhGYkZTSThwS1I4Z3Q2YlFrLUFjS0d3WmpEMDA1ZkJfSVhMV1ZrYnY3UnVvZWNlNUFPeWZQQjlzTno2QVc1UHdYUVBUWjR4WFg5NWw4TGQ?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "걸그룹 라방 중 비명 소리가… ‘소속사 학대설’에 멤버가 직접 해명 - 조선일보",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZWt5eHNQdjdIOGVFa0Z5Q0JDQkZDZlRmU3VpdGtuWEFhbm5iSzdsWmROeU03REppZVdpTDNESGR0N2xHUWJwVjdFS3BZLWY2bEJ3bVlTNjhuWnVvdUtfVjNWM2Y2MnFhVUN0WnNsZElaTU94b2F0Q1RFaVlHNUtwYlZNdnpTV1ZjNG9KblJZUUZ5OGNH?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
         }
       ]
     },
@@ -195936,17 +194459,6 @@ const SITE_DATA = {
           "category": "외부컨텐츠",
           "members": [
             "제나"
-          ]
-        },
-        {
-          "title": "ifeye (이프아이) ‘NERDY’ MV",
-          "link": "https://www.youtube.com/watch?v=I_msu2-4UAU",
-          "source_type": "youtube_collab",
-          "source_name": "ifeye 이프아이",
-          "time": "01:14",
-          "category": "MV",
-          "members": [
-            "전체"
           ]
         }
       ]
@@ -196768,17 +195280,6 @@ const SITE_DATA = {
           "category": "자체컨텐츠",
           "members": [
             "메이"
-          ]
-        },
-        {
-          "title": "ifeye (이프아이) ‘r u ok?’ MV",
-          "link": "https://www.youtube.com/watch?v=tGMy0z1akLs",
-          "source_type": "youtube_collab",
-          "source_name": "ifeye 이프아이",
-          "time": "01:32",
-          "category": "MV",
-          "members": [
-            "전체"
           ]
         }
       ]
@@ -197791,17 +196292,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "[TD포토] 90년대 발라드 스타일 가수 율 - 티브이데일리",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ndUVlbEliNk1nLUdUN1lsWWdQLXluOUlWeUoyMTBLODJybU5BSWFUNGVUZ0Y4SUF3Mk9lYWp3QlduakNHZWt2WVE2QzYtLWkwS3BMQzlUSXVaVHdGTnczNk53ODBrbkJXNG9j?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
         }
       ]
     },
@@ -197851,17 +196341,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "아홉, 데뷔 일주일만에 더쇼 1위[포토엔HD] - 뉴스엔",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nVmtNYkk5Vk5KZXdKOFZHRWl3RWsxeWEyNGQ2MGpBc1YyaHIxR1NIMVZVbVZFcW05OTFrV1lxeUNMNDRoekRIc3JwNXVKUllnTzJkT3hjeGYwWjZMQ2NPRUxSWDJjT2pwNVZj?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         }
       ]
@@ -198711,17 +197190,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "[효원 스케이프] 청춘의 순간, 2025 대동제 스케치 - 채널PNU",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EZ0xrUVVzd3AzTTczbV9Ycm9ObUdfWTNiTmtTZmlDZGowMllsZ3Zscl93Y3RVT0MwQ3N0djFoanhWYXlSV3h2cXl0SkVKeHBYYVV1T0NKTmlWa0pzRy1hbHJ1cWV5MHpzMW9mRGZzcEI4QdIBdkFVX3lxTE5sb2g0UGRmZ1FSZVRhangyanpYWVFpUF9Melc1SE1xM3JKbDlzbGFDUlNMdmlHME5MUnBVTjhjWFFiZTdOeGVEYklqQlliQzZZRjR5V0FibEx0dUMtd19icDRtdVhJZW50YTluSVY1T0FqeGEtU2c?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
         }
       ]
     },
@@ -199400,17 +197868,6 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "19:00",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "고윤정 (GoYounJung), 볼하트 요정♥ #언제가는슬기로울전공의생활 #residentplaybook #언슬전 - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PdkVzcWZ6VGtqYnZndVNTanVWX2pOWHprYWtwS2MyZVgwTkxIU09ScmM1YUFZY0J1RjgyN1hGSFpFTnNhYk02RDFIWEZROVdXUEcwdmxhWnYzTXNzNWc?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -201379,17 +199836,6 @@ const SITE_DATA = {
       "date": "2025-02-06",
       "date_display": "2025년 02월 06일",
       "items": [
-        {
-          "title": "르센느 리브, 귀여운 포즈~ - ohnews.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvSnNDWXhGVVgwdWd1VHBESnozaDMzZUpZM2NhY3FNSjlTTGF0XzNTNVlCc2V0TGZScDFWUDY1eU1yZEJHWW5YTG1sTnZDbHFNRmk4d3B4VUxwR0sxMGljMHlBWXBZcnBmZ3c?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "17:00",
-          "category": "기타",
-          "members": [
-            "리브"
-          ]
-        },
         {
           "title": "RESCENE(리센느) 2nd Mini Album [Glow Up] SHOWCASE LIVE",
           "link": "https://www.youtube.com/watch?v=CpXuvyMl70E",
@@ -203888,17 +202334,6 @@ const SITE_DATA = {
           "members": [
             "전체"
           ]
-        },
-        {
-          "title": "페루 인기가수 레닌 타마요(LENIN Tamayo), ‘심플리케이팝 투어’ (SIMPLY K-POP CONTOU... - 스포츠경향",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4ySUE2NkRSRGg2NjFScE1OV09zNDNzazF1MXhzRmZoTWtqalEzZ05vX3lPN05HaDdvQ2ZuVmI4MnBtT0kzQWx2aENyS0pBUGlRcEE1VkpDckN4ekplanfSAWNBVV95cUxOb3hyalVZdldrMzA1NnF3UHhNWXR5SG1zR0lPX08yUElmMGlIeTJ4amJUeDhBODQ5VUZ2YTREVnJaOFlsZmtCNEhKejRqUmtoX0pwNXVyZF9idFlmRGQ5a1owZkk?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
         }
       ]
     },
@@ -206354,23 +204789,6 @@ const SITE_DATA = {
           "category": "자체컨텐츠",
           "members": [
             "메이"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2024-07-07",
-      "date_display": "2024년 07월 07일",
-      "items": [
-        {
-          "title": "손흥민, 생일 축하해요 캡틴! - starnewskorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtZGVkcGxTM2VucHVHMEpzd3NlTzBRSE5kUjk5WHcwTTZYNXlTT0NOb1pmSGVmQnEzbjZDOGZFOXNpSHJDUXBUekhaZWlYY3J6OXZQc21FMHBWdw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         }
       ]
@@ -208845,74 +207263,6 @@ const SITE_DATA = {
           "source_name": "RESCENE 공식 유튜브",
           "time": "00:00",
           "category": "자체컨텐츠",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2023-08-21",
-      "date_display": "2023년 08월 21일",
-      "items": [
-        {
-          "title": "쥬얼리 출신 이지현, 솔로 데뷔... 신곡 '게리롱 푸리롱' 과거 안티팬들 덕분? - 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5sRlczNy1xLVc4MEJmUjhSSXphWmRkQXlKWjlnR3ZrbWtxR1Q0TnZwaGZUZXNiLXgzaHY1TkZZV2UyNXRzd0RtSA?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2023-06-09",
-      "date_display": "2023년 06월 09일",
-      "items": [
-        {
-          "title": "\"나는 평생 소주만 먹어요\" 소문난 애주가 송해의 소주 사랑 - sbs.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tYnVGeGdHeXFZTUVHV3ZvRlRXempGczhqRHlCVDQyVU9uYl8xMmRQVC1fOEFkTlNHenBkWFI5TU5pMmx0aHA1Z0Q3ZmNiLUhpdzZxN1dlZWNRb2g5czJMb0F3YWphRDhFRUMtNzJVT1pqMEJjTlZDbnh5bEZkSnM?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "06:24",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2019-06-02",
-      "date_display": "2019년 06월 02일",
-      "items": [
-        {
-          "title": "위약금 대신 초청가수 시월제에 다시 올 수도 - 채널PNU",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUM1JZdGpja2RWNmRMUEdrSTJUU0xoRkNQd0RPUGN3Qm52aktRY2Z6NkhGWWJyY1JhSFZHYkNqb2pHS0FmRERVUVFJQ3M5VE0tMG1kekhtWElkMk43d2ZKQW9qc2tpQnlxMXUzcjY3VVLSAXRBVV95cUxNZzFfNjZKb1hlMndBQmhyd2o5Y2FjVlAwREd3SzhxVXdwUW9hc0hieTdIVXBuT0JBUUU0QUVIVTJoTllwN1ZGWVFHZjVHem10UlBtTS10QllscGp5QnQwYjRQTDhIZmV3MnA4N1JmU3pQMTZFTw?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "16:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2012-08-22",
-      "date_display": "2012년 08월 22일",
-      "items": [
-        {
-          "title": "KARA - STEP M/V",
-          "link": "https://www.youtube.com/watch?v=zYoYoBtLqOY",
-          "source_type": "youtube_collab",
-          "source_name": "KARA Official",
-          "time": "21:36",
-          "category": "MV",
           "members": [
             "전체"
           ]

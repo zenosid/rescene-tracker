@@ -206,6 +206,12 @@ def collect_collab_by_search(conn):
             seen_video_ids.add(video_id)
 
             title = _get_text(v.get("title"))
+            # 유튜브 검색은 "관련 영상"까지 느슨하게 섞어서 내려줄 때가 있어서,
+            # 검색어로 찾았다고 해도 제목에 실제로 리센느/멤버 이름이 있는지
+            # 한 번 더 확인 (안 그러면 완전히 무관한 인기 영상까지 걸림)
+            if not _is_relevant_to_us(title):
+                continue
+
             byline_node = v.get("longBylineText") or v.get("ownerText")
             channel = _get_text(byline_node) or "알 수 없음"
             channel_id = _get_channel_id(byline_node)
@@ -251,6 +257,10 @@ def _load_existing_news_titles(conn):
     return {_normalize_title_for_dedup(row["title"]) for row in rows}
 
 
+def _is_our_group(text):
+    return any(keyword in text for keyword in CHART_KEYWORDS)
+
+
 def collect_news(conn, seen_titles):
     new_count = 0
     for feed_conf in NEWS_RSS_FEEDS:
@@ -261,6 +271,12 @@ def collect_news(conn, seen_titles):
             published_at = _parsed_time_to_iso(entry)
             snippet = entry.get("summary", "")[:500]
             if not link:
+                continue
+            # 구글 뉴스 검색도 느슨하게 매칭될 때가 있어서(예: 검색어 중 한
+            # 단어만 일치해도 결과에 나옴), 제목에 실제로 우리 그룹 키워드가
+            # 있는지 한 번 더 확인 - 이게 빠져있어서 완전히 무관한 기사(다른
+            # 가수 근황, 지역 축제 소식 등)까지 아카이브에 섞여 들어가고 있었음
+            if not _is_our_group(title):
                 continue
             normalized = _normalize_title_for_dedup(title)
             if normalized in seen_titles:
@@ -285,10 +301,6 @@ def _strip_naver_tags(text):
     """
     without_tags = _NAVER_TAG_RE.sub("", text or "")
     return html.unescape(without_tags)
-
-
-def _is_our_group(text):
-    return any(keyword in text for keyword in CHART_KEYWORDS)
 
 
 def _naver_pubdate_to_iso(pub_date_text):
@@ -339,11 +351,6 @@ def collect_naver_news(conn, seen_titles):
             published_at = _naver_pubdate_to_iso(item.get("pubDate", ""))
             if not link:
                 continue
-            # 네이버 검색이 느슨하게 매칭해서 무관한 기사가 섞여 들어올 수 있어
-            # 제목+본문에 실제로 우리 그룹 키워드가 있는지 한 번 더 확인
-            # 본문 어딘가에 스쳐 지나가듯 언급된 것(예: "OOO축제에 존박·웬디·
-            # 리센느 등 출연" 같은 라인업 나열 기사)까지 걸리는 걸 막기 위해,
-            # 제목에 실제로 우리 그룹이 있는 기사만 인정 (본문은 보지 않음)
             if not _is_our_group(title):
                 continue
             normalized = _normalize_title_for_dedup(title)
