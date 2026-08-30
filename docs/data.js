@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-08-30 22:52",
+  "generated_at": "2026-08-31 01:16",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -208523,7 +208523,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-30 20:28",
+        "checked_at": "2026-08-31 01:16",
         "change": {
           "kind": "same"
         }
@@ -208532,33 +208532,25 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-30 20:28",
+        "checked_at": "2026-08-31 01:16",
         "change": {
-          "kind": "down",
-          "delta": 1
+          "kind": "same"
         }
       },
       {
-        "rank": 9,
+        "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-08-30 20:28",
+        "checked_at": "2026-08-31 01:16",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       }
     ]
   },
   "schedule": {
     "upcoming": [
-      {
-        "date": "2026-08-30",
-        "type": "방송",
-        "title": "SBS <열혈농구단2> (02:05 PM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
       {
         "date": "2026-09-02",
         "type": "공연",
@@ -208665,6 +208657,14 @@ const SITE_DATA = {
       }
     ],
     "past": [
+      {
+        "date": "2026-08-30",
+        "type": "방송",
+        "title": "SBS <열혈농구단2> (02:05 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-08-27",
         "type": "기타",
@@ -210543,42 +210543,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 208
+      "d_day": 207
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 268
+      "d_day": 267
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 91
+      "d_day": 90
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2026-10-11",
-      "d_day": 42
+      "d_day": 41
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2027-08-19",
-      "d_day": 354
+      "d_day": 353
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 89
+      "d_day": 88
     }
   ],
   "trophies": [
