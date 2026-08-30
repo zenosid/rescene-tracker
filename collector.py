@@ -19,6 +19,7 @@ from config import (
     NAVER_NEWS_QUERIES, NAVER_NEWS_MAX_RESULTS,
     NAVER_CAFE_QUERIES, NAVER_CAFE_MAX_RESULTS,
     NAVER_BLOG_QUERIES, NAVER_BLOG_MAX_RESULTS,
+    RESCENE_ALL_SONGS,
 )
 from db import init_db, get_conn, insert_item, get_recent_items, insert_auto_schedule, insert_trophy
 from schedule_extractor import extract_schedule_candidates
@@ -44,8 +45,12 @@ SEARCH_HEADERS = {
 _OFFICIAL_CHANNEL_IDS = {ch["channel_id"] for ch in YOUTUBE_CHANNELS}
 
 # 콜라보 채널에서 "리센느 관련 영상"으로 인정할 키워드 (그룹명 + 멤버 이름 전체)
-_COLLAB_MATCH_KEYWORDS = list(CHART_KEYWORDS) + [
-    kw for kws in MEMBER_KEYWORDS.values() for kw in kws
+_COLLAB_MATCH_KEYWORDS = [kw.lower() for kw in CHART_KEYWORDS] + [
+    "르센느", "이센느", "resene", "ricenne",
+] + [
+    kw.lower() for kws in MEMBER_KEYWORDS.values() for kw in kws
+] + [
+    song.lower() for song in RESCENE_ALL_SONGS
 ]
 
 _RELATIVE_TIME_UNITS = {
@@ -55,7 +60,8 @@ _RELATIVE_TIME_UNITS = {
 
 
 def _is_relevant_to_us(title):
-    return any(kw in title for kw in _COLLAB_MATCH_KEYWORDS)
+    lowered = title.lower()
+    return any(kw in lowered for kw in _COLLAB_MATCH_KEYWORDS)
 
 
 def _parsed_time_to_iso(entry):
@@ -258,7 +264,16 @@ def _load_existing_news_titles(conn):
 
 
 def _is_our_group(text):
-    return any(keyword in text for keyword in CHART_KEYWORDS)
+    # "RESCENE" 대소문자 구분 없이 매칭 (예: "Rescene"도 잡아야 함)
+    # + 실제 언론에서 쓰이는 다른 표기 변형(르센느/이센느)도 포함
+    # + 멤버 한글 이름만 나오고 그룹명이 없는 기사도 놓치지 않도록 포함
+    #   (영문 로마자 표기인 MAY/LIV 등은 너무 흔한 단어라 오탐 위험이 커서
+    #   여기서는 한글 멤버 이름만 사용)
+    lowered = text.lower()
+    group_variants = [kw.lower() for kw in CHART_KEYWORDS] + ["르센느", "이센느"]
+    if any(kw in lowered for kw in group_variants):
+        return True
+    return any(name in text for name in MEMBER_KEYWORDS.keys())
 
 
 def collect_news(conn, seen_titles):
