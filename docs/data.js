@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-03 18:58",
+  "generated_at": "2026-09-03 19:51",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -227028,7 +227028,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-03 12:29",
+        "checked_at": "2026-09-03 19:51",
         "change": {
           "kind": "same"
         }
@@ -227037,20 +227037,19 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-03 12:29",
+        "checked_at": "2026-09-03 19:51",
         "change": {
-          "kind": "up",
-          "delta": 4
+          "kind": "same"
         }
       },
       {
-        "rank": 7,
+        "rank": 8,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-03 12:29",
+        "checked_at": "2026-09-03 19:51",
         "change": {
-          "kind": "up",
-          "delta": 2
+          "kind": "down",
+          "delta": 1
         }
       }
     ]
@@ -227060,7 +227059,15 @@ const SITE_DATA = {
       {
         "date": "2026-09-03",
         "type": "공연",
-        "title": "한국방송대상 축하공연 (All Day)",
+        "title": "한국방송대상 축하공연 (06:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-04",
+        "type": "공연",
+        "title": "2026 살람서울페스티벌 (11:30 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -227090,6 +227097,22 @@ const SITE_DATA = {
         "mention_count": 1
       },
       {
+        "date": "2026-09-17",
+        "type": "행사",
+        "title": "동국대학교 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-18",
+        "type": "행사",
+        "title": "인하대학교 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
         "date": "2026-09-19",
         "type": "기타",
         "title": "2026 더팩트 뮤직 어워즈(TMA) (All Day)",
@@ -227109,6 +227132,22 @@ const SITE_DATA = {
         "date": "2026-10-03",
         "type": "공연",
         "title": "2026 입크페스티벌 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-03",
+        "type": "기타",
+        "title": "공주 백제문화제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-10",
+        "type": "행사",
+        "title": "2026 대전 동구동락 축제 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -227157,6 +227196,22 @@ const SITE_DATA = {
         "date": "2026-11-29",
         "type": "기타",
         "title": "🎉 HAPPY MINAMI DAY (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-12-05",
+        "type": "기타",
+        "title": "AAA 2026 in Kaohsiung (12/05/2026 ~ 12/06/2026)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-12-06",
+        "type": "기타",
+        "title": "AAA 2026 in Kaohsiung (12/05/2026 ~ 12/06/2026)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
