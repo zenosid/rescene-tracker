@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-06 13:52",
+  "generated_at": "2026-09-06 18:01",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,1410 @@ const SITE_DATA = {
       "date": "2026-09-06",
       "date_display": "2026년 09월 06일",
       "items": [
+        {
+          "title": "리센느 인기 돌풍! 윤PD가 밝힌 벅찬 소감과 비결",
+          "link": "https://blog.naver.com/naldi_/224402495616",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 날디의 인생여행기",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "260906 유튜브 리센느관련 8월 상위 1% 리스너에.. 들었다.",
+          "link": "https://blog.naver.com/legendofna/224402643890",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 십년후엔",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 갸루와 거제 시청을 본 평론가 김태훈의 평가.jpg",
+          "link": "https://blog.naver.com/ku212/224402597477",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 블로그를 무인도처럼 운용하는 외톨이",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, 유튜브 200만 구독자 목전…7개월 만의 급성장 비결",
+          "link": "https://blog.naver.com/today_culturepick/224402235661",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 오늘의 컬처픽",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "우리가 리센느를 사랑할 수 밖에 없는 이유",
+          "link": "https://blog.naver.com/livinginliv/224402672674",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · livinginliv",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 - UhUh",
+          "link": "https://blog.naver.com/bbsqsq017657/224402688791",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 공부라는 게임의 재미",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "진짜 이렇게 쫀쫀해? 리센느 원이PICK 바이오던스 모공 세럼 내돈내....",
+          "link": "https://blog.naver.com/dawooni_i/224402692562",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 취향 보관함",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "QWER A곡 vs B곡 신곡 투표｜리센느 미나미 청음회·더현대 서울 팝업 ....",
+          "link": "https://blog.naver.com/net-movie/224402703103",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 오늘 밤, 어떤 작품을 볼까?",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "리센느 제나 ‘신라공주’ 별칭, 법적으로 문제 될까… 신라 왕족 ....",
+          "link": "https://blog.naver.com/hyunju019/224402704269",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 하루에님의 블로그",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "“저 촬영 못 하겠어요”…리센느 미나미, 최애 트와이스 사나 만나....",
+          "link": "https://blog.naver.com/gungsumjip/224402716480",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 궁금수집",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "260903 일일칠 – 117 [사나의 냉터뷰] 미나미의 꿈★은 이루어진다 l EP....",
+          "link": "https://blog.naver.com/ssophi_a/224402648786",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · Happy",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "할리스 리센느 포카 세트 후기 ｜미나미 & 제나 랜덤 포카 개봉",
+          "link": "https://blog.naver.com/vapflv/224402726253",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · Enjoy 세모 Life :)",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "미나미",
+            "제나"
+          ]
+        },
+        {
+          "title": "2026 SKA 실시간 중계 어디서? 리센느·최예나·키스오브라이프 관전포....",
+          "link": "https://blog.naver.com/nomadist_2/224402748469",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 트렌드한입",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[신설동역헬스장] 리센느 원이 다이어트 방법 총정리! 운동부터 식....",
+          "link": "https://blog.naver.com/hgym_6/224395128451",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 에이치짐 신설동역점",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"리센느 원이삼촌 정신나간 가창력\" 유영우 하트어택 실화? 음악예....",
+          "link": "https://blog.naver.com/sinsa654/224402752733",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 플라시보스튜디오",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "RESCENE 리센느 (원이+리브+미나미+메이+제나)를 응원합니다",
+          "link": "https://cafe.naver.com/re5cene/31654",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
+          ]
+        },
+        {
+          "title": "싱글코어 원이",
+          "link": "https://cafe.naver.com/prodream9/42215",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "애기때 메이가 파묘되었네요(채널에 춤영상도 있어요)",
+          "link": "https://cafe.naver.com/re5cene/31914",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
+          "title": "리센느 유영우삼촌 노래부르네유",
+          "link": "https://cafe.naver.com/story77/9463561",
+          "source_type": "community",
+          "source_name": "네이버 카페 · ★카니발 페이스리프트 공식동호회[카니발포에버]하이브리드 KA4",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 EVENT 공유",
+          "link": "https://cafe.naver.com/disneycard/432",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 테레카 CARD WORLD l 대한민국 테레카 수집 커뮤니티",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "이선민 브라더와 시상식 가서 리센느 분들 만나 즐거웠던 나의 브이로그 wit....",
+          "link": "https://cafe.naver.com/prodream9/42225",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "의리의 리센느 낭만 치사량",
+          "link": "https://cafe.naver.com/woo0yisan/40330",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 박공이산",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "09/06 SKA 2026 레드카펫 리센느 기사 사진 모음",
+          "link": "https://cafe.naver.com/re5cene/31953",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "1일 1리센느",
+          "link": "https://cafe.naver.com/re5cene/31956",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 야호!!",
+          "link": "https://cafe.naver.com/7silverfactory7/675082",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 실버펙토리",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "SKA 리센느 출석❤️❤️",
+          "link": "https://cafe.naver.com/prodream9/42245",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "어딜가도 리센느…",
+          "link": "https://cafe.naver.com/prodream9/42248",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "260906 축하축하!! #미나미 #MINAMI #리센느 #RESCENE https://t.co/FMsF82fhQi",
+          "link": "https://x.com/BlueHour_1129/status/2096523881121292419",
+          "source_type": "x",
+          "source_name": "X · @BlueHour_1129",
+          "time": "18:00",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "리센느 도대체 이모삶의영역에어디까지침범할셈이지?????????????? 이러다자동차까지하면파산할게",
+          "link": "https://x.com/ttnntwt/status/2096523369663619146",
+          "source_type": "x",
+          "source_name": "X · @ttnntwt",
+          "time": "17:58",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 글로벌커넥트상 수상 추카해🥳🎉🎉",
+          "link": "https://x.com/olimugg/status/2096523220849668577",
+          "source_type": "x",
+          "source_name": "X · @olimugg",
+          "time": "17:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 수상 축하해!!!! https://t.co/MYsVc3OGll",
+          "link": "https://x.com/rescene240636/status/2096522681407672335",
+          "source_type": "x",
+          "source_name": "X · @rescene240636",
+          "time": "17:55",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "#WTS 🎟️ 2026 SPOTV K-POP AWARDS (SKA) 🇰🇷 📅 일시 (Date): 2026년 9월 6일 (일) 📍 장소 (Venu",
+          "link": "https://x.com/roseegirlalone/status/2096522611295502670",
+          "source_type": "x",
+          "source_name": "X · @roseegirlalone",
+          "time": "17:55",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "✨공방 사녹 밀리초 매크로+성공초✨    그룹별 성공초 제공 (9nn개이상)   260906 추가 업뎃 - 엔시티 일이칠 세븐틴 디노 텐 르세라",
+          "link": "https://x.com/fldzm00/status/2096522386958889265",
+          "source_type": "x",
+          "source_name": "X · @fldzm00",
+          "time": "17:54",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "@ttnntwt 오늘 주사위 다 터져서 리센느 얼굴만 봐도 배부른 상태 (닭다리를 뜯으며 ..)",
+          "link": "https://x.com/onlywon_ii/status/2096522363282346021",
+          "source_type": "x",
+          "source_name": "X · @onlywon_ii",
+          "time": "17:54",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "탑꾸 양도 포카 아이브 리센느 앤팀 코르티스 블랙핑크 엔시티 드림 세븐틴 에스파 뉴진스 보넥도 아이들 르세라핌 엔하이픈 몬스타엑스 엑소 방탄 투",
+          "link": "https://x.com/svtsell01/status/2096522270277841233",
+          "source_type": "x",
+          "source_name": "X · @svtsell01",
+          "time": "17:53",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "260906 SPOTV K-POP AWARDS  오늘은 즐기자!!  #제나 #ZENA #리센느 #RESCENE @RESCENEofficial h",
+          "link": "https://x.com/Lisennzena12/status/2096522238157893765",
+          "source_type": "x",
+          "source_name": "X · @Lisennzena12",
+          "time": "17:53",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "260906 SKA 글로벌 커넥트상 수상  #RESCENE #리센느  #MINAMI #미나미 https://t.co/K3rSMKQ46E",
+          "link": "https://x.com/1manimoti/status/2096521958682951916",
+          "source_type": "x",
+          "source_name": "X · @1manimoti",
+          "time": "17:52",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "[단독] 리센느, 여의도 진출…메리츠證 ‘모음’ 모델로 발탁 | 다음 - 서울경제 https://t.co/1SXjVagbMs",
+          "link": "https://x.com/liv_yaee/status/2096521883852451886",
+          "source_type": "x",
+          "source_name": "X · @liv_yaee",
+          "time": "17:52",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "260919 TMA 더팩트뮤직어워즈 대리찍사 대리캠 합니다  🎫VVIP 7 / 3  에이티즈 ATEEZ 올데이프로젝트 ALLDAYPROJECT ",
+          "link": "https://x.com/data_kkobugi/status/2096521605925257530",
+          "source_type": "x",
+          "source_name": "X · @data_kkobugi",
+          "time": "17:51",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "엥 리센느 메리츠증권 모델  https://t.co/ovfALPvk5n https://t.co/tfz4zbm1c7",
+          "link": "https://x.com/045a42/status/2096521561868312858",
+          "source_type": "x",
+          "source_name": "X · @045a42",
+          "time": "17:51",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[사진]리센느 리브, 싱그러운 손인사 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYjdCQkcxY3ZlNDNUR2MxdDFlbEVTMzZad3Z0cFRaa3F4dWdlelMzcVRxb2NoY0tTUDkwVkh3bEROR05MbzZ5TmZ6UldoejNwUEl6MXR3S2ZNQnl4RWN2WXhTNGFGNnNxRHdaSTJiQmd1TDAzRS0ybEtvUGZYUEpwTS1sZzdvLXY2c0trcmpMeVNRa25jSTRZ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:50",
+          "category": "기타",
+          "members": [
+            "리브"
+          ]
+        },
+        {
+          "title": "리센느 수상축하해!!! https://t.co/297zXwYdc1",
+          "link": "https://x.com/Gardentwo12/status/2096521253758943526",
+          "source_type": "x",
+          "source_name": "X · @Gardentwo12",
+          "time": "17:49",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "🍏사과 팬싸컷 상담💝  📌 최저~평균컷 기반안내 음반사별 특징(줄세/랜덤 비율•한/외)추천비추⭕️  ”업계 최다“ 모든 그룹 후기 보유중🔎  📢",
+          "link": "https://x.com/applefscut/status/2096521172091588954",
+          "source_type": "x",
+          "source_name": "X · @applefscut",
+          "time": "17:49",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 초통령 됨 https://t.co/a8xgYANerv",
+          "link": "https://x.com/ievedol/status/2096521167880241450",
+          "source_type": "x",
+          "source_name": "X · @ievedol",
+          "time": "17:49",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 글로벌 커넥드 수상 축하해 🩷🩷 https://t.co/e7fQZ4yqG4",
+          "link": "https://x.com/M1NAM129/status/2096520773280436274",
+          "source_type": "x",
+          "source_name": "X · @M1NAM129",
+          "time": "17:47",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "✴️신용 계정 Check✴️  •@nb0kvp  ⛔️모든 인증 완료  ⛔️사기 / 신용 제보=디엠  대리토토 댈토 원희 백지현 안유진 리즈 장원",
+          "link": "https://x.com/Scambbx/status/2096520749335171201",
+          "source_type": "x",
+          "source_name": "X · @Scambbx",
+          "time": "17:47",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "일본어로 수상소감 하는 여자 따랑해 ♡.♡ 리센느 축하해애애애 ~ ~ 👯‍♀️💝 https://t.co/VtHMaMRqQ1",
+          "link": "https://x.com/29ovey/status/2096520559043694876",
+          "source_type": "x",
+          "source_name": "X · @29ovey",
+          "time": "17:47",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느  상받앗다고 바로 리마인~~!! 외치고 소감말하다가 인사 안한거생각나서 막다시인사함 졸귀졸귀 https://t.co/Q5xVuH6kdy",
+          "link": "https://x.com/9smdlj/status/2096520307171643771",
+          "source_type": "x",
+          "source_name": "X · @9smdlj",
+          "time": "17:46",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "260906 SPOTV SKA 대리찍사 해드려용!  🎫 S1 가대석 / 시상식 / 무대  키키 KiiiKiii 킥플립 KICKFLIP 82메이저",
+          "link": "https://x.com/daeri_guraeng/status/2096519914353995808",
+          "source_type": "x",
+          "source_name": "X · @daeri_guraeng",
+          "time": "17:44",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
+          "title": "[포토] 리센느, 상큼하게 브이 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYUdJc0xiT2xXVllzM1NKbzN4bWlqWE5TM1NlMzktbVJZUERnV0hvamg2REo3MkwtSDJiQndvNDlkLW80T1hUX0VXbW9ROS04R3NpeTA5MW45THJxc0kwZ1hoVWVLMkNDczhPQTJfcGNKNlFDZVZ3c2VubWJlSXNYWHAyNEJMZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[단독] 리센느, 여의도 진출…메리츠證 '모음' 모델로 발탁 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XX1dzaHJwNDBmdkJrN1BxazBGVmRmakE4NTlTMGpfenY1WDJGX1paalFuOE5WSGNBMmJBakhjWWo0a3pXcnpFLWlvUmNIcmN5azR3?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:43",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[사진]리센느 제나, 반가운 손인사 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOWplUHJuQWZibTRUSnVnal94MzNvbHhCYnhnR2EzRl85TV85OW5rZkgxeDhvblNzNHlRcXZvVzltMi1PYTlLdHRDVVBuY29CTU5hUHBmdV9GVUZoNjBzV2NKZTIyeGh6dXhzQ1RRVW84QmM5MkU1LWs1eFhKZmxHd0ZXXzQ4MjJPZ04xQlRGOFJyQXZMSzYtaTFNc9IBrwFBVV95cUxNRmViV3JpaUF3Z2pyVUhVbXN1M2JUNkNmdEZqdmxBemdhRUNrQzZqNG5vQU8xN0NiTnU1eENjR3VWTmE1VTNoR2ZGc0RWTmNBR3gydkRTeTZWdnJuRVRlYVpQZlhCLVdOUFZqQ2NzbzY5VENEcmVaSkJrWk5uWDNHbGExc2N3NWMybDJSamVvNUFXaDZMVS1CeFpjMkNvSHZZTmZfLThnNXpJVlIwRk9N?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:42",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "[ET포토] 리센느, '현 시점 가장 핫한 아이돌 그룹' - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE16N3VsSVZYN2c3MDU0U2txdzg3MURiMVJWSmc5cWd3UVJIeUtiLXV6QUFLT01XTkwyc0xXZjZsM1VaNmFrVGNUaTdhcUZlZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 보면 볼수록 왜 떴는지 알겠네 미나미 단독 샷!😉 보고 얼마남지 않은 주말 즐겨봅시다! #리센느 #미나미 #RESCENE https://",
+          "link": "https://x.com/Avoidsurrender/status/2096518800892207121",
+          "source_type": "x",
+          "source_name": "X · @Avoidsurrender",
+          "time": "17:40",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "260906 SKA 팝니다  🌸프로필 오픈카톡으로 문의주세요🌸  🎫S1  김재원  문상민  이채민 알파드라이브원 ALPHADRIVEONE 키스오",
+          "link": "https://x.com/bommnal/status/2096518125722492991",
+          "source_type": "x",
+          "source_name": "X · @bommnal",
+          "time": "17:37",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "260906 SKA야호~ #미나미 #MINAMI #리센느 #RESCENE https://t.co/QcnExUWGIA",
+          "link": "https://x.com/BlueHour_1129/status/2096517811841773649",
+          "source_type": "x",
+          "source_name": "X · @BlueHour_1129",
+          "time": "17:36",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "[사진]리센느 리브, 깜찍하게 콕~ - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ0lERlRoZUlTMi1vS3pfUDIyT0NhV3FmY0ltWWIydmZKbjNTUU5uMGVKREFnRlZwem5QanhFWHFJV3daVDkwZHduX2lwLU51N0pYNnpfakhvZ19ZZkFvcjhRNndicVBUVWJoNEk3UG5taGc4YzNVWTVtemd0akRyR3RHbEdpZkc0LUlGbE5hcXVzUDdRN0tYSzhnWdIBrwFBVV95cUxPbHFNa3IzX1ZfUDBzVjdlUW82cnBZXzN4NWdiQzdtWDNSMG1nbll5Q01Wd0c5NXVJWnhtVWFwZDFqZHUxM0FyNlhZYmdaMW56Y0NtWmw2LVk3M3FCc1Y4aFE3QWx4MVdGbl9xMmZxQ2VRaWNNT2ZiODh4eTVyWUtEMVU3XzctUEhXcTNWcHdudTBPdWpPTGRIZUd6YnFla3FubG4wME12Ukd1XzhMU1dR?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:35",
+          "category": "기타",
+          "members": [
+            "리브"
+          ]
+        },
+        {
+          "title": "[사진]리센느 미나미, 깜찍하게 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTHdHQURiOUtaX0xHNUx3OHNwWk5kcDB1d2ZQTFVRY1RHbURqMFBIY3FzMG1Td0Z6cHczN2NyMWV0OE4zTjVyTkI2T0xELW9Yck5GQUJtVmNsejZBTU90ZVV3cU14cVFRZ3RFd1NfSThBTGlBSThuNXpRcG51TkY5cmJGT1AwN2N0TE1IR2k5emhXcUowY0Rmb2xJRdIBrwFBVV95cUxOYlVSaGxjNFRPc282MDdQQXFGWFYwN2RtcXZjODVIbjR6SUw2OXI3bGdTR3h3OFFUU3BPYi1tMEpBX045YmJVa1VwNk9ZS21RV0NaTEJDOW5aZXhqbXI4TFdBcVNybloyTm5iSk5JY1EzWXE4d205Wnp0QVJvRDRVcE5zcmtDeFdDRVN4NVg3M1FCZUgxd3BiR0Y3T3hDYlN4QjFTVms5dHZ3R253U3JJ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:35",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "[사진]리센느 원이-미나미, 색다른 매력",
+          "link": "http://www.osen.co.kr/article/G1112871077",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:33",
+          "category": "기타",
+          "members": [
+            "원이",
+            "미나미"
+          ]
+        },
+        {
+          "title": "[사진]리센느 메이, 사랑스럽게",
+          "link": "http://www.osen.co.kr/article/G1112871083",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:33",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
+          "title": "[사진]리센느 제나, 반가운 손인사",
+          "link": "http://www.osen.co.kr/article/G1112871086",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:33",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "[사진]리센느 미나미, 깜찍하게",
+          "link": "http://www.osen.co.kr/article/G1112871084",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:33",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "[사진]리센느 제나, 귀여운 신라공주",
+          "link": "http://www.osen.co.kr/article/G1112871078",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:33",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "[사진]리센느 미나미, 예쁨 가득",
+          "link": "http://www.osen.co.kr/article/G1112871082",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:33",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "[사진]리센느, 다같이 세상 깜찍",
+          "link": "http://www.osen.co.kr/article/G1112871080",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:33",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[사진]리센느 리브, 깜찍하게 콕~",
+          "link": "http://www.osen.co.kr/article/G1112871079",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:33",
+          "category": "기타",
+          "members": [
+            "리브"
+          ]
+        },
+        {
+          "title": "[사진]리센느 메이, 사랑스러운 매력",
+          "link": "http://www.osen.co.kr/article/G1112871081",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:33",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
+          "title": "[사진]리센느 메이, 떨리는 레드카펫 - OSEN",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mcm04bl9MQ3pwSlQ0SW5NYjU2Mm5oeFRxYlBUbXEyS0x6Y1FxMThfTjdJZWphbU5qdWxWc1FlQWVvMDVsR0FJUGM3am9LN21tenh2Vw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:32",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
+          "title": "260906 SKA 대리찍사 합니다  📸R1 퀄보장 🧸프로필 오픈카톡  S1  알파드라이브원 ALPHADRIVEONE 키스오브라이프 KISSOF",
+          "link": "https://x.com/happydaridari_/status/2096515607399481399",
+          "source_type": "x",
+          "source_name": "X · @happydaridari_",
+          "time": "17:27",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "260906 SKA 프리뷰  #리센느 #RESCENE #메이 #MAY https://t.co/2RrL7h61UA",
+          "link": "https://x.com/bright8190323/status/2096514369689694435",
+          "source_type": "x",
+          "source_name": "X · @bright8190323",
+          "time": "17:22",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
+          "title": "[포토] 리센느 미나미, 야호귀신 샤샤샤 - iMBC 연예",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WaElad1I3cXRuUkNtcXA2YVUwci16Y1RiMXlmbjZmNVVRdk05dkFtRXd4SjVKU0ZIYlZSU3F1Q29ObUY1VFg5Z04zd285Tm0xcG5ZMmhOM2lqZXR4elRwTg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:20",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "⁺˚꒰ 기재된 링크를 통해 구매 발생 시 수수료를 지급 받습니다 ꒱˚⁺  ꒰১ 260906 리센느 원이 옷 정보 ໒꒱  🔎 유희 (YOUHEE)",
+          "link": "https://x.com/haneul__yeondal/status/2096513544842006938",
+          "source_type": "x",
+          "source_name": "X · @haneul__yeondal",
+          "time": "17:19",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "260906 SKA 팝니다  🌸프로필 오픈카톡으로 문의주세요🌸  🎫S1  김재원  문상민  이채민 알파드라이브원 ALPHADRIVEONE 키스오",
+          "link": "https://x.com/bommnal/status/2096513245540720899",
+          "source_type": "x",
+          "source_name": "X · @bommnal",
+          "time": "17:18",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[포토] 리센느 원이, 설윤 친구 파이리 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xZ3V0SUl1Z0xfVU9mZVZnNlZNaU5wUkE3UjZqcW41RTNkTFNQVDduWUtzZFAyOERPSExTRF9fcWkyUzBUSTZ1VDJJMURzY1p6WXpVNmZPeVVYc1hlSy1wQUtRSVlDWC0tdVRuLUMybkZkanFheE9JeA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:18",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "수원시 홍보대사 걸 그룹 리센느(RESCENE) '홍보어사' 위촉",
+          "link": "https://www.newspim.com/news/view/20260906000068",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:15",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[포토] 리센느 원이, 리자몽이 될래요",
+          "link": "http://enews.imbc.com/News/RetrieveNewsInfo/517349",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:15",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "260906 오늘귀여미 #미나미 #MINAMI #리센느 #RESCENE https://t.co/eLBUuSGuWO",
+          "link": "https://x.com/BlueHour_1129/status/2096512365651177745",
+          "source_type": "x",
+          "source_name": "X · @BlueHour_1129",
+          "time": "17:14",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "[TD포토] 리센느 미나미 '볼 콕~'",
+          "link": "http://www.tvdaily.co.kr/read.php3?aid=17886822251801056017",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:13",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "[TD포토] 리센느 제나 '리틀 고윤정'",
+          "link": "http://www.tvdaily.co.kr/read.php3?aid=17886823111801057017",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:13",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "[TD포토] 리센느 원이 '심쿵 하트~' - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZVnl6Ti1CWjJiejVlVlNjMGJNMjRjVm0yQzNjZ2lzR3JTNDBKejJtMFpid3VISzhxdEhoM0dfZ3kwYnM1UktvbG5GMjVtUkl6Y1phQ0xfY3pLVjM1bWU2aWJmNEtIZVFCdDVGck13c3ZveFlRQU1GdA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:11",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[TD포토] 리센느 제나 '고윤정이 인정한 닮은꼴'",
+          "link": "http://www.tvdaily.co.kr/read.php3?aid=17886821261801054017",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:11",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "[포토] 리센느 원이, 파이리 향을 물들여~ - iMBC 연예",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0eEYxbzRKeWJUZ2VKVFZBa1pob3FrdlNpN3FONE0tWkZMak1vZkdwY2lDM185TFl4UlNMenRCZFc0T05ZMURyWW5zMVdOUy1uSDVKbFg2Z2syZUg4Q2t4MA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:09",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[TD포토] 리센느 메이 '귀여운 양볼 하트'",
+          "link": "http://www.tvdaily.co.kr/read.php3?aid=17886820091801052017",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:09",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
+          "title": "[TD포토] 리센느 리브 '귀요미 매력'",
+          "link": "http://www.tvdaily.co.kr/read.php3?aid=17886820691801053017",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:09",
+          "category": "기타",
+          "members": [
+            "리브"
+          ]
+        },
+        {
+          "title": "[포토] 리센느 원이, 우이! 오이쉬에~",
+          "link": "http://enews.imbc.com/News/RetrieveNewsInfo/517346",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:08",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[포토] 리센느 미나미 '확신의 비주얼 센터' - slist.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01RE4yekZneTRsWS14SURENHpRX3ZNTzFwMkxpUTB1eUYtTVBvajNQUGxkcGR4MF9OQVlqT29OY2psTFl0Vk9NaFk2MjhVaHpqVzIzMVpSaTZ4eThoTElfS3Q5bnlJZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:06",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "260906 스포티비 케이팝 어워즈 SKA 대리찍사 대리캠 합니다  S1 구역 프로필 오픈톡 링크로 문의 주세요   알파드라이브원 ALPHADR",
+          "link": "https://x.com/ConDaeri/status/2096510284638875784",
+          "source_type": "x",
+          "source_name": "X · @ConDaeri",
+          "time": "17:06",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[TD포토] 리센느 리브 '사랑해~'",
+          "link": "http://www.tvdaily.co.kr/read.php3?aid=17886819481801051017",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:06",
+          "category": "기타",
+          "members": [
+            "리브"
+          ]
+        },
+        {
+          "title": "[TD포토] 리센느 제나 '러블리 하트'",
+          "link": "http://www.tvdaily.co.kr/read.php3?aid=17886818901801050017",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:06",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "[포토] 리센느 제나, 신라공주의 까엉미",
+          "link": "http://enews.imbc.com/News/RetrieveNewsInfo/517345",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:06",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "[포토] 리센느 원이 '첫눈에 반할 하트' - slist.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41TzJEV3BWNWxlclNlTjZoUlNqd013RWdfUndOTlY3M0V4Ym9LSW5mMlE4YzVuSnFQQzJTLXRKNkl0RXFqTzhVbUNDWV9yekZlMjVzVFBYcS1tdnpQRDBhc0hBNmROQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:05",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[TD포토] 리센느 '대세의 향기~'",
+          "link": "http://www.tvdaily.co.kr/read.php3?aid=17886818171801049017",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:05",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[TD포토] 리센느 제나 '신라 공주의 향기~'",
+          "link": "http://www.tvdaily.co.kr/read.php3?aid=17886817281801048017",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:05",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "260906 인스타 커뮌 소현쌤 #리센느 #RESCENE https://t.co/RNuezMqLrA",
+          "link": "https://x.com/bbannggu/status/2096506243364114754",
+          "source_type": "x",
+          "source_name": "X · @bbannggu",
+          "time": "16:50",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "260906 리센느 인스타 제나 #리센느 #제나 #RESCENE #ZENA https://t.co/bZ7NMIIUJy",
+          "link": "https://x.com/bbannggu/status/2096506111704871225",
+          "source_type": "x",
+          "source_name": "X · @bbannggu",
+          "time": "16:49",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "잘했어요!!!! SKA 2026 레드카펫 #리센느 #원이 #RESCENE #WONI https://t.co/BRdc3yuLN3",
+          "link": "https://x.com/southhero_0917/status/2096505888089727041",
+          "source_type": "x",
+          "source_name": "X · @southhero_0917",
+          "time": "16:48",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "260906 스포티비 케이팝 어워즈 SKA 대리찍사 대리캠 합니다  📸 R3  💙 S1, 프로필 오픈톡 링크로 문의 주세요   알파드라이브원 A",
+          "link": "https://x.com/Ocean_pics_data/status/2096504772216123620",
+          "source_type": "x",
+          "source_name": "X · @Ocean_pics_data",
+          "time": "16:44",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "260919 더팩트뮤직어워즈 TMA 대리찍사 대리캠 합니당  🎟VVIP7구역 돌출 🙇‍♀️프로필 오픈카톡 문의주세용  에이티즈 ATEEZ 올데이",
+          "link": "https://x.com/MARUKOdaeri/status/2096504554942513612",
+          "source_type": "x",
+          "source_name": "X · @MARUKOdaeri",
+          "time": "16:43",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "연예가 현장 포토|[사진]리센느 원이, 움직이는 인형 - ZUM 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wN2xYN3lzOF9saFFJUFB0ZFRWb25WZUctRzJkLUxUSlVUQ2hxWjhQMXBfclM0NVJORGdjT0tNNUo3T3NPMDAyY05zMDhEdHo2RlA5QWM4SS1QNWZ0MDRsbGRITnRkTjhzcGd5VWZZQTVtYnNkVS05SEJmZ1g?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:37",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "수원시, '리센느' 앞세워 젊은 관광객 공략…'홍보어사' 위촉 - 뉴스웍스",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CX0RiVEtyWGdGVlNXMUtOdHpKZF9XMU9YMTE5bFJEU2xPc19tcWp3aWNUOENNWnk5V3h3al9vcGZIMVhFOFR4SzVLX1VTdjl6andqZmZtZ2ZwY1p6dlVUc24zdE80QXE4LWw5ekRBWdIBc0FVX3lxTE5mQU9FVE5PRUlGZmN0M2hJdFNCaDdCU2VVUFVnX1VBUzZmS3VXSjZZSE93R3QxMG0yMFZQcVpCUk13OXpFRVVKQkIzelFYWVdZUmhUOWo1aE01NHpqTF8wR0t5WHZ5a1ZXR2dmYkNVX29IOVU?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:35",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[S포토] 리센느 원이, '손가락을 쫙 펴고' - 스타데일리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hbUg2eW1IVEM1M0d4SWZsck5Gc0xjTTRPMlBZdEhidlFmUWdxRmtNaDlkWVFwR182cG1EdVRqcE56Wkp3T0NCcklLVlY1MkdVVjBUNjF0TWwyZlcwN1U2Qjg1Zjd5dHhra1E0dGdLalFDOWta0gF4QVVfeXFMTWFaRDBySkt4UktHdGpUT2VpZGRGN05EWjB4ZkhCSTVjWXpsV2pzVlg5Z1RGZS04N1VXMkZMdDh6WHViSkhtNGlkUEZsSThMTmZIVHFQdXpaaWs0aFlmLThCUTJTdnFkRjZTZGtvZlBPSmEyaG81R0F4?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:33",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[S포토] 리센느 메이, '앙증맞은 볼하트' - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43ZldzWEVpZWY3OGVLSWpMdzlrNVdPZDdHU29IaVRoZFM0MnBHZ0ltN1BnRjIzYlh6WVdpUFlYU3hGWUZoUTBHVnV5T0oxcFEzWTU2ckRaMndqLXhNUV9qNnEtdlhDMjVU?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:33",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
+          "title": "[S포토] 리센느 원이, '파이리의 하트' - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03YnJYU1pZX2paMGwwN1g4U2hxTjZMVTlYM1FBYjhxOTk2SmVvRXl6S3luMTNkRm9obXlwTHJFY3VnSjh1TTlOdnhHUU1DZm1obWhKakU3S25zZkhZNTMxbV9sWGUzSmJZNVE0UGlOWmRDTl8ybE1HVQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:30",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[S포토] 리센느 메이, '나 이뽀?' - 스타데일리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56Q1hHak1UWTRGOFVIeUFfbG9MS2dVbFZDb1diMkVDaUdMN3NQWWN5c0oxd1E4Zm5ZNkppbjNnTUpwZ2UxNzhtY29xbmdlcnFleFB0WUFJQ21MdXJ6QlhDSDkyZVhXdE1VRnByLW9uRWZRcFll0gF4QVVfeXFMTUFPYnQxUjNwc1ZuUFhxdkdqSEc5X0dBd0NvZi15TF9zemI4eUJ3OEhLUzBGaDNsaUYzQndEVHYyLW9OQlc4NTZkX19rblZxRWt5RHQ3TTdiRWFxUnNTVExFSWxvZGlIeTlJQVlEeUZjVzJCUkxmTm1y?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:26",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
+          "title": "[포토S] 리센느 리브, '아름답다' - SPOTV NEWS",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84Sm1ZeUNrNWMtakxkZGZRQUpma2hacThhLVI1ZVo3UUJVb3dITHhTcHZodll0eTlzNERXdFpFLXBTNXJ1OWtKUzJteUdaVkJHOERPdm1ldk4xQzZfX1lKX0stVG1vZ01fMm02eENuRlM?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:21",
+          "category": "기타",
+          "members": [
+            "리브"
+          ]
+        },
+        {
+          "title": "[MD포토] 리센느 원이, '사랑스러운 미소' - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5VQ3V0RXJuSWRLTjJ2Vk5xRnVRX1BuVVRlcENBUmVtdFNLRVJYYWpsWUpEWFo0RUJ4dVVZYUc3Rk5hR2RTV2g3dUkzX2lfX21zdnVoQ3gyaEl1dVJfTEhVcGRnSUlOME1rcE5tLWx0ZE5wZ3RkdGVrTQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:21",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[MD포토] 리센느 제나, `귀여운 신라공주` - 마이데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYSzdwLXlTbGhYdGtQWklUOGlIbVZWSi1SWl94T2NfTkJnS1lUQVRaSlhsWnF3RHB3dkx6dnhrSTdacmx6Vld1OE85Y3QtVFRLSVhETjZzalVhNUoxUVZvSDlxMXNFZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:13",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "[MD포토] 리센느, `대세 걸그룹 왔어요` - 마이데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zQl82cnRGdkFsUnBsemgzRGoxUXI2MFQzVllYQWlfTWswT0hRbHpsamkxV0wxZXNfYkptR1ZES2locGZ6ZkxGS3BEdTZOTTA2c2VtdGpKWW9hWVRzRFNZRzdmT1dfdw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:11",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[포토]대세 아이돌 '리센느' 왔어요 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsMDBOYS15VUlaVEtYMUFnOERKZGxPZjc3WlZ1UWtLdnhRU0FGTzBpRGVHc2tjNHY4N1J3UUt1QVB3TDhGZ3piT2I1d1hmeFlsRFhBd2cyMW9KWkpxUTlmMHhzQlZialR5Rzc0VjBzd1dzem53NmtxVQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:08",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 대세 중의 대세 [포토엔HD] - 뉴스엔",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBRYVVLMVNXMDJPZkttX1RGSHBjYzk1RGVzWTFQbWJWUm1GZlBnUDR5RnhCZy1qbzFEd2dOaU9zblBZN3R2VG5mREFtdlZISDRfUzVLWDF5SWl2NFZTcFRsUVR4TjZJaDVzM0hyVm93UEVDb3lDRmxraWFpQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:06",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[MD포토] 리센느 메이, `자신감 넘치는 발걸음` - 마이데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04NmhCOGZLVm9hek8xZ3lOZExkYkUzNS1iR0RxUDBiUEY3SXMwWS1WZUpmLVhObWphRE1xbF9LUHNFSGhHOERJa21SWnZ3dmhiUXItNmRqUk5vWnhYNnhoT09KVXNmdw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:05",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
+          "title": "Come closer",
+          "link": "https://www.youtube.com/watch?v=S-qvrhCGZOQ",
+          "source_type": "youtube",
+          "source_name": "RESCENE 공식 유튜브",
+          "time": "16:00",
+          "category": "자체컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "수원시, 걸그룹 리센느 ‘홍보어사’ 위촉 - 웹이코노미",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qRC0wWmlSbHJzY2tncHBHaUNkX0tWcGd0b0VSU1Z6Yld4NjY0QWFmQUJSMEpqejFwZ002U0o1d1NEZEg5NVg0YXRlMW9SLVZ4bGtYNWc0Mkx4VUkyZzBJelhnS0xtb1RibUM3ZzBkaUtLQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:45",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[S포토] 리센느 원이, '킁킁' - 스타데일리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DaHZRTm51SEE0cTJiUndadGhodVhBZUNZVlpYcklaTkdtQnVxS3dma0xFNnZvemRzSnowWmM4RjRtbTBMUGRydW9INmlhQ0tSMlM5VGxiX3loRFd2N1NUV1BEaWFTc3RSMUtCVzUyZllneXVo0gF4QVVfeXFMTWNFNnI1X19pQ1JxemdYaHp2dHR6cV9JdzZTaEVZbVEtdkppMUxpd29GZHBaZlZEcDE2QV9jTzhOODE5cGlHUUdOOENtNzNVaVB0ZlNGTDdpazFDazlBLUM2Sm5VZXU1WE9zZGpNZ3FzYk85YktDWDJ4?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:42",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[사진]리센느 원이, 귀엽게 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSjNYUVVTOG5ZQldJQV9WZ3JadFdGamEtWUJ6ZFMzMnhYSG1tbnBhbHNWVkhRNzBFdkZhWk5hNkszQVotVTU4c0NkTnNWc3paeGJUQlhYaUtqSThpX0lxR0VCbjVMM090MDFPcmphNGV5VXR3ZE02UmFYVk5aMDBiOUk3enk2V19CNVNyWUxhaUktTWxSWW9Fek00MNIBrwFBVV95cUxNWllBaTRCYndEMU80ZEpaNzc3MF9nZV9BZ2toMTRrUVFkaU1IMVQzSnY5NWtoeVdWX2xGREY5REY0X0VQS2pwSGpPa2FkazNxM1ZlMmZHNnNsRlBUUWtmWDgtRUpISE9OdVlFR3FubGRzTklQQUtua19faDEyejNvVUtQT3JWNWh0OURNemUyRjJ1VXlPTmZSWjBSajlXeGlaT1dDRE8xdVhDZTI0RVJn?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:40",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 리브 '눈부신 미모'[엑's HD포토] - xportsnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZSWdGNkQwam5IRV84ZEdXNWxDd0lhdmZPdzRfZ0ZacldoZ1U1Z09fRHdHNjBzcnJjdjBzd1ZMZ1VXNVdvU0JKangtblJhN3dfUlR0dA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:38",
+          "category": "기타",
+          "members": [
+            "리브"
+          ]
+        },
+        {
+          "title": "[사진]리센느, 사랑스럽게 - OSEN",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53Y1lWQldiUEVYaC1QUVh5d1JCWm5wVHFFeGZOM1BPVVBuSDlTSU9HWkp4X3o2Xy1Gc0lMRmdzNG5INS1QdE0xZ05vMDdhc3ZCNFJkQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:37",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[포토] 리센느 '스포티비 어워즈를 환하게 밝히는 자체 발광 비주얼' - slist.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wMHdmdmpNaWNNT0hiMWc3MWFrWDdDMmhLNUxzaVJnRDR6THBvcVNUemZaN3BBUDFIQjJLMDlvOVNaamZvQS0xa29iUkFraXFtVHp6ZUtyMkNIWUJ3cmNlLVlNQUFXQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:36",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이,깜찍한 '거제 파이리'의 하트 [포토엔HD] - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZQUV4UzV4Tk1wa0EwRGxQbE5IWnVELVlfUVdTa2FfOF90czJqblJpT1BEWWp6dFFaUVpsS2xBRERNbUl4blA0bG9TLTNkTE9NUVZJ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:34",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[ST포토] 리센느 미나미, 성숙해진 스타일 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FOXdQZGdTb2Z2VkgxNThLVFpEZXk2MDhGSmhYeU5VS2ZLZEM1WlJ0NDFzRFN0dFFsU1gtN2FmOWhGOHJJbUdBWmNpMnBESWI5R3VB?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:32",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "리센느 원이 '작은 얼굴에 꽉 찬 예쁨'[엑's HD포토] - xportsnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1HQ1E4cW41ZDZWc19BeTliNUpVTTRMVWJEWWxETTlBb2xTUERrTEhZVjl3NWtOR2RLYTVUZVVLSUp0UEVIY3JrTnR2T2FXMS0xVmtLQg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이-미나미 '예쁨이 두배'[엑's HD포토] - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZVC14dU9vZHk5eHdQN09ROW02ekFHUUNJdnQzdnRMdjBxcl9JOGRNRHJYd25qMUlWR3pUVGQ3RXhmRWN1bm9yRjVMcTB3eTJkVW1qTG5n?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:29",
+          "category": "기타",
+          "members": [
+            "원이",
+            "미나미"
+          ]
+        },
+        {
+          "title": "[HD포토] 리센느 원이, ‘리마인 딱 기다료!’ (2026 SKA 레드카펫) - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE90WkI5VjhRSklfaDE4ME56MVhOczB6SWFZd25OVGYzQVFiNHhLc0pBWWVXS0NUUFNaWEVEeG9NdXpxYkxwMFlyRkNDTU9NUEpIblhsTFlZQnI3WkN5RGZNNjExbTUwVkJ5eF9TajR2dmFfdw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:11",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "QWER, 미발매 신곡 2곡 일부 기습 공개…씨야·리센느 미나미 솔직 감상평 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9EVXZMZGVBTDN2TnV3N1BWLXlYWGFMTl8wQXdZZ1BmeVZudmp2UXVtZUc1R2hxMUswOVdZS1l6S29mSmUycGNUQjVXZW56UktOZnpv?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:11",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "‘안원잘부’의 힘…리센느 원이, 7개월 만에 유튜브 200만 돌파 - 스포츠동아",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16MkR0MzlMblB6U0U1dUxfZU8yWEo4Ym1Hd19EZ3VJTEQzeUFHOXVvTU5aTmdtRzVHX1ZNRDhtNUI4d2lPcWNENWJWR1FtU2FTRWtrV3JqanNQX2hMWkFaMEV3M1E1RGJqZDBJU25R?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:39",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "여기어때, 리센느 콘서트 ‘2박3일 콘서트팩’ 출시... 응모 시작일은? - 금강일보",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JVlNXcVBETm1lR3RySlNsWVA2QVExQmFPNThMZ3JYMGx2NHpzQmdIRmo3RmlzWENxR1NDdzBrcjF0OGNJbFM2eVFMdU14ekltVkI5a19oTmc0dkQ4VHluZlVLcEItZmNQYVE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:15",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "QWER, 미발매 신곡 2곡 깜짝 공개…리센느 미나미→지석진·침착맨 청음회 참여 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwajNGLVcwRjNteUE3UnJTM0lreG9yemNENVJBUThNeTJ5TXJUZzR1bWU2UDV2bTNsWHJFS2dITnV0eXJySzdyemhmMzJBeldnbG5Ldmw4Q2x5V3hxYXNUaw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:05",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
         {
           "title": "[뉴스락] “리센느 원이 뜨면 브랜드가 따라온다”…리센느 원이, ....",
           "link": "https://blog.naver.com/newslock_7820710/224402401134",
@@ -361,6 +1765,17 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이 유튜브 ‘안원잘부’ 개설 7개월 만에 200만 구독자 돌파 [왓IS] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ORmYzamxpWGtIaTZzXzQzR1VPenl0bnZ3dE44NWpaMklfWVUwZUxmZHlkUmk4azY5bXdvd1I2Z0d5MlByaHZ3dE9ydTFBU0U?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:50",
+          "category": "기타",
+          "members": [
+            "원이"
           ]
         },
         {
@@ -240861,36 +242276,38 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 4,
+        "rank": 5,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       },
       {
         "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 60,
+        "rank": 59,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       }
     ],
@@ -240899,7 +242316,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -240908,20 +242325,18 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
-          "kind": "up",
-          "delta": 5
+          "kind": "same"
         }
       },
       {
         "rank": 13,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
-          "kind": "up",
-          "delta": 17
+          "kind": "same"
         }
       }
     ],
@@ -240930,48 +242345,49 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 7,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 12,
+        "rank": 5,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "up",
-          "delta": 1
+          "delta": 7
         }
       },
       {
-        "rank": 31,
-        "song_title": "Runaway",
+        "rank": 9,
+        "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
-        "change": {
-          "kind": "up",
-          "delta": 24
-        }
-      },
-      {
-        "rank": 68,
-        "song_title": "Pinball",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "down",
-          "delta": 28
+          "delta": 2
+        }
+      },
+      {
+        "rank": 38,
+        "song_title": "Runaway",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-09-06 18:01",
+        "change": {
+          "kind": "down",
+          "delta": 7
+        }
+      },
+      {
+        "rank": 53,
+        "song_title": "Pinball",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-09-06 18:01",
+        "change": {
+          "kind": "up",
+          "delta": 15
         }
       }
     ],
@@ -240980,7 +242396,7 @@ const SITE_DATA = {
         "rank": 3,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -240989,7 +242405,7 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -240998,7 +242414,7 @@ const SITE_DATA = {
         "rank": 12,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241007,7 +242423,7 @@ const SITE_DATA = {
         "rank": 39,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241016,7 +242432,7 @@ const SITE_DATA = {
         "rank": 59,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241029,7 +242445,7 @@ const SITE_DATA = {
         "rank": 18,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241038,7 +242454,7 @@ const SITE_DATA = {
         "rank": 24,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241047,7 +242463,7 @@ const SITE_DATA = {
         "rank": 49,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241056,7 +242472,7 @@ const SITE_DATA = {
         "rank": 87,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241065,7 +242481,7 @@ const SITE_DATA = {
         "rank": 118,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241074,7 +242490,7 @@ const SITE_DATA = {
         "rank": 159,
         "song_title": "Busy Boy",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241086,7 +242502,7 @@ const SITE_DATA = {
         "rank": 56,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241094,30 +242510,33 @@ const SITE_DATA = {
     ],
     "youtube_kr": [
       {
-        "rank": 4,
+        "rank": 3,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       },
       {
-        "rank": 7,
+        "rank": 6,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       }
     ],
@@ -241128,7 +242547,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "LOVE ATTACK",
         "artist_text": "리센느",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241137,7 +242556,7 @@ const SITE_DATA = {
         "rank": 9,
         "song_title": "Deja Vu",
         "artist_text": "리센느",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
@@ -241146,29 +242565,28 @@ const SITE_DATA = {
         "rank": 13,
         "song_title": "Pretty Girl",
         "artist_text": "리센느",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 24,
+        "rank": 22,
         "song_title": "Pinball",
         "artist_text": "리센느",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
-          "kind": "down",
-          "delta": 1
+          "kind": "up",
+          "delta": 2
         }
       },
       {
         "rank": 59,
         "song_title": "Runaway",
         "artist_text": "리센느",
-        "checked_at": "2026-09-06 13:52",
+        "checked_at": "2026-09-06 18:01",
         "change": {
-          "kind": "down",
-          "delta": 2
+          "kind": "same"
         }
       }
     ],
