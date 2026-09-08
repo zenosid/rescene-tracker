@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-08 15:41",
+  "generated_at": "2026-09-08 19:49",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -252232,7 +252232,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-08 12:34",
+        "checked_at": "2026-09-08 19:49",
         "change": {
           "kind": "same"
         }
@@ -252241,19 +252241,19 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-08 12:34",
+        "checked_at": "2026-09-08 19:49",
         "change": {
-          "kind": "up",
-          "delta": 3
+          "kind": "same"
         }
       },
       {
-        "rank": 9,
+        "rank": 8,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-08 12:34",
+        "checked_at": "2026-09-08 19:49",
         "change": {
-          "kind": "new"
+          "kind": "up",
+          "delta": 1
         }
       }
     ]
@@ -252272,6 +252272,14 @@ const SITE_DATA = {
         "date": "2026-09-17",
         "type": "행사",
         "title": "동국대학교 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-18",
+        "type": "행사",
+        "title": "수원대학교 축제 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
