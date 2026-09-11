@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-11 09:18",
+  "generated_at": "2026-09-11 12:34",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -265084,9 +265084,18 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-11 05:33",
+        "checked_at": "2026-09-11 12:34",
         "change": {
           "kind": "same"
+        }
+      },
+      {
+        "rank": 8,
+        "song_title": "Deja Vu",
+        "artist_text": "RESCENE (리센느)RESCENE (리센느)",
+        "checked_at": "2026-09-11 12:34",
+        "change": {
+          "kind": "new"
         }
       }
     ]
@@ -265097,14 +265106,6 @@ const SITE_DATA = {
         "date": "2026-09-17",
         "type": "행사",
         "title": "동국대학교 축제 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-09-17",
-        "type": "행사",
-        "title": "서울대학교 축제 (12:00 PM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -265129,14 +265130,6 @@ const SITE_DATA = {
         "date": "2026-09-19",
         "type": "기타",
         "title": "2026 더팩트 뮤직 어워즈(TMA) (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-09-27",
-        "type": "기타",
-        "title": "OBJET K-POP FESTA 2026 (OKF2026) - 인천 (10:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
