@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-12 17:55",
+  "generated_at": "2026-09-12 19:17",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -271526,27 +271526,28 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-12 12:39",
+        "checked_at": "2026-09-12 19:17",
         "change": {
           "kind": "same"
+        }
+      },
+      {
+        "rank": 5,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE (리센느)RESCENE (리센느)",
+        "checked_at": "2026-09-12 19:17",
+        "change": {
+          "kind": "up",
+          "delta": 3
         }
       },
       {
         "rank": 6,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-12 12:39",
+        "checked_at": "2026-09-12 19:17",
         "change": {
-          "kind": "new"
-        }
-      },
-      {
-        "rank": 8,
-        "song_title": "Pretty Girl",
-        "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-12 12:39",
-        "change": {
-          "kind": "new"
+          "kind": "same"
         }
       }
     ]
@@ -271557,6 +271558,14 @@ const SITE_DATA = {
         "date": "2026-09-17",
         "type": "행사",
         "title": "동국대학교 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-17",
+        "type": "행사",
+        "title": "서울대학교 축제 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -271581,6 +271590,14 @@ const SITE_DATA = {
         "date": "2026-09-19",
         "type": "기타",
         "title": "2026 더팩트 뮤직 어워즈(TMA) (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-22",
+        "type": "행사",
+        "title": "명지대학교 자연캠퍼스 축제 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -271621,6 +271638,14 @@ const SITE_DATA = {
         "date": "2026-10-11",
         "type": "공연",
         "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌) (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-16",
+        "type": "라디오",
+        "title": "MBC 라디오스타 (01:30 PM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
