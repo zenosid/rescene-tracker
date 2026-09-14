@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-14 16:59",
+  "generated_at": "2026-09-14 21:07",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -280578,24 +280578,33 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-14 12:54",
+        "checked_at": "2026-09-14 21:07",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 9,
+        "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-14 12:54",
+        "checked_at": "2026-09-14 21:07",
         "change": {
-          "kind": "new"
+          "kind": "up",
+          "delta": 2
         }
       }
     ]
   },
   "schedule": {
     "upcoming": [
+      {
+        "date": "2026-09-16",
+        "type": "라디오",
+        "title": "MBC 라디오스타 (01:30 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-09-17",
         "type": "행사",
@@ -280680,14 +280689,6 @@ const SITE_DATA = {
         "date": "2026-10-11",
         "type": "공연",
         "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌) (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-10-16",
-        "type": "라디오",
-        "title": "MBC 라디오스타 (01:30 PM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
