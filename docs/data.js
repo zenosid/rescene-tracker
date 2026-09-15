@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-16 00:52",
+  "generated_at": "2026-09-16 01:30",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -286004,7 +286004,7 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-15 20:19",
+        "checked_at": "2026-09-16 01:30",
         "change": {
           "kind": "same"
         }
@@ -286013,10 +286013,9 @@ const SITE_DATA = {
         "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-15 20:19",
+        "checked_at": "2026-09-16 01:30",
         "change": {
-          "kind": "up",
-          "delta": 1
+          "kind": "same"
         }
       }
     ]
@@ -286034,7 +286033,7 @@ const SITE_DATA = {
       {
         "date": "2026-09-17",
         "type": "행사",
-        "title": "동국대학교 축제 (All Day)",
+        "title": "서울대학교 축제 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -286042,15 +286041,7 @@ const SITE_DATA = {
       {
         "date": "2026-09-17",
         "type": "행사",
-        "title": "서울대학교 축제 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-09-18",
-        "type": "행사",
-        "title": "수원대학교 축제 (All Day)",
+        "title": "동국대학교 축제 (10:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -286059,6 +286050,14 @@ const SITE_DATA = {
         "date": "2026-09-18",
         "type": "행사",
         "title": "인하대학교 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-18",
+        "type": "행사",
+        "title": "수원대학교 축제 (10:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -286080,6 +286079,22 @@ const SITE_DATA = {
         "mention_count": 1
       },
       {
+        "date": "2026-09-22",
+        "type": "행사",
+        "title": "한국외국어대학교 글로벌캠퍼스 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-29",
+        "type": "행사",
+        "title": "한양대학교 ERICA 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
         "date": "2026-10-03",
         "type": "공연",
         "title": "2026 입크페스티벌 (All Day)",
@@ -286091,6 +286106,14 @@ const SITE_DATA = {
         "date": "2026-10-03",
         "type": "기타",
         "title": "공주 백제문화제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-09",
+        "type": "행사",
+        "title": "연수 능허대 문화 축제 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
