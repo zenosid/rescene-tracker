@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-19 20:12",
+  "generated_at": "2026-09-19 20:26",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -280511,9 +280511,82 @@ const SITE_DATA = {
     {
       "date": "2026-09-19",
       "ceremony": "TMA",
+      "award_name": "올해의 아티스트",
+      "title": "2026 THE FACT MUSIC AWARDS 올해의 아티스트 수상",
+      "source_link": "",
+      "is_manual": true
+    },
+    {
+      "date": "2026-09-19",
+      "ceremony": "TMA",
       "award_name": "",
       "title": "[2026 TMA] 리센느 '올해의 아티스트' 수상에 환한 미소 - 더팩트",
-      "source_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Scmc1c293U1A0OFd3MHZnN0E0RzZfam9ONlNrbFNoMVFpR1IteGh5R2Q1eHU3VXV4a2hHaEtDTm55NTNKaFpVRDFKUWRoTzQ5Mm1iNnVLT3FNc29jdUHSAVhBVV95cUxPMVd1Q0RYYUhtdS16cnVBNlNxUDgzY0lSN1BEMm93ZXFIanJfMU1TcjZhTFNsOUxCUmNpY2ZxblRKT18wNUpfRnlfTUNYRzI1YjRxY3dvc0Uw?oc=5"
+      "source_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Scmc1c293U1A0OFd3MHZnN0E0RzZfam9ONlNrbFNoMVFpR1IteGh5R2Q1eHU3VXV4a2hHaEtDTm55NTNKaFpVRDFKUWRoTzQ5Mm1iNnVLT3FNc29jdUHSAVhBVV95cUxPMVd1Q0RYYUhtdS16cnVBNlNxUDgzY0lSN1BEMm93ZXFIanJfMU1TcjZhTFNsOUxCUmNpY2ZxblRKT18wNUpfRnlfTUNYRzI1YjRxY3dvc0Uw?oc=5",
+      "is_manual": false
+    },
+    {
+      "date": "2026-09-06",
+      "ceremony": "SKA",
+      "award_name": "GLOBAL CONNECT",
+      "title": "2026 SPOTV K-POP AWARDS GLOBAL CONNECT 수상",
+      "source_link": "",
+      "is_manual": true
+    },
+    {
+      "date": "2026-09-06",
+      "ceremony": "SKA",
+      "award_name": "SPOTV AMBASSADOR",
+      "title": "2026 SPOTV K-POP AWARDS 앰버서더상 수상",
+      "source_link": "",
+      "is_manual": true
+    },
+    {
+      "date": "2026-09-01",
+      "ceremony": "올해의 브랜드 대상",
+      "award_name": "여자아이돌(핫트렌드)",
+      "title": "2026 올해의 브랜드 대상 여자아이돌(핫트렌드) 부문 수상",
+      "source_link": "",
+      "is_manual": true
+    },
+    {
+      "date": "2026-08-27",
+      "ceremony": "KWDA",
+      "award_name": "K 월드 드림 베스트 비주얼 콘텐츠상",
+      "title": "2026 K WORLD DREAM AWARDS 베스트 비주얼 콘텐츠상 수상",
+      "source_link": "",
+      "is_manual": true
+    },
+    {
+      "date": "2026-08-27",
+      "ceremony": "KWDA",
+      "award_name": "K 월드 드림 베스트 팬상",
+      "title": "2026 K WORLD DREAM AWARDS 베스트 팬상 수상",
+      "source_link": "",
+      "is_manual": true
+    },
+    {
+      "date": "2026-01-06",
+      "ceremony": "대한민국 퍼스트브랜드 대상",
+      "award_name": "여자아이돌(라이징스타)",
+      "title": "2026 대한민국 퍼스트브랜드 대상 여자아이돌(라이징스타) 부문 수상",
+      "source_link": "",
+      "is_manual": true
+    },
+    {
+      "date": "2025-08-28",
+      "ceremony": "뉴시스 한류엑스포",
+      "award_name": "한류특별상",
+      "title": "제7회 뉴시스 한류엑스포 한류특별상 수상",
+      "source_link": "",
+      "is_manual": true
+    },
+    {
+      "date": "2024-11-02",
+      "ceremony": "아시아 모델 어워즈",
+      "award_name": "라이징스타상",
+      "title": "ASIA MODEL AWARDS 라이징스타상 수상",
+      "source_link": "",
+      "is_manual": true
     }
   ],
   "photocard_releases": [
