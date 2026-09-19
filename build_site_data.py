@@ -3,11 +3,7 @@
 DB(items, chart_snapshots)와 config(SCHEDULE_ITEMS)를 읽어서
 정적 HTML 사이트가 바로 읽을 수 있는 data.js 파일을 생성합니다.
 
-file:// 로 index.html을 열어도 fetch()의 CORS 제약 없이 동작하도록
-<script> 태그로 바로 불러올 수 있는 JS 변수 형태로 만듭니다.
-
 실행: python build_site_data.py
-(refresh_and_open.bat이 수집 → 차트조회 → 이 스크립트를 순서대로 실행합니다)
 """
 import json
 import os
@@ -17,11 +13,11 @@ from datetime import datetime, date
 from config import (
     OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS,
     RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS, ARCHIVE_DISPLAY_LIMIT, TROPHY_ITEMS,
-    PHOTOCARD_RELEASES, RADIO_CHANNELS,
+    PHOTOCARD_RELEASES, RADIO_CHANNELS, RADIO_SCHEDULE,
 )
 from db import (
     init_db, get_conn, get_recent_items, get_official_schedule,
-    get_previous_ranks, get_recent_fan_reactions, get_recent_trophies,
+    get_previous_ranks, get_recent_fan_reactions, get_recent_trophies, get_recent_awards,
 )
 from chart_tracker import get_latest_all
 from classify import classify_members, classify_category
@@ -51,7 +47,6 @@ def build_archive():
         }
         grouped[date_key].append(entry)
 
-    # 최신 날짜 순으로 정렬된 리스트로 변환
     result = []
     for date_key in sorted(grouped.keys(), reverse=True):
         try:
@@ -74,7 +69,7 @@ def build_chart():
                 if prev_rank is None:
                     change = {"kind": "new"}
                 else:
-                    delta = prev_rank - s["rank"]  # 양수 = 순위 상승(숫자는 작아짐)
+                    delta = prev_rank - s["rank"]
                     if delta > 0:
                         change = {"kind": "up", "delta": delta}
                     elif delta < 0:
@@ -95,11 +90,6 @@ def build_chart():
 
 
 def build_schedule():
-    """
-    Mnet Plus 공식 스케줄만 사용합니다. 뉴스 기반 추정(auto_schedule)과 수동
-    등록(SCHEDULE_ITEMS)은 그동안 여러 차례 오탐이 있었어서(엉뚱한 날짜로
-    튀는 등) 신뢰도 문제로 뺐습니다. 공식 확인된 정보만 보여줍니다.
-    """
     today_str = now_kst().strftime("%Y-%m-%d")
 
     with get_conn() as conn:
@@ -127,7 +117,6 @@ def build_schedule():
 
 
 def build_anniversaries():
-    """데뷔일 + 멤버 생일의 다음 도래 시점을 계산해서 가까운 순으로 정렬."""
     today = now_kst().date()
     items = []
 
@@ -171,7 +160,6 @@ def build_anniversaries():
                 }
             )
 
-    # 가까운 순이 아니라, 지정된 고정 순서(데뷔 → 원이 → 미나미 → 리브 → 메이 → 제나)로 정렬
     FIXED_ORDER = ["데뷔", "원이", "미나미", "리브", "메이", "제나"]
 
     def _sort_key(item):
@@ -179,7 +167,7 @@ def build_anniversaries():
         try:
             return FIXED_ORDER.index(label)
         except ValueError:
-            return len(FIXED_ORDER)  # 목록에 없는 항목은 맨 뒤로
+            return len(FIXED_ORDER)
 
     items.sort(key=_sort_key)
     return items
@@ -214,8 +202,6 @@ def build_trophies():
         for r in rows
     ]
 
-    # 수동 등록과 (방송, 곡)이 같고 날짜도 3일 이내로 가까우면 자동 감지 쪽은
-    # 중복이니 빼고 수동 등록(더 신뢰할 수 있는 쪽)만 남김
     def _is_near_manual(auto_item):
         for m in manual_items:
             if m["show"] != auto_item["show"] or m["song"] != auto_item["song"]:
@@ -234,6 +220,24 @@ def build_trophies():
     all_items = manual_items + auto_items
     all_items.sort(key=lambda x: x["date"], reverse=True)
     return all_items
+
+
+def build_awards():
+    """시상식 수상 기록 (음악방송 1위와는 별개, awards 테이블에서 가져옴)."""
+    with get_conn() as conn:
+        rows = get_recent_awards(conn, limit=100)
+    result = [
+        {
+            "date": r["date"],
+            "ceremony": r["ceremony"],
+            "award_name": r["award_name"] or "",
+            "title": r["title"],
+            "source_link": r["source_link"],
+        }
+        for r in rows
+    ]
+    result.sort(key=lambda x: x["date"], reverse=True)
+    return result
 
 
 def build_fan_reactions():
@@ -270,8 +274,10 @@ def main():
         "all_songs": RESCENE_ALL_SONGS,
         "anniversaries": build_anniversaries(),
         "trophies": build_trophies(),
+        "awards": build_awards(),
         "photocard_releases": PHOTOCARD_RELEASES,
         "radio_channels": RADIO_CHANNELS,
+        "radio_schedule": RADIO_SCHEDULE,
     }
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write("const SITE_DATA = ")
@@ -282,7 +288,9 @@ def main():
           f"차트 {sum(len(v) for v in data['chart'].values())}건, "
           f"스케줄 {len(data['schedule']['upcoming'])}건(예정), "
           f"팬반응 {len(data['fan_reactions'])}건, "
-          f"포토카드 {len(data['photocard_releases'])}건")
+          f"포토카드 {len(data['photocard_releases'])}건, "
+          f"트로피 {len(data['trophies'])}건, "
+          f"시상식 {len(data['awards'])}건")
 
 
 if __name__ == "__main__":

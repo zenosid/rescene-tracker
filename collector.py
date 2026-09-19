@@ -21,9 +21,12 @@ from config import (
     NAVER_BLOG_QUERIES, NAVER_BLOG_MAX_RESULTS,
     RESCENE_ALL_SONGS,
 )
-from db import init_db, get_conn, insert_item, get_recent_items, insert_auto_schedule, insert_trophy
+from db import (
+    init_db, get_conn, insert_item, get_recent_items, insert_auto_schedule,
+    insert_trophy, insert_award,
+)
 from schedule_extractor import extract_schedule_candidates
-from trophy_extractor import extract_trophy_candidates
+from trophy_extractor import extract_trophy_candidates, extract_award_candidates
 from x_collector import collect_x
 from moderation_scan import scan_for_moderation
 
@@ -127,10 +130,6 @@ def collect_youtube(conn):
             continue
         for entry in feed.entries:
             title = entry.get("title", "(제목 없음)")
-            # RSS가 쇼츠는 "shorts/영상ID", 일반 영상은 "watch?v=영상ID" 형식으로
-            # 링크를 서로 다르게 줘서, 같은 영상이 백필(항상 watch?v= 형식) 결과와
-            # 다른 링크로 인식돼 중복 저장되는 문제가 있었음 - video ID 기준으로
-            # 항상 watch?v= 형식으로 통일해서 저장
             video_id = entry.get("yt_videoid")
             link = f"https://www.youtube.com/watch?v={video_id}" if video_id else entry.get("link", "")
             published_at = _parsed_time_to_iso(entry)
@@ -158,7 +157,7 @@ def collect_collab(conn):
         for entry in feed.entries:
             title = entry.get("title", "(제목 없음)")
             if not _is_relevant_to_us(title):
-                continue  # 리센느와 무관한 영상은 건너뜀
+                continue
             video_id = entry.get("yt_videoid")
             link = f"https://www.youtube.com/watch?v={video_id}" if video_id else entry.get("link", "")
             published_at = _parsed_time_to_iso(entry)
@@ -178,7 +177,6 @@ def collect_collab_by_search(conn):
     """
     채널을 미리 등록하지 않아도, 유튜브 검색으로 '리센느' 관련 영상을 찾아서
     조회수가 SEARCH_MIN_VIEWS 이상이면 채널 상관없이 자동 수집.
-    (공개 검색 페이지를 개인 사용 목적으로 저빈도 조회합니다.)
     """
     new_count = 0
     seen_video_ids = set()
@@ -212,9 +210,6 @@ def collect_collab_by_search(conn):
             seen_video_ids.add(video_id)
 
             title = _get_text(v.get("title"))
-            # 유튜브 검색은 "관련 영상"까지 느슨하게 섞어서 내려줄 때가 있어서,
-            # 검색어로 찾았다고 해도 제목에 실제로 리센느/멤버 이름이 있는지
-            # 한 번 더 확인 (안 그러면 완전히 무관한 인기 영상까지 걸림)
             if not _is_relevant_to_us(title):
                 continue
 
@@ -225,7 +220,7 @@ def collect_collab_by_search(conn):
             view_count = _parse_view_count(view_text)
 
             if channel_id and channel_id in _OFFICIAL_CHANNEL_IDS:
-                continue  # 이미 공식 채널 RSS로 수집되는 채널은 건너뜀
+                continue
             if view_count < SEARCH_MIN_VIEWS:
                 continue
 
@@ -244,31 +239,21 @@ def collect_collab_by_search(conn):
     return new_count
 
 
-_TITLE_SOURCE_SUFFIX_RE = re.compile(r"\s*[-–—]\s*[^-–—]{1,20}$")  # "제목 - 언론사명" 꼬리표 제거
-_TITLE_NORMALIZE_RE = re.compile(r"[^\w가-힣]+")  # 공백/기호 제거 비교용
+_TITLE_SOURCE_SUFFIX_RE = re.compile(r"\s*[-–—]\s*[^-–—]{1,20}$")
+_TITLE_NORMALIZE_RE = re.compile(r"[^\w가-힣]+")
 
 
 def _normalize_title_for_dedup(title):
-    """
-    구글 뉴스와 네이버 뉴스가 같은 기사를 서로 다른 링크로 줄 때도 같은 기사로
-    인식하기 위해, 제목 끝의 "- 언론사명" 꼬리표를 떼고 공백/기호를 없애서 비교.
-    """
     without_source = _TITLE_SOURCE_SUFFIX_RE.sub("", title)
     return _TITLE_NORMALIZE_RE.sub("", without_source).lower()
 
 
 def _load_existing_news_titles(conn):
-    """이미 저장된 뉴스 항목들의 정규화된 제목 집합을 반환 (중복 판정용)."""
     rows = conn.execute("SELECT title FROM items WHERE source_type = 'news'").fetchall()
     return {_normalize_title_for_dedup(row["title"]) for row in rows}
 
 
 def _is_our_group(text):
-    # "RESCENE" 대소문자 구분 없이 매칭 (예: "Rescene"도 잡아야 함)
-    # + 실제 언론에서 쓰이는 다른 표기 변형(르센느/이센느)도 포함
-    # + 멤버 한글 이름만 나오고 그룹명이 없는 기사도 놓치지 않도록 포함
-    #   (영문 로마자 표기인 MAY/LIV 등은 너무 흔한 단어라 오탐 위험이 커서
-    #   여기서는 한글 멤버 이름만 사용)
     lowered = text.lower()
     group_variants = [kw.lower() for kw in CHART_KEYWORDS] + ["르센느", "이센느"]
     if any(kw in lowered for kw in group_variants):
@@ -287,15 +272,11 @@ def collect_news(conn, seen_titles):
             snippet = entry.get("summary", "")[:500]
             if not link:
                 continue
-            # 구글 뉴스 검색도 느슨하게 매칭될 때가 있어서(예: 검색어 중 한
-            # 단어만 일치해도 결과에 나옴), 제목에 실제로 우리 그룹 키워드가
-            # 있는지 한 번 더 확인 - 이게 빠져있어서 완전히 무관한 기사(다른
-            # 가수 근황, 지역 축제 소식 등)까지 아카이브에 섞여 들어가고 있었음
             if not _is_our_group(title):
                 continue
             normalized = _normalize_title_for_dedup(title)
             if normalized in seen_titles:
-                continue  # 이미 (구글이든 네이버든) 같은 제목의 기사를 저장했음
+                continue
             is_new = insert_item(
                 conn, "news", feed_conf["name"], title, link, published_at, snippet
             )
@@ -310,16 +291,11 @@ _NAVER_TAG_RE = re.compile(r"</?b>")
 
 
 def _strip_naver_tags(text):
-    """
-    네이버 검색 API 응답은 검색어를 <b>태그</b>로 감싸고, "&quot;" 같은 HTML
-    엔티티도 그대로 줘서 둘 다 정리합니다.
-    """
     without_tags = _NAVER_TAG_RE.sub("", text or "")
     return html.unescape(without_tags)
 
 
 def _naver_pubdate_to_iso(pub_date_text):
-    """'Mon, 27 Jul 2026 10:00:00 +0900' 형식을 UTC ISO로 변환."""
     try:
         from email.utils import parsedate_to_datetime
 
@@ -332,9 +308,6 @@ def _naver_pubdate_to_iso(pub_date_text):
 
 
 def collect_naver_news(conn, seen_titles):
-    """
-    네이버 공식 검색 API(오픈 API)로 뉴스를 가져옵니다. 키가 없으면 조용히 건너뜁니다.
-    """
     client_id = os.environ.get("NAVER_CLIENT_ID")
     client_secret = os.environ.get("NAVER_CLIENT_SECRET")
     if not client_id or not client_secret:
@@ -370,7 +343,7 @@ def collect_naver_news(conn, seen_titles):
                 continue
             normalized = _normalize_title_for_dedup(title)
             if normalized in seen_titles:
-                continue  # 구글 뉴스에서 이미 같은 제목의 기사를 저장했음
+                continue
             is_new = insert_item(conn, "news", "네이버 뉴스", title, link, published_at, snippet)
             if is_new:
                 new_count += 1
@@ -380,11 +353,6 @@ def collect_naver_news(conn, seen_titles):
 
 
 def collect_naver_cafe(conn, seen_titles):
-    """
-    네이버 카페글 검색 API - 리시안셔스뿐 아니라 검색에 공개적으로 노출되는
-    모든 네이버 카페의 게시글을 검색합니다. 브랜드 콜라보 후기 등 뉴스로는
-    안 잡히는 소식을 잡기 위한 용도. 키가 없으면 조용히 건너뜁니다.
-    """
     client_id = os.environ.get("NAVER_CLIENT_ID")
     client_secret = os.environ.get("NAVER_CLIENT_SECRET")
     if not client_id or not client_secret:
@@ -427,10 +395,6 @@ def collect_naver_cafe(conn, seen_titles):
 
 
 def collect_naver_blog(conn, seen_titles):
-    """
-    네이버 블로그 검색 API - 개인 블로거의 방문 후기/콜라보 소식 등을 잡습니다.
-    키가 없으면 조용히 건너뜁니다.
-    """
     client_id = os.environ.get("NAVER_CLIENT_ID")
     client_secret = os.environ.get("NAVER_CLIENT_SECRET")
     if not client_id or not client_secret:
@@ -473,7 +437,6 @@ def collect_naver_blog(conn, seen_titles):
 
 
 def collect_auto_schedule(conn):
-    """이미 수집된 뉴스 전체를 스캔해서 일정 후보를 추출 (중복은 UNIQUE 제약으로 자동 방지)."""
     news_items = [i for i in get_recent_items(conn, limit=1000) if i["source_type"] == "news"]
     candidates = extract_schedule_candidates(news_items)
     new_count = 0
@@ -497,6 +460,19 @@ def collect_trophies(conn):
         if is_new:
             new_count += 1
             print(f"  [신규/트로피] {c['date']} {c['show']} - {c['song']}")
+    return new_count
+
+
+def collect_awards(conn):
+    """이미 수집된 뉴스에서 시상식 수상 기록을 추출."""
+    news_items = [i for i in get_recent_items(conn, limit=1000) if i["source_type"] == "news"]
+    candidates = extract_award_candidates(news_items)
+    new_count = 0
+    for c in candidates:
+        is_new = insert_award(conn, c["date"], c["ceremony"], c["award_name"], c["title"], c["source_link"])
+        if is_new:
+            new_count += 1
+            print(f"  [신규/시상식] {c['date']} {c['ceremony']} - {c['award_name']}")
     return new_count
 
 
@@ -524,6 +500,8 @@ def run_collection():
         schedule_new = collect_auto_schedule(conn)
         print("뉴스에서 1위 수상 기록 추출 중...")
         trophy_new = collect_trophies(conn)
+        print("뉴스에서 시상식 수상 기록 추출 중...")
+        award_new = collect_awards(conn)
         print("모더레이션(악플/부적절 콘텐츠 후보) 검토용 스캔 중...")
         moderation_new = scan_for_moderation(conn)
     total = yt_new + collab_new + search_new + news_new + naver_news_new + cafe_new + blog_new + x_new
@@ -533,6 +511,7 @@ def run_collection():
         f"뉴스-구글 {news_new} / 뉴스-네이버 {naver_news_new} / "
         f"카페글 {cafe_new} / 블로그 {blog_new} / X {x_new}) "
         f"· 추정 일정 {schedule_new}건 · 신규 트로피 {trophy_new}건 · "
+        f"신규 시상식 {award_new}건 · "
         f"모더레이션 검토대상 {moderation_new}건"
     )
     return total

@@ -81,6 +81,16 @@ CREATE TABLE IF NOT EXISTS moderation_flags (
     reviewed INTEGER DEFAULT 0,    -- 운영자가 확인했는지 (0/1), 직접 DB에서 체크
     fetched_at TEXT DEFAULT (datetime('now'))
 );
+
+CREATE TABLE IF NOT EXISTS awards (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    date TEXT NOT NULL,           -- 뉴스 발행일(KST) 기준 'YYYY-MM-DD'
+    ceremony TEXT NOT NULL,       -- 시상식 이름 (AAA, MMA, 골든디스크 등)
+    award_name TEXT,              -- 상 이름 (신인상, 대상, 인기상 등, 불확실하면 NULL)
+    title TEXT NOT NULL,          -- 원 기사 제목
+    source_link TEXT NOT NULL UNIQUE,
+    created_at TEXT DEFAULT (datetime('now'))
+);
 """
 
 
@@ -283,4 +293,42 @@ def get_unreviewed_moderation_flags(conn, limit=50):
     return conn.execute(
         "SELECT * FROM moderation_flags WHERE reviewed = 0 ORDER BY fetched_at DESC LIMIT ?",
         (limit,),
+    ).fetchall()
+
+
+# ── 시상식 수상 기록 ────────────────────────────────────────
+def insert_award(conn, date, ceremony, award_name, title, source_link):
+    # 같은 시상식+같은 상이 언론사마다 다르게 보도되는 경우가 많아서, 며칠(3일)
+    # 이내 같은 시상식+상 이름이 이미 있으면 중복으로 보고 건너뜀
+    from datetime import date as _date_cls
+
+    existing_rows = conn.execute(
+        "SELECT id, date FROM awards WHERE ceremony = ? AND award_name = ?",
+        (ceremony, award_name),
+    ).fetchall()
+    try:
+        new_date = _date_cls.fromisoformat(date)
+    except ValueError:
+        new_date = None
+
+    for row in existing_rows:
+        if new_date is None:
+            return False
+        try:
+            existing_date = _date_cls.fromisoformat(row["date"])
+        except ValueError:
+            continue
+        if abs((new_date - existing_date).days) <= 3:
+            return False
+
+    cur = conn.execute(
+        "INSERT OR IGNORE INTO awards (date, ceremony, award_name, title, source_link) VALUES (?, ?, ?, ?, ?)",
+        (date, ceremony, award_name, title, source_link),
+    )
+    return cur.rowcount > 0
+
+
+def get_recent_awards(conn, limit=100):
+    return conn.execute(
+        "SELECT * FROM awards ORDER BY date DESC LIMIT ?", (limit,)
     ).fetchall()
