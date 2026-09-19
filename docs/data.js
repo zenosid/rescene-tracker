@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-19 19:14",
+  "generated_at": "2026-09-19 19:15",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -473,6 +473,17 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
+          ]
+        },
+        {
+          "title": "[전참시 미방분 선공개] 리센느 원이 의 둘째 삼촌! 노래자판기 유영우! 본방 전 살짝만 공개하는 그의 노래실력은?! #리센느 #원이 #유영우 #둘째삼촌 #유스데스크 #정준힐",
+          "link": "https://www.youtube.com/watch?v=Muda7EOqnls",
+          "source_type": "youtube_collab",
+          "source_name": "전지적참견시점",
+          "time": "19:15",
+          "category": "외부컨텐츠",
+          "members": [
+            "원이"
           ]
         },
         {
@@ -958,6 +969,17 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
+          ]
+        },
+        {
+          "title": "\"연예인 다 됐다\"..리센느 미나미, '야호' 유행어 졸업 ('라스')[방송 프리뷰] - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VHpQRHAtT00tajQzeTJyVVBGZFZSbWhYV2h6RG9MMDVNQ3NUTWtpbnVpaWFfeU1McWdHMi1UekRiT0dqTjZ4YmRXQXlyX1E?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:31",
+          "category": "기타",
+          "members": [
+            "미나미"
           ]
         },
         {

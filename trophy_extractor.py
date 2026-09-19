@@ -136,6 +136,7 @@ _AWARD_CEREMONY_KEYWORDS = [
     "MBC가요대제전", "MBC 가요대제전",
     "KBS가요대축제", "KBS 가요대축제",
     "SKA", "SPOTV K-POP AWARDS", "SPOTV 케이팝 어워즈", "스포티비 케이팝 어워즈", "스포티비 K-POP 어워즈",
+    "TMA", "더팩트 뮤직 어워즈", "THE FACT MUSIC AWARDS",
 ]
 _AWARD_TYPE_KEYWORDS = [
     "대상", "본상", "신인상", "인기상", "베스트", "뉴웨이브상",
