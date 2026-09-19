@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-19 19:20",
+  "generated_at": "2026-09-19 19:29",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -278287,22 +278287,32 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 1,
+        "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-13 12:46",
+        "checked_at": "2026-09-19 19:29",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       },
       {
-        "rank": 10,
+        "rank": 6,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-13 12:46",
+        "checked_at": "2026-09-19 19:29",
         "change": {
-          "kind": "down",
-          "delta": 2
+          "kind": "up",
+          "delta": 4
+        }
+      },
+      {
+        "rank": 7,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE (리센느)RESCENE (리센느)",
+        "checked_at": "2026-09-19 19:29",
+        "change": {
+          "kind": "new"
         }
       }
     ]
@@ -278326,57 +278336,25 @@ const SITE_DATA = {
         "mention_count": 1
       },
       {
-        "date": "2026-10-03",
-        "type": "공연",
-        "title": "2026 입크페스티벌 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-10-03",
-        "type": "기타",
-        "title": "공주 백제문화제 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-10-10",
+        "date": "2026-09-22",
         "type": "행사",
-        "title": "2026 대전 동구동락 축제 (All Day)",
+        "title": "한국외국어대학교 글로벌캠퍼스 축제 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
       },
       {
-        "date": "2026-10-11",
-        "type": "기타",
-        "title": "🎉 HAPPY LIV DAY (All Day)",
+        "date": "2026-09-29",
+        "type": "행사",
+        "title": "한양대학교 ERICA 축제 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
       },
       {
-        "date": "2026-10-11",
-        "type": "공연",
-        "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌) (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-10-16",
-        "type": "라디오",
-        "title": "MBC 라디오스타 (01:30 PM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-10-17",
-        "type": "기타",
-        "title": "NOL FESTIVAL - 고양 (All Day)",
+        "date": "2026-09-30",
+        "type": "행사",
+        "title": "한경국립대학교 축제 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -278426,7 +278404,7 @@ const SITE_DATA = {
       {
         "date": "2026-09-18",
         "type": "행사",
-        "title": "수원대학교 축제 (All Day)",
+        "title": "인하대학교 축제 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -278434,15 +278412,7 @@ const SITE_DATA = {
       {
         "date": "2026-09-18",
         "type": "행사",
-        "title": "인하대학교 축제 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-09-17",
-        "type": "행사",
-        "title": "동국대학교 축제 (All Day)",
+        "title": "수원대학교 축제 (10:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -278451,6 +278421,22 @@ const SITE_DATA = {
         "date": "2026-09-17",
         "type": "행사",
         "title": "서울대학교 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-17",
+        "type": "행사",
+        "title": "동국대학교 축제 (10:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-16",
+        "type": "라디오",
+        "title": "MBC 라디오스타 (01:30 PM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
