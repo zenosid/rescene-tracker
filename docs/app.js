@@ -17,7 +17,6 @@ const MEMBER_COLORS = {
   "제나": "var(--aurora-amber)",
 };
 
-// 곡별 종합 테이블에 쓸 컬럼 (한국 기준 8개 플랫폼)
 const CHART_TABLE_PLATFORMS = [
   { key: "melon", label: "MELON" },
   { key: "genie", label: "GENIE" },
@@ -29,7 +28,6 @@ const CHART_TABLE_PLATFORMS = [
   { key: "apple_music_kr", label: "APPLE MUSIC" },
 ];
 
-// 해외(미국·일본)는 곡별 테이블 아래 작은 보조 섹션으로 따로 표시
 const INTERNATIONAL_EXTRA_SERVICES = [
   { key: "spotify", label: "Spotify" },
   { key: "shazam", label: "Shazam" },
@@ -59,25 +57,23 @@ const PLATFORM_LABELS = {
   apple_music_us: "Apple Music (US)",
   apple_music_jp: "Apple Music (JP)",
 };
-const FAVORITES_KEY = "rescene_tracker_favorites"; // localStorage 키 (이 브라우저 전용)
+const FAVORITES_KEY = "rescene_tracker_favorites";
 const REACTION_API_BASE = "https://rescene-reactions.zenosid1.workers.dev";
 const REACTION_EMOJIS = ["👍", "🥹", "🔥", "😍", "❤️"];
 
 const CATEGORY_LIST = ["음악방송", "MV", "Live", "Shorts", "자체컨텐츠", "외부컨텐츠", "기타"];
 
-// ── 상태 ──────────────────────────────────────────────────
 const state = {
-  sourceTab: "all", // 단일 선택: "all" | "youtube" | "youtube_collab" | "news"
-  categoryTab: "all", // 단일 선택: "all" | "음악방송" | "MV" | ...
-  yearTab: "all", // 단일 선택: "all" | "2026" | "2025" | ...
-  members: new Set(), // 비어있으면 전체
-  reactionSort: "likes", // "likes" | "recent"
-  archiveSort: "newest", // "newest" | "oldest"
-  archiveSearch: "", // 제목 텍스트 검색어
-  archiveVisibleItemTarget: 150, // "더보기"로 늘어나는, 화면에 그릴 대략적인 카드 개수 목표
+  sourceTab: "all",
+  categoryTab: "all",
+  yearTab: "all",
+  members: new Set(),
+  reactionSort: "likes",
+  archiveSort: "newest",
+  archiveSearch: "",
+  archiveVisibleItemTarget: 150,
 };
 
-// ── 즐겨찾기 (localStorage, 이 브라우저에만 저장) ───────────
 function loadFavorites() {
   try {
     const raw = localStorage.getItem(FAVORITES_KEY);
@@ -89,9 +85,7 @@ function loadFavorites() {
 function saveFavorites(set) {
   try {
     localStorage.setItem(FAVORITES_KEY, JSON.stringify([...set]));
-  } catch (e) {
-    // localStorage를 쓸 수 없는 환경(프라이빗 모드 등)이면 조용히 무시
-  }
+  } catch (e) {}
 }
 const favorites = loadFavorites();
 
@@ -104,7 +98,6 @@ function toggleFavorite(link) {
   saveFavorites(favorites);
 }
 
-// ── 토스트 알림 ───────────────────────────────────────────
 let toastTimer = null;
 function showToast(message) {
   const toast = document.getElementById("toast");
@@ -115,14 +108,13 @@ function showToast(message) {
   toastTimer = setTimeout(() => toast.classList.remove("show"), 2200);
 }
 
-// ── 공유 헬퍼 ─────────────────────────────────────────────
 async function shareLink(url, title) {
   if (navigator.share) {
     try {
       await navigator.share({ title: title || "RESCENE Tracker", url });
       return;
     } catch (e) {
-      return; // 사용자가 공유 취소한 경우 등 - 조용히 무시
+      return;
     }
   }
   try {
@@ -133,7 +125,6 @@ async function shareLink(url, title) {
   }
 }
 
-// ── 탭 전환 ───────────────────────────────────────────────
 document.querySelectorAll(".tab-btn").forEach((btn) => {
   btn.addEventListener("click", () => {
     document.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
@@ -147,7 +138,6 @@ document.querySelectorAll(".tab-btn").forEach((btn) => {
   });
 });
 
-// ── 헤더: 생성 시각 / 공유 버튼 ────────────────────────────
 document.getElementById("generatedAt").textContent =
   "최근 갱신: " + (SITE_DATA.generated_at || "-");
 
@@ -155,19 +145,15 @@ document.getElementById("shareBtn").addEventListener("click", () => {
   shareLink(location.href, "🩷 RESCENE TRACKER");
 });
 
-// 로컬에서 실행 중일 때만 새로고침 버튼 노출 (배포 후에는 방문자 브라우저에서
-// 수집을 실행할 수 없으므로 GitHub Actions 자동 갱신에 맡깁니다)
 if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
   document.getElementById("refreshBtn").style.display = "inline-block";
 }
 
-// ── 안내 탭: 연락처/갱신주기 채우기 ─────────────────────────
 document.getElementById("operatorContact").textContent = SITE_DATA.operator_contact || "-";
 document.getElementById("refreshIntervalText").textContent = SITE_DATA.refresh_interval_minutes
   ? `약 ${SITE_DATA.refresh_interval_minutes}분마다`
   : "비정기적";
 
-// ── 필터 칩 렌더링 ────────────────────────────────────────
 function buildSourceChips() {
   const wrap = document.getElementById("sourceChips");
   wrap.innerHTML = "";
@@ -240,7 +226,6 @@ function buildYearChips() {
   if (!wrap) return;
   wrap.innerHTML = "";
 
-  // 아카이브에 실제 있는 연도만 최신순으로 뽑아냄
   const years = [...new Set((SITE_DATA.archive || []).map((g) => g.date.slice(0, 4)))].sort(
     (a, b) => b.localeCompare(a)
   );
@@ -261,7 +246,6 @@ function buildYearChips() {
   });
 }
 
-// ── 아이템 카드 (아카이브·즐겨찾기 공용) ───────────────────
 function itemPassesFilter(item) {
   if (state.sourceTab !== "all" && item.source_type !== state.sourceTab) return false;
   if (state.categoryTab !== "all" && item.category !== state.categoryTab) return false;
@@ -340,14 +324,11 @@ function buildItemCard(item) {
   return card;
 }
 
-// ── 반응(이모지) 버튼 - Cloudflare Worker + KV로 익명 카운트 저장 ──────
-let pendingReactionQueue = []; // 카드마다 개별 조회하지 않고 모았다가 한 번에 배치 조회
+let pendingReactionQueue = [];
 
 function setupReactionButtons(card, reactionId) {
   const buttons = card.querySelectorAll(".reaction-btn");
 
-  // 이 브라우저에서 이미 누른 이모지는 표시만 해두고(서버도 하루 1회로 막지만,
-  // 굳이 실패할 요청을 또 보내지 않도록 미리 비활성화)
   buttons.forEach((btn) => {
     const emoji = btn.dataset.emoji;
     const reactedKey = `rescene_reacted_${reactionId}_${emoji}`;
@@ -375,24 +356,16 @@ function setupReactionButtons(card, reactionId) {
             } else {
               localStorage.removeItem(reactedKey);
             }
-          } catch (err) {
-            // localStorage 사용 불가 환경이면 조용히 무시
-          }
+          } catch (err) {}
         }
-      } catch (err) {
-        // 네트워크 오류 등은 조용히 무시 (반응 기능은 부가 기능이라 실패해도 사이트 이용엔 지장 없음)
-      }
+      } catch (err) {}
       btn.disabled = false;
     });
   });
 
-  // 카드마다 바로 조회하면 카드 수만큼 요청이 쏟아져서 느려지므로, 일단 큐에만
-  // 쌓아두고 렌더링이 다 끝난 뒤 flushReactionCountQueue()가 한 번에 처리함
   pendingReactionQueue.push({ reactionId, buttons });
 }
 
-// 큐에 쌓인 카드들의 반응 개수를 한 번의 요청으로 모아서 가져옴
-// (renderArchive/renderFavorites 등 카드를 다 그린 직후에 호출해야 함)
 async function flushReactionCountQueue() {
   if (pendingReactionQueue.length === 0) return;
   const queue = pendingReactionQueue;
@@ -414,20 +387,12 @@ async function flushReactionCountQueue() {
         btn.querySelector(".reaction-count").textContent = counts[emoji] || 0;
       });
     });
-  } catch (err) {
-    // 네트워크 오류 등은 조용히 무시
-  }
+  } catch (err) {}
 }
 
-// ── 아카이브 렌더링 ───────────────────────────────────────
 function renderArchive() {
   const container = document.getElementById("archiveContent");
 
-  // 검색창/정렬바가 이미 있으면 절대 다시 만들지 않음 - 검색어 입력할 때마다
-  // 이 부분(특히 <input>)을 통째로 지웠다가 다시 만들면, 브라우저가 한글
-  // 조합(IME) 상태를 잃어버려서 "ㄹㅓ브어택"처럼 자음/모음이 안 붙는 문제와,
-  // 검색 결과가 한 번 비어버리면 그 뒤로 입력창이 먹통이 되는 문제가 생겼음.
-  // 그래서 검색창/정렬바는 최초 1번만 만들고, 그 아래 결과 영역만 매번 다시 그림.
   if (!document.getElementById("archiveControls")) {
     container.innerHTML = `
       <div id="archiveControls">
@@ -442,8 +407,8 @@ function renderArchive() {
     input.value = state.archiveSearch;
     input.addEventListener("input", (e) => {
       state.archiveSearch = e.target.value;
-      state.archiveVisibleItemTarget = 150; // 검색어 바뀌면 페이지네이션 처음부터
-      renderArchiveResults(); // 검색창 자체는 절대 건드리지 않고 결과만 다시 그림
+      state.archiveVisibleItemTarget = 150;
+      renderArchiveResults();
     });
   }
 
@@ -471,15 +436,9 @@ function renderArchiveResults() {
   const container = document.getElementById("archiveResults");
   container.innerHTML = "";
 
-  // SITE_DATA.archive는 항상 최신순으로 옴 - 과거순이면 그대로 뒤집으면 됨
   const orderedGroups =
     state.archiveSort === "oldest" ? [...SITE_DATA.archive].reverse() : SITE_DATA.archive;
 
-  // 필터를 통과하는 그룹만 먼저 추려서, 카드 누적 개수가 목표치를 넘을 때까지만
-  // 실제로 그림 - 9000건 넘게 쌓인 상태인데, 하루에 카드가 수백 개씩 몰린 날도
-  // 있어서 "날짜 그룹 30개"처럼 그룹 개수로만 제한하면 여전히 느려질 수 있음.
-  // 그래서 그룹이 아니라 실제 카드 개수를 기준으로 끊습니다 (다만 그룹 하나를
-  // 쪼개서 반만 보여주면 이상하니, 목표치를 넘기는 그 그룹까지는 통째로 포함).
   const matchingGroups = [];
   orderedGroups.forEach((group) => {
     if (state.yearTab !== "all" && group.date.slice(0, 4) !== state.yearTab) return;
@@ -502,7 +461,6 @@ function renderArchiveResults() {
   groupsToRender.forEach(({ group, visibleItems }) => {
     totalShown += visibleItems.length;
 
-    // 날짜(YYYY-MM-DD)의 앞 4자리로 연도 구분, 바뀔 때마다 큰 연도 헤더 삽입
     const year = group.date.slice(0, 4);
     if (year !== lastYear) {
       const yearHeading = document.createElement("div");
@@ -541,10 +499,6 @@ function renderArchiveResults() {
       .reduce((sum, g) => sum + g.visibleItems.length, 0);
     moreBtn.textContent = `더보기 (${remainingItems.toLocaleString()}건 더 있음)`;
     moreBtn.addEventListener("click", () => {
-      // 그냥 목표치에 150을 더하면, 특정 날짜 하나에 카드가 아주 많이 몰려있을
-      // 때(예: 320개) 목표치가 여전히 그 날짜 하나를 못 넘어서 버튼을 눌러도
-      // 아무 변화가 없는 것처럼 보일 수 있음 - 그래서 "방금까지 실제로 보여준
-      // 개수"를 기준으로 +150을 해서, 누르면 항상 눈에 보이는 변화가 있게 함
       state.archiveVisibleItemTarget = accumulatedItems + 150;
       renderArchiveResults();
     });
@@ -554,7 +508,6 @@ function renderArchiveResults() {
   flushReactionCountQueue();
 }
 
-// ── 즐겨찾기 탭 렌더링 ───────────────────────────────────────
 function renderFavorites() {
   const container = document.getElementById("favoritesContent");
   container.innerHTML = "";
@@ -575,7 +528,6 @@ function renderFavorites() {
   flushReactionCountQueue();
 }
 
-// ── 링크 모음 렌더링 ─────────────────────────────────────────
 function renderLinks() {
   const container = document.getElementById("linksContent");
   container.innerHTML = "";
@@ -611,16 +563,14 @@ function renderLinks() {
   });
 }
 
-// ── 차트 변동 배지 ────────────────────────────────────────
 function changeBadgeHtml(change) {
   if (!change) return "";
   if (change.kind === "new") return `<span class="chart-change new">NEW</span>`;
   if (change.kind === "up") return `<span class="chart-change up">▲ ${change.delta}</span>`;
   if (change.kind === "down") return `<span class="chart-change down">▼ ${change.delta}</span>`;
-  return ""; // 변동 없음(same)은 아무 표시도 안 함 - 매번 "-"가 뜨면 지저분해짐
+  return "";
 }
 
-// ── 팬 반응 렌더링 ───────────────────────────────────────────
 function renderReactions() {
   const container = document.getElementById("reactionsContent");
   container.innerHTML = "";
@@ -631,7 +581,6 @@ function renderReactions() {
     return;
   }
 
-  // 정렬 토글 (좋아요순 기본 / 최신순)
   const sortBar = document.createElement("div");
   sortBar.className = "reaction-sort-bar";
   sortBar.innerHTML = `
@@ -673,7 +622,6 @@ function renderReactions() {
   container.appendChild(list);
 }
 
-// ── 차트 렌더링 ───────────────────────────────────────────
 function chartRowsHtml(songs) {
   if (songs.length === 0) {
     return `<div class="chart-empty">현재 차트에 리센느 곡이 없습니다.</div>`;
@@ -690,16 +638,13 @@ function chartRowsHtml(songs) {
     .join("");
 }
 
-// ── 곡별 종합 테이블용 데이터 피벗 ───────────────────────────
 function buildSongChartRows() {
-  const songMap = {}; // 곡제목 -> { platformKey: {rank, change} }
+  const songMap = {};
 
-  // 1) 전체 곡 목록을 기준으로 행을 먼저 만들어둠 (차트에 없어도 "-"로 표시)
   (SITE_DATA.all_songs || []).forEach((title) => {
     songMap[title] = {};
   });
 
-  // 2) 실제 차트에 잡힌 곡은 순위 정보를 채워넣음 (목록에 없던 곡이면 새로 추가)
   CHART_TABLE_PLATFORMS.forEach(({ key }) => {
     const songs = (SITE_DATA.chart && SITE_DATA.chart[key]) || [];
     songs.forEach((s) => {
@@ -729,7 +674,6 @@ function renderChart() {
   const grid = document.getElementById("chartGrid");
   grid.innerHTML = "";
 
-  // 최근 조회 시각 (아무 플랫폼이나 하나 참고)
   let checkedAt = null;
   for (const { key } of CHART_TABLE_PLATFORMS) {
     const songs = (SITE_DATA.chart && SITE_DATA.chart[key]) || [];
@@ -774,7 +718,6 @@ function renderChart() {
   `;
   grid.appendChild(tableWrap);
 
-  // ── 해외(미국·일본) 보조 섹션 ───────────────────────────
   const intlTitle = document.createElement("section");
   intlTitle.className = "block-title";
   intlTitle.textContent = "해외 차트 (US·JP)";
@@ -808,7 +751,6 @@ function renderChart() {
   grid.appendChild(intlGrid);
 }
 
-// ── 기념일 D-day 렌더링 ───────────────────────────────────
 function renderAnniversaries() {
   const grid = document.getElementById("anniversaryGrid");
   if (!grid) return;
@@ -833,39 +775,71 @@ function renderAnniversaries() {
   });
 }
 
-// ── 트로피 렌더링 ─────────────────────────────────────────
 function renderTrophies() {
   const container = document.getElementById("trophiesContent");
   container.innerHTML = "";
 
   const trophies = SITE_DATA.trophies || [];
-  if (trophies.length === 0) {
-    container.innerHTML = `<div class="empty-state">아직 감지된 1위 수상 기록이 없습니다.</div>`;
+  const awards = SITE_DATA.awards || [];
+
+  if (trophies.length === 0 && awards.length === 0) {
+    container.innerHTML = `<div class="empty-state">아직 감지된 수상 기록이 없습니다.</div>`;
     return;
   }
 
-  trophies.forEach((t) => {
-    const row = document.createElement("a");
-    row.className = "card trophy-row";
-    row.href = t.source_link;
-    row.target = "_blank";
-    row.rel = "noopener noreferrer";
-    row.style.textDecoration = "none";
-    row.style.color = "inherit";
-    row.innerHTML = `
-      <span class="trophy-icon">🏆</span>
-      <div style="flex:1;">
-        <div class="trophy-show">${escapeHtml(t.show)}${t.song ? ` · ${escapeHtml(t.song)}` : ""}</div>
-        <div class="trophy-title">${escapeHtml(t.title)}</div>
-      </div>
-      <div class="trophy-date">${t.date}</div>
-    `;
-    container.appendChild(row);
-  });
+  if (trophies.length > 0) {
+    const trophyTitle = document.createElement("section");
+    trophyTitle.className = "block-title";
+    trophyTitle.textContent = "음악방송 1위";
+    container.appendChild(trophyTitle);
+
+    trophies.forEach((t) => {
+      const row = document.createElement("a");
+      row.className = "card trophy-row";
+      row.href = t.source_link;
+      row.target = "_blank";
+      row.rel = "noopener noreferrer";
+      row.style.textDecoration = "none";
+      row.style.color = "inherit";
+      row.innerHTML = `
+        <span class="trophy-icon">🏆</span>
+        <div style="flex:1;">
+          <div class="trophy-show">${escapeHtml(t.show)}${t.song ? ` · ${escapeHtml(t.song)}` : ""}</div>
+          <div class="trophy-title">${escapeHtml(t.title)}</div>
+        </div>
+        <div class="trophy-date">${t.date}</div>
+      `;
+      container.appendChild(row);
+    });
+  }
+
+  if (awards.length > 0) {
+    const awardTitle = document.createElement("section");
+    awardTitle.className = "block-title";
+    awardTitle.textContent = "시상식 수상";
+    container.appendChild(awardTitle);
+
+    awards.forEach((a) => {
+      const row = document.createElement("a");
+      row.className = "card trophy-row";
+      row.href = a.source_link;
+      row.target = "_blank";
+      row.rel = "noopener noreferrer";
+      row.style.textDecoration = "none";
+      row.style.color = "inherit";
+      row.innerHTML = `
+        <span class="trophy-icon">🏅</span>
+        <div style="flex:1;">
+          <div class="trophy-show">${escapeHtml(a.ceremony)}${a.award_name ? ` · ${escapeHtml(a.award_name)}` : ""}</div>
+          <div class="trophy-title">${escapeHtml(a.title)}</div>
+        </div>
+        <div class="trophy-date">${a.date}</div>
+      `;
+      container.appendChild(row);
+    });
+  }
 }
 
-// ── 포토카드 발매 기록 렌더링 ─────────────────────────────
-// ── 통계 대시보드 렌더링 ─────────────────────────────────────
 function renderStats() {
   const container = document.getElementById("statsContent");
   if (!container) return;
@@ -883,7 +857,6 @@ function renderStats() {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  // ── 이번 주 / 이번 달 요약 ────────────────────────────
   const weekAgo = new Date(today);
   weekAgo.setDate(weekAgo.getDate() - 7);
   const monthAgo = new Date(today);
@@ -920,7 +893,6 @@ function renderStats() {
   `;
   container.appendChild(summaryCard);
 
-  // ── 최근 7일 카테고리 분포 ────────────────────────────
   if (weekItems.length > 0) {
     const catTitle = document.createElement("section");
     catTitle.className = "block-title";
@@ -949,7 +921,6 @@ function renderStats() {
     container.appendChild(catCard);
   }
 
-  // ── 월별 소식 수 추이(최근 12개월) ───────────────────────
   const monthTitle = document.createElement("section");
   monthTitle.className = "block-title";
   monthTitle.textContent = "월별 소식 수 추이 (최근 12개월)";
@@ -957,7 +928,7 @@ function renderStats() {
 
   const monthCounts = {};
   allItems.forEach((i) => {
-    const monthKey = i.date.slice(0, 7); // YYYY-MM
+    const monthKey = i.date.slice(0, 7);
     monthCounts[monthKey] = (monthCounts[monthKey] || 0) + 1;
   });
 
@@ -991,7 +962,6 @@ function renderStats() {
   `;
   container.appendChild(monthCard);
 
-  // ── 트로피 누적 (방송별) ────────────────────────────
   const trophies = SITE_DATA.trophies || [];
   if (trophies.length > 0) {
     const trophyTitle = document.createElement("section");
@@ -1021,8 +991,6 @@ function renderStats() {
   }
 }
 
-// ── 사연쓰기 도우미 (자동 제출 아님, 초안만 만들어서 복사하는 용도) ────
-// 상황/분위기별 문구 후보 (다시 생성 누르면 이 중에서 무작위로 다시 뽑음)
 const LETTER_SITUATION_PHRASES = {
   commute: [
     "야근 끝나고 텅 빈 늦은 버스 타고 집 가는 길인데",
@@ -1076,23 +1044,17 @@ function buildLetterBody() {
   const moodClosing = _pickRandom(LETTER_MOOD_CLOSING[mood] || [""]);
 
   const lines = [];
-  // 1문장: 상황 + 분위기를 자연스럽게 이어붙인 서술 (예시 화면처럼 좀 더
-  // 길고 구체적인 느낌이 나도록)
   if (situationPhrase && moodClosing) {
     lines.push(`${situationPhrase}, ${moodClosing}.`);
   } else if (situationPhrase) {
     lines.push(situationPhrase + ".");
   }
   if (extra) lines.push(extra + ".");
-  // 2문장: 실제 신청 멘트
   lines.push(`지친 하루 끝에 리센느의 '${song}' 신청해 봅니다, 틀어주시면 감사하겠습니다!`);
 
   return lines.join(" ");
 }
 
-// djOverride를 넘기면 그 이름으로, 안 넘기면 직접 입력한 DJ 이름(비어있으면
-// 그냥 "안녕하세요!")으로 인사말을 만듦 - 채널마다 지금 시각 DJ가 다를 수
-// 있어서, 채널 버튼 만들 때 채널별로 다시 계산해서 씀
 function buildLetterText(djOverride) {
   const manualDj = document.getElementById("letterDjName").value.trim();
   const djName = djOverride || manualDj;
@@ -1100,8 +1062,6 @@ function buildLetterText(djOverride) {
   return [opener, buildLetterBody()].filter(Boolean).join(" ");
 }
 
-// 채널의 편성표(RADIO_SCHEDULE)에서 "지금 이 시각"에 해당하는 DJ를 찾음.
-// 편성표가 없거나 지금 시간대가 표에 없으면 null (수동 입력 DJ로 대체됨).
 function _getCurrentDjForChannel(smsNumber) {
   const schedule = (SITE_DATA.radio_schedule || {})[smsNumber];
   if (!schedule || schedule.length === 0) return null;
@@ -1135,7 +1095,6 @@ function initLetterForm() {
     songSelect.appendChild(opt);
   });
 
-  // 모드 전환(선택해서 만들기 / 직접 입력)
   document.querySelectorAll("[data-letter-mode]").forEach((btn) => {
     btn.addEventListener("click", () => {
       document.querySelectorAll("[data-letter-mode]").forEach((b) => b.classList.remove("active"));
@@ -1168,8 +1127,6 @@ function initLetterForm() {
   });
 }
 
-// 채널을 누르면 문자 앱이 "번호+내용 미리 채워진 채로" 열림 (sms: 링크는
-// 메일 앱 여는 mailto: 링크와 같은 원리 - 실제 전송은 사용자가 직접 눌러야 함)
 function renderLetterRadioGrid() {
   const grid = document.getElementById("letterRadioGrid");
   if (!grid) return;
@@ -1217,7 +1174,6 @@ function renderPhotocards() {
   });
 }
 
-// ── 스케줄 렌더링 ─────────────────────────────────────────
 function dDayLabel(dateStr) {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
@@ -1271,14 +1227,12 @@ function scheduleRow(s) {
   return row;
 }
 
-// ── 유틸 ──────────────────────────────────────────────────
 function escapeHtml(str) {
   const div = document.createElement("div");
   div.textContent = str == null ? "" : String(str);
   return div.innerHTML;
 }
 
-// ── 새로고침 버튼 (로컬 실행 시에만 동작) ───────────────────
 const refreshBtn = document.getElementById("refreshBtn");
 if (refreshBtn) {
   refreshBtn.addEventListener("click", async () => {
@@ -1306,10 +1260,7 @@ if (refreshBtn) {
   });
 }
 
-// ── 자동 새로고침 감지 ───────────────────────────────────────
-// 방문자가 페이지를 계속 켜두고 있어도, 새 데이터가 서버(GitHub Pages)에
-// 올라오면 몇 분 안에 자동으로 알아채서 새로고침합니다 (수동 새로고침 불필요).
-const AUTO_REFRESH_CHECK_INTERVAL_MS = 2 * 60 * 1000; // 2분마다 확인
+const AUTO_REFRESH_CHECK_INTERVAL_MS = 2 * 60 * 1000;
 
 function startAutoRefreshWatcher() {
   if (!SITE_DATA || !SITE_DATA.generated_at) return;
@@ -1324,13 +1275,10 @@ function startAutoRefreshWatcher() {
       if (m && m[1] !== loadedAt) {
         location.reload();
       }
-    } catch (e) {
-      // file:// 로컬 테스트 등 fetch가 안 되는 환경에서는 조용히 무시
-    }
+    } catch (e) {}
   }, AUTO_REFRESH_CHECK_INTERVAL_MS);
 }
 
-// ── 초기 렌더 ─────────────────────────────────────────────
 buildSourceChips();
 buildCategoryChips();
 buildYearChips();
