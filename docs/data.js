@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-19 20:26",
+  "generated_at": "2026-09-19 20:32",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -280515,14 +280515,6 @@ const SITE_DATA = {
       "title": "2026 THE FACT MUSIC AWARDS 올해의 아티스트 수상",
       "source_link": "",
       "is_manual": true
-    },
-    {
-      "date": "2026-09-19",
-      "ceremony": "TMA",
-      "award_name": "",
-      "title": "[2026 TMA] 리센느 '올해의 아티스트' 수상에 환한 미소 - 더팩트",
-      "source_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Scmc1c293U1A0OFd3MHZnN0E0RzZfam9ONlNrbFNoMVFpR1IteGh5R2Q1eHU3VXV4a2hHaEtDTm55NTNKaFpVRDFKUWRoTzQ5Mm1iNnVLT3FNc29jdUHSAVhBVV95cUxPMVd1Q0RYYUhtdS16cnVBNlNxUDgzY0lSN1BEMm93ZXFIanJfMU1TcjZhTFNsOUxCUmNpY2ZxblRKT18wNUpfRnlfTUNYRzI1YjRxY3dvc0Uw?oc=5",
-      "is_manual": false
     },
     {
       "date": "2026-09-06",
