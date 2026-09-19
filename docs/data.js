@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-19 23:33",
+  "generated_at": "2026-09-20 00:33",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -280105,43 +280105,33 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-19 19:29",
+        "checked_at": "2026-09-20 00:33",
         "change": {
-          "kind": "down",
-          "delta": 1
+          "kind": "same"
         }
       },
       {
         "rank": 6,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-19 19:29",
+        "checked_at": "2026-09-20 00:33",
         "change": {
-          "kind": "up",
-          "delta": 4
+          "kind": "same"
         }
       },
       {
         "rank": 7,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-19 19:29",
+        "checked_at": "2026-09-20 00:33",
         "change": {
-          "kind": "new"
+          "kind": "same"
         }
       }
     ]
   },
   "schedule": {
     "upcoming": [
-      {
-        "date": "2026-09-19",
-        "type": "기타",
-        "title": "2026 더팩트 뮤직 어워즈(TMA) (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
       {
         "date": "2026-09-22",
         "type": "행사",
@@ -280170,6 +280160,62 @@ const SITE_DATA = {
         "date": "2026-09-30",
         "type": "행사",
         "title": "한경국립대학교 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-03",
+        "type": "공연",
+        "title": "2026 입크페스티벌 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-03",
+        "type": "기타",
+        "title": "공주 백제문화제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-09",
+        "type": "행사",
+        "title": "연수 능허대 문화 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-10",
+        "type": "행사",
+        "title": "2026 대전 동구동락 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-11",
+        "type": "기타",
+        "title": "🎉 HAPPY LIV DAY (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-11",
+        "type": "공연",
+        "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌) (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-17",
+        "type": "기타",
+        "title": "NOL FESTIVAL - 고양 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -280216,6 +280262,14 @@ const SITE_DATA = {
       }
     ],
     "past": [
+      {
+        "date": "2026-09-19",
+        "type": "기타",
+        "title": "2026 더팩트 뮤직 어워즈(TMA) (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-09-18",
         "type": "행사",
@@ -282190,42 +282244,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 188
+      "d_day": 187
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 248
+      "d_day": 247
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 71
+      "d_day": 70
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2026-10-11",
-      "d_day": 22
+      "d_day": 21
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2027-08-19",
-      "d_day": 334
+      "d_day": 333
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 69
+      "d_day": 68
     }
   ],
   "trophies": [
