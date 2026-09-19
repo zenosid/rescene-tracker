@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-19 19:29",
+  "generated_at": "2026-09-19 20:12",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,28 @@ const SITE_DATA = {
       "date": "2026-09-19",
       "date_display": "2026년 09월 19일",
       "items": [
+        {
+          "title": "[2026 TMA] 리센느 '올해의 아티스트' 수상에 환한 미소 - 더팩트",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Scmc1c293U1A0OFd3MHZnN0E0RzZfam9ONlNrbFNoMVFpR1IteGh5R2Q1eHU3VXV4a2hHaEtDTm55NTNKaFpVRDFKUWRoTzQ5Mm1iNnVLT3FNc29jdUHSAVhBVV95cUxPMVd1Q0RYYUhtdS16cnVBNlNxUDgzY0lSN1BEMm93ZXFIanJfMU1TcjZhTFNsOUxCUmNpY2ZxblRKT18wNUpfRnlfTUNYRzI1YjRxY3dvc0Uw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "19:52",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[2026 TMA] 리센느, '올해의 아티스트' 품었다…\"모든 순간 리마인과 함께\" - 더팩트",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9oMnI4akNzRkVvRTF6dWdjV0Zlckh5emRfamdycHEzbHVUOXB4SW1DWFpMaV9NQlFsTXUybVRfZEdTNVpoWXZKcll1M3FBWG9sR1BfOXcxMlVlcm1t0gFXQVVfeXFMTkNfNjdtOG13NHNQWUo4eUdUYVJWdzR3UFlMekxrdDJua1RaZEhIeDA4ekZ5TTVUQkZwcFJJdDl6eXJCeFZIWDlxWVNvcEpvU0pkcUR3YkhJ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "19:34",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
         {
           "title": "[포켓CU] 리센느 원이의 옥수수크림빵 4차 예약 성공! (1인 1개 제한 / ....",
           "link": "https://blog.naver.com/kimnsong1207/224416864094",
@@ -1627,6 +1649,28 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "11:21",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'2026 TMA' 부산서 첫 개최…리센느·임영웅→시상자 김수현까지 총출동 - news.sbs.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yOVBPVWNFT05EdnJ3MElzdU1FZzRGTVJCVXRVczMwb2RNLVZYN204UzJmdjZ1SXl3ei1mSzNJME1sSVdfeG5nWmJzWGpYQjVBeXB0LXNEUlZUbV9zTTY4UFY0VVIzTU5xRmc?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:32",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "김수현, 임영웅→리센느 만난다…‘2026 더팩트 뮤직 어워즈’ D-1 - 스포츠경향",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE55MU1GYTRTV1VHMldkMWY4S3NzVGhQLWlXQUo0Y3V4NFg5dmlXQ3ZhWE5EbEY2WGRYdHBibnFJTl9tYVE2ZWVVeXN0MWlIX2pBSlZRd3ZzczJvVDktX0HSAWNBVV95cUxPVWd1Y1NXUTZMZnR1OG5yc0o1ODlpQVBiTDN5TGEtVkVldjlicTFNbkY2ZzZTUk5Ea2ZSLWRWQlU1ZTVXcHRsdWZ3bFZvd1d4TVVycjdfYWxyZXNmdmFuNm9WMFk?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:30",
           "category": "기타",
           "members": [
             "전체"
@@ -280463,6 +280507,15 @@ const SITE_DATA = {
       "is_manual": true
     }
   ],
+  "awards": [
+    {
+      "date": "2026-09-19",
+      "ceremony": "TMA",
+      "award_name": "",
+      "title": "[2026 TMA] 리센느 '올해의 아티스트' 수상에 환한 미소 - 더팩트",
+      "source_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Scmc1c293U1A0OFd3MHZnN0E0RzZfam9ONlNrbFNoMVFpR1IteGh5R2Q1eHU3VXV4a2hHaEtDTm55NTNKaFpVRDFKUWRoTzQ5Mm1iNnVLT3FNc29jdUHSAVhBVV95cUxPMVd1Q0RYYUhtdS16cnVBNlNxUDgzY0lSN1BEMm93ZXFIanJfMU1TcjZhTFNsOUxCUmNpY2ZxblRKT18wNUpfRnlfTUNYRzI1YjRxY3dvc0Uw?oc=5"
+    }
+  ],
   "photocard_releases": [
     {
       "date": "2026-08-05",
@@ -280651,5 +280704,447 @@ const SITE_DATA = {
       "name": "FM",
       "sms_number": "1045"
     }
-  ]
+  ],
+  "radio_schedule": {
+    "8910": [
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "05:00",
+        "end": "07:00",
+        "dj": "허유원"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "07:00",
+        "end": "09:00",
+        "dj": "조정식"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "09:00",
+        "end": "11:00",
+        "dj": "이현우"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "11:00",
+        "end": "12:00",
+        "dj": "박명수"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "12:00",
+        "end": "14:00",
+        "dj": "폴킴"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "14:00",
+        "end": "16:00",
+        "dj": "가비"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "16:00",
+        "end": "18:00",
+        "dj": "윤정수, 남창희"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "18:00",
+        "end": "20:00",
+        "dj": "이금희"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "20:00",
+        "end": "22:00",
+        "dj": "효정"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat",
+          "sun"
+        ],
+        "start": "22:00",
+        "end": "24:00",
+        "dj": "한해"
+      }
+    ],
+    "8000": [
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "07:00",
+        "end": "09:00",
+        "dj": "테이"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "09:00",
+        "end": "11:00",
+        "dj": "윤상"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "11:00",
+        "end": "12:00",
+        "dj": "이문세"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "12:00",
+        "end": "14:00",
+        "dj": "김신영"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "14:00",
+        "end": "16:00",
+        "dj": "안영미"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "16:00",
+        "end": "18:00",
+        "dj": "이상순"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "18:00",
+        "end": "20:00",
+        "dj": "배철수"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "20:00",
+        "end": "22:00",
+        "dj": "김이나"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed"
+        ],
+        "start": "22:00",
+        "end": "24:00",
+        "dj": "친한친구 방송반"
+      },
+      {
+        "days": [
+          "thu",
+          "fri"
+        ],
+        "start": "22:00",
+        "end": "24:00",
+        "dj": "IDOL RADIO"
+      }
+    ],
+    "1077": [
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "07:00",
+        "end": "09:00",
+        "dj": "김영철"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "09:00",
+        "end": "11:00",
+        "dj": "봉태규"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "11:00",
+        "end": "12:00",
+        "dj": "박하선"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "12:00",
+        "end": "14:00",
+        "dj": "주현영"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "14:00",
+        "end": "16:00",
+        "dj": "정찬우, 김태균"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "16:00",
+        "end": "18:00",
+        "dj": "황제성"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "18:00",
+        "end": "20:00",
+        "dj": "박소현"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "20:00",
+        "end": "22:00",
+        "dj": "웬디"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "22:00",
+        "end": "23:00",
+        "dj": "배성재"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "23:00",
+        "end": "01:00",
+        "dj": "딘딘"
+      }
+    ],
+    "1035": [
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "09:00",
+        "end": "11:00",
+        "dj": "이숙영"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "12:00",
+        "end": "14:00",
+        "dj": "유민상"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "14:00",
+        "end": "16:00",
+        "dj": "정엽"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "18:00",
+        "end": "20:00",
+        "dj": "김창완"
+      },
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "start": "20:00",
+        "end": "22:00",
+        "dj": "김윤상"
+      }
+    ],
+    "1045": [
+      {
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat"
+        ],
+        "start": "22:00",
+        "end": "24:00",
+        "dj": "경청 DJ"
+      }
+    ]
+  }
 };
