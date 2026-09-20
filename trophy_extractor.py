@@ -138,11 +138,26 @@ _AWARD_CEREMONY_KEYWORDS = [
     "SKA", "SPOTV K-POP AWARDS", "SPOTV 케이팝 어워즈", "스포티비 케이팝 어워즈", "스포티비 K-POP 어워즈",
     "TMA", "더팩트 뮤직 어워즈", "THE FACT MUSIC AWARDS",
 ]
+# 같은 시상식이 기사마다 약어/한글/영문으로 다르게 표기되면 서로 다른
+# 시상식으로 인식돼서 중복 제거가 안 되는 문제가 있었음 - 정식 약어 하나로
+# 통일해서 저장(예: "더팩트 뮤직 어워즈"·"THE FACT MUSIC AWARDS"→"TMA")
+_CEREMONY_CANONICAL = {
+    "아시아 아티스트 어워즈": "AAA",
+    "멜론뮤직어워드": "MMA", "멜론 뮤직 어워드": "MMA",
+    "Golden Disc": "골든디스크",
+    "엠넷 아시안 뮤직 어워드": "MAMA",
+    "케이월드드림어워즈": "KWDA", "K-월드 드림 어워즈": "KWDA",
+    "K WORLD DREAM AWARDS": "KWDA", "K-WORLD DREAM AWARDS": "KWDA",
+    "SPOTV K-POP AWARDS": "SKA", "SPOTV 케이팝 어워즈": "SKA",
+    "스포티비 케이팝 어워즈": "SKA", "스포티비 K-POP 어워즈": "SKA",
+    "더팩트 뮤직 어워즈": "TMA", "THE FACT MUSIC AWARDS": "TMA",
+}
 _AWARD_TYPE_KEYWORDS = [
     "대상", "본상", "신인상", "인기상", "베스트", "뉴웨이브상",
     "핫트렌드상", "포토제닉상", "월드퍼포먼스상", "차세대",
     "앰버서더상", "앰버서더", "팬덤상", "팬상", "비주얼상", "비주얼 콘텐츠상",
     "올해의 아티스트", "라이징스타상", "한류특별상", "GLOBAL CONNECT",
+    "투데이스 초이스",
 ]
 _AWARD_WIN_INDICATORS = ["수상", "받았다", "받아", "차지", "영예", "거머쥐"]
 
@@ -162,7 +177,7 @@ def _is_our_group_or_member(title):
 def _match_award_ceremony(title):
     for ceremony in _AWARD_CEREMONY_KEYWORDS:
         if ceremony.lower() in title.lower():
-            return ceremony
+            return _CEREMONY_CANONICAL.get(ceremony, ceremony)
     return None
 
 
@@ -222,5 +237,15 @@ def extract_award_candidates(news_items):
                 "source_link": item["link"],
             }
         )
+
+    # 같은 날짜+같은 시상식에 대해 "상 이름 없이 시상식명만" 잡힌 후보와
+    # "구체적인 상 이름까지" 잡힌 후보가 둘 다 있으면, 상 이름 없는 쪽은
+    # 정보가 부족한 중복이니 제거 (예: "TMA 수상 쾌거" 기사 + "TMA 투데이스
+    # 초이스 수상" 기사가 같이 있으면 뒤엣것만 남김)
+    specific_keys = {(c["date"], c["ceremony"]) for c in candidates if c["award_name"]}
+    candidates = [
+        c for c in candidates
+        if c["award_name"] or (c["date"], c["ceremony"]) not in specific_keys
+    ]
 
     return candidates
