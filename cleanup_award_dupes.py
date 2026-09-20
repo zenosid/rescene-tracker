@@ -1,21 +1,23 @@
 # -*- coding: utf-8 -*-
 """
-1) 같은 시상식이 "TMA"/"더팩트 뮤직 어워즈" 등 표기만 다르게 저장돼서
-   중복으로 남아있는 것을 정식 표기로 통일합니다.
-2) 상 이름이 비어있는 항목 중, 같은 시상식+비슷한 날짜에 상 이름이 있는
-   더 구체적인 항목이 있으면 비어있는 쪽을 지웁니다.
+같은 시상식이 "TMA"/"더팩트 뮤직 어워즈" 등 표기만 다르게 저장돼서
+중복으로 남아있는 것을 정식 표기로 통일합니다.
+
+⚠️ 예전 버전에 있던 "상 이름 없는 항목 자동 삭제" 기능은 뺐습니다 - 한
+시상식에서 여러 상을 동시에 받는 경우가 실제로 있어서(예: 같은 날 '올해의
+아티스트'와 '투데이스 초이스'를 둘 다 수상), 그 로직이 서로 다른 진짜
+수상 기록을 중복으로 착각해서 지워버리는 사고가 있었습니다. 표기 통일만
+안전하게 하고, 나머지 중복 방지는 trophy_extractor.py의 추출 시점 로직에
+맡깁니다 (한 번의 추출 작업 안에서 완전히 같은 정보일 때만 병합함).
 
 실행: python cleanup_award_dupes.py
 """
-from datetime import date as _date_cls
-
 from db import init_db, get_conn
 from trophy_extractor import _CEREMONY_CANONICAL
 
 with get_conn() as conn:
     init_db()
 
-    # 1) 표기 통일
     rows = conn.execute("SELECT id, ceremony FROM awards").fetchall()
     renamed = 0
     for r in rows:
@@ -23,36 +25,8 @@ with get_conn() as conn:
         if canonical and canonical != r["ceremony"]:
             conn.execute("UPDATE awards SET ceremony = ? WHERE id = ?", (canonical, r["id"]))
             renamed += 1
+
     if renamed:
         print(f"표기 통일: {renamed}건 (예: '더팩트 뮤직 어워즈' → 'TMA')")
-
-    # 2) 상 이름 없는 중복 제거
-    all_rows = conn.execute("SELECT id, date, ceremony, award_name, title FROM awards").fetchall()
-    specific = [r for r in all_rows if r["award_name"]]
-    empty = [r for r in all_rows if not r["award_name"]]
-
-    to_delete = []
-    for e in empty:
-        try:
-            e_date = _date_cls.fromisoformat(e["date"])
-        except ValueError:
-            continue
-        for s in specific:
-            if s["ceremony"] != e["ceremony"]:
-                continue
-            try:
-                s_date = _date_cls.fromisoformat(s["date"])
-            except ValueError:
-                continue
-            if abs((e_date - s_date).days) <= 3:
-                to_delete.append(e)
-                break
-
-    if to_delete:
-        print(f"\n상 이름 없는 중복 삭제 대상 {len(to_delete)}건:")
-        for r in to_delete:
-            print(f"  - {r['date']} {r['ceremony']} - {r['title'][:50]}")
-        conn.executemany("DELETE FROM awards WHERE id = ?", [(r["id"],) for r in to_delete])
-        print(f"{len(to_delete)}건 삭제 완료")
     else:
-        print("\n상 이름 없는 중복이 없습니다.")
+        print("표기 통일할 항목이 없습니다.")

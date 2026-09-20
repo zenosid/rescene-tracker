@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-20 20:51",
+  "generated_at": "2026-09-20 20:53",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,28 @@ const SITE_DATA = {
       "date": "2026-09-20",
       "date_display": "2026년 09월 20일",
       "items": [
+        {
+          "title": "리센느, '2026 TMA' 2관왕 쾌거 - iMBC 연예",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oOTl1VDAteTZxWVRCT2xUVUl4OWxpWHlqVXdhd09xOERiV01DemI4QVNCUnFLdzhZTlRUeEpwbUxVZXcwUElySkUySHg0OWc5VkQ0Z1FnOEJvSVNjRkhqYg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "20:02",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘짠돌이’ 유영우, 하루 1만원도 안 쓰는데…리센느 원이 위해 지갑 열었다 (전참시) - m.mksports.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6a1NNYXN1VmljekhRdlR2X2NZS3RnLUZkWFBsaGNYSEpfSHpJdUdZbHhjYmFJc2drZEE4WWxleEFKdEtRZVVPbklxU1pLbW5CdDB1dnc0dzZzZUFLVTZkR01PTWQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "18:29",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
         {
           "title": "\"팔아야 사지\"…리센느빵, 없어서 못산다 '이것도 사주마 협회' 소행....",
           "link": "https://blog.naver.com/self_brain/224417531749",
@@ -5984,6 +6006,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "260918 리센느 Full Ver. 4K 직캠 @인하대 축제",
+          "link": "https://www.youtube.com/watch?v=GguYVTydMG8",
+          "source_type": "youtube_collab",
+          "source_name": "IDM CAM",
+          "time": "20:53",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "그 시절, 우리가 좋아했던 소녀들 | 리센느닷없이 EP.03 | RESCENE (리센느) https://t.co/oqWNIXE1ls @YouTu",
           "link": "https://x.com/tossi_t3/status/2101277644826530034",
           "source_type": "x",
@@ -7643,6 +7676,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "리센느(RESCENE) '러브어택'으로 대학 축제까지 섭렵",
+          "link": "https://www.youtube.com/watch?v=Sbj2mabeHP4",
+          "source_type": "youtube_collab",
+          "source_name": "뉴스1 연예TV",
+          "time": "20:53",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "리센느, 11월 3일 컴백 …‘러브 어택’ 역주행 신화 잇는다 - 스포츠동아",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vT3RNY29NbUFDd1BtdHJ3elZZN3lVeUhvWGZCMmZROWxLZEhsVTFBOEdLN1JVRUx4MkNjLTk5YlBwTndFQmF0a3JkRXUybmZIX0xGRmxWR0V0MHNSZHVfWk1ZbXhIc25qUTRZa2xB?oc=5",
           "source_type": "news",
@@ -8180,6 +8224,17 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
+          ]
+        },
+        {
+          "title": "감스트 리센느분들 죄송합니다..",
+          "link": "https://www.youtube.com/watch?v=U33Ol7gf83s",
+          "source_type": "youtube_collab",
+          "source_name": "감스트GAMST",
+          "time": "20:53",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
           ]
         },
         {
@@ -286805,6 +286860,14 @@ const SITE_DATA = {
     }
   ],
   "awards": [
+    {
+      "date": "2026-09-20",
+      "ceremony": "TMA",
+      "award_name": "투데이스 초이스",
+      "title": "리센느, ‘2026 TMA’ 2관왕…‘올해의 아티스트’·‘투데이스 초이스’ 수상 - frame-less.co.kr",
+      "source_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MMERoVjMwejAxdzhkQlczVGhDdkRYaVdta2MzamQ1Z3FIY3lzTnhZQVJIMTJsMU5uQVZQTFA5cjRjai1PRUQ1UHZ1eTZ3aDZQcmZmTngzNG5hMVNGbUlCMUhiUFJxZzdTZlFCVVJn?oc=5",
+      "is_manual": false
+    },
     {
       "date": "2026-09-19",
       "ceremony": "TMA",
