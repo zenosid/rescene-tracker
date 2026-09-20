@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-20 19:51",
+  "generated_at": "2026-09-20 20:51",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -286806,44 +286806,12 @@ const SITE_DATA = {
   ],
   "awards": [
     {
-      "date": "2026-09-20",
-      "ceremony": "더팩트 뮤직 어워즈",
-      "award_name": "",
-      "title": "리센느, ‘2026 더팩트 뮤직 어워즈’ 수상 쾌거...끝없는 상승세 - 싱글리스트",
-      "source_link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE90NDFQOFdhT1U1cWJONDl5a0paQkdZVWRjcWNfM3dmX3RUMlRORGdmMk1TRklqS3JFWHB4S2pOSEtFWHgyZW5rZjZyS3lrTzNETTBQOVY2UGVRSm9lMzZFZHItVmQtZw?oc=5",
-      "is_manual": false
-    },
-    {
-      "date": "2026-09-20",
-      "ceremony": "더팩트 뮤직 어워즈",
-      "award_name": "",
-      "title": "리센느, ‘2026 더팩트 뮤직 어워즈’ 수상 쾌거 - bntnews.co.kr",
-      "source_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ISEU2SlB2VktZQTk2eGFIMTE2bEUzYmg1ay1pejZONUJwdXAxMHRtdGlnZ183Z1gyRDExVmE5ZF9BZ1RuNUI5WmFIaUJFTlJOdUo5UXA2UWZScm5JNGNyeUhDYW8?oc=5",
-      "is_manual": false
-    },
-    {
       "date": "2026-09-19",
       "ceremony": "TMA",
       "award_name": "올해의 아티스트",
       "title": "2026 THE FACT MUSIC AWARDS 올해의 아티스트 수상",
       "source_link": "",
       "is_manual": true
-    },
-    {
-      "date": "2026-09-19",
-      "ceremony": "TMA",
-      "award_name": "",
-      "title": "[2026 TMA] 투데이스 초이스 수상한 리센느",
-      "source_link": "https://news.tf.co.kr/read/photomovie/2367964.htm",
-      "is_manual": false
-    },
-    {
-      "date": "2026-09-19",
-      "ceremony": "TMA",
-      "award_name": "",
-      "title": "[2026 TMA] \"대기실서 라면 먹다가\" 리센느, '투데이스 초이스' 깜짝 수상 - 더팩트",
-      "source_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE85NF9Oc0l2YXRCaEZ2c1pfX1hLVWdMVGc4MVVvVXNBS2puRW42RXBhTUp6SmJhc2U4M1VYbWM4RThZTzBvNWYybGFhenNLUUFrVDhXWVNCV0hqV2RN0gFXQVVfeXFMT0l1RldlRFltVFJEWnhNRE1vTVJRSW1lRFFCZ3RVS0s4cmNnYk5kSDY4VUcxMmlqSEZCQmNNcXFqdW1WSkk1c1l5WG1VNmdqMHBzOEhkT044?oc=5",
-      "is_manual": false
     },
     {
       "date": "2026-09-06",
