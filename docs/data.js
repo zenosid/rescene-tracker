@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-22 05:03",
+  "generated_at": "2026-09-22 06:48",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -291946,16 +291946,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-21 21:17",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 7,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-21 21:17",
+        "checked_at": "2026-09-22 06:48",
         "change": {
           "kind": "same"
         }
@@ -291983,7 +291974,23 @@ const SITE_DATA = {
       {
         "date": "2026-09-29",
         "type": "행사",
+        "title": "경희대학교 국제캠퍼스 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-29",
+        "type": "행사",
         "title": "한양대학교 ERICA 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-09-30",
+        "type": "행사",
+        "title": "을지대학교 축제 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
