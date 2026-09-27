@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-09-28 00:43",
+  "generated_at": "2026-09-28 01:36",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -320389,27 +320389,29 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-27 20:37",
+        "checked_at": "2026-09-28 01:36",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 6,
+        "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-27 20:37",
+        "checked_at": "2026-09-28 01:36",
         "change": {
-          "kind": "new"
+          "kind": "down",
+          "delta": 1
         }
       },
       {
-        "rank": 8,
+        "rank": 10,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-09-27 20:37",
+        "checked_at": "2026-09-28 01:36",
         "change": {
-          "kind": "new"
+          "kind": "down",
+          "delta": 2
         }
       }
     ]
@@ -320444,6 +320446,22 @@ const SITE_DATA = {
         "date": "2026-09-30",
         "type": "행사",
         "title": "한경국립대학교 축제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-01",
+        "type": "행사",
+        "title": "계명대학교 축제 (11:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-01",
+        "type": "행사",
+        "title": "대구보건대학교 축제 (12:30 PM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
