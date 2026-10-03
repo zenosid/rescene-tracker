@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-03 16:13",
+  "generated_at": "2026-10-03 20:16",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -342449,27 +342449,29 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-03 13:18",
+        "checked_at": "2026-10-03 20:16",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 8,
+        "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-03 13:18",
+        "checked_at": "2026-10-03 20:16",
         "change": {
-          "kind": "new"
+          "kind": "up",
+          "delta": 1
         }
       },
       {
-        "rank": 9,
+        "rank": 8,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-03 13:18",
+        "checked_at": "2026-10-03 20:16",
         "change": {
-          "kind": "new"
+          "kind": "up",
+          "delta": 1
         }
       }
     ]
@@ -342479,7 +342481,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-03",
         "type": "공연",
-        "title": "2026 입크페스티벌 (All Day)",
+        "title": "2026 입크 페스티벌 (06:50 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -342487,7 +342489,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-03",
         "type": "기타",
-        "title": "공주 백제문화제 (All Day)",
+        "title": "제72회 백제문화제 (11:30 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -342495,7 +342497,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-04",
         "type": "공연",
-        "title": "2026 의령 리치리치 페스티벌 (All Day)",
+        "title": "제5회 의령 리치리치 페스티벌 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -342565,6 +342567,14 @@ const SITE_DATA = {
         "mention_count": 1
       },
       {
+        "date": "2026-11-03",
+        "type": "발매",
+        "title": "The 4th Mini Album [PULSE] (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
         "date": "2026-11-07",
         "type": "기타",
         "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈) (All Day)",
@@ -342607,9 +342617,9 @@ const SITE_DATA = {
     ],
     "past": [
       {
-        "date": "2026-10-01",
-        "type": "행사",
-        "title": "계명대학교 축제 (All Day)",
+        "date": "2026-10-02",
+        "type": "방송",
+        "title": "SBS <무엇이든 해줄지니 - 비서진> (02:10 PM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -342617,7 +342627,15 @@ const SITE_DATA = {
       {
         "date": "2026-10-01",
         "type": "행사",
-        "title": "대구보건대학교 축제 (All Day)",
+        "title": "계명대학교 축제 (11:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-01",
+        "type": "행사",
+        "title": "대구보건대학교 축제 (01:10 PM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
