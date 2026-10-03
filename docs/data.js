@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-04 04:34",
+  "generated_at": "2026-10-04 05:43",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -344341,27 +344341,19 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-04 00:53",
+        "checked_at": "2026-10-04 05:43",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 7,
+        "rank": 9,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-04 00:53",
+        "checked_at": "2026-10-04 05:43",
         "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 8,
-        "song_title": "Pretty Girl",
-        "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-04 00:53",
-        "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 2
         }
       }
     ]
@@ -344371,7 +344363,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-04",
         "type": "공연",
-        "title": "제5회 의령 리치리치 페스티벌 (All Day)",
+        "title": "2026 의령 리치리치페스티벌 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -344379,7 +344371,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-09",
         "type": "행사",
-        "title": "연수 능허대 문화 축제 (All Day)",
+        "title": "제14회 연수 능허대 문화축제 (11:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -344387,7 +344379,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-10",
         "type": "행사",
-        "title": "2026 대전 동구동락 축제 (All Day)",
+        "title": "2026 대전 동구동락 축제 (11:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -344403,7 +344395,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-11",
         "type": "공연",
-        "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌) (All Day)",
+        "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌) (07:10 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -344435,7 +344427,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-31",
         "type": "기타",
-        "title": "APEC 정상회의장 기념관 개관식 (All Day)",
+        "title": "경주 APEC 정상회의장 기념관 개관식 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
