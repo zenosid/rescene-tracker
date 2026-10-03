@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-03 21:39",
+  "generated_at": "2026-10-04 00:53",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -343301,7 +343301,7 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-03 20:16",
+        "checked_at": "2026-10-04 00:53",
         "change": {
           "kind": "same"
         }
@@ -343310,42 +343310,24 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-03 20:16",
+        "checked_at": "2026-10-04 00:53",
         "change": {
-          "kind": "up",
-          "delta": 1
+          "kind": "same"
         }
       },
       {
         "rank": 8,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-03 20:16",
+        "checked_at": "2026-10-04 00:53",
         "change": {
-          "kind": "up",
-          "delta": 1
+          "kind": "same"
         }
       }
     ]
   },
   "schedule": {
     "upcoming": [
-      {
-        "date": "2026-10-03",
-        "type": "공연",
-        "title": "2026 입크 페스티벌 (06:50 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-10-03",
-        "type": "기타",
-        "title": "제72회 백제문화제 (11:30 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
       {
         "date": "2026-10-04",
         "type": "공연",
@@ -343468,6 +343450,22 @@ const SITE_DATA = {
       }
     ],
     "past": [
+      {
+        "date": "2026-10-03",
+        "type": "공연",
+        "title": "2026 입크 페스티벌 (06:50 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-03",
+        "type": "기타",
+        "title": "제72회 백제문화제 (11:30 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-10-02",
         "type": "방송",
@@ -345522,42 +345520,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 174
+      "d_day": 173
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 234
+      "d_day": 233
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 57
+      "d_day": 56
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2026-10-11",
-      "d_day": 8
+      "d_day": 7
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2027-08-19",
-      "d_day": 320
+      "d_day": 319
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 55
+      "d_day": 54
     }
   ],
   "trophies": [
