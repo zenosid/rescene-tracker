@@ -124,6 +124,12 @@ def init_db():
         cols = [row["name"] for row in conn.execute("PRAGMA table_info(trophies)").fetchall()]
         if "song" not in cols:
             conn.execute("ALTER TABLE trophies ADD COLUMN song TEXT")
+        # 콜라보·팝업: 뉴스 여부와 인스타그램 링크 컬럼 (이미 만들어진 DB에도 추가)
+        ev_cols = [row["name"] for row in conn.execute("PRAGMA table_info(event_mentions)").fetchall()]
+        if "is_news" not in ev_cols:
+            conn.execute("ALTER TABLE event_mentions ADD COLUMN is_news INTEGER DEFAULT 1")
+        if "ig_link" not in ev_cols:
+            conn.execute("ALTER TABLE event_mentions ADD COLUMN ig_link TEXT")
 
 
 # ── 아카이브(items) ──────────────────────────────────────────
@@ -347,12 +353,14 @@ def get_recent_awards(conn, limit=100):
 
 
 # ── 콜라보·팝업 소식(원본 언급 기록. 묶기는 화면 데이터 생성 시에만 함) ──
-def insert_event_mention(conn, kind, brand, title, link, source_name, published_at, period_text):
+def insert_event_mention(conn, kind, brand, title, link, source_name, published_at,
+                         period_text, is_news=1, ig_link=None):
     cur = conn.execute(
         """INSERT OR IGNORE INTO event_mentions
-           (kind, brand, title, link, source_name, published_at, period_text)
-           VALUES (?, ?, ?, ?, ?, ?, ?)""",
-        (kind, brand, title, link, source_name, published_at, period_text),
+           (kind, brand, title, link, source_name, published_at, period_text, is_news, ig_link)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+        (kind, brand, title, link, source_name, published_at, period_text,
+         1 if is_news else 0, ig_link),
     )
     return cur.rowcount > 0
 

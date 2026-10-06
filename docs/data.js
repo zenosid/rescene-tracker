@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-06 23:43",
+  "generated_at": "2026-10-06 23:50",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -355123,23 +355123,6 @@ const SITE_DATA = {
           "name": "네이버 블로그 · 안녕하세요파이리입니다잘부탁드립니다.",
           "link": "https://blog.naver.com/the8floor_blog/224404399467",
           "title": "더현대 서울 팝업 연 리센느, CU 리센느빵에 이어 나랑드 매출폭등, ...."
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-09-07",
-      "kind": "콜라보",
-      "brand": "",
-      "title": "[뷰티 트렌드] 네오팜 더마비, 올리브영X산리오캐릭터즈 협업 캠페인 참...",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.ibabynews.com/news/articleView.html?idxno=154305",
-          "title": "[뷰티 트렌드] 네오팜 더마비, 올리브영X산리오캐릭터즈 협업 캠페인 참..."
         }
       ],
       "source_count": 1

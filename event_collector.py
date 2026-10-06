@@ -22,8 +22,7 @@ import requests
 
 from config import EVENT_SEARCH_QUERIES, EVENT_X_QUERIES, EVENT_MAX_RESULTS
 from db import init_db, get_conn, insert_event_mention
-from event_extractor import detect_event
-from x_collector import _fetch_x_search
+from event_extractor import detect_event, extract_instagram_links
 
 _TAG_RE = re.compile(r"<[^>]+>")
 
@@ -53,7 +52,7 @@ def _parsed_time_to_iso(entry):
 GOOGLE_NEWS_RSS = "https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
 
 
-def _save(conn, title, link, source_name, published_at, snippet="", is_news=True):
+def _save(conn, title, link, source_name, published_at, snippet="", is_news=True, extra_text=""):
     ev = detect_event(title, snippet)
     if not ev or not link:
         return 0
@@ -61,8 +60,11 @@ def _save(conn, title, link, source_name, published_at, snippet="", is_news=True
     # 있을 때만 소식으로 인정 (뉴스는 브랜드 불명이어도 통과)
     if not is_news and not ev["brand"]:
         return 0
+    # 인스타그램 링크: X 게시물의 펼친 URL·본문, 블로그/카페 요약에서 찾음 (첫 번째만 보관)
+    igs = extract_instagram_links(f"{extra_text} {snippet} {title}")
     ok = insert_event_mention(
-        conn, ev["kind"], ev["brand"], title, link, source_name, published_at, ev["period_text"]
+        conn, ev["kind"], ev["brand"], title, link, source_name, published_at,
+        ev["period_text"], is_news, igs[0] if igs else None,
     )
     if ok:
         print(f"  [신규/{ev['kind']}] {source_name} - {title[:60]}")
@@ -118,6 +120,31 @@ def collect_naver(conn):
     return n
 
 
+def _fetch_x_with_urls(token, query, max_results):
+    """x_collector와 같은 검색이지만 entities(펼친 URL)까지 받아 인스타 링크를 찾을 수 있게 함."""
+    params = {
+        "query": f"{query} -is:retweet lang:ko",
+        "max_results": min(max(max_results, 10), 100),
+        "tweet.fields": "created_at,author_id,entities",
+        "expansions": "author_id",
+        "user.fields": "username",
+    }
+    r = requests.get("https://api.x.com/2/tweets/search/recent",
+                     headers={"Authorization": f"Bearer {token}"}, params=params, timeout=15)
+    if r.status_code != 200:
+        return [], f"HTTP {r.status_code} - {r.text[:200]}"
+    data = r.json()
+    users = {u["id"]: u["username"] for u in data.get("includes", {}).get("users", [])}
+    out = []
+    for t in data.get("data", []):
+        uname = users.get(t.get("author_id"), "unknown")
+        urls = " ".join(u.get("expanded_url") or u.get("unwound_url") or ""
+                        for u in (t.get("entities") or {}).get("urls", []))
+        out.append({"text": t.get("text", ""), "username": uname, "created_at": t.get("created_at", ""),
+                    "link": f"https://x.com/{uname}/status/{t['id']}", "urls": urls})
+    return out, None
+
+
 def collect_x_events(conn):
     token = os.environ.get("X_BEARER_TOKEN")
     if not token:
@@ -125,13 +152,13 @@ def collect_x_events(conn):
         return 0
     n = 0
     for q in EVENT_X_QUERIES:
-        tweets, err = _fetch_x_search(token, q, EVENT_MAX_RESULTS)
+        tweets, err = _fetch_x_with_urls(token, q, EVENT_MAX_RESULTS)
         if err:
             print(f"  [경고] X 검색 실패 ({q}): {err}")
             continue
         for t in tweets:
             title = t["text"][:100].replace("\n", " ")
-            n += _save(conn, title, t["link"], f"X · @{t['username']}", t["created_at"], t["text"][:300], False)
+            n += _save(conn, title, t["link"], f"X · @{t['username']}", t["created_at"], t["text"][:300], False, t["urls"])
     return n
 
 

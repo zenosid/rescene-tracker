@@ -429,7 +429,7 @@ EVENT_X_QUERIES = ["(리센느 OR RESCENE) (팝업 OR 콜라보 OR 팝업스토�
 EVENT_MAX_RESULTS = 20
 
 # 인스타그램 등 자동 수집이 안 되는 소식은 여기에 직접 등록합니다.
-# kind: "팝업" | "콜라보" | "광고·모델" | "굿즈"   (period/note/link는 선택)
+# kind: "팝업" | "콜라보"   (period_text/note/link는 선택)
 # date는 소식이 공개된 날짜(YYYY-MM-DD). 공식 계정 게시물 링크를 link에 넣어주세요.
 EVENT_ITEMS = [
     # {

@@ -848,7 +848,7 @@ function renderEvents() {
   if (!container || !chipRow) return;
   const events = SITE_DATA.events || [];
 
-  const kinds = ["전체", "팝업", "콜라보", "광고·모델", "굿즈"];
+  const kinds = ["전체", "팝업", "콜라보"];
   chipRow.innerHTML = "";
   kinds.forEach((k) => {
     const count = k === "전체" ? events.length : events.filter((e) => e.kind === k).length;
@@ -886,7 +886,7 @@ function renderEvents() {
     const sources = shown
       .map(
         (s) =>
-          `<a href="${escapeHtml(s.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.name)}</a>`
+          `<a href="${escapeHtml(s.link)}" target="_blank" rel="noopener noreferrer">${s.name === "Instagram" ? "📷 " : ""}${escapeHtml(s.name)}</a>`
       )
       .join("");
     card.innerHTML = `

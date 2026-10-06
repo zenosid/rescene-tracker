@@ -20,7 +20,7 @@ from db import (
     get_previous_ranks, get_recent_fan_reactions, get_recent_trophies, get_recent_awards,
     get_event_mentions,
 )
-from event_extractor import cluster_events, match_alias, _valid_brand
+from event_extractor import cluster_events, detect_event
 from chart_tracker import get_latest_all
 from classify import classify_members, classify_category
 from kst import now_kst, to_kst
@@ -290,15 +290,20 @@ def build_events():
     with get_conn() as conn:
         rows = get_event_mentions(conn)
     for r in rows:
+        # 저장된 분류값을 그대로 쓰지 않고 제목을 현재 규칙으로 다시 판정합니다.
+        # (규칙/브랜드 사전을 고치면 재수집 없이 바로 반영됨)
+        ev = detect_event(r["title"])
+        if not ev:
+            continue
+        is_news = bool(r["is_news"]) if r["is_news"] is not None else True
+        if not is_news and not ev["brand"]:
+            continue  # 뉴스가 아닌 글은 브랜드를 특정할 수 있을 때만
         mentions.append({
             "date": to_kst(r["published_at"]).strftime("%Y-%m-%d") if r["published_at"] else "",
-            # 별칭 사전은 수집 후에 추가해도 바로 적용되도록 빌드 때 다시 대조
-            "kind": r["kind"],
-            "brand": match_alias(r["title"]) or (
-                r["brand"] if r["brand"] and _valid_brand(r["brand"]) else ""),
-            "title": r["title"],
+            "kind": ev["kind"], "brand": ev["brand"], "title": r["title"],
             "link": r["link"], "source_name": r["source_name"],
-            "period_text": r["period_text"] or "", "is_manual": False,
+            "period_text": ev["period_text"] or r["period_text"] or "",
+            "ig_link": r["ig_link"], "is_manual": False,
         })
     mentions = [m for m in mentions if m["date"]]
     return cluster_events(mentions)
