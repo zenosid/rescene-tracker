@@ -91,6 +91,18 @@ CREATE TABLE IF NOT EXISTS awards (
     source_link TEXT NOT NULL UNIQUE,
     created_at TEXT DEFAULT (datetime('now'))
 );
+
+CREATE TABLE IF NOT EXISTS event_mentions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    kind TEXT NOT NULL,           -- 팝업 | 콜라보 | 광고·모델 | 굿즈
+    brand TEXT,                   -- 문장 패턴으로 추정한 브랜드(없을 수 있음)
+    title TEXT NOT NULL,
+    link TEXT NOT NULL UNIQUE,    -- 같은 글을 두 번 저장하지 않음
+    source_name TEXT NOT NULL,
+    published_at TEXT,
+    period_text TEXT,             -- 제목/요약에서 찾은 기간 문구(추정)
+    created_at TEXT DEFAULT (datetime('now'))
+);
 """
 
 
@@ -332,3 +344,18 @@ def get_recent_awards(conn, limit=100):
     return conn.execute(
         "SELECT * FROM awards ORDER BY date DESC LIMIT ?", (limit,)
     ).fetchall()
+
+
+# ── 콜라보·팝업 소식(원본 언급 기록. 묶기는 화면 데이터 생성 시에만 함) ──
+def insert_event_mention(conn, kind, brand, title, link, source_name, published_at, period_text):
+    cur = conn.execute(
+        """INSERT OR IGNORE INTO event_mentions
+           (kind, brand, title, link, source_name, published_at, period_text)
+           VALUES (?, ?, ?, ?, ?, ?, ?)""",
+        (kind, brand, title, link, source_name, published_at, period_text),
+    )
+    return cur.rowcount > 0
+
+
+def get_event_mentions(conn):
+    return conn.execute("SELECT * FROM event_mentions ORDER BY published_at DESC").fetchall()

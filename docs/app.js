@@ -840,6 +840,69 @@ function renderTrophies() {
   }
 }
 
+let eventKindFilter = "전체";
+
+function renderEvents() {
+  const container = document.getElementById("eventsContent");
+  const chipRow = document.getElementById("eventKindChips");
+  if (!container || !chipRow) return;
+  const events = SITE_DATA.events || [];
+
+  const kinds = ["전체", "팝업", "콜라보", "광고·모델", "굿즈"];
+  chipRow.innerHTML = "";
+  kinds.forEach((k) => {
+    const count = k === "전체" ? events.length : events.filter((e) => e.kind === k).length;
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "chip" + (k === eventKindFilter ? " on" : "");
+    btn.textContent = `${k} ${count}`;
+    btn.addEventListener("click", () => {
+      eventKindFilter = k;
+      renderEvents();
+    });
+    chipRow.appendChild(btn);
+  });
+
+  const list = events.filter((e) => eventKindFilter === "전체" || e.kind === eventKindFilter);
+  container.innerHTML = "";
+  if (list.length === 0) {
+    container.innerHTML = `<div class="empty-state">아직 감지된 소식이 없습니다. 수집은 6시간마다 실행됩니다.</div>`;
+    return;
+  }
+
+  list.forEach((e) => {
+    const card = document.createElement("div");
+    card.className = "card event-card";
+    const verified = e.is_manual
+      ? `<span class="event-badge confirmed">운영자 등록</span>`
+      : `<span class="event-badge est">자동 감지 · 추정</span>`;
+    const brand = e.brand ? ` · ${escapeHtml(e.brand)}${e.is_manual ? "" : " (추정)"}` : "";
+    const period = e.period_text
+      ? `<div class="event-meta">📆 ${escapeHtml(e.period_text)}${e.is_manual ? "" : " (제목 기준 추정)"}</div>`
+      : "";
+    const note = e.note ? `<div class="event-meta">${escapeHtml(e.note)}</div>` : "";
+    const shown = (e.sources || []).slice(0, 5);
+    const more = (e.sources || []).length - shown.length;
+    const sources = shown
+      .map(
+        (s) =>
+          `<a href="${escapeHtml(s.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.name)}</a>`
+      )
+      .join("");
+    card.innerHTML = `
+      <div class="event-head">
+        <span class="event-kind">${escapeHtml(e.kind)}</span>${verified}
+        <span class="event-badge">${escapeHtml(e.date)}</span>
+        ${e.source_count > 1 ? `<span class="event-badge">같은 소식 ${e.source_count}건 묶음</span>` : ""}
+      </div>
+      <div class="event-title">${escapeHtml(e.title)}${brand}</div>
+      ${period}${note}
+      <div class="event-sources">${sources}${more > 0 ? `<span class="event-badge">외 ${more}곳</span>` : ""}</div>
+    `;
+    container.appendChild(card);
+  });
+}
+
 function renderStats() {
   const container = document.getElementById("statsContent");
   if (!container) return;
@@ -1288,6 +1351,7 @@ renderChart();
 renderSchedule();
 renderAnniversaries();
 renderTrophies();
+renderEvents();
 renderPhotocards();
 renderStats();
 initLetterForm();

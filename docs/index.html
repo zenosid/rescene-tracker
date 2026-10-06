@@ -253,6 +253,7 @@
   .chip.on[data-chip="youtube_collab"] { background: var(--aurora-mint); }
   .chip.on[data-chip="news"] { background: var(--aurora-amber); }
   .chip.on[data-member] { background: var(--grad-primary); }
+  #eventKindChips .chip.on { background: var(--grad-primary); }
 
   /* SOURCE 전용: 단일 선택 탭 스타일 (여러 개 켜는 필터가 아니라 하나만 선택) */
   .source-tab {
@@ -483,6 +484,17 @@
   .trophy-icon { font-size: 22px; }
   .trophy-show { font-weight: 700; font-size: 13.5px; color: var(--aurora-amber); }
   .trophy-title { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+  .event-card { padding: 16px 18px; margin-bottom: 10px; }
+  .event-head { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 6px; }
+  .event-kind { font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 999px; background: var(--grad-primary); color: #0a0918; }
+  .event-badge { font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--card-border); color: var(--text-muted); }
+  .event-badge.confirmed { color: var(--aurora-mint); border-color: var(--aurora-mint); }
+  .event-badge.est { color: var(--aurora-amber); border-color: var(--aurora-amber); }
+  .event-title { font-size: 14.5px; font-weight: 600; color: var(--text-primary); }
+  .event-meta { font-size: 12.5px; color: var(--text-muted); margin-top: 4px; }
+  .event-sources { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .event-sources a { font-size: 11.5px; color: var(--aurora-cyan); text-decoration: none; border: 1px solid var(--card-border); border-radius: 8px; padding: 3px 8px; }
+  .event-sources a:hover { background: var(--card-hover); }
   .trophy-date { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-faint); margin-left: auto; white-space: nowrap; }
 
   /* ── 통계 대시보드 ────────────────────────────────────── */
@@ -773,6 +785,7 @@
     <button class="tab-btn" data-tab="chart">📊 차트</button>
     <button class="tab-btn" data-tab="schedule">📅 스케줄</button>
     <button class="tab-btn" data-tab="trophies">🏆 트로피</button>
+    <button class="tab-btn" data-tab="events">🛍️ 콜라보·팝업</button>
     <button class="tab-btn" data-tab="stats">📈 통계</button>
     <button class="tab-btn" data-tab="photocards">🎴 포토카드</button>
     <button class="tab-btn" data-tab="favorites">⭐ 즐겨찾기</button>
@@ -830,6 +843,19 @@
       </span>
     </div>
     <div id="trophiesContent"></div>
+  </div>
+
+  <!-- ══════════════ 콜라보·팝업 ══════════════ -->
+  <div class="view" id="view-events">
+    <div class="card" style="padding:14px 20px; margin-bottom:18px;">
+      <span style="font-size:12.5px; color:var(--text-muted);">
+        🛍️ 뉴스·블로그·카페·X에서 자동으로 찾은 콜라보/팝업/광고 소식입니다. 같은 소식은 하나로
+        묶고 출처를 모두 보여줍니다. 브랜드·기간은 제목에서 읽은 <b>추정</b>값이니 꼭 출처
+        링크에서 확인하세요. 인스타그램 소식은 자동 수집이 안 되어 운영자가 직접 등록합니다.
+      </span>
+    </div>
+    <div class="chip-row" id="eventKindChips" style="margin-bottom:18px;"></div>
+    <div id="eventsContent"></div>
   </div>
 
   <!-- ══════════════ 통계 ══════════════ -->

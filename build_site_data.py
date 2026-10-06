@@ -13,12 +13,14 @@ from datetime import datetime, date
 from config import (
     OPERATOR_CONTACT, REFRESH_INTERVAL_MINUTES, LINK_COLLECTIONS,
     RESCENE_ALL_SONGS, DEBUT_DATE, MEMBER_BIRTHDAYS, ARCHIVE_DISPLAY_LIMIT, TROPHY_ITEMS,
-    PHOTOCARD_RELEASES, RADIO_CHANNELS, RADIO_SCHEDULE, AWARD_ITEMS,
+    PHOTOCARD_RELEASES, RADIO_CHANNELS, RADIO_SCHEDULE, AWARD_ITEMS, EVENT_ITEMS,
 )
 from db import (
     init_db, get_conn, get_recent_items, get_official_schedule,
     get_previous_ranks, get_recent_fan_reactions, get_recent_trophies, get_recent_awards,
+    get_event_mentions,
 )
+from event_extractor import cluster_events, match_alias, _valid_brand
 from chart_tracker import get_latest_all
 from classify import classify_members, classify_category
 from kst import now_kst, to_kst
@@ -274,6 +276,34 @@ def build_awards():
     return all_items
 
 
+def build_events():
+    """콜라보·팝업. 수동 등록 + 자동 수집 언급을 같은 소식끼리 묶어서 보여줌 (원본은 삭제하지 않음)."""
+    mentions = []
+    for e in EVENT_ITEMS:
+        mentions.append({
+            "date": e["date"], "kind": e["kind"], "brand": e.get("brand", ""),
+            "title": e["title"], "link": e.get("link", ""),
+            "source_name": e.get("source_name", "수동 등록"),
+            "period_text": e.get("period_text", ""), "note": e.get("note", ""),
+            "is_manual": True,
+        })
+    with get_conn() as conn:
+        rows = get_event_mentions(conn)
+    for r in rows:
+        mentions.append({
+            "date": to_kst(r["published_at"]).strftime("%Y-%m-%d") if r["published_at"] else "",
+            # 별칭 사전은 수집 후에 추가해도 바로 적용되도록 빌드 때 다시 대조
+            "kind": r["kind"],
+            "brand": match_alias(r["title"]) or (
+                r["brand"] if r["brand"] and _valid_brand(r["brand"]) else ""),
+            "title": r["title"],
+            "link": r["link"], "source_name": r["source_name"],
+            "period_text": r["period_text"] or "", "is_manual": False,
+        })
+    mentions = [m for m in mentions if m["date"]]
+    return cluster_events(mentions)
+
+
 def build_fan_reactions():
     with get_conn() as conn:
         rows = get_recent_fan_reactions(conn, limit=150)
@@ -309,6 +339,7 @@ def main():
         "anniversaries": build_anniversaries(),
         "trophies": build_trophies(),
         "awards": build_awards(),
+        "events": build_events(),
         "photocard_releases": PHOTOCARD_RELEASES,
         "radio_channels": RADIO_CHANNELS,
         "radio_schedule": RADIO_SCHEDULE,
@@ -324,7 +355,8 @@ def main():
           f"팬반응 {len(data['fan_reactions'])}건, "
           f"포토카드 {len(data['photocard_releases'])}건, "
           f"트로피 {len(data['trophies'])}건, "
-          f"시상식 {len(data['awards'])}건")
+          f"시상식 {len(data['awards'])}건, "
+          f"콜라보·팝업 {len(data['events'])}건")
 
 
 if __name__ == "__main__":
