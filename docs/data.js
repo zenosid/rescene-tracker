@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-09 06:37",
+  "generated_at": "2026-10-09 08:03",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -360075,19 +360075,9 @@ const SITE_DATA = {
         "rank": 2,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-08 22:00",
+        "checked_at": "2026-10-09 08:03",
         "change": {
           "kind": "same"
-        }
-      },
-      {
-        "rank": 7,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-08 22:00",
-        "change": {
-          "kind": "down",
-          "delta": 1
         }
       }
     ]
@@ -360098,6 +360088,14 @@ const SITE_DATA = {
         "date": "2026-10-09",
         "type": "행사",
         "title": "제14회 연수 능허대 문화축제 (11:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-09",
+        "type": "방송",
+        "title": "KBS 2TV <해피투게더 - 혼자가 아니어서 좋아> (11:30 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
