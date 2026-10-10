@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-11 05:49",
+  "generated_at": "2026-10-11 06:18",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -366322,30 +366322,13 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 2,
+        "rank": 3,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-10 21:05",
+        "checked_at": "2026-10-11 06:18",
         "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 8,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-10 21:05",
-        "change": {
-          "kind": "new"
-        }
-      },
-      {
-        "rank": 10,
-        "song_title": "Pretty Girl",
-        "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-10 21:05",
-        "change": {
-          "kind": "new"
+          "kind": "down",
+          "delta": 1
         }
       }
     ]
