@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-13 18:35",
+  "generated_at": "2026-10-13 22:46",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -375848,13 +375848,13 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 9,
+        "rank": 8,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-13 09:17",
+        "checked_at": "2026-10-13 22:46",
         "change": {
-          "kind": "down",
-          "delta": 6
+          "kind": "up",
+          "delta": 1
         }
       }
     ]
