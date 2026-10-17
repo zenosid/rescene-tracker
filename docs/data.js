@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-17 21:33",
+  "generated_at": "2026-10-18 00:10",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -387621,12 +387621,12 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 6,
+        "rank": 9,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-17 19:18",
+        "checked_at": "2026-10-18 00:10",
         "change": {
-          "kind": "up",
+          "kind": "down",
           "delta": 3
         }
       }
@@ -387634,14 +387634,6 @@ const SITE_DATA = {
   },
   "schedule": {
     "upcoming": [
-      {
-        "date": "2026-10-17",
-        "type": "기타",
-        "title": "NOL FESTIVAL - 고양 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
       {
         "date": "2026-10-23",
         "type": "행사",
@@ -387724,6 +387716,14 @@ const SITE_DATA = {
       }
     ],
     "past": [
+      {
+        "date": "2026-10-17",
+        "type": "기타",
+        "title": "NOL FESTIVAL - 고양 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-10-11",
         "type": "기타",
@@ -389850,42 +389850,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 160
+      "d_day": 159
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 220
+      "d_day": 219
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 43
+      "d_day": 42
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2027-10-11",
-      "d_day": 359
+      "d_day": 358
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2027-08-19",
-      "d_day": 306
+      "d_day": 305
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 41
+      "d_day": 40
     }
   ],
   "trophies": [
