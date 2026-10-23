@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-23 16:46",
+  "generated_at": "2026-10-23 20:11",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -397337,7 +397337,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-23 12:49",
+        "checked_at": "2026-10-23 20:11",
         "change": {
           "kind": "same"
         }
@@ -397346,6 +397346,14 @@ const SITE_DATA = {
   },
   "schedule": {
     "upcoming": [
+      {
+        "date": "2026-10-23",
+        "type": "행사",
+        "title": "동아대학교 축제 (승학캠) (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-10-23",
         "type": "행사",
@@ -397358,6 +397366,14 @@ const SITE_DATA = {
         "date": "2026-10-24",
         "type": "공연",
         "title": "여기어때 콘서트팩 거제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-24",
+        "type": "기타",
+        "title": "한화오션 오션하모니 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
