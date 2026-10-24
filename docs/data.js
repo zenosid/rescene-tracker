@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-24 21:09",
+  "generated_at": "2026-10-25 00:34",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -400044,7 +400044,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-24 19:29",
+        "checked_at": "2026-10-25 00:34",
         "change": {
           "kind": "same"
         }
@@ -400053,22 +400053,6 @@ const SITE_DATA = {
   },
   "schedule": {
     "upcoming": [
-      {
-        "date": "2026-10-24",
-        "type": "공연",
-        "title": "여기어때 콘서트팩 거제 (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-10-24",
-        "type": "기타",
-        "title": "한화오션 오션하모니 (10:00 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
       {
         "date": "2026-10-31",
         "type": "기타",
@@ -400151,6 +400135,22 @@ const SITE_DATA = {
       }
     ],
     "past": [
+      {
+        "date": "2026-10-24",
+        "type": "공연",
+        "title": "여기어때 콘서트팩 거제 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-10-24",
+        "type": "기타",
+        "title": "한화오션 오션하모니 (10:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-10-23",
         "type": "행사",
@@ -402301,42 +402301,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 153
+      "d_day": 152
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 213
+      "d_day": 212
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 36
+      "d_day": 35
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2027-10-11",
-      "d_day": 352
+      "d_day": 351
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2027-08-19",
-      "d_day": 299
+      "d_day": 298
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 34
+      "d_day": 33
     }
   ],
   "trophies": [
