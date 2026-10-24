@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-24 11:19",
+  "generated_at": "2026-10-24 12:43",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -398955,7 +398955,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-24 06:22",
+        "checked_at": "2026-10-24 12:43",
         "change": {
           "kind": "same"
         }
@@ -398975,7 +398975,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-24",
         "type": "기타",
-        "title": "한화오션 오션하모니 (All Day)",
+        "title": "한화오션 오션하모니 (10:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -398983,7 +398983,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-31",
         "type": "기타",
-        "title": "경주 APEC 정상회의장 기념관 개관식 (All Day)",
+        "title": "경주 APEC 정상회의장 기념관 개관식 (07:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -399008,6 +399008,14 @@ const SITE_DATA = {
         "date": "2026-11-07",
         "type": "기타",
         "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈) (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-14",
+        "type": "기타",
+        "title": "2026 멜론 뮤직 어워드 (MMA) (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -399043,13 +399051,21 @@ const SITE_DATA = {
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
+      },
+      {
+        "date": "2026-12-13",
+        "type": "기타",
+        "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
       }
     ],
     "past": [
       {
         "date": "2026-10-23",
         "type": "행사",
-        "title": "동아대학교 축제 (승학캠) (All Day)",
+        "title": "동아대학교 승학 캠퍼스 축제 (09:50 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -399057,7 +399073,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-23",
         "type": "행사",
-        "title": "마산대학교 축제 (All Day)",
+        "title": "마산대학교 축제 (12:00 PM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -399065,7 +399081,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-17",
         "type": "기타",
-        "title": "NOL FESTIVAL - 고양 (All Day)",
+        "title": "NOL FESTIVAL - 고양 (08:30 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -399121,7 +399137,7 @@ const SITE_DATA = {
       {
         "date": "2026-10-04",
         "type": "공연",
-        "title": "2026 의령 리치리치페스티벌 (All Day)",
+        "title": "2026 의령 리치리치페스티벌 (11:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
