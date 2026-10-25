@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-25 21:05",
+  "generated_at": "2026-10-25 21:08",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7729,17 +7729,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "사이버펑크 엣지러너 2 기본정보 - 넷플릭스 10부작 성인 애니메이션....",
-          "link": "https://blog.naver.com/dudal0080/224448941304",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 건강전도사 dudal",
-          "time": "14:30",
-          "category": "기타",
-          "members": [
-            "메이"
-          ]
-        },
-        {
           "title": "리센느 리브가 의령 리치리치 페스티벌에서 착용한 귀걸이 알아보....",
           "link": "https://blog.naver.com/quio2/224448947294",
           "source_type": "community",
@@ -15296,17 +15285,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "도경수 너의 모든 순간 리메이크 음원 발매",
-          "link": "https://blog.naver.com/hnhent74/224443809030",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 콘텐츠 라이브러리",
-          "time": "18:58",
-          "category": "기타",
-          "members": [
-            "메이"
-          ]
-        },
-        {
           "title": "거제에 리센느가 온다? 오션하모니 공연 일정 무료 관람 신청방법 ....",
           "link": "https://blog.naver.com/wise_lee_/224443877643",
           "source_type": "community",
@@ -15348,17 +15326,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "제나"
-          ]
-        },
-        {
-          "title": "\"가수 솔비 vs 화가 권지안\" 결혼 소식보다 그림값 2300만원이 더 놀라....",
-          "link": "https://blog.naver.com/harvey_2023/224443964863",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 수달의 경제노트",
-          "time": "18:58",
-          "category": "기타",
-          "members": [
-            "원이"
           ]
         },
         {
@@ -28412,17 +28379,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "“월세만 8500만원이라고?” 이병헌 240억 옥수동 빌딩 어디? 임차인 ....",
-          "link": "https://blog.naver.com/shining_charming/224439228700",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 부자답게 부자롭게",
-          "time": "20:08",
-          "category": "기타",
-          "members": [
-            "원이"
           ]
         },
         {
@@ -49987,17 +49943,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "\"아무도 보상 안 한다, 다 내 돈이다\" 직원이 사기그릇 60장 와장창…....",
-          "link": "https://blog.naver.com/ana_93/224431810561",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · ANNA",
-          "time": "10:48",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
           "title": "CU 리센느 빵 뭐길래 60만개 팔렸다? 구매자 70%가 남성, 포토카드 27종....",
           "link": "https://blog.naver.com/q212300/224431728893",
           "source_type": "community",
@@ -53664,17 +53609,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "나혼산 유리가 바꾼 가을 이불 뭐길래? 쁘리엘르 유어메이트 차렵이....",
-          "link": "https://blog.naver.com/imi1000/224431548886",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 쩡이의 Info Lab",
-          "time": "03:17",
-          "category": "기타",
-          "members": [
-            "메이"
-          ]
-        },
-        {
           "title": "리센느 빵, 전 언제쯤 먹을 수 있을까요? 얼마나 인기길래!",
           "link": "https://blog.naver.com/samsic2016/224431548884",
           "source_type": "community",
@@ -54434,17 +54368,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "6974조 부자 안현수 VS 무일푼 제나",
-          "link": "https://cafe.naver.com/ichyunsoo/12012",
-          "source_type": "community",
-          "source_name": "네이버 카페 · 안현수 학교",
-          "time": "23:29",
-          "category": "기타",
-          "members": [
-            "제나"
           ]
         },
         {
@@ -63266,17 +63189,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "올리브영 호빵맨 콜라보 몽쉘 가격, 초코츄러스 멜론 맛 솔직 후기",
-          "link": "https://blog.naver.com/mygreenfeel/224429462070",
-          "source_type": "community",
-          "source_name": "네이버 블로그 · 뮹큐의 행복한 블로그 생활",
-          "time": "16:08",
-          "category": "기타",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -96019,17 +95931,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "검증된 히트곡이 돌아온다…음원 시장, 리메이크 열풍 '새바람' - yna.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DNHp4SjI2Vi0xWWZ4OHQxSkNqZGhmM3U2Z1V2SVRLenBvbnl5Y193eVRXb1F2U3pPYzNtS0NWTlE5Ti1sTWo2WEhKYjBhbUVzYjVEZFdNaFhGbkHSAWBBVV95cUxPOVhSeHhuRHg0Q2dEZHYyRklBN0NNam85TFJNR2QyYmRBNVY1a2xHa1ZWTXJuaTI3V3BfUThWZHlLam1IdGpWeFlPRk1yalRDT0xyb2RNaE5PbUl3NWNtUGY?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "10:00",
-          "category": "기타",
-          "members": [
-            "메이"
-          ]
-        },
-        {
           "title": "오늘 들은 노래  리센느 - YoYo 가을 - Odd 레드벨벳 - Wings 카라 - Rock U 씨스타 - So Cool 레인보우 - A 티아",
           "link": "https://x.com/ringlight_08/status/2102925063439937854",
           "source_type": "x",
@@ -103033,28 +102934,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "'동상이몽2' 김상겸, '걸그룹상' 아내 자랑 \"카리나·원이 닮아\" - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QUk1VajFpNWhsYldXSU4wdEZuQWo4WTk1RHM3VEplWG5qT0o5NjZVUm1WZEsxbnVLRHNlTHFfS3dtaW9SOHZlQS1SX2QtWFZXRGNlUW8yWDZzSXNHTlJjel8xdmtMSnl4U2NNVFZfWW9MczDSAXhBVV95cUxQRURhRGtKTHNabXFNcHVSRlVTc1pjOHhYWmtsZmFya1pVcGdKRmxNNWxBdEpmN3hRSDNHaVVLMzRsdEdPTkd6dFlxbXplR1FMZFprZjNiNzFrOXNPWmtzQWs3UGhQRExPbGRpS2JxYXhnbXpScTZOU0U?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - 리센느",
-          "time": "02:13",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
-          "title": "'동상이몽2' 김상겸, '걸그룹상' 아내 자랑 \"카리나·원이 닮아\"",
-          "link": "https://www.mt.co.kr/entertainment/2026/09/23/2026092301595897415",
-          "source_type": "news",
-          "source_name": "네이버 뉴스",
-          "time": "02:13",
-          "category": "기타",
-          "members": [
-            "원이"
           ]
         },
         {
@@ -381911,17 +381790,6 @@ const SITE_DATA = {
           "category": "자체컨텐츠",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "메이딘 미유,'상큼한 열창' [사진] - v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1CRkxCRmEwdVoxN25CYkRPOUh3bmpLUkZ6bk5TZm5hVVFIaDdBWHNHSlpqWlhUR2Nyb2JLTUtDT04tMk1lRlE?oc=5",
-          "source_type": "news",
-          "source_name": "구글 뉴스 - RESCENE",
-          "time": "17:00",
-          "category": "기타",
-          "members": [
-            "메이"
           ]
         },
         {

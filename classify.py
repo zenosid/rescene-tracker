@@ -26,6 +26,11 @@ def _kw_in(text, kw):
     return re.search(pat, text) is not None
 
 
+def member_name_in(text):
+    """멤버 이름(한글·영문 전부)이 단어 경계를 지켜 쓰였는지. 조사(은/는/가/의/와…)는 허용."""
+    return any(_kw_in(text or "", kw) for kws in MEMBER_KEYWORDS.values() for kw in kws)
+
+
 def is_relevant_broadcast(title, source_name=""):
     """
     음악방송 채널(음악중심·인기가요·더쇼)·유튜브 검색 결과처럼 '리센느와 무관한 영상이

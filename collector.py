@@ -25,7 +25,7 @@ from db import (
     init_db, get_conn, insert_item, get_recent_items, insert_auto_schedule,
     insert_trophy, insert_award,
 )
-from classify import is_relevant_broadcast
+from classify import is_relevant_broadcast, member_name_in
 from schedule_extractor import extract_schedule_candidates
 from trophy_extractor import extract_trophy_candidates, extract_award_candidates
 from x_collector import collect_x
@@ -256,11 +256,13 @@ def _load_existing_news_titles(conn):
 
 
 def _is_our_group(text):
+    """뉴스·블로그·카페 제목 판정. 그룹명(변형 포함) 또는 멤버 이름이 '단어로서' 쓰인 경우만 인정.
+    부분 일치였을 때는 '메이딘', '리메이크', '유어메이트', '직원이'의 메이/원이가 잡혔습니다."""
     lowered = text.lower()
     group_variants = [kw.lower() for kw in CHART_KEYWORDS] + ["르센느", "이센느"]
     if any(kw in lowered for kw in group_variants):
         return True
-    return any(name in text for name in MEMBER_KEYWORDS.keys())
+    return member_name_in(text)
 
 
 def collect_news(conn, seen_titles):
