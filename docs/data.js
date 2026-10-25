@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-25 21:14",
+  "generated_at": "2026-10-25 21:17",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -15907,17 +15907,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "mma 멜론 멜뮤 티켓팅 선예매 계정 아이디 대여해드립니다  3.0  동접안함 배송지 변경, 아옮등 알아서 하시면 되고 기간 상관없이 멜뮤 끝나",
-          "link": "https://x.com/onohhh/status/2110958116586311888",
-          "source_type": "x",
-          "source_name": "X · @onohhh",
-          "time": "13:56",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "📢MAMA  팬 초이스 1차 리마인님들의 투표 인증은 트위터 인증 외에도 리센느 음총팀이 카카오 채널로 취합하여 알디원 음총팀에게 바로 전달합니",
           "link": "https://x.com/ALD1streaming/status/2110958095140827295",
           "source_type": "x",
@@ -17001,17 +16990,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "놀페스티벌 k-pop stage day1 10월 17일  A구역 티켓 선물하기/신분증 맞교환 모든 인증 가능  제시해주세요‼️ https://t",
-          "link": "https://x.com/leenb164/status/2110838311145345502",
-          "source_type": "x",
-          "source_name": "X · @leenb164",
-          "time": "06:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "문희준, BTS 블핑 제친 리센느 극찬 “이미 스타 가능성 있던 인성”(유...",
           "link": "https://www.newsen.com/news_view.php?uid=202610152013086110",
           "source_type": "news",
@@ -17897,17 +17875,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "멜론 뮤직 어워드 골드 계정 대여  모든 인증 가능 아옮 기다려드려요 계정은 골드등급입니당 ❌️동접/현장도움/신분증 대여/환불❌️ 2.0 htt",
-          "link": "https://x.com/kosat0/status/2110756067672281109",
-          "source_type": "x",
-          "source_name": "X · @kosat0",
-          "time": "00:33",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "[#2026kgma] Berriz Global Fans’ Choice #RESCENE 현재 1위!   2위가 20,846표 차로 열심히 추격 중",
           "link": "https://x.com/bshj0403/status/2110756033803296816",
           "source_type": "x",
@@ -17924,17 +17891,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @62oldtiger",
           "time": "00:33",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "놀페스티벌 k-pop stage day1 10월 17일  A구역 티켓 선물하기/신분증 맞교환 모든 인증 가능  제시해주세요‼️ https://t",
-          "link": "https://x.com/leenb164/status/2110755632290656406",
-          "source_type": "x",
-          "source_name": "X · @leenb164",
-          "time": "00:32",
           "category": "기타",
           "members": [
             "전체"
@@ -18467,33 +18423,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "리센느 리브 이벤트 싸인 폴라  해당 착장 폴라 / 정면 응시, 볼콕 / 싸인 O  쿨거 40.0 / 제시 QYOP  원이 리브 미나미 메이 제",
-          "link": "https://x.com/neisowq/status/2110695962855559619",
-          "source_type": "x",
-          "source_name": "X · @neisowq",
-          "time": "20:35",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이"
-          ]
-        },
-        {
-          "title": "리센느 제나 이벤트 싸인 폴라  데자부 당시 당첨 인증 O / 정면 응시, 볼콕 / 싸인 O  쿨거 40.0 / 제시 QYOP  원이 리브 미나",
-          "link": "https://x.com/neisowq/status/2110695893079056822",
-          "source_type": "x",
-          "source_name": "X · @neisowq",
-          "time": "20:34",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "제나"
           ]
         },
         {
@@ -20629,17 +20558,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @jeong_yuns96261",
           "time": "03:52",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "놀페스티벌 k-pop stage day1 10월 17일  A구역 티켓 선물하기/신분증 맞교환 모든 인증 가능  제시해주세요‼️ https://t",
-          "link": "https://x.com/tgjdbnh/status/2110439800860037439",
-          "source_type": "x",
-          "source_name": "X · @tgjdbnh",
-          "time": "03:37",
           "category": "기타",
           "members": [
             "전체"
@@ -22947,28 +22865,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "저희 서로 교환해요.. 멘에 링크 달아주시면 다 해드릴게여! 타팬 초면 다 상관 없어요!! 멜뮤 갑시당 품앗이!  카뱅 아이브 키키 코르티스 알",
-          "link": "https://x.com/s_t_a_y__atiny/status/2110165099952677283",
-          "source_type": "x",
-          "source_name": "X · @s_t_a_y__atiny",
-          "time": "09:25",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "저희 서로 교환해요.. 멘에 링크 달아주시면 다 해드릴게여! 타팬 초면 다 상관 없어요!! 멜뮤 갑시당 품앗이!  카뱅 아이브 키키 코르티스 알",
-          "link": "https://x.com/mini__922/status/2110165046542402026",
-          "source_type": "x",
-          "source_name": "X · @mini__922",
-          "time": "09:25",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "3. 우리돌은 유언비어도 터지고 비교질도 당하고 뭐 음방 1위한거 사과해라 이러고 자컨이든 쇼츠는 개마인들로 도배되고 성희롱하고 개야랄떠는 와중",
           "link": "https://x.com/kwh5qx/status/2110164224303567023",
           "source_type": "x",
@@ -22985,17 +22881,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @autumngreencat",
           "time": "09:19",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "MMA 초대권 교환하실 분 찾습니다 dm주세요 저 : 11월 14일(토) 님 : 11월 15일(일)  #mma2026 #mma #aespa #에",
-          "link": "https://x.com/doongzidaeng/status/2110162810923782401",
-          "source_type": "x",
-          "source_name": "X · @doongzidaeng",
-          "time": "09:16",
           "category": "기타",
           "members": [
             "전체"
@@ -23347,17 +23232,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "놀페스티벌 k-pop stage day1 10월 17일  A구역 티켓 선물하기/신분증 맞교환 모든 인증 가능  제시해주세요‼️ https://t",
-          "link": "https://x.com/tgjdbnh/status/2110119866216874041",
-          "source_type": "x",
-          "source_name": "X · @tgjdbnh",
-          "time": "06:25",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 원이 엔믹스 설윤 투샷 둘다 이쁘다 https://t.co/BsTcXxLSEG",
           "link": "https://x.com/choayeol23/status/2110119334714749080",
           "source_type": "x",
@@ -23451,17 +23325,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @seccsecc1004",
           "time": "05:19",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "mma 멜론 멜뮤 티켓팅 선예매 계정 아이디 대여해드립니다  2.5   동접x 배송지 변경, 아옮등 알아서 하시면 되고 기간 상관없이 멜뮤 끝나",
-          "link": "https://x.com/onohhh/status/2110101040385450490",
-          "source_type": "x",
-          "source_name": "X · @onohhh",
-          "time": "05:11",
           "category": "기타",
           "members": [
             "전체"
@@ -23979,28 +23842,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @ilsangome",
           "time": "01:44",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "포카홀더 판매 일괄 0.5 cu반택 +0.2 디엠 주세용  #포카홀더 #엔시티위시 #엔시티 #스키즈 #라이즈 #엔시티드림 #하투하 #라이즈 #보",
-          "link": "https://x.com/WuRsPozy9fkFXRQ/status/2110047784279867476",
-          "source_type": "x",
-          "source_name": "X · @WuRsPozy9fkFXRQ",
-          "time": "01:39",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "콜북 판매 우글거림o 디엠 주시면 자세히 보여드려요! cu반택 +0.2 일괄 우대  #콜북 #콜렉트북 #엔시티 #스키즈 #하투하 #엔시티위시 #",
-          "link": "https://x.com/WuRsPozy9fkFXRQ/status/2110047309119750648",
-          "source_type": "x",
-          "source_name": "X · @WuRsPozy9fkFXRQ",
-          "time": "01:37",
           "category": "기타",
           "members": [
             "전체"
@@ -25485,17 +25326,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @forsonnenblumly",
           "time": "10:56",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "멜론 뮤직 어워드 멜뮤 MMA 선예매 계정 대여  VIP &gt;&gt; 2 &lt;&lt;  동접 안해여 실패시 환불X 현장도움X 모든인증 가",
-          "link": "https://x.com/9bxkf/status/2109823218597134648",
-          "source_type": "x",
-          "source_name": "X · @9bxkf",
-          "time": "10:47",
           "category": "기타",
           "members": [
             "전체"
@@ -30799,17 +30629,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "멜뮤 멜론 뮤직 어워드 MMA  melon music awards  선예매 계정 아이디 대여   MVIP 3.0   동접, 현장도움, 신분증대여",
-          "link": "https://x.com/ydlegoo/status/2109310070890918366",
-          "source_type": "x",
-          "source_name": "X · @ydlegoo",
-          "time": "00:48",
-          "category": "MV",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "[#2026kgma] Berriz Global Fans’ Choice #RESCENE 현재 1위!   2위가 9,510표 차로 열심히 추격 중이",
           "link": "https://x.com/nemowoni/status/2109310029551841546",
           "source_type": "x",
@@ -32302,17 +32121,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @ResceneChartBOT",
           "time": "12:01",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "MMA2026 with 카카오뱅크 https://t.co/6HRWy0gbvw 맞교환하실분 댓글에 링크달아주시면 다 해드려요!!!  멜뮤 에이티즈",
-          "link": "https://x.com/qkdxksqhfkgo77/status/2109116561021931641",
-          "source_type": "x",
-          "source_name": "X · @qkdxksqhfkgo77",
-          "time": "11:59",
           "category": "기타",
           "members": [
             "전체"
@@ -34043,17 +33851,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @namae19730",
           "time": "01:54",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "멜론 계정 대여  3.0  신분증 대여 X, 동접X, 환불X 아옮, 일예 기다려드려요. 베리즈 연동O 현장 도움 시 + 3.0 https://t",
-          "link": "https://x.com/soekamonii/status/2108963408876093854",
-          "source_type": "x",
-          "source_name": "X · @soekamonii",
-          "time": "01:50",
           "category": "기타",
           "members": [
             "전체"
@@ -37253,17 +37050,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "MMA2026 with 카카오뱅크 https://t.co/jcKSmwUx9v  타팬 초면 다 oooo 먹튀ㅗ 트위터 1시간 단위로 들어와서 싹다",
-          "link": "https://x.com/bemy_light_/status/2108573639226654801",
-          "source_type": "x",
-          "source_name": "X · @bemy_light_",
-          "time": "00:01",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "RESCENE (리센느) - LOVE ATTACK  [해피투게더-혼자가 아니어서 좋아] | KBS 261009 방송 https://t.co/Os",
           "link": "https://x.com/1091_black/status/2108573613473562727",
           "source_type": "x",
@@ -37835,17 +37621,6 @@ const SITE_DATA = {
           "source_name": "X · @Cotaro_0323",
           "time": "16:56",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "MMA 선예매 MVIP 계정 대여   3.0 신분증 대여 현장 도움 ❌ 티켓팅 전날 계정 드려요  모든 인증 🙆🏻‍♀️ https://t.co/",
-          "link": "https://x.com/koda_wish/status/2108464336012476438",
-          "source_type": "x",
-          "source_name": "X · @koda_wish",
-          "time": "16:47",
-          "category": "MV",
           "members": [
             "전체"
           ]
@@ -39189,17 +38964,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "2026 MMA 멜뮤 멜론뮤직어워드 선예매 MVIP 계정 아이디 대여 합니다  티켓팅, 아옮 실패시 환불 불가,동접X,입장도움X   2.7 ht",
-          "link": "https://x.com/Kura808_/status/2108257687087804638",
-          "source_type": "x",
-          "source_name": "X · @Kura808_",
-          "time": "03:06",
-          "category": "MV",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "이래서 리센느 싫어 https://t.co/NoWQhE3P62",
           "link": "https://x.com/dsts486/status/2108256777360023828",
           "source_type": "x",
@@ -39905,17 +39669,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @gxzub1g",
           "time": "18:12",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "멜뮤 카카오뱅크 초대권 교환하실분!  https://t.co/ubNLzgZmqW  엔시티 위시 127 드림 라이즈 하투하 알디원 롱샷 플레이브 ",
-          "link": "https://x.com/rjfojs/status/2108122462185742635",
-          "source_type": "x",
-          "source_name": "X · @rjfojs",
-          "time": "18:08",
           "category": "기타",
           "members": [
             "전체"
@@ -50081,18 +49834,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "이거 나는 안먹었는데  출시 첫날부터  사람들이 대기하고있다가  판매 시작하자마자  곧바로 판매완료 ㄷㄷ  P.S:미나미 메론빵이랑 메이 시나몬",
-          "link": "https://x.com/minbotong123/status/2106802208243327382",
-          "source_type": "x",
-          "source_name": "X · @minbotong123",
-          "time": "02:42",
-          "category": "기타",
-          "members": [
-            "미나미",
-            "메이"
-          ]
-        },
-        {
           "title": "이 사람만큼 웃긴 리센느 빠순이가 없다. 믿고 보는 중국어 트윗 https://t.co/Wjgv62y8Un",
           "link": "https://x.com/nomorejaegi/status/2106795759022801260",
           "source_type": "x",
@@ -51279,17 +51020,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "2026 MMA 멜뮤 멜론뮤직어워드 1차 선예매 골드 계정 대여  1.5 티켓팅 및 아옮 실패시 환불 X 신분증 대여 +2 / 현장 도움 +6 ",
-          "link": "https://x.com/Q59og/status/2106658280630337840",
-          "source_type": "x",
-          "source_name": "X · @Q59og",
-          "time": "17:10",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "CU '리센느 빵' 3040 남성에게 인기",
           "link": "https://www.mk.co.kr/article/12168108",
           "source_type": "news",
@@ -51950,20 +51680,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 빵 cu 포카 판매 미개봉  일괄 2.0 미나미 2장 제나 1장 리브 1장  원이 별이 1장(기름 하자 쪼금 있어요) 쿨거시 에눌 해드려",
-          "link": "https://x.com/ohsipq4/status/2106559681762390443",
-          "source_type": "x",
-          "source_name": "X · @ohsipq4",
-          "time": "10:39",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "제나"
           ]
         },
         {
@@ -53899,33 +53615,11 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "현재 인기 있는 검색어를 알려드립니다 1. 나혼산 김민 출연 https://t.co/bGQ5SL4k7p 2. 동해상 발사훈련 3. 서채현 리드 ",
-          "link": "https://x.com/TrendCook/status/2106354393574760596",
-          "source_type": "x",
-          "source_name": "X · @TrendCook",
-          "time": "21:03",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "[ 2026. 10. 03. 21:00 ]  💗 LOVE ATTACK 멜론 2위 · 지니 2위 · 벅스 3위 · 플로 2위  🎀 Pretty G",
           "link": "https://x.com/ResceneChartBOT/status/2106353879097168002",
           "source_type": "x",
           "source_name": "X · @ResceneChartBOT",
           "time": "21:01",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "놀페 DAY 1 10/17 케이팝 스테이지 C구역 2장  일괄 24 ㅅㅂㅈ 대여 O 밤샘 팔뜯 도움 X  계정 대여해 드립니다 https://t",
-          "link": "https://x.com/eck1dz/status/2106353354788188568",
-          "source_type": "x",
-          "source_name": "X · @eck1dz",
-          "time": "20:59",
           "category": "기타",
           "members": [
             "전체"
@@ -53951,20 +53645,6 @@ const SITE_DATA = {
           "category": "MV",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 빵 cu 포카 판매 미개봉  일괄 2.0 미나미 2장 제나 1장 리브 1장  원이 별이 1장( 기름 하자 쪼금 있어요) 쿨거시 에눌 해드",
-          "link": "https://x.com/ohsipq4/status/2106348462313013397",
-          "source_type": "x",
-          "source_name": "X · @ohsipq4",
-          "time": "20:39",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "제나"
           ]
         },
         {
@@ -54629,17 +54309,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "정보판매 ㅈㅂㅍㅁ ㅈㅂㄱㅎ정보교환⭕️ 싸게팔아요 알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 하츠투하츠 라이즈 하투하 아이",
-          "link": "https://x.com/__8ixzn/status/2106276783696105970",
-          "source_type": "x",
-          "source_name": "X · @__8ixzn",
-          "time": "15:54",
-          "category": "Live",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -55783,17 +55452,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "2026 MMA 멜뮤 멜론뮤직어워드 1차 선예매 골드 계정 대여  3.0 티켓팅 및 아옮 실패시 환불 X 신분증 대여 +2 / 현장 도움 +6 ",
-          "link": "https://x.com/Q59og/status/2106151512112324908",
-          "source_type": "x",
-          "source_name": "X · @Q59og",
-          "time": "07:37",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "\"우리가 몰랐던 리센느\"…비서진, 하루 매니저로 직접 마주한 20대 아이...",
           "link": "https://www.jemin.com/news/articleView.html?idxno=843779",
           "source_type": "news",
@@ -56541,28 +56199,6 @@ const SITE_DATA = {
           "source_name": "X · @techjunkiejh",
           "time": "02:27",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보판매 ㅈㅂㅍㅁ ㅈㅂㄱㅎ정보교환⭕️ 없는거많음 알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 하츠투하츠 라이즈 하투하 아이",
-          "link": "https://x.com/__8ixzn/status/2106072907835486443",
-          "source_type": "x",
-          "source_name": "X · @__8ixzn",
-          "time": "02:24",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보판매 ㅈㅂㅍㅁ ㅈㅂㄱㅎ정보교환⭕️ 없는거많음 알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 하츠투하츠 라이즈 하투하 아이",
-          "link": "https://x.com/__8ixzn/status/2106072823970275593",
-          "source_type": "x",
-          "source_name": "X · @__8ixzn",
-          "time": "02:24",
-          "category": "Live",
           "members": [
             "전체"
           ]
@@ -58438,17 +58074,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @nowheremyhome",
           "time": "15:51",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "IBK 입크 뮤직 페스티벌 (10/3 토요일 티켓)  1장 2.5만원에 판매  동반입장, 현장도움 ⭕️  https://t.co/4Ms3U4wE",
-          "link": "https://x.com/0eSISi6lUfByxPa/status/2105912168113959218",
-          "source_type": "x",
-          "source_name": "X · @0eSISi6lUfByxPa",
-          "time": "15:46",
           "category": "기타",
           "members": [
             "전체"
@@ -61538,17 +61163,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "MMA 선예매 MVIP 계정 대여   4.0 신분증 대여 현장 도움 x 모든 이유에서 티켓팅 후 환불 x  모든 인증 가능  https://t.",
-          "link": "https://x.com/0o80z/status/2105583479018893715",
-          "source_type": "x",
-          "source_name": "X · @0o80z",
-          "time": "17:59",
-          "category": "MV",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "우원재 보려고 버텼는데 강당 터져나가서 귀가함 한로로 리센느 파워인가",
           "link": "https://x.com/midori_dorii/status/2105582710567932375",
           "source_type": "x",
@@ -63665,17 +63279,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "#RESCENE ㅈㅂ 데이트!  #사생 #ㅅㅅㅇ #ㅈㅂㅍㅁ",
-          "link": "https://x.com/gimpoman_/status/2105341791600026091",
-          "source_type": "x",
-          "source_name": "X · @gimpoman_",
-          "time": "01:59",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "260930 을지대 Dejavu  #RESCENE #리센느 https://t.co/alWomXEaMe",
           "link": "https://x.com/Moody0522/status/2105338036347437185",
           "source_type": "x",
@@ -64889,39 +64492,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "정보교환 정보판매 없는거많음 정보 교환 ⭕️  알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 라이즈 하투하 코르티스 아덴티 ",
-          "link": "https://x.com/9dxwqg/status/2105191127649562820",
-          "source_type": "x",
-          "source_name": "X · @9dxwqg",
-          "time": "16:00",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보교환 정보판매 없는거많음 정보 교환 ⭕️  알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 라이즈 하투하 코르티스 아덴티 ",
-          "link": "https://x.com/9dxwqg/status/2105190964784722052",
-          "source_type": "x",
-          "source_name": "X · @9dxwqg",
-          "time": "16:00",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보교환 정보판매 없는거많음 정보 교환 ⭕️  알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 라이즈 하투하 코르티스 아덴티 ",
-          "link": "https://x.com/9dxwqg/status/2105190920169898477",
-          "source_type": "x",
-          "source_name": "X · @9dxwqg",
-          "time": "16:00",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "Z세대 아이돌이 부른 트로트…리센느 제나 영상 1300만뷰 돌파 - 세계일보",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oMEY3aG1JMjBfa3AzSG16QVF0VE9WdTJLVll5aHJOUXo1cW1hdzJCeWdhR2UwRHk2bWE0bHVxb1NLckI5RUVaSkhuMjZlR0FvcE1NRmVPTTBRX0lZQUxWcmM2UV8wemVJSlRB0gFUQVVfeXFMTldDMDc1X2FlQ3R1dnNjVUFTUDE2bzFjWjFRWWFHSVRkSzNId1p4THlQZU03WGlmaFZLUU9kNkQwWkpCd3VFdTQ5TUhDVVNxUXZDNXRP?oc=5",
           "source_type": "news",
@@ -64930,39 +64500,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "제나"
-          ]
-        },
-        {
-          "title": "정보교환 정보판매 없는거많음 정보 교환 ⭕️  알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 라이즈 하투하 코르티스 아덴티 ",
-          "link": "https://x.com/9dxwqg/status/2105190855510548485",
-          "source_type": "x",
-          "source_name": "X · @9dxwqg",
-          "time": "15:59",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보교환 정보판매 없는거많음 정보 교환 ⭕️  알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 라이즈 하투하 코르티스 아덴티 ",
-          "link": "https://x.com/9dxwqg/status/2105190797310382409",
-          "source_type": "x",
-          "source_name": "X · @9dxwqg",
-          "time": "15:59",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보교환 정보판매 없는거많음 정보 교환 ⭕️  알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 라이즈 하투하 코르티스 아덴티 ",
-          "link": "https://x.com/9dxwqg/status/2105190750237630674",
-          "source_type": "x",
-          "source_name": "X · @9dxwqg",
-          "time": "15:59",
-          "category": "Live",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -66887,17 +66424,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 RESCENE 제나 ZENA 틱톡 계정 정보판매  인터넷에 관련 정보 올라온 적x 제시  옾챗 송금만  https://t.co/HpnLt",
-          "link": "https://x.com/rJAj10jx87TRqB5/status/2104989755465519240",
-          "source_type": "x",
-          "source_name": "X · @rJAj10jx87TRqB5",
-          "time": "02:40",
-          "category": "기타",
-          "members": [
-            "제나"
           ]
         },
         {
@@ -70064,17 +69590,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "갤럭시 S23 S22 울트라 23 22 대여  🍀대여비  S23 1일 2.5만 S22 1일 1.5만 ☘️ 보증금 X + 전화번호 + 신분증  K",
-          "link": "https://x.com/gaeurensaram/status/2104653642804691382",
-          "source_type": "x",
-          "source_name": "X · @gaeurensaram",
-          "time": "04:25",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 원이 \"민국이와 결혼 생각했다\"… 김민국, 유쾌한 화답",
           "link": "https://www.ggilbo.com/news/articleView.html?idxno=1183516",
           "source_type": "news",
@@ -70900,17 +70415,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "경희대 국제캠 축제 학생증 대여  실물학생증 + 신분증(맞교환) + 인포21  서울캠이라서 질문 안빡세요  쿨거 5 https://t.co/kn",
-          "link": "https://x.com/ojoha913/status/2104570761528930482",
-          "source_type": "x",
-          "source_name": "X · @ojoha913",
-          "time": "22:55",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "가장 좋아하는 일은 CU에서 리센느를 만나는 것입니다💝 #일상의모든Scene_CU #리센느 https://t.co/pdR8aqYboC",
           "link": "https://x.com/Callmesirioo/status/2104570280886841652",
           "source_type": "x",
@@ -70928,17 +70432,6 @@ const SITE_DATA = {
           "source_name": "X · @gaudivita",
           "time": "22:49",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보판매 ㅈㅂㅍㅁ ㅈㅂㄱㅎ정보교환⭕️ 없는거많음 알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 하츠투하츠 라이즈 하투하 아이",
-          "link": "https://x.com/__8ixzn/status/2104568205343949121",
-          "source_type": "x",
-          "source_name": "X · @__8ixzn",
-          "time": "22:45",
-          "category": "Live",
           "members": [
             "전체"
           ]
@@ -71040,17 +70533,6 @@ const SITE_DATA = {
           "source_name": "X · @ichibannyamfan",
           "time": "21:47",
           "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "카톡방 입장하실 때  “구매 하고 싶은 멤버 빵+갯수+가격”  함께 알려주세요~ (입장 하신 순서대로 판매 합니다! 최대한으로 구해드릴게요~!)",
-          "link": "https://x.com/dxxklve/status/2104545824911094258",
-          "source_type": "x",
-          "source_name": "X · @dxxklve",
-          "time": "21:16",
-          "category": "기타",
           "members": [
             "전체"
           ]
@@ -71744,17 +71226,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "경희대 학생증 대여   설캠 재학생 (여자) 인포 21 + 에타 + 신분증 맞교환 +  예상 질문  제시해서 옾챗 주세요 입장 불가 시 환불 x",
-          "link": "https://x.com/jerry_jh0913/status/2104446557835927798",
-          "source_type": "x",
-          "source_name": "X · @jerry_jh0913",
-          "time": "14:42",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -73084,17 +72555,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "갤럭시 S23 S22 울트라 23 22 대여  🍀대여비  S23 1일 2.5만 S22 1일 1.5만 ☘️ 보증금 X + 전화번호 + 신분증  K",
-          "link": "https://x.com/gaeurensaram/status/2104281113334280318",
-          "source_type": "x",
-          "source_name": "X · @gaeurensaram",
-          "time": "03:44",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "취향 확실한 정원이씨 ㅋㅋㅋ 이와중에 난 새벽에 깨서 같은 인형 장바구니에;; #리센느 #원이 #RESCENE #WONI #リセンヌ https:",
           "link": "https://x.com/floraorange0525/status/2104279519146516877",
           "source_type": "x",
@@ -73655,17 +73115,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "경희대 여자 학생증 대여   국캠 재학생 인포 21 로그인 + 신분증 맞교환   제시해서 연락 주세요 입장 불가 시 환불 x 정보 최대한 다 알",
-          "link": "https://x.com/rightleftgood/status/2104227340918349935",
-          "source_type": "x",
-          "source_name": "X · @rightleftgood",
-          "time": "00:11",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -74680,17 +74129,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 RESCENE 제나 ZENA 틱톡 계정 정보판매  인터넷에 관련 정보 올라온 거 없어요  https://t.co/HpnLtv17E1  제",
-          "link": "https://x.com/rJAj10jx87TRqB5/status/2104132285700415676",
-          "source_type": "x",
-          "source_name": "X · @rJAj10jx87TRqB5",
-          "time": "17:53",
-          "category": "기타",
-          "members": [
-            "제나"
-          ]
-        },
-        {
           "title": "‘리센느 삼촌’ 이선민, 틀면 나오는데…“32살까지 수익 0원”(휴먼스...",
           "link": "https://www.newsen.com/news_view.php?uid=202609271544092310",
           "source_type": "news",
@@ -75285,17 +74723,6 @@ const SITE_DATA = {
           "members": [
             "원이",
             "리브"
-          ]
-        },
-        {
-          "title": "경희대 축제 학생증 대여 국캠 국제캠퍼스  국제캠 여성 학생증 + 인포 21 로그인 신분증 맞교환  제시해주세요 입장 불가 시 환불 불가 질문 ",
-          "link": "https://x.com/angang2212/status/2104079332411163107",
-          "source_type": "x",
-          "source_name": "X · @angang2212",
-          "time": "14:22",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -76927,17 +76354,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "정보판매 ㅈㅂㅍㅁ ㅈㅂㄱㅎ정보교환⭕️ 알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 하츠투하츠 라이즈 하투하 아이브 해킹 인",
-          "link": "https://x.com/jyxesh/status/2103894034733506941",
-          "source_type": "x",
-          "source_name": "X · @jyxesh",
-          "time": "02:06",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "RESCENE 리센느 'Runaway' 인하대 대동제 FANCAM  https://t.co/q3lfq64GDN https://t.co/jmKLW",
           "link": "https://x.com/footsalboy/status/2103892571999383893",
           "source_type": "x",
@@ -76955,72 +76371,6 @@ const SITE_DATA = {
           "source_name": "X · @footsalboy",
           "time": "02:00",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보판매 ㅈㅂㅍㅁ ㅈㅂㄱㅎ정보교환⭕️ 알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 하츠투하츠 라이즈 하투하 아이브 해킹 인",
-          "link": "https://x.com/jyxesh/status/2103891466787713429",
-          "source_type": "x",
-          "source_name": "X · @jyxesh",
-          "time": "01:56",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보판매 ㅈㅂㅍㅁ ㅈㅂㄱㅎ정보교환⭕️ 알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 하츠투하츠 라이즈 하투하 아이브 해킹 인",
-          "link": "https://x.com/jyxesh/status/2103891421849846056",
-          "source_type": "x",
-          "source_name": "X · @jyxesh",
-          "time": "01:56",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보판매 ㅈㅂㅍㅁ ㅈㅂㄱㅎ정보교환⭕️ 알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 하츠투하츠 라이즈 하투하 아이브 해킹 인",
-          "link": "https://x.com/jyxesh/status/2103891383522324612",
-          "source_type": "x",
-          "source_name": "X · @jyxesh",
-          "time": "01:56",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보판매 ㅈㅂㅍㅁ ㅈㅂㄱㅎ정보교환⭕️ 알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 하츠투하츠 라이즈 하투하 아이브 해킹 인",
-          "link": "https://x.com/jyxesh/status/2103891343290548721",
-          "source_type": "x",
-          "source_name": "X · @jyxesh",
-          "time": "01:55",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보판매 ㅈㅂㅍㅁ ㅈㅂㄱㅎ 정보교환⭕️ 알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 하츠투하츠 라이즈 하투하 아이브 해킹 ",
-          "link": "https://x.com/jyxesh/status/2103891262952948137",
-          "source_type": "x",
-          "source_name": "X · @jyxesh",
-          "time": "01:55",
-          "category": "Live",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "정보판매 ㅈㅂㅍㅁ ㅈㅂㄱㅎ 정보교환⭕️ 알디원 앤더블 엔시티위시 알파드라이브원 제로베이스원 제베원 엔위시 하츠투하츠 라이즈 하투하 아이브 해킹 ",
-          "link": "https://x.com/jyxesh/status/2103891161027170562",
-          "source_type": "x",
-          "source_name": "X · @jyxesh",
-          "time": "01:55",
-          "category": "Live",
           "members": [
             "전체"
           ]
@@ -79863,17 +79213,6 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "08:44",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "경희대 학생증 대여   설캠 재학생 (여자) 인포 21 로그인 + 신분증 맞교환 + 학생증 대여 등 (사전 예상 질문 제공)  옾챗주세요 (쿨거",
-          "link": "https://x.com/daer1t1cket/status/2103630816907792689",
-          "source_type": "x",
-          "source_name": "X · @daer1t1cket",
-          "time": "08:40",
           "category": "기타",
           "members": [
             "전체"
@@ -92387,17 +91726,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "#리센느 #미나미 #세트 #판매 #sell  개별 1.4 (반택+0.2) 일괄 14.5 (택배비포함) https://t.co/TQn2ToXJlc",
-          "link": "https://x.com/kce9511/status/2102528269052731873",
-          "source_type": "x",
-          "source_name": "X · @kce9511",
-          "time": "07:39",
-          "category": "기타",
-          "members": [
-            "미나미"
-          ]
-        },
-        {
           "title": "‘김성주子’ 김민국, 리센느 원이 “결혼하고 싶었다” 한마디에 폭주 “내가 시집갈 것” - newsen.com",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTN1FyOEVzNkNlbE5SWUlONTJhdW9DYl9ySjNObENWb0Rpc3Z4QVF2Vlc4MXNycUh0NHh3bmVjUDVQMnktd0JKREg3aWxwbXNsSDBkd0V3bm1sdlR0andVcE9CN1VTLVRl?oc=5",
           "source_type": "news",
@@ -94718,21 +94046,6 @@ const SITE_DATA = {
           "time": "21:03",
           "category": "기타",
           "members": [
-            "제나"
-          ]
-        },
-        {
-          "title": "리센느 빵 cu 포카 판매 미개봉  가격편하게 연락주세요!!  rescene woni minami liv may zena 원이 미나미 리브 메이",
-          "link": "https://x.com/ohsipq4/status/2102367737339375847",
-          "source_type": "x",
-          "source_name": "X · @ohsipq4",
-          "time": "21:01",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
             "제나"
           ]
         },
@@ -97080,17 +96393,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "#리센느 #리브 #포카 #판매  일괄 20.0 배송비 0.2 https://t.co/D90aqGSxLq",
-          "link": "https://x.com/kce9511/status/2102201419935907986",
-          "source_type": "x",
-          "source_name": "X · @kce9511",
-          "time": "10:00",
-          "category": "기타",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "‘국민 걸그룹’ 리센느, 11월 3일 미니 4집 ‘PULSE’로 컴백...대세 굳히기 나선다 - 엔터시아   한국어 · 영어 · 스페인어 · 일",
           "link": "https://x.com/entersia/status/2102200946684277159",
           "source_type": "x",
@@ -99041,19 +98343,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "#리센느 #원이 #미니미 #제나 #리브  개당 1.0 ~ 3.5 사이 재고판매합니다 DM 부탁드려요 https://t.co/2ZJ9a0G5VN",
-          "link": "https://x.com/kce9511/status/2102101403712037079",
-          "source_type": "x",
-          "source_name": "X · @kce9511",
-          "time": "03:23",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "제나"
-          ]
-        },
-        {
           "title": "이거 생각하면 리센느 대표가 미나미 부모님에게 졸업시켜주겠다고 사기친거 진짜 존나 괘씸함 진짜 기적적으로 떠서 다행이지 안떴으면 어쩔건데? 약속",
           "link": "https://x.com/DeW39jx/status/2102084935297470803",
           "source_type": "x",
@@ -99142,20 +98431,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 공식 응원봉 판매합니다♥︎ | 6.0 공방때 사용하여 생활감 있습니다 응원봉 포카 미나미 포함  RESCENE 원이 리브 미나미 메이 제",
-          "link": "https://x.com/kssh_2/status/2102059201904431224",
-          "source_type": "x",
-          "source_name": "X · @kssh_2",
-          "time": "00:35",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이"
           ]
         },
         {
@@ -99829,28 +99104,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 팝업 뱃지 포카 교환 원합니다!!!!! 뱃지 5개 샀는데 까엉이 중복으로 나와서ㅜㅜ 뱃지 포카끼리 교환 원해요!!!!🥹🙇🏻‍♀️ 반택 가",
-          "link": "https://x.com/woniyagawhyrano/status/2102041955702325276",
-          "source_type": "x",
-          "source_name": "X · @woniyagawhyrano",
-          "time": "23:27",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 팝업 뱃지 포카 교환 원합니다!!!!! 뱃지 5개 샀는데 까엉이 중복으로 나와서ㅜㅜ 뱃지 포카끼리 교환 원해요!!!!🥹🙇🏻‍♀️ 반택 가",
-          "link": "https://x.com/woniyagawhyrano/status/2102040866064158907",
-          "source_type": "x",
-          "source_name": "X · @woniyagawhyrano",
-          "time": "23:22",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "개인적으로 리센느 원픽은 제나.",
           "link": "https://x.com/dj__the__kid/status/2102039364213866576",
           "source_type": "x",
@@ -99859,17 +99112,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "제나"
-          ]
-        },
-        {
-          "title": "경희대 학생증 대여   설캠 재학생 (여자) 인포 21 + 에타 + 신분증 맞교환 +  예상 질문  제시해서 옾챗 주세요 입장 불가 시 환불 x",
-          "link": "https://x.com/jerry_jh0913/status/2102038850063491512",
-          "source_type": "x",
-          "source_name": "X · @jerry_jh0913",
-          "time": "23:14",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -99892,21 +99134,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "리센느 공식 응원봉 판매합니다♥︎ | 6.0 공방때 사용하여 생활감 있습니다 응원봉 포카X  RESCENE 원이 리브 미나미 메이 제나 포토카드",
-          "link": "https://x.com/kssh_2/status/2102037975081337180",
-          "source_type": "x",
-          "source_name": "X · @kssh_2",
-          "time": "23:11",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
@@ -100897,17 +100124,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "명지대 자연캠퍼스 명지대축제 9/22 화요일 명지대 자연캠 리센느 명지대 리센느 명지대 자연캠  명지대 학생증 대여해 드립니다  가격제시해주세요",
-          "link": "https://x.com/dkssud__01/status/2101945269030101229",
-          "source_type": "x",
-          "source_name": "X · @dkssud__01",
-          "time": "17:02",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "[ 2026. 09. 21. 17:00 ]  💗 LOVE ATTACK 멜론 2위 · 지니 2위 · 벅스 3위 · 플로 2위  🎀 Pretty G",
           "link": "https://x.com/ResceneChartBOT/status/2101944842599444920",
           "source_type": "x",
@@ -101101,17 +100317,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "명지대 자연캠퍼스 명지대축제 9/22 화요일 명지대 자연캠 리센느  명지대 학생증 대여해 드립니다!  가격제시해주세요  오픈채팅으로 문의해주세요",
-          "link": "https://x.com/Hinz8d/status/2101939299545665563",
-          "source_type": "x",
-          "source_name": "X · @Hinz8d",
-          "time": "16:39",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 팝업  #RESCENE #리센느 #ScentArchive #MemoriesOf_RESCENE #리센느_위드뮤_팝업 https://t.co",
           "link": "https://x.com/namgiyun9571/status/2101937145552552025",
           "source_type": "x",
@@ -101164,17 +100369,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "명지대 자연캠퍼스 명지대축제 9/22 화요일 명지대 자연캠 리센느  명지대 학생증 대여해 드립니다  가격제시해주세요  오픈채팅으로 문의해주세요 ",
-          "link": "https://x.com/Hinz8d/status/2101931836259844468",
-          "source_type": "x",
-          "source_name": "X · @Hinz8d",
-          "time": "16:09",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -104346,21 +103540,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 개봉앨범 판매 포카,CD ❌  each 0.2  all 0.5  RESCENE 앨범 판매 sell 원이 리브 미나미 메이 제나 https",
-          "link": "https://x.com/jj17ju/status/2101680968436510978",
-          "source_type": "x",
-          "source_name": "X · @jj17ju",
-          "time": "23:32",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
           "title": "유영우, 리센느 원이에 통 큰 한우 플렉스 (전참시) - iMBC 연예",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UejQyblJibm5saDdiUURHM3hpcFVTV0xsZ1AwbFRidy01LVUtYkRCclhhaGNNY2RwWngxTW53bzFacmlmMEQ5d0Z5T2JLTmpXTkRCcWpPMDhuR3dvM21XNw?oc=5",
           "source_type": "news",
@@ -105676,18 +104855,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 뱃지포카 교환하실분?? 저 : 제나 리마인 : 원이로 교환원합니다 더현대 팝업 앞에있어요 2장까지 가능합니다 #리센느 #교환 #리센느교환",
-          "link": "https://x.com/leeeeeeeeeeJy/status/2101571631072301529",
-          "source_type": "x",
-          "source_name": "X · @leeeeeeeeeeJy",
-          "time": "16:18",
-          "category": "기타",
-          "members": [
-            "원이",
-            "제나"
           ]
         },
         {
@@ -108652,18 +107819,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "리센느 할리스 포토카드 교환  저: 미나미 😇: 원이  디엠보다 옾챗이 확인이 빠릅니다! 연락주세요!! https://t.co/f6mkTvRhW",
-          "link": "https://x.com/ddunyung615/status/2101352590164562149",
-          "source_type": "x",
-          "source_name": "X · @ddunyung615",
-          "time": "01:47",
-          "category": "기타",
-          "members": [
-            "원이",
-            "미나미"
           ]
         },
         {
@@ -118653,17 +117808,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "한국외국어대학교 글로벌캠퍼스 기숙사 축제 청량제 한국외대 긱사 축제  ✅ 여성명의 ✅ 모든 인증, 신분증 대여  입장 절대 실패 안하시도록 직접",
-          "link": "https://x.com/dongleeahn/status/2098558079382237439",
-          "source_type": "x",
-          "source_name": "X · @dongleeahn",
-          "time": "08:43",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "@euphoria_707 이야 리센느 파워 좋네요 ㅋㅋ",
           "link": "https://x.com/won_story/status/2098555808997105904",
           "source_type": "x",
@@ -124706,17 +123850,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "팬싸템 대여 해드립니다:) 프로필 참고해주세요!  ✔️배달,택배(우체국),현장수령가능  알디원 클라씨 온앤오프 에이엠피 원어스 클유아 하투하 트",
-          "link": "https://x.com/green030405/status/2098040633550401848",
-          "source_type": "x",
-          "source_name": "X · @green030405",
-          "time": "22:27",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "9월 1주 뮤직차트 순위 정리 1위 LOVE ATTACK - RESCENE (리센느) 2위 BiiiG - BIGBANG (빅뱅) 3위 갑자기 -",
           "link": "https://x.com/exafunboy/status/2098040058205163819",
           "source_type": "x",
@@ -128312,17 +127445,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "팬싸템 대여 해드립니다:) 프로필 참고해주세요!  ✔️배달,택배(우체국),현장수령가능  하츠웨이브 클라씨 온앤오프 에이엠피 원어스 클유아 하투하",
-          "link": "https://x.com/green030405/status/2097716009897714166",
-          "source_type": "x",
-          "source_name": "X · @green030405",
-          "time": "00:57",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "260902 센둥이들보러 천안🚙🚗  #2026천안K컬처박람회 #CHEONANKCULTUREEXPO2026 #RESCENE #리센느 #リセンヌ #",
           "link": "https://x.com/maygoingon/status/2097713662777815051",
           "source_type": "x",
@@ -128342,20 +127464,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "제나"
-          ]
-        },
-        {
-          "title": "리센느 할리스 포카 교환  메이 &lt;-&gt; 미나미, 원이, 리브  저 : 메이 님 : 미나미, 원이, 리브  편하게 디엠이나 옾챗 주세요",
-          "link": "https://x.com/ejqdhdlwm/status/2097713470733263194",
-          "source_type": "x",
-          "source_name": "X · @ejqdhdlwm",
-          "time": "00:47",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이"
           ]
         },
         {
@@ -130788,17 +129896,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "팬싸템 대여 해드립니다:) 프로필 참고해주세요!  ✔️배달,택배(우체국),현장수령가능  하츠웨이브 클라씨 온앤오프 에이엠피 원어스 클유아 하투하",
-          "link": "https://x.com/green030405/status/2097497648106528768",
-          "source_type": "x",
-          "source_name": "X · @green030405",
-          "time": "10:29",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느, “아차랭킹 1위” 8월 5주차 총점 2만 점 돌파 - 톱스타뉴스",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RT19hZUs5MWVTUkpQTDBlV1BCWl9BbkprbC0wTDhmSkdxeGlpY2l6N3J4R0EzR2lrd2prb2dZejF5YnFaY2RuaGNzY2k5alN0NGI1dVJ4M2JKWGZXNG1LM0paVTFPLXcyNzNSRWxMd0pWZw?oc=5",
           "source_type": "news",
@@ -132544,19 +131641,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 할리스 포토카드 교환  저: 미나미 메이 님: 리브  디엠보다 옾챗이 확인이 빠릅니다! 연락주세요!! https://t.co/f6mkTv",
-          "link": "https://x.com/ddunyung615/status/2097344878384665052",
-          "source_type": "x",
-          "source_name": "X · @ddunyung615",
-          "time": "00:22",
-          "category": "기타",
-          "members": [
-            "리브",
-            "미나미",
-            "메이"
-          ]
-        },
-        {
           "title": "현재 상태: 꾸대표 생일축하해 리센느 사랑해건강해행복해오늘하루도고생했어오늘꿈같은거꾸지말고잠푹자고내일아침에개운하게일어나길내일도밥잘먹고내일하루도즐겁",
           "link": "https://x.com/olimugg/status/2097344656740864182",
           "source_type": "x",
@@ -134258,17 +133342,6 @@ const SITE_DATA = {
           "link": "https://cafe.naver.com/dieselmania/47442871",
           "source_type": "community",
           "source_name": "네이버 카페 · ●디젤매니아● 대한민국 일등 패션 커뮤니티 디매인 DMAIN",
-          "time": "15:40",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "입크페스티벌 날짜 교환  저 10월 4일 교환 10월 3일  디엠이나 옾챗으로 연락 주세요ㅠ https://t.co/JTnHK2vDTh  IBK",
-          "link": "https://x.com/spwkdicy/status/2097213458832068966",
-          "source_type": "x",
-          "source_name": "X · @spwkdicy",
           "time": "15:40",
           "category": "기타",
           "members": [
@@ -137742,21 +136815,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "260905 제천국제음악영화제  제천 원 썸머 나잇 리센느 RESCENE 원이 리브 미나미 메이 제나 다있고 데이터 판매 합니다 원이 미나미 수",
-          "link": "https://x.com/ormore_514/status/2096912711544369291",
-          "source_type": "x",
-          "source_name": "X · @ormore_514",
-          "time": "19:45",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
@@ -148453,17 +147511,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "산엑스 리락쿠마 누이구루미 랜덤키링  판매합니다   1.8  하라주쿠 키디랜드 구매 박스개봉 o 배송비 별도  https://t.co/O8tJo",
-          "link": "https://x.com/idntt_id22/status/2096003909072650736",
-          "source_type": "x",
-          "source_name": "X · @idntt_id22",
-          "time": "07:34",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "RESCENE (리센느)의 Heart Drop - 감상해보세요.  https://t.co/vSIcn7DGCW",
           "link": "https://x.com/yunamkk/status/2096003580956434544",
           "source_type": "x",
@@ -151020,17 +150067,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "산엑스 리락쿠마 누이구루미 랜덤키링  판매합니다   2.0  하라주쿠 키디랜드 구매 박스개봉 o 배송비 별도  https://t.co/O8tJo",
-          "link": "https://x.com/idntt_id22/status/2095791507659993416",
-          "source_type": "x",
-          "source_name": "X · @idntt_id22",
-          "time": "17:30",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -170655,18 +169691,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 할리스 포토카드 포카 교환 리브 -&gt; 제나 로 또 구한다고 합니다...^^;;;;;;; 오픈채팅방으류 연락 주세뇨!! 사기일시 할복",
-          "link": "https://x.com/kf00oi/status/2094083914054963302",
-          "source_type": "x",
-          "source_name": "X · @kf00oi",
-          "time": "00:24",
-          "category": "기타",
-          "members": [
-            "리브",
-            "제나"
-          ]
-        },
-        {
           "title": "나랑드사이다, 리센느 모델 발탁 후 매출 48% 상승",
           "link": "http://www.newsbrite.net/news/articleView.html?idxno=199990",
           "source_type": "news",
@@ -174360,41 +173384,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 할리스 포카 교환 하실분..  저: 원이  리마인분: 메이  교환 원하시는 분 디엠이나 멘션 부탁드려요! https://t.co/P6pL",
-          "link": "https://x.com/bagminu85939999/status/2093717409903558716",
-          "source_type": "x",
-          "source_name": "X · @bagminu85939999",
-          "time": "00:08",
-          "category": "기타",
-          "members": [
-            "원이",
-            "메이"
-          ]
-        },
-        {
-          "title": "리센느 포카 교환 원해요 😭 전멤 다 받습니다!!  할리스립밤어레이즈립밤큐알  번장 leaespa41 https://t.co/GLyHGV1K4x",
-          "link": "https://x.com/clover8_4/status/2093717403893121410",
-          "source_type": "x",
-          "source_name": "X · @clover8_4",
-          "time": "00:08",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 할리스 포카 교환 하실분..  저: 원이 리마인분: 메이  원하시는 분은 디엠이나 멘션 부탁드려요!",
-          "link": "https://x.com/bagminu85939999/status/2093717131187896658",
-          "source_type": "x",
-          "source_name": "X · @bagminu85939999",
-          "time": "00:07",
-          "category": "기타",
-          "members": [
-            "원이",
-            "메이"
-          ]
-        },
-        {
           "title": "(대충 유영우씨가 노래부르고 리센느 원이씨가 눈물닦는 쇼츠)",
           "link": "https://x.com/ossost071111/status/2093716258030235787",
           "source_type": "x",
@@ -177647,17 +176636,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[판매/가격 제안]  RESCENE MINAMI 미나미 미공개 친필 싸인 1/1 원본 폴라로이드  Deja Vu 활동 당시 타이베이 단독 공연에",
-          "link": "https://x.com/X3mlzL30002/status/2093314452674482177",
-          "source_type": "x",
-          "source_name": "X · @X3mlzL30002",
-          "time": "21:27",
-          "category": "기타",
-          "members": [
-            "미나미"
-          ]
-        },
-        {
           "title": "거제 야호 역주행 더뮤즈엔터…리센느 몸값 2배 : 네이버 블로그 - Naver Blog",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSFVYb0djOUpldWp4SldvdlNuOXRnNnQxM3V0Um1XaHJwNmFpUDBCMmR3TFpuLTQtNUJiS2ZsY0RCVmRFYVpLRVI5SG9CcWtIVk10cm9kd3RMWHR6Q3R3T1JUNEpiLTF6R3pBYlBfR1Zpbmk2NEo0bWJRMzZXUHI1SGkwS3lqTHluSWNnVTBqVQ?oc=5",
           "source_type": "news",
@@ -178821,18 +177799,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "할리스 리센느 포카 교환구해여  저:제나 😇:리브  댓글이나디엠주세요!",
-          "link": "https://x.com/WD6bM5BHCV68209/status/2093138755234464202",
-          "source_type": "x",
-          "source_name": "X · @WD6bM5BHCV68209",
-          "time": "09:49",
-          "category": "기타",
-          "members": [
-            "리브",
-            "제나"
           ]
         },
         {
@@ -181884,18 +180850,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 할리스 포카  메이-&gt; 원이 교환하실분 .. https://t.co/u3WjZBbpNc",
-          "link": "https://x.com/cwcw_51/status/2092758979474833808",
-          "source_type": "x",
-          "source_name": "X · @cwcw_51",
-          "time": "08:39",
-          "category": "기타",
-          "members": [
-            "원이",
-            "메이"
-          ]
-        },
-        {
           "title": "'이선민 옆 걔' 유영우 \"리센느 저점매수, 소속사 대표가 큰 절까지…\" - v.daum.net",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4taTUyVUtTVnREYWFZRmY3bEZjYTlIYmY5cFI2UjNaU2p5VGk5a1hoWG5ycnJ6UmhHZWpxLUFjeXBjNjhnbHJaLUtIaTRhaW8?oc=5",
           "source_type": "news",
@@ -182917,17 +181871,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "원이포카랑 교환합니다! 편의점 택배만 이용가능!#리센느#포카교환 https://t.co/HHcegUUfvO",
-          "link": "https://x.com/bagchaewon40393/status/2092617703697813574",
-          "source_type": "x",
-          "source_name": "X · @bagchaewon40393",
-          "time": "23:18",
-          "category": "기타",
-          "members": [
-            "원이"
-          ]
-        },
-        {
           "title": "내는 원래 할리스를 좋아해~ 홍시와 곶감으로 만든 호감스무디 맛있겠다.  원이가 숲속에서 만난 호랑이의 정체는?  HOLLYS × RESCENE",
           "link": "https://x.com/mymokiblue/status/2092617156894822454",
           "source_type": "x",
@@ -183482,20 +182425,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 할리스 교환합니다!!  저 제나 😇 리브 미나미 원이  번장 leaespa41 https://t.co/GLyHGV1K4x https://",
-          "link": "https://x.com/clover8_4/status/2092580744380244228",
-          "source_type": "x",
-          "source_name": "X · @clover8_4",
-          "time": "20:51",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "제나"
-          ]
-        },
-        {
           "title": "이제부터 멤버들과 CU를 털어보겠습니다! 🛒🏃‍♀️ 라방에서 CU음식들 홍보했던 것처럼 자연스러움 ㅋㅋㅋ 📱😆  📌 출처 : @cu.offici",
           "link": "https://x.com/master890306/status/2092580236928172377",
           "source_type": "x",
@@ -183504,19 +182433,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 할리스 포카 교환해여  저: 제나 님: 원이, 리브  #할리스 #리센느 #제나  댓글 달아주세여 https://t.co/ef85fnMya",
-          "link": "https://x.com/swz1p9/status/2092576402289938854",
-          "source_type": "x",
-          "source_name": "X · @swz1p9",
-          "time": "20:34",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "제나"
           ]
         },
         {
@@ -183608,21 +182524,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 할리스 포카 교환합니당  저: 메이 님: 제나  #리센느 #할리스 #원이 #제나 #메이 #미나미 #리브 #포카 #교환 #리마인  http",
-          "link": "https://x.com/merecuerda825/status/2092570917310509316",
-          "source_type": "x",
-          "source_name": "X · @merecuerda825",
-          "time": "20:12",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
           "title": "리센느 나랑드 광고 너무 이쁘당",
           "link": "https://x.com/mhjnjz/status/2092570322713325704",
           "source_type": "x",
@@ -183642,17 +182543,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 제나 한스킨 포카 교환 구합니당….. 저: 첫번째 사진 브이 제나 님: 두번째 사진 제나  디엠주세요!!! https://t.co/omT",
-          "link": "https://x.com/eusooe/status/2092569528500982256",
-          "source_type": "x",
-          "source_name": "X · @eusooe",
-          "time": "20:07",
-          "category": "기타",
-          "members": [
-            "제나"
           ]
         },
         {
@@ -184008,28 +182898,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "사격팬싸템 대여합니다 2.0 https://t.co/p9zAvibPiN  하츠웨이브 클라씨 온앤오프 에이엠피 원어스 클유아 하투하 트리플에스 아",
-          "link": "https://x.com/gyohwanyan26821/status/2092549798469754984",
-          "source_type": "x",
-          "source_name": "X · @gyohwanyan26821",
-          "time": "18:48",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "피크민 모자 팬싸템 대여합니다 개당0.8 https://t.co/p9zAvibPiN  하츠웨이브 클라씨 온앤오프 에이엠피 원어스 클유아 하투하 ",
-          "link": "https://x.com/gyohwanyan26821/status/2092549584497287249",
-          "source_type": "x",
-          "source_name": "X · @gyohwanyan26821",
-          "time": "18:47",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "@HIGHER_twt #하이어 #HIGHER #리센느 #RESCENE #쇼음악중심방청권 여돌 ♡ 나  음중 가고 싶어요 ㅠㅠ..🥹 https:/",
           "link": "https://x.com/Hmmmmmly/status/2092546843502952486",
           "source_type": "x",
@@ -184225,17 +183093,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 할리스 커피 신라공주 제나 포카 포토카드 개당 배송비 포함 1.7에 판매 양도합니다 하자 절대 X Rescene hollys Zena p",
-          "link": "https://x.com/3CAT9Xp46RVQsJ2/status/2092537030915883047",
-          "source_type": "x",
-          "source_name": "X · @3CAT9Xp46RVQsJ2",
-          "time": "17:58",
-          "category": "기타",
-          "members": [
-            "제나"
           ]
         },
         {
@@ -184506,21 +183363,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 립밤 앨범 일반반 미개봉 판매  set: 5.0  원이 리브 미나미 메이 제나 rescene sell https://t.co/mnT4jN",
-          "link": "https://x.com/geolaegye158473/status/2092523943098020329",
-          "source_type": "x",
-          "source_name": "X · @geolaegye158473",
-          "time": "17:05",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
@@ -184899,30 +183741,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 한스킨 포카 교환  저 제나 님 미나미 or 제나미  연락주세요 ㅠㅠ https://t.co/XcfhVkyqiU",
-          "link": "https://x.com/ourharrysuicide/status/2092498980710342820",
-          "source_type": "x",
-          "source_name": "X · @ourharrysuicide",
-          "time": "15:26",
-          "category": "기타",
-          "members": [
-            "미나미",
-            "제나"
-          ]
-        },
-        {
-          "title": "리센느 할리스 포카 교환 구합니당…. 리브→제나 디엠주세요!!! https://t.co/RExU6teqQy",
-          "link": "https://x.com/eusooe/status/2092498238335222156",
-          "source_type": "x",
-          "source_name": "X · @eusooe",
-          "time": "15:23",
-          "category": "기타",
-          "members": [
-            "리브",
-            "제나"
-          ]
-        },
-        {
           "title": "리센느♡할리스 커피 https://t.co/8PTIoASAhQ",
           "link": "https://x.com/rrrr__1089/status/2092496171667534083",
           "source_type": "x",
@@ -185088,19 +183906,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "할리스 포카 교환 원해요! 저 (제나, 원이) 당신 (리브) #리마인 #리브 #리센느 https://t.co/tgZKwfsgn2",
-          "link": "https://x.com/livbujin/status/2092488519910617566",
-          "source_type": "x",
-          "source_name": "X · @livbujin",
-          "time": "14:45",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "제나"
-          ]
-        },
-        {
           "title": "2026/8/26 14:30 (KST) https://t.co/YcCwtsr6XX 1.RESCENE(리센느)-LOVE ATTACK 2.BIGBA",
           "link": "https://x.com/instiz_ichart/status/2092485198055440761",
           "source_type": "x",
@@ -185109,32 +183914,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 할리스 커피 신라공주 제나 포카 포토카드 개당 배송비 포함 2.0에 판매 양도합니다 하자 절대 X Rescene hollys Zena p",
-          "link": "https://x.com/3CAT9Xp46RVQsJ2/status/2092483815478600169",
-          "source_type": "x",
-          "source_name": "X · @3CAT9Xp46RVQsJ2",
-          "time": "14:26",
-          "category": "기타",
-          "members": [
-            "제나"
-          ]
-        },
-        {
-          "title": "리센느 치이카와 포카 판매합니다♡  미나미,메이,원이X 리브: 3.0 제나: 3.5 일괄시 6.0  아직 중국에서 오고 있습니다  RESCENE",
-          "link": "https://x.com/kssh_2/status/2092481834433270148",
-          "source_type": "x",
-          "source_name": "X · @kssh_2",
-          "time": "14:18",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
@@ -185376,36 +184155,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 할리스 포토카드 교환  저 메이 님 원이 리브 미나미 제나  서울 4호선 직거래 가능 디엠주세요 https://t.co/gzBtyKYYf",
-          "link": "https://x.com/seanwithlight/status/2092474607668441588",
-          "source_type": "x",
-          "source_name": "X · @seanwithlight",
-          "time": "13:49",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
-          "title": "리센느 치이카와 포카 판매합니다♡  미나미,메이,원이X 리브: 4.0 제나: 4.5 일괄시 8.0  아직 중국에서 오고 있습니다  RESCENE",
-          "link": "https://x.com/kssh_2/status/2092474287366287373",
-          "source_type": "x",
-          "source_name": "X · @kssh_2",
-          "time": "13:48",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
           "title": "@uhmgoon 너는 빨리 할리스 가서 리센느 세트를 사먹고 포카를 받아와라.",
           "link": "https://x.com/zingniz/status/2092471998966616249",
           "source_type": "x",
@@ -185592,18 +184341,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "할리스 리센느 포토카드 포카  저 메이 님 원이  교환하실 분 연락주세요 ㅠㅡㅜ",
-          "link": "https://x.com/ourharrysuicide/status/2092461784766840921",
-          "source_type": "x",
-          "source_name": "X · @ourharrysuicide",
-          "time": "12:59",
-          "category": "기타",
-          "members": [
-            "원이",
-            "메이"
           ]
         },
         {
@@ -187884,36 +186621,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 치이카와 포카 판매합니다♡  미나미,메이,원이X 리브: 4.0 제나: 4.5  아직 중국에서 오고 있습니다  RESCENE 포토카드 포카",
-          "link": "https://x.com/kssh_2/status/2092305600495718522",
-          "source_type": "x",
-          "source_name": "X · @kssh_2",
-          "time": "02:38",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
-          "title": "리센느 포카 판매합니다♥︎  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카 팬싸 팬사인회 앨범 대면 영통 글로우업 glow up bl",
-          "link": "https://x.com/kssh_2/status/2092305324728635858",
-          "source_type": "x",
-          "source_name": "X · @kssh_2",
-          "time": "02:37",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
           "title": "심지어 마나 이 분 애기 때부터 유명한 카밀리아인거.. 카라랑 리센느 진짜 뭔가뭔가가 있나 봐.. https://t.co/nm8xU3y0UN",
           "link": "https://x.com/jjammoodii/status/2092304078093332502",
           "source_type": "x",
@@ -188558,21 +187265,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 립밤 앨범 일반반 미개봉 판매  set: 5.0  원이 리브 미나미 메이 제나 rescene sell https://t.co/mnT4jN",
-          "link": "https://x.com/geolaegye158473/status/2092262694372147331",
-          "source_type": "x",
-          "source_name": "X · @geolaegye158473",
-          "time": "23:47",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
@@ -190919,17 +189611,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "공방 준비물 kwda 케이월드 드림어워즈 대여  ✨응원봉 2.0 (+보증금 2.0)  - 싸이커스 - 에이티즈 - 라이즈 - 미야오 - 리센느 ",
-          "link": "https://x.com/georaedayoyo/status/2092134217396424899",
-          "source_type": "x",
-          "source_name": "X · @georaedayoyo",
-          "time": "15:17",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "[코리아투데이뉴스] 거제시 홍보대사 리센느, 호우 피해 복구에 나눔 실천 https://t.co/O2jIxzRg5G",
           "link": "https://x.com/tokyu58/status/2092130399413780546",
           "source_type": "x",
@@ -191225,17 +189906,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "팬싸템 대여 해드립니다:) 프로필 참고해주세요!  ✔️배달,택배(우체국),현장수령가능  하츠웨이브 클라씨 온앤오프 에이엠피 원어스 클유아 하투하",
-          "link": "https://x.com/green030405/status/2092121440741154863",
-          "source_type": "x",
-          "source_name": "X · @green030405",
-          "time": "14:26",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -192689,28 +191359,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "피크민 모자 팬싸템 대여합니다 개당0.8 https://t.co/p9zAvibPiN  하츠웨이브 클라씨 온앤오프 에이엠피 원어스 클유아 하투하 ",
-          "link": "https://x.com/gyohwanyan26821/status/2092031841859670510",
-          "source_type": "x",
-          "source_name": "X · @gyohwanyan26821",
-          "time": "08:30",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "사격팬싸템 대여합니다 2.0 https://t.co/p9zAvibPiN  하츠웨이브 클라씨 온앤오프 에이엠피 원어스 클유아 하투하 트리플에스 아",
-          "link": "https://x.com/gyohwanyan26821/status/2092031524602585452",
-          "source_type": "x",
-          "source_name": "X · @gyohwanyan26821",
-          "time": "08:29",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -196360,17 +195008,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "8/27 K-WORLD DREAM AWARDS Redcarpet ticket   케이 월드 드림 어워즈 레드카펫 티켓 판매 오카로 연락 주시거나",
-          "link": "https://x.com/9988yangyang/status/2091473585076600951",
-          "source_type": "x",
-          "source_name": "X · @9988yangyang",
-          "time": "19:32",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "2026/8/23 19:30 (KST) https://t.co/YcCwtsr6XX 1.RESCENE(리센느)-LOVE ATTACK 2.BIGBA",
           "link": "https://x.com/instiz_ichart/status/2091473533079842890",
           "source_type": "x",
@@ -199045,17 +197682,6 @@ const SITE_DATA = {
           "link": "https://x.com/axlemxze/status/2091393926318240201",
           "source_type": "x",
           "source_name": "X · @axlemxze",
-          "time": "14:15",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "팬싸템 대여 해드립니다:) 프로필 참고해주세요!  ✔️배달,택배(우체국),현장수령가능  하츠웨이브 클라씨 온앤오프 에이엠피 원어스 클유아 하투하",
-          "link": "https://x.com/green030405/status/2091393756499251644",
-          "source_type": "x",
-          "source_name": "X · @green030405",
           "time": "14:15",
           "category": "기타",
           "members": [
@@ -201869,17 +200495,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 미나미가 최근 갖고 다녀 화제가 된 가방이 정가 12만 9000원짜리라더라. 패션플랫폼 29CM에서는 8만 7720원에 판매되고 있다고.",
-          "link": "https://x.com/sonsarang3814/status/2091290758225797360",
-          "source_type": "x",
-          "source_name": "X · @sonsarang3814",
-          "time": "07:25",
-          "category": "기타",
-          "members": [
-            "미나미"
-          ]
-        },
-        {
           "title": "Runaway - RESCENE (리센느) - 들어보세요.  https://t.co/SqbRsOqtcm",
           "link": "https://x.com/yunamkk/status/2091290420009697319",
           "source_type": "x",
@@ -204050,21 +202665,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "리센느 포카 판매합니다♥︎  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카 팬싸 팬사인회 앨범 대면 영통 글로우업 glow up bl",
-          "link": "https://x.com/kssh_2/status/2091168351951479156",
-          "source_type": "x",
-          "source_name": "X · @kssh_2",
-          "time": "23:19",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
@@ -206476,21 +205076,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 치이카와 포카 판매합니다♡  미나미,메이,원이X 리브: 3.5 제나: 4.0  아직 중국에서 오고 있습니다  RESCENE 포토카드 포카",
-          "link": "https://x.com/kssh_2/status/2091090060229914986",
-          "source_type": "x",
-          "source_name": "X · @kssh_2",
-          "time": "18:08",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
@@ -210450,17 +209035,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "놀페 10.17 (토) 티켓  A구역 2장 판매  &gt; 1장 40 &gt; 일괄 70   인증가능 !!   코르티스 엔위시 리센느 빌리 크래",
-          "link": "https://x.com/kimbob28906/status/2090975327355015649",
-          "source_type": "x",
-          "source_name": "X · @kimbob28906",
-          "time": "10:32",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "2026/8/22 10:30 (KST) https://t.co/YcCwtsr6XX 1.RESCENE(리센느)-LOVE ATTACK 2.BIGBA",
           "link": "https://x.com/instiz_ichart/status/2090975249005433041",
           "source_type": "x",
@@ -212892,17 +211466,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @K4y2n",
           "time": "00:40",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "ㅈㅍ ㅈㅂㅍㅁ 정보판매 엔시티 위시 드림 127 보넥도 코르티스 하투하 제베원 올데프 라이즈 투어스 스키즈 아이딧 아이덴티티 엔하이픈 투바투 크",
-          "link": "https://x.com/kkyuing92524000/status/2090825681844515307",
-          "source_type": "x",
-          "source_name": "X · @kkyuing92524000",
-          "time": "00:37",
           "category": "기타",
           "members": [
             "전체"
@@ -216298,17 +214861,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "팬싸템 대여 해드립니다:) 프로필 참고해주세요!  ✔️배달,택배(우체국),현장수령가능  하츠웨이브 클라씨 온앤오프 에이엠피 원어스 클유아 하투하",
-          "link": "https://x.com/green030405/status/2090734581381247311",
-          "source_type": "x",
-          "source_name": "X · @green030405",
-          "time": "18:35",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "CU 공식 IG, X 리센느, 일상의 모든 Scene을 함께하는 CU에서 만나는 RESCENE #리센느 #CU https://t.co/vAqyg",
           "link": "https://x.com/southhero_0917/status/2090734044535492753",
           "source_type": "x",
@@ -217133,17 +215685,6 @@ const SITE_DATA = {
           "source_type": "community",
           "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
           "time": "17:02",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 레미니 밍 풀세트 판매 10.0  받고 바로 보관해놔서 흠집 없이 깨끗합니다. 구매하실 분들만 연락주세요  https://t.co/sdd",
-          "link": "https://x.com/nekokomito/status/2090710854941725013",
-          "source_type": "x",
-          "source_name": "X · @nekokomito",
-          "time": "17:01",
           "category": "기타",
           "members": [
             "전체"
@@ -222719,21 +221260,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 치이카와 포카 판매합니다♡  미나미,메이X 원이:4.5 리브: 3.5 제나: 4.0  아직 중국에서 오고 있습니다  RESCENE 포토카",
-          "link": "https://x.com/kssh_2/status/2090425126705856964",
-          "source_type": "x",
-          "source_name": "X · @kssh_2",
-          "time": "22:06",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
           "title": "260820 리센느 틱톡   수빈 선배님과 어디서나 당당하게 걷기 🎀  #수빈 #SOOBIN https://t.co/xitxWmnaco",
           "link": "https://x.com/bunnychive/status/2090424888515588281",
           "source_type": "x",
@@ -224844,17 +223370,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "팬싸템 대여 해드립니다:) 프로필 참고해주세요!  ✔️배달,택배(우체국),현장수령가능  하츠웨이브 투어스 클라씨 온앤오프 에이엠피 원어스 클유아",
-          "link": "https://x.com/green030405/status/2090361587966349782",
-          "source_type": "x",
-          "source_name": "X · @green030405",
-          "time": "17:53",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 미나미 지짜예브다",
           "link": "https://x.com/akftmdsid/status/2090360860741095549",
           "source_type": "x",
@@ -226510,17 +225025,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @hotnews_oxo",
           "time": "15:00",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "놀페스티벌 놀페 NOL페스티벌 구역 교환  Me: DAY1 a구역  You: DAY1  b구역  티켓 선물하기로 교환 구하고 현장 교환도 시간 ",
-          "link": "https://x.com/5apx2hic/status/2090317732235653441",
-          "source_type": "x",
-          "source_name": "X · @5apx2hic",
-          "time": "14:59",
           "category": "기타",
           "members": [
             "전체"
@@ -230981,17 +229485,6 @@ const SITE_DATA = {
           "category": "외부컨텐츠",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "놀페스티벌 놀페 NOL페스티벌 구역 교환  Me: DAY1 a구역  You: DAY1  b구역  티켓 선물하기로 교환 구하고 현장 교환도 시간 ",
-          "link": "https://x.com/5apx2hic/status/2090111267470290971",
-          "source_type": "x",
-          "source_name": "X · @5apx2hic",
-          "time": "01:18",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -242101,17 +240594,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "🩷 리센느 리브 증명사진 판매 🩷  직접 제작한 리브 증명사진을 판매합니다!  • 2장 — 3,000원 • 4장 — 5,000원 • 6장 — 7",
-          "link": "https://x.com/livphotobox/status/2089743769721881010",
-          "source_type": "x",
-          "source_name": "X · @livphotobox",
-          "time": "00:58",
-          "category": "기타",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "내 유튜브 알고리즘은 어쩌다 리센느로 도배됐을까? 보다 보니 입덕....",
           "link": "https://blog.naver.com/ssagka/224382763800",
           "source_type": "community",
@@ -242274,17 +240756,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "ミ★ 리센느 비공굿 랜봉 랜박 판매 ★ ミ  #RT 추첨 한 분께 0.5 랜봉을 보내드립니다  🔗 https://t.co/oddzomBMja  ",
-          "link": "https://x.com/hooyezn/status/2089737983780155700",
-          "source_type": "x",
-          "source_name": "X · @hooyezn",
-          "time": "00:35",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -249672,21 +248143,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 포카 판매합니다♥︎  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카 팬싸 팬사인회 앨범 대면 영통 글로우업 glow up bl",
-          "link": "https://x.com/kssh_2/status/2089394776840012210",
-          "source_type": "x",
-          "source_name": "X · @kssh_2",
-          "time": "01:51",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
           "title": "리센느 의 영향인지 확실히 버스이용자가 늘었는데 그에비해 부족해...............",
           "link": "https://x.com/RnflRo/status/2089391171038839162",
           "source_type": "x",
@@ -250779,34 +249235,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 미나미 인형 밍 판매합니다♡ | 14.0 단순 개봉 상품입니다 하자X 인형+포카 모든 구성 포함입니다  RESCENE 원이 리브 미나미 ",
-          "link": "https://x.com/kichjt/status/2089333516425441402",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "21:48",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미"
-          ]
-        },
-        {
-          "title": "리센느 포카 판매합니다♥︎  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카 팬싸 팬사인회 앨범 대면 영통 글로우업 glow up bl",
-          "link": "https://x.com/kichjt/status/2089333429859160205",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "21:48",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
           "title": "리센느  RESCENE  (AUG)  🇺🇸 USA LA LA  FLIGHT INFO    #RESCENE #FLIGHT",
           "link": "https://x.com/yuna4626/status/2089333269477134805",
           "source_type": "x",
@@ -250848,21 +249276,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 미나미 싸인 폴라 판매합니다♡ | 가격 제시 3개 다 당첨 인증,정면 응시👌🏻  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카",
-          "link": "https://x.com/kichjt/status/2089327904740307178",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "21:26",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
@@ -252389,21 +250802,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "리센느 포카 판매합니다♥︎  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카 팬싸 팬사인회 앨범 대면 영통 글로우업 glow up bl",
-          "link": "https://x.com/kichjt/status/2089246359060943051",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "16:02",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
@@ -255079,19 +253477,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 미나미 인형 밍 판매합니다♡ | 15.0 단순 개봉 상품입니다 하자X 인형+포카 모든 구성 포함입니다  RESCENE 원이 리브 미나미 ",
-          "link": "https://x.com/kichjt/status/2089117289887252744",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "07:29",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미"
-          ]
-        },
-        {
           "title": "리센느 원이가 거제도 출신인데 ㅠㅠ https://t.co/ilKj4kSYm8",
           "link": "https://x.com/SEOJH3180/status/2089116629724778629",
           "source_type": "x",
@@ -255566,19 +253951,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 미나미 인형 밍 판매합니다♡ | 15.0 단순 개봉 상품입니다 하자X 인형+포카 모든 구성 포함입니다  RESCENE 원이 리브 미나미 ",
-          "link": "https://x.com/kichjt/status/2089084429528646104",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "05:18",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미"
-          ]
-        },
-        {
           "title": "리센느헤드폰 보스 QC 2세대 그린 내돈내산 심층 후기 (추천)",
           "link": "https://blog.naver.com/treega1/224380805195",
           "source_type": "community",
@@ -255587,21 +253959,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 미나미 싸인 폴라 판매합니다♡ | 가격 제시 3개 다 당첨 인증,정면 응시👌🏻  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카",
-          "link": "https://x.com/kichjt/status/2089080133517001035",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "05:01",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
@@ -257698,21 +256055,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 미나미 싸인 폴라 판매합니다♡ | 가격 제시 3개 다 당첨 인증,정면 응시👌🏻  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카",
-          "link": "https://x.com/kichjt/status/2088952235103490225",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "20:33",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
           "title": "리센느, 신라 공주됐다... 경주시 홍보대사 첫 공식 활동 https://t.co/I1DcXMiKCZ via @YouTube",
           "link": "https://x.com/reaperV2X3/status/2088951678037115165",
           "source_type": "x",
@@ -257752,28 +256094,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @yunamkk",
           "time": "20:15",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#ㅈㅂㅍㅁ #정보판매 #사생 #사수니   교환o 싸게 팔아여 3개 이상 구매시 에눌 옾챗송금만 계좌x 답장 빠름  https://t.co/BxJ",
-          "link": "https://x.com/sell0nly/status/2088947187690647823",
-          "source_type": "x",
-          "source_name": "X · @sell0nly",
-          "time": "20:13",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#ㅈㅂㅍㅁ #정보판매 #사생 #사수니   교환o 싸게 팔아여 3개 이상 구매시 에눌 옾챗송금만 계좌x 답장 빠름  https://t.co/BxJ",
-          "link": "https://x.com/sell0nly/status/2088947160855543890",
-          "source_type": "x",
-          "source_name": "X · @sell0nly",
-          "time": "20:13",
           "category": "기타",
           "members": [
             "전체"
@@ -257890,43 +256210,10 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "#ㅈㅂㅍㅁ  교환o 싸게 팔아여 3개 이상 구매시 네고 ㄱㄴ 옾챗송금만 계좌x 답장 빠름  https://t.co/BxJlkuRmWY  ㅈㅂㅍㅁ",
-          "link": "https://x.com/sell0nly/status/2088945085631398074",
-          "source_type": "x",
-          "source_name": "X · @sell0nly",
-          "time": "20:04",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "LOVE ATTACK - RESCENE (리센느) - 들어보세요.  https://t.co/SNx9I3sPnS",
           "link": "https://x.com/yunamkk/status/2088944838037434708",
           "source_type": "x",
           "source_name": "X · @yunamkk",
-          "time": "20:03",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#ㅈㅂㅍㅁ  교환o 싸게 팔아여 3개 이상 구매시 네고 ㄱㄴ 옾챗송금만 계좌x 답장 빠름  https://t.co/BxJlkuRmWY  ㅈㅂㅍㅁ",
-          "link": "https://x.com/sell0nly/status/2088944834774192542",
-          "source_type": "x",
-          "source_name": "X · @sell0nly",
-          "time": "20:03",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "#ㅈㅂㅍㅁ  교환o 싸게 팔아여 3개 이상 구매시 네고 ㄱㄴ 옾챗송금만 계좌x 답장 빠름  https://t.co/BxJlkuRmWY  ㅈㅂㅍㅁ",
-          "link": "https://x.com/sell0nly/status/2088944779275157736",
-          "source_type": "x",
-          "source_name": "X · @sell0nly",
           "time": "20:03",
           "category": "기타",
           "members": [
@@ -259432,21 +257719,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 미나미 싸인 폴라 판매합니다♡ | 가격 제시 3개 다 당첨 인증,정면 응시👌🏻  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카",
-          "link": "https://x.com/kichjt/status/2088907229487673451",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "17:34",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
           "title": "태연을 감동시킨 리센느  놀라운 토요일에 리센느 출연했는데  사진 보고 노래 제목 맞히는 퀴즈가 나옴  소녀시대 2007년 데뷔곡 '다시 만난 ",
           "link": "https://x.com/wadda1018/status/2088905814727962838",
           "source_type": "x",
@@ -259466,21 +257738,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "메이"
-          ]
-        },
-        {
-          "title": "리센느 포카 판매합니다♥︎  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카 팬싸 팬사인회 앨범 대면 영통 글로우업 glow up bl",
-          "link": "https://x.com/kichjt/status/2088903493432279201",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "17:19",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
@@ -261415,17 +259672,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "팬싸템 대여 해드립니다:) 프로필 참고해주세요!  ✔️배달,택배(우체국),현장수령가능  하츠웨이브 투어스 클라씨 온앤오프 하츠투하츠 원어스 클유",
-          "link": "https://x.com/green030405/status/2088841328721555943",
-          "source_type": "x",
-          "source_name": "X · @green030405",
-          "time": "13:12",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "콘서트 팬미팅 대리 문의 받습니다 !! 한 그룹에 두 명만 받아요   코르티스 엔시티 127 드림 위시 보넥도 데이식스 라이즈 투어스 앤팀 방탄",
           "link": "https://x.com/mmmdl27/status/2088841217576714445",
           "source_type": "x",
@@ -261961,18 +260207,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "리센느 원이 도미노 피자 포토카드 판매  가격 1.0  오자마자 하자 없는거 확인하고 슬리브랑 탑로더에 넣어놨어요!  https://t.co/i",
-          "link": "https://x.com/k_itty0106/status/2088818609753858396",
-          "source_type": "x",
-          "source_name": "X · @k_itty0106",
-          "time": "11:42",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브"
           ]
         },
         {
@@ -264340,17 +262574,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "놀페스티벌 kpop스테이지 17일 Day1 E구역판매합니다!! 일괄 20 가격제안 가능 인증 O  놀페 놀페스티벌 엔시티위시 위시 시온 리쿠 유",
-          "link": "https://x.com/_s2hx0/status/2088683718919786555",
-          "source_type": "x",
-          "source_name": "X · @_s2hx0",
-          "time": "02:46",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "dej vu 리센느 원이",
           "link": "https://blog.naver.com/tim1306/224379919573",
           "source_type": "community",
@@ -264572,21 +262795,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "리센느 미나미 싸인 폴라 판매합니다♡ | 가격 제시 3개 다 당첨 인증,정면 응시👌🏻  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카",
-          "link": "https://x.com/kichjt/status/2088667792354775432",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "01:43",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
-          ]
-        },
-        {
           "title": "오늘 … 한빈🫰나  이즈나 🫰 나 아일릿 🫰 나 리센느 🫰 나  하러 간다 🫰🫰",
           "link": "https://x.com/agitensi/status/2088666062393139429",
           "source_type": "x",
@@ -264786,17 +262994,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "놀페스티벌 kpop스테이지 17일 Day1 E구역판매합니다!! 일괄 20 가격제안 O 인증 O  놀페 놀페스티벌 엔시티위시 위시 시온 리쿠 유우",
-          "link": "https://x.com/_s2hx0/status/2088654359878131812",
-          "source_type": "x",
-          "source_name": "X · @_s2hx0",
-          "time": "00:49",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "RESCENE (리센느)의 lip bomb - 추천합니다.  https://t.co/ODHzdm502l",
           "link": "https://x.com/chltkdtkd/status/2088654234048999933",
           "source_type": "x",
@@ -264898,21 +263095,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "리센느 포카 판매합니다♥︎  RESCENE 원이 리브 미나미 메이 제나 포토카드 포카 팬싸 팬사인회 앨범 대면 영통 글로우업 glow up bl",
-          "link": "https://x.com/kichjt/status/2088644344094036182",
-          "source_type": "x",
-          "source_name": "X · @kichjt",
-          "time": "00:09",
-          "category": "기타",
-          "members": [
-            "원이",
-            "리브",
-            "미나미",
-            "메이",
-            "제나"
           ]
         },
         {
