@@ -15,6 +15,7 @@ import requests
 
 from config import X_SEARCH_QUERIES, X_SEARCH_MAX_RESULTS, CHART_KEYWORDS
 from db import init_db, get_conn, insert_item
+from x_filter import is_trading_or_spam
 
 X_SEARCH_URL = "https://api.x.com/2/tweets/search/recent"
 
@@ -71,6 +72,8 @@ def collect_x(conn):
         for t in tweets:
             if not _is_our_group(t["text"]):
                 continue
+            if is_trading_or_spam(t["text"]):
+                continue  # 포카 양도·대리찍사·팬싸컷 상담·토토 광고 등 소식이 아닌 글
             title = t["text"][:80].replace("\n", " ")
             is_new = insert_item(
                 conn, "x", f"X · @{t['username']}", title, t["link"],
