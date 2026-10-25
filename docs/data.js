@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-25 20:51",
+  "generated_at": "2026-10-25 21:05",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -2449,17 +2449,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "FLARE U (플레어 유) - Bloom (너의 계절이 찾아와) | Show! MusicCore | MBC261024방송",
-          "link": "https://www.youtube.com/watch?v=dlKfi_XKoWo",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "15:42",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느, 미니 4집 트랙리스트 공개…타이틀곡은 ‘With’",
           "link": "http://enews.imbc.com/News/RetrieveNewsInfo/522316",
           "source_type": "news",
@@ -4597,17 +4586,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[JJaeLiView_BEHIND] FLARE U [THE SHOW]",
-          "link": "https://www.youtube.com/watch?v=mh6LjWd123k",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "12:00",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "미나미, 드라마 주제곡 가창…'메리 베리 러브' OST 출격",
           "link": "http://www.dispatch.co.kr/2349695",
           "source_type": "news",
@@ -6182,28 +6160,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "FLARE U - CHUEI LI YU '너의 계절이 찾아와(Bloom)’ [플레어유-최립우] [THE SHOW] 261020 방송 [FAN PICK CAM 4K]",
-          "link": "https://www.youtube.com/watch?v=AEL5vlUyBHk",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "19:00",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[🔴라이브] 10/24 SATㅣ쇼! 음악중심ㅣKPOP LIVEㅣ#BABYMONSTER #IVE #MEOVV #NCTWISH #NMIXX",
-          "link": "https://www.youtube.com/watch?v=Nr35En4vFEQ",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "18:08",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "RESCENE [PULSE] Concept Trailer",
           "link": "https://www.youtube.com/watch?v=JCdkBe3d2b8",
           "source_type": "youtube",
@@ -7042,7 +6998,7 @@ const SITE_DATA = {
           "time": "04:27",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "메이"
           ]
         },
         {
@@ -7545,50 +7501,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[JJaeLiView] FLARE U [THE SHOW] 261020 방송",
-          "link": "https://www.youtube.com/watch?v=Lw6hBXwaJVk",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "17:11",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[JJaeLiView] KO1KEYZ [THE SHOW] 261020 방송",
-          "link": "https://www.youtube.com/watch?v=_ryEAFh4OLk",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "17:07",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[JJaeLiView] MODYSSEY [THE SHOW] 261020 방송",
-          "link": "https://www.youtube.com/watch?v=Rx5OhJQ-gSY",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "17:04",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "화제의 MC 라인업 어떻게 했냐고요? [🗼TOKYO BEHIND EP.02] @SBS 2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=KAr4jccxTI8",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "17:00",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -8163,7 +8075,7 @@ const SITE_DATA = {
           "time": "09:43",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "제나"
           ]
         },
         {
@@ -9114,17 +9026,6 @@ const SITE_DATA = {
       "date": "2026-10-20",
       "date_display": "2026년 10월 20일",
       "items": [
-        {
-          "title": "[FAN PICK CAM 4K] FLARE U - CHUEI LI YU '너의 계절이 찾아와(Bloom)’ [플레어유-최립우] [THE SHOW] 261020 방송",
-          "link": "https://www.youtube.com/watch?v=EcZ4TpWK0hY",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "23:40",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
         {
           "title": "수호천사로 변신한 리센느…신비로운 매력 발산",
           "link": "https://mhnse.com/news/articleView.html?idxno=1604722",
@@ -10680,7 +10581,7 @@ const SITE_DATA = {
           "time": "05:46",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -14477,17 +14378,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[#음중풀캠] FLARE U (플레어 유) – 너의 계절이 찾아와 (Bloom) FullCam | 쇼! 음악중심 | MBC261017",
-          "link": "https://www.youtube.com/watch?v=oh6TAo9OA1o",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "17:08",
-          "category": "음악방송",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "언니 나 빼고 촬영 갔어?",
           "link": "https://www.youtube.com/watch?v=3Vb2TGjxDes",
           "source_type": "youtube",
@@ -15293,39 +15183,6 @@ const SITE_DATA = {
           "category": "외부컨텐츠",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "인기가요MC 경력직 조합 💖[🗼TOKYO BEHIND EP.02｜멤버십 선공개] @SBS 2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=tRk4S_QmrvQ",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "20:58",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "MC 의주💗앤팀 [🗼TOKYO BEHIND EP.02｜멤버십 선공개] @SBS 2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=DrtLVWg3uH8",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "20:52",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "MC 엄앤안 🩵 마틴형아 [🗼TOKYO BEHIND EP.02｜멤버십 선공개] @SBS 2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=OGIMZNdbkW8",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "20:49",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -16238,17 +16095,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[🔴LIVE] 2026 THE SHOW Ep.401 (2026.10.20) l A2O LITE, A2O SOUL, FLARE U, SUNG HANBIN, KO1KEYZ, etc.",
-          "link": "https://www.youtube.com/watch?v=eAUA0r9SzHE",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "10:12",
-          "category": "Live",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -19259,17 +19105,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[🔴라이브] 10/17 SATㅣ쇼! 음악중심ㅣKPOP LIVEㅣ#ALLDAYPROJECT #KickFlip #BOYNEXTDOOR #NCTWISH #KO1KEYZ",
-          "link": "https://www.youtube.com/watch?v=OckzCUG2Pl0",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "15:52",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -23093,17 +22928,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "백스테이지의 귀여움은 놓치면 손해 [🗼TOKYO BEHIND EP.01] @SBS 2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=JQsQV4OGI78",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "17:00",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -33858,17 +33682,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "꾹이는 언제나 제자리걸음 | 빅크 단독! THE CON 2022: 김종국",
-          "link": "https://www.youtube.com/watch?v=CiztTIWh-S8",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "17:00",
-          "category": "외부컨텐츠",
-          "members": [
-            "제나"
-          ]
-        },
-        {
           "title": "[포토] 새벽부터 기다린 팬들…리센느, 대전 동구동락 무대 빛냈다 - 타임뉴스",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsTW51Vkp1QUVZSW4xVDlUMGVrSDhVREVhUTJpUS15Zk03dlFfZnlxR2ZTNFlYcmJ2aEVVejZyaFg1NTNfSzR3cElXaTJTbHhMWUF6Yg?oc=5",
           "source_type": "news",
@@ -37488,7 +37301,7 @@ const SITE_DATA = {
           "time": "15:04",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "제나"
           ]
         },
         {
@@ -39746,39 +39559,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "괜히 장인들이 아닙니다. [🗼TOKYO BEHIND EP.01｜멤버십 선공개] @SBS 2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=XBrzUjFUCv4",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "20:58",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "HANA, 하투하, 인가 이 셋의 만남 기쁘다. [🗼TOKYO BEHIND EP.01｜멤버십 선공개] @SBS 2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=QqeO4KyzqxU",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "20:41",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "핫플 지킴이는 출동 🛫 [🗼TOKYO BEHIND EP.01｜멤버십 선공개] @SBS 2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=M-nkhsLOKok",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "20:35",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "리센느에게 이선민 있다면…유스피어에 기안84 있다 - 뉴시스",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXakUwUEc3Z0JjNW12S2NpOXpqZkJad3plUkx5YnBBcXRIeVZVT09qOEU2N2c1SmppWWRYcmotbVVLYXk0V213dlRYcGVwdHM4Zk1wNkRMV01ZTzQ4aENMVdIBeEFVX3lxTE1LcVVHdmNXRjRFUHFvMmpsZm4wMUVnb19SMW40RU00dmN2MVVZNklZY1pySXV6VHY4S2l1enJhWmFET1RUWktvTjlCcUVhZWVya2gxZV9mN1Jwb0g5NWRIaWgtLXM5SGRCdEpSbF9DR3pZdjZfVE5weQ?oc=5",
           "source_type": "news",
@@ -40673,17 +40453,6 @@ const SITE_DATA = {
           "source_name": "네이버 뉴스",
           "time": "12:26",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[JJaeLiView_BEHIND] CRAVITY [THE SHOW]",
-          "link": "https://www.youtube.com/watch?v=YwFtj90L5Jo",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "12:00",
-          "category": "외부컨텐츠",
           "members": [
             "전체"
           ]
@@ -42901,6 +42670,10 @@ const SITE_DATA = {
           "time": "17:39",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
             "제나"
           ]
         },
@@ -42912,6 +42685,8 @@ const SITE_DATA = {
           "time": "17:39",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
             "미나미"
           ]
         },
@@ -42945,7 +42720,11 @@ const SITE_DATA = {
           "time": "17:37",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -43100,17 +42879,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[🔴라이브] 10/10 SATㅣ쇼! 음악중심ㅣKPOP LIVEㅣ#ALLDAYPROJECT #KickFlip #TUIDE #NiziU #KO1KEYZ",
-          "link": "https://www.youtube.com/watch?v=qtDYtTtIRTo",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "15:42",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -45214,6 +44982,10 @@ const SITE_DATA = {
           "time": "01:39",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
             "제나"
           ]
         },
@@ -45954,45 +45726,12 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[JJaeLiView] CRAVITY [THE SHOW] 261006 방송",
-          "link": "https://www.youtube.com/watch?v=Q71NjEAGtQA",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "18:54",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "메가스터디 #리센느 https://t.co/xadokJ3gJl",
           "link": "https://x.com/tang_2i/status/2107771380922196182",
           "source_type": "x",
           "source_name": "X · @tang_2i",
           "time": "18:53",
           "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[JJaeLiView] ONEUS [THE SHOW] 261006 방송",
-          "link": "https://www.youtube.com/watch?v=WrtDopzob3s",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "18:52",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[JJaeLiView] CLOSE YOUR EYES [THE SHOW] 261006 방송",
-          "link": "https://www.youtube.com/watch?v=mbG3-gGhmPw",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "18:46",
-          "category": "외부컨텐츠",
           "members": [
             "전체"
           ]
@@ -49189,17 +48928,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "밴드는 차원이 달라 병.zip 📂 Show! Music Core Band Special Compilation",
-          "link": "https://www.youtube.com/watch?v=yiTsAvIo9gI",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "17:30",
-          "category": "외부컨텐츠",
-          "members": [
-            "원이"
-          ]
-        },
-        {
           "title": "리센느  지방 축제 섭외 1순위 걸그룹 - 의령 인구 18배를 불러 모으....",
           "link": "https://blog.naver.com/iamoldtoday/224432871602",
           "source_type": "community",
@@ -49978,160 +49706,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 투모로우바이투게더 'INTRO + 하루에 하루만 더 (Stick With You)' (TXT FullCam)@2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=kkUsiLek-8U",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:17",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 하나 'INTRO + Blue Jeans' (HANA FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=x7_x6LW-DXo",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 키키 'Pop Off Pop Off' (KiiiKiii FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=c-PfE-6jSd8",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 알파드라이브원 'INTRO + BORN DIRE' (ALPHA DRIVE ONE FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=EC_gQuUS13I",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 니쥬 'INTRO + 운명선' (NiziU 'INTRO + LOVELINE' FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=EijBUgnqEUA",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 비퍼스트 'INTRO + WATCH ME' (BE:FIRST FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=F_YalE905S4",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 이퀄러브 '사랑, 시작했습니다. (恋、はじめました。)' (=LOVE FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=SHRhFKqu11I",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 앤팀 'INTRO + Good Boy' (&TEAM FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=VqusyIv_PHY",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 라이즈 'INTRO + Do your dance' (RIIZE FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=WdUrSrNM2iE",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 킥플립 '거꾸로' (KickFlip 'Backward' FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=lGHL8vL-Iws",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 아이브 'INTRO + BANG BANG' (IVE FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=pVkEcdqivtg",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 아이딧 'FLY!' (IDID FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=ww4Fp2IxoOk",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] Lilas(YOASOBI's ikura) 'IN Bloom(백화요란)' ('百花繚乱' FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=2Q1fZPrsZsY",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 연준 'INTRO + Ice Cream + GGUM' (YEONJUN FullCam) @2026 INKIGAYO LIVE in TOKYO",
-          "link": "https://www.youtube.com/watch?v=BVqpe0gSZDg",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "13:16",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -57835,6 +57409,10 @@ const SITE_DATA = {
           "time": "01:38",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
             "제나"
           ]
         },
@@ -59269,7 +58847,7 @@ const SITE_DATA = {
           "time": "16:12",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -59280,7 +58858,7 @@ const SITE_DATA = {
           "time": "16:12",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -59291,7 +58869,6 @@ const SITE_DATA = {
           "time": "16:12",
           "category": "Live",
           "members": [
-            "리브",
             "메이"
           ]
         },
@@ -61752,17 +61329,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[선공개] 비서진에게 왁뿌 전파하는 막둥이 메이❤️ 시큰둥한 이서진 반응에 시무룩해짐ㅋㅋ🥹| 무엇이든 해줄지니 - 비서진 | SBS",
-          "link": "https://www.youtube.com/watch?v=Sj0topPk21Q",
-          "source_type": "youtube_collab",
-          "source_name": "SBS ",
-          "time": "03:57",
-          "category": "외부컨텐츠",
-          "members": [
-            "메이"
-          ]
-        },
-        {
           "title": "261003 IBK 페스티벌 대리찍사 대리캠 합니다  저렴하게💗🫰🏻  리센느 RESCENE 올데이프로젝트 ADP 프로미스나인 fromis_9 하",
           "link": "https://x.com/3avzwf/status/2106086756613509629",
           "source_type": "x",
@@ -64086,6 +63652,10 @@ const SITE_DATA = {
           "time": "15:36",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
             "제나"
           ]
         },
@@ -64097,6 +63667,8 @@ const SITE_DATA = {
           "time": "15:36",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
             "미나미"
           ]
         },
@@ -64108,7 +63680,11 @@ const SITE_DATA = {
           "time": "15:36",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -64553,17 +64129,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[🔴LIVE] 2026 THE SHOW Ep.400 (2026.10.06) l ONEUS, CRAVITY, CLOSE YOUR EYES, TIOT, S2IT, etc.",
-          "link": "https://www.youtube.com/watch?v=GxlVEC6UjuY",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "10:35",
-          "category": "Live",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -70487,7 +70052,7 @@ const SITE_DATA = {
           "time": "23:22",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -78103,7 +77668,7 @@ const SITE_DATA = {
           "time": "23:14",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "미나미"
           ]
         },
         {
@@ -82622,6 +82187,10 @@ const SITE_DATA = {
           "time": "18:23",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
             "제나"
           ]
         },
@@ -82704,17 +82273,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "뽀끈지훈이 내 마음속에 저장~🐰 |  THE CON 2021: 박지훈의 메이시",
-          "link": "https://www.youtube.com/watch?v=d1YcGG7nyj8",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "17:00",
-          "category": "외부컨텐츠",
-          "members": [
-            "메이"
           ]
         },
         {
@@ -83335,7 +82893,7 @@ const SITE_DATA = {
           "time": "14:36",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -86336,7 +85894,10 @@ const SITE_DATA = {
           "time": "21:44",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이"
           ]
         },
         {
@@ -86358,6 +85919,10 @@ const SITE_DATA = {
           "time": "21:28",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
             "제나"
           ]
         },
@@ -86369,6 +85934,8 @@ const SITE_DATA = {
           "time": "21:28",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
             "미나미"
           ]
         },
@@ -86380,7 +85947,11 @@ const SITE_DATA = {
           "time": "21:28",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -87093,7 +86664,7 @@ const SITE_DATA = {
           "time": "17:22",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -93161,6 +92732,8 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이",
+            "리브",
+            "미나미",
             "메이"
           ]
         },
@@ -93882,7 +93455,11 @@ const SITE_DATA = {
           "time": "01:04",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -93998,6 +93575,10 @@ const SITE_DATA = {
           "time": "23:41",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
             "제나"
           ]
         },
@@ -94009,7 +93590,11 @@ const SITE_DATA = {
           "time": "23:41",
           "category": "기타",
           "members": [
-            "미나미"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -94020,7 +93605,11 @@ const SITE_DATA = {
           "time": "23:41",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -99690,17 +99279,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "🔥에투메 불 같이 퇴근🔥 | 퇴근길 LIVE EP.1 #shorts",
-          "link": "https://www.youtube.com/watch?v=-a33oWiMLqk",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "18:00",
-          "category": "Live",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "\"대한민국에 없는 일\" 남승민, 리센느 제나 트로트 실력에 감탄 - starnewskorea.com",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyLUsxb1ZZNzFuajlMbldGNDlaazdaaHZRanVfZ0c0V3N1NVdYN2k0ZUZsckMwVlZvM1p4MzZsNThjRmNDeDQ4UmdxVFludEgwbjFEaVlMMThRakQwakdnVGJyaDVWOWFVWlh6bzdiVEhoNm5T?oc=5",
           "source_type": "news",
@@ -99741,7 +99319,7 @@ const SITE_DATA = {
           "time": "17:17",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "리브"
           ]
         },
         {
@@ -105150,7 +104728,7 @@ const SITE_DATA = {
           "time": "21:03",
           "category": "기타",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -105175,7 +104753,8 @@ const SITE_DATA = {
             "원이",
             "리브",
             "미나미",
-            "메이"
+            "메이",
+            "제나"
           ]
         },
         {
@@ -105341,7 +104920,7 @@ const SITE_DATA = {
           "time": "20:30",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -112159,28 +111738,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[안방1열 풀캠4K] 82메이저 'Like Fire' (82MAJOR FullCam) @SBS Inkigayo 260921",
-          "link": "https://www.youtube.com/watch?v=Dp9gXtHGA1s",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "16:30",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[안방1열 풀캠4K] 하츠웨이브 'ALIVE (Feat. SUNGCHAN(성찬) of RIIZE)' (hrtz.wav FullCam) @SBS Inkigayo 260921",
-          "link": "https://www.youtube.com/watch?v=czmkH0Qsryc",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "16:30",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "리센느 미나미, 소맥+갈비에 무너진 요정의 인간미 - mediafine.co.kr",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kQkdSdWR4dWtzNGVnYkRhdkduOUppUHVSY1JGYmh2SlNCaEZCdS1MMmFNTmoxN05LVmxBSWo1WmZseGxKVURzQzRfWVQzZEdndExXcU4tTkRGR1JsU0NBY3M4YnE1ZHFQTDhpYmhR?oc=5",
           "source_type": "news",
@@ -112358,72 +111915,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "제나"
-          ]
-        },
-        {
-          "title": "[#최애직캠] 82MAJOR PARK SEOK JOON (82메이저 박석준) – Like Fire | 쇼! 음악중심 | MBC260919",
-          "link": "https://www.youtube.com/watch?v=a8khsRicyI8",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "14:52",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#최애직캠] 82MAJOR NAM SEONG MO (82메이저 남성모) – Like Fire | 쇼! 음악중심 | MBC260919",
-          "link": "https://www.youtube.com/watch?v=RYOKjMAS138",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "14:52",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#음중직캠] 82MAJOR KIM DO GYUN (82메이저 김도균) – Like Fire FanCam | 쇼! 음악중심 | MBC260919",
-          "link": "https://www.youtube.com/watch?v=z0mJI7CfBew",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "14:51",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#음중직캠] 82MAJOR HWANG SEONG BIN (82메이저 황성빈) – Like Fire FanCam | 쇼! 음악중심 | MBC260919",
-          "link": "https://www.youtube.com/watch?v=nhhDGvfhArQ",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "14:51",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#음중직캠] 82MAJOR YOON YE CHAN (82메이저 윤예찬) – Like Fire FanCam | 쇼! 음악중심 | MBC260919",
-          "link": "https://www.youtube.com/watch?v=8Yooi3lfuoo",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "14:51",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#음중직캠] 82MAJOR CHO SEONG IL (82메이저 조성일) – Like Fire FanCam | 쇼! 음악중심 | MBC260919",
-          "link": "https://www.youtube.com/watch?v=prLn49vPmiY",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "14:51",
-          "category": "음악방송",
-          "members": [
-            "메이"
           ]
         },
         {
@@ -113110,7 +112601,11 @@ const SITE_DATA = {
           "time": "11:01",
           "category": "기타",
           "members": [
-            "리브"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -114878,6 +114373,7 @@ const SITE_DATA = {
           "time": "03:06",
           "category": "기타",
           "members": [
+            "원이",
             "미나미"
           ]
         },
@@ -116332,6 +115828,7 @@ const SITE_DATA = {
           "time": "21:41",
           "category": "기타",
           "members": [
+            "원이",
             "미나미"
           ]
         },
@@ -117273,17 +116770,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "매점가요 26/09/20 LIVE STREAM with &TEAM",
-          "link": "https://www.youtube.com/watch?v=C3076Jvh0yQ",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "16:12",
-          "category": "Live",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -120657,7 +120143,7 @@ const SITE_DATA = {
           "time": "01:36",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "원이"
           ]
         },
         {
@@ -122844,7 +122330,7 @@ const SITE_DATA = {
           "time": "19:49",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "제나"
           ]
         },
         {
@@ -124017,17 +123503,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[#음중풀캠] 82MAJOR (82메이저) – Like Fire FullCam | 쇼! 음악중심 | MBC260919",
-          "link": "https://www.youtube.com/watch?v=sAS44iuh0ns",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "16:08",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
           "title": "우리집으로 가자",
           "link": "https://www.youtube.com/watch?v=FkzoL61rxl0",
           "source_type": "youtube",
@@ -124573,17 +124048,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[JJaeLiView_BEHIND] 82MAJOR [THE SHOW]",
-          "link": "https://www.youtube.com/watch?v=VR3DWLt6-Ms",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "12:00",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느, 아이돌차트 9월 1주차 아차랭킹 정상…총점 1만9141점 - 톱스타뉴스",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85Tm9iWjl4WHp0aGxZVFZQUWFETl9BaGVLZmdaSjVobXJkWUtHaVBzZUNuaGw0WVZnbzBKZ3Awa2NfbjlqZmNXWW1tVEZxX2c5NkNNZlZQeXJwLW9sRksyU1VxMk9iWFZVbVp1c3hjRm15QQ?oc=5",
           "source_type": "news",
@@ -124686,17 +124150,6 @@ const SITE_DATA = {
           "category": "외부컨텐츠",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "[FAN PICK CAM 4K] 82MAJOR - CHO SEONG IL 'Like Fire’ [82메이저-조성일] [THE SHOW] 260915 방송",
-          "link": "https://www.youtube.com/watch?v=6Ca-vh9pfbI",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "19:00",
-          "category": "외부컨텐츠",
-          "members": [
-            "메이"
           ]
         },
         {
@@ -125011,17 +124464,6 @@ const SITE_DATA = {
           "category": "외부컨텐츠",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[2026 INKIGAYO LIVE in TOKYO🗼] 인기가요가 9월의 도쿄를 가득 채우러 출발합니다 🛫 | Final Teaser",
-          "link": "https://www.youtube.com/watch?v=-n2ekdlQ80A",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "17:30",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -128007,7 +127449,7 @@ const SITE_DATA = {
           "time": "02:13",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -128843,6 +128285,10 @@ const SITE_DATA = {
           "time": "23:59",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
             "제나"
           ]
         },
@@ -128854,7 +128300,11 @@ const SITE_DATA = {
           "time": "23:59",
           "category": "기타",
           "members": [
-            "미나미"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -128865,7 +128315,11 @@ const SITE_DATA = {
           "time": "23:59",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -129682,17 +129136,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[2026 INKIGAYO LIVE in TOKYO🗼] HANA 로부터 온 편지 💌 | Artist Teaser",
-          "link": "https://www.youtube.com/watch?v=9TUF3lPf3IU",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "20:30",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "🌼온 세상을 물들여~🌼  #스콘 #scon #리센느 #RESCENE #LOVEATTACK #러브어택 #리센느러브어택 #KPOP #케이팝 #여자아",
           "link": "https://x.com/STAR_CONTENTS/status/2098735881079210429",
           "source_type": "x",
@@ -130475,94 +129918,6 @@ const SITE_DATA = {
           "members": [
             "미나미",
             "메이"
-          ]
-        },
-        {
-          "title": "[#최애직캠] 82MAJOR PARK SEOK JOON (82메이저 박석준) – Like Fire | 쇼! 음악중심 | MBC260912",
-          "link": "https://www.youtube.com/watch?v=lxDPLIlx57Y",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "16:56",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#최애직캠] 82MAJOR NAM SEONG MO (82메이저 남성모) – Like Fire | 쇼! 음악중심 | MBC260912",
-          "link": "https://www.youtube.com/watch?v=OYhUpMlyGkA",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "16:56",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#음중직캠] 82MAJOR KIM DO GYUN (82메이저 김도균) – Like Fire FanCam | 쇼! 음악중심 | MBC260912",
-          "link": "https://www.youtube.com/watch?v=1pI6fxV6n2M",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "16:55",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#음중직캠] 82MAJOR HWANG SEONG BIN (82메이저 황성빈) – Like Fire FanCam | 쇼! 음악중심 | MBC260912",
-          "link": "https://www.youtube.com/watch?v=E8BOGAJtbaA",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "16:55",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#음중직캠] 82MAJOR YOON YE CHAN (82메이저 윤예찬) – Like Fire FanCam | 쇼! 음악중심 | MBC260912",
-          "link": "https://www.youtube.com/watch?v=nuhQZbqleFc",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "16:55",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#음중직캠] 82MAJOR CHO SEONG IL (82메이저 조성일) – Like Fire FanCam | 쇼! 음악중심 | MBC260912",
-          "link": "https://www.youtube.com/watch?v=fdqYBM-LHZ8",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "16:55",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#음중풀캠] 82MAJOR (82메이저) – Like Fire FullCam | 쇼! 음악중심 | MBC260912",
-          "link": "https://www.youtube.com/watch?v=Sm17qyDCnPI",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "16:54",
-          "category": "음악방송",
-          "members": [
-            "메이"
-          ]
-        },
-        {
-          "title": "[#음중풀캠] hrtz.wav (하츠웨이브) – ALIVE FullCam | 쇼! 음악중심 | MBC260912",
-          "link": "https://www.youtube.com/watch?v=YZwcSQojppI",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "16:54",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -134283,17 +133638,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[2026 INKIGAYO LIVE in TOKYO🗼] KiiiKiii 로부터 온 편지 💌 | Artist Teaser",
-          "link": "https://www.youtube.com/watch?v=bqyipuSEN9k",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "20:00",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "izna·리센느, 이 조합 대환영…\"같이 올라가자\" 5세대 걸그룹 최강 우정 - OSEN",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zT1JzMDNINlA3UHJyeXhUVW1FTWM0LVpsaWV6bVFiNm8tbTNsQ3h0eG5JRXhONm43Ulc2b21wcFotcWNOUGplQkhJdmJfODVpa2VxTg?oc=5",
           "source_type": "news",
@@ -135137,17 +134481,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[2026 INKIGAYO LIVE in TOKYO🗼] KickFlip 으로부터 온 편지 💌 | Artist Teaser",
-          "link": "https://www.youtube.com/watch?v=0rOcxc9NQtM",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "14:01",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "라이즈·리센느, 알고리즘 너머로 건너온 체온…'스포티파이 하우스 서...",
           "link": "https://www.newsis.com/view/NISX20260911_0003785171",
           "source_type": "news",
@@ -135156,17 +134489,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[2026 INKIGAYO LIVE in TOKYO🗼] Hearts2Hearts 로부터 온 편지 💌 | Artist Teaser",
-          "link": "https://www.youtube.com/watch?v=XOO6bszW35g",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "14:00",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -136113,7 +135435,7 @@ const SITE_DATA = {
           "time": "11:15",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "원이"
           ]
         },
         {
@@ -139764,28 +139086,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "제나"
-          ]
-        },
-        {
-          "title": "[🔴라이브] 09/12 SATㅣ쇼! 음악중심ㅣKPOP LIVEㅣ#MINHO #MonstaX #EVAN #82MAJOR #andTEAM #TUIDE",
-          "link": "https://www.youtube.com/watch?v=F_4VzHQ_6bk",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "17:03",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
-          "title": "[VLF] tripleS - 깨어 (Are You Alive) | MBC 버추얼 라이브 페스티벌 with CoupangPlay",
-          "link": "https://www.youtube.com/watch?v=uEOCGXObngM",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "17:00",
-          "category": "Live",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -148988,17 +148288,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "THE CON 2021 : 박지훈의 메이시(時) 🎬 | Now available on BIGC",
-          "link": "https://www.youtube.com/watch?v=X0mhvuTZhCo",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "17:00",
-          "category": "외부컨텐츠",
-          "members": [
-            "메이"
-          ]
-        },
-        {
           "title": "리센느 역주행이 던진 질문…롱런은 화제성과 비례할까 - 네이트",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aamZUWGRZN0gwZXlhdXdZSHJ0bm5PcGQ2eXR1LWxma0E3VncyUjQxOTVTVzJvV3R0WVN1Y09ZaGVLOTh4RFJRbEhVX0FSUTl2VmtZ?oc=5",
           "source_type": "news",
@@ -154329,7 +153618,9 @@ const SITE_DATA = {
           "time": "14:58",
           "category": "기타",
           "members": [
-            "리브"
+            "원이",
+            "리브",
+            "미나미"
           ]
         },
         {
@@ -162705,7 +161996,7 @@ const SITE_DATA = {
           "time": "00:48",
           "category": "기타",
           "members": [
-            "전체"
+            "메이"
           ]
         },
         {
@@ -162892,7 +162183,9 @@ const SITE_DATA = {
           "time": "00:07",
           "category": "기타",
           "members": [
-            "리브"
+            "원이",
+            "리브",
+            "미나미"
           ]
         },
         {
@@ -162945,17 +162238,6 @@ const SITE_DATA = {
       "date": "2026-09-05",
       "date_display": "2026년 09월 05일",
       "items": [
-        {
-          "title": "[🔴LIVE] &TEAM KR 2nd Mini Album SHOWCASE 'Mark on Me'",
-          "link": "https://www.youtube.com/watch?v=NR9xikvJiBY",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "23:12",
-          "category": "Live",
-          "members": [
-            "리브"
-          ]
-        },
         {
           "title": "리센느(RESCENE) 수원시 홍보어사",
           "link": "https://blog.naver.com/bluewing0505/224402042043",
@@ -164291,17 +163573,6 @@ const SITE_DATA = {
           "category": "Live",
           "members": [
             "전체"
-          ]
-        },
-        {
-          "title": "[#음중풀캠] 82MAJOR (82메이저) – Like Fire FullCam | 쇼! 음악중심 | MBC260905",
-          "link": "https://www.youtube.com/watch?v=iZ9N0UR6s5w",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "17:47",
-          "category": "음악방송",
-          "members": [
-            "메이"
           ]
         },
         {
@@ -170430,17 +169701,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[JJaeLiView_BEHIND] ALPHA DRIVE ONE [THE SHOW]",
-          "link": "https://www.youtube.com/watch?v=eQPRnxaVBXM",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "12:00",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "알파드라이브원, '본 다이어' 챌린지 터졌다…레드벨벳·데이식스·리센느 합류 - 조선일보",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRmRoajBfT0JWdU9SVTVvSzNqZkxMUzNaWHo2U29VMUFCZmtLQXNJcGtKU0N1TjZqM0R6Ym91YXBhNVVyV1Q5X3o3aHJkbnF4RG4zZGRoYzFrMlhEQUN1Ykp2bEVoemU5UkpyWnBMd3FNWi1NTGRkZ1RCVXU5eWR5VU51NEZab3lTbFE?oc=5",
           "source_type": "news",
@@ -172112,7 +171372,6 @@ const SITE_DATA = {
           "time": "05:14",
           "category": "Live",
           "members": [
-            "리브",
             "미나미"
           ]
         },
@@ -172547,7 +171806,6 @@ const SITE_DATA = {
           "time": "02:55",
           "category": "Live",
           "members": [
-            "리브",
             "미나미"
           ]
         },
@@ -173669,17 +172927,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[🔴라이브] 09/05 SATㅣ쇼! 음악중심ㅣKPOP LIVEㅣ##GirlsGeneration_HRS #MonstaX #NCT127 #DINO #ALPHADRIVEONE #TEN",
-          "link": "https://www.youtube.com/watch?v=rvdxtV7-e6M",
-          "source_type": "youtube_collab",
-          "source_name": "음악중심",
-          "time": "22:51",
-          "category": "음악방송",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "원이가 무대에서 이선민 트레이드마크 동작 따라 함.  둘이 주고받는 서사가 너무 따뜻해서 가슴이 몽글몽글해진다.  리센느 원이 &amp; 이선민",
           "link": "https://x.com/geumpu95/status/2095509444117647864",
           "source_type": "x",
@@ -174011,17 +173258,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "원이"
-          ]
-        },
-        {
-          "title": "[2026 INKIGAYO LIVE in TOKYO🗼] AND2BLE 로부터 온 편지 💌 | Artist Teaser",
-          "link": "https://www.youtube.com/watch?v=fY1fkXGeb70",
-          "source_type": "youtube_collab",
-          "source_name": "SBS 인기가요",
-          "time": "20:00",
-          "category": "음악방송",
-          "members": [
-            "리브"
           ]
         },
         {
@@ -179456,7 +178692,7 @@ const SITE_DATA = {
           "time": "22:30",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -179687,39 +178923,6 @@ const SITE_DATA = {
           "category": "기타",
           "members": [
             "미나미"
-          ]
-        },
-        {
-          "title": "[JJaeLiView] ALPHA DRIVE ONE [THE SHOW] 260901 방송",
-          "link": "https://www.youtube.com/watch?v=d1jBCuWem8k",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "19:27",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[JJaeLiView] AEN [THE SHOW] 260901 방송",
-          "link": "https://www.youtube.com/watch?v=RjJZj281Q-Y",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "19:24",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "[JJaeLiView] OURBIRTHDAY [THE SHOW] 260901 방송",
-          "link": "https://www.youtube.com/watch?v=XMTS5Cmhm3k",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "19:20",
-          "category": "외부컨텐츠",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -180080,7 +179283,7 @@ const SITE_DATA = {
           "time": "18:45",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -190818,17 +190021,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "[🔴LIVE] 2026 THE SHOW Ep.398 (2026.09.01) l SF9, ALPHA DRIVE ONE, HANBIN(TEMPEST), OURBIRTHDAY, etc.",
-          "link": "https://www.youtube.com/watch?v=pPlYOLqXAn0",
-          "source_type": "youtube_collab",
-          "source_name": "더쇼",
-          "time": "11:34",
-          "category": "Live",
-          "members": [
-            "리브"
-          ]
-        },
-        {
           "title": "리센느 ‘LOVE ATTACK’, SNS 타고 역주행…지니 월간차트 정상 - 싱글리스트",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfWEFqQnc0Ykp4cUdRTzBnZWFwNGNQN201enpTdldKWHVVNE9oU3JpUm4xUDc2eXAydHdJWkJHTXZwMktLbWZ4RWhmMFpCZXZraXY2d3ktU0RLTTBtaHBBWkE4WmMyQQ?oc=5",
           "source_type": "news",
@@ -192982,7 +192174,6 @@ const SITE_DATA = {
           "time": "22:51",
           "category": "Live",
           "members": [
-            "리브",
             "메이",
             "제나"
           ]
@@ -198472,7 +197663,8 @@ const SITE_DATA = {
           "time": "13:09",
           "category": "기타",
           "members": [
-            "리브"
+            "리브",
+            "제나"
           ]
         },
         {
@@ -199655,7 +198847,7 @@ const SITE_DATA = {
           "time": "01:34",
           "category": "기타",
           "members": [
-            "전체"
+            "원이"
           ]
         },
         {
@@ -204142,7 +203334,6 @@ const SITE_DATA = {
           "time": "14:30",
           "category": "Live",
           "members": [
-            "리브",
             "미나미",
             "제나"
           ]
@@ -207344,6 +206535,10 @@ const SITE_DATA = {
           "time": "23:13",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
             "제나"
           ]
         },
@@ -207366,7 +206561,11 @@ const SITE_DATA = {
           "time": "23:13",
           "category": "기타",
           "members": [
-            "미나미"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -207377,7 +206576,11 @@ const SITE_DATA = {
           "time": "23:13",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -216995,6 +216198,7 @@ const SITE_DATA = {
           "time": "23:48",
           "category": "기타",
           "members": [
+            "원이",
             "리브",
             "미나미"
           ]
@@ -217598,7 +216802,7 @@ const SITE_DATA = {
           "time": "22:22",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -218094,7 +217298,8 @@ const SITE_DATA = {
           "time": "20:57",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브"
           ]
         },
         {
@@ -223290,7 +222495,7 @@ const SITE_DATA = {
           "time": "09:15",
           "category": "기타",
           "members": [
-            "전체"
+            "원이"
           ]
         },
         {
@@ -226807,7 +226012,7 @@ const SITE_DATA = {
           "time": "16:01",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -226818,7 +226023,7 @@ const SITE_DATA = {
           "time": "15:24",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -239380,7 +238585,7 @@ const SITE_DATA = {
           "time": "18:30",
           "category": "기타",
           "members": [
-            "전체"
+            "원이"
           ]
         },
         {
@@ -243438,7 +242643,7 @@ const SITE_DATA = {
           "time": "12:10",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "리브"
           ]
         },
         {
@@ -245711,7 +244916,7 @@ const SITE_DATA = {
           "time": "06:18",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -246893,6 +246098,10 @@ const SITE_DATA = {
           "time": "00:52",
           "category": "기타",
           "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
             "제나"
           ]
         },
@@ -246926,7 +246135,11 @@ const SITE_DATA = {
           "time": "00:50",
           "category": "기타",
           "members": [
-            "미나미"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -246937,7 +246150,11 @@ const SITE_DATA = {
           "time": "00:48",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -246959,7 +246176,11 @@ const SITE_DATA = {
           "time": "00:44",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -247415,7 +246636,7 @@ const SITE_DATA = {
           "time": "00:10",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "리브"
           ]
         },
         {
@@ -249464,7 +248685,7 @@ const SITE_DATA = {
           "time": "20:21",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -249632,7 +248853,7 @@ const SITE_DATA = {
           "time": "20:10",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "제나"
           ]
         },
         {
@@ -249866,7 +249087,7 @@ const SITE_DATA = {
           "time": "19:54",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -249998,7 +249219,8 @@ const SITE_DATA = {
           "time": "19:39",
           "category": "기타",
           "members": [
-            "전체"
+            "리브",
+            "메이"
           ]
         },
         {
@@ -261913,7 +261135,7 @@ const SITE_DATA = {
           "time": "16:54",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -262643,8 +261865,7 @@ const SITE_DATA = {
           "time": "16:03",
           "category": "Live",
           "members": [
-            "원이",
-            "리브"
+            "원이"
           ]
         },
         {
@@ -263036,7 +262257,7 @@ const SITE_DATA = {
           "time": "15:24",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -263135,7 +262356,7 @@ const SITE_DATA = {
           "time": "15:21",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -264168,7 +263389,7 @@ const SITE_DATA = {
           "time": "14:00",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -264377,7 +263598,7 @@ const SITE_DATA = {
           "time": "13:50",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -264440,7 +263661,7 @@ const SITE_DATA = {
           "time": "13:43",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -264511,7 +263732,7 @@ const SITE_DATA = {
           "time": "13:33",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -264522,7 +263743,7 @@ const SITE_DATA = {
           "time": "13:33",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -264577,7 +263798,7 @@ const SITE_DATA = {
           "time": "13:29",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -264599,7 +263820,7 @@ const SITE_DATA = {
           "time": "13:05",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -264986,7 +264207,7 @@ const SITE_DATA = {
           "time": "12:41",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -266928,7 +266149,7 @@ const SITE_DATA = {
           "time": "08:39",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -268611,7 +267832,7 @@ const SITE_DATA = {
           "time": "01:21",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "미나미"
           ]
         },
         {
@@ -273431,7 +272652,7 @@ const SITE_DATA = {
           "time": "18:21",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -274070,7 +273291,7 @@ const SITE_DATA = {
           "time": "17:55",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -275890,7 +275111,7 @@ const SITE_DATA = {
           "time": "16:00",
           "category": "기타",
           "members": [
-            "전체"
+            "원이"
           ]
         },
         {
@@ -281612,7 +280833,7 @@ const SITE_DATA = {
           "time": "00:55",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -284008,6 +283229,7 @@ const SITE_DATA = {
           "time": "20:48",
           "category": "기타",
           "members": [
+            "미나미",
             "제나"
           ]
         },
@@ -285036,7 +284258,8 @@ const SITE_DATA = {
           "time": "18:40",
           "category": "기타",
           "members": [
-            "전체"
+            "리브",
+            "메이"
           ]
         },
         {
@@ -285047,7 +284270,8 @@ const SITE_DATA = {
           "time": "18:40",
           "category": "기타",
           "members": [
-            "전체"
+            "리브",
+            "메이"
           ]
         },
         {
@@ -287565,7 +286789,11 @@ const SITE_DATA = {
           "time": "13:23",
           "category": "기타",
           "members": [
-            "원이"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -298069,7 +297297,7 @@ const SITE_DATA = {
           "time": "09:33",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -298776,7 +298004,7 @@ const SITE_DATA = {
           "time": "06:56",
           "category": "기타",
           "members": [
-            "전체"
+            "메이"
           ]
         },
         {
@@ -302771,7 +301999,11 @@ const SITE_DATA = {
           "time": "19:05",
           "category": "기타",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
           ]
         },
         {
@@ -313729,7 +312961,7 @@ const SITE_DATA = {
           "time": "17:09",
           "category": "기타",
           "members": [
-            "전체"
+            "메이"
           ]
         },
         {
@@ -316828,7 +316060,7 @@ const SITE_DATA = {
           "time": "19:52",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "리브"
           ]
         },
         {
@@ -318638,7 +317870,8 @@ const SITE_DATA = {
           "time": "08:12",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "미나미",
+            "제나"
           ]
         },
         {
@@ -327102,7 +326335,7 @@ const SITE_DATA = {
           "time": "23:58",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -329033,7 +328266,7 @@ const SITE_DATA = {
           "time": "11:00",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -347194,7 +346427,7 @@ const SITE_DATA = {
           "time": "21:48",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -351130,7 +350363,7 @@ const SITE_DATA = {
           "time": "12:06",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "리브"
           ]
         },
         {
@@ -351189,7 +350422,7 @@ const SITE_DATA = {
           "time": "10:58",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -353617,7 +352850,7 @@ const SITE_DATA = {
           "time": "12:45",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -354299,7 +353532,7 @@ const SITE_DATA = {
           "time": "08:31",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -354310,7 +353543,7 @@ const SITE_DATA = {
           "time": "08:31",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -354755,7 +353988,7 @@ const SITE_DATA = {
           "time": "02:11",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -366387,7 +365620,7 @@ const SITE_DATA = {
           "time": "20:49",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -371413,7 +370646,8 @@ const SITE_DATA = {
           "time": "22:41",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "리브",
+            "메이"
           ]
         },
         {
@@ -374270,7 +373504,6 @@ const SITE_DATA = {
           "time": "16:00",
           "category": "Live",
           "members": [
-            "리브",
             "제나"
           ]
         },
@@ -374326,7 +373559,6 @@ const SITE_DATA = {
           "time": "14:50",
           "category": "Live",
           "members": [
-            "리브",
             "미나미"
           ]
         },
@@ -374338,8 +373570,7 @@ const SITE_DATA = {
           "time": "14:50",
           "category": "Live",
           "members": [
-            "원이",
-            "리브"
+            "원이"
           ]
         },
         {
@@ -374658,7 +373889,7 @@ const SITE_DATA = {
           "time": "02:37",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -374957,7 +374188,6 @@ const SITE_DATA = {
           "time": "22:44",
           "category": "Live",
           "members": [
-            "리브",
             "미나미"
           ]
         },
@@ -375445,7 +374675,10 @@ const SITE_DATA = {
           "time": "21:13",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "원이",
+            "리브",
+            "미나미",
+            "메이"
           ]
         },
         {
@@ -376435,7 +375668,7 @@ const SITE_DATA = {
           "time": "16:00",
           "category": "기타",
           "members": [
-            "전체"
+            "미나미"
           ]
         },
         {
@@ -376873,7 +376106,7 @@ const SITE_DATA = {
           "time": "16:00",
           "category": "기타",
           "members": [
-            "전체"
+            "미나미"
           ]
         },
         {
@@ -377426,7 +376659,8 @@ const SITE_DATA = {
           "time": "13:09",
           "category": "외부컨텐츠",
           "members": [
-            "전체"
+            "원이",
+            "미나미"
           ]
         },
         {
@@ -378377,7 +377611,7 @@ const SITE_DATA = {
           "time": "16:00",
           "category": "기타",
           "members": [
-            "전체"
+            "원이"
           ]
         },
         {
@@ -379804,7 +379038,7 @@ const SITE_DATA = {
           "time": "20:30",
           "category": "자체컨텐츠",
           "members": [
-            "전체"
+            "메이"
           ]
         },
         {
@@ -380499,7 +379733,7 @@ const SITE_DATA = {
           "time": "11:56",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         }
       ]
@@ -386048,7 +385282,7 @@ const SITE_DATA = {
           "time": "08:54",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         }
       ]
@@ -388740,7 +387974,7 @@ const SITE_DATA = {
           "time": "01:43",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         }
       ]
@@ -389332,7 +388566,7 @@ const SITE_DATA = {
           "time": "13:44",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -391050,7 +390284,7 @@ const SITE_DATA = {
           "time": "16:00",
           "category": "자체컨텐츠",
           "members": [
-            "전체"
+            "원이"
           ]
         }
       ]
@@ -393852,7 +393086,7 @@ const SITE_DATA = {
           "time": "08:25",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         }
       ]
@@ -394636,7 +393870,7 @@ const SITE_DATA = {
           "time": "22:00",
           "category": "자체컨텐츠",
           "members": [
-            "전체"
+            "메이"
           ]
         },
         {
@@ -394731,8 +393965,7 @@ const SITE_DATA = {
           "time": "00:18",
           "category": "Live",
           "members": [
-            "원이",
-            "리브"
+            "원이"
           ]
         }
       ]
@@ -398766,7 +397999,6 @@ const SITE_DATA = {
           "time": "02:06",
           "category": "Live",
           "members": [
-            "리브",
             "메이"
           ]
         }
@@ -398801,7 +398033,7 @@ const SITE_DATA = {
           "time": "21:28",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         }
       ]
@@ -398892,7 +398124,7 @@ const SITE_DATA = {
           "time": "02:08",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         }
       ]
@@ -400949,7 +400181,7 @@ const SITE_DATA = {
           "time": "22:55",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -400960,7 +400192,7 @@ const SITE_DATA = {
           "time": "22:52",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         }
       ]
@@ -400994,7 +400226,7 @@ const SITE_DATA = {
           "time": "21:44",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         },
         {
@@ -401067,7 +400299,7 @@ const SITE_DATA = {
           "time": "21:30",
           "category": "Live",
           "members": [
-            "리브"
+            "전체"
           ]
         }
       ]

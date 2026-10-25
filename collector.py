@@ -25,6 +25,7 @@ from db import (
     init_db, get_conn, insert_item, get_recent_items, insert_auto_schedule,
     insert_trophy, insert_award,
 )
+from classify import is_relevant_broadcast
 from schedule_extractor import extract_schedule_candidates
 from trophy_extractor import extract_trophy_candidates, extract_award_candidates
 from x_collector import collect_x
@@ -62,9 +63,10 @@ _RELATIVE_TIME_UNITS = {
 }
 
 
-def _is_relevant_to_us(title):
-    lowered = title.lower()
-    return any(kw in lowered for kw in _COLLAB_MATCH_KEYWORDS)
+def _is_relevant_to_us(title, source_name=""):
+    # 콜라보 채널/유튜브 검색 결과용. 예전에는 짧은 멤버 영문명(liv, may)과 'Bloom' 같은
+    # 일반 곡명까지 부분 일치로 인정해서, 다른 가수의 LIVE·직캠 영상이 섞여 들어왔습니다.
+    return is_relevant_broadcast(title, source_name)
 
 
 def _parsed_time_to_iso(entry):
@@ -210,11 +212,11 @@ def collect_collab_by_search(conn):
             seen_video_ids.add(video_id)
 
             title = _get_text(v.get("title"))
-            if not _is_relevant_to_us(title):
-                continue
-
             byline_node = v.get("longBylineText") or v.get("ownerText")
             channel = _get_text(byline_node) or "알 수 없음"
+            if not _is_relevant_to_us(title, channel):
+                continue
+
             channel_id = _get_channel_id(byline_node)
             view_text = _get_text(v.get("viewCountText"))
             view_count = _parse_view_count(view_text)
