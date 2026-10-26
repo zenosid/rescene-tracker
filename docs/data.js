@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-26 12:45",
+  "generated_at": "2026-10-26 15:32",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,589 @@ const SITE_DATA = {
       "date": "2026-10-26",
       "date_display": "2026년 10월 26일",
       "items": [
+        {
+          "title": "CU 리센느 빵 3종 솔직 후기 2차 포토카드·포켓CU 예약, 배민으로 구....",
+          "link": "https://blog.naver.com/phoebe_n/224454135506",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · すきなもの。",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 빵 내돈내산 후기ㅣCU 리센느빵 입고시간 구매 꿀팁ㅣ포토카....",
+          "link": "https://blog.naver.com/hooddak_salrim/224454134572",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 후딱맘, 한줌의 여유",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 갤럭시 Z 폴드8 든 실루엣 다섯 개… '시작해볼까?' 티저",
+          "link": "https://blog.naver.com/demure_moon/224454143393",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · Demure",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "안원잘부 미나미 서예 배우기 속 금색 문진",
+          "link": "https://blog.naver.com/winegoose/224441244823",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 완두콩 살림 블로그",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "리센느 ‘PULSE’ 트레일러, 하얀 날개보다 마지막 소리가 궁금한 이....",
+          "link": "https://blog.naver.com/mama2624/224453367029",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 생활픽스",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느)거제에 설치된 표지판",
+          "link": "https://blog.naver.com/315police/224454200173",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 자네, 이 블로그에 온 사실을 부모님도 아시는가?",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "기안84와 유스피어, 리센느 같은 반전을 만들 수 있을까",
+          "link": "https://blog.naver.com/kis1540319/224454200274",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 모두의 Review Archive",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 덕분에 한국인들이 찾아온다는 모찌가게.jpg",
+          "link": "https://blog.naver.com/ku212/224453930469",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 블로그를 무인도처럼 운용하는 외톨이",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"리센느 성공 알고리즘 덕분이라고?\" 1세대 아이돌 문희준이 내린 평....",
+          "link": "https://blog.naver.com/absolutely_fabulous/224454205430",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 셀럽있슈",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "삼성전자 × 리센느, “폴드8 야호~”｜갤럭시 협업에서 눈여겨볼 포....",
+          "link": "https://blog.naver.com/zero_0220/224452917960",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 트렌드 편의점",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 컴백 미니 4집 PULSE(펄스) 발매 소식과 거제 야호 공연 훈훈한....",
+          "link": "https://blog.naver.com/issue_holic/224454220048",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · Issue_Holic",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "RESCENE 4th Mini Album [PULSE] 대면사인회/개인 영상통화 팬사인회 - 261122",
+          "link": "https://cafe.naver.com/prodream9/51409",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 'PULSE' 발매 기념 대면 및 영통 팬싸인회 이벤트 안내 (메이크스타) (....",
+          "link": "https://cafe.naver.com/re5cene/80260",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
+          "title": "(중고CD) 리센느 미니2집 - Glow Up - ME 버전",
+          "link": "https://cafe.naver.com/joonggonara/1137182809",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 중고나라",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 우리은행 NEW MODEL",
+          "link": "https://cafe.naver.com/browna6if9/24456",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 렁만이네 : 독학왕 공식 팬카페",
+          "time": "15:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“거제 야호~”밈에 매력도시로…리센느, 명예시민증받았다 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55UWZ0MXVTaG53SnFmZ3E1SHh0dERVQkZrM0JqWXhLREtheE9XSkpOVy1YYzJVano2SzFKM1dEd0xHYUJJNmlNMmk0eWRuUHFa?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:26",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "거제시, 걸그룹 리센느에 명예시민증 수여…거제 알리기 공로 - 거제신문",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lY0tnTy1GanZaVlRTZnROTlJ6SVJvdW4tTGhOMnZuUnF1Q3FFMUpVSFh4TXJFblN4V1BzLUU2Y3RMM3hvb1MyRVI1M1htX2lIeU1SVlRRa091TlpMQ1hudTFQc0tuTU1IRGc1VEpn?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:19",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘거제 야호’ 리센느, 거제 명예시민 됐다…연예인 첫 선정",
+          "link": "https://www.seoul.co.kr/news/publicnews/local_govern/2026/10/26/20261026500178?wlog_tag3=naver",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:59",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 팬들 비 맞자 천막 걷고 빗속 공연 - BNT뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKVU1QczBWRE1naGEwTUdXaVhYeHdocEJkdjZxZDBQdWVHNXd3VkpGQXMwTlVETTNjNVFWU2s4dW42TVYzQm43dWNCejZKeXltRzc3RDVFa1lpQkdyN3hrSWEwOHg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:58",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘거제 야호! 국민 걸그룹 리센느, 연예인 최초 거제시 명예시민됐다.",
+          "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261026.99099007350",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:58",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘명예시장’ 줘도 인정입니다…걸그룹 리센느, 거제 명예시민 됐다",
+          "link": "https://www.mk.co.kr/article/12185759",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“거제 야호~” 리센느 결국…거제 명예시민증까지 받았다 “애정으로...",
+          "link": "https://biz.heraldcorp.com/article/10914965?ref=naver",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:36",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“거제 야호~” 리센느 결국…거제 명예시민증까지 받았다 “애정으로 홍보 감사” - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ia0ZxVHNzMnhwajRHX2hNVVc4bWFiakEzNjBHY0FVSUdWMGlOUWJ2MUFHVTVsQ0UtamJvVmtNaHlxUmZnRlRDdEhKQjFtVThRTGE5Vy1B?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:35",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘거제 야호!’ 알린 리센느, 연예인 최초 거제 명예시민 - 경남미디어",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4wdzU2Z19TYVZOYmJ4NjY5S3VHbFg5QjZQOEhCellxQnpyM244UlhRVUxiUnFYbDFIWGo5NjFTZVQteHgwUXpGaTRHdlRxYldQOEpVcGMtS1hITUE5V0R2WWp5M2pYVG16ZnZ3?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:33",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“팬들 비 맞는데 우리만 어떻게”…리센느, 무대 천막 치우고 팬들과 ...",
+          "link": "https://www.sportsseoul.com/news/read/1644115?ref=naver",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:18",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“팬들 비 맞는데 우리만 어떻게”…리센느, 무대 천막 치우고 팬들과 빗속 무대 - 스포츠서울",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NbVRnT2xOQ3JzWTVIR0JhM2NyN2tyZHIxZFdSMXBPTVMwclJLNHAxR204QTdfMXAxUlBldkhpMmdiMjFnNjQ2b1piUFY4MWdaMjZxTVVLRWU?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:17",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'거제 야호' 리센느, 연예인 최초 명예시민 위촉 [투데이픽] - 파이낸셜포스트",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JWEt3X0ZKRWk1Yk5Qb3VrOFZPaTRjek11OGM4N3BnYW5NS0Qxb0NXQVRkOHJmeHNHVGRiUWNJTm5BVHprUDdLWFRBZU9HdXFuOTJMVG1keXdFanFZQ01kRXkzRXV4RlJxdWloR0xhT3ludW9G?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:16",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 거제 빗속 공연에 팬들 감동…\"관객과 함께 비 맞겠다\" 뜨거운...",
+          "link": "https://www.cbci.co.kr/news/articleView.html?idxno=619324",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 거제 빗속 공연에 팬들 감동…“관객과 함께 비 맞겠다” 뜨거운 반응 - CBC뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PS0VaUXY2RnVPS2kzMTNtUEZ2YVZfZmQ5RjMxbjlaQTU4eTNHZUpCaUlYMzNWWUpoTjdNTmd3V3gwMWNiMUtxX1lydlFjQVRjWXlFX0FiczNWNW9NRjcwOUFNTURPeWRE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:59",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "거제시, ‘거제 야호’ 리센느에 명예시민증 수여 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtcElFOWZiZjNJUFh3aU11d3pveXM4MWN1bVhWOW5YUWpZX3lmcVByOW9kXzItWVItTnJGYnZDVWFiZzNkbVgyN0t1MzVaWG91MHVLVE9tNzM3MFNWeTc00gFfQVVfeXFMUG1wSUU5ZmJmM0lQWHdpTXV3em95czgxY3VtWFY5blhRallfeWZxUHI5b2RfMi1ZUi1OckZidkNVYWJnM2RtWDI3S3UzNVpYb3UwdUtUT203MzcwU1Z5NzQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:59",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'거제야호' 리센느, 명예시민됐다…거제시 \"애정으로 지역 홍보\"",
+          "link": "https://www.jasm.co.kr/news/view/322949/?sc=Naver",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "13:54",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 1위, 10월 가수 브랜드평판 정상..2위 방탄소년단·3위 임영웅 - 브레이크뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5oVzEwUG02QUNyazJaNHBqOXVmME96b3MzWnVRaUNtdDUyQ1Y3UmM3dVNiWEJndEhUdTZhdzNKY0hUQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:51",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'거제 야호' 리센느에 거제 명예시민증…\"애정으로 지역 홍보\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaSUlUdFp0NkxqS0l1M3pzSE1JV1hmRVo2ZHM2ZlFQWUFHal81QU40MTdER2wxbVE4WktObTk2NGtyMEJ2a3NjYVQ2c0RudGM5Ul9SUGdMMHk2YUHSAWBBVV95cUxOZUlzdjdXR1Uyb0lSNXFreVAyblpvVUZTR1ROQ0FwSEFUQ0lnam9WRjNpOGlRVzlZN1dlN3N3VFNBbTZsYXlVTnk3cGtQRnlDVk5LbFdoV1hTanYxNFE3eU0?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'거제 야호' 외친 리센느, 연예인 최초 명예시민 됐다 - iMBC 연예",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tUUNERTNPVGxLaHdFUFNyLWFWdFVnMnJLOEdnVzJrVXdaY2F0YjBBSEZpSFZsZDNDTFFuenZ4X0RzM0hVdEZ3XzJwT0tvTnJUVWw0d1dNQTFnbE1uQ3l0cw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:36",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘거제 야호’ 리센느, 거제시 명예시민 됐다...연예인 최초 - 일간스포츠",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BeFRScU42cjFXUXpwZ3MwM0s0R2xvOHVBMklMdkpyelpKVVF5VVRuQ3QyVTc5S1FybGVia2x6N05vT2Z3NHl3Q1c3anFWNnAyTlQ3b3k2Sy1uU0ozakR5RGZlYmZ2NUN5?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:28",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "밈 하나로 거제 알리더니…리센느, 연예인 최초 명예시민 됐다 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5LT0VLQVR5UGJ0cnhKSGF5QWNROVRQa0hQMUtiaVNnajA5aFNnQUdneWNYb3RGMDYxQmo4Zk9QTE0zME1BUGdNaXpzX1VhMXJRY0tCcU53bk8?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:21",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "거제 홍보대사 리센느, 명예시민 됐다",
+          "link": "https://www.sidae.com/article/2026102611255397505",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "13:06",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 거제 명예시민 선정…\"연예인 최초, 시민증 받았다\" - 디스패치",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE91aWk5cmtnYWctZ1RwSFJRMDVrd3NKWi1LSlNLZVowSTRYNVQxTENhaUdjdlVPYjFHeGZuQzQxZUpvMUl5OGVvbmV3?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "12:17",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 거제 첫 연예인 명예시민 됐다 - 스페셜타임스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE41SHdHcU1vUmNGd3ZON3dKTWhESHBNZUtPSThsYzRMNUs2bjlhcV94VzZDMU5hLV9lWDl0djVXZURyVHJnRm5VQkxYcnlwRGZYb192UEJJV3NmbnB2RWpUbjg2N3VXVlpzOW5QVHFqMHpRZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "12:08",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘거제 야호!’ 리센느, 연예인 첫 거제시 명예시민 - 경남도민일보",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xc1VIUFB0VDViSVFSNXY0aDNNMkhtczROLXQxcHNjWk5lTTNuS1VqYm55ejdBWXlOTjlVNEFKLUtSQWMwZVcwSC1ieVhzVjlFXzZ4X1FpUjhpMHZSUWdSOWtfc0l6Ulo5b2c?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:39",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "거제시, 걸그룹 리센느에 2026년 명예시민증 수여‘ - 거제매일뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EdEw1ZkNiOWxaVE50MzlMZnBudUJKRlFnQnRSLWRxcG1BTWNUZS1RUEFBWjRHZ1VMN1JMaGxBV2ZKZHU4QWZONXZidE5Qa1FCZUlackctWVpLM1VJX0tNaWtCMGFRZFlS?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:35",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 거제 홍보대사 넘어 명예시민으로…지역 사랑 빛났다 - YTN star",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sX25XakxnaGpiZ1RJbjNRdURvUkhBVEVBNS1qNGgyRWNPR2Zrai1XRV9lNmoybzFHUGhmYVFnSUxJTmM2al84dl9VeENsN0NfWEdOMXhndGNWMHliaDhNaktldEM?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:35",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "거제시, 걸그룹 '리센느' 명예시민증…\"거제 야호! 열풍 공로\"",
+          "link": "https://www.newsis.com/view/NISX20261026_0003840875",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:29",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“팬들만 비 맞을 수 없죠“…리센느, 천막 걷고 팬들과 ’흠뻑’ - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54c1d6LWpzTFA2RElxbVBXZkd0b0VlVFFtaDlZNkhWV2FFSHdVYjAyWktUVHIwQVYyXzRtR2ZQRnFwcVVWakVKUXZMUVhsR3VhUDR3ODZwa3ZadnJ1TVhqbm1JU0xUN0E?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:28",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "거제시, 걸그룹 리센느에 명예시민증 수여 - 통영광장",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NX3BKcmpLVmNDY3RfUTFFeDVBY2IzdTNxVWE0eDJkZmg3X3JaUVg4ZXRab2Rld0U4U3VDSGlBc01wYXZrcW42OEp2UHd0WHBISUNuWW9QcFlJdUtWYzliOW1faw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:26",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“거제 야호!” 외치던 리센느, 이제 ‘명예 거제시민’ 됐다 - 거제타임즈",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6MTBXQmdMT2RVejZ6RWVMcERCQnJDWk5uVUdkLXBWcTQyU1llRmFVSm82blNzTlZ3NEpOMlpqeHZlQlJ0YlBTZ3ctYUxBc1MwMkM5X2V2NEdPZXhIbWF1S2I2QzEtWnpOOVdWVGkyMW4?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:19",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'거제 야호' 걸그룹 리센느, 거제시 첫 연예인 명예시민 됐다",
+          "link": "https://www.nocutnews.co.kr/news/6596913?utm_source=naver&utm_medium=article&utm_campaign=20261026110910",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:10",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "걸그룹 리센느, 거제시 제70호 명예시민 됐다 - 보도자료 | 기사 - 더팩트",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xZ2hrTThBOWM0SDN1WTdGckE1aDlhbTNXZEh6VGZLN1JpeWFiYkxzS21zRlVHbjhRQ2M2djVsMFliN2FrTEZTeGJRazVzTkpuaDdmMW01ZVdNbVhzeUw0?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:04",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 컴백 앞두고 기쁜 소식 전했다...‘K탑스타’ 최고의 루키 등극 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CU2tEMkhUcEVsTm5Vd2hnNkJSeGpsa0ozZmRGSl9FUWdSRXNqUFNFem5HdHk2ODhqUkVVVkxfQVlCR0xtN093el9wazkta3M0b2haNkVKUQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:58",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘거제야호’ 리센느, ‘연예인 1호’ 거제 명예시민 됐다 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPbWxNNDY0SWpTRjlCb0k5V1ZqTFZXWmlfaWIweEFHODBOc3lYUE42VC1WcU5xTnZvTVNjM1cxMjV5TTNPWjJlbmhXQmN1aE5Lb0lfUWlvclBBYWVwYk5tQ3BUS003QjU4aXp6S3FaYzRfSDFnVHfSAWZBVV95cUxNZkNOOFc1Wi0wWlJhNGhCMGE2V1lJWFQ3cVhMOF83ZXgwdDlDbU80TGtxcFFXOXA3ZU1HeWhlQW1zX0JWbjF5WkxqdG5kZGlyMzdkVEViWkhlR1JDczhkWUk3bHVMd3c?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:58",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "걸그룹 리센느, 거제시 첫 연예인 명예시민 됐다 - 브레이크뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBOQU1wM2Izbjc3MjdTdEp3ZHVnMkkyNEVzdGY4SFNteUNES2phSmtVdkEwSWRhdUtJdFhZOFNPU0dfQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:55",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 연예인 최초 거제시 명예시민증 수상…관광 홍보 공로 인정 - 거제저널",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRQk90LUlFeWdIXzZVX3MwMEh6QlIzRjN4SS1Sa19WLUozSV9aUTN3Uk4yRDhTTWxVbXhZcGM1N2hjYmo0cm5BUHZtanJsZUdJVVZWX3NxRC03eXZMNW9PZktWcWRBMlFEcTJELWRXZmFCN2s?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:47",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "걸그룹 리센느, 거제시 연예인 1호 명예시민 > 뉴스 - 더코리아",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwU0N6Wld0OC1qbGNfWVZnaUNUTWZaNmd3bHNFQ3ktU0J1X0NFNENNUUhwN0phT0xwU1FxYUQ2MDNiUjN0NWZ2SnFISTJVc3dtejJ2QTRDWEM3dUFpMzJLT3VHWHhqN2ZicTNKQUpEZF9tUQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:30",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
         {
           "title": "리센느 원이 브랜드평판 1위, 10월 아이돌 개인 순위 TOP10 정리",
           "link": "https://blog.naver.com/everyday_step/224449750536",
@@ -354161,7 +354744,7 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354170,7 +354753,7 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354179,29 +354762,29 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 50,
+        "rank": 43,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
-          "kind": "down",
-          "delta": 4
+          "kind": "up",
+          "delta": 7
         }
       },
       {
-        "rank": 60,
+        "rank": 68,
         "song_title": "Pinball",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "down",
-          "delta": 6
+          "delta": 8
         }
       }
     ],
@@ -354210,26 +354793,26 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
       },
       {
         "rank": 11,
-        "song_title": "Pretty Girl",
+        "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "up",
-          "delta": 4
+          "delta": 1
         }
       },
       {
         "rank": 12,
-        "song_title": "Deja Vu",
+        "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "down",
           "delta": 1
@@ -354238,52 +354821,53 @@ const SITE_DATA = {
     ],
     "bugs": [
       {
-        "rank": 7,
+        "rank": 6,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "up",
-          "delta": 2
+          "delta": 1
         }
       },
       {
-        "rank": 12,
+        "rank": 13,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 27,
-        "song_title": "Pretty Girl",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
-        "change": {
-          "kind": "up",
-          "delta": 3
-        }
-      },
-      {
-        "rank": 37,
-        "song_title": "Pinball",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
-        "change": {
-          "kind": "up",
-          "delta": 5
-        }
-      },
-      {
-        "rank": 61,
-        "song_title": "Runaway",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "down",
-          "delta": 15
+          "delta": 1
+        }
+      },
+      {
+        "rank": 43,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-26 15:32",
+        "change": {
+          "kind": "down",
+          "delta": 16
+        }
+      },
+      {
+        "rank": 44,
+        "song_title": "Runaway",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-26 15:32",
+        "change": {
+          "kind": "up",
+          "delta": 17
+        }
+      },
+      {
+        "rank": 63,
+        "song_title": "Pinball",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-26 15:32",
+        "change": {
+          "kind": "down",
+          "delta": 26
         }
       }
     ],
@@ -354292,7 +354876,7 @@ const SITE_DATA = {
         "rank": 3,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354301,7 +354885,7 @@ const SITE_DATA = {
         "rank": 9,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354310,7 +354894,7 @@ const SITE_DATA = {
         "rank": 14,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354319,7 +354903,7 @@ const SITE_DATA = {
         "rank": 35,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354328,7 +354912,7 @@ const SITE_DATA = {
         "rank": 44,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354341,7 +354925,7 @@ const SITE_DATA = {
         "rank": 42,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354350,7 +354934,7 @@ const SITE_DATA = {
         "rank": 44,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354359,7 +354943,7 @@ const SITE_DATA = {
         "rank": 95,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354368,7 +354952,7 @@ const SITE_DATA = {
         "rank": 118,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354377,7 +354961,7 @@ const SITE_DATA = {
         "rank": 150,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354389,7 +354973,7 @@ const SITE_DATA = {
         "rank": 86,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354400,7 +354984,7 @@ const SITE_DATA = {
         "rank": 5,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354409,7 +354993,7 @@ const SITE_DATA = {
         "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354418,7 +355002,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354431,7 +355015,7 @@ const SITE_DATA = {
         "rank": 7,
         "song_title": "LOVE ATTACK",
         "artist_text": "리센느",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354440,7 +355024,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "Deja Vu",
         "artist_text": "리센느",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
           "kind": "same"
         }
@@ -354449,29 +355033,28 @@ const SITE_DATA = {
         "rank": 17,
         "song_title": "Pinball",
         "artist_text": "리센느",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
-          "kind": "down",
-          "delta": 1
+          "kind": "same"
         }
       },
       {
         "rank": 38,
         "song_title": "Pretty Girl",
         "artist_text": "리센느",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
-          "kind": "down",
-          "delta": 2
+          "kind": "same"
         }
       },
       {
-        "rank": 79,
+        "rank": 81,
         "song_title": "Runaway",
         "artist_text": "리센느",
-        "checked_at": "2026-10-26 10:24",
+        "checked_at": "2026-10-26 15:32",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 2
         }
       }
     ],
