@@ -14,8 +14,8 @@ import os
 import requests
 
 from config import X_SEARCH_QUERIES, X_SEARCH_MAX_RESULTS, CHART_KEYWORDS
-from db import init_db, get_conn, insert_item
-from x_filter import is_trading_or_spam
+from db import init_db, get_conn, insert_item, insert_moderation_flag
+from x_filter import is_trading_or_spam, harmful_keyword, abuse_keyword
 
 X_SEARCH_URL = "https://api.x.com/2/tweets/search/recent"
 
@@ -72,8 +72,19 @@ def collect_x(conn):
         for t in tweets:
             if not _is_our_group(t["text"]):
                 continue
+            bad = harmful_keyword(t["text"])
+            if bad:
+                # 계정 판매·해킹·토토 등 유해 광고: 사이트에는 표시하지 않고 운영자 점검 목록에만
+                # 내용은 가린 채 링크와 걸린 표현만 기록
+                insert_moderation_flag(conn, "x", "X", "(유해 광고 의심 · 내용 비공개)", t["link"], f"유해광고:{bad}")
+                continue
+            abuse = abuse_keyword(t["text"])
+            if abuse:
+                # 욕설·비하 글: 사이트에는 표시하지 않고 운영자 점검 목록에만 (자동 신고 아님)
+                insert_moderation_flag(conn, "x", "X", "(욕설·비하 의심 · 내용 비공개)", t["link"], f"욕설·비하:{abuse}")
+                continue
             if is_trading_or_spam(t["text"]):
-                continue  # 포카 양도·대리찍사·팬싸컷 상담·토토 광고 등 소식이 아닌 글
+                continue  # 포카 양도·대리찍사·팬싸컷 상담 등 소식이 아닌 거래 글
             title = t["text"][:80].replace("\n", " ")
             is_new = insert_item(
                 conn, "x", f"X · @{t['username']}", title, t["link"],

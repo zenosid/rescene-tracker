@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-28 21:19",
+  "generated_at": "2026-10-28 23:05",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -21721,17 +21721,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "이걸 보고도 리센느 빨고싶으면 병원을 가봐 https://t.co/GCh0033kPS",
-          "link": "https://x.com/yyyyyky4869/status/2110962283077939670",
-          "source_type": "x",
-          "source_name": "X · @yyyyyky4869",
-          "time": "14:13",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "이새끼는 리센느 한남팬들 패는 트윗마다 빠순이한테 화살돌리고다니네 논점좀흐리지마 https://t.co/7qo3slv3fG",
           "link": "https://x.com/flipflopmessyy/status/2110962024180240551",
           "source_type": "x",
@@ -27138,17 +27127,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "얘네는 왤케 지들이 한 행동을 인정못하고 분탕 분탕거림 ㅉ 예전부터 타돌이랑 찍은 챌린지 영상에 비교질하면서 댓글 싸던게 누군데 리센느랑 관련 ",
-          "link": "https://x.com/cutieofpainting/status/2110386715689197833",
-          "source_type": "x",
-          "source_name": "X · @cutieofpainting",
-          "time": "00:06",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "리센느 화이팅 #2026MAMAVOTE #rescene",
           "link": "https://x.com/yureemorae2/status/2110386449057251671",
           "source_type": "x",
@@ -31172,17 +31150,6 @@ const SITE_DATA = {
           "link": "https://x.com/ResceneChartBOT/status/2109826754252857832",
           "source_type": "x",
           "source_name": "X · @ResceneChartBOT",
-          "time": "11:01",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 육수 팬들 진짜 개역겹네 토 나옴 https://t.co/eVqx4w4Ce5",
-          "link": "https://x.com/suga_sorbet/status/2109826749601325558",
-          "source_type": "x",
-          "source_name": "X · @suga_sorbet",
           "time": "11:01",
           "category": "기타",
           "members": [
@@ -38034,17 +38001,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @tkolco",
           "time": "12:05",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "누구보다 여연패기 플로우 좋아하면서 정작 여연 빨아줄 때에는 억여미새짓 하느라 좆빨이 자아도 감추시는 분들이 윈터, 리센느 같은 여혐플 듈 때에",
-          "link": "https://x.com/uwiw813zahxd/status/2109117939731529857",
-          "source_type": "x",
-          "source_name": "X · @uwiw813zahxd",
-          "time": "12:04",
           "category": "기타",
           "members": [
             "전체"
@@ -82367,17 +82323,6 @@ const SITE_DATA = {
             "미나미",
             "메이",
             "제나"
-          ]
-        },
-        {
-          "title": "한남개저들 리센느 성공에 도움준것도 없으면서 자꾸 숟가락올리고 타돌들한테 지랄하는거 존나꼴보기싫음 이것도 봐주마 협회 이지랄싸는거개싫어진심 ht",
-          "link": "https://x.com/grszdl/status/2103885692023750660",
-          "source_type": "x",
-          "source_name": "X · @grszdl",
-          "time": "01:33",
-          "category": "기타",
-          "members": [
-            "전체"
           ]
         },
         {
@@ -166418,17 +166363,6 @@ const SITE_DATA = {
           ]
         },
         {
-          "title": "맞아요 ㅋㅋㅋ이게 제일심함 맨날 장원영 리센느 아일릿 르세라핌 욕쳐하는거 올리는 계정들 다 에스파 빨아주면서 카리나 윈터 올려치고 지젤 성형아니",
-          "link": "https://x.com/THEOGLEMONMAMBA/status/2095005689450217609",
-          "source_type": "x",
-          "source_name": "X · @THEOGLEMONMAMBA",
-          "time": "13:27",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
           "title": "카카오, 리센느와 카카오톡 AI 캠페인…9월 영상 순차 공개",
           "link": "https://www.onews.tv/news/articleView.html?idxno=286057",
           "source_type": "news",
@@ -235791,17 +235725,6 @@ const SITE_DATA = {
           "source_type": "x",
           "source_name": "X · @chickensaelo",
           "time": "00:09",
-          "category": "기타",
-          "members": [
-            "전체"
-          ]
-        },
-        {
-          "title": "리센느 관심 없는데 유튜브에 한남들 댓글 존나 꼴보기 싫음 리센느가 잘해서 유명해진건데 왜 지들이 깝치고 있지",
-          "link": "https://x.com/ANGELATTACKIII/status/2090092676373000337",
-          "source_type": "x",
-          "source_name": "X · @ANGELATTACKIII",
-          "time": "00:05",
           "category": "기타",
           "members": [
             "전체"
@@ -362148,45 +362071,6 @@ const SITE_DATA = {
       "source_count": 15
     },
     {
-      "date": "2026-10-06",
-      "kind": "굿즈",
-      "brand": "그레인온 × 카사베르디",
-      "title": "리센느 카사베르디 그레인온 굿즈 티셔츠 인증",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 블로그 · 한국 최초 인디 게임 전문 인터뷰 SNS",
-          "link": "https://blog.naver.com/hashiruka48/224433093004",
-          "title": "리센느 카사베르디 그레인온 굿즈 티셔츠 인증"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-10-05",
-      "kind": "광고·모델",
-      "brand": "",
-      "title": "글로벌 파급력 입증한 BTS, 리센느 임영웅 꺾고 10월 광고모델 브랜드평...",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.gpkorea.com/news/articleView.html?idxno=147285",
-          "title": "글로벌 파급력 입증한 BTS, 리센느 임영웅 꺾고 10월 광고모델 브랜드평..."
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMZGZscFpwVVU5U3hfMWc4c1FTbjV1T2k4Wnp2dEY2eEFtT0luNnppTHczLWl1Q054Xy1qemNXMTZLRF9ua185QktQYzBtTF9HVUpIQWNwMnJkUzlmTk5xX3p2aWM?oc=5",
-          "title": "리센느, 광고모델 2위까지…대세 굳히기 - bntnews.co.kr"
-        }
-      ],
-      "source_count": 2
-    },
-    {
       "date": "2026-10-05",
       "kind": "콜라보",
       "brand": "베이크45s",
@@ -362221,23 +362105,6 @@ const SITE_DATA = {
       "source_count": 1
     },
     {
-      "date": "2026-10-02",
-      "kind": "광고·모델",
-      "brand": "",
-      "title": "더마비, ‘데일리 세라마이드’로 브랜드 새단장…리센느 원이 모델 발탁 - newstap.co.kr",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · newstap.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81dFZ1N1dtMHdyQks5ak02RTY3emlKeGlKNUVDMFU4VzhWVDViQXl0LWR6SmJodDBaQnNEdXBpN3VFblRJd2NfQk5PVzQ0dzAwcURXRmJHOGlqc29STm9Eam8xY0o3V3JoQUpjbw?oc=5",
-          "title": "더마비, ‘데일리 세라마이드’로 브랜드 새단장…리센느 원이 모델 발탁 - newstap.co.kr"
-        }
-      ],
-      "source_count": 1
-    },
-    {
       "date": "2026-10-01",
       "kind": "콜라보",
       "brand": "",
@@ -362260,28 +362127,6 @@ const SITE_DATA = {
       "source_count": 2
     },
     {
-      "date": "2026-10-01",
-      "kind": "광고·모델",
-      "brand": "도미노피자",
-      "title": "도미노피자, 2026 KCSI 피자전문점 1위…리센느 모델 발탁도 눈길",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 블로그 · 별빛 연예소",
-          "link": "https://blog.naver.com/qhdqhd2700/224427842971",
-          "title": "도미노피자, 2026 KCSI 피자전문점 1위…리센느 모델 발탁도 눈길"
-        },
-        {
-          "name": "X · @mrsoo500",
-          "link": "https://x.com/mrsoo500/status/2106891561481195885",
-          "title": "🎈광고주들이 지금 리센느한테 목매는 이유. ​🍕 도미노피자 : 신규 광고 공개 4일 만에 1,700만 뷰 돌파! 2차 창작 콘텐츠도 대박남 🥤 "
-        }
-      ],
-      "source_count": 2
-    },
-    {
       "date": "2026-09-30",
       "kind": "팝업",
       "brand": "바이오던스",
@@ -362297,77 +362142,6 @@ const SITE_DATA = {
         }
       ],
       "source_count": 1
-    },
-    {
-      "date": "2026-09-29",
-      "kind": "굿즈",
-      "brand": "",
-      "title": "유통가 달구는 '한정판 굿즈'...리센느 포카·피마원 백부터 몬치치 키...",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.banronbodo.com/news/articleView.html?idxno=33089",
-          "title": "유통가 달구는 '한정판 굿즈'...리센느 포카·피마원 백부터 몬치치 키..."
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-09-29",
-      "kind": "굿즈",
-      "brand": "더현대 서울 팝업 (Scent Archive)",
-      "title": "저만 위드뮤 사이트에서 엠디가 안보이나요…?  #리센느",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "X · @gi01486",
-          "link": "https://x.com/gi01486/status/2104812951324831818",
-          "title": "저만 위드뮤 사이트에서 엠디가 안보이나요…?  #리센느"
-        },
-        {
-          "name": "X · @nan_ohkim",
-          "link": "https://x.com/nan_ohkim/status/2105102036874465474",
-          "title": "@kkkkkk_2026 아 위드뮤에 키링 떴었어서요! 위드뮤 &gt; 리센느 가서 한번 확인해보세여"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "date": "2026-09-28",
-      "kind": "광고·모델",
-      "brand": "나랑드사이다",
-      "title": "동아오츠카, 리센느 모델 발탁 후 매출 48% 뛴 나랑드사이다⋯택배기사...",
-      "period_text": "7월 21일",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.etoday.co.kr/news/view/2629713",
-          "title": "동아오츠카, 리센느 모델 발탁 후 매출 48% 뛴 나랑드사이다⋯택배기사..."
-        },
-        {
-          "name": "Google 뉴스 · 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zRHBrd21TNXppdWpDSXg1bHZmM3c0Zm0xZk80Z2oxLWNJbG5LVU54YjVvSkJYMW5pTEs3LW1hOWJFZ2EyVVJ6dVJET0lOc29Rc3dpSA?oc=5",
-          "title": "동아오츠카, 리센느 모델 발탁 후 매출 48% 뛴 나랑드사이다⋯택배기사에 3만개 지원 - 이투데이"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0RnE2Wm5yUlZvVkJkSFE5bXU5NTBaUU1xdUdzNjVsWHNWbEsycS02WXZLTjgwY19JV3pyeWtxRGxmdUZ6dTRNVDlMeHozbjlMekFOUVZ2dVRZY2tRektkaGplRTdwS2Z2eUVBRHY0RWV3ZDBG?oc=5",
-          "title": "동아오츠카, 리센느 모델 발탁 후 매출 48% 뛴 나랑드사이다⋯택배기사에 3만개 지원 - 이투데이"
-        },
-        {
-          "name": "네이버 블로그 · ISSUE PICKER",
-          "link": "https://blog.naver.com/gukifather/224425957155",
-          "title": "리센느 모델 발탁 후 나랑드사이다 매출 48%↑｜이번엔 택배기사에...."
-        }
-      ],
-      "source_count": 4
     },
     {
       "date": "2026-09-28",
@@ -362395,79 +362169,6 @@ const SITE_DATA = {
         }
       ],
       "source_count": 3
-    },
-    {
-      "date": "2026-09-28",
-      "kind": "굿즈",
-      "brand": "CU × 할리스",
-      "title": "CU에서 할리스 커피 마시고 리센느 굿즈 받자! 행사상품 7종·경품·....",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 블로그 · 시아와 함께 자라는 일상 리포트",
-          "link": "https://blog.naver.com/sia_mom2025/224425268882",
-          "title": "CU에서 할리스 커피 마시고 리센느 굿즈 받자! 행사상품 7종·경품·...."
-        },
-        {
-          "name": "네이버 블로그 · 지갑방어 사령부",
-          "link": "https://blog.naver.com/aaasdd-128/224424759510",
-          "title": "포켓CU X 리센느(RESCENE) 할리스 스페셜 굿즈"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "date": "2026-09-23",
-      "kind": "굿즈",
-      "brand": "",
-      "title": "`김성주 아들` 김민국, 리센느 원이 `결혼` 발언에 폭주…\"딸 시집까지 상상했어\" [MD★스타] - 마이데일리",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lb1VCbDdMZGJSNEV0VmxNRU1MSmxReWtmTUh3YXFvQnZJUFdDT2VuUi16N2xaR1JfaE90ZTEyR240bUhYNDFvRDVhbHFYUTdfaUU1RmNOaEY5UFFaQU00dGdUbXl6Zw?oc=5",
-          "title": "`김성주 아들` 김민국, 리센느 원이 `결혼` 발언에 폭주…\"딸 시집까지 상상했어\" [MD★스타] - 마이데일리"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-09-23",
-      "kind": "콜라보",
-      "brand": "그레인온",
-      "title": "평소에 그레인온 효소를 종종 사먹고 있었던 입장에서 이번에 리센느와 콜라보해주셔서 감사합니다🥰👏 제일 좋아하는 맛 말차, 제일 좋아하는 과일 딸",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "X · @bear_jelly16527",
-          "link": "https://x.com/bear_jelly16527/status/2102434681866350838",
-          "title": "평소에 그레인온 효소를 종종 사먹고 있었던 입장에서 이번에 리센느와 콜라보해주셔서 감사합니다🥰👏 제일 좋아하는 맛 말차, 제일 좋아하는 과일 딸"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-09-21",
-      "kind": "굿즈",
-      "brand": "CU",
-      "title": "물류차 쫓아다니며 \"리센느빵 있어요?\"…굿즈로 매출 '빵' 터졌다",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.mt.co.kr/living/2026/09/21/2026092019495013291",
-          "title": "물류차 쫓아다니며 \"리센느빵 있어요?\"…굿즈로 매출 '빵' 터졌다"
-        }
-      ],
-      "source_count": 1
     },
     {
       "date": "2026-09-11",
@@ -362510,7 +362211,7 @@ const SITE_DATA = {
     },
     {
       "date": "2026-09-08",
-      "kind": "광고·모델",
+      "kind": "콜라보",
       "brand": "그레인온",
       "title": "그레인온, 리센느 공식 모델 발탁…멤버별 매력 담은 ‘리센느 에디션’ 출시 - 경향신문",
       "period_text": "",
@@ -362528,17 +362229,12 @@ const SITE_DATA = {
           "title": "그레인온, 리센느 공식 모델 발탁…멤버별 매력 담은 '리센느 에디션' 출시 - 네이트"
         },
         {
-          "name": "네이버 뉴스",
-          "link": "https://www.khan.co.kr/article/202609081555018",
-          "title": "그레인온, 리센느 공식 모델 발탁…멤버별 매력 담은 ‘리센느 에디션’..."
-        },
-        {
-          "name": "네이버 블로그 · 월급 플러스 LAB",
-          "link": "https://blog.naver.com/teamtory/224405779575",
-          "title": "그레인온, 걸그룹 리센느 공식 모델 발탁…한정판 '리센느 에디션' ...."
+          "name": "X · @bear_jelly16527",
+          "link": "https://x.com/bear_jelly16527/status/2102434681866350838",
+          "title": "평소에 그레인온 효소를 종종 사먹고 있었던 입장에서 이번에 리센느와 콜라보해주셔서 감사합니다🥰👏 제일 좋아하는 맛 말차, 제일 좋아하는 과일 딸"
         }
       ],
-      "source_count": 4
+      "source_count": 3
     },
     {
       "date": "2026-09-08",
@@ -362558,28 +362254,6 @@ const SITE_DATA = {
       "source_count": 1
     },
     {
-      "date": "2026-09-06",
-      "kind": "광고·모델",
-      "brand": "메리츠증권(모음)",
-      "title": "[단독] 리센느, 여의도 진출…메리츠證 '모음' 모델로 발탁 - 네이트",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XX1dzaHJwNDBmdkJrN1BxazBGVmRmakE4NTlTMGpfenY1WDJGX1paalFuOE5WSGNBMmJBakhjWWo0a3pXcnpFLWlvUmNIcmN5azR3?oc=5",
-          "title": "[단독] 리센느, 여의도 진출…메리츠證 '모음' 모델로 발탁 - 네이트"
-        },
-        {
-          "name": "X · @liv_yaee",
-          "link": "https://x.com/liv_yaee/status/2096521883852451886",
-          "title": "[단독] 리센느, 여의도 진출…메리츠證 ‘모음’ 모델로 발탁 | 다음 - 서울경제 https://t.co/1SXjVagbMs"
-        }
-      ],
-      "source_count": 2
-    },
-    {
       "date": "2026-09-04",
       "kind": "콜라보",
       "brand": "바이오던스",
@@ -362597,120 +362271,6 @@ const SITE_DATA = {
           "name": "구글 뉴스 - 리센느",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tN1FrdWlEOFhMdTl4Zjl0Y3lfVlhfcDlfZG51cWlDQlFGUW5rUEM1RkZGZEdMUEtpZkF2WmxMWVdOWHdqSkVzWU9ZY3ZoNUdrZDJaZm5xMFp0THRIcE8xRGg0bkEzQ1gy?oc=5",
           "title": "바이오던스, 리센느 원이 협업 ‘MY FIRST COLLAGEN’ 서울 오프라인 캠페인 확대 - 한국섬유신문"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "date": "2026-09-03",
-      "kind": "광고·모델",
-      "brand": "MLB",
-      "title": "MLB, 리센느 리브·미나미·메이·제나 신규 모델 발탁 - 비욘드포스트",
-      "period_text": "9월 1일",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5VNGNRemVtazVuM0hMdlhVM203dkY3SEg2Rnl3ZktpVGxCb0hObUcwTlNXaFIwRDUxcjBkUjc4a3hRWDRwd3g0aVpSaTZDdm1ZakhYekdyMkFHdFZGXzZzM1k2RFUzYXJuLVVSVmRScEhtak5JTGp2SXgtdnc?oc=5",
-          "title": "MLB, 리센느 리브·미나미·메이·제나 신규 모델 발탁 - 비욘드포스트"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "http://www.ktnews.com/news/articleView.html?idxno=148202",
-          "title": "MLB, 리센느 새 브랜드 모델 발탁"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94VFFpb09pNnFRS3hEcDdPNjJQcTlJTmRhZlFMaXlEVXpoODZuTEVuc2xkdnZKaWh1dWdpWUlSc2NJaHF5ZzdwUlBJZzBoWUdLZjUxQnczX1VfRHM?oc=5",
-          "title": "리센느 리브·미나미·메이·제나, MLB 모델 발탁 - isplus.com"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.slist.kr/news/articleView.html?idxno=763356",
-          "title": "리센느, MLB 새 모델 발탁…\"신선하고 감각적인 이미지\""
-        },
-        {
-          "name": "Google 뉴스 · biz.chosun.com",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeXBwcTRFbEUyZWFsTHBIS3J2VGx6UnpaX1U0d1hjaVI1LTU4RUNvLUMxdXF1dlRvSFRrMXZacjlPQ0V3RWZuT1p2VnFkMDBNaXR6cExwMjFYNTdKLU1KdGVORG9qWGVCY2pXQmZ4QzhfT0F2bFBLa0tSRi0xNFhtbUZyOEFpdmpZR0pQN1BDR0hyYUXSAacBQVVfeXFMTUFhM2gyMVczUUFfdWZiM3hveUNha1A3RUdJUEppTDRpMGZyTHBocjRtSUVjTkVFT2NlVkFvREFCN1dMOER5c1NWbWdUNHVuVWwzZnc4dXpSc01fcTBIMXZlYjB1ZHNiV1lqNGt3WUQ0MTBCR0k5UkpTMFdxZlZWTGZHR2lVbTVkQ1VPQml2QkZXNlJTVVNyVUVhT21Gb2V4LWdEdUV4SDQ?oc=5",
-          "title": "원이 빠진 리센느, MLB 새 브랜드 모델 발탁…2026 FW 가을 캠페인 공개 - 조선비즈 - biz.chosun.com"
-        },
-        {
-          "name": "Google 뉴스 · 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1RV91SEstU3BmMzhROVdwRjVXRDhoVTh5allOcE5CUE9RVTZkcWtscWZqbU16LW9TWlVqbXN3LW9rN091RTVmcHdxdDBTeUhNLXp6dUs3aTY5aUZWQTcwdNIBeEFVX3lxTE5qamltSDd5TWxMWWo4bTdlUkYxRzZud0N4eXFGQkhKU3B6WjcwbGV5V0Jra1FKb3ZIQ1lVSE5KZkoyRlg3Vm9vc2NCOWZ5UHZHdWtoalhVYW5Bb2tNQkwzMXBKT0pONTJTOHkybDRpVnZ3MWp0U3l3Zg?oc=5",
-          "title": "신라면세점 가는 엔하이픈부터 MLB 걸친 리센느까지[유통가 새 얼굴] - 뉴시스"
-        },
-        {
-          "name": "네이버 블로그 · 나나파파 님의 블로그",
-          "link": "https://blog.naver.com/oiof7i70/224399813942",
-          "title": "**MLB(엠엘비)**의 걸그룹 리센느(RESCENE) 모델 발탁 원이빼고"
-        },
-        {
-          "name": "네이버 블로그 · 스쳐가는 컷들",
-          "link": "https://blog.naver.com/yunabj/224401319650",
-          "title": "리센느 MLB 화보 공개, 그런데 원이는 왜 없을까? 4인 모델 발탁"
-        },
-        {
-          "name": "네이버 블로그 · hoon307님의 블로그",
-          "link": "https://blog.naver.com/hoon307/224400926199",
-          "title": "⚾ 신예 걸그룹 '리센느(RESCENE)', 브랜드 MLB(MLB KOREA) 공식 모델 발탁!"
-        },
-        {
-          "name": "네이버 블로그 · SB",
-          "link": "https://blog.naver.com/methodjr/224400669712",
-          "title": "리센느 MLB 모델 발탁! 26FW 캠페인 주인공 된 리센느"
-        },
-        {
-          "name": "네이버 블로그 · 매일정보",
-          "link": "https://blog.naver.com/everyday_report/224400645344",
-          "title": "리센느 미나미 MLB 모델 선정 소식! 26FW 화보 속 힙한 스타일링 엿보...."
-        },
-        {
-          "name": "네이버 블로그 · Developer",
-          "link": "https://blog.naver.com/jericho0220/224400239699",
-          "title": "리센느 MLB 새 브랜드 모델 발탁, 26 FALL ‘SLEEK, THE RESCENE WAY’ 화보 공...."
-        },
-        {
-          "name": "네이버 블로그 · 체다의 스타트업 & 트렌드 연구",
-          "link": "https://blog.naver.com/cielo1578/224400247650",
-          "title": "MLB 리센느 모델 발탁, 26FW ‘슬릭’이 지금 잘 맞는 이유. MLB의 새 얼...."
-        },
-        {
-          "name": "네이버 블로그 · 매일트렌드",
-          "link": "https://blog.naver.com/every_trend/224401108545",
-          "title": "[리센느] MLB 새 모델 발탁 소식! 26FW 화보 속 미나미 제나 메이 리브 ...."
-        },
-        {
-          "name": "네이버 블로그 · 스타들의 일상 포토",
-          "link": "https://blog.naver.com/parcom2023/224401508462",
-          "title": "리센느(RESCENE) MLB 광고 촬영 화보 모음과 신상 모자·패션 잇템"
-        },
-        {
-          "name": "X · @slist2015",
-          "link": "https://x.com/slist2015/status/2095366710161543171",
-          "title": "리센느, MLB 새 모델 발탁…“신선하고 감각적인 이미지” ✌️  #리센느 #RESCENE  #원이 #리브 #미나미 #메이 #제나  @RESCE"
-        }
-      ],
-      "source_count": 16
-    },
-    {
-      "date": "2026-09-03",
-      "kind": "광고·모델",
-      "brand": "",
-      "title": "임영웅, 광고모델 브랜드 3위…방탄소년단·리센느 이어 - bntnews.co.kr",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sdDVfcC1BZlRiUHNHdEtqYXh5ci1BS3U1cUIycF9NTW84djBCLVVzRWtSQVRRLUt1WDlfdG5QdE1nZ2tWUFdORGlKcVduMzdfU0h2N3FuMzRDNHk1SUlSc3ZyM24?oc=5",
-          "title": "임영웅, 광고모델 브랜드 3위…방탄소년단·리센느 이어 - bntnews.co.kr"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=483258",
-          "title": "방탄소년단, 9월 광고모델 평판 1위…리센느는 118% 급등"
         }
       ],
       "source_count": 2
@@ -362977,48 +362537,6 @@ const SITE_DATA = {
       "source_count": 40
     },
     {
-      "date": "2026-08-29",
-      "kind": "광고·모델",
-      "brand": "카카오톡",
-      "title": "리센느 카카오톡 광고 모델 화제｜카카오톡과 만난 리센느, 광고는 ....",
-      "period_text": "9월 2일",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 블로그 · ydevel님의 블로그",
-          "link": "https://blog.naver.com/ydevel/224395260475",
-          "title": "리센느 카카오톡 광고 모델 화제｜카카오톡과 만난 리센느, 광고는 ...."
-        },
-        {
-          "name": "네이버 블로그 · SCENELOG  리센느 RESCENE 팬로그",
-          "link": "https://blog.naver.com/scenelog_-/224398712711",
-          "title": "리센느 카카오톡 AI 캠페인 모델 발탁｜카카오가 직접 밝힌 선택 이...."
-        },
-        {
-          "name": "네이버 블로그 · 차차홈케어",
-          "link": "https://blog.naver.com/chachahomecare/224399515608",
-          "title": "리센느 대체 얼마나 뜬 거야? BTS 이어 광고모델 2위 찍더니 카카오까...."
-        },
-        {
-          "name": "네이버 블로그 · 트인랩",
-          "link": "https://blog.naver.com/iny1442/224408751726",
-          "title": "카카오톡 리센느 모델 발탁, ‘Let’s Talk’ AI 캠페인과 선정 이유 총...."
-        },
-        {
-          "name": "네이버 카페 · 수니그룹",
-          "link": "https://cafe.naver.com/soonigroup/376755",
-          "title": "카카오톡 최초의 광고 모델이 된 리센느"
-        },
-        {
-          "name": "X · @ilivettwoni",
-          "link": "https://x.com/ilivettwoni/status/2097975888361193834",
-          "title": "260910 카카오 투데이 #리센느  입사하자마자 리센느와 광고 촬영을 하다…?!👀 https://t.co/br7tLinPW4"
-        }
-      ],
-      "source_count": 6
-    },
-    {
       "date": "2026-08-28",
       "kind": "콜라보",
       "brand": "카카오톡",
@@ -363044,40 +362562,6 @@ const SITE_DATA = {
         }
       ],
       "source_count": 3
-    },
-    {
-      "date": "2026-08-27",
-      "kind": "광고·모델",
-      "brand": "",
-      "title": "뷔·리센느 앞세우니 조회수 '폭발' … 식품가 대세 된 앰버서더 - 뉴데일리",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · 뉴데일리",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9feHJDQ0kzRTJEeUNQSEs4UmtwRXNiN2xoaDN4aVlmQ0k1RXJFbG5YdjhmWDJWNm4taWdfR3BuNjdRRWRlVHFHSnpLV1duZ0lZSVVVQkxJMWFIQ3dhZ2p6X2twbmR4MFc2WTF1dkI2WGh0UkI1Qm9QR010SdIBgAFBVV95cUxOeVRqU1Y2dGE2Z2lWSDNVZXNIOWZjSTU5RDExOUdfSHc2UDNYb0FsVTg5ZWhGY3RHbFZwWU4tOWp6aU1oYUZwbXBhdzVhTnNDbVE4SEF6VzRDTWpEalVZQ003V21tdHA0UjcwUkdGVHZZTGh1WFpJNGtWVEMxTllndA?oc=5",
-          "title": "뷔·리센느 앞세우니 조회수 '폭발' … 식품가 대세 된 앰버서더 - 뉴데일리"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-08-27",
-      "kind": "광고·모델",
-      "brand": "",
-      "title": "대세 아이돌 리센느 모델 발탁하자마자…매출 48% 늘었다는 이 '브랜드' - 위키트리",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · 위키트리",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3RmZUTlh6U3BMdmsxdXp3Ml9jSGNYSUF2cmR3SkFWdFZHRkxLYVVsQ0RYNk90azVTdGxsWjVUODNjS3BzTnN2ZGtSbXFRVXNvRWFWenB3?oc=5",
-          "title": "대세 아이돌 리센느 모델 발탁하자마자…매출 48% 늘었다는 이 '브랜드' - 위키트리"
-        }
-      ],
-      "source_count": 1
     },
     {
       "date": "2026-08-26",
@@ -363110,324 +362594,6 @@ const SITE_DATA = {
         }
       ],
       "source_count": 4
-    },
-    {
-      "date": "2026-08-26",
-      "kind": "광고·모델",
-      "brand": "CU",
-      "title": "리센느 CU CF ^^  하고 싶은거 다해라 리센느🥰 올해는 리센느가 탑티어!!!! https://t.co/RwOECYYrk1",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "X · @minsu3303",
-          "link": "https://x.com/minsu3303/status/2092573636880445442",
-          "title": "리센느 CU CF ^^  하고 싶은거 다해라 리센느🥰 올해는 리센느가 탑티어!!!! https://t.co/RwOECYYrk1"
-        },
-        {
-          "name": "네이버 카페 · 연금같은 평생 월급 통장 만들기(xrp)",
-          "link": "https://cafe.naver.com/sydneymyhome/33835",
-          "title": "리센느(RESCENE)를 편의점 CU의 전속 모델로 발탁할 경우, 브랜드 이미지 확립...."
-        },
-        {
-          "name": "X · @saaa0ee",
-          "link": "https://x.com/saaa0ee/status/2103296853521616917",
-          "title": "아니 씨유 리센느 광고모델로 했으면 당연히 매장노래도 걍 리센느노래 뺑이 돌려줘야하는거아닌가 저 왜 여기서 제주도의 푸른밤 듣고있어야하죠"
-        }
-      ],
-      "source_count": 3
-    },
-    {
-      "date": "2026-08-25",
-      "kind": "광고·모델",
-      "brand": "와키윌리",
-      "title": "리센느 원이, 캐주얼 스트릿 브랜드 모델 발탁…밝고 유쾌한 매력 [화보] - 조선비즈 - Chosunbiz",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY25nUExWckFBV2xWLVNYa09LLWJtc1hub1RhT1R6aC1XWGN6VHN2REtXeEFrUXh5di1XaDNNbDYtSnh1RFQwa0x2LUo2YUJ5OERKNms2WU5VS0FoX3l2cDl3VmFHc25CUnh2bTM2dmE2RTExc2l2RzZuM0pEWUpFNGxaTU9FOG9FYkhoUXlUSl91YjDSAacBQVVfeXFMTzZoUUlUNUJtQXBNZ29RX2VkRGNCV0wyWTlhQWJCSU9PQ2RUUXFOSFFXeG5YU2MwNXpjWjhMaVlGamNoU2ZtUWtBYldXOG1WWHNMRXZZWl82d2g4Rk1Ed1h1dVNvMnI4Wmd1OGVzX09lNW5WU3VxNVFZNTBNT2N3M3JtdU83OWtYTzFaUG1GaE1rY2RibUNYeG1WN2dVbWVqdEdOODdNOGM?oc=5",
-          "title": "리센느 원이, 캐주얼 스트릿 브랜드 모델 발탁…밝고 유쾌한 매력 [화보] - 조선비즈 - Chosunbiz"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY25nUExWckFBV2xWLVNYa09LLWJtc1hub1RhT1R6aC1XWGN6VHN2REtXeEFrUXh5di1XaDNNbDYtSnh1RFQwa0x2LUo2YUJ5OERKNms2WU5VS0FoX3l2cDl3VmFHc25CUnh2bTM2dmE2RTExc2l2RzZuM0pEWUpFNGxaTU9FOG9FYkhoUXlUSl91YjA?oc=5",
-          "title": "리센느 원이, 캐주얼 스트릿 브랜드 모델 발탁…밝고 유쾌한 매력 [화보] - Chosunbiz"
-        },
-        {
-          "name": "Google 뉴스 · supple.kr",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BNzUzbzRueVYzb1VMbjduMXZfUHlGSGRMekI3d0V6SWg0VnZpbEVmMFc5bkFDUEMzUjcySG1Sb2h1TzE4a0g0X0hITVg3UV9aRDk3bTEwMDEzdUtZ?oc=5",
-          "title": "리센느 원이, 캐주얼 스트릿 브랜드 모델 발탁…밝고 유쾌한 매력 [화보] - supple.kr"
-        },
-        {
-          "name": "Google 뉴스 · 스타패션",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82T1ZUNmtLRE1SRFJiZTR3WDdTUHJ4WHVoZHhZVEZYYk94a2NhMmo1d3dYQ3FFLWNad1VvbXFUUWt1QVFoV0FOaThmdERtVGN0ZHZLaV9KejdZMFFqQ3gw?oc=5",
-          "title": "와키윌리, 리센느 원이 26FW 새 뮤즈 발탁… '오늘은 원이데이~' 화보 공개 - 스타패션"
-        },
-        {
-          "name": "Google 뉴스 · 패션비즈",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9hY3pfNTNaQ2VsZXVfbzR1YzJmY3B6cEV3TXpsbnVaOEhIRS1WNWphdjNMMENIX05WLU0tcVUtUWdRbEJBc0Q3dVhlMzVKZEx2?oc=5",
-          "title": "'이것도 입어주마' 와키윌리, 리센느 원이 브랜드 뮤즈로 발탁 - 패션비즈"
-        },
-        {
-          "name": "Google 뉴스 · 지피코리아",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XTFNlT19EOVlHT3YtWU81X2NmNHl1WnViVjNTSDRaZ1VHSDlUN0paZmttNy1aX1piZlV1RzlkWEFHOXJXN2VHbjBVYlU1MEFYbE1UQWZBUGhRX3lkS0ZTODhxTFF1NGFSbEHSAW5BVV95cUxQdk5OZXJIa2RyVHkwWXp2amRSMGVXdk9VSXlsSVlqeThib0VFRjZ4ODlzOGJDRjIzd1AwWndfTlVKZUhWelFfSWFOM3NqUDRqa1NfWURZRmx2REVwbDRpLV9IYS0zVGJ2dllGbXU1dw?oc=5",
-          "title": "와키윌리, 리센느 원이 새 모델 발탁…26FW 화보 공개 - 지피코리아"
-        },
-        {
-          "name": "Google 뉴스 · 싱글리스트",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBZM3pGTTEyZnl3R0Nra3Q2MG5aYzNoZlZ2Z1dITFVoYUZ1NVhBWUZyWi1vRDduYXQ2ZWg0YUR3cHA3M0ZvN1VUQzJZTVNrXzFDLWlmQWZsdWMtNEtDWkJTRzZfWjhkQQ?oc=5",
-          "title": "리센느 원이, 와키윌리 새 얼굴 됐다…26FW 뮤즈 발탁 - 싱글리스트"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9BZWRQbjVNQjNzUlgyb2dNa2o1NTVsUGF3aEM5ZnNXcjlrNnhOOU00eEZnTUUxVlZGUUNxUWRHb0hrOWhkclE?oc=5",
-          "title": "와키윌리, 리센느 ‘원이’ 모델 발탁 - TIN뉴스"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UcHl3T1NJbFpQUEt4OEsyQlI5cVVEU0xZVHRrZVBGdDhsaVBMWmMxdXYwMmZ1RFNTVWhERlZqTVJzVzNzVlI1NzZEa0RwNUdKRVFwdHZpQk9qajRnQ2FVM0NpbXc?oc=5",
-          "title": "리센느 원이, 와키윌리 모델 발탁 - ppss.kr"
-        },
-        {
-          "name": "Google 뉴스 · 네이트",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GMzQtak4tY1ZoWEk0SDZiaWZidzNpRXlZVjYtOFViVnQ0anNpZzVjUmIxdnQwRFBvY3R5T2p5OEpwVnlEUzRnVEJOTXFvV0dWN2ZKSlpjd00tZUo0UXZuUA?oc=5",
-          "title": "'대세 아이돌' 리센느 원이, 캐주얼 브랜드 와키윌리 모델 발탁…'오늘은 원이데이~' 화보 공개 - 네이트"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uU2M3eHBNQUF5ZHJFVl9wWEFxWG1hM1ZSOTlURHAwNThNZzJqOUpFeWZVMTh5OENtUVFibG5FZE5lSl9WdFgzcmNxb0lZMkVzZnpuRFFNR1BmZ29nb0RaQkNQZmFwemNYRTN2SjRB?oc=5",
-          "title": "'대세 아이돌' 리센느 원이, 캐주얼 브랜드 와키윌리 모델 발탁…'오늘은 원이데이~' 화보 공개 - 네이트"
-        },
-        {
-          "name": "Google 뉴스 · 천지일보",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OblhQMW5mbGxOWDNnSVhXTXpkd1JJYVJwQ0t0eXNENUJubTllRUJnNWVkU1VNOWp1OXMwdTlqMEVOX0VqYUVLenp0OE1QY2JGZDI3ay02VnYxMzhPbThDWTlBMkVPSjQ5eUE?oc=5",
-          "title": "와키윌리, 리센느 원이 26FW 모델 발탁… 화보 공개 - 천지일보"
-        },
-        {
-          "name": "Google 뉴스 · sportalkorea.com",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOa0xaZmV1aUFEOG1BbTlweHE2R0FOckRoWkJKSjRuYzlTcG05T3JyRTJzTzlzaGlxaFNzemtfQ1lOMGZkX0UtVGRuTktuZ2RKRUxUdzJueHJ2Yl81R3cxU3FlN1BsdFZaQlI1b0dXVHBIbk9hcTJmR0x3S005c3NfUmdB?oc=5",
-          "title": "'대세 아이돌' 리센느 원이, 캐주얼 브랜드 와키윌리 모델 발탁...‘오늘은 원이데이~’ 화보 공개 - sportalkorea.com"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.fashionbiz.co.kr/article/228899",
-          "title": "'이것도 입어주마' 와키윌리, 리센느 원이 브랜드 뮤즈로 발탁"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGRGp4cUkxVE13VEhacDZTNlV3ZUYyWDRpbWtjelRjY2FHQzRpS1lYRUd3blpuMTBwX2lnWmxjanZJNzJwOUNMZHY5X0U0WTJqdVVkRmhHNEVyQ1gx?oc=5",
-          "title": "와키윌리, 대세 아이돌 리센느 원이 모델 발탁 - 아시아뉴스통신"
-        },
-        {
-          "name": "네이버 블로그 · 뉴스락",
-          "link": "https://blog.naver.com/newslock_7820710/224400855814",
-          "title": "[뉴스락] 와키윌리, 리센느 원이 26FW 뮤즈 발탁…‘오늘은 원이데이~...."
-        },
-        {
-          "name": "네이버 블로그 · SCENELOG  리센느 RESCENE 팬로그",
-          "link": "https://blog.naver.com/scenelog_-/224389918792",
-          "title": "리센느 원이 와키윌리 모델 발탁｜26FW 화보 ‘오늘은 원이데이~’ ...."
-        },
-        {
-          "name": "네이버 블로그 · 패션인사이트 / Fashion Insight",
-          "link": "https://blog.naver.com/fashion-insight/224389704589",
-          "title": "와키윌리, ‘안원잘부’ 리센느 원이 모델 발탁"
-        },
-        {
-          "name": "네이버 블로그 · 다나님의 블로그",
-          "link": "https://blog.naver.com/aqaqaq222/224389606359",
-          "title": "리센느 원이, 와키윌리 새 얼굴 됐다…오늘은 정말 ‘원이데이’"
-        },
-        {
-          "name": "네이버 블로그 · 아시아일보에 오신것을 환영합니다",
-          "link": "https://blog.naver.com/nasiailbo/224389339034",
-          "title": "와키윌리 '리센느' 원이 모델 발탁"
-        },
-        {
-          "name": "네이버 블로그 · 별빛 연예소",
-          "link": "https://blog.naver.com/qhdqhd2700/224397893789",
-          "title": "리센느 원이, 와키윌리 새 뮤즈 발탁…2026 FW 화보 공개"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/23233",
-          "title": "RESCENE (리센느) 와키윌리 CF 광고 사진 #원이"
-        },
-        {
-          "name": "X · @jmdmkamdol0019",
-          "link": "https://x.com/jmdmkamdol0019/status/2092065674797477954",
-          "title": "#광고 와키윌리가 이번에 리센느 원이를 뮤즈로 발탁했는데 브랜드 영하고 키치한 이미지랑 원이의 밝은 에너지가 잘 맞는 듯  꾸며진 화보보다 자연"
-        },
-        {
-          "name": "X · @slist2015",
-          "link": "https://x.com/slist2015/status/2092032792561598661",
-          "title": "리센느 원이, 와키윌리 새 얼굴 됐다…26FW 뮤즈 발탁  #리센느 #RESCENE  #원이 #리센느_원이  #정원이 #WONI #와키윌리 #와"
-        },
-        {
-          "name": "X · @Kimdonghyu93321",
-          "link": "https://x.com/Kimdonghyu93321/status/2092388869039968531",
-          "title": "#리센느 #RESCENE #원이 #WONI 캐주얼 스트릿 브랜드 #와키윌리 리센느(RESCENE)의 멤버 원이를 26FW 시즌 뮤즈 발탁 첫 번"
-        },
-        {
-          "name": "X · @Kimdonghyu93321",
-          "link": "https://x.com/Kimdonghyu93321/status/2092388688080912759",
-          "title": "#리센느 #RESCENE #원이 #WONI 캐주얼 스트릿 브랜드 #와키윌리 리센느(RESCENE)의 멤버 원이를 26FW 시즌 뮤즈 발탁 첫 번"
-        },
-        {
-          "name": "X · @Kimdonghyu93321",
-          "link": "https://x.com/Kimdonghyu93321/status/2092388650483073522",
-          "title": "#리센느 #RESCENE #원이 #WONI 캐주얼 스트릿 브랜드 #와키윌리 리센느(RESCENE)의 멤버 원이를 26FW 시즌 뮤즈 발탁 첫 번"
-        },
-        {
-          "name": "X · @Kimdonghyu93321",
-          "link": "https://x.com/Kimdonghyu93321/status/2092388601938211164",
-          "title": "#리센느 #RESCENE #원이 #WONI 캐주얼 스트릿 브랜드 #와키윌리 리센느(RESCENE)의 멤버 원이를 26FW 시즌 뮤즈 발탁 첫 번"
-        },
-        {
-          "name": "X · @peoplegate2",
-          "link": "https://x.com/peoplegate2/status/2092465348742394231",
-          "title": "'와키윌리'가 걸그룹 리센느 멤버 원이를 26FW 뮤즈로 발탁, 첫 화보 ‘오늘은 원이데이~’를 공개했다.  [사진 제공 : 와키윌리]  #비케"
-        }
-      ],
-      "source_count": 29
-    },
-    {
-      "date": "2026-08-21",
-      "kind": "광고·모델",
-      "brand": "한스킨",
-      "title": "한스킨, 리센느 미나미·제나 브랜드 모델 발탁 - 장업신문",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · 장업신문",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50OFBKLUZCRWxORktqcUFPYjlMTjhIbWZ6d1RWV0xMYk8zMnB6VG5aRWc2Z1AtdmNLV2ljbWVmZV9rOW80U0FGX25GVjJITXp6eXRKWVltakJRdHkzNjktN1dGTWJ5ck0?oc=5",
-          "title": "한스킨, 리센느 미나미·제나 브랜드 모델 발탁 - 장업신문"
-        },
-        {
-          "name": "Google 뉴스 · v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ySW4zRGYtNVNMcWVSdEVKaHJuYTYyNFRQUTh3U2hhaVdjaUZCWXB2TFh4X0IzX3pVMHViby1LeE9lQlVxYWxKQ08tSTBzSlk?oc=5",
-          "title": "리센느 미나미·제나, 한스킨 모델 발탁 - v.daum.net"
-        },
-        {
-          "name": "Google 뉴스 · 핸드메이커",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93ek9sRllmeWYta2oya2s1SFR2a25tTDA2RjhiTjB5clRxR0VJcjdXRFdTdXI0U1FZUl9ENHpxbXJ4c3hTa1AwTFEwY2lCaUxZekdFa2YzLVNwQU1xMFNTMlNTNFZMbUXSAWtBVV95cUxNYVgzU1pHSmJHSy1YN2VsdU5uZFg1Ynp0ckJWQUVvdEY0czZfREJJVFM4YmlsQUtjblpSOVVDMElaVkhvTVJ0NFpGdVRvVWN5TW90ckxsYnVPSUNFVmwxb2VKZktLb0xFVFhDOA?oc=5",
-          "title": "한스킨, 리센느 미나미·제나 모델 발탁... 리브랜딩 캠페인 시작 - 핸드메이커"
-        },
-        {
-          "name": "Google 뉴스 · bntnews.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84QzBEVnFFNXphd3U2QVNaWFBfN05pNExMcWFCdU1QQmlCLVFuOWRGQnJnN2dxS2d6MmFzSk1VV2RZWXBsM2ZWNDc5UUtGbzlDWk81Z0dDaWozNTM1Y2wxN1d6dl8zRkNtMGRtZmFWNkFtMGNpT3c?oc=5",
-          "title": "리센느 미나미·제나, 한스킨 모델 발탁 - bntnews.co.kr"
-        },
-        {
-          "name": "Google 뉴스 · v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1NcFdOUEZEN3RlRzQ3Y2VMV0gtMlBKLTZoYnl3RGtmUF9jQjh3Q1dvYkdmMDYwZ3FwUG1ydDFoOVBFUTZUTDZwNWJraGRGQXByZHlORQ?oc=5",
-          "title": "리센느 미나미·제나, 한스킨 모델 발탁 - v.daum.net"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.handmk.com/news/articleView.html?idxno=42410",
-          "title": "한스킨, 리센느 미나미·제나 모델 발탁... 리브랜딩 캠페인 시작"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5HQmVWaXR6SU1mVzRNdEhwX2hDZF8yd2t0eHpkc05ibTBuWU1GMkRTQm8xT3c0VDFTVEZBWXhEOFhJSnNMd1NjdFFfWW9HUzJXczBEVlVycXdDRklNQ0pzN2dBWkdFOV9HYVEtWmQweXE4cjB4Tk5fYmx0WUU?oc=5",
-          "title": "한스킨, 리센느 미나미·제나 모델 선정...24일부터 신규 캠페인 진행 - 비욘드포스트"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBsVmpxQXZWU2RhRF9YSnQ5c09wSHpPR3cxSEZTNktSdEN4ZFBLSEVxRUNMckpSNWRHaXc4cS1rVDVmbEo4VFQ1ZXQ2aGMxNHN3TEVYZTFmQmxFSVcwVXFkRGVibWIzQQ?oc=5",
-          "title": "한스킨, 리센느 미나미·제나 브랜드 모델 발탁 - 장업신문"
-        },
-        {
-          "name": "Google 뉴스 · 주간신문씨엠엔",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45eHlSQUFmU1dpT01pM3VQQzJuNWR5amUtdzBZd3llOHpjdGFxalRxT2lhdWhYRkhoS0UtR0d1TmxSdTFYZVZfR0pndlYxX0VHTEhMSEtrU21vbnB1dGx6Q2Z0cFFSQQ?oc=5",
-          "title": "한스킨, 대세 걸그룹 ‘리센느’ 미나미·제나 모델 발탁 - 주간신문씨엠엔"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kVkR5VUFaeURRLWh0dDZ3T3NpWlFJdnBHd1RzNThBMUhSTy1ZQmgxLXpIRVFOS3dYZEN1ZVJSckNsR09rZC1TcDJEdVVoRHQ1dURFNEV4ZEpTblZGZ3BGaXJpdWszZVJIVDRVWVNXc0x0VzZNellV?oc=5",
-          "title": "한스킨, 대세 걸그룹 ‘리센느’ 미나미·제나 모델 발탁 - 주간신문씨엠엔"
-        },
-        {
-          "name": "네이버 블로그 · 별빛 연예소",
-          "link": "https://blog.naver.com/qhdqhd2700/224391553932",
-          "title": "리센느 미나미 제나 한스킨 모델 발탁, PDRN 핑크볼 광고까지"
-        },
-        {
-          "name": "네이버 블로그 · 공부라는 게임의 재미",
-          "link": "https://blog.naver.com/bbsqsq017657/224393934791",
-          "title": "한스킨 리센느 미나미 제나 모델 발탁"
-        },
-        {
-          "name": "X · @kaminamiSama",
-          "link": "https://x.com/kaminamiSama/status/2090766774841364696",
-          "title": "제나미  한스킨30초버전 광고영상인데 애정듬뿍담긴거같아서  어깨룐나올라가고막기특하고그럼 ㅠ..   한스킨❤️리센느❤️나 https://t.co/"
-        },
-        {
-          "name": "네이버 카페 · 거제도유튜브/부업 /쿠팡/투잡/재테크/알바/유튜브/홍보/광고",
-          "link": "https://cafe.naver.com/greenkc0a7/4052",
-          "title": "거제 야호~! 리센느 미나미·제나, 한스킨 모델 발탁 / 거제도유튜브 같이해...."
-        },
-        {
-          "name": "X · @dongwoon67",
-          "link": "https://x.com/dongwoon67/status/2092003174706184440",
-          "title": "한스킨, 리센느 미나미·제나 모델 선정...24일부터 신규 캠페인 진행 https://t.co/NKPisZ9Yhp"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
-          "link": "https://cafe.naver.com/prodream9/41681",
-          "title": "한스킨 with 리센느 미나미&제나 광고 촬영 메이킹 필름"
-        }
-      ],
-      "source_count": 16
-    },
-    {
-      "date": "2026-08-20",
-      "kind": "굿즈",
-      "brand": "할리스",
-      "title": "\"미공개 포카 증정\" 할리스, 걸그룹 '리센느' 세트 출시하고 굿즈 마....",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 블로그 · 펀치의 경제이야기",
-          "link": "https://blog.naver.com/sinyboy/224390735421",
-          "title": "\"미공개 포카 증정\" 할리스, 걸그룹 '리센느' 세트 출시하고 굿즈 마...."
-        },
-        {
-          "name": "네이버 블로그 · 일상기록",
-          "link": "https://blog.naver.com/cheese1425/224407668357",
-          "title": "리센느 할리스 포카 굿즈 구매가능한 할리스 수원인계점"
-        },
-        {
-          "name": "네이버 블로그 · 시아와 함께 자라는 일상 리포트",
-          "link": "https://blog.naver.com/sia_mom2025/224409343302",
-          "title": "리센느 팬 필독! 할리스 가을 신메뉴 구매하고 굿즈 받자"
-        },
-        {
-          "name": "X · @Nezko2026",
-          "link": "https://x.com/Nezko2026/status/2090362964616609855",
-          "title": "@tokkihibiki 할리스 갔는데, 아직 리센느 관련된 굿즈 아무것도 없네요"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
-          "link": "https://cafe.naver.com/prodream9/39776",
-          "title": "할리스도 리센느 굿즈 있나요???"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
-          "link": "https://cafe.naver.com/prodream9/45965",
-          "title": "[이벤트] 향긋한 할리스 커피 마시고 리센느 스폐셜 굿즈 받자 ٩(๑>∀<๑)۶"
-        }
-      ],
-      "source_count": 6
     },
     {
       "date": "2026-08-18",
@@ -363487,6 +362653,11 @@ const SITE_DATA = {
           "name": "네이버 블로그 · REMINE Note",
           "link": "https://blog.naver.com/henry1796248/224390771553",
           "title": "할리스 커피 X 리센느(RESCENE) 콜라보 이벤트 완전 정리"
+        },
+        {
+          "name": "네이버 블로그 · 펀치의 경제이야기",
+          "link": "https://blog.naver.com/sinyboy/224390735421",
+          "title": "\"미공개 포카 증정\" 할리스, 걸그룹 '리센느' 세트 출시하고 굿즈 마...."
         },
         {
           "name": "네이버 블로그 · • 취향 기록장 •",
@@ -363584,7 +362755,24 @@ const SITE_DATA = {
           "title": "할리스, 리센느 콜라보레이션"
         }
       ],
-      "source_count": 29
+      "source_count": 30
+    },
+    {
+      "date": "2026-08-18",
+      "kind": "콜라보",
+      "brand": "더현대 서울 팝업 (Scent Archive)",
+      "title": "위드뮤&리센느 콜라보오!!",
+      "period_text": "",
+      "note": "",
+      "is_manual": false,
+      "sources": [
+        {
+          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
+          "link": "https://cafe.naver.com/prodream9/38124",
+          "title": "위드뮤&리센느 콜라보오!!"
+        }
+      ],
+      "source_count": 1
     },
     {
       "date": "2026-08-18",
@@ -363951,11 +363139,6 @@ const SITE_DATA = {
           "title": "더현대서울 리센느 팝업 굿즈 개봉기 / 원이 보이스카세트, 손거울, ...."
         },
         {
-          "name": "X · @Ao5arashi",
-          "link": "https://x.com/Ao5arashi/status/2089665744137302237",
-          "title": "리센느 9월 위드뮤 팝업 임시인데 하면 좋겠듀아 https://t.co/czt0JgeHzW"
-        },
-        {
           "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
           "link": "https://cafe.naver.com/prodream9/38117",
           "title": "리센느 x 위드뮤 팝업 스토어 예고"
@@ -363994,31 +363177,6 @@ const SITE_DATA = {
           "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
           "link": "https://cafe.naver.com/prodream9/42419",
           "title": "더 현대 팝업 엠디 리스트 Scent Archive - MEMORIES OF RESCENE"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
-          "link": "https://cafe.naver.com/prodream9/42447",
-          "title": "RESCENE (리센느) [Scent Archive - MEMORIES OF RESCENE] POP-UP 안내"
-        },
-        {
-          "name": "X · @wonlibbu",
-          "link": "https://x.com/wonlibbu/status/2096911680978747515",
-          "title": "[Scent Archive - MEMORIES OF RESCENE] POP-UP #리브 MD, 특전 모음  - 5만원 구매 특전 포토카드 개인 "
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/32620",
-          "title": "RESCENE (리센느) 'Scent Archive - MEMORIES OF RESCENE' POP-UP 사전예약 및 MD 리스트 안...."
-        },
-        {
-          "name": "X · @Withmuu_twt",
-          "link": "https://x.com/Withmuu_twt/status/2096843493100708320",
-          "title": "[📢] RESCENE (리센느) [Scent Archive - MEMORIES OF RESCENE] POP-UP 안내  📅 9/15(화) ~ 9"
-        },
-        {
-          "name": "X · @Withmuu_twt",
-          "link": "https://x.com/Withmuu_twt/status/2096841006528561192",
-          "title": "[📢] RESCENE (리센느) [Scent Archive - MEMORIES OF RESCENE] POP-UP 안내  📅 9/15(화) ~ 9"
         },
         {
           "name": "X · @ini_fol",
@@ -364184,506 +363342,9 @@ const SITE_DATA = {
           "name": "X · @yangyeeun292548",
           "link": "https://x.com/yangyeeun292548/status/2102631725520322744",
           "title": "리센느 팝업  #RESCENE #리센느 #ScentArchive #MemoriesOf_RESCENE  #리센느_위드뮤_팝업 https://t.c"
-        },
-        {
-          "name": "X · @Withmuu_twt",
-          "link": "https://x.com/Withmuu_twt/status/2104451035314221266",
-          "title": "[📢] RESCENE (리센느) POP-UP [Scent Archive - MEMORIES OF RESCENE] OFFICIAL MD 온라인 판"
-        },
-        {
-          "name": "X · @Withmuu_twt",
-          "link": "https://x.com/Withmuu_twt/status/2104813428821147678",
-          "title": "[📢] RESCENE (리센느) POP-UP [Scent Archive - MEMORIES OF RESCENE] OFFICIAL MD 온라인 판"
         }
       ],
-      "source_count": 120
-    },
-    {
-      "date": "2026-08-18",
-      "kind": "콜라보",
-      "brand": "더현대 서울 팝업 (Scent Archive)",
-      "title": "위드뮤&리센느 콜라보오!!",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
-          "link": "https://cafe.naver.com/prodream9/38124",
-          "title": "위드뮤&리센느 콜라보오!!"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-08-17",
-      "kind": "광고·모델",
-      "brand": "할리스",
-      "title": "창사 28년 만에 처음이다…할리스, 첫 광고 모델로 '리센느' 선택",
-      "period_text": "8월 18일",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 블로그 · 잽뉴스",
-          "link": "https://blog.naver.com/jabnews/224382649383",
-          "title": "창사 28년 만에 처음이다…할리스, 첫 광고 모델로 '리센느' 선택"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.mydaily.co.kr/page/view/2026081817292414398",
-          "title": "할리스, ‘리센느’ 창사 이래 첫 광고 모델로…이달 말 광고 공개"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uQXlINjB2THJaNVhyQ3k3RUlfbS13MUFGODN6cmxnM1lkOUI4cFEtZDNQOGJva3RUT2M0RDFYelZ1MEV1azRZZmxiT2xOVk9uYUs4?oc=5",
-          "title": "리센느, 이번엔 커피다…할리스 브랜드 모델 발탁 - 네이트"
-        },
-        {
-          "name": "Google 뉴스 · 뉴스핌",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rMnctcnU4YVlVZXpqc2pMY0xCZUhsaEtxMXdMUGd0MHBSTkNkU1IzWEM5bHdLYlcwZmhfV0J4dWxMWUFmN0RlTUNkN0trd3RSVjNUbzZxSWZkUmo0?oc=5",
-          "title": "리센느, 대세 행보 이어간다…할리스 첫 브랜드 모델 발탁 - 뉴스핌"
-        },
-        {
-          "name": "Google 뉴스 · 디지털데일리",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LeTg4YVpBR2VSZmxPVHV3UkRpSng3VVZPOHB2UnlmVkMzZXFKZ182TkM3cURTTmFLaEFLUVdvWXpPTk1iTVlxbG1ZRnlqV0FybEhsdUJ5Y3pieVJSS3pUcXZn?oc=5",
-          "title": "리센느, 이번엔 커피다…할리스 브랜드 모델 발탁 - 디지털데일리"
-        },
-        {
-          "name": "Google 뉴스 · 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DaUFoa29yQXVHa0N4M1J1S2lTYkhSWEFjUW44YWRSUnRpZGFtVk1obW4yRFRoNVloaUM4REdFUTRjTlVCZE4wZ1doai1Xdw?oc=5",
-          "title": "할리스, 창립 28년 만에 첫 광고모델…걸그룹 '리센느' 발탁 - 전자신문"
-        },
-        {
-          "name": "Google 뉴스 · 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBkZjhlLW1iMG5QRnQ5VUVnQlplaVRVUktOWUlJVWdxSktSZkdfdFNQdnQ0OG1uNEVCVW5Qb2diQjVXNkNwREp2WEh6NjR4ZzVmdEZYTA?oc=5",
-          "title": "할리스, “커피 야호~”⋯브랜드 첫 광고 모델로 걸그룹 '리센느' 선정 - 이투데이"
-        },
-        {
-          "name": "Google 뉴스 · bntnews.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2Q2FPQllGVTlIUy10OTZuMDJvWGFVeENQUUdhWW9uWG9qbldvSGNVci11aFF3YURTaEI0YjFOOVJTN09pVy1EYlZKN05BTVdJN181OERKSlhoTmlCTVNTZWNWcFg?oc=5",
-          "title": "리센느, 할리스 28년 만의 첫 광고 모델 됐다 - bntnews.co.kr"
-        },
-        {
-          "name": "Google 뉴스 · 아이뉴스24",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5zUEFubFJHWXFDYzl5SzVxeWpLbTJkQWhSTWJSbXVFcllGR2RIMWRGaUo0T2V1R0NWeTNmTXJqSS14T2lEMzFlSXY2Yw?oc=5",
-          "title": "할리스, 대세 아이돌 '리센느' 잡았다…창사 28년 만에 첫 모델 발탁 - 아이뉴스24"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mYk1uLVRnV2dsNVNOU25CQVA4RkswWWJVMmthV2puVWpYbGJjSEprZWRZSWpCQXFmNFN2R1o0UDl3Z1pPWUx4TTNvSGZjLXFiVXlPTTlzUFE1YkxQUjBmUXI0X2g1U040a2c?oc=5",
-          "title": "할리스, 창립 이래 첫 모델 발탁…'리센느' 함께한 광고 공개 - 컨슈머타임스"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdEIzbmpySTBWT1FObGpCMDdTNm5ZX3NJYnYwaHZ3SVB5TVBZNnlyRDQ1QU5QNW1Gb1RoVDlRcmxsbmZnNDBZSnNHMWJpM1hiMGlQRUxhdUIzNXd6VE92amN3bFc3eldoQUQxT3JKMFZSUUxhbDhGb1RtYUt1NUY2RjBnNmd5eU14LWpJSGdEUVVVVVnSAacBQVVfeXFMUDQ4QVp2b1ZRVWNJaGw5OTRZcWhISjlPR1Z0bDg0bm1UYnZ4ZFdsMkVzdV9pRHZFVUZPbUxYV081V2Q2TUZUNnhsZzFyMG4yWV8tM0pVQ0E4dmtLMUZwZGp2bUJ2ZFlLYzJSSHVWTGZpUDR1OGFMd0E3QzVweVRQOUtQaUxJMVlDaWVOTUdBU0pzM0dQNzJtMEpaTWpMQUt3Q3EzNTMtN3M?oc=5",
-          "title": "리센느, 걸그룹 대세 증명…커피 브랜드 할리스 첫 모델 발탁 - 조선비즈 - Chosunbiz"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lTGp6bFlMUHVPeDYwRnFBRzg2cndIYVl6aVBSNGRPbW5iellkcWNfOFNJTHBVVm1NTTNFTVZSQnllSlk3a1hrS2lJeXprQ0FOalg1RzhKSXk1aGM2Z0h0Wl9jTzg2QQ?oc=5",
-          "title": "할리스, 창립 28년 만에 첫 광고모델…‘리센느’ 발탁 - 푸드투데이"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yS0tUXzhibnNmR3BsNkZpSjNVZV9ISkVHeUcwWDVwaEJBUmVhb0lqb21QQjJxRm8tSm0wUmdEQXJUcTdtNmNiUFA3QzBkczBVXzJDQnZBb1NMRi04Ulo5THNrMmNJZw?oc=5",
-          "title": "리센느, 할리스 첫 모델 발탁...긍정 시너지 기대 - slist.kr"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ta2lxd2I4YkxWS2UtUENXT0RCdzI2dTlGaHRxbUVKSUJwMnUtV0RWa2hQeEpIc2F3YzYtOVYyVF9ZRkEtSl8yOTV4eFd3aGNRRHlpRmNiazJER2M?oc=5",
-          "title": "할리스, 창사 28년 만에 첫 광고 모델로 리센느 발탁 - 선데이뉴스신문"
-        },
-        {
-          "name": "Google 뉴스 · 금강일보",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OS3pBcS1EM05UNzZ1WXNESGh2dkN3ejBSTUQ5RDE5WmpFaTljNlpLVXd6SXMtZXdrbGhjdkpsYmpGbGl1Q0F4WVRHQ2NOSzdJV0p5djFsc3BtaHp5eF9KMlJmLXlEejJSTEE?oc=5",
-          "title": "할리스, 창사 첫 브랜드 광고 모델로 '리센느' 선정 - 금강일보"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wZkxEWTN6b1VMbGhzcDh5OUo2U1J0dTdBM3hOMnhNUXJjem5LcEdtRDBwNFJ4OHlrRlJPSl93RWJDYm9MYjF2bUJtRkEycW5UTkRXeGdCM0RNTkJCNVZrcQ?oc=5",
-          "title": "할리스 마시는 리센느, 이대호는 롯데마트 간판으로[유통가 새 얼굴] - 뉴시스"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LNHpCYzQ5SzlwcTkyRDlVckdnZ0dpVXBGc0xNR2E5RFRaWFVIbjRFZFBYT25kVVFnNUV1Mjd5ZmNvTjlSbGFiUjFONzQ2cDFSbXhoYWJyVktBaGJCcUI4NHJHNFphVnBZZGZvbw?oc=5",
-          "title": "“호랑이와 곶감부터 별주부전까지”…할리스, 리센느와 전래동화 광고 공개 - 뉴스탭"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1CQmE2ZVBlWFJRNlVTejBXQTRoU0ZPVEtWQXh2cG1WbWluWDJsdW9GX3VCVjg3aFdaOEd6VmtsdmY1ZmUtSmhkVnpmTkVSZDVpQm5yTjA0Ry1zVmlTTWFFR0VXaURsMEswcWFhMFhlZDJKalNpb1dQdHlR?oc=5",
-          "title": "할리스, 브랜드 첫 모델 리센느와 전래동화 콘셉트 신규 광고 공개 - 로이슈"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6eUVJM1B3MEZZOVkyVVhyTDdTaG1RUHhmamtsOVJaQjVTUkkxT1NVWU16WkRQRkEwMWc3LXNtV2ZFNkU3WEpVU0lmU0pxZkd0dzE1Q2JzYkhNU2dEZ3F6dFdSVUJ4enNlYlh3?oc=5",
-          "title": "할리스, 걸그룹 리센느와 전래동화 콘셉트 신규 광고 공개 - BBS불교방송"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tdzlCN3hXd0k2NUc4MWlRS0M0U2NoMHpnaVh2SThzZEFWOXRJZDFGck1McEF6cS1fcThXR0hIQnh1YTB0ZUt0WU5oSFRlWElsZ1o2RHMwUXlmZGFrbTd1dDBGYmlUZ181TkFfMXQ4UWNodw?oc=5",
-          "title": "할리스, 브랜드 첫 모델 리센느와 전래동화 컨셉 신규 광고 공개 - 스페셜타임스"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=480684",
-          "title": "할리스, 리센느와 전래동화 활용 가을 광고 공개"
-        },
-        {
-          "name": "네이버 블로그 · 위드인뉴스",
-          "link": "https://blog.naver.com/withinnews/224390495993",
-          "title": "할리스·리센느, 전래동화로 완성한 첫 브랜드 광고 공개"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1jWV9QV2VyREpVUG5tRE1qcjJrMXlsd29TR2JpcXg5VHVHc1VmYmpfY2JjS2IwcXc1b0trSVhkaXBXNi03clR3QkQ2d2NkS1JmWldybkRFSmdaTWEtRWdjdUI3dTNwQQ?oc=5",
-          "title": "리센느, 전래동화 주인공 변신...할리스 CF 온에어 - 싱글리스트"
-        },
-        {
-          "name": "네이버 블로그 · 찬미정원",
-          "link": "https://blog.naver.com/ekdbr3746/224382714762",
-          "title": "[할리스 이벤트] 리센느 모델 발탁 기념! 50% 웰컴 쿠폰 혜택 및 브랜...."
-        },
-        {
-          "name": "네이버 블로그 · 모든 이슈를 다루는 남자, 모이남",
-          "link": "https://blog.naver.com/wlthrtjd-/224382478098",
-          "title": "☕ 할리스, 창사 28년 만의 첫 전속모델 발탁! 걸그룹 '리센느' 선정 ...."
-        },
-        {
-          "name": "네이버 블로그 · nakuproject님의 블로그",
-          "link": "https://blog.naver.com/nakuproject/224381919365",
-          "title": "리센느 요즘 진짜 대세 맞는듯ㅣ할리스까지 모델 발탁된 ‘중소돌...."
-        },
-        {
-          "name": "네이버 블로그 · 산골소녀의 유익한 하루",
-          "link": "https://blog.naver.com/gwsylove/224383818713",
-          "title": "“할리스 야~호!” 28년 만에 처음…첫 광고 모델은 ‘리센느’ (+할...."
-        },
-        {
-          "name": "네이버 블로그 · 가장 핫한 트렌드만 콕! 찍어드립니다. TrendPick",
-          "link": "https://blog.naver.com/hnscom2012/224383264320",
-          "title": "할리스가 리센느와 만났다! 첫 광고 모델 발탁의 의미"
-        },
-        {
-          "name": "네이버 블로그 · 공부라는 게임의 재미",
-          "link": "https://blog.naver.com/bbsqsq017657/224382948293",
-          "title": "할리스 첫 광고모델 리센느 발탁"
-        },
-        {
-          "name": "네이버 블로그 · 찬미정원",
-          "link": "https://blog.naver.com/ekdbr3746/224382740688",
-          "title": "[토스쇼핑 핫딜] 리센느 할리스 모델 발탁 축하! 시그니처 아메리카...."
-        },
-        {
-          "name": "네이버 블로그 · SCENELOG  리센느 RESCENE 팬로그",
-          "link": "https://blog.naver.com/scenelog_-/224384537183",
-          "title": "☕ 리센느 할리스 모델 발탁｜28년 만의 첫 광고모델이 RESCENE인 이유"
-        },
-        {
-          "name": "네이버 블로그 · 미나얍",
-          "link": "https://blog.naver.com/ohhoo3pm/224385422320",
-          "title": "[할리스 신규가입 혜택] 리센느 모델 발탁 기념! 8월 신메뉴 50% 반값 ...."
-        },
-        {
-          "name": "네이버 블로그 · Hello, it’s cong ♡",
-          "link": "https://blog.naver.com/dandancong/224385429612",
-          "title": "할리스 첫 광고 모델은 리센느! 창립 28년 만의 선택 ☕️"
-        },
-        {
-          "name": "네이버 블로그 · 정가네마케팅",
-          "link": "https://blog.naver.com/gungganemaketing/224386782359",
-          "title": "할리스 리센느 모델 발탁, 28년 만에 처음 모델 쓴 진짜 이유가 뭘까?"
-        },
-        {
-          "name": "네이버 블로그 · 경제엔미디어",
-          "link": "https://blog.naver.com/econmedia/224390715904",
-          "title": "할리스, 브랜드 첫 모델 ‘리센느’와 함께한 신규 광고 공개"
-        },
-        {
-          "name": "네이버 블로그 · 베티",
-          "link": "https://blog.naver.com/todomuch/224391747655",
-          "title": "\"그 토끼가 리센느였어?\" 할리스 첫 모델 낙점.. 뜻밖의 근황"
-        },
-        {
-          "name": "네이버 블로그 · 유니맘쉼표, 아빠의 여행일기",
-          "link": "https://blog.naver.com/parkjp0821/224391679472",
-          "title": "할리스 리센느 최초 모델 발탁! 가을 신메뉴 & 포토카드 이벤트 총정...."
-        },
-        {
-          "name": "네이버 블로그 · 이슈를 요리하는 곳, 데일리 브리핑",
-          "link": "https://blog.naver.com/dailybriefing/224391586781",
-          "title": "\"포토카드 세트가 뭐라고\".. 할리스 리센느 첫 모델 발탁 및 가을 신...."
-        },
-        {
-          "name": "네이버 블로그 · 정보창고",
-          "link": "https://blog.naver.com/house_movie/224391647000",
-          "title": "할리스가 28년 만에 처음 골랐다…첫 광고모델 리센느 누구길래?"
-        },
-        {
-          "name": "네이버 카페 · 부산 블로그 체험단 맛집 술집 여행 카페 울산 경남 오히려좋아",
-          "link": "https://cafe.naver.com/zzangbusan/37956",
-          "title": "할리스 리센느 모델 발탁.. 8월 26일부터 난리 난 '한정판 굿즈' 정체"
-        },
-        {
-          "name": "네이버 블로그 · Bliss;더할나위 없이 좋은",
-          "link": "https://blog.naver.com/blissu25/224392461090",
-          "title": "리센느가 여기서 왜 나와? 할리스 첫 모델 발탁…전래동화 속으로"
-        },
-        {
-          "name": "네이버 블로그 · 세상만사",
-          "link": "https://blog.naver.com/doritori23/224400122405",
-          "title": "리센느 할리스 광고모델 발탁, 28년 만에 첫 브랜드 얼굴이 된 이유"
-        },
-        {
-          "name": "네이버 블로그 · 꿀팁&이슈",
-          "link": "https://blog.naver.com/yho2210/224399032167",
-          "title": "리센느 할리스 포토카드 받는 방법, 첫 광고 모델까지"
-        },
-        {
-          "name": "네이버 블로그 · NEXT WAVE",
-          "link": "https://blog.naver.com/d3a5un9/224401409771",
-          "title": "할리스는 최고 주가를 달리고 있는 리센느를 광고 모델로 사용해서 ...."
-        },
-        {
-          "name": "X · @yageumyagum_",
-          "link": "https://x.com/yageumyagum_/status/2089289032492777738",
-          "title": "할리스 새로운 광고 모델 \"리센느\" 대한민국이 리센느의 향기로 물드는 중 https://t.co/1txdBmdRbz"
-        },
-        {
-          "name": "네이버 카페 · 고객님의 테일러샵 - HK테일러 대표카페",
-          "link": "https://cafe.naver.com/dkvkgkwlakdy/58397",
-          "title": "걸그룹 리센느, 할리스 커피 창사 이래 첫 광고 모델"
-        },
-        {
-          "name": "네이버 카페 · 휴대폰성지 아셀폰 I 휴대폰 시세 성지 좌표 휴대폰싸게사는법",
-          "link": "https://cafe.naver.com/freecanon00/89978",
-          "title": "리센느 할리스 커피 창사 이래 첫 광고 모델 발탁"
-        },
-        {
-          "name": "X · @ESUOHSNSD",
-          "link": "https://x.com/ESUOHSNSD/status/2089631098154406119",
-          "title": "할리스, 창립 28년 만에 첫 광고모델…걸그룹 '리센느' 발탁 출처 : 전자신문 | 네이버 https://t.co/0RrTkTqr3O #RESC"
-        },
-        {
-          "name": "네이버 카페 · 렁만이네 : 독학왕 공식 팬카페",
-          "link": "https://cafe.naver.com/browna6if9/20045",
-          "title": "리센느 할리스 커피 모델 발탁"
-        },
-        {
-          "name": "X · @jutingstar9999",
-          "link": "https://x.com/jutingstar9999/status/2089587708859683211",
-          "title": "창립이래로 한번도 모델이 없었던 할리스 커피 리센느 모델 발탁ㄷㄷ . . 창사 28년 동안 최초로 쓰는 브랜드 모델이라고..ㄷㄷ 리센느 폼 여전"
-        },
-        {
-          "name": "X · @dionysosleo1",
-          "link": "https://x.com/dionysosleo1/status/2089515186436833700",
-          "title": "☕ “28년 만에 처음”…할리스 첫 브랜드 모델은 걸그룹 ‘리센느’  1998년 문을 연 할리스가 창립 이후 처음으로 브랜드 광고 모델을 발탁했"
-        },
-        {
-          "name": "X · @slist2015",
-          "link": "https://x.com/slist2015/status/2089489583046373763",
-          "title": "리센느, 할리스 첫 모델 발탁...긍정 시너지 기대  #리센느 #RESCENE  #원이 #리브 #미나미 #메이 #제나  @RESCENEoffic"
-        },
-        {
-          "name": "X · @grok",
-          "link": "https://x.com/grok/status/2089402923314745374",
-          "title": "@Jook_Jook_E @ceolmh3 리센느(RESCENE)야. 할리스 새 모델로 발탁된 5인조 걸그룹이야."
-        },
-        {
-          "name": "X · @pdc0219_11",
-          "link": "https://x.com/pdc0219_11/status/2089399926161916173",
-          "title": "리센느, 할리스 새 모델로 발탁  #리센느 #할리스 #리센느할리스 #리센느모델 #할리스모델 https://t.co/ANloP54jkh"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/19469",
-          "title": "08/26 할리스 l 리센느 광고 공개 예정"
-        },
-        {
-          "name": "네이버 카페 · 보정당- 보험을 알고 정리하자",
-          "link": "https://cafe.naver.com/zeroht/2726",
-          "title": "28년간 광고모델없던 할리스커피 첫 광고모델로 리센느가 되었네요"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/22565",
-          "title": "RESCENE (리센느) 할리스 CF 광고 사진 #원이"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/22566",
-          "title": "RESCENE (리센느) 할리스 CF 광고 사진 #메이"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/22567",
-          "title": "RESCENE (리센느) 할리스 CF 광고 사진 #제나"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
-          "link": "https://cafe.naver.com/prodream9/39955",
-          "title": "동화 속 공주님 재질 리센느 원이의 할리스 CF"
-        },
-        {
-          "name": "네이버 카페 · 수니그룹",
-          "link": "https://cafe.naver.com/soonigroup/376066",
-          "title": "리센느 x 할리스 광고 공개"
-        },
-        {
-          "name": "X · @rem1ne",
-          "link": "https://x.com/rem1ne/status/2092282294610665957",
-          "title": "@Hollys_kr 제발 저요. 제가 아니면 안됩니다. 제발 저요. 진짜 리센느 광고모델 됬다는 글 보자마자 할리스에 매일매일 출석체크하는 중 "
-        },
-        {
-          "name": "네이버 카페 · 역학사랑방",
-          "link": "https://cafe.naver.com/lovesaju/689822",
-          "title": "리센느 할리스 광고 모델인데 궁금한 게 운이 좋은 소수가 나머지도 다 끌...."
-        },
-        {
-          "name": "네이버 카페 · 카페플렉스 | 카페 좋아하는 사람들 CAFE FLEX & 홈카페",
-          "link": "https://cafe.naver.com/cafeflex/70323",
-          "title": "할리스 28년 만에 첫 모델 발탁…걸그룹 리센느 선택한 이유"
-        },
-        {
-          "name": "X · @keymong",
-          "link": "https://x.com/keymong/status/2097647711919194525",
-          "title": "리센느 할리스 커피 광고 촬영 비하인드   #rescene #리센느   https://t.co/mzFRDypvQ3"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/34293",
-          "title": "[할리스 유튜브] 리센느 멤버들의 광고 촬영 비하인드 영상"
-        },
-        {
-          "name": "네이버 카페 · 뚜엔밥",
-          "link": "https://cafe.naver.com/ddubcafe/132328",
-          "title": "[HOLLYS × RESCENE] 리센느와 할리스의 첫 광고 촬영 현장! | BEHIND FILM"
-        }
-      ],
-      "source_count": 67
-    },
-    {
-      "date": "2026-08-17",
-      "kind": "굿즈",
-      "brand": "바이오던스",
-      "title": "리센느 원이·바이오던스 ‘통했다’…굿즈 완판·유튜브 1천만 뷰 이어 서울 전역 캠페인 확대 - 아시아뉴스통신",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rUmp0RTlMcFVJTnliSDMxV0R6Z0hwSGE1MnV4ZEUwYXdOR2doYVNGeXM4T2JkQUh0eGE1dFh1dmhsUzJSZVdzT2hJem94ZmxCOUxQSDdhSXBIcUF0?oc=5",
-          "title": "리센느 원이·바이오던스 ‘통했다’…굿즈 완판·유튜브 1천만 뷰 이어 서울 전역 캠페인 확대 - 아시아뉴스통신"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mOFZsZWxfQUg5SlU5TGJwTm1WS21uVmI4RkRvRkt1Y2ZMUk1xU2wtQ3FNaGM3YXhDV0EzS05DWUVITGF5cVBMX1c4Mnh6QXUzU0dXcTVfYXN0SlpScFJfSmtiSjNWUQ?oc=5",
-          "title": "리센느 원이 효과! 바이오던스 굿즈 완판에 서울 전역 캠페인 - 싱글리스트"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yUkxpN3BZd1dqWGJ3MldHNkJVaWxyZjdxT19VcWswc2NFUnBEaGJ2VWgxVHNxT1JjcDQyM3NYU25KTXdRZGQ5MG04ZDJVa0JBY2RNVkt1QmpHQ2dhR0dISVY1UXJ1TjNNVXc?oc=5",
-          "title": "리센느 원이 X 바이오던스 ‘통했다’…굿즈 완판·유튜브 1천만 뷰 이어 서울 전역 캠페인 확대 - 뉴스에이"
-        },
-        {
-          "name": "Google 뉴스 · 패션비즈",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9WMzFLMlZkeU12MDVEWUxQSTg5NE5WYmJwU3BFX1cxb3NRZVpObTF2bGp3YlVNaWx2SXkzVzVpY1FhSjl6ZEdGN2Mta01ZazRS?oc=5",
-          "title": "바이오던스, 리센느 원이 캠페인 효과… 굿즈 완판·유튜브 1000만뷰 - 패션비즈"
-        },
-        {
-          "name": "네이버 블로그 · 생활혜택연구소",
-          "link": "https://blog.naver.com/dallim6886/224383037414",
-          "title": "리센느 원이 굿즈 어디서 받나? 바이오던스 키캡 키링 올리브영 이...."
-        },
-        {
-          "name": "네이버 블로그 · 리뷰미 라이프 로그",
-          "link": "https://blog.naver.com/tuesdaycherry/224382925781",
-          "title": "리센느 원이 키캡 키링 증정 오이쉬 야호 굿즈 바이오던스 올리브영...."
-        },
-        {
-          "name": "네이버 블로그 · 김야눈 AKAeve",
-          "link": "https://blog.naver.com/wlgml0363/224386603894",
-          "title": "리센느 원이키캡키링 오이쉬버전 올리브영 바이오던스 콜라겐 세럼...."
-        },
-        {
-          "name": "네이버 블로그 · 라이프아이템그라운드",
-          "link": "https://blog.naver.com/lifeitemground/224400791171",
-          "title": "\"이건 진짜 통했다\"… 바이오던스 X 리센느 원이 키링 2종 전량 완판"
-        },
-        {
-          "name": "네이버 블로그 · 별빛 연예소",
-          "link": "https://blog.naver.com/qhdqhd2700/224403142904",
-          "title": "리센느 원이X바이오던스 통했다, 굿즈 완판에 유튜브 1천만 뷰까지"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/18128",
-          "title": "RESCENE (리센느) 원이 X 바이오던스 키캡 키링 증정 이벤트 안내 (260817~)"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/18740",
-          "title": "RESCENE (리센느) 원이 X 바이오던스 원이 키캡 키링 증정 이벤트 안내 (260819 00...."
-        }
-      ],
-      "source_count": 11
-    },
-    {
-      "date": "2026-08-16",
-      "kind": "콜라보",
-      "brand": "",
-      "title": "리센느, ‘놀토’ 예능감에 맨시티 협업…‘LOVE ATTACK’ 음악 저력 - 톱스타뉴스",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzYjlvQS1DS3ptXzZTa3JSVUxIZVFhLXIyTXVmU00zbFQwT1RqYjlWZWhWSDU1VHdjSTFBdm5WVW4tYUFoeHQ0aHAxOFE4LVZlRG9tVzltV0s0QWRHRnZZNS0zZ3MwVzZVclBXT0FFcU1nQQ?oc=5",
-          "title": "리센느, ‘놀토’ 예능감에 맨시티 협업…‘LOVE ATTACK’ 음악 저력 - 톱스타뉴스"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-08-16",
-      "kind": "광고·모델",
-      "brand": "",
-      "title": "BTS 진과 참치 먹고 리센느 원이와 피부 가꿔볼까[유통가 새 얼굴] - 뉴시스",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1LWkR6akpTTllSaTBzY2p1R1ZYMUpmc0VuckZ6cGJPN2lza1lQRTRoVUhSMVFDZzJXUUU3UGNfM2FrNDg3Z2MxSzdqOHA2OUFkRjdnUVRPQmF1dFNtT1F4a9IBeEFVX3lxTFA3U1pVbTRwQmJvUHpVdEVGd1l3UWEyU2tkZllTY2FVR0U0ZTd1TGxKVTByODhiSHpvbU1QZHRnRzBXM3M1ZXdGRlpMbGFGYWk4c3JUaWVDQ2ttOUhLbThnRHVwcExFZFZxREkxWXoxenNVSV92QWRPZw?oc=5",
-          "title": "BTS 진과 참치 먹고 리센느 원이와 피부 가꿔볼까[유통가 새 얼굴] - 뉴시스"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-08-14",
-      "kind": "광고·모델",
-      "brand": "",
-      "title": "리센느 원이, 스킨케어 브랜드 새 얼굴 됐다 - v.daum.net",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBETnhCaXpFQkJLd3FzWnRDY2RCZkdQTUdtcm9oNjlRLWdXYl9xSXdFNWZPeG12aUNlbTFmTHA5eXVWaWZ6RUJqSkktM2tMU1k?oc=5",
-          "title": "리센느 원이, 스킨케어 브랜드 새 얼굴 됐다 - v.daum.net"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ua050cnFBbGpSTnQycnB5VkowT3dWTjJ4UU8tcWVyMmpnWDQzT3cta1U5STdHMzZPSFJlV3U0WjNOdmsxT0dOTU9ucmRPWGlGY1J4aFVOTFZ6anU2d1RPXzFVeXo?oc=5",
-          "title": "리센느 원이, 스킨케어 브랜드 새 얼굴 됐다 - bntnews.co.kr"
-        }
-      ],
-      "source_count": 2
+      "source_count": 112
     },
     {
       "date": "2026-08-14",
@@ -364720,366 +363381,6 @@ const SITE_DATA = {
       "source_count": 1
     },
     {
-      "date": "2026-08-13",
-      "kind": "광고·모델",
-      "brand": "바이오던스",
-      "title": "바이오던스, 리센느 원이 앰버서더 발탁… 'My First Collagen' 캠페인 - 패션비즈",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · 패션비즈",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1lUXhmZ1VUNHZGOXA0QU96T19ET1JYbGIwN2hYN1VDYXY4TVdPWVctVzVDM0EzNWxmdmoySHFMZ3dVTUswbGM5WkNfcFFlanFk?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더 발탁… 'My First Collagen' 캠페인 - 패션비즈"
-        },
-        {
-          "name": "Google 뉴스 · 글로벌E",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE56MDQtVk5jM0tIT3hWU19xTzlBc0xXUDdraDJnMHREYktNTzNHcU5LdU1mTm9EbkllbzdKbHIwaU5ZeDZVU29RRENveHQtT29NTXd4dlpZUjNVSWpibkQyZEs0R2ZHa2RudGlF0gFvQVVfeXFMUDNMOS00RmlXdHRZdDZiNG4yNWtHNWg5V0RHSURyR1RZdFZyVVVjWVpnQ2FnZnVIQ1drQ1J5eEt1U19HNUdWY3FFT2dDQi1RYkFRLXotWVd3cXNOWXdOX3Jkbm03eUMxbnNkTzdpN3Rv?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더 발탁···'화잘먹 콜라겐' 알린다 - 글로벌E"
-        },
-        {
-          "name": "Google 뉴스 · 브랜드브리프",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OZW41Z3oxRHFuYWU4SVhiZFVPaXNXSzhTUEFzVFk4WVJIVlJZcko4c2tRVlRzZjV3UDFIQ3YwN0d4N21Qd1hPcDBrTmp5S3BvQlhuRUpsRXZqQzRzWnBVR1AwSER6TE5tNTRCMUk3SQ?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더 발탁… 'My First Collagen' 캠페인 펼쳐 - 브랜드브리프"
-        },
-        {
-          "name": "Google 뉴스 · 뷰티누리",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JTkwwNGNSa09UZXQ1R0h0dlhGMUdiQ2tMV0M0bWg4MDY0cXJXWjB3TV9vS2toSmZMeG9yU0FkM1lyQ0RSY0NFLXVRVjdGMEZCbk9qMHo0bGJUZ2VHWXlj?oc=5",
-          "title": "화장품신문 (Beautynury.com) :: 바이오던스, 리센느 원이 앰버서더 발탁 - 뷰티누리"
-        },
-        {
-          "name": "Google 뉴스 · 비욘드포스트",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RWTgyb29BWG9aYVpZc1RaX0RpTGlyVlJYS1ZuMG5aVVNTeXBQeW5wMmpYbVlBb0hETll4eXdKZi1vdVNNeXN3dFN1QUVZSjZCek5vcWFxTzRwRzVvZlh0UG9hWWRJS3lvZVdkVFJ0cTFTS0RmVnJCZ1Z1WEs?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더 발탁…콜라겐 캠페인 전개 - 비욘드포스트"
-        },
-        {
-          "name": "Google 뉴스 · bokuennews.com",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wdWVScUxPc1dTZGEtUlBuQzdoVDY5M29tS0JPSjVjSUxZRDRJT1dOWWpHYnhkNVpQaUxObUJZbzJ2b3BoUVJxNlZua1VpVlJFTHlxVXlNMktvZER5R3A0?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더 발탁… '콜라겐 캠페인' 전개 - bokuennews.com"
-        },
-        {
-          "name": "Google 뉴스 · 한스경제",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zV2wwSkM5YjRYd1NjSl9KMXVBVWdodTl4LUtjMG5uOEZsSWZ0eXRuVXhIZ195Z1RaWnNnemdHVGVpZENqSC1naTY2T21qU25RZjkxaDhBLVUtVWZON25Za2g0eHNnLU9xZElB0gFvQVVfeXFMUERrM0VhYTdrMU1TVWpYekhHaUJCME9FZF9aSm5tYzEzWXRZWW95aWR0WDRIX2ZQdG53ajdUNWdqcGZyNEwxUm4yN3F3WXNMRy1VYkkwSy1QRThkWUJBQnUzLTlqNm80eHRfcW5WYkhN?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더 발탁 - 한스경제"
-        },
-        {
-          "name": "Google 뉴스 · 스페셜타임스",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wVXpNdlE0d014TkwzRHJlMUQyeDB2a2RqOUhMSkc5TldkSUNHWnFuMWFaa2E3RjRLM0ZCQkFKOGpQaHFpdGFBSUkybkJFNjc0OTFpaHotZkJBNzVxNEZHLUw2MWVFemY1amdvdkRHamR3bFE?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더 발탁…‘My First Collagen’ 캠페인 전개 - 스페셜타임스"
-        },
-        {
-          "name": "Google 뉴스 · newstap.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGSWROQlplLXFCTF9DUmlOaW5WYU9oaUJhd1I3a2E1eDlELW9QeDNFQTNfMWJoTVI2M3FuR3NMd2ZGNnNxOFBZNDBjTWZ4NlAwN1ZiT2FnY2MySmlOX29uUEJGSWg0NDI0OF9jSQ?oc=5",
-          "title": "바이오던스 새 얼굴 된 리센느 원이…2030 겨냥 ‘첫 콜라겐’ 제안 - newstap.co.kr"
-        },
-        {
-          "name": "Google 뉴스 · 싱글리스트",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05eUhGSEw0MEREa0hhUlVodEtubnh5WF9FV3NxTDFiYm5rN2VuYWJMUnNFWHJKU0Q4MWdPOUZ4eS1UcjhTN1J2NDJRUkZtVEVkYnFfRmNzTmVmZmlPTFprNXVQdkwtQQ?oc=5",
-          "title": "리센느 원이, '뷰티 퀸' 등극...바이오던스 모델 발탁 - 싱글리스트"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNQWg5QkE3NXUwOUZBeGdXMHBISGRjQ0Vqdk9uZHV0enBYUGhBWm1HT1NmbmJlNkVDX09wdWJmeV9jSTlJaUkzTGlyTFpTdHE0bU5ZV0ZlNHFhaWFNLVM0TVp5OURFTkxySTBhSlVZOA?oc=5",
-          "title": "리센느 원이, 바이오던스 새 앰버서더 발탁 - 우먼스토리뉴스"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6ZjBva2Fmak1KNWtYRnBXQWJ4X09OS29xYUJYRmc0dXFOaVNtSW10V0VYM1BucHhFc1RidVJVUjVaZlJIaDg2OFA5VWkxWnZ0VTlIcnRyUjEyTTJ5Zk5fNHJlZlRudWJBanJyc3dLNld2MVgybWZZWDV3?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더 발탁…‘My First Collagen’ 캠페인 전개 - 약업닷컴"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jOEUwVlRUZGI5THdMZWRzRko0QVRSZXFZcDBlSFUtMEdLVUxUWkw5OWhqc1U3SDFuOHhLcWU0MVB3T09BbHV1Q19TWldFWUJURk1HQ211RmxMcjJKamNJS0xDTQ?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더 발탁… '콜라겐 캠페인' 전개 - 보건신문"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Hb28tNjJDdms1dTMyRU5tT2pyYmh1dEZNemtoZEdXMDg5Qm1uZTJvUm9LY0Z2alFIdHJROXJWdExJNkFIdlJHa1ZyQjZzSER1bDI4NzBTSTJBYVg4c0ZLMXE0T05zeUZ4S1lxWdIBb0FVX3lxTFBEazNFYWE3azFNU1VqWHpIR2lCQjBPRWRfWkpubWMxM1l0WVlveWlkdFg0SF9mUHRud2o3VDVnanBmcjRMMVJuMjdxd1lzTEctVWJJMEstUEU4ZFlCQUJ1My05ajZvNHh0X3FuVmJITQ?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더 발탁 - 한스경제"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBkTnlsM3NCYkJsSHBFc3gtT3BNQVVQNHJBdmh6bFVTTldydmJBcDNzN1phNDAzTHFYMG50UUVvdzY4cTJIR19Zd1FVRGdaMWNMT05oWkNDZEZOTUJxZVh5djVNSDRSTHdsUVhZMHZFUWUyUHM?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더로…‘My First Collagen’ 캠페인 시작 - 스페셜타임스"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://swtvnews.com/news/newsview.php?ncode=1065570507948893",
-          "title": "리센느 원이, 바이오던스 새 얼굴 됐다…“성장 서사와 밝고 친근한 매..."
-        },
-        {
-          "name": "Google 뉴스 · 스페셜타임스",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBGXzRQU0hFNlh3bXk0cE1UaGpWdjkyWGp6d1QzNEVPYjczbkNwS3NGeVRHbkU1QklmNUQtTDA2UHN3ZGJzd3Y1NHBYZ19aUzFrT2E1RFpSdFVKbEVCWm9jdGl4RldXTVhlblBhLVJaUlhTdGs?oc=5",
-          "title": "바이오던스, 리센느 원이 새 앰버서더로 선정…데일리 콜라겐 라인 확장 - 스페셜타임스"
-        },
-        {
-          "name": "Google 뉴스 · 아시아뉴스통신",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TUGR5czFUa3BTRHkwcUZ6ckhMS1duZXlVYzhNV0Fzb29oNWVmSWdqNVR3WmhxTTFxT090Tm9MZkZnTnhHQ2o1NUxKNmtoLXhyYjRJcndYS0pfUFZkTm1rR3lB?oc=5",
-          "title": "바이오던스, 리센느 원이 앰버서더 발탁 - 아시아뉴스통신"
-        },
-        {
-          "name": "Google 뉴스 · 스타패션",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FNnhqV0xqQVhUOXYxRnVESUlWNDZLel9GbkdTSkhYWTAzUkoxLTFvTEl2OGVRRjV5TkFHanFmemNzM0pZdUt1UWJoRnY5MW9PXzNwR3Q0OTFxdnhkZFJJ?oc=5",
-          "title": "'역주행 아이콘' 리센느 원이, 바이오던스 새 앰버서더 발탁… 뷰티계 러브콜 - 스타패션"
-        },
-        {
-          "name": "Google 뉴스 · v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1FV1NPdzZVX1B0QmcyWmtDVFh0OUhCS09KellVb1dqNDBCdjhKUFRrUEoyTlBjalBIUXlKUGVvTDJWd3g0dGc?oc=5",
-          "title": "[뷰티 트렌드] 바이오던스, 리센느 원이 앰버서더 발탁…‘My First Collagen’ 캠페인 전개 外 - v.daum.net"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.ibabynews.com/news/articleView.html?idxno=153760",
-          "title": "[뷰티 트렌드] 바이오던스, 리센느 원이 앰버서더 발탁…'My First Collagen..."
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SekVSOHc1YVlCa3JlczdrTFFZNTBBUDFGakR3cEszOEhrUnF4Tlk2SVJtcTlPSFQwT3lUX2xEc3BZdURxWUZjNHBrZzlUdWllNVlwNE12NGF0TmxKakhmenlIcVVyYzRoaEQ0eA?oc=5",
-          "title": "[뷰티 트렌드] 바이오던스, 리센느 원이 앰버서더 발탁…‘My First Collagen’ 캠페인 전개 外 - ibabynews.com"
-        },
-        {
-          "name": "네이버 블로그 · 라이프아이템그라운드",
-          "link": "https://blog.naver.com/lifeitemground/224378165756",
-          "title": "바이오던스, 리센느 원이 신규 앰버서더 발탁...실제 메이크업 루틴 ...."
-        },
-        {
-          "name": "네이버 블로그 · 뷰한 세상",
-          "link": "https://blog.naver.com/wmk0721/224378708913",
-          "title": "“요즘 피부 비결 이거였나” 리센느 원이, 바이오던스 앰버서더 발...."
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/16759",
-          "title": "RESCENE (리센느) 원이 X 바이오던스 광고 CF"
-        },
-        {
-          "name": "X · @bts_7942",
-          "link": "https://x.com/bts_7942/status/2090576033812746505",
-          "title": "내가 좋아하는 리센느 원이님이 앰버서더 되서  바이오던스 사려고 했었는데‼️ 이거슨 운명 👉🏻🐥👈🏻 https://t.co/cEFjyDtRJ9 "
-        }
-      ],
-      "source_count": 26
-    },
-    {
-      "date": "2026-08-13",
-      "kind": "굿즈",
-      "brand": "더현대 서울 팝업 (Scent Archive)",
-      "title": "리센느 굿즈는 위드뮤에서만 살수 있나요?",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/16593",
-          "title": "리센느 굿즈는 위드뮤에서만 살수 있나요?"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/28092",
-          "title": "위드뮤 공홈 리센느 공식 응원봉 소량입고소식"
-        },
-        {
-          "name": "X · @wonlibbu",
-          "link": "https://x.com/wonlibbu/status/2102914506251006034",
-          "title": "#리센느 Scent Archive MD 숄더백 &amp; 목걸이 특전 포토카드 🫧 https://t.co/OAL5aXcaP9"
-        },
-        {
-          "name": "X · @wonlibbu",
-          "link": "https://x.com/wonlibbu/status/2102913673996247274",
-          "title": "#리센느 Scent Archive MD #리브 개인 포카&amp;증명사진 모음 🫧 https://t.co/RmyjbZQ5oo"
-        }
-      ],
-      "source_count": 4
-    },
-    {
-      "date": "2026-08-11",
-      "kind": "굿즈",
-      "brand": "도미노피자",
-      "title": "도미노피자, 모델 '리센느' 팬심 공략... 한정판 굿즈 선봬 - 시장경제신문",
-      "period_text": "8월 28일부터 9월 14일까지",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ySGJadnFvOUhMZURJSVVaeU1SVHphQUR3bjVWcUhQVVNyTmlUZDFILTBGVDNsQmN1MUgxUElNUWdOZ2dVdUdXWlFZOGNTcGhzaHM1OGhSMmpBYi1EajhFa1d1bFF2UW0zbGt5MG12Z08?oc=5",
-          "title": "도미노피자, 모델 '리센느' 팬심 공략... 한정판 굿즈 선봬 - 시장경제신문"
-        },
-        {
-          "name": "네이버 블로그 · #해시태그",
-          "link": "https://blog.naver.com/reivianjeon/224392012035",
-          "title": "\"피자 사고 한정판 굿즈까지\"... 도미노피자, 리센느 브로마이드 증...."
-        },
-        {
-          "name": "네이버 블로그 · 몰라도 되는 이야기",
-          "link": "https://blog.naver.com/molstory/224395857676",
-          "title": "피자 한 판 샀더니 리센느 굿즈가 따라온다? 도미노가 준비한 특별...."
-        },
-        {
-          "name": "네이버 블로그 · 쑥개떡의 하루",
-          "link": "https://blog.naver.com/ssukgaedduk/224402049025",
-          "title": "9월 도미노피자 할인 총정리! 리센느 굿즈부터 목요일 1+1, 40% 반값 ...."
-        },
-        {
-          "name": "네이버 카페 · 중고나라",
-          "link": "https://cafe.naver.com/joonggonara/1133266411",
-          "title": "도미노리센느 굿즈"
-        }
-      ],
-      "source_count": 5
-    },
-    {
-      "date": "2026-08-06",
-      "kind": "광고·모델",
-      "brand": "에이페",
-      "title": "에이페, 리센느 브랜드 모델 발탁… Z세대 공략 강화 - 패션비즈",
-      "period_text": "8월 13일",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · 패션비즈",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1EclVKYmhMdm0tU3RtRFkzbTRmN3gtMHA4Z1BNWmpZbzlGOGdERjgzNC0xWndfcktEUFZycjZ6Rl96WFdUeHV3ZWJ4SjdnMVY2?oc=5",
-          "title": "에이페, 리센느 브랜드 모델 발탁… Z세대 공략 강화 - 패션비즈"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZdHBsQW91Q3JaVm5oSG03bnJ1aUk0ZmVEbUZVSkwxNURzS2FUOGNUOG1EWE9NQWdCUDRUOGVyeHo0RVYtemdtZzJtNXVvTGpTSkhNSG9oaXFvWmprWUFiaEpFV0ZJZE15SzRsZE9ZdlRQcFd1dEgxeg?oc=5",
-          "title": "'중소돌의 기적' 리센느, 헤어 솔루션 브랜드 '에이페' 모델로 발탁 - 네이트"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.wolyo.co.kr/news/articleView.html?idxno=316393",
-          "title": "에이페, 리센느 모델 발탁...헤어 케어 솔루션 제안"
-        },
-        {
-          "name": "Google 뉴스 · 글로벌E",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fdnBfY3FqcS1rTWUxdEtlYVhyNXlUdXhxc29QZ0NSY1VEMG14NVBZVUlqRjUybzhNOUx2LUlMUk9VeUwwUUc3ZUgxN2V4ckxKaGJlVGxHVWRnTTh6QVpZdF9lUUpPSDNneWJr0gFvQVVfeXFMTjJJdG45dTkyYmVLdWNwS2lwYjItUV9nMXFvWW1PYmVva2FCSkpELWE4c3UyTjBDYUtzTVgxWVR1WVByZFlLdlFGaUVfQWdpYVJqaE1pcjlUTXU0Si00bHZ5S29tTnhYSW9SeVNGWlRR?oc=5",
-          "title": "에이페, 걸그룹 리센느 모델 발탁···헤어 케어 캠페인 전개 - 글로벌E"
-        },
-        {
-          "name": "Google 뉴스 · 한국섬유신문",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qVEprOWZiRzJLQXZyVGR6SXlKYVprN2poQVhEY1NINVRxWXRkMlIxVXJkeXFvY01TN3NZaTUxOVpmQVdvdzZFRmFSWnB3eGhXZUF6SXl4LWJoZ05KczZkMmw4NDJJdHNh?oc=5",
-          "title": "에이페, 걸그룹 리센느 브랜드 모델 발탁 - 한국섬유신문"
-        },
-        {
-          "name": "Google 뉴스 · cosmorning.com",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ybkNpTUdIZF9DSWJwZExDdXVkUXFZcURFRkZLNVpzX01wcURUb2JXVi13OF9vSVhETEFOZVBjdmpBVzRoSGhXbG56SkYxNUJWUVk0UWFxMTZXLURPNXV0anJycw?oc=5",
-          "title": "에이페, 리센느 브랜드 모델 발탁 - cosmorning.com"
-        },
-        {
-          "name": "Google 뉴스 · 한스경제",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80TmNCY3pFYzN3QllZT2ctTjl2SU1zVFVGWXo0T3lPNFlTWFdQUFhOekZqamZIVXBLaGMwOUtseklSdVRCb1JUcTNNQVFKQ2hrNDU0aUNvclZEV1QtYmN2VUpfTnBfa2lPYlRz0gFvQVVfeXFMUGtoQVpuZHEyWmo2TWZTR21UVm50VWQwZVBjeDFkaXFwYTQxZ2ZOU3BiTk13SXpsWFBfUHdwdDh5Smc4NFZwOUFGRXM4Y3hWNE80SjFySXBGbjBRMm1qeElxUzFGZ3hfaDFITDJzV2pz?oc=5",
-          "title": "에이페, 리센느 브랜드 모델 발탁 - 한스경제"
-        },
-        {
-          "name": "Google 뉴스 · 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01NFo0dW5ub3Z4OXNNbmhHZnhoMW9nanRQODYtRUlRaTFadVFzVlhWNktjY2hvZnVTcWZWRGlDQmhRejNxSUc4UURJQjlCcXhRTWdPbEQ1LXphajQ1WG5jamFPNFlHbmNpY3fSAW9BVV95cUxPQnlkaU5DSXRDV21FWWZPOTQ0OFlVQmtaSV9ObHJWbDNaTHhBY2tDLWtzNW9sSDZHSWRsTVFZXzV1WUJSZjlrVmhWUFJDZmdGaVlYWkdDZWw2d3NoLTkyUVJoNHBmZlJRTkQwRWJtVE0?oc=5",
-          "title": "'중소돌의 기적' 리센느, 헤어 솔루션 브랜드 '에이페' 모델로 발탁 - 머니투데이 - 머니투데이"
-        },
-        {
-          "name": "Google 뉴스 · 바끄로뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xSWJkeDlhdVNnYi1XeGZDdERRNDlqTEF4TjF0aVNYR2hFNDVjZHdxb0NKMjhnRmJDd2l5aDR6R1pjRlkwcElLdk1qLWtwdmFDWlY0YTdhSjNQX3hXdEdzaUNtLTVXc0E?oc=5",
-          "title": "에이페, ‘Z세대 아이콘’ 리센느 브랜드 모델 발탁 - 바끄로뉴스"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QdVZ2YUt3TFE2SEVwTkJiM0ppSUxwLXdZMTBXMXU3cmgxUkp2dDg5amVUMXlHY00xZENmWWhDTXlHYU1nQkZiUDBTM2s5eUVtLUM4QklZZF93ME90U0JDc2xsYW5YMXpCNzlxcg?oc=5",
-          "title": "에이페, 새 얼굴로 걸그룹 리센느 발탁…K-헤어 시장 공략 확대 - 뉴스탭"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBOVVXYWUyWlcyTWg4UmJPZGdJVnM1VVJBRzFsQXNGcW43bjlpZFZ5aEZ6alVsd3VPSXF1ZG5jcXhKZ1BOXzdISWtOcEo4aXFWVWtYMDhydzVIelQ1RTI0dVptN3N5UQ?oc=5",
-          "title": "에이페, 리센느 브랜드 모델 발탁…K-헤어 소비자 접점 확대 - 푸드투데이"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VWnlmUG0tTWRkMTNuc1JWRE81ZThNaDUyNmI2RU1xbkI3SWVFMzBpcDBoQjE5a0luY3BkelhRbGt0eV94T3NubE1IZm5GSmNaSEQ2Yk1PeVpMMERrVWZKWlFhUGxUb2lsSVlyN3RaUFVGcnM?oc=5",
-          "title": "에이페, 걸그룹 리센느 브랜드 모델로 발탁… 헤어 케어 캠페인 전개 - 스페셜타임스"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zMXRuc3kxNU1QcFp5Y05MZkh2U1VObWRQY3A1NmRKLTJKRVN3SXhLODhWQTVkb3lWaDhtbjl1bEU2aHJOWjVycmFuMVFXTk5ybzhDZVJpejFaWHY4LWVJaTZvQjJrQQ?oc=5",
-          "title": "리센느, 에이페 모델 발탁...Z세대 헤어 솔루션 제안 - 싱글리스트"
-        },
-        {
-          "name": "Google 뉴스 · 장업신문",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyR3RDc0h5MjlzUk5DUHY1UXRwUWNEOFozWGdfR3JMYTc2ODdUVEc0QVR1cEhaSXVwbGNNX2R4RndrQy0wTDF3WVd3TEotTWNDdHJIaFBkcm9HZUlvdGl5QXpGUnVhUzA?oc=5",
-          "title": "에이페, ‘Z세대 아이콘’ 리센느 브랜드 모델 발탁 - 장업신문"
-        },
-        {
-          "name": "Google 뉴스 · 주간신문씨엠엔",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBVLVl5V1dET0JLN09uampBT0ZaVWpzU3BUR01sTndnV05EeV9KYWJVVTNZbXNrX0RSVlZBb2RTTlhra3QybFRKWko5bE9mMHNWdmZVRjlRMkVmZFpQRTBuN1Bla0d0dw?oc=5",
-          "title": "에이페, 라이징 걸그룹 ‘리센느’ 브랜드 모델로 발탁 - 주간신문씨엠엔"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zMDlxZXBsWDBiVjJhejBubVdiV05IYVRPTUE2RWRCUDRxaEVkZU9na0lCbmNKbDktTWFjdENrdWdJSVJ0bmpSQWJVZzBXV0Z2cnZxRDRyOThjVzc4LUJ3ZHRlSk1kSFR3Z2hV?oc=5",
-          "title": "에이페, 라이징 걸그룹 ‘리센느’ 브랜드 모델로 발탁 - 주간신문씨엠엔"
-        },
-        {
-          "name": "네이버 블로그 · 찬미정원",
-          "link": "https://blog.naver.com/ekdbr3746/224371379610",
-          "title": "리센느, 프리미엄 헤어케어 브랜드 '에이페(epais)' 새 모델 발탁! & 잠...."
-        },
-        {
-          "name": "네이버 블로그 · [K]의 특급 상품 르뽀",
-          "link": "https://blog.naver.com/kim-pang/224378284201",
-          "title": "가사 노동 시간은 줄이고 감각은 더한 리센느 에이페 모델 발탁 소...."
-        },
-        {
-          "name": "네이버 블로그 · enterinsider님의 블로그",
-          "link": "https://blog.naver.com/enterinsider/224377978143",
-          "title": "리센느, 에이페 모델 발탁｜새로운 헤어 케어 브랜드 모델로"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/13836",
-          "title": "리센느, '에이페'의 새로운 CF모델 발탁"
-        },
-        {
-          "name": "네이버 카페 · 거제도유튜브/부업 /쿠팡/투잡/재테크/알바/유튜브/홍보/광고",
-          "link": "https://cafe.naver.com/greenkc0a7/3895",
-          "title": "거제 야호~! 에이페,걸그룹 리센느 모델 발탁··· 헤어 케어 캠페인 전개 / ...."
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/20267",
-          "title": "RESCENE (리센느) 에이페 CF 광고 사진 #미나미"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/20262",
-          "title": "RESCENE (리센느) 에이페 CF 광고 사진 #원이"
-        }
-      ],
-      "source_count": 23
-    },
-    {
-      "date": "2026-07-31",
-      "kind": "콜라보",
-      "brand": "",
-      "title": "더쇼, Apple Music과 협업으로 글로벌 진출… 리센느 첫 1위 견인 - 한경매거진&북",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PRlh4bHVYMnE3YkkxYkx3NEtyOVNDU3BESEdZRFZ0NmlwM0c4Qm9Gd2JQand4UkZPdGk3RmRaYnc4dUp4WnNyWjhBeVZLbThrZ1JtWEpKRmltb0d5ZC1nVVhrQmlnNThVd1lnNA?oc=5",
-          "title": "더쇼, Apple Music과 협업으로 글로벌 진출… 리센느 첫 1위 견인 - 한경매거진&북"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HNUZ1amRWd3NfZTAtZzlNVW96R1Z2bXVkTHJ5TUlGRmpiQUwxX1dpMG5RZ0E4cG4tVjFBU2NxczN5TEcyN2lhVDZLdjdRRjJBd0daNmRrZ2xUeWVHRGRFMmJDS19Wdw?oc=5",
-          "title": "리센느, '더쇼' 첫 1위…애플뮤직 협업 타고 글로벌 공략 - 싱글리스트"
-        }
-      ],
-      "source_count": 2
-    },
-    {
       "date": "2026-07-30",
       "kind": "콜라보",
       "brand": "넥슨 서든어택",
@@ -365105,23 +363406,6 @@ const SITE_DATA = {
         }
       ],
       "source_count": 3
-    },
-    {
-      "date": "2026-07-30",
-      "kind": "굿즈",
-      "brand": "넥슨 서든어택",
-      "title": "넥슨 서든어택, '리센느' 캐릭터 추가…영구제·굿즈 이벤트 - IT타임스",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03UUNVRzc2S3p5bFk2bWFWOGd6M0RzYmNZZmozTWUzczM1dkE4ZlhDWWFfaUNhaHo0eWt0NVVpNlNsOFhSOWpRRjZnMk9fcUk0UUZ2b1BIRTk2VVVlMXcyVHFNWllVbUJD?oc=5",
-          "title": "넥슨 서든어택, '리센느' 캐릭터 추가…영구제·굿즈 이벤트 - IT타임스"
-        }
-      ],
-      "source_count": 1
     },
     {
       "date": "2026-07-29",
@@ -365231,288 +363515,6 @@ const SITE_DATA = {
       "source_count": 19
     },
     {
-      "date": "2026-07-21",
-      "kind": "광고·모델",
-      "brand": "나랑드사이다",
-      "title": "[유통24시] 나랑드사이다, 걸그룹 리센느 모델 발탁 外 - DealSite경제TV",
-      "period_text": "7월21일~8월21일",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · DealSite경제TV",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wTHUtejdXY3l4QXhhQ1JNdDdLb3I0TW5feEtxTFFoSS1fLTNsd1Z1NzhIcE9GU3pENF9IWFNfR2dRNk9vZExxYWo5MUt2dVp4Uk4tZ2xR?oc=5",
-          "title": "[유통24시] 나랑드사이다, 걸그룹 리센느 모델 발탁 外 - DealSite경제TV"
-        },
-        {
-          "name": "Google 뉴스 · 로이슈",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95am4ybGpRc0hXQmVhLUxMSHZreWNPZEZlNGlvTVpJcXdWTk9CempYdnQ4OFNoeDF5RVlXQ0JyMFZrWER6VmluNUdneWNGaU5FdE9vQjltVTRHR1FuVVQ4MlJZSjl6MjYwVTNZdDFMZFFlY21TeERHTA?oc=5",
-          "title": "동아오츠카, 리센느 모델 발탁…나랑드사이다 브랜드 마케팅 강화 - 로이슈"
-        },
-        {
-          "name": "Google 뉴스 · 중앙이코노미뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uSDFUMldfY3k0ZWZKcG41WG9JSFBHTmh5Y2ZCR0ZSQjJ1V2xiQURCNFpZcTJHY0pIU2lJbFVDNEVfMGpXWm1ZVGdqRkZPRjF3UDM3aUVxQXp3cWhzZDdGV0hOX0t3NXdqbGhPbWhLd3JKZw?oc=5",
-          "title": "동아오츠카, 제로사이다 '나랑드' 새 얼굴에 리센느 발탁…MZ 공략 강화 - 중앙이코노미뉴스"
-        },
-        {
-          "name": "Google 뉴스 · 식품음료신문",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBmZk9mMF9jaTVYNkpycGJYVjFmNTRlM0w3TFYwbmM3M21SWWFiMWcxZy16ZHBHZWJUTGpCQ1FHclRpUW95dGFCZVllbndvNkQzUEF5aWs1OU4zUW1vQU1xdlhfeVFPU3dkRjRKMTI5VQ?oc=5",
-          "title": "동아오츠카 나랑드사이다, 새 얼굴에 걸그룹 ‘리센느’ 발탁 - 식품음료신문"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=205612",
-          "title": "동아오츠카, 리센느와 함께한 '나랑드사이다' 신규 광고 공개"
-        },
-        {
-          "name": "Google 뉴스 · 마일드경제",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mdDB5c0ljYkEyZ2ZVM3lXZ2o5cHlMVUhKWkxVa2JHaDl5X0RWZzVtN3lsWVNYMUlnZ3puM3paeWVCX3RLeGdRTmdtcVdkb1pia3Y5bWFET2NOeTB4OUxKRmVpRmZHeC1fMzNR?oc=5",
-          "title": "동아오츠카, 나랑드사이다 새 얼굴 '리센느' 신규 광고 온에어 - 마일드경제"
-        },
-        {
-          "name": "Google 뉴스 · 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hb2tLbzZEVWl2SG1IOTVxOEFWOHJPSks5UWp3eUpjRGQ5MXBEM2ozNmoxa2U5NVI3RnJ0bjg1ZjliakhwbmpLOHZ6bzR2bVVrTnJHb3hpNnl3MXBwUmdiU9IBeEFVX3lxTE16OEE2SXJFSEwyT3ZmY1lzMS1Mdm12Mll6TnIxLWR4V1hWME9ZRFpjVUNzTmk2eUhnZVRNY2xsR3Rsbkxudk1QNWNJeHBncG02T0ZENno4UjVTa1JIZ1AxeU8tc3NtR0wzc0c1R0dURU5NdldyaWJSUg?oc=5",
-          "title": "\"나랑드로 와\" 동아오츠카, 리센느와 '나랑드사이다' 신규 광고 공개 - 뉴시스"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065595290072248",
-          "title": "리센느와 손잡은 나랑드사이다…동아오츠카, 신규 광고 공개"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE94Ri0xSC1VU3F6dllrdmhDQUJvXy1KSm1lUjg5S1c3NUo3bExhWThZSE5QNkkwdWM0S1VXMjFvSnNROFltUm96UVdldC1SWUp0akpFLUlOaWh2MkpvemdjSkZiMDdEOXk3M2UwdU9xdDBGXzJZWVJXWG5FSUw?oc=5",
-          "title": "동아오츠카, 제로 칼로리 음료 ‘나랑드사이다’ 모델 걸그룹 ‘리센느’ 광고 공개 - 비욘드포스트"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.seoultimes.news/news/article.html?no=2000098604",
-          "title": "동아오츠카 ‘나랑드사이다’, 리센느 새 광고 공개…제로 탄산 이미지..."
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLd1ZXMjgwajV6Qm85LXRXUk9SUHVLczVZSXgtQjBtSk1reExvNG1mZjkyWEdvWWRYZDdSUkR3YVJZVExFTXVrX1IxTGRObFh2V2U3dHExRlhBSGUzQXhzTTl3Vkl1OUpKQ1c0?oc=5",
-          "title": "동아오츠카 ‘나랑드사이다’, 리센느 새 광고 공개…제로 탄산 이미지 강화 - 서울타임즈뉴스"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBaWlJBcnE1SW91X3dhZFVjOExJaFNSNHduMHFrbHJnV2xtcTlpUml4Tzg2TFNjOTZUTm1LTkRnekxlcXotVWlVbFFTUmV3Vmpobno2c0ZlemZfLXZWMU5xOWpkUUx5MWFtY2J5aTc3WQ?oc=5",
-          "title": "동아오츠카, ‘나랑드사이다’ 새 모델 리센느와 신규 광고 공개 - 아이러브PC방"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "http://www.lawissue.co.kr/view.php?ud=202608071251403544204ead0791_12",
-          "title": "동아오츠카, 나랑드사이다 신규 광고 공개…리센느 모델 발탁"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZUUxMcXBQSDhia0xfUVRySVdqTUVYYUF1bGhHSF9FVUYwcFRBQk1ZRkZGUnlDTWtPazhGaTFSMUFhckdHOEJfM0dSRkxXWlQ4Q2FVc0hXcnA0LThQaDhla093cWxOUS1MdmNN?oc=5",
-          "title": "동아오츠카, 나랑드사이다 새 얼굴 리센느와 신규 광고 온에어 - 내외경제TV"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UOGhFX3dkNWp6QlpFRkE5ZWdiTG5XbzBjQjNoSkJHdFRtcTYtY051OUtscVdld0xCV3F6Vk1POWc0SlhCTlUwRjRqTU5heGxmZHd2Q25SYlpUZw?oc=5",
-          "title": "동아오츠카, 나랑드 새 모델 '리센느' 신규 광고 공개 - 파이낸셜뉴스"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "http://www.popcornnews.net/news/articleView.html?idxno=128975",
-          "title": "동아오츠카, 걸그룹 리센느와 함께한 나랑드사이다 신규 광고 공개"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwd1NWTFdCZExuYmJvN0NlUmIyMlFrV1R4czZ1VnBJbHFaQjd1eFJ1eGZESkRrSmpYWkNuaTVrN0hGcmpicWotR0VFYkZ6UQ?oc=5",
-          "title": "동아오츠카, 나랑드사이다 새 모델 '리센느' 광고 공개 - 전자신문"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.techm.kr/news/articleView.html?idxno=154086",
-          "title": "\"드로와, 나랑드로 와\"...동아오츠카, 리센느 신규 광고 공개"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUHpzT00xdlBibmxBSFg5OUViblJKMFdvbXpVckRxLUZ4TEJKWUU1bFRPSmp4REhKSW16LXdjM3RJeHE1NDJkamZmalZtTk8xazNueWVKUEJfdnk1V3F2WS1rYlN4dUI1ZUIxU2FoTEFLc0hzWExQclJkbmFpLWRCbA?oc=5",
-          "title": "동아오츠카, 나랑드사이다 모델 리센느 광고 공개 - edaily.co.kr"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://biz.heraldcorp.com/article/10833697?ref=naver",
-          "title": "동아오츠카, ‘대세’ 리센느와 함께한 나랑드사이다 광고 공개"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.newsis.com/view/NISX20260807_0003739915",
-          "title": "\"나랑드로 와\" 동아오츠카, 리센느와 '나랑드사이다' 신규 광고 공개"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.joongangenews.com/news/articleView.html?idxno=538406",
-          "title": "동아오츠카, 리센느와 나랑드사이다 새 광고 공개…중독성 CM송 눈길"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvdGRLcUdsQm5MMnhGckR5cml0V1pUUm5ZWFhjbVljbW9HaTAxWEFfbHoxcGgyNWMwQ3hNRkxDQ0JOSVc0NWN4QUVIeUhBYlNYN3VEVGNSNTFrWmZnTmpFZEZsOWMtZEYzdUE?oc=5",
-          "title": "동아오츠카, 걸그룹 '리센느' 모델 발탁...나랑드사이다 새 광고 공개 - 컨슈머타임스"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJSURRM3B2RmcxZzdDZkNOWXdZOGIzempqQTFka0xtQkgyRGtCVndtcFUtQlNFUzhvMW90NGlzalFoZndENFlCSHluYmx1Y001c3hCNUhyaHJiQdIBVEFVX3lxTFBQOEhyWFRhQ2E4MkJsUWp5UldqQS1XT25kcjJ2YmRXWGp4VmxjTGdaN0JlYTE5QkIxLVZlbG5xelI3Y2UyX1RTNVp4Z29FdlFVeElRcQ?oc=5",
-          "title": "\"드로와 드로와 나랑드로 와\"…동아오츠카, 리센느 광고 공개 - 더팩트"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ETWRma0RNQ2c3aFpIcDhPUXlhbWpqUXdWMnhrcUVhNXBnNG9YcE9Mb28zRWVaLS0tLUloeUF4SDRRSEczcDUwLXJ1RHRaTkpiYTNoZnBEVTBEY25JQ1MweXR3di1ZQQ?oc=5",
-          "title": "리센느, '드로와 청량미녀' 인증...나랑드사이다 CF 온에어 - 싱글리스트"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxYXhrakdVNFRQV295bWtUUVdUb08weDNfdkg1QnlnWmJNWnRoUDVfeWJyUEl0TS1keWpGUlJpNHNCOC0zc1dFUWplczBQNnNtNTR6UEhLamRDTHlUX3VZdkltTUhCcDdYcTNWdnVueVfSAXRBVV95cUxNNWZYSjA2ay1QNGxqOWNIcUNTNHc2SUxqNVpwZzRzWWg1cl9wczQ4Y0ZTUmczNVVBSnpJUUN6aXFIdmxjcVhWS1VhVmctNk5DWHRMcjdRaFZOWnFwdDBoU3RNWGdyTDR5ekJyRlZnNFdiRWJBWQ?oc=5",
-          "title": "나랑드사이다 새 얼굴 리센느···동아오츠카, 신규 광고 공개 - 이뉴스투데이"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.ggilbo.com/news/articleView.html?idxno=1174066",
-          "title": "리센느, 나랑드사이다 새 얼굴… 청량미 담은 광고 공개"
-        },
-        {
-          "name": "Google 뉴스 · 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mdXVzVnkzNkstc09CZ1JTdkR4ZE8wZjlsNzZvaVJUck9CX2huMHJlYWhPU3RkTVZaMlpDb3J5TmV2ZHNxVUZ0ZE9Fb0sxM1E2TkxvWGZrc3doOWvSAWBBVV95cUxOTThhVkVoZkNqTUItSUZHNENsRmdMTHNQc3hNdEVSaHFYVXVBYU5pQldaa0p0UE8wQ3pmdlVrN1QwS2RLaGM3a3BKTXd5QkhJUHhvWlhfR2tNU2tvWTNiLTM?oc=5",
-          "title": "동아오츠카 \"리센느 모델 발탁 후 나랑드사이다 매출 48% 증가\" - 연합뉴스"
-        },
-        {
-          "name": "Google 뉴스 · 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvbDEtT2hULS1qV29lUVJOWjlDcmVlNGVPNVZZME1Nd0VxTURIRVAwYUx1SE4wWFdWSVk2LWpvOG9PMGpvWms4dDQtMm9IZTdqVW5vY0lxbERSUQ?oc=5",
-          "title": "\"리센느 효과\"…나랑드사이다, 모델 발탁 후 매출 48%↑ - 한국경제"
-        },
-        {
-          "name": "Google 뉴스 · 서울경제TV",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94cUEzaWVXNC1WdHFnRjZBZ1M4dldCUHo2dTk3a0ZpQ29Wb0VYTG10QjlINDNNeEhFYlhNeENUWExCdUEwdWdudDJBZ1V2SW5XMVJvT1ZhMGE1OFdvb0oybW05MTE?oc=5",
-          "title": "동아오츠카, 리센느 모델 발탁 후 나랑드사이다 매출 48% 증가 - 서울경제TV"
-        },
-        {
-          "name": "Google 뉴스 · 인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JWWRzRFVQM095bTdaVTdvVGpDY2E4Ty1JODlpa3N5ekZ0RngyZnpqdm1ZbmpUQVZEWDZnM09rMHFHVGc1SHNXMXZpR2pnNzFVRUo4dVYwWllEVTZNeWhUT3luNnNNbXdrTnBLOHVGT3JyZw?oc=5",
-          "title": "동아오츠카, ‘리센느’ 모델 발탁 후 나랑드사이다 매출 전년比 48%↑ - 인더스트리뉴스"
-        },
-        {
-          "name": "Google 뉴스 · 뉴스1",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCUElNQUdUNzNSUlBFcm4ycWpzYmpVTlBsMURGaXF4T3YyZldaWEZ4VXgySmVCZTI5V3VfWDBJMkpDQWgtbWFWZjA0cGtUbE45RlVFQmdyTnllUzZGWEpr0gFkQVVfeXFMTmRkZGJqcThlb1o5LUxITzM5Sjc5RmE4ZW8tTThDdGlONmo0Q01OWEd1bzJNNUZoQ0dmdXU4TmVkNk1YOXRzUFg4S04yZjEtOEllMnJ4MzFNNWltTHhULWcyZVFONA?oc=5",
-          "title": "동아오츠카 \"나랑드사이다, 리센느 모델 발탁 후 매출 48% ↑\" - 뉴스1"
-        },
-        {
-          "name": "Google 뉴스 · 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ybEc1MjJHbXV1Y1RPWVlRRDNlMXRMTWo1R2ZrODJYaTA4Wm54NHpJSmJkSUs2anVMbDRscjZiVDBBR1pTOUtwMnNiaVBGbXhvbmlPQ3paYWNYN1BBR1R1YVpveHJIRkpYR3dVWVZoSDBWOElXN2fSAWZBVV95cUxQT3F4akZMOHlRUFRPQllwWUlTZUlxQ3FOQkVfWi1UTU9rb0VmTG42S18xdkVTUnNPY0hPTS1BZHFDZFFuaGVpMjEzaEt0ajltaEdwd2pLWEUyZjk0bjVJMGhOVm1WQ3c?oc=5",
-          "title": "“리센느 효과 톡톡”…동아오츠카 나랑드사이다, 모델 발탁 후 매출 48%↑ - 동아일보"
-        },
-        {
-          "name": "Google 뉴스 · 한국경제TV",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMWMwWUFhbm9qamx1RkZwanJ1NXVZTkNQVWlVZm82dkxvQXZfUHREUlZ5a0FnOXNxaFB0YnZ3bDlJbklKQkZaYXNJMnZIaExSUzZTSGhyanJodU5fXzRzMVNka3pla0tHa3Y0SFRJRXFCcGlvNUo0QTZSRVE0eEhYRQ?oc=5",
-          "title": "동아오츠카 ＂리센느 모델 발탁 후 나랑드사이다 매출 48% 증가＂ - 한국경제TV"
-        },
-        {
-          "name": "Google 뉴스 · thefirstmedia.net",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nNUhBbjVsQXhabVVOTlNYTzZTaTRVN0d0cGhpdVVmVUpVR0pmZzY5VDhFV3RzZGRFVklURnZSRVA3dmh2U3RFSzJvWXlveDhXeXJVeUdPenhLQXg5dnJaRDVzOUxaQ1hBaE1ucDBraG_SAXRBVV95cUxPTzF2RUhnVTlheHMxQmZfd3hJeDE1U2NCbjBTYW1IRVZFaF9QdHVxU2E1bmZ3SERtOUNuWU91dnpSLWYtMnlRYUJGR2k4TUEzWFJtS05WNG1NU1UzOXdFdDAzYlNFQUx3MWFYUVBlUWZna3lyTA?oc=5",
-          "title": "동아오츠카 나랑드사이다, 리센느 모델 발탁 후 한 달 매출 48% 증가 - thefirstmedia.net"
-        },
-        {
-          "name": "Google 뉴스 · 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50OV9yN2FWcUtHbnBTdUhWcWVvbEkwZ2hPVkFkcGdmMFRVZlk3YnlLSmdRMUlMdmd3Z2xIbm1HT0dna0o2M0s0Mk1mWWs1U01FVlVTaC1nTWpkUkV2VDBHY1Jn?oc=5",
-          "title": "\"리센느 효과에 야호\" 나랑드사이다, 모델 발탁 후 매출 48% '껑충' - 뉴시스"
-        },
-        {
-          "name": "Google 뉴스 · 중앙이코노미뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE94Qm12RF84OFppR3IxX2lBdHV0RlREMXFsNHVjSUN1NS1NSi1nS2NaR2IxZU9RWlVlZ0QwSHhEYTJjd2dnYVVNLUtua1MtMmU1ZEdtX21BaFlYbDY5TEctT2NVRG05VFZPUlAzeF9pTk5iUQ?oc=5",
-          "title": "‘리센느 효과’ 제대로 본 나랑드사이다…모델 발탁 한 달 만에 매출 48% 뛰었다 - 중앙이코노미뉴스"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.swtvnews.com/news/newsview.php?ncode=1065586050932856",
-          "title": "동아오츠카 나랑드사이다, 리센느 모델 발탁 한 달 만에 매출 48%↑"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "https://www.joongangenews.com/news/articleView.html?idxno=543098",
-          "title": "'리센느 효과' 제대로 본 나랑드사이다…모델 발탁 한 달 만에 매출 48%..."
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NOGFWRWhmQ2pNQi1JRkc0Q2xGZ0xMc1BzeE10RVJocVhVdUFhTmlCV1prSnRQTzBDemZ2VWs3VDBLZEtoYzdrcEpNd3lCSElQeG9aWF9Ha01Ta29ZM2ItM9IBYEFVX3lxTE5NOGFWRWhmQ2pNQi1JRkc0Q2xGZ0xMc1BzeE10RVJocVhVdUFhTmlCV1prSnRQTzBDemZ2VWs3VDBLZEtoYzdrcEpNd3lCSElQeG9aWF9Ha01Ta29ZM2ItMw?oc=5",
-          "title": "동아오츠카 \"리센느 모델 발탁 후 나랑드사이다 매출 48% 증가\" - 연합뉴스"
-        },
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5OY3AxcXpiVmxXYkhFeGdhekxuVWlkNEE2LWNaVXQxMGg0TV9aWVdTUk5TQXZfWTdyVFRLTU9qQVNHY0dSZTN5Sy01WTc4d0lOM2hXZVM2aGxQanl4UXR6d0E5WGhUaEtVNjZCb1ZnMGFMYzNWOWF2ONIBeEFVX3lxTE5OY3AxcXpiVmxXYkhFeGdhekxuVWlkNEE2LWNaVXQxMGg0TV9aWVdTUk5TQXZfWTdyVFRLTU9qQVNHY0dSZTN5Sy01WTc4d0lOM2hXZVM2aGxQanl4UXR6d0E5WGhUaEtVNjZCb1ZnMGFMYzNWOWF2OA?oc=5",
-          "title": "\"리센느 효과에 야호\" 나랑드사이다, 모델 발탁 후 매출 48% '껑충' - 뉴시스"
-        },
-        {
-          "name": "네이버 뉴스",
-          "link": "http://www.newsbrite.net/news/articleView.html?idxno=199990",
-          "title": "나랑드사이다, 리센느 모델 발탁 후 매출 48% 상승"
-        },
-        {
-          "name": "네이버 블로그 · 고독한 미식가의 하루♬",
-          "link": "https://blog.naver.com/flight_21c/224366019909",
-          "title": "리센느 나랑드사이다 모델 발탁 러브어택 음악방송 1위 달성"
-        },
-        {
-          "name": "네이버 블로그 · yoonah",
-          "link": "https://blog.naver.com/yo0nah_/224365729141",
-          "title": "리센느 나랑드사이다 모델 발탁! 다이어트 음료로 추천해요"
-        },
-        {
-          "name": "네이버 블로그 · fourthjㅡCF.소품.세트. 전시.피싱.피규어.여행",
-          "link": "https://blog.naver.com/fourthj/224371801378",
-          "title": "CF- 2026 나랑드사이다 X 리센느 [나랑드로 와] 키링 제작"
-        },
-        {
-          "name": "네이버 블로그 · newbean385님의 블로그",
-          "link": "https://blog.naver.com/newbean385/224384569005",
-          "title": "나랑드 모델 발탁과 교수님 팬심, 리센느 원이가 보여준 압도적 대...."
-        },
-        {
-          "name": "네이버 블로그 · ✨외톨이의 일상 세계✨",
-          "link": "https://blog.naver.com/loveeunzo1/224392502706",
-          "title": "리센느가 광고 모델 되자 나랑드사이다 매출 48% 증가? 대체 무슨 일...."
-        },
-        {
-          "name": "네이버 블로그 · msg체험단 마케팅",
-          "link": "https://blog.naver.com/msgnews/224392373513",
-          "title": "리센느 모델 발탁 뒤 나랑드사이다 매출 48% 증가"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/14026",
-          "title": "RESCENE (리센느) X 나랑드 사이다 CF 광고 영상 (full ver.) l 나랑드로 와"
-        },
-        {
-          "name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
-          "link": "https://cafe.naver.com/re5cene/14028",
-          "title": "RESCENE (리센느) X 나랑드 사이다 CF 광고 영상 (15‘s ver.) l 나랑드로 와"
-        },
-        {
-          "name": "X · @Cream_CB_",
-          "link": "https://x.com/Cream_CB_/status/2088881246860722405",
-          "title": "260815 #최애가사라졌다 퇴근길  리센느 분들의 나랑드 CF 노래 보라도 부른 거 아시는 분?!  #체리블렛 #CherryBullet #보라"
-        },
-        {
-          "name": "X · @sophos3000",
-          "link": "https://x.com/sophos3000/status/2089987133281112456",
-          "title": "리센느(RESCENE) 광고 모델인 나랑드 나랑드 사이다 = 나랑 + 드시다 '드시다'를 'DCider'로 바꾸고 이걸 다시 '드사이다'로 바꾸"
-        },
-        {
-          "name": "X · @jamoonbak",
-          "link": "https://x.com/jamoonbak/status/2091119838454497402",
-          "title": "꺄아아아 드디어 나왔네. 나랑드 사이다 CF 들어와~ 들어와~ 나랑드로와~ 🎶 리센느 만만세 ❤️ https://t.co/JZ2W95GAsw"
-        },
-        {
-          "name": "네이버 카페 · 거제도유튜브/부업 /쿠팡/투잡/재테크/알바/유튜브/홍보/광고",
-          "link": "https://cafe.naver.com/greenkc0a7/4088",
-          "title": "거제 야호~! \"리센느 효과\"…나랑드사이다, 모델 발탁 후 매출 48%↑ /거제도...."
-        }
-      ],
-      "source_count": 54
-    },
-    {
       "date": "2026-07-16",
       "kind": "콜라보",
       "brand": "도미노피자",
@@ -365537,6 +363539,11 @@ const SITE_DATA = {
           "title": "도미노피자, 리센느와 협업... MZ세대 고객 접점 확대"
         },
         {
+          "name": "구글 뉴스 - 리센느",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ySGJadnFvOUhMZURJSVVaeU1SVHphQUR3bjVWcUhQVVNyTmlUZDFILTBGVDNsQmN1MUgxUElNUWdOZ2dVdUdXWlFZOGNTcGhzaHM1OGhSMmpBYi1EajhFa1d1bFF2UW0zbGt5MG12Z08?oc=5",
+          "title": "도미노피자, 모델 '리센느' 팬심 공략... 한정판 굿즈 선봬 - 시장경제신문"
+        },
+        {
           "name": "Google 뉴스 · 일요주간",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42VnFpSnJzbnROLTZfUGdkLTNmT25xX2FvMUlFbFZvazdVMUtzRWlmY29KRERjQlZWODVqMVc0anQ4bDljbEw0SmtoOUVjVEpEY05RQ29qTVozU1hfX2pJWGdSMzZuSS1CS2tZaUFFR3d4MTA?oc=5",
           "title": "도미노피자, 무신사 협업 이어 리센느 굿즈까지…젊은 소비층 공략 강화 - 일요주간"
@@ -365547,24 +363554,7 @@ const SITE_DATA = {
           "title": "리센느 PICK ! 도미노피자 무진장 슈림프 스테이크 무신사콜라보 내...."
         }
       ],
-      "source_count": 5
-    },
-    {
-      "date": "2026-07-16",
-      "kind": "굿즈",
-      "brand": "",
-      "title": "\"0 하나 빠진거 아냐?\" 리센느 굿즈 가격 '충격' [엑's 이슈] - v.daum.net",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - 리센느",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Eejl5TGs5cDdtUWtRNjBGS0Z3VHFMd25Yd3pkUm1wQnh1LURRRWNEZXQwelN6MFgtYmYxRjRxalBnbmFtQm84bmFKZy04eGM?oc=5",
-          "title": "\"0 하나 빠진거 아냐?\" 리센느 굿즈 가격 '충격' [엑's 이슈] - v.daum.net"
-        }
-      ],
-      "source_count": 1
+      "source_count": 6
     },
     {
       "date": "2026-07-15",
@@ -365579,172 +363569,6 @@ const SITE_DATA = {
           "name": "Google 뉴스 · 매일안전신문",
           "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lT2tlbEltR0xfS1A3V2VWS3h4X2RLa1ZrNzkzREhrY0pCcGEyZTktVnVIOXE3REppOF9HczhhVW4yQk93Vm9tWmV5Z1lBT1RoY0E3eGplUULSAWhBVV95cUxPRE84WFFiMGd4RzE2azNEZWRXdm5IZzZIM05VZmNwZkRjanVhQjBSdWVFQ2x5ZmRjcnVKaHRpaHczOVlzcC1HYkN5b0pKNmpGaWtBUGZwVkRmVkV6aGlzbE03RmpMT1ZSWA?oc=5",
           "title": "올라보엑스, 리센느 공식 캐릭터 ′레미니′ 공개...팝업스토어 예고 - 매일안전신문"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-07-15",
-      "kind": "콜라보",
-      "brand": "",
-      "title": "배우 박정수, 리센느와 각본 없는 ‘야호’ 컬래버 공개 - 스포츠경향",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · 스포츠경향",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9CcnlFOTQtbTByd1FMdTdwM0twbWdETVdlT2I4V3ZJa05udG4ybVRCOUdjZnFjOWxTMWVBSkI4SDN3a04td1gySmRaQXk0bWlrbXpPWFRaQlhwTzVjWFHSAWNBVV95cUxQVXl3bmRuOXQ2RGRJeHRFYTNHZTMzbWJRV29mZkRtRDAyUlhSeTQzTDJNUVBFUmx3cS1qRWlCNVZ1SDJEM2ZYM2NTb2pOZUlIQ1c2NVFMWmVPemhIOEZneGZXR0U?oc=5",
-          "title": "배우 박정수, 리센느와 각본 없는 ‘야호’ 컬래버 공개 - 스포츠경향"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-07-14",
-      "kind": "광고·모델",
-      "brand": "도미노피자",
-      "title": "도미노피자, 걸그룹 '리센느(RESCENE)' 브랜드 모델 발탁…16일 TVCF 공개 - 파이낸셜신문",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · 파이낸셜신문",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uZl9reFVOQy1KU2FMNzBtYXlZMTdVQ0NZQTYxM3NRb2RHM1NtYzF3T0ZOUHpWZk9vOGhCcnd2eGdWSzl4ZmVEQVd1RHFRbFhmLV9YV1I2eW1fRmNFTHFUSjRZZG1WT3phd3pR?oc=5",
-          "title": "도미노피자, 걸그룹 '리센느(RESCENE)' 브랜드 모델 발탁…16일 TVCF 공개 - 파이낸셜신문"
-        },
-        {
-          "name": "Google 뉴스 · 더팩트",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9scjN5N21CLXBhSDI4UUluQ2xpWERVRi1INVUxR2NuWVVGNHg2RmNWQU1fSF95bTdyWWlhNlBuZ2stTUdzMy04b09WckItQzk5SnJjWEt6UGxCdndvbnfSAVhBVV95cUxOVS10REx5Zldab1NyT3lDRWRXd0dvY19Ed3RLZmw0a01vdWpBdGVBQ09ZVHFDLTV6UGxhTVNzd2t5VUxidDBYMHlfMHd5dDd2ZTJScnYxVWR2?oc=5",
-          "title": "도미노피자, 젠지 아이콘 '리센느(RESCENE)' 모델 발탁 - 더팩트"
-        },
-        {
-          "name": "Google 뉴스 · v.daum.net",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LREc3ZXZsLWk4MnFkdEphTUVRYUxsU21pUHl6RVp1VDZ1UmllbnpwcTFxNzBOcDhaeHE1QXRXb1VtaFUyaTNweTRLYVMtX0lqb2JCWg?oc=5",
-          "title": "“알고리즘아 일해라”…리센느 도미노 CF, 조회수 30만뷰 돌파 - v.daum.net"
-        },
-        {
-          "name": "Google 뉴스 · biz.chosun.com",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSU8wbUpkOXgxT1ZvRlFVNjlBdGdyVENidEUzWVVsN2dEeUFxamx1ZWJrT2ZOeFdBd1hsSkRfU2cwenZxbzcwT3ZGekszaklxWTRLam9OZWUtQ0hOUlhteWx4WTROQUVGN0x4TTVLcHhCMWNrZTBvN21mcTRjQ3pzRWFxOG9lUdIBmgFBVV95cUxQbUpmemFVYWxSRVA2ZXRzMG80aGhHZlZqMXFoSlJiOEhoeUZOdTZGQ0xNYXF1UHNZRDlWRFgtTTMwcDA1Rmx0b3BBSk5WLWl4UG5udG9uMFZ2aUR3azk2MUV1cHRxOUxQRjQ0Y3FDYmNpMWk5eTJwQ2F6NHE4dTFLZHAzbG9lalpMTG5lYm00N2tISF9mdGhKZzR3?oc=5",
-          "title": "도미노피자, 새 모델 ‘리센느’ 광고 공개 4일 만에 1700만뷰 돌파 - 조선비즈 - biz.chosun.com"
-        }
-      ],
-      "source_count": 4
-    },
-    {
-      "date": "2026-07-10",
-      "kind": "콜라보",
-      "brand": "",
-      "title": "리센느, 카라 니콜과 손잡고 ‘프리티걸’ 깜짝 콜라보... 세대 잇는 환상 케미 - insight.co.kr",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · insight.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE45QUEwRjduSHNGWDV2MGRCU0hFb3JOUDN3Vk9yOEtZSjg0M04zVm45Tm4tZ05nS2p5c2hmdTh6S2hLakFJYjB4RVJwNHdIZw?oc=5",
-          "title": "리센느, 카라 니콜과 손잡고 ‘프리티걸’ 깜짝 콜라보... 세대 잇는 환상 케미 - insight.co.kr"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-07-10",
-      "kind": "콜라보",
-      "brand": "KARA",
-      "title": "‘M Countdown’ RESCENE X KARA’s Nicole ‘Pretty Girl’ surprise collab - 스포츠경향",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - RESCENE",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSlc1bWp2UzBNajB2amQtb1FkMEJwQ1ZRQmVrc2FVTFNVZ0plTHFGaVJoejFqM1lEaDdDcmdwZVJpeDBGZ1VDOFlxanQteGxuejhrOGkxRmQ0ZVNYUkxtOG9sS3VnNUpydll6MWVQejVtY3pwaEdjT1h0a0dhZnpfNEtneGZXbVNLZUlldlR6OF9ra3hma2xSS2J5c0hJTllRZXlNLVN5VjF2S1RoaTEwTg?oc=5",
-          "title": "‘M Countdown’ RESCENE X KARA’s Nicole ‘Pretty Girl’ surprise collab - 스포츠경향"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-07-01",
-      "kind": "광고·모델",
-      "brand": "CU",
-      "title": "아이돌이 '편의점 얼굴' 됐다…리센느, CU 브랜드 모델 발탁 - 한국경제",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · 한국경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RV2xjcWstZkVrclI1TVZtT0I2NVVYbVlvOTRMMFNJblQwWDRDVTlyTmJfeEg4bmlyY2Zhc3ZSck1XYmNkZ2FQZC1hQzRfanYwemZKTHVoUzV0Zw?oc=5",
-          "title": "아이돌이 '편의점 얼굴' 됐다…리센느, CU 브랜드 모델 발탁 - 한국경제"
-        },
-        {
-          "name": "Google 뉴스 · popcornnews.net",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hVmRfSzJweHNrOE9HVEprZ0haQWgybW5TaTkwZmpISm03SVJrMm9ham5nWjZXekNGa0U0ajk0eERsRjVNbzVtMzVUd2R6MTh3UkVfczEzV2dJc3ZFNDZYTkdKX3VmNnJHUXU1UXRn0gFyQVVfeXFMTlUwNTh4eTV5b1hGMUFkeV9tUDFXTjVqbUZfTEtEMnZ2MjM3bXdvR21GM0NITFpYdzdqMVVkRkJHakxReGxrMXVTWmY1aEFrdC1FZDhNQWNJWkVZQ3hrTTR4Y0tJUmxUNUtLeVRIMXFsSXFB?oc=5",
-          "title": "CU, 라이징 걸그룹 ‘리센느’ 새로운 브랜드 모델로 선정 - popcornnews.net"
-        },
-        {
-          "name": "네이버 카페 · 브랜디드 [도메스틱, 디자이너, 자체제작 브랜드 패션 카페]",
-          "link": "https://cafe.naver.com/coredenim/1895914",
-          "title": "어제 CU광고 촬영했다는 리센느"
-        }
-      ],
-      "source_count": 3
-    },
-    {
-      "date": "2026-07-01",
-      "kind": "광고·모델",
-      "brand": "카사베르디",
-      "title": "리센느(RESCENE), 카사베르디 CF 촬영현장 담은 메이킹 영상 공개 - v.daum.net",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "구글 뉴스 - RESCENE",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE53ekpRUk1MTkxFZkdhV1JTLTR6ZjdJV2RQZ3J3MEJXbjhaV2pwN0pISkM4Tzl6RHNKNzdxOHlYYmV6c2tEUklMb1FaYw?oc=5",
-          "title": "리센느(RESCENE), 카사베르디 CF 촬영현장 담은 메이킹 영상 공개 - v.daum.net"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "date": "2026-02-27",
-      "kind": "콜라보",
-      "brand": "",
-      "title": "리센느, 오늘 글로벌 콜라보 음원 ‘Busy Boy’ 발매…유명 DJ와 협업 - 싱글리스트",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · 싱글리스트",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nd0xDY19fX1FSSzM0WGxsX1hFelhscURaTllOUC1ZLWF6UWFBbE9Cc1lrUko3WVA1eXJKandjN2RoTTFtSTVQOVU0MXVzUlNVSzFCSm9oNDZLYURrcThLakNySm9mdw?oc=5",
-          "title": "리센느, 오늘 글로벌 콜라보 음원 ‘Busy Boy’ 발매…유명 DJ와 협업 - 싱글리스트"
-        },
-        {
-          "name": "구글 뉴스 - RESCENE",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5acTJzSVRESDdJLUpERjZySVlDNXlpd1hZWWpYS0Y0N1BHdTF0TEluNHd3UjI3ZjdDekN6T3hyVVFPU3cxVVR6N0VrMjZ1V0xFOVBzNW1CZUt2RUF5UVFhdklR?oc=5",
-          "title": "RESCENE releases collaboration project track ‘Busy Boy’ “I don’t like you, Busy Boy” - 스포츠경향"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "date": "2025-10-04",
-      "kind": "광고·모델",
-      "brand": "",
-      "title": "[유통가 새 얼굴] 엘리트학생복은 '더윈드·리센느', 커버낫은 '투바투 수빈' 발탁 - 뉴시스",
-      "period_text": "",
-      "note": "",
-      "is_manual": false,
-      "sources": [
-        {
-          "name": "Google 뉴스 · 뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrQ09EZUZGb21wV3hvU2ZwRDlNUG8zMXY4clMybWxxSjhyRF9tNUNucE14TDRybGc4MjBTZm45OXZFc05kZTBXbnY2RWc5a3IyY3RMNElKdzkyNUc0TE5IRdIBeEFVX3lxTE5ncElVVzIzaFY3ZEMtaTZfcXJvSmZGcnNINUNHMHduRmQyWm5TTkpFcFhFU2pnNTBGYVF3WXVCN3BxY2Q4OXZ5YkJkRlo4MU1zQ0ltbmxyc1JuWkNBX25lOVlEQ1JFTWpycW1kWWYzWmNYeXNYTU1oQw?oc=5",
-          "title": "[유통가 새 얼굴] 엘리트학생복은 '더윈드·리센느', 커버낫은 '투바투 수빈' 발탁 - 뉴시스"
         }
       ],
       "source_count": 1

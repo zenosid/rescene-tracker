@@ -43,6 +43,32 @@ _OFFICIAL_CUE = re.compile(r"판매\s?안내|판매처|운영\s?시간|공식\s?
 _NOTICE = re.compile(r"(?:양도|재판매|대리)[^.\n]{0,10}(?:불가|금지|제한|❌|X\b)")
 
 
+# 욕설·비하 표현. 심한 욕설 목록은 일부러 싣지 않았고, 실제로 확인된 표현과 config의
+# MODERATION_KEYWORDS 중 비하성 표현만 씁니다. 더 막고 싶은 표현은 config.py에
+# X_ABUSE_KEYWORDS = ["단어", ...] 로 추가하면 됩니다.
+_ABUSE = re.compile(
+    r"병원\s?(?:을|에)?\s?(?:좀\s?)?(?:가봐|가라|가세요|가보세요|가보)|"
+    r"빨고\s?싶|빨아\s?(?:줄|주|드)|"
+    r"성괴|발연기|무개념|역겹|혐오스럽|재수\s?없|꼴\s?보기\s?싫"
+)
+try:
+    from config import X_ABUSE_KEYWORDS as _EXTRA_ABUSE
+except ImportError:  # config에 아직 없으면 기본 표현만 사용
+    _EXTRA_ABUSE = []
+
+
+def abuse_keyword(text):
+    """욕설·비하 글로 의심되면 걸린 표현, 아니면 None (운영자 점검용 표시)."""
+    t = text or ""
+    m = _ABUSE.search(t)
+    if m:
+        return re.sub(r"\s+", "", m.group(0))
+    for kw in _EXTRA_ABUSE:
+        if kw and kw in t:
+            return kw
+    return None
+
+
 def harmful_keyword(text):
     """유해 광고로 의심되면 걸린 표현(운영자 점검용), 아니면 None."""
     m = _HARMFUL.search(text or "")

@@ -13,17 +13,25 @@ from datetime import date as _date
 
 from config import CHART_KEYWORDS, MEMBER_KEYWORDS, EVENT_BRAND_ALIASES
 
+# 수집 대상은 "팝업스토어 개최"와 "특정 제품/브랜드와의 콜라보" 두 가지뿐입니다.
+# (모델 발탁·화보·일반 굿즈 소식은 의도적으로 제외)
 KIND_RULES = [
-    ("팝업", [r"팝업", r"pop-?\s?up"]),
-    ("콜라보", [r"콜라보", r"컬래버", r"컬라보", r"collab", r"협업"]),
-    # '모델어워즈', '광고 효과' 같은 잡음을 피하려고 발탁/촬영 등과 함께 쓰인 표현만 인정
-    ("광고·모델", [
-        r"(?<!아시아)모델(?!어워즈)\s*(?:로|으로)?\s*(?:발탁|선정|낙점|발표|계약|출격|합류|등장)",
-        r"(?:모델|뮤즈)(?:로)?\s*(?:발탁|선정|낙점)", r"광고\s*모델", r"광고\s*(?:촬영|공개|캠페인|영상)",
-        r"앰버서더", r"엠버서더", r"\bcf\b", r"cf\s*촬영", r"새\s*얼굴",
+    ("팝업", [r"팝업"]),
+    ("콜라보", [
+        r"콜라보", r"컬래버", r"컬라보", r"collab", r"협업",
+        # 협업이라는 단어가 없어도 '리센느 에디션/한정판 출시'는 제품 콜라보로 인정
+        r"(?:에디션|한정판|세트).{0,14}(?:출시|선봬|공개|판매)",
+        r"(?:출시|선봬).{0,14}(?:에디션|한정판)",
     ]),
-    ("굿즈", [r"굿즈", r"공식\s*md", r"\bmd\b", r"엠디", r"응원봉", r"키링"]),
 ]
+
+# 음악·방송 협업(무대/피처링/음원 등)은 제품 콜라보가 아님
+MUSIC_COLLAB_WORDS = [
+    "무대", "피처링", "음원", "트랙", "더쇼", "음악방송", "뮤직", "m countdown", "엠카",
+    "유튜브 케미", "챌린지", "예능", "놀토", "apple music", "애플뮤직", "프로젝트 트랙", "collaboration project track",
+]
+# 팬 후기·잡담 성격의 표현은 소식이 아님
+CHATTER_WORDS = ["다녀", "다녀왔", "가고 싶", "가고싶", "갔다", "갔는데", "똥손", "임시인데", "하면 좋겠"]
 
 # 개인 거래·잡담 글은 소식이 아니므로 제외
 EXCLUDE_WORDS = [
@@ -76,14 +84,32 @@ _KIND_RES = [(k, [re.compile(p, re.I) for p in pats]) for k, pats in KIND_RULES]
 
 def detect_kind(text):
     text = text or ""
+    low = text.lower()
     for kind, pats in _KIND_RES:
         if any(p.search(text) for p in pats):
+            if kind == "콜라보" and any(w in low for w in MUSIC_COLLAB_WORDS):
+                continue
             return kind
     return None
 
 
 def is_trading_post(text):
-    return any(w in (text or "") for w in EXCLUDE_WORDS)
+    t = text or ""
+    return any(w in t for w in EXCLUDE_WORDS) or any(w in t for w in CHATTER_WORDS)
+
+
+_IG_RE = re.compile(r"https?://(?:www\.)?instagram\.com/(?:p|reel|reels|tv)/[A-Za-z0-9_\-]+/?", re.I)
+
+
+def extract_instagram_links(text):
+    """텍스트(또는 펼친 URL 목록)에서 인스타그램 게시물/릴스 링크만 추출(쿼리스트링 제거, 중복 제거)."""
+    seen, out = set(), []
+    for m in _IG_RE.finditer(text or ""):
+        url = m.group(0).rstrip("/") + "/"
+        if url not in seen:
+            seen.add(url)
+            out.append(url)
+    return out
 
 
 _ALIAS_RES = []
@@ -140,10 +166,17 @@ def extract_period(text):
     return m.group(1) if m else ""
 
 
+_PRODUCT_CUE = re.compile(
+    r"출시|상품|제품|메뉴|세트|에디션|한정판|굿즈|\bmd\b|빵|커피|음료|케이크|피자|치킨|화장품|패키지|캠페인|협업\s?제품|컬렉션|콜라보\s?(?:빵|굿즈|제품)",
+    re.I,
+)
+
+
 def detect_event(title, snippet=""):
     """이벤트 후보면 dict, 아니면 None. 판정은 제목 기준(요약은 보조)."""
     title = title or ""
-    if not is_our_group(title) and not is_our_group(snippet):
+    # 제목에 리센느(또는 멤버 이름)가 있어야 함 — 본문에만 나오는 기사는 제외
+    if not is_our_group(title):
         return None
     if is_trading_post(title):
         return None
@@ -154,6 +187,10 @@ def detect_event(title, snippet=""):
     alias = match_alias(title)
     multi = " × " in alias
     brand = alias or extract_brand(title)
+    # 콜라보인데 브랜드도 못 읽었고 제품 단서도 없으면 인물·음악 콜라보(배우와의 컬래버 영상,
+    # 가수와의 깜짝 콜라보 등)일 가능성이 커서 제외
+    if kind == "콜라보" and not brand and not _PRODUCT_CUE.search(title):
+        return None
     return {
         "kind": kind,
         "brand": brand,
@@ -285,6 +322,10 @@ def cluster_events(mentions):
             if m.get("link") and m["link"] not in seen:
                 seen.add(m["link"])
                 sources.append({"name": m["source_name"], "link": m["link"], "title": m["title"]})
+            ig = m.get("ig_link")
+            if ig and ig not in seen:
+                seen.add(ig)
+                sources.insert(0, {"name": "Instagram", "link": ig, "title": "인스타그램 게시물"})
         result.append({
             "date": min(m["date"] for m in ms),
             "kind": c["kind"],
