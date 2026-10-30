@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-30 08:26",
+  "generated_at": "2026-10-30 11:44",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,834 @@ const SITE_DATA = {
       "date": "2026-10-30",
       "date_display": "2026년 10월 30일",
       "items": [
+        {
+          "title": "삼성에 이어 우리은행까지…리센느의 향기는 어디까지 퍼질까?",
+          "link": "https://blog.naver.com/gukifather/224458659726",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · ISSUE PICKER",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 새 앨범 'PULSE' 초동 30만 장 가능할까? 예약판매 순위 보고 예....",
+          "link": "https://blog.naver.com/gukifather/224458665062",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · ISSUE PICKER",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 미니 4집 Pulse 컴백 임박 두근두근",
+          "link": "https://blog.naver.com/cha_soori/224458470440",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 외계직장인 차수리",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "여기 클릭 리센느 멤버들도 못 먹어봤다는 그 빵?! 출시 4일 만에 10....",
+          "link": "https://blog.naver.com/wnstkd1110/224458695866",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 파우치톡",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 역주행 대박! 소속사 더뮤즈엔터, 매출보다 놀라운 적자와 ....",
+          "link": "https://blog.naver.com/hty7779/224458710119",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 블랙홀인베스트먼트",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "경주 APEC 메모리얼 페스타 ｜리센느 공연·축하공연 라인업부터 일....",
+          "link": "https://blog.naver.com/h_yehye/224458725536",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · someday",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[부천 오디션 보컬] RESCENE (리센느) ‘Love attack’ cover.by.유아 | 올마....",
+          "link": "https://blog.naver.com/amtvocal_studio/224454606547",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 올마이티보컬스튜디오(교습소)",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "갤럭시 Z 폴드8 쇼핑라이브 혜택 경품 방송시간 리센느 구매팁",
+          "link": "https://blog.naver.com/bskang24/224458732851",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 기술주막",
+          "time": "11:44",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "유튜브 5억 뷰의 리센느, PULSE 100만 장도 가능할까? 안원잘부가 바꾼 ....",
+          "link": "https://blog.naver.com/chikeymaster/224458245188",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 그래서 알아봤습니다",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이 프로필·근황 총정리! 걸그룹 브랜드평판 1위부터 11월 ....",
+          "link": "https://blog.naver.com/mungmoong6186/224458183777",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 이슈를 다루는 공간",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 도시락 CU 원이 메뉴 | 가방 티저 포토카드 팩트",
+          "link": "https://blog.naver.com/fooodzip/224458356431",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 푸디의 일상기록",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느가 든 갤럭시 폴드8…256GB, 접기 전에 따져볼 것",
+          "link": "https://blog.naver.com/endingsearch/224457168860",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 엔딩 뒤 검색창",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이도 반한 수족관 비스켓?!",
+          "link": "https://blog.naver.com/lifetime_j/224458804906",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 블로그",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "CU 편의점 리센느빵 2종 후기ㅣ제나의 딸기잼샌드·원이의 옥수수크....",
+          "link": "https://blog.naver.com/youso-5/224458805588",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · You're so happy",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "원이",
+            "제나"
+          ]
+        },
+        {
+          "title": "리센느 CU 리센느빵 리뉴얼",
+          "link": "https://blog.naver.com/kymals7/224458808866",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 달리고 글쓰는 일꾼",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 컴백 일정 공개, 11월 3일 미니 4집 PULSE 발매와 쇼케이스 정보",
+          "link": "https://blog.naver.com/dkdsk0926/224458824124",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 행정포커스",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "2026 우리은행 RESCENE (리센느)가 전하는 우리 모두를 위한 응원가",
+          "link": "https://blog.naver.com/hipard/224458831104",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · Hipard's Retro Advertising",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리銀, 리센느와 ‘우리는 해’…꿈을 향한 도전 응원",
+          "link": "https://blog.naver.com/kikipokr/224458836732",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 비즈넷타임스",
+          "time": "11:44",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "투표는 1위했지만 주요상은 무관할 수도 있는 리센느!?",
+          "link": "https://cafe.naver.com/3acip3/3956",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 익평사",
+          "time": "11:43",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느 새 광고모델 발탁…‘우리는 해’ CM송 공개 - 전국매일신문",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04M2R3MW9pVUtiY1NqRFZFc0dCWWNwdGZ1Wjl0bVp6c09GaWdQV1FKTEJXaHcwaDBpN3dKd1Nyd0pOWkVVdW1xREV6cnNuTWtKUW1tb0E1dGdXbl8zOWtBU3RELV9mTXM1ZVBnZUt3?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:32",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[금융 게시판] 우리은행, 걸그룹 리센느와 새 광고 공개…KB국민은행, 박...",
+          "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=210589",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:32",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 공연 보고 갤럭시 쇼핑…네이버·삼성전자 라이브",
+          "link": "https://www.yna.co.kr/view/AKR20261030085800017?input=1195m",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:28",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[공식] 리센느, 컴백 나흘 앞두고 악재…“직원 사칭 금전 요구, 고소 진...",
+          "link": "https://sports.khan.co.kr/article/202610301127003?pt=nv",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:28",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[공식] 리센느, 컴백 나흘 앞두고 악재…“직원 사칭 금전 요구, 고소 진행” - 스포츠경향",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9JWTZqOFN6YjV4WmNfZTZRUnkwVG5ia0lfZzA5X2JjRnhUMXFjQjBBbWVyUGdLdGotWVc4TjhUcEFEQzdqME1nSXo4VzRHb2dUSW5xU0xTX0ZMNVJtNGfSAWNBVV95cUxOMlV1bjM5d2JOR01fTTBnRkJ5b0tJc1FoWjU5S0dUVjJmZ2kyZHVVRHFhWUxpRFllbHdBX3FtMFBFZnRwM1I3Zlh4OHFIM2JKaDRPN0xEazYtOEY3eDM4b2pRNDA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:27",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "네이버·삼성전자, 리센느 공연 결합 쇼핑라이브…갤럭시 판매 확대 - 뉴스락",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BRzNhN2FPOG82M0NNaTVuaW5mY2tOWVlUOVA2aVQ2NHd0MFJ6VFBKaXJCMTEwYW9UWVJfeUlqMHBzWHhJenhEYVpMQkl1M0dScEFDbWZHOTdLQlExVnhtdnJISDFSMnNNcUR0aw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:22",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "삼성전자·네이버, 리센느 출연 쇼핑라이브 단독 진행 - 파이낸셜포스트",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzT0R4ZVhZN1gwSFFSaTlMOFU0ekRXS0FEVnNlUlhiNlF5czFNSVhhWmEtOGFqSTd2X25mZHUtMDZvczB0M1Rwc0JFNWxPZzBTZkU2SlJYQXU4b0M3Z3dfOTJIRC1tQ2l0ektLS2k1LWtMc2N6?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:16",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 걸그룹 리센느 모델 발탁…'우리는 해' CM송 공개 - FETV",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jeFN6ZDVPYUtGQkxmOE9fLV9LTzF1ZXNCMkdSZ255TzJ5UEYtOUJENXZYc0ZvbHJLalpJX3JBZW1sd3ppQW9BNzZOeDNTUjYycGpac3FMR19QVElJWE9peHZPb0lmbHRY?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:16",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 걸그룹 '리센느' 광고 모델 발탁...'우리는 해' cm송 광고 공개",
+          "link": "https://www.delighti.co.kr/news/articleView.html?idxno=124142",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:08",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 새 CM송 공개...걸그룹 리센느 참여 - 한스경제",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GVzZkejdXcV9aRDJYc0xIaU1NcEpRSHZ1eHlnQWt2SnBoMFdocTl6RGR2N19udExDcUpTRkh2cnRUM09hNnhnNFAyQVZsbGdKSC1IOEVIZWtRc2c5UGc1MUVLSUFUOUxSYm930gFvQVVfeXFMTTFuQkkzLV9YdGhqdmpvMzAyb0xhSTJYWHZjY1VuZTc2WU41ejNjVjhoRW9sek1JVUtiU0lXOXhsdFNqeGxWRHBEcHd1UTZfZVBBU3E2akRFV0N5VGxaZHRPckZ4Uk9JaXluS1V2dno4?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:02",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느와 CM송 광고 '우리는 해' 공개",
+          "link": "http://www.whitepaper.co.kr/news/articleView.html?idxno=268293",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:58",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "삼성 갤럭시 모델 리센느, 네이버 쇼핑라이브 진출 - 월요신문",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6NmR5ZE1BdE9OOXZjWlRqcWZuaDRSLTVEYV9tSVlzc21CdkQwQ0VkeGtXSmlnZHpVa19QcXg3bld6M2VYc0xhcGdsWDVHVXdQX181VkM3V0MwM004LWxJazJyNUJJaVhtVnc?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:54",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행 리센느 CM송 공개",
+          "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3080783",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:52",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "네이버·삼성전자, 리센느 공연 보며 ‘폴드8’ 만난다…30일 쇼핑라이브 - 인사이트코리아",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GUkg5V0pEMUxLb3k0MnBiOEpxN1JFM19BWEk4THphV2R6QUdHVmcxRmtLd0oyVzYyTEEtSVBGdDhockpkcEYydGR6R0g1c29nd3V3VnQ2TGlmdVdVVHhFZTdlTEhUazlGSm9oNXdyX0FWdm_SAXdBVV95cUxOUWI1MXhWdFg2eFcyT1lOMlVWTW9IcER1RmFpbVhIck5hdmZfTy1sMHBubGJNM050QjUxUmVqbWlMMFVBY3hQam5iWU91TUhDTjdyeTBtUmxOXzQ3UjBGbjU2QTl2cW5lNl9rOWJUYTJUS1BOTUFHdw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:51",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 우리은행 새 얼굴 발탁… 지자체·IT 이어 금융권 꿰찬 '광고 블루칩' - 뉴스컬처",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SdmJmU1Rxb0xNUnhTUkx2RUFJS25Ka3Z6NDEzeFZ5ejkwMGFCZUJ5TGpsak1oVmNEMWFremUzUnNIYURxRnA2TVE4aVZTazVQZ2tpSGVCZVNpdDllMVc3UXJNaFBIQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:48",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 우리은행 새 얼굴 발탁… 지자체·IT 이어 금융권 꿰찬 '광고 블...",
+          "link": "https://www.nc.press/news/articleView.html?idxno=629830",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:48",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "네이버 쇼핑라이브에 뜬 리센느…'갤럭시 나이트' 개최 - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MVTZENjZMUFZzem0zYlpMMnctSzF6R3NJTE5aeEU2aWM4M2VrMXlwVFNUNkEyWVNKU2VWeklrb05qSExLc3hFMnVGaEt0bUdjSlRKYnhBc3hlQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:47",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느 '우리는 해' CM송 광고 공개 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zckw5ODFWNWRRTEwtOW1CLXhZejhfN290Wm1yUDBBTDRJZE5SMUFyM1pVNWV0T0UwcmhrNV9pbU9aaHFiUXVFV0RzZnNFRERKcGtLaHFsNUdlYWZwUVplbNIBeEFVX3lxTE5Fa3ZNZndmMVllMHpNd3g5eVFyY0R2Q3B2ZWluZlMyQVhoMXNZRmFpaUYybUE5Z2xONVozaTlEOVVaQnpMTDlmVVRSaUpDVURVdUxCVWYyUlF1T2ZPSGo0RmdQeEF6aTRQS0hicWJQaUFtR29DMFNycg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:46",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "음원 차트서 피운 음악적 결실... 리센느가 스타트렌드 1위로 증명한 상...",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=559844",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:46",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, `리센느` 손잡고 `우리는 해` CM송 제작 및 공개 - 매일신문",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Cd2llNGU3OEJFS3lLTVF4NE5MRExBTUtlTHBZY3drTjNINy1CUWxHTTJSbDQxOEctVnRJOVZyUEpwR1did2VwOXZJNENJb2RKTkkyODdfMXpTVHpvSjd6U1Fn?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:42",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 새 얼굴 리센느와 첫 광고…CM송 '우리는 해' 공개 - 팍스경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VMHFaQzlueHRKTDdjSXNhNHFOVmJFNDNuVS0xNFJsZllGd3QyaXBVSjRvTE1zaW91S3VXczRYZkZaaWhwV0lkUGNxS0l4N1FXTkxxOV9JYUt6dUJMdmhhS25YS1l0QlE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:40",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 걸그룹 리센느와 CM송 광고 선봬",
+          "link": "http://www.newskr.kr/news/articleView.html?idxno=107586",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:40",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“우리은행 야호” 리센느, 새 광고모델 발탁 - 이코노미스트",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ULXNrRHU3ZE9qcEpLS1cyQXY0dkNwSFp1eW9aVGFkQ3dnS1ZPWGo1OTd2T184QnJxN0RuM1VPT01pYlNqSUFaNWkxWFlXOXFuejdhUG42bkR2cHBKX04xRnFn?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 걸그룹 리센느와 손잡고 일상 속 도전 응원 - 포인트데일리",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WbkRTUlpJRnczQkliVUNCZzZKVjlvWUoyWTRxSTJ5ckZBUC1jOURxTVZiczNsRTF3QkFiOUJWWGwxRTB2bmc0WW03QzdpRFpuNExGQThJc1NNV2dYWThGbUt3ZmxGdDBObVJlYVE1RmTSAXRBVV95cUxOZmNsQS1McjF5bFJKU2FNNy1XT2R0RVpjX1ZyRVN5aWI3Qno1LTI3amJFcEFJSkJIUkYzTDBYOHpEV09YcE9zVC1Kd0ZMd3dzTm5pM3MzT0dJemluMTNKMndiNFMzdGxmbFJMUVg3QkpwSUhKYw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:26",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, K-브랜드지수 걸그룹 1위···아이브·르세라핌 제쳤다 - 글로벌E",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzREsteVh6d214OVRRQUwtV2FxcGM4cXlLTXhjTDF4UU1hUUY3SVRqRXJxQUxMeUJoa1MxRmNoX29sMDlJZ1lDLWhNOXFBdC0tdkhQWURZanJ1ank5ek8zQmR6QlJNVUZxQXFR0gFvQVVfeXFMUEJKNG0yVUNUc3VWdGIzZHVpT0ViUGt3NFlfcU9nWFVabUJPX29hMy1OdTFfZGxsWGF5QlNUT3NSamNmazJFNGtRUnhIZTlGY3J5bEdzWTVfczlWMi1IbEEzMnhSRkVkSEhKVnAzN1hn?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:24",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느와 꿈을 향한 도전..새 광고 CM송 공개 - 한국정경신문",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1OOEhaYW9SejVnVlRXZENwZHNSWW5RaW9PN19TOXFBMS1LTVJ1T2RNaGxoemlKdS1CbmtpbmxMM0kzMUJBUEIycU1BTFh1T1RYUlE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:23",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느와 ‘우리는 해’ CM송 광고 공개 - BBS불교방송",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50ZHp1QTAxeFBRTXpkdW4wZldNMEVDeWh4Qlp4UlBIOEt2QUR1aTRsT3JlbjU1NUVKUzYwOUl3TUl4XzcwNnZnclNuRmNSMGJwMG1tcW1XYzFkSjhRdUZVbDVPOFkyOEttc09R?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:21",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느 광고모델 발탁…CM송 `우리는 해` 공개 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nOEdDdnhTR2pqUXkxd1FhSFBPaXlyV2p4dDlnckZMaHQ5akY0R2JkclhqVlJXbjNZNjdJSnEyS1QxbTZFdEwzdFpkXzVTNXp2MUV1aURSMHpBZXR4RlFkQ0RR?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:19",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 공연 보고 갤Z폴드8도 특가로…네이버, 오늘 밤 8시 라이브 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VVHowR0RjdXB5WTBYaUhieVVmX3lFb1ZzYVNzNWlnZG82MjFXbnJYbVhOejljRjBTZTItVHRBcTJVRGVfSGZKdjdEd3hWTnFxZHJoMWFoUHZaemc1dXA5ctIBeEFVX3lxTE9zdk5fUk8zc2ZMUVVrcDhfbTFDV1A2QzR6V2tfS2lTYktaTmhtcWVKVm4yNWx2ZXJ5UDlvd284VXZBcU5OXzN0ZURxN21kTFhzcjE1VHZZQUJHMFRGbDY3Z0lpRE8xcmhiYlItQXRmelFLLTBSSGY2ZQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:18",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 우리은행 새 광고 모델 발탁→ CM송 공개 - BNT뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sQk83WlpxS1Yyd3IxaGRsc0tPakZ2OTRnb01qZTdKdWRZNlU2ZnhmRm5FQ0tncDcxNl95NEVITGQ5SGNYYkxLU3RzYXBjRGJMRV8zaC1vblFycjRObEhnS3B4Rk4?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:18",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 걸그룹 리센느와 '우리는 해' 신규 광고 공개",
+          "link": "http://www.issuenbiz.com/news/articleView.html?idxno=81072",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:14",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느와 ‘우리는 해’…꿈을 향한 도전 응원 - 매일일보",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13VHNJZWt1UDVEZTBOeEllZi1udmVLZjVxekFhckRlWHNmN3NSWjNDSjU2SGh3QWZsOS1iVDRLNWFHTlA2V0d2TE1vdHhCQlhudlktdlJSZ2NQeTRoVTJUdGhkeWQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:13",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 걸그룹 리센느와 새 광고 공개…'우리는 해'로 도전 응원",
+          "link": "https://www.e-science.co.kr/news/articleView.html?idxno=138531",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:12",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "네이버-삼성전자, 리센느 출연 'Galaxy Night' 쇼핑라이브 진행 - 브레이크뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1GbHFoWGpLS1VIRWlfaV9paHhETG02WVdJVHVLa1NHZzhyZnFTM29NdWNyaTJmM0ZvYXRNZ2xtUVFudw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:11",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "네이버, 삼성전자와 갤럭시 Z 폴드8 쇼핑라이브…'리센느' 공연 결합",
+          "link": "https://www.etnews.com/20261030000089",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:10",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느와 '우리는 해' CM송 공개...\"꿈을 향한 도전 응원\" - www.ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04WUZkcnpSbUVxR09QbTJPSDM1VlBvdlBacjZzTGtEOFZxRklpTjJvYXh5WFJVY3lfd0puaVlOM2hvVXd0aFJ1eDdhVDFGdVkwUkRXUGxDb3NSYU5wcDdJZnFKeWhZLWJy?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:09",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행 새 얼굴 된 걸그룹 리센느…'우리는 해' 광고 공개 - 핀포인트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lUFRybVpYSC1Ja1d3MjRtSjFuVmg3b2x1RVQ4UVdKNGxBbU53V01nWXRxb3owU1dadmRCWS1sdGhxYlFKN25yeXN6cUhaeXpSY09EWHByTkVseEpud2hvR3RaWmxqUy1xdDZpU0xxTnpCSG_SAXdBVV95cUxQVWtWOXhDV3pLV3Q0cDBua2VnSDBoVzZUR1hCMWw0X3dmTnhVaExLRF9SYjM3dWdqZzdsa0lIVVRuZS0yYmRKLW1mOUxXS2JzNm5ZVnBFems5N1NVZ08zQVZDWEN6eVdFLVNJNEdpazNuYkptR0Iwdw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:05",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느와 '우리는 해' CM송 공개…꿈 향한 도전 응원 - 비욘드포스트",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yZzBob0ROQ2VBQ2gxMDN0LVJCVFFKU0tWU09JRzd4eDcwZ3Q2aUkycU5DNjlOUGxiYTVRR05jOG9ONGt6c2wweU81WDhCRWk4ekh0bnRXcGVidDZUNW9Fd1JiY2gtWmc4SVM4cFNVUlltY1Joalpsb2xMYjE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:02",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 미나미·메이도 떴다… 아이돌 ‘한국어 대결’ 유튜브 예능 공개 - 한국대학신문",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1leFdCc2pUYTBWM3ZxSFRiQnVSYnhmU1hZUzQ5b2FLVzhEcE40MHcyMXROS2dvSWFEaTBxaDN2eTRFalR5NzNlZF84VURlSXdWdjJvMHlocVlQOWhsN0Jaak94Vk52UQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:01",
+          "category": "기타",
+          "members": [
+            "미나미",
+            "메이"
+          ]
+        },
+        {
+          "title": "우리은행, 새 광고모델 걸그룹 리센느…'우리는 해' CM송 공개 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByNXdVX3kxbFM2RTZ2YjZkenk4U0lfdVZ0UzNzLXc5cWhCbkV5YkprY25TUHlmSHVrWFhKOHkxbXJtUlNybmRTMmF4T1FramtGV2VIcVREbVBCNHdDc0diVtIBYEFVX3lxTFByNXdVX3kxbFM2RTZ2YjZkenk4U0lfdVZ0UzNzLXc5cWhCbkV5YkprY25TUHlmSHVrWFhKOHkxbXJtUlNybmRTMmF4T1FramtGV2VIcVREbVBCNHdDc0diVg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 우리은행 간판 됐다…CM송 '우리는 해' 공개 - 뉴스웍스",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pVWhDaTRsbHZXMXZWNUlzZ3ZKSEhDTW4wWEU2UGQwU1dPVmNZU0dnd2pTV1pmYXpLVDJVUTJjQU43ZGw0VUdLQmdmQzZxdi1XT2RsNlRvZTFPQTQwbzF4azFWTzVBNm5XdFMxWjRUc9IBc0FVX3lxTE1sMUxNNHBmcTVpdk44OEVvNWFmemRlamJjRTFvbElMelNmdVd4M1pjNTNrRDVUdU1aRUZNMWlvYThoNEt0UGkySXZKYkhsN01sMzRsVWJ5V3pJbHlKSXlsc0xfX2hZNkd6c3JtUnB2WnEtdW8?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:56",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, ‘대세’ 리센느와 만났다…‘우리는 해’ 광고 공개 - SR타임스",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uNVJFOTdCLURMQVdYbjJmTDZyMmZHQ01yTEdHNmdZN2htX2JrM2VqWDdLTndla0RSenhjLWVfbTFlQ1k5NDRaZW5oZ2kxdHY0RFdOTHJaRFk1WnFoazJlWkRNODhyLUJz?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:52",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 걸그룹 리센느와 신규 CM송 '우리는 해' 공개 - 문화저널21",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3VnJDT0thTi1Hc0pJSFpIQUpNWVFpdmZMcXN6TFFhZzhUaUEyMkU4RURUVklXYWpURko4cGl2cUpCeGZfRmY1M0tTY2dFQUZlc3ZidS15NE9ScEIyOFBJODB0RUxHbGM?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:48",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느와 새 CM송 '우리는 해' 공개 - 뉴스프리존",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wSm03c21ZXzNEMGgyLWpzZmNONDNJVFJlN1Azb0pPV1RTMWI5ckIwREZsOWtXRGRBaGN0OXFsMFdxRGdibHp3d29MbmRjSkZLb3p1NW9nRmszXzNyYTlrUUJnVHdpZWpXLVlYTHVVZV91cVHSAXdBVV95cUxPRU5qcGlpU2ZxMUZIcHVJSG5ZeWQ5Mm14SjZGZ0tGdnhnYlVsOWhxM2ZDMDl1b21kV0UtTm9rSEFKa0JJa1lOQktIY1ZSQVFrMkd5Nm9pamtFckJ6SE1CaUNoaEplOUY5NGlFS1YxRkpmdjFSSDFfcw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:48",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느 목소리 담은 '우리는 해' CM송 공개 - 스포츠한국",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92UEo1WlA0dmV3elc5dnRBN2ZGSWRsZWlud25zU01Ocm51Y0RIY1MyWGVwazdlb1FVMDk0djBXbTBNb05XUUlsVkxkWEVFVXdrQzZZcF92WURMakpoS2U3Tm1uYThJS25qQ2tmcGZWcFXSAXRBVV95cUxNMWZpV1BaWVd2bHZoTW9GMHBIcElES2xIRFFubXQ1dG9VZkpUYVJLUjRVS041YUJYQU1rM3FkdUoyQXVIOUk1SkY0V296ZXViSVRvTW51NU55dndacHo4Qm1NdmJnWWF0RnZUM05NWjN0RmJFcg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:45",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 걸그룹 리센느와 '우리는 해' CM송 광고 공개",
+          "link": "https://www.ezyeconomy.com/news/articleView.html?idxno=241383",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "09:40",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 걸그룹 리센느와 '우리는 해' CM송 공개…꿈 향한 도전 응원 - 파이낸셜포스트",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TWGwybTRaWHBGb1pQeWw1cS1FMF9oZkdZM1lTdHQyUmxteGFlbmRHazZOTEc1NXlEUEFMRzlWQlVmTXVGVTRHN3E1N2Vmci1qQ0NLZ2pZdExxUnhkVnRUSW5nZDZhZUFuc2dPaGpDaHlpSzQz?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:37",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "황찬성·노라조 다음은 리센느 리브·메이, AI 공모전 판 커졌다 - www.bntnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLRkF5U2hSZmQ1LVJyYnl0VUZCQWNFWHl6aU9UaXNCWjZfYmk3aWU3a0JvZzRoZGZLUVJnUVZFd0ZfQU11Q1pEQUJ5Q0UxVklVUDJjenFickl2VzBNdzMxUW5BNkg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:35",
+          "category": "기타",
+          "members": [
+            "리브",
+            "메이"
+          ]
+        },
+        {
+          "title": "\"리센느, 아이브도 제쳤다\"…K-브랜드지수 걸그룹 1위 등극",
+          "link": "https://www.thebilliards.kr/news/articleView.html?idxno=32312",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "09:30",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 리센느 모델 발탁..‘우리는 해’ CM송 공개 - 스마트투데이",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GNFM2elJscGtrTllIMzJXRG1fZkpHdGJkdF82NmFPdEdPYVg4UzJLVmdPRWhWYi12OEljSUd3cUVZM1hySFpQRmJBM1VzV3RmYVBtcjNJR1NPLUQ2OE04?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:28",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행·걸그룹 리센느, 꿈을 향한 도전 응원...'우리는 해' CM송 공개 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSG1YQlg4QVJfRTVRcmpwV1NlM196WHFES1hteXlwTEthUGhrUndPdXotbWJ2U1lpLTFBS1JRamZva0RrR3ZjeXpnZUEzVFd0ajJqSXQ5Um9FbFlYY1M3a1R3WnFyckZuM244U0ZNUlU2QXJVZTR5clFXaHIzWnRpcktjQnM?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:26",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 새 모델로 리센느 발탁...'우리는 해' CM송 공개 - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dkgzdE1RVjJUam1pam1DUjJfN0t6QVE4a0FhbEx2OUloR2ZRT21PdVFCbGRUWVN2UllrUUtDVG5VdlhGZkp5WEgxaGdtTjJDd19zQ3pSaURjMnFy?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:25",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 새 광고 모델 리센느 발탁…'우리는 해' 캠페인 선봬 - 디지털투데이",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBVdVF6SkZSZC1PblFPZjFSSkhJWXNlNERqN3JISFNCT0M3a2puY3FBdERMbkFKNFpqMXd1RURFc0ZaY0lRb0FzZkt0VUo4NWpHQURkU1preXBrRmZyWTNsN1NlRmIzSUdIb1k5STZxZDBacWs?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:22",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 걸그룹 리센느와 함께한 '우리는 해' CM송 광고 공개 - 이코노뉴스",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtMUVXdVNFU0RkeEpNY0stWEhJekY1ZWw3NjFWMEtKeEtLbXQyZHBXN1VFX2UzYXNBVFY3WnVRQ1hVTHJ1QXFfalR6eWtEUFdObGl2MDFrb1VYSTgyZndOc1lNQXo2VXdNZldBTjVxZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:15",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행, 걸그룹 리센느와 ‘우리는 해’ 광고 공개 - 이뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HQk1oMktqRTlwdGpUQTkxTGZCaHZUSFhRVUhvRmV1YjZLc2tjMXU3MWVKa000cG9Qck5zMmhKNno0RE5WWHNvTTZoUm9sMFhfVDFWWlhGQzFzcGIyRGJlRFBJVVotZVpzM051djRBMzV0QdIBdEFVX3lxTE9YbzI0eGpMbnE1Z3o2WE44WFFLY09vN1lpaEx3dlE1NWdFNlZsWV9WVW0xdHNueFU2SjBERUd2Mlg3dmFnWEtrQUQ2WFh0UnIzRFhmSkRWTUd2bEZBWUZhNjQ0VmVTNkJTeGRZcE9wNm03eEI5?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:11",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, K-브랜드지수 걸그룹 1위…아이브 2위·르세라핌 3위 - 싱글리스트",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aWFJwb3FwWVpFZG5nYVlBOW1FeWhaM196MTJMak5ZNjdlSklyS3FJTGpTZmhJQjNzRFcyRFVGOXhWaXVqeGtDUXB6cW85QnB4OUxMQXEzdGpYQzdkNDFscTFPaVFZZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:09",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
         {
           "title": "리센느 신곡에 ‘케데헌’ 이재 참여! 백화요란 작곡·미나미 사연·....",
           "link": "https://blog.naver.com/clever_21/224458556357",
@@ -361001,7 +361829,7 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
@@ -361010,123 +361838,121 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
-        "change": {
-          "kind": "down",
-          "delta": 1
-        }
-      },
-      {
-        "rank": 10,
-        "song_title": "Pretty Girl",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
-        "change": {
-          "kind": "down",
-          "delta": 1
-        }
-      },
-      {
-        "rank": 38,
-        "song_title": "Runaway",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
-        "change": {
-          "kind": "up",
-          "delta": 10
-        }
-      },
-      {
-        "rank": 55,
-        "song_title": "Pinball",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
-        "change": {
-          "kind": "up",
-          "delta": 22
-        }
-      }
-    ],
-    "genie": [
-      {
-        "rank": 5,
-        "song_title": "LOVE ATTACK",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
-        "change": {
-          "kind": "up",
-          "delta": 20
-        }
-      },
-      {
-        "rank": 12,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
-        "change": {
-          "kind": "up",
-          "delta": 24
-        }
-      },
-      {
-        "rank": 21,
-        "song_title": "Pretty Girl",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
-        "change": {
-          "kind": "up",
-          "delta": 17
-        }
-      }
-    ],
-    "bugs": [
-      {
-        "rank": 8,
-        "song_title": "LOVE ATTACK",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 14,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
+        "rank": 9,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "up",
-          "delta": 6
+          "delta": 1
         }
       },
       {
-        "rank": 31,
-        "song_title": "Pretty Girl",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
+        "rank": 36,
+        "song_title": "Runaway",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "up",
           "delta": 2
         }
       },
       {
-        "rank": 33,
+        "rank": 61,
         "song_title": "Pinball",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-30 11:44",
+        "change": {
+          "kind": "down",
+          "delta": 6
+        }
+      }
+    ],
+    "genie": [
+      {
+        "rank": 4,
+        "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "up",
-          "delta": 5
+          "delta": 1
         }
       },
       {
-        "rank": 51,
-        "song_title": "Runaway",
+        "rank": 12,
+        "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
+        "change": {
+          "kind": "same"
+        }
+      },
+      {
+        "rank": 15,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "up",
-          "delta": 4
+          "delta": 6
+        }
+      }
+    ],
+    "bugs": [
+      {
+        "rank": 6,
+        "song_title": "LOVE ATTACK",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-30 11:44",
+        "change": {
+          "kind": "up",
+          "delta": 2
+        }
+      },
+      {
+        "rank": 14,
+        "song_title": "Deja Vu",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-30 11:44",
+        "change": {
+          "kind": "same"
+        }
+      },
+      {
+        "rank": 30,
+        "song_title": "Pinball",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-30 11:44",
+        "change": {
+          "kind": "up",
+          "delta": 3
+        }
+      },
+      {
+        "rank": 33,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-30 11:44",
+        "change": {
+          "kind": "down",
+          "delta": 2
+        }
+      },
+      {
+        "rank": 52,
+        "song_title": "Runaway",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-10-30 11:44",
+        "change": {
+          "kind": "down",
+          "delta": 1
         }
       }
     ],
@@ -361135,47 +361961,43 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
-          "kind": "up",
-          "delta": 1
+          "kind": "same"
         }
       },
       {
         "rank": 11,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
-          "kind": "up",
-          "delta": 1
+          "kind": "same"
         }
       },
       {
         "rank": 19,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
-          "kind": "up",
-          "delta": 1
+          "kind": "same"
         }
       },
       {
         "rank": 33,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
-          "kind": "up",
-          "delta": 2
+          "kind": "same"
         }
       },
       {
         "rank": 37,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
@@ -361188,7 +362010,7 @@ const SITE_DATA = {
         "rank": 35,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
@@ -361197,7 +362019,7 @@ const SITE_DATA = {
         "rank": 41,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
@@ -361206,7 +362028,7 @@ const SITE_DATA = {
         "rank": 119,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
@@ -361215,7 +362037,7 @@ const SITE_DATA = {
         "rank": 136,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
@@ -361224,7 +362046,7 @@ const SITE_DATA = {
         "rank": 167,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
@@ -361236,7 +362058,7 @@ const SITE_DATA = {
         "rank": 94,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
@@ -361247,7 +362069,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
@@ -361256,7 +362078,7 @@ const SITE_DATA = {
         "rank": 13,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
@@ -361265,7 +362087,7 @@ const SITE_DATA = {
         "rank": 16,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-10-30 08:26",
+        "checked_at": "2026-10-30 11:44",
         "change": {
           "kind": "same"
         }
