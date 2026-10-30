@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-10-31 05:56",
+  "generated_at": "2026-10-31 07:01",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -363654,6 +363654,22 @@ const SITE_DATA = {
         "mention_count": 1
       },
       {
+        "date": "2026-11-20",
+        "type": "기타",
+        "title": "2026 MAMA AWARDS (OSAKA) (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-22",
+        "type": "팬사인회",
+        "title": "[PULSE] 대면/영상통화 팬사인회 by MAKESTAR (04:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
         "date": "2026-11-27",
         "type": "기타",
         "title": "🎉 HAPPY ZENA DAY (All Day)",
@@ -363695,6 +363711,14 @@ const SITE_DATA = {
       }
     ],
     "past": [
+      {
+        "date": "2026-10-30",
+        "type": "기타",
+        "title": "갤럭시 나이트 - 네이버 쇼핑라이브 (11:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-10-24",
         "type": "공연",
