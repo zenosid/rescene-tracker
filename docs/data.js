@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-01 01:28",
+  "generated_at": "2026-11-01 01:58",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -365059,7 +365059,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-10-31 13:35",
+        "checked_at": "2026-11-01 01:58",
         "change": {
           "kind": "same"
         }
@@ -365117,9 +365117,25 @@ const SITE_DATA = {
         "mention_count": 1
       },
       {
+        "date": "2026-11-24",
+        "type": "기타",
+        "title": "멜론 STAGE 99 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
         "date": "2026-11-27",
         "type": "기타",
         "title": "🎉 HAPPY ZENA DAY (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-27",
+        "type": "팬사인회",
+        "title": "[PULSE] 영상통화/대면 팬사인회 by WITHMUU (09:30 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
