@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-01 11:28",
+  "generated_at": "2026-11-01 13:55",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -365677,7 +365677,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-01 06:10",
+        "checked_at": "2026-11-01 13:55",
         "change": {
           "kind": "same"
         }
@@ -365730,14 +365730,6 @@ const SITE_DATA = {
         "date": "2026-11-22",
         "type": "팬사인회",
         "title": "[PULSE] 대면/영상통화 팬사인회 by MAKESTAR (04:00 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-11-24",
-        "type": "기타",
-        "title": "멜론 STAGE 99 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
