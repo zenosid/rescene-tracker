@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-02 13:57",
+  "generated_at": "2026-11-02 21:57",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,924 @@ const SITE_DATA = {
       "date": "2026-11-02",
       "date_display": "2026년 11월 02일",
       "items": [
+        {
+          "title": "2026 MAMA 리센느 2차 투표 방법 총정리, 하루 한 번 참여하세요!",
+          "link": "https://blog.naver.com/blackqepit/224462663032",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 추억을 걷는 인생 여정",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "숨바꼭질2 리센느 CGV 상영회! 15,000원에 멤버 사인 포스터까지 전원 ....",
+          "link": "https://blog.naver.com/jurineeee/224462677362",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 주린이의 주린한 일상",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“갑자기 숨이 안 쉬어져”…리센느 원이, 공연 중 무대 내려간 진....",
+          "link": "https://blog.naver.com/als138484/224462677610",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 이슈와꿀팁",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 눈물까지…결국 무대에서 내려와야 했던 이유",
+          "link": "https://blog.naver.com/hansel67/224462684835",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 밑줄 친 일상",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이 \"숨이안숴져...\"무대 이탈 해프닝 비하인드 소식",
+          "link": "https://blog.naver.com/brandfun54/224462686957",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 미디어로그",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 PULSE 11월 3일 컴백! 쇼케이스 생중계 보는 방법·시간",
+          "link": "https://blog.naver.com/sojjcs802/224462691648",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 알아두면 쓸모있는 정보",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 숨바꼭질2 CGV 상영회! 예매 일정·극장·포스터 특전 알아보....",
+          "link": "https://blog.naver.com/changlol/224462692065",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 차차",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "“숨이 안 쉬어졌다” 리센느 원이, 경주 공연 중 무대 내려간 이유 ....",
+          "link": "https://blog.naver.com/banana2ea/224462695752",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 세상만사",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "무대에서 내려갔다 돌아온 리센느 원이, 공연 후 털어놓은 아찔한 ....",
+          "link": "https://blog.naver.com/histecho/224462702113",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · HISTECHO(역사의 잔향)",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느(RESCENE) [PULSE] Dragon 가사 해석｜너는 날아올라, 나는 너를 지....",
+          "link": "https://blog.naver.com/wajyjwa1004/224462704697",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 찐한하루",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느가 1위라고? 업계 관계자 주목한 이유",
+          "link": "https://blog.naver.com/jason0506/224462708265",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 서린",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, 무대 중 눈물 흘리며 이탈, 의상 수축으로 인한 호흡 ....",
+          "link": "https://blog.naver.com/make2t0418/224462708299",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 우유한모금",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이 무대보다 당황스러웠던 순간…세탁 후 달라진 의상의 ....",
+          "link": "https://blog.naver.com/leena1211/224462709627",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 슈팅스타 엿장수",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "CU 덕연이딸 원이 도시락 출시! 리센느 친필 사인 폴라로이드까지?",
+          "link": "https://blog.naver.com/jurineeee/224462715389",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 주린이의 주린한 일상",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"내일 컴백인데 무대 뛰쳐나간 원이\" 대박을 위한 액땜일까?",
+          "link": "https://blog.naver.com/wlsunglw/224462719049",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 레전드",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 Bake405 연장 판매, 2차 포토카드 구별법과 구매 타이밍",
+          "link": "https://blog.naver.com/onefaith80/224462719542",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · ONEUL 하루",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이 무대 이탈 이유 밝혀졌다! 공연 도중 갑자기 내려간 이....",
+          "link": "https://blog.naver.com/crushfarm/224462721491",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 크러쉬팜",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "경찰대학 편입시험에 까지  등장한 걸그룹-리센느",
+          "link": "https://blog.naver.com/sid15033/224462722799",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 세상을 바라고바라",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"숨이 안 쉬어져\" 눈물 흘리며 무대 이탈한 리센느 원이, 뜻밖의 진....",
+          "link": "https://blog.naver.com/sungkyu0909/224462723949",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 스타파수꾼",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 할리스 팬미팅 응모 11월 3일 시작! 세트 메뉴·50명 추첨 방법",
+          "link": "https://blog.naver.com/sojjcs802/224462727822",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 알아두면 쓸모있는 정보",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 파워 피플 1위 달성! 역주행부터 음방 1위까지의 성장 서사",
+          "link": "https://blog.naver.com/onlifeworld/224462729780",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 온라이프, 생활경제 이야기",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 2주 연속 K탑스타 정상 등극… 11월 3일 'PULSE'로 컴백 시동",
+          "link": "https://blog.naver.com/winner0418/224462730790",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 핫이슈를 누구보다 빠르게",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "안원잘부 최신 특별편 '원이를 찾아서' 솔직 후기! 정씨 아저씨 공장....",
+          "link": "https://blog.naver.com/setamind/224462733324",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 아츄♡라츄... 그리고 시츄❤️",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "롤리브 폴리브 (리브,제나)",
+          "link": "https://cafe.naver.com/prodream9/52922",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리마인(REMINE)'",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "리브",
+            "제나"
+          ]
+        },
+        {
+          "title": "리센느 팝업 이건 뭐하는건가요??",
+          "link": "https://cafe.naver.com/re5cene/90163",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "11분 영상으로 2000만뷰...리센느 제나, 44일 만의 기록 / YTN star",
+          "link": "https://cafe.naver.com/ddubcafe/133920",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 뚜엔밥",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "RESCENE 리센느 (원이+리브+미나미+메이+제나) 를 응원합니다",
+          "link": "https://cafe.naver.com/re5cene/90167",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "원이",
+            "리브",
+            "미나미",
+            "메이",
+            "제나"
+          ]
+        },
+        {
+          "title": "리센느 cu 포카 볼하트 제나 구합니다!",
+          "link": "https://cafe.naver.com/re5cene/90172",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "리센느 CU 이벤트 당첨이네요",
+          "link": "https://cafe.naver.com/browna6if9/24945",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 렁만이네 : 독학왕 공식 팬카페",
+          "time": "21:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, 무대 이탈 이유 밝혔다… 무슨 일? - 금강일보",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1iWUxUbmQ0aTI2Mms0N3Rvb0Y0YndST3NIU0RreXJHWXNPcUxCQWUtZnp5RFJ1ZF9hWkQybXhGNEpNTTA4U1RuSDBxT0NDV0MxdWhnaEFEbDU1bDZkd3B4QVBLTy0yMVI3VlE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "21:23",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연중 무대 떠나…“숨이 안 쉬어졌다”, 무슨일?",
+          "link": "https://www.donga.com/news/Culture/article/all/20261102/134953626/1",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "20:23",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 제치고 AI 음원이 음원 차트 톱…美·EU 자체 기준 마련하는데 韓...",
+          "link": "https://www.ajunews.com/view/20261102144721596",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "18:08",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 제치고 AI 음원이 음원 차트 톱…美·EU 자체 기준 마련하는데 韓은 관망만 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrTno4QUdVTDg0OGNzS3FlalRSWDlCMUpMd2dfUEZzQ1VZN3Fsak5TXzlEcm1TTF9ZTGpmY3hHS3h3Y2k0VXlwNElKVjRCVmp3UFJueV82QnZSQdIBWEFVX3lxTE53eGNuR3dPX2hVdkVacmhkcG4zWmEyWDh1TjI2ZENhSDlmTHlzdEtYYjk0OXpTRUhJTUdYdzdFb0k0djZONzY2OFozWldwcjFNQUh1SnBGZVI?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "18:06",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 무대 이탈…\"세탁 후 줄어든 의상 탓\" - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPemwtZGEyX0p6YXRKOTJmZjNHRnFGOHlIRkxhZVVzZXFUZm9HdUM5aXFBb05lOEFnU3JET3c1U1lpWEhJZVJoZlNMZEotZ3lCaTRveERrNXJnZGNqYkk3aUV6N0pxWWNxNGdEVDM0d3pGOXRDUXl4eFJfbnRFQ0ZSUXZwdVNXS3hoclJnU05iRQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "18:02",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "'중소돌의 기적' 리센느, 팬덤 화력 시험대…컴백 성과 주목 - 이데일리",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORmRmSWFpa0JYMjdNM0ZEQXlKSUJ1YW5lV013d0loUndJVk5lN1p0dTVsbUlyemZGYkZHNWxXRnZZV2dMTjBzSm5xc0ZiMUZyQTNEUDhId2h2VDh0UmRRWVdpU0V3c1VQQlZsMlFmdGZTSXFTd0E4MW1Bd1M5VV9GTQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "18:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 무대 이탈…\"세탁 후 줄어든 의상 때문\" - 더팩트",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16MDlBMHloWWdTeFBaXzZWNEhhWHNXUjV4X0JhSFoyUE5sVUVCZmdiWG1nbmphOHg5LS1LZU51MzlqZlRCeWdmdFhHdmlLX1l4RS1xbnl0Y0E4Wk4t0gFXQVVfeXFMTmFTbU1aSlFXVVZUZjJlWnJyT05yVzFQQ3RZR2YzYjZLSHdGUm9QbHVkN3JxaEo5UGZVSFBabFZxM2FqeW0yaTYwZGhHV1Z5WEtpRVE4YkJV?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:55",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 컴백 사흘 앞두고 무대 도중 퇴장…\"숨이 안 쉬어져\" 아찔 [엑's 이슈] - 엑스포츠뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1NSnoydDBNcERsSHoxYUs5c085end5M1lKT2hqdFl6MlFNODlhRDk1MDNMcTdSV0dKNXdnYnlNWVdZTnhjdnoyREVENG1BbExET3YxbQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:50",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 컴백 사흘 앞두고 무대 도중 퇴장…\"숨이 안 쉬어져\" 아찔...",
+          "link": "https://www.xportsnews.com/article/2214288",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:50",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 무대 이탈…“숨 안 쉬어졌다” - 코메디닷컴",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBHX0JhLW5hS0RBb3ZXNUxzZFZoQnJ2SHVYREh6TlJ6UXBja2xKc1dnUFdOcVZ5NHNObHR2NjBnNHh2QQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:37",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 다급히 이탈→비상 상황...\"줄어든 의상 탓에 숨 ...",
+          "link": "https://www.tvreport.co.kr/entertainment/article/1087735/",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:24",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "'맛녀석' 황제성, 리센느 팬 김해준 앞에서 \"난 아일릿\"…문세윤 \"너 이...",
+          "link": "http://www.starnewsk.com/news/articleView.html?idxno=60581",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:22",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 컴백 앞두고 액땜 제대로…직원 사칭 이어 원이 '의상 해프닝'까...",
+          "link": "https://www.xportsnews.com/article/2214371",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:22",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느, 컴백 앞두고 액땜 제대로…직원 사칭 이어 원이 '의상 해프닝'까지 [엑's 이슈] - www.xportsnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VU0REU2tqaF9iN1dzNjE3bnYxRV9ERkRvczZkTGRMX1VnbXpudFBuY2tkTWdfcnZ4RFB0NUVQclRuaVNSOUhzdzNPOVJZZ1M1aTdXVw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:21",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "한 달 만에 200만개 팔렸다…민음사빵 뛰어넘은 ‘리센느빵’ [강예슬의 위시리스트] - 이코노미스트",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94WGdYem53bmhONUJjYk9HdEhIa1ZjUDVaRjVoTGFoemM2S05CdXpTeVZOaGFwVkVwS0lYV2NSZzlhcm9MaktDR0ZPQksyNk0tWEVIdDdjeHZ6bFlhMm1rN1RR?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:17",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "D-1 🪽",
+          "link": "https://www.youtube.com/watch?v=KcTEkBTAP3I",
+          "source_type": "youtube",
+          "source_name": "RESCENE 공식 유튜브",
+          "time": "17:00",
+          "category": "자체컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "황제성 팬심 여전하네, 대세 리센느 등장에도 “난 아일릿인데”(맛녀석) - 뉴스엔",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wVzN3LTNHU1czZlBkMF9MaGxoRkkxeUVwOERHUWR0cjVMbTdXNEVSQmJ3TEsxY1BMaWtBdzdfaWhnbEF4dUVidU1BQVhxVkl5anVsZ01mWGZsQVBhT0JSQTB3LWk0TjdGMC1Ldl9wVlEzOHU0NUNpRFRrNA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:56",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 컴백 앞두고 건강 이상설? 원이가 밝힌 '무대 이탈' 이유 - www.newsq.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBad1o4ZmE5U2sxc05ta2s3aDhOWHhBa1J6ZndoMTlzM0ZrTVQyMkhVMzlfVHJvRFdMMnF6bzVhMlUyc2JqaGVoYUkydS1raGRwbkJKZ3VkVC15Sl9lY093VnpSaDc1anI1b1E?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:50",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "[퇴근길이슈] 故 최불암 미사·리센느 원이 무대 이탈·차예련 댓글 폐쇄·소연 임신 - 조이뉴스24",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zSmdmMktFcjBsVFBwZG5KeG40clU3aHhobmRNaWtTUlhJVmY5cEhobFo1c0RmRkNjSnJJNEtkQmh2ZlRTbTk2M2lCODhaVzg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:50",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이 \"숨 못 쉬어\"…공연 도중 사라진 사연, 무슨 일? - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQd2liU2c1aE4tck91a3NqR1lhMGRJSWJKMVdyRkdMYWE4VlpuWGRpRzRRbjBqOENOUTRnV2tqa1JkN3AwbmZWVVBmQkdXX2hwRk44RHlpTmR3cElTQkQ1Qnl1R2pxUDg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:45",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "할리스, 리센느 컴백 기념 ‘리센느의 선물’ 세트 출시 - 문화투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlVnRmWTE2OF9wSmNhV3Z6bHgxQ2VRME41VXJKNmwxTWxKOElyRGlPM016SFJfV1N5bFFXbjlxbHhVM05qSlZiSEd2T0dkbThKR0lBcUljZlR1ZDQ2a2F2TEFEU3ExQ0g4?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:38",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "할리스, 리센느 컴백 기념 협업 메뉴 선봬…팬 초청 행사 진행",
+          "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=212467",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "16:20",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 무대 이탈…“세탁 후 줄어든 의상에 숨 안 쉬어...",
+          "link": "https://www.dailian.co.kr/news/view/1709680/?sc=Naver",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "16:14",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 무대 이탈…“세탁 후 줄어든 의상에 숨 안 쉬어져” - 데일리안",
+          "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOQ1hUVWhKNE80TzJfc3J2LU9YWXd4akdRbVVlNG9FWEpGdGJLSFZDUW0tNHVKUk9MUjNNYlZpMHJzbEVvTGZyY1Jralp6ZUZFeTZ2Q3NYU2NsMVJPczl4OTI3NXpWaVh2M0NDdFVBNGNTNzVtMF9PSTZDalNGbzV0X0pUZG9OLTVXRkJ3dlVhcDNORjRfMWdnUnFMX1dxaTVaNTRiS2JlRzMybXR2M1dpeW13WFMwWmtubFlNVW5WT3NCM2NHSFFmM3BCRDFWYWZiVVF3ZlVmUnhzY1lGVVhlNVM2eVZILXRmLUpwS01HVjItcDg2NEhlU3JTYnVEdHpodGFGaUJLM0s3di15UDVYY0hhQWNTb19V?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:13",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"음료·디저트 즐기고 리센느도 만나자\" 할리스, 컴백 기념 세트 선봬 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EX29qbjBFWXdrY1drQU4xWFZUVjZKUHR4WEc4R1RIekxBSEtObmtBOGNYeFFuUTBvMFM2WklyTVdsYnJlclJVaTNLTV9TNlZoclIxZlBsWEVkN0pTV1pjR9IBeEFVX3lxTE53MGtTaUJPRFdtaG95c2xpRENkcDl0bkZUbHZlV0RVdFp1dGh6VENMLU5TTFZJeTZaQWdlUWdmTWJSQV9HYlJncVdYZ1NSZ1gyZ0htUzE2Z3lsTkNMSXB4Y0pPdTdES25SaGlEeXlWXzYxUFItMmhYag?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:05",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "but you 🫵",
+          "link": "https://www.youtube.com/watch?v=sgZms-ImEx0",
+          "source_type": "youtube",
+          "source_name": "RESCENE 공식 유튜브",
+          "time": "16:00",
+          "category": "자체컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'리센느 신드롬', 이제 신곡이 답할 차례 - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vMnF4NWx1THFGV2ozMWlnVjlMY282dHN2emJudkY5X3UzN1BESExpRTduSDlGNGFXcVJKR0YwckcxR1QxSTN2Vzh2NmlDMFMwTm9ldC1pUEtudTJPMG1iUjFBRkVDaUxzcFJYMlhNUi1DZmFy?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:58",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'리센느' 다녀간 팔현습지 공사 강행에, 시민단체 몸으로 저항",
+          "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003280935&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "15:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 \"할리스에서 만나요\"...컴백 기념 이벤트 진행 - 싱글리스트",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LaHNSYmVoVVU1ZUZxSHQ5dWpZeUZSZFNWSzJpZ1ExWWgtamVQRDNLU0E3SXV2VkVsQmlOMndMemwyVWlmNi1YM09ETjBaYXBjdk5pVXp2NXZZR192WDN6eUNmZ19yQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:37",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"할리스 매장에서 리센느 만난다\"…컴백 기념 팬 초청 이벤트 진행 - 뉴스탭",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzMjZVc0x1eWtYaDFMTnhkdGFCVHRpWUdYMHFUN0VocE9Lb0pwaEJUQTNaTkVXc092TXBiN2hBRGU1a0ZGRXczSzZ4SW5MX2Q3cHZWSmxGWDJESTZuOVlrNmRCWnhybE9sM2pSMg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:34",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 경찰대 편입시험 문제에 깜짝 등장…'이례적 관심' - YTN star",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1idGQyZV9vME56TVJtQUJNSzBlRE5vZnRyWUxPUWdwRWU0aG56TU9GS3hQMjlzcnhBZjN6NnhEUHNsbXlNdmUxX1dmUk54VjBrYkdDT1B5WXlhZ1gwNllj?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:24",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 사색된 채 이탈 '왜'…\"줄어든 의상 때문에 숨 안 쉬어져\" - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kOHpRSFZicUNkb0dyd1VtZlF5RjFWZTFmQ2o3Zk9hVWVocmN1c1h1MDhHQlBWcEtVcE5hVVhVdUM5ZGlfME9yb2hVamZCeFVmTmlVWDRHQVB3dDRLUmo0cnVNX1c?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:21",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 호흡 곤란으로 무대 이탈…“줄어든 의상 때문” - 알파경제",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92eUhjSVZKTEV3My1vSlhqY0c2ZE1Pd1NheEgzVTVUTG5KV2JmVG1pdlpRc2ZvN3ZzbXJoTWtXb3dzLXpwNzNacE5UNm10cjRDMzZRVS1pd0ttLWRXb1Q1RHdISUN5blpScTcyNElR?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:20",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "할리스, 리센느 컴백 기념 세트 내놔 - 로이슈",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5vZUJSeE5uX01HUnhmaUNzRjJ0b3pLX3RzVkhDQndtV0JPOTdvZ05mdzB3LTdEQmY0ZmI2b3NRVHpfU3ROZmQ5ZjBtbHlSaXdoeUVNV1hiQTgzVmJQZUx2c01jS2JjUXFiSTFmemZWeEpkckNVV1BVNGVB?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:17",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "거제 알린 리센느 원이, 이번엔 전국 편의점 도시락으로 만난다 - 새거제신문",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mOEQyeWhzTFpqRU13VUNfSlhIcy11WVhVRzkyemVkRWFnVDJjdUNabHk2b0xlVUlJeXhNaEhxT1A1VTJCbGM5dlg3MG91NE9fZ0RDUnlKbTZmQmkzUThOdjZDcERzWkt2MFdF?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:13",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 무대 이탈 해명 “줄어든 의상에 호흡 어려워”",
+          "link": "http://www.breaknews.com/1247567",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "15:12",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 무대 이탈한 이유는 의상 문제 \"옷 줄어들어 숨 안 쉬어져...",
+          "link": "https://www.nocutnews.co.kr/news/6600748?utm_source=naver&utm_medium=article&utm_campaign=20261102150312",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "15:04",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "CU expands RESCENE tie-up to lunch boxes after 2mn bread sales",
+          "link": "https://www.mk.co.kr/article/12193521",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "15:02",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, 갑작스러운 무대 이탈 해명…“숨이 안 쉬어졌다” [MK★이...",
+          "link": "https://www.mk.co.kr/article/12193516",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:57",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 갑작스러운 무대 이탈 해명…“숨이 안 쉬어졌다” [MK★이슈] - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE84clNHVElrV1dheDFNaGczaTdmZVpHUE5zMVZqMFRZeDhzNFBOSjlqMV96SXVHYlgtaGthOXRUbmNwNzdQSFdCVXhEemE1ZXJjRHhSV09Tcw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:56",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 의상 문제로 돌발 무대 이탈 \"숨 안쉬어져\" - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93X3M0cTB1cEdZdlNsRlB6c2t2N2RDU3B4aUNoc1F6cG5jMUs5WkVWOHpMZThpMTJFN3ZDM29OTk1OUGlQUWhhazZEd1hjaTJYaW8zMw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:55",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"숨 안 쉬어져\" 리센느 원이, 무대 이탈…`건강 이상` 아닌 `의상 해프닝`에 안도 [MD이슈] - 마이데일리",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yempISWQ5b3ZtOUJxeW1NY1RvME9XVmEyYl9tTlh6Z1ZzaW9aX1RfQWZnYWtfbkk5RTlxY3gyZHF4V3pCSFV4Z2V6R0ZiZmZWLThDR2F0TFRFVDk4REVweg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:51",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 호흡곤란으로 무대 이탈..“의상 때문에 숨 안 쉬어져” [핫피플] - OSEN",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VczJ5dGNLR2ZyZE16VlRiQTNUdkxoaUJxUzJhOW1hQkJaUVpsM19qNl9zTnFkQVBiSHk1dkxXYndPd0lzT1lFWlY4dFNPUmFRd2NtQw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:37",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 의상 문제로 무대 이탈…\"호흡 곤란 겪었다\" - 메디컬투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80TU84NkVIWXdjamtCTS1wTWZjZ21YUHJtX0ZuSVdjaTQ3Snl4c0Z4a3VwNGFiMVlIaE9VdGI3aXh3MTNXYjFpcUlsOUpMelJRUFpqMk81V1plOG1ETUprZmhpTG9jTmxEUW4zbA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:36",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"숨이 안 쉬어져\" 리센느 원이 갑자기 사라지더니…무대 이탈한 '뜻밖의...",
+          "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611020110&t=NN",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:30",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 무대 내려간 이유 \"숨이 안 쉬어지더라\"",
+          "link": "http://www.stoo.com/article.php?aid=109668097838",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:26",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 호흡곤란→무대 이탈…\"옷 줄어 숨이 안 쉬어졌다...",
+          "link": "https://mhnse.com/news/articleView.html?idxno=1662714",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:24",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "코르셋 의상 입은 리센느 원이 \"숨 안 쉬어져\"…무대 중 이탈 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5NdEJCRnhCb2VuaHJXc1lTU1d1V2I0RDdxZkxiODhQTlB3ZVY2bzFJOGVLZ01RVnhiUUVkd1ppODZHbTVka0hOcEx4Vk1IcExkRjd0X0toX1I3eEktang5bThhUUR0VFk4djg1d25oOGFKVktkclplMtIBeEFVX3lxTE5NdEJCRnhCb2VuaHJXc1lTU1d1V2I0RDdxZkxiODhQTlB3ZVY2bzFJOGVLZ01RVnhiUUVkd1ppODZHbTVka0hOcEx4Vk1IcExkRjd0X0toX1I3eEktang5bThhUUR0VFk4djg1d25oOGFKVktkclplMg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:23",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 돌연 무대 이탈… 호흡 곤란 증세까지 - 한국일보",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43S2w3T0Y3NVJEaDRpLXNPc01LSF9kWnJjQklfbnNtRVBQZEpxQ3gwaDVOeTQzdkU0WjV2c3dEQ0ZuNURyMnhRYWtpN0VRX3RtYW1FS1dTYVlaREhVY3lKOGZON2xLTnBrb3laMFBkZ3NTNzTSAXNBVV95cUxON0tsN09GNzVSRGg0aS1zT3NNS0hfZFpyY0JJX25zbUVQUGRKcUN4MGg1Tnk0M3ZFNFo1dnN3RENGbjVEcjJ4UWFraTdFUV90bWFtRUtXU2FZWkRIVWN5SjhmTjdsS05wa295WjBQZGdzUzc0?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:12",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 돌연 무대 이탈…\"숨 안 쉬어져\" 직접 밝힌 전말[이슈S] - SPOTV NEWS",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KZ0NYQ2RSRGhEV0I1VjdZbmpnUWx6SDF4b2xTUkk1Rm5TZFJQSHllM2EwTkxobEdDdGxzSzJWU1g3b3A0UVN6dG9HZWl3Z0dQRDhpR19KdzV4YnZQRTlsRkVFQ1JQTnJ6RU91V1dvNWI?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:09",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "“숨이 안 쉬어져” 리센느 원이, 무대 이탈 이유는 ‘이것’ 탓 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NSlp6dXkyYmJGSHFfSUxCeENQOGdKc3hoYmdtMURNa0phelUtSlhSTTBkTFFzZGc2QS1PWmJrYWhTeU5vYzlLQUFXQi1ybjlfQjJadUpnOU4?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:04",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 무대 이탈 왜?…\"숨 안 쉬어져\" - 스포츠월드",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAzRDZwMFJrbHRSTzE5V3dWd0daOWNzSjczU1pSVTVRSVR3cjlkRlB3SGN5TTlKYVA4bjhNM1lENmFtUFdkZDZIcmFyS2FYaDFPVzI5N1VOUy1zV3Jxbi1VeEtB?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:01",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "“숨이 안 쉬어져”…리센느 원이, 굳은 표정으로 무대 이탈한 이유 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53NjNRS3RkbHA3SVJwemotSDBqcU54Y2ZQdDhwSUM3VUxsTk9ZZHN2Q1l0OU5DbUxZTFZlRnhfNjF3WExyYjZURU5MY0JXUl9sLU5aVQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:00",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "“숨 안 쉬어져”…리센느 원이, 공연 중 호흡 곤란 - BNT뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIaUpQQnFEa093X2pEZkg0MlFBZkZ6VWswU1hfQXhCYm9leHF2NW9jRVJXTVI0cjBtdGV6QzJvNGVaV1RkdU16bXJpUGh2a2pXZlNmd2ZZaFhIOHRWRk1JbnBPWDY?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:55",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
         {
           "title": "리센느 컴백 D-1 그리고 원이 도시락 출시! '덕연이 딸 도시락' 2종",
           "link": "https://blog.naver.com/jsddp0513/224462154786",
@@ -329,11 +1247,33 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "‘리센느’ 원이, 공연 중 무대 이탈 왜?…“줄어든 의상 탓에 숨 안 쉬어져” 해명 - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54MC1hb3pEd2FXeFVPel8zbXB5ZXlLZFo0TGdUUkpxdjBYcld2M2hZb1QwQ21KOXpDWFhQTWNSNFNJSUZvLUJKeDN2cmluRlFfZHlZUGYyZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:55",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
           "title": "\"세탁 맡겼더니 의상이 수축\"...리센느 원이, 무대 급이탈 논란 직접 해...",
           "link": "https://www.sportschosun.com/entertainment/2026-11-02/202611020100011530000915",
           "source_type": "news",
           "source_name": "네이버 뉴스",
           "time": "13:54",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "\"세탁 맡겼더니 의상이 수축\"...리센느 원이, 무대 급이탈 논란 직접 해명 - 스포츠조선",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOVB5Mmd4bWxURDNFRXBOdlB1RUpJZnp1ZUJjTG01aWlJWFZjMm1EYkdQZHJYcEphZjkzbEh3eG5EZVk0OHhrc2lFNFNGWUxKUmY0dUZ3czcwWHFjRWhXSHFTamVJclVtVVVYbzlTclRVUkZQSlJLV29XY0lXZXc2OFlHc0o?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:53",
           "category": "기타",
           "members": [
             "원이"
@@ -366969,79 +367909,80 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
-          "kind": "up",
-          "delta": 1
+          "kind": "same"
         }
       },
       {
         "rank": 7,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 10,
+        "rank": 8,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-02 13:55",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 38,
-        "song_title": "Runaway",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "up",
-          "delta": 3
+          "delta": 2
         }
       },
       {
-        "rank": 65,
+        "rank": 33,
+        "song_title": "Runaway",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-11-02 21:57",
+        "change": {
+          "kind": "up",
+          "delta": 5
+        }
+      },
+      {
+        "rank": 49,
         "song_title": "Pinball",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
-          "kind": "down",
-          "delta": 15
+          "kind": "up",
+          "delta": 16
         }
       }
     ],
     "genie": [
       {
-        "rank": 5,
+        "rank": 4,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-02 13:55",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 11,
-        "song_title": "Deja Vu",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "up",
           "delta": 1
         }
       },
       {
-        "rank": 15,
+        "rank": 14,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
+        "change": {
+          "kind": "up",
+          "delta": 1
+        }
+      },
+      {
+        "rank": 16,
+        "song_title": "Deja Vu",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "down",
-          "delta": 1
+          "delta": 5
         }
       }
     ],
@@ -367102,7 +368043,7 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "same"
         }
@@ -367111,7 +368052,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "same"
         }
@@ -367120,7 +368061,7 @@ const SITE_DATA = {
         "rank": 12,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "same"
         }
@@ -367129,7 +368070,7 @@ const SITE_DATA = {
         "rank": 39,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "same"
         }
@@ -367138,7 +368079,7 @@ const SITE_DATA = {
         "rank": 41,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "same"
         }
@@ -367148,60 +368089,65 @@ const SITE_DATA = {
     "spotify_jp": [],
     "shazam_kr": [
       {
-        "rank": 34,
+        "rank": 33,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       },
       {
         "rank": 42,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 128,
-        "song_title": "Pinball",
-        "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 140,
+        "rank": 131,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 9
         }
       },
       {
-        "rank": 141,
+        "rank": 153,
+        "song_title": "Pinball",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-11-02 21:57",
+        "change": {
+          "kind": "down",
+          "delta": 25
+        }
+      },
+      {
+        "rank": 158,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 17
         }
       }
     ],
     "shazam_us": [],
     "shazam_jp": [
       {
-        "rank": 94,
+        "rank": 97,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 3
         }
       }
     ],
@@ -367210,7 +368156,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "same"
         }
@@ -367219,7 +368165,7 @@ const SITE_DATA = {
         "rank": 13,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "same"
         }
@@ -367228,7 +368174,7 @@ const SITE_DATA = {
         "rank": 16,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-02 13:55",
+        "checked_at": "2026-11-02 21:57",
         "change": {
           "kind": "same"
         }
