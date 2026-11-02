@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-02 21:57",
+  "generated_at": "2026-11-03 00:00",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -368238,7 +368238,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-01 21:50",
+        "checked_at": "2026-11-03 00:00",
         "change": {
           "kind": "same"
         }
@@ -370527,42 +370527,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 144
+      "d_day": 143
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 204
+      "d_day": 203
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 27
+      "d_day": 26
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2027-10-11",
-      "d_day": 343
+      "d_day": 342
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2027-08-19",
-      "d_day": 290
+      "d_day": 289
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 25
+      "d_day": 24
     }
   ],
   "trophies": [
