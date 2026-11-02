@@ -367292,7 +367292,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-01 21:50",
+        "checked_at": "2026-11-02 13:57",
         "change": {
           "kind": "same"
         }
