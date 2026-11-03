@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-03 09:41",
+  "generated_at": "2026-11-03 12:32",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,743 @@ const SITE_DATA = {
       "date": "2026-11-03",
       "date_display": "2026년 11월 03일",
       "items": [
+        {
+          "title": "11월 아이돌 컴백 대전 포문 열었다! 리센느(RESCENE) 신곡 'With' 전격 ....",
+          "link": "https://blog.naver.com/lifehigh930/224463271400",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · lifehigh930님의 블로그",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 미니 4집 PULSE 컴백 총정리! 앨범 버전별 가격 구성부터 초동 ....",
+          "link": "https://blog.naver.com/ilyang47/224463279691",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 떠나고 싶은날~",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[리센느 컴백]2026년 11월 3일 미니 4집 펄스(PULSE)타이틀곡 위드와 수....",
+          "link": "https://blog.naver.com/starhanuri/224463285414",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 삶을리뷰하다",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이 무대 중 호흡 곤란으로 급히 이탈 후 복귀 \"줄어든 의상....",
+          "link": "https://blog.naver.com/dhkddidi1/224462255048",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · dhkddidi1님의 블로그",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 신곡 뭐야? 타이틀곡 '위드' 포함 5곡, 3일 오후 6시 발매",
+          "link": "https://blog.naver.com/kseu10/224463293368",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 제품 임대관리 각종 정보공유",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이 공연 중 갑자기 무대 내려간 이유, 세탁 후 줄어든 의상....",
+          "link": "https://blog.naver.com/ulsune/224463293025",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 울수네 신혼집 이야기",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "BTS·임영웅 제치고 1위 찍더니…리센느, 머스크향 품은 'PULSE'로 이제....",
+          "link": "https://blog.naver.com/pasm123/224463307335",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 혈압라이프",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"국민 걸그룹\"이 돌아왔다고? 리센느 미니 4집 PULSE 오늘 발매, 타이....",
+          "link": "https://blog.naver.com/ilgan_ent/224463262973",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 일간 연예생활",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 컴백일 11월 3일, 미니 4집 펄스 수록곡과 원이 무대 이탈 진....",
+          "link": "https://blog.naver.com/bmw3438/224463309061",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 세상에서 제일 쓸데있는 연예인 걱정",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 컴백 오늘(3일) PULSE로 돌아온다",
+          "link": "https://blog.naver.com/bidulgi99_123/224463101397",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 이슈를 읽다",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "CU&리센느 콜라보~ 리센느빵 내돈 내산 후기",
+          "link": "https://blog.naver.com/awsome_world/224463325814",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · Awsome의 행복한 일상",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 PULSE 오늘 컴백! 미니 4집 타이틀곡·향기 콘셉트·발매 정보 ....",
+          "link": "https://blog.naver.com/sol_beauty_/224463325027",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 비아의 취향",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 2026 미니 4집 PULSE 컴백｜발매일·타이틀곡 With·수록곡·멤버....",
+          "link": "https://blog.naver.com/daonlog_126/224463314357",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · daonlog_126",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 미니 4집 컴백 오늘 발매와 함께 상승세 이어갈까",
+          "link": "https://blog.naver.com/xz8zx/224463327947",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 아이좋아라",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "할리스 리센느 미니 팬미팅 응모 방법 세트 메뉴 가격 기간",
+          "link": "https://blog.naver.com/euna0626/224463331070",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 슬기로운 일상가이드",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 미니 4집 컴백! PULSE 앨범에 담긴 의미와 타이틀곡 With 소개",
+          "link": "https://blog.naver.com/hweeu/224463333113",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 휘유픽",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느(RESCENE), 오늘 미니 4집 'PULSE'로 컴백! 새로운 음악과 머스크 ....",
+          "link": "https://blog.naver.com/konir/224463335592",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · ❤️별빛 이야기❤️",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 미니 4집 컴백 오늘 발매와 상승세 이어갈까",
+          "link": "https://blog.naver.com/k_seongmo/224463335959",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 쇼핑중독",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, 무대에서 호흡곤란으로 위급한 상황, 그 이유는 ??",
+          "link": "https://blog.naver.com/32nefitpick/224463311349",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 본질로 세상 접하기",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "“무대 사고?!” 리센느 원이 무슨일?! 숨이 안 쉬어져... 이탈 이유 ....",
+          "link": "https://blog.naver.com/byroylog/224463342789",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 나는솔로이슈는계속된다",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 컴백 오늘 3일 PULSE로 역주행 이어갈까",
+          "link": "https://blog.naver.com/reviewer91/224463343357",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · reviewer91님의 블로그",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "경찰대 시험 문제로 출제된 리센느",
+          "link": "https://cafe.naver.com/browna6if9/24979",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 렁만이네 : 독학왕 공식 팬카페",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 씨유 팝업 다녀왔어요~",
+          "link": "https://cafe.naver.com/re5cene/91029",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이 영상 속 편안한 한 컷.jpg",
+          "link": "https://cafe.naver.com/moyeoroom/289",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 모여룸｜친구 모임·나들이 가이드",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 음반발매 두둥",
+          "link": "https://cafe.naver.com/mindy7857/5515405",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 베나자-베트남나트랑자유여행,달랏,무이네,호텔,투어,리조트맛집",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "마이크 잡으면 분위기 바뀌는 제나.jpg",
+          "link": "https://cafe.naver.com/allthemepark/351",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 올테마파크",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "리센느 'PULSE' 발매 기념 올리브영 인스타그램 댓글 이벤트 안내 (~261106)",
+          "link": "https://cafe.naver.com/re5cene/91047",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "12:31",
+          "category": "기타",
+          "members": [
+            "리브"
+          ]
+        },
+        {
+          "title": "수원시, 리센느가 가보고 싶어하는 뷰티박람회 보러 오세요! > 뉴스 - 더코리아",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjRlB6cFpGVmE4azljeVZ2VFowLXdYNURlUXhSRHBMSmRkUFJvc0NfeTF0Tk1EdnlSWEJJQVBIVVAydmprQVg1RkJXMnZuNXk5SDh4alA0X0xpVlF4UlRDNi1INWlqX1REUW5IZlJCdUdXZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "12:16",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "k채널/리센느가 가보고 싶어하는 뷰티박람회 보러 오세요! - K채널",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15djZGSGYzZTYxdllRNVRxZ1JGQUphZlZhOWdLYzB6bXpjb1RJcm14VXlZZTlUd2dXX3pUbkhLaUd0b1Z3M3lmdl96MkdQdk1uRE9fcVFQYm0weWRfS0dvSjBLb2piVGVzNnc?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:53",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "우리은행+삼성전자, 식지 않는 리센느 신드롬 [뉴스Q] - www.newsq.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uZTdvSmJOblpEd2Q5bzFJZG1ONnRYNGFhZExGa243aTlFWnhIc0dzUVp5TUdGeWlWeFRzU295Tk9kbzVIOWZJc2V1NzB5QzBWV3Q4NFJxNXAxaFY1cFMwcDNYTzJ4MFJmaVE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:38",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "박상철, 16년 전 ‘빵빵’ 역주행에 깜짝…“10대까지 듣는다, 다 리센느...",
+          "link": "https://www.donga.com/news/Culture/article/all/20261103/134956290/2",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:38",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "박상철, 16년 전 ‘빵빵’ 역주행에 깜짝…“10대까지 듣는다, 다 리센느 덕분” - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11b05HQ3BZWVJNb3RsZmJLcm9tbGs0cXRVUlRQdkIwcnYtMEowbFd0M2N5OWtreFRidlhnRWx4TWZYRlNyZGZDMWZWWldGZWY0Vk83dDY5S0ZWMWU3dzhTOVRxcnpSQVNfN3l2bG1ZUVBwU3JBeGfSAWZBVV95cUxQRU9qTW1VRE5YanRlX2xBN3hBVU9MTGVUQ01DaDR6THRZbVlacFF3clhLUmhMNUJwZWkwZTZ6U280ampsYnlFYTRmZ1FSaUp2dGk0RFJZWVFfRDdEcF95Y19oakpnSUE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:37",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'창사 이래 최초 모델' 리센느 컴백에... 할리스, 초특급 오프라인 팬미...",
+          "link": "https://www.insight.co.kr/news/580395",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "11:22",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 미니 4집 컴백…‘국민 걸그룹’ 방점 찍는다 [DA투데이] - 스포츠동아",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9naEJMcUV3d1h4V0ZEWjhtb3FoN3lxTzE1bnFyVHZ0TWd2R0VvOXlac3daS1lfZGw1RkNpMC1OWUZCVmh4c2tqcTlKQldUZF84UVRkZndHa21tbnBRbURKNjVTVnZvUWIyU05aNjd3?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "11:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "비비드, AI 영상 공모전 접수...리센느·럭키짱 캐릭터 쓴다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPS2lsQnlmTHpBZkhNdzl4QlJIaE1obGdfZ0ZicEdtMll0cmVnMVFUMDBGVlduMl9XTmFqdy1wWUdabTdDUnhaOTNGakFMNzhOVGdMWDlB?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:49",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 미니 4집 ‘PULSE’로 컴백...A2O LITE 독주 막을까 - 라온신문",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xb3FCN2Z4NnFhU01hTXJDc3RxOWk1ZnJ3ck9rbnNKM1ZwNjA4NURUMDJLWG1vVXQ4V3J2cjhNQlBiZ3JMRU5HR3RQcXhKRkFsV3hSX3UxaTAyQ1A1ZC1mUw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:46",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 오늘 ‘펄스’ 컴백…‘위드’로 상승세 잇는다",
+          "link": "https://www.mediapen.com/news/view/1134590",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:32",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 원이, 깜짝 무대 이탈 이유…\"갑자기 숨이 안 쉬어져\" [투데이픽] - 파이낸셜포스트",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CaDVWd3N1by1IakRJNTBWalBRaEFvbjRLQUdSVlNuMUJVeVBpYkF5SUtjZnJzSHhydFJFa3dVZ3djTHd4a0J1X20zWTZhTXY2UmZ1LUxIbjJ2ci1YNkNpOThCU1V1V0UyOGpoYW5SejNJd185?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:31",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "유튜브로 '러브 어택' 1위 만든 리센느, 'With'으로 정주행 노린다→오늘...",
+          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16266780",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "10:26",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "유튜브로 ‘러브 어택’ 1위 만든 리센느, ‘With’으로 정주행 노린다→오늘(3일) 컴백 - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FZENRVTJ3eUhxR1R5eGVnb2YzV0p5RWdIcFR0VnF5dm9CZzdrU0traHN5dGxHOWE5cF9nSmtVaS1iZGdodjRhWDRDVk5PMVFpVi1OdnRPX2lha19RVjBES3lKOFpESUZGbG9zUFhGMUszQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "10:25",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 역주행 신화 다음은 ‘펄스’…오늘(3일) 컴백 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNSVdSd0JaT2oteEY3TV9Qc0s3czhITktGRnZHc1FmVmxURVF3MzBSbmVzb01rMTBQYy1mSy1zWmxWRmVjYTk3OWxJR3dMcE9UNThqTQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:56",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'대세' 리센느, 오늘(3일) 'PULSE'로 컴백 - iMBC 연예",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51REtsZ043SkpvelFic3hkSm91b25ZQ1NqNTZBUDBPb2xjV2J2Q21Za0poRW9HeGRFNmpxdEV3ck5kaWdZcFd2ZW1UaWFRZ0RRZ0pXY2s2QTNPY1hOQ1ZIWQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:39",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'新 역주행 아이콘' 리센느, 오늘 새 앨범 '펄스' 발매 - 이데일리",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV0VwTUpMamM2YktldmRFaUktRXZzVENqazZta2VwTjhISnZtZU5wWktfd0dBNlYzY2NmcTFnblE3UHpHVWt2MFZ3MXpwNUVyeHRaYmhGSkVuYkExazRKRzFBWkpHdTZYQUR1cE5zYWxTaEx1OGN3Wk5KVzR2VDZ1dw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:38",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘역주행 신화’ 리센느, 오늘(3일) 컴백…‘With’로 상승세 이어갈까 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Dd3RlZERrWnkxNm1zTThBdTNlOHV6OVZMV09xQ3dHaEtRZG1mTE5pVVd0NXVpTURNdGk4OUxmQjgzVDVZQTc3SnhXZkd3Z3I5OWdDWGFTUQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:33",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 역주행 돌풍 이어갈까…오늘(3일) 신곡 'With' 발매",
+          "link": "https://star.ytn.co.kr/_sn/0117_202611030933266559",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "09:33",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[Y초점] 밈으로 떴지만, 음악은 이미 달랐다…리센느가 기대되는 이유 - YTN star",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lbTRTS0dSZGdPTXpYWXFENVhFM2VpSFJiZ3BsaWh2dzV5VkU5WXhaNTJQUEZPNDRMdWdTSzhBS01FQk1aUThpczZuckpyel9QUWZnMUdsSWJ0VFpVdzM0?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:30",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 오늘(3일) 컴백에 쏠린 눈…결국 신곡 흥행이 관건, 음원 차트 접수할까 - www.xportsnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84Z25fRVlpZHBpN3BNdWt5LVltejV4Y2RpSlNSV1pXa204NUdtbzdKYnpnQmJKSjNVRUtLQmlqcmZ2bVlreVpvRWlKU2liZG5iRFQ5aw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:15",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 오늘(3일) 컴백에 쏠린 눈…결국 신곡 흥행이 관건, 음원 차트 ...",
+          "link": "https://www.xportsnews.com/article/2214512",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "09:15",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"리센느를 직접 만날 기회\"···할리스, 팬 대상 특별 이벤트 진행 - 캠페인 인사이트",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBERzZkQW9sNHd6WjFnYVVBRDlhdDhmNzRoSWZGdUt0RHprb2RNRWJ6Q0FRbFF0SXRXczAxYjMyOEV2aXNuZF9nak5GaHRsMWc5RUNRNDNodTdFa2pYT1AxRlNwckRKa2hpZG5BclY3NUVpLUhZ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:03",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느도 가고 싶다는 ‘뷰티썸 수원’…130개 기업 한자리에 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBEOU5kdlNBSlhaX2hhZ0txSmgwWEk2UXVtVkpqT3lKVzRUZjNMeWlqc1BGbkZGUnRabDRaMlZYc3UwX0Rma3hCQWFLNzRBbkZv?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "09:03",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘대세’ 리센느, ‘PULSE’ 컴백…역주행 이어 정주행 노린다",
+          "link": "https://www.mk.co.kr/article/12194337",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "08:59",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 머스크향 품고 돌아왔다…역주행 넘어 정주행의 시간 - 마이데일리",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZenlkNU1OZWxIZk9sOTRpUkgzRUljMlhGVkNrdm96ODBGSHNfVFBtc2g5WThQdlRKYmRwbGpQMkEycWZ2c3p6QnJHc0NzVjV2cU5aZlh0VldsUGVFSGhmbQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:57",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 오늘(3일) 컴백→‘2026 KGMA’ 출격…원이 MC 활약까지 - 일간스포츠",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KcFBrTm5PNHVDQU5rYTBfZ2FpTjdCeWh0NGViT1hVVUtwcy03RURNbE1PV3NWYl9NNjBfTFQyTDN3ZXhCbGMxT0o4bTdxRkZjbVpGYWl5WjJFeDB4bDltUVZJZGdfZjlG?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:52",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "‘국민 걸그룹’ 리센느, 오늘(3일) 컴백",
+          "link": "http://www.tvdaily.co.kr/read.php3?aid=17936612731807966010",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "08:51",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "일방통행 아닌 쌍방향 호흡…리센느가 새 앨범 ‘PULSE’에 심은 유대 서사 - 스포츠동아",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XcHFjZnJobklPQzJ5b2ctM1BwZjEtSS0xOXZiOGREY2ljUXgyX0c1ekNfSU9xVUNuYkpiTVhjUU9lQWYyWDcwd0tBcHZVRDdEUEVHQUY2NW5PUWlNdVpzbGhFYzlySzhJY2tEZW1n?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:49",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 대세 쐐기 박을까…오늘(3일) 미니 4집 '펄스' 발매",
+          "link": "https://www.tenasia.co.kr/article/2026110317644",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "08:45",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 오늘 미니 4집 ‘PULSE’ 발매…타이틀곡 ‘With’로 컴백 - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZQ29EY1o3NTQ0b2o3TndWb1VDOXFQeXg4MDdubl81eExvbnlCbUNGcjQ4ZXV4UFdsT3dIVkljTER5dlJRcm50NExrMXdOWjhOekVjbE5PYkE1VWpRYkV3YlduSE84ZGhVNFVVM2FKZHYxQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:32",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘IDOL’S TABLE’ 리센느 미나미·하성운 합류… 스쿨푸드 추억 소환 - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmSlhveVhELTFkUEx1NWg4VUFLdkVMd091bnNJUU9ibmdZamFqZUFILVpFQlBVNTdmRGp2NnZabHU3MF9GQ0I4ekFvblFsZmwtQ045c0NMRk9MdzFONk1yU0tpN3ZXYnJ0Nl9UZklrMEk1dw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:25",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "리센느, 향기는 고동이 된다…맥박 뛰는 자리마다 번지는 온기 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6U2hFX1NHWkJsRHRTdlZnNndadmFTN2tGam43RGtQMFRWRUlDQ2hUVEZfQmxwLThXMGFrdE1LOFlHOUVDdkx2c3VvS01LX3ZOUmVlWVF2cFV6Sm40d1VnZFZ0WFc4QldJRV9UWlU3U05MS2FoNFlxMtIBeEFVX3lxTFB6U2hFX1NHWkJsRHRTdlZnNndadmFTN2tGam43RGtQMFRWRUlDQ2hUVEZfQmxwLThXMGFrdE1LOFlHOUVDdkx2c3VvS01LX3ZOUmVlWVF2cFV6Sm40d1VnZFZ0WFc4QldJRV9UWlU3U05MS2FoNFlxMg?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:22",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 역주행 신화 잇는다…오늘(3일) 미니 4집 ‘PULSE’ 발매 - https://www.frame-less.co.kr/",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92Y1FKc2dzTzliTkFSeG9ldFI2QmFaMjJxR3lNcjNiX3hmYzk4X1hSMHl4WFRMb3pCbUZBXzdBU0x6eTZ6TGNQSVhQOVU4R3JZbnNST2VoUXBBT0wybHJQdFpUOGxRUkhVYTBlS1Zn?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:22",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘머스크향’ 입힌 리센느, 대세 입증 간다 - 스포츠경향",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAyQU14MTB5ZUptLWpVdW1ERGc0Znp4aUMxRGFFc3Bab1BnME5xZ0Y3WVlmVmpQS1NmcTg5WEZDbGZHMXJudm9CMndzdFdPMzI4TzZuVTdGRE1wRFptTEHSAWNBVV95cUxQc1F5LUlqc1JhR0pZWGEzdHhMVjVpNzFUdTZObXhReTZLNV9tM3BrQkpIdHBBajBuclBXYkF6aEVLbmZNTWlxYkFSMlh5UHlhNWRiai1TN0pSdGtnemRfTVdlSUE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:17",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 오늘(3일) 미니 4집 발매 - BNT뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zOTFlMFRHY3hlUWZ0cFJWWDhsa3R3QnRJUUxoZHhYNmdNVDRvUXo4czQza0JES2lxdWVZeXVJTUpWaXVMWmRJM1doQlFyZkN2NGFfdGlPdVh3VGYxeWZqcE1SSzQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:13",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'국민 걸그룹' 돌아온다! 리센느, 오늘(3일) 미니 4집 'PULSE' 컴백 - 스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UUDZWZG8ySUY1ZkpWYkhjWmNXTlpzX0hBZk1XQnNLZ2JfV0VPZ0NPdzJLQ01WYVVnTGtiWEtHbmNLQUx5NFFJd2o0Nk9fTUhJUW1nNDMxOER6S3htbTBXS1Vrc2Y5LW1QS0g2RVpfOVpkeElH?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:07",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 머스크 향 품고 오늘(3일) 컴백..정주행의 시간 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMzkzaGZJejVBTzk3MTFELWdPNjktZWxmeFRrYVNLN3VqN2ZKQ20yc3pKVVBhbjg0MFZ1TnBGXzRyQzVwVElWVE94Y2hPZkdfbTZFbHNBbFoyMlNzQ1ZWMWxPTV9hb1hZTEVnRERGRjVyT2pjUS1jT3pMRmQzWEpMUzltTVVFOXdINlE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:07",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 오늘(3일) 미니 4집 ‘PULSE’ 발매…타이틀곡 ‘With’로 컴백 - 싱글리스트",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yNU1YSTZodVdlVzRsUnJaOHhFQ1JIMFJXcnhOYkZGd0U4TmgwY3NoYWd4SGlsc3RoaEVDTnR6NE85WjNTdWhsSXRqSVNScUNGdGJoQW5fU2lwZlM0cDNGN3kwNlJuQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "셔누X형원·에이티즈·트레저·피원하모니·싸이커스·리센느·투어스·앤더블·민호·장민호·터치드·튜이드…‘2026 KGMA’서 신곡 시상식 첫 공개 - 일간스포츠",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GYzZTUjNYaDkyWjRieTYtMHVjRVROSksycE1xQjNBVjlJZGlTcjlLaHFMZVFSUHJGSkJkUXFwMXBJdWZBWmc2Skc1b0I3OGo3dFNLZDcyRUp1SmpId2c3X2RB?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "08:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 컴백 당일 뮤지션100 1위·인기곡 3곡 TOP10…신보 'PULSE'로 새 승부 [뮤지션100] - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wOEZzTmZvTmlUa1pRQk9nc2Q5S0FKM2hKWFZOOVl2Ni1XR1hCNDVDY2dITGRSZ3Y3VDYyNEZ0NFhmZnl6bDFoamlYcEtvWGhtREdfWFJfeVhLUUJFbUdVam16SmhlaFE0ejVpcmlZRWlnZw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "07:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
         {
           "title": "ੈ♡ Runnin’ on you‧₊˚ʚ #PLAVE #YEJUN #HAMIN #RESCENE #With_challenge",
           "link": "https://blog.naver.com/quswjddk0911/224462857974",
@@ -804,6 +1541,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "리센느 원이, 공연중 무대 떠나…“숨 쉬기 힘들었다”, 무슨일? - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSR3NaNmxRcUZWa09taWlFUjMtRy14V184aEJVck9iLThDWm5PeTBnTmtvSGYzTnVMam93VE1xWUV6Sm93c2oyTFhPMXlURWlWSGZmYm9fZkp4Z3pMdmFoMGNhT1h6XzRRa2FBbWlRSG9EOGRRLVHSAWZBVV95cUxOVVhDbzVaVU9kR2dBbFI3aXhLazlRa3hkcURjbW0xZlJFMVNqSXBmRk1oQmNoREJoUVQxakxGQ2NCcWswbUszY2dPM2c2MEYyNXIwYmttM3hpdDRaSVl6S1dFZDBtTnc?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "20:22",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
           "title": "리센느 제치고 AI 음원이 음원 차트 톱…美·EU 자체 기준 마련하는데 韓...",
           "link": "https://www.ajunews.com/view/20261102144721596",
           "source_type": "news",
@@ -1123,6 +1871,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "리센느 원이 “줄어든 의상 때문에 숨 안 쉬어져”…공연 중 사색된 채 이탈 ‘깜짝’ - 서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04a3g0RmJlRFQ1a3JsZ3daSEtTdzRMaGdRTVRLNFMyMFJobmZBbUVtODhIcjJGeW1FR3d4Q1VSUWtKZGNtVy1ROGM2Zk1faWx5dnfSAVNBVV95cUxPQjNWa2JXSVRrZDVYNjRoR3NTbTVpWVd4ZGU5VGlqZ0IyU1N5RGxvQkgzYWVKbk9oZzAwNmMyU2tfdEJHdjNObjVLV2txbmhYY1czSQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:30",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
           "title": "리센느, 경찰대 편입시험 문제에 깜짝 등장…'이례적 관심' - YTN star",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1idGQyZV9vME56TVJtQUJNSzBlRE5vZnRyWUxPUWdwRWU0aG56TU9GS3hQMjlzcnhBZjN6NnhEUHNsbXlNdmUxX1dmUk54VjBrYkdDT1B5WXlhZ1gwNllj?oc=5",
           "source_type": "news",
@@ -1238,6 +1997,17 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "14:55",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 원이, 공연 중 '호흡곤란' 무대 이탈…\"세탁 후 줄어든 의상 탓\" - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pc1J4VGdhQlI0TFUtdlFvWGRBT3NKMEpFZlZRekpkSjV4RVNvQTJHZDRhbElyaUJ4S25Lb1JES3F1aFJRbkkxckdxSjg4WGhKRGg3bkRoUXpwcjQzVWh5ddIBeEFVX3lxTE5uVGlQZ3AzWVdpemkxV24yQWRQdjFHU3R5Ml80X1ZjX0Vlb0phWmZLUFY4T0plU1NLMVVIV3k0dmViWGhDcGsxeGlqcVNMOWplcHZEY0wxN1IxZW9QQjZxVGdCZXktQnJpUV84dnE1dnBqNURkSUx5bw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:52",
           "category": "기타",
           "members": [
             "원이"
@@ -368370,80 +369140,80 @@ const SITE_DATA = {
         "rank": 4,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-03 07:02",
+        "checked_at": "2026-11-03 12:31",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 7,
+        "rank": 6,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-03 07:02",
+        "checked_at": "2026-11-03 12:31",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       },
       {
         "rank": 10,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-03 07:02",
+        "checked_at": "2026-11-03 12:31",
         "change": {
-          "kind": "down",
-          "delta": 2
+          "kind": "same"
         }
       },
       {
-        "rank": 48,
+        "rank": 36,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-03 07:02",
+        "checked_at": "2026-11-03 12:31",
         "change": {
-          "kind": "down",
-          "delta": 15
+          "kind": "up",
+          "delta": 12
         }
       },
       {
-        "rank": 68,
+        "rank": 55,
         "song_title": "Pinball",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-03 07:02",
+        "checked_at": "2026-11-03 12:31",
         "change": {
-          "kind": "down",
-          "delta": 19
+          "kind": "up",
+          "delta": 13
         }
       }
     ],
     "genie": [
       {
-        "rank": 12,
+        "rank": 5,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-03 07:02",
+        "checked_at": "2026-11-03 12:31",
         "change": {
-          "kind": "down",
-          "delta": 8
+          "kind": "up",
+          "delta": 7
         }
       },
       {
-        "rank": 32,
+        "rank": 12,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-03 07:02",
+        "checked_at": "2026-11-03 12:31",
         "change": {
-          "kind": "down",
-          "delta": 16
+          "kind": "up",
+          "delta": 20
         }
       },
       {
-        "rank": 38,
+        "rank": 17,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-03 07:02",
+        "checked_at": "2026-11-03 12:31",
         "change": {
-          "kind": "down",
-          "delta": 24
+          "kind": "up",
+          "delta": 21
         }
       }
     ],
@@ -368501,48 +369271,52 @@ const SITE_DATA = {
     ],
     "spotify_kr": [
       {
-        "rank": 4,
+        "rank": 6,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:31",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 2
         }
       },
       {
         "rank": 10,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:31",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 12,
+        "rank": 15,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:31",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 3
         }
       },
       {
-        "rank": 39,
-        "song_title": "Runaway",
-        "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 41,
+        "rank": 43,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:31",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 2
+        }
+      },
+      {
+        "rank": 47,
+        "song_title": "Runaway",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-11-03 12:31",
+        "change": {
+          "kind": "down",
+          "delta": 8
         }
       }
     ],
@@ -368553,7 +369327,7 @@ const SITE_DATA = {
         "rank": 33,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:32",
         "change": {
           "kind": "same"
         }
@@ -368562,7 +369336,7 @@ const SITE_DATA = {
         "rank": 42,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:32",
         "change": {
           "kind": "same"
         }
@@ -368571,7 +369345,7 @@ const SITE_DATA = {
         "rank": 131,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:32",
         "change": {
           "kind": "same"
         }
@@ -368580,7 +369354,7 @@ const SITE_DATA = {
         "rank": 153,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:32",
         "change": {
           "kind": "same"
         }
@@ -368589,7 +369363,7 @@ const SITE_DATA = {
         "rank": 158,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:32",
         "change": {
           "kind": "same"
         }
@@ -368601,7 +369375,7 @@ const SITE_DATA = {
         "rank": 97,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:32",
         "change": {
           "kind": "same"
         }
@@ -368612,7 +369386,7 @@ const SITE_DATA = {
         "rank": 10,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:32",
         "change": {
           "kind": "same"
         }
@@ -368621,7 +369395,7 @@ const SITE_DATA = {
         "rank": 13,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:32",
         "change": {
           "kind": "same"
         }
@@ -368630,7 +369404,7 @@ const SITE_DATA = {
         "rank": 16,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-03 07:03",
+        "checked_at": "2026-11-03 12:32",
         "change": {
           "kind": "same"
         }
