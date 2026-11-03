@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-03 07:03",
+  "generated_at": "2026-11-03 09:41",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -368728,6 +368728,14 @@ const SITE_DATA = {
         "mention_count": 1
       },
       {
+        "date": "2026-11-08",
+        "type": "팬사인회",
+        "title": "[PULSE] 대면/영상통화 팬사인회 by MAKESTAR (09:30 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
         "date": "2026-11-14",
         "type": "기타",
         "title": "2026 멜론 뮤직 어워드 (MMA) (All Day)",
@@ -368771,6 +368779,14 @@ const SITE_DATA = {
         "date": "2026-11-29",
         "type": "기타",
         "title": "🎉 HAPPY MINAMI DAY (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-29",
+        "type": "팬사인회",
+        "title": "[PULSE] 대면/영상통화 팬사인회 by WHOSFAN (05:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
