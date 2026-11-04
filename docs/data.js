@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-04 12:43",
+  "generated_at": "2026-11-04 14:19",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -374037,18 +374037,35 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 10,
+        "rank": 1,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-04 07:59",
+        "checked_at": "2026-11-04 14:19",
         "change": {
-          "kind": "new"
+          "kind": "up",
+          "delta": 9
         }
       }
     ]
   },
   "schedule": {
     "upcoming": [
+      {
+        "date": "2026-11-05",
+        "type": "방송",
+        "title": "MBC <쇼음악중심> 사전 녹화 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-05",
+        "type": "방송",
+        "title": "SBS <인기가요> 사전 녹화 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-11-07",
         "type": "기타",
