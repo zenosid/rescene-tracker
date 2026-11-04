@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-04 20:42",
+  "generated_at": "2026-11-04 22:56",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -374923,10 +374923,9 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-04 14:19",
+        "checked_at": "2026-11-04 22:56",
         "change": {
-          "kind": "up",
-          "delta": 9
+          "kind": "same"
         }
       }
     ]
@@ -374934,9 +374933,9 @@ const SITE_DATA = {
   "schedule": {
     "upcoming": [
       {
-        "date": "2026-11-05",
+        "date": "2026-11-04",
         "type": "방송",
-        "title": "MBC <쇼음악중심> 사전 녹화 (All Day)",
+        "title": "MBC <쇼!음악중심> 사전 녹화 (09:00 PM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -374944,7 +374943,23 @@ const SITE_DATA = {
       {
         "date": "2026-11-05",
         "type": "방송",
-        "title": "SBS <인기가요> 사전 녹화 (All Day)",
+        "title": "SBS <인기가요> 사전 녹화 (01:30 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-05",
+        "type": "방송",
+        "title": "KBS2 <뮤직뱅크> 사전 녹화 (09:00 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-06",
+        "type": "방송",
+        "title": "KBS2 <뮤직뱅크> (07:45 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -375033,6 +375048,14 @@ const SITE_DATA = {
         "date": "2026-12-06",
         "type": "기타",
         "title": "AAA 2026 in Kaohsiung (12/05/2026 ~ 12/06/2026)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-12-08",
+        "type": "팬사인회",
+        "title": "[PULSE] 영상통화 팬사인회 by WITHMUU (11:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
