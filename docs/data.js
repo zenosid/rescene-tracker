@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-04 14:19",
+  "generated_at": "2026-11-04 20:41",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -7,6 +7,833 @@ const SITE_DATA = {
       "date": "2026-11-04",
       "date_display": "2026년 11월 04일",
       "items": [
+        {
+          "title": "리센느 앨범 판매량 13만 장 돌파! 미니 4집 PULSE 첫날부터 자체 신기....",
+          "link": "https://blog.naver.com/father250506/224464473324",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 이슈맥박",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 앨범 판매량, 펄스 첫날 13만 장으로 전작 초동 넘었다",
+          "link": "https://blog.naver.com/himongk/224465076212",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 하이몽의 STORAGE",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 비주얼 핏 따라잡기 총정리: 성형외과 전문의가 답하는 스킨....",
+          "link": "https://blog.naver.com/cyanox/224464781149",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · B e a u t i F u l + B r e a s t",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 미니 4집 PULSE 초동 판매량 및 역대 앨범 순위 총정리",
+          "link": "https://blog.naver.com/boragyou/224465033938",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · boragyou님의 블로그",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"향기와 기억\" 리센느 PULSE With 차트 멤버 데뷔",
+          "link": "https://blog.naver.com/namaksin14/224464980625",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 매튜_하나님의 선물",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"발매 2시간 만에 정상\" 리센느 PULSE With 멜론 차트 컴백",
+          "link": "https://blog.naver.com/namaksin1205/224464982281",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 책아이공부방",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 ‘백화요란’ 뭐길래? 미나미가 쓴 네 글자에 ‘케데헌’ 이....",
+          "link": "https://blog.naver.com/krd5899/224465088393",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 알뜰정보 생활꿀팁",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "리센느, 드디어 디즈니와 만났다! 신곡 'With'가 마녀왕국 엔딩을 장....",
+          "link": "https://blog.naver.com/sromis00/224465088961",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 똑소리 나게 알려줄게",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느빵 200만 개 팔린 이유? 구매자 66%가 남성이라는 뜻밖의 반전",
+          "link": "https://blog.naver.com/ghkfksdywjd/224465092566",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 화란뷰티",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "대형 기획사 출신도 아닌 리센느, 어떻게 인기 걸그룹이 됐을까",
+          "link": "https://blog.naver.com/mynote86/224465095742",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 세상 만사 정보 통통",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "CU 올림픽광장점에서 앨범 구경하고 리센느빵이랑 원이 도시락 구매....",
+          "link": "https://blog.naver.com/phd_muckbang/224464777536",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 쩝쩝박사의 먹방log",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "리센느 신곡 차트 1위, 단순한 반짝 인기라고 생각했다가 완전히 뒤....",
+          "link": "https://blog.naver.com/entertainerissue/224464799832",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 연예담담",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "RESCENE(리센느) 'With' (4K) | STUDIO CHOOM ORIGINAL",
+          "link": "https://blog.naver.com/on16mm/224465104026",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · window grapher",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 컴백, 'With' 멜론 1위! PULSE 첫날 판매량 13만 장 돌파",
+          "link": "https://blog.naver.com/awesome-7-/224465103665",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 오늘의 시그널",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 제나의 딸기잼 샌드 어떻게 이럴수가! 딸기잼과 크림의 만남....",
+          "link": "https://blog.naver.com/kimdoubles/224465106359",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 김씨님의블로그",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "올리브영 안티에이징 화잘먹 리센느 미나미 제나 세럼 추천 - 한스....",
+          "link": "https://blog.naver.com/ragdoll_beautie/224465106156",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · -ˋˏ 랙돌 ฅ^•ﻌ•^ฅ 뷰티 ˎˊ-",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "리브",
+            "미나미",
+            "제나"
+          ]
+        },
+        {
+          "title": "\"리센느가 디즈니에?\" 컴백 하루 만에 터진 뜻밖의 소식",
+          "link": "https://blog.naver.com/choice173/224465106312",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 연예브로커",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 미니 4집 《PULSE》 컴백! 신곡 ‘With’에 담긴 특별한 의미",
+          "link": "https://blog.naver.com/carnius_ev/224465108466",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 오늘의 발견",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "CU 리센느 도시락, 덕연이딸 원이김치제육 도시락 후기",
+          "link": "https://blog.naver.com/petua413/224465110583",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 내 안의 작은 행복",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "원이"
+          ]
+        },
+        {
+          "title": "11/3~4 리센느 빵 구매후기",
+          "link": "https://blog.naver.com/jwo9823/224465110358",
+          "source_type": "community",
+          "source_name": "네이버 블로그 · 안녕하신교",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[교환]CU 리센느빵 2차 포토카드 교환하실분",
+          "link": "https://cafe.naver.com/re5cene/93881",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 김혜수 이사님의 인스타 계시글",
+          "link": "https://cafe.naver.com/re5cene/93883",
+          "source_type": "community",
+          "source_name": "네이버 카페 · 리센느 (RESCENE) 대표 팬카페 '리시안셔스'",
+          "time": "20:41",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[4K 메인 예고편] 리센느 특집 | \"리센느의 향기가 더욱 오래 남았으면 좋겠어요\" / YTN star",
+          "link": "https://www.youtube.com/watch?v=WkpbXMBIcXM",
+          "source_type": "youtube_collab",
+          "source_name": "YTN star",
+          "time": "20:41",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'Miracle of Small-Agency Idols' RESCENE Makes a Comeback.. Hits #1 in Just 2 Hours / Good Morning...",
+          "link": "https://www.youtube.com/watch?v=QVcCr7GIvA8",
+          "source_type": "youtube_collab",
+          "source_name": "SBS 뉴스",
+          "time": "20:41",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[4K 선공개] 리센느 특집 | 인간 파이리께서 YTN에 방문해주셨습니다 / YTN star",
+          "link": "https://www.youtube.com/watch?v=caM8Wn4E8EQ",
+          "source_type": "youtube_collab",
+          "source_name": "YTN star",
+          "time": "20:41",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 도시락 2종 이건 좀 심각합니다...",
+          "link": "https://www.youtube.com/watch?v=s0WP9ddjHgU",
+          "source_type": "youtube_collab",
+          "source_name": "흑백리뷰",
+          "time": "20:41",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "K-팝 의자 기강 잡으러 나왔습니다…리센느 '백화요란' [이 장면] / YTN",
+          "link": "https://www.youtube.com/watch?v=spV6iBmTybc",
+          "source_type": "youtube_collab",
+          "source_name": " YTN",
+          "time": "20:41",
+          "category": "외부컨텐츠",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "디즈니 영화 엔딩에 K팝 걸그룹 노래가… 리센느, 최초 기록 썼다",
+          "link": "https://mhnse.com/news/articleView.html?idxno=1674505",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "20:38",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "RESCENE (리센느) 'With' MV Reaction",
+          "link": "https://www.youtube.com/watch?v=2-PnDIvhIzc",
+          "source_type": "youtube",
+          "source_name": "RESCENE 공식 유튜브",
+          "time": "20:00",
+          "category": "MV",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 컴백에 플로가 쏜다…팬덤 ‘리마인’에 응원권 1만 개 선물 - 뉴스탭",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96ZmVEczAtRzFHcml6UHJja2VMNVRtNl9rTkZXd01HTzFST2xOOE5xRDc2Tlp6Y0lNWjVUN2RwR2xONUUtWDFWRXlNbUUyRzRRZ1FDSS1BREtxS0U2czg0ZGtKUkpabWtFeXQ4MQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "18:56",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'빵빵', 장민호·이찬원·리센느 제나까지…같은 노래 다른 매력 [하반기...",
+          "link": "https://www.cbci.co.kr/news/articleView.html?idxno=623236",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "18:00",
+          "category": "기타",
+          "members": [
+            "제나"
+          ]
+        },
+        {
+          "title": "리센느 신곡 '위드', 발매 첫날 멜론 '톱 100' 정상 등극",
+          "link": "https://www.joongangenews.com/news/articleView.html?idxno=561238",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:58",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 '위드', 디즈니 '헥스: 마녀왕국' 엔딩곡 된다…국내 걸그룹 최...",
+          "link": "https://ent.sbs.co.kr/news/article.do?article_id=E10010324282&plink=ORI&cooper=NAVER",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:55",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 멜론 차트 뒤흔든 신곡 'With'…정주행과 역주행 사이, 음악은 ...",
+          "link": "https://www.cbci.co.kr/news/articleView.html?idxno=623230",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:54",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "560명만 초대…리센느, ‘팬심 100%’ 프라이빗 팬미팅 - 스포츠동아",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vLTRWZG9kZjVBX2NUOVg0S3oyY3ZJSWZ3ZEV3WTBqbmN4SVpQTEdCTnVXbTN5WHpTaFVVSmZNb0dsNEhzZ29sQ3pnb0M1a0QyVW5FVmVrdEU5N2Z4ZVNsWHY1RW9hYm82aFVHdENB?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:53",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'진입부터 1위'…'니온' 신드롬도 꺾은 리센느, 적수 없는 '국민 걸그룹' 우뚝[초점S] - SPOTV NEWS",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLdG9FaTFiUnoxeG1PTWZtM0U4MHR1Rll4WlJuYm5XOXhkVmhQYTQ3LUNHYTJickJyVnBjaGFGMWQ4dzdmQVYxX3NRdzVsbmluX2xoTmF3anp5TDJ6czRXUFNtNldmbEx5d1ppQmIwVjQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:50",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'진입부터 1위'…'니온' 신드롬도 꺾은 리센느, 적수 없는 '국민 걸그룹...",
+          "link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1017617",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:50",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'MMA 2026', 부문별 실시간 1위 보니?…리센느·알파드라이브원·임영웅...",
+          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16268356",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:50",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "차트 휩쓴 '중소돌의 기적' 리센느…멜론, 24일 팬미팅 개최 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9acTduV25Cb0JxV25tdFJ1YnNrd0FhMFJTQ2daVUpZdmhUVEI0UFNOMkczNm1Xa1FfODhpUk5uc1dJVzR0Nk9LNDlMZXZaQlVLcnVSZEpKeFdneDNoUHRPOdIBeEFVX3lxTE5XNVVXM0xXUmZDekNDb0lCT003NG5NSWp1TVdYTDQ0dWxib0JyM0ZSc01fQ1dyU2Yyc1N4cmNJQzFJLXVJRzZMUkxPdjNmZXk0Nmd2RWotdU1uMTFmMHNiYU9nTHRJNUtTRmhuaW9kcDBmRmY3dUZFYw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:49",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘MMA 2026’, 부문별 실시간 1위 보니?…리센느·알파드라이브원·임영웅·아이유 - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JSF9vT1pFaWZrSzlROG9qRDBLTnFCai1HWDJQNzU5Sm5lb0JNbjRrUGVLZ1NfQ2IxVVE2LUxoaWx5NWdHVzlGUTAxTlFrV2tBdTl2LXZhMThEXzRjejczNmVtTVRsTldlMzZMNHVRYjcyUQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:48",
+          "category": "Live",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[뮤즈★]리센느 미나미, 채팅 치다 기절까지..스케줄 얼마나 많길래 “...",
+          "link": "https://www.heraldmuse.com/article/10926070?ref=naver",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:48",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "Can Rescene sustain its breakout success with ‘Pulse?'",
+          "link": "https://www.koreaherald.com/article/10926047?ref=naver",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:32",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"신곡 같이 듣고 지하철 광고 쏜다\"…플로, 아이돌 '리센느' 팬 이벤트 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iZDRhbVdjMWlnbnBFWExpbk1DVnFyeTl4VmpMYkU5Rmh6REg0VUZ0NnJGaTRCbnNzbFIzZkVaQmVsUmFCN1dWeHJjWTk0WG5lVGRmZGxDZ3FOb0M2QnpqSdIBeEFVX3lxTE1sTXdlYkl4U3JhSldJa0pVZk5sbVNLVVg4WGFGeDV5c3RQRVNaWUwxMUNfSC1oekhSVjlES2ZFcVFtZUxLRnFlb3A2dDlrU19YRFo2YjFrTmhYNVlqMTFCaS0wLWJ0R0piN1RadTNCN0c4MlRMQTIteA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:30",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"아이돌 리센느 뜨기 전 빠른 투자 … 반년만에 기업가치 67% 뛰었죠\" - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SWkxhYjk1Qjl5bVVFOGl5SU9aek9lUUR0LWI5eVRzcGFfNmpDNnJsYTg2eVNEWG9hTnJZYldFTEdieTZDVXQ1SjNzSlNCbTdBRmdpQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:23",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'리센느' 이어 '존박'도 터졌다, 솔파스튜디오의 '비틀기' 전략… 양홍원...",
+          "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=338207",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "17:23",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘리센느’ 이어 ‘존박’도 터졌다, 솔파스튜디오의 ‘비틀기’ 전략… 양홍원은 위기 - 미디어오늘",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4weTFpc3FpMzFpdl9WUjlIdlZvSnBZeXdQSVRaUXkxeS1VTl9RTXZ0Qzh6d1A4anNQaXNDWHNUNEVZcXVOVy1samd4Z1FTZnZnSllSdVpVSW9MYWJvSFNqN0ExWFlfRDVud1dDTG9XZGc?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:22",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 미나미, 현실판 날개 단 천사…독보적 몽환적 아우라 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmT0VvbWExWUxmNDd5TTl6YXFGR2RMYmR1UmdLV0I5b3ZXYUZNcUxGLXlReGdWV3JKYlZqMWVob0xsam1iS3NmLTVNYzk5amZQeHFTWGltYw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "17:22",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "\"티켓 판매 NO\"…멜론, 리센느 팬미팅에 `채팅 친밀도` 적용 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3eGpTVkZKVHFzUlJ1bzhXVFN0NGh6UWJTamRGMTlmQ3lPYlVFaTJKclZhR2lScnZzUzF3S2RjR29tdG1qS1EtbDA0TWU2N1p2UTI3ZU5KUlNnRkZycnVHT0VPN04?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:55",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 46만뷰 이어 원희는 기상캐스터…아이돌 컴백 공식 된 ‘TV 뉴스’ - 스포츠동아",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLeDd2TEQ1d1EzbFBacnhrUGtjN2stRzhGcVY1MFZBVHAzWXJvVkNwV19CazMzME9LYWcwaHZZNVprb0dFcjJZbWg5RGZ5QjNFZVVzcV9NYy1selVsR3VJc2JSTlhRS2U2dXNSbm1B?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:40",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "멜론, 리센느 컴백 맞아 팬미팅 ‘스테이지 99’ 개최…560명 초청 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CX2VmQlZWM054MExKOF9weWN1dzNsZk4zbWk4aEF4Rmxxdl9wRVIyRUp0Zi1RZy1FQ1dSVjRMWUFQb1dhc3d3RkNsVmE2TWYx?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:37",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "꾸준히 성장했던 리센느, 역주행 이후 'PULSE'로 하루 만에 초동 커리어...",
+          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16268243",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "16:24",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "꾸준히 성장했던 리센느, 역주행 이후 'PULSE'로 하루 만에 초동 커리어 하이 - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PWW5KU0k2dDB3T095N0VSTjIxSThIVjdfSnRaTHFNajRLREpybUExTWhNa0xiX3haLTVVdkZzRXltZWJZYjFFd0VJWl8yS3ZsM3dZVDZUbUN5V2U3WUZaMnNTQ3dZZkRPeEx0M2N3UlE2QQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:23",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 리브, ‘리무진서비스’ 출격 - BNT뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wazF1R1M3bks2S2pKTDlJdUxmajNrR0hwaUhGaXQyQ0xtZTR2R0duUk94QW1iY1dvOC1iXzh5cHZuRkR1U1RZTHZGSzdFTDZSeWFWTTluU1lsd3c3NFBPRTh2SkY?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:21",
+          "category": "기타",
+          "members": [
+            "리브"
+          ]
+        },
+        {
+          "title": "Rescene’s 'With' to play over end credits of Disney’s 'Hexed' in Korea",
+          "link": "https://www.koreajoongangdaily.com/entertainment/rescenes-with-to-play-over-end-credits-of-disneys-hexed-in-korea/12955301",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "16:19",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 '위드', 국내 걸그룹 곡 최초 디즈니 영화 엔딩크레딧 곡 된다…...",
+          "link": "https://swtvnews.com/news/newsview.php?ncode=1065596646814034",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "16:16",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "\"친밀도 99도만 입장\"…멜론, 리센느 팬미팅에 티켓 대신 팬심 받는다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xbEZDS3hQNnJNeTYzSzJJckNSZ0g5OFFyLVBIRWw2aWI1c2tZSnlBd2E2eFgtSWdMbUM5WV93LUE0THFNV0J1cWNTcnBGVVRLY3BMRmRn?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "16:12",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 미니4집 쇼케이스 현장 그 후, 2시간 만에 국내 음악차트 1위라...",
+          "link": "https://news.jtbc.co.kr/article/NB12326444?influxDiv=NAVER",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "15:53",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 ‘위드’, 디즈니 영화 ‘헥스: 마녀왕국’ 엔딩곡…K팝 걸그룹 최초 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04cVpsUFhhR1h1SVZyWE94bnZwOE03NHJQbDF2ZzFhaFRFNHR6cEFxRHdiS3lPZG83SjFzT0NZMDVyRWg1aU56RUxzNkJldFNNeDVlWW14eXFfekZXLXhuS1pZRldYUdIBZkFVX3lxTE04cVpsUFhhR1h1SVZyWE94bnZwOE03NHJQbDF2ZzFhaFRFNHR6cEFxRHdiS3lPZG83SjFzT0NZMDVyRWg1aU56RUxzNkJldFNNeDVlWW14eXFfekZXLXhuS1pZRldYUQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:52",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "플로, 리센느 컴백 응원 행사 - 한스경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iLUk0Y25RSUhtNU1XN0otdVdXeGdwTnFGME9sclF6SHBNZnk4Z1FVQ1RQZXctc2dyV3h4WklCc3RadTlDdVEzYWIxMThwandFQ0JqYnNEdjhCbWFlQ2hlMW82RC1wUFRBbUtKetIBb0FVX3lxTFB3dTVSR1dHTkJCel94Z0lLeTFJOGUzVHV4TGpYOEEtOGZvazNrd2J1VlFTMGtkUjdOaUN3NmhTNkdHOUw4a0t5bVZPR293WGFfWHFiY1JLRV9Dc3dGajRYejZpajR4N1JzNUFKQ3Jlbw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:18",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, K팝 걸그룹 최초 ‘디즈니 영화 엔딩크레딧’ 장식 - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9GMnRCdXlkWmJIOXBSMWpqUXY0MkpzUWdfcnY1emRKZ2dqRWpySV9YZHY4SkE4RV82MS1lbXQ3ZV9FZG9Rd085cUZvTHAwcEpzTmw3OQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "15:04",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "디즈니 영화 최초!... 리센느, '헥스: 마녀왕국' 엔딩크레딧 곡 주인공 ...",
+          "link": "https://www.insight.co.kr/news/580623",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:56",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘채팅 치다 기절’ 리센느 미나미, 컴백 동시에 건강 ‘우려’…1시간...",
+          "link": "https://www.sportsseoul.com/news/read/1646821?ref=naver",
+          "source_type": "news",
+          "source_name": "네이버 뉴스",
+          "time": "14:52",
+          "category": "기타",
+          "members": [
+            "미나미"
+          ]
+        },
+        {
+          "title": "리센느, 디즈니 콜라보…'위드', 신작 애니 엔딩 삽입 - 디스패치",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8zdlRVLTlvNFNmOU90ajU0M1gzWlJsbHpweDVMRnN2eG1CaHRrZGVzOGZlaXhXRnp1TUpIOGlqeUFyVkFtbDhrSkx3?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:30",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "‘역주행 반짝 아냐?→아니네’… 리센느 신곡 차트 ‘올킬’, 음악으로 ‘국민 걸그룹’ 증명했다 - 세계일보",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oWHFTdG9vMDhWVW5PaVhWMjhXeDVVcWJ2aS1mcHIwR3Z0czg2b05BSFZwS1VTcU4zc0QtdWNLUUJTM3g5NkNXLVJ3Y0hrSGN3Q3lJSzROVXHSAVRBVV95cUxOM3BHNE9VUWc4UW1DMmN5bUNiYkhEWjhObHlSSDhjelFJRGFaM3NqVTFfQzhPQ1U0MDMtd0JLRzktX09xLUhJTUpCdjlXSTd4V2xPa1U?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:26",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "'국민 걸그룹' 우뚝 선 리센느, 이번엔 디즈니와 협업…\"韓 걸그룹 최초\" - SPOTV NEWS",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0aV9FVEhfd0o5MjNWQ09UemR0WlJfdW44cFZHZ2tFenpxSWU1RXl1ZmVIVHl3dG84TmZSU0V1amprQS1kNXVvSDJDYnRQbDFHMHRnZ0otd0VBekZkRFNzVDJhRklvMWIzbEdtclRsdlE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:18",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 디즈니 '헥스: 마녀왕국' 스페셜 콜라보 아티스트 발탁 - 메디컬투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1td21nVGpPREpFN2xCYVpVNUw0OWhmbko2Q29mRFMzZHZqeVFYUVVyRjdsSFdHOWxKSjMxNTNTam16MnRvNlJMRHFWVjlWRXU0U2w1LTJ1R1ZaX0hMOGNtNjhyT25OdlhIbWczSQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:08",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 컴백 2시간 만에 음원차트 올킬 … '위드'로 핫100 1~5위 줄세우기 - 뉴데일리",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YMUFNcTFmcC02TmJJOVEtQWtkd2hNMnJHTE42d1B5c0M3MzhDcGhsd25lNUpWcUxWeW9sQ3hQR1FXX2ZRR1R6ODZuNDhiSVQwZUJ3M05PWndqaVg3UTdDcy0wcjZmNUZpbmNpVmJSdVVxdkFMcWdwcWQ0TdIBgAFBVV95cUxNY2xNWUduLU4wNEpoZzhyaW5iQTh1bmRtU1A4Q1pDdEYxZ3BJUVBVTXhhT0RSSnNXX1B0Z2Z2cElpYU5wNkI1dHRvZVN5UzlBZHl4RDBGa2ZGcHUtQndNdVI1dDJMLWJQY1dLa1BvNGJyTjFVeWNPM1lCdUVYZVVHVA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:02",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 디즈니 영화 ‘헥스: 마녀왕국’ 엔딩크레딧 장식..K팝 걸그룹 최초 - 브레이크뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1Zd1FRNXNoS2JUZU1BbVl5cTBGd0ZFSktqWHZTbjQxRjZiNGJQQjMweVZiYWFzMTZaTk4wZktmQVVzUQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "14:01",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, ‘헥스: 마녀왕국’과 특별한 만남…엔딩크레딧 장식 - 비욘드포스트",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pRFdLLUhUUW1oYjJ6UHpUR2RlVlVEOV9tYjlQMndxOWFsYlpjRzRJRFk5cnZtUHQ1RzBtVmttbDlqZEhqamxBb3YzTk55Sm8tN0dPSjlMMGFRWFFxTHBVb0NBSzhaUmNfdzBpSUZreXVDQVBlMy11SkV1ODE?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:39",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 신곡 'With' 음원 차트 정상…멜론·벅스·지니 1위 - 대구신문",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tUHNJbU5sc0k2QjZJMzN0NXJ6SVNPZ2xXa2JxWmFSVXVyWjlLMm5uZFJYQTZCUW9CSTBMS1AwTmF0eE01T1pHOEtqSWZfSTEyanMxUTk1U3I1LXRjNlU0OW9pVUN2TnRUNGhN?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:35",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 신곡 ‘With’로 음원차트 1위 싹쓸이..수록곡 모두 상위권 - 브레이크뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5PX0NYWTZIZzBMbkY0U19hQXE1MVNSZmFfR2Zhb2oxcld5QndWUkZwdnJsQnpFY29wcGNTQ0xfMGhubGdOU3Vr?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:35",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 디즈니 영화 ‘헥스: 마녀왕국’ 엔딩크레딧 곡 맡는다 - 톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpa1UxRXB0XzNYYUQ4MFpJekhkcl8wcENFMjFoNC1OM2JBY3ZzeHNfRF9XbGtBS3V2YVByUk0tT1JmdlJzYlh4dFJYbDAxdDY2TUhYckUwaC11NjQ5aW1sVnFqUHJ2WERTcnJ0cXhMN3gydw?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:11",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느, 디즈니 영화 엔딩크레딧 장식…국내 걸그룹 최초 기록 - 알파경제",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44US1yR2tOc2xFb0h4cEJKeklJRU0xZlhLeFc5MkRXOTA5azlqYjFsY00xS3RoVG4wN0d2WThndmN1eDF1YmpXeHY3NFlxLTdqeDBIX2R1cjJ4WDlCTld5VU9pX09sZXo4R3VrVC1R?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:10",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "리센느 'With', 디즈니 '헥스: 마녀왕국' 엔딩곡…국내 걸그룹 최초 - 지피코리아",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzaXdLTklPdzVLN3pYYTJaYnB0Y1Q0c2pYbWw5ZWctVlRzY2JhZWJ1T1k4VVA0a0pNZE85TE95NW85alVNM014c1Vacm1rT3BIZzEtM1ZXb3ZxcVFjci0wNEZYV29XTmNjdHfSAW5BVV95cUxOZS02aTlQbGw1RXVoTTRpdjQyeEpOMzRJU1B3WnNReDdjUnNXU2xOUU5Qdk0wRHJRdVUtZXU3SzFHd3JHUm9FMXlsSFE3cFdmWFcxbDZLX0lVRjc4MEx6RVJ1ZlhJcS1tQURIVGNpQQ?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:09",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[공식]'대세' 리센느, 디즈니마저 손잡았다..연이은 겹경사 - 스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01cEdFel8zMV82TlVjM2YwWVg4TEdDOUticFhWcTl3X2dTeGJHQ3gxN0Qxc1MzVC1Xc3V0dHJKRmpFYmQ2Sk1MOXV0LVVzZ3pBNXktbkhHX0VoNG5fSndYdjAxQlFfbFlqLURFZ2ZITEdKd1hH?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "13:07",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
         {
           "title": "영어 노래 따라 부르기 / With by.Rescene",
           "link": "https://blog.naver.com/simplicity759111/224464543441",
@@ -1805,6 +2632,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "[잇슈 컬처] 리센느, 컴백과 동시에 음원 차트 1위 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GOUJTeGVfamtMbzJqVFBtRFpEaUg1STJZVFZCSmhfMkRzdkxNLWxlOE05ZG9wX21UVGNpY0dGMTZBNlBKeU5KOV9Pc1R1QkxwS0hZaGJoM04yMjA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - 리센느",
+          "time": "06:43",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
           "title": "리센느 With로 입문했다면? 멤버 이름부터 노래 찾아 듣는 순서까지",
           "link": "https://blog.naver.com/issuepulse/224464119177",
           "source_type": "community",
@@ -3474,6 +4312,17 @@ const SITE_DATA = {
           ]
         },
         {
+          "title": "리센느, ‘국민 걸그룹’ 수식어에 “사랑해 주셔서 감사합니다” #리센느 #RESCENE #메이 #MAY - Howl.Link",
+          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBNSVF6S1pkbVRHcGdpYXV6bG1VQmlCLWRYWjJfNllHZ1RSVURvR3B1Yll5ZHNHOFB6TElV?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - RESCENE",
+          "time": "18:00",
+          "category": "기타",
+          "members": [
+            "메이"
+          ]
+        },
+        {
           "title": "리센느 연습실 급습",
           "link": "https://www.youtube.com/watch?v=oR--AmI7iHc",
           "source_type": "youtube",
@@ -3511,6 +4360,17 @@ const SITE_DATA = {
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04MXJsdDF6dHJ2QjZlaWJvbFphYjZkd1FIdzlZWjlFSkV5N0FNZzA2TVZNYUt2RFRvd09ZWi1TUFNvTkVRT00tYVB2SjNyWWZiNmg1d0NybVp3d9IBX0FVX3lxTE5hd2pMQVdVOFV5VVN1VlJ0bm1Id0x6LVRnSUFGWC1ORnZpNllGZUpYZXAzQWQ4cXhEbHpSbi04VGI3VnI5WUNKS3FYRGkxQWdWX0F4ZHUyR3VGV1dNb3Zn?oc=5",
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
+          "time": "18:00",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[4K] 리센느, 이번 앨범이 시험대? \"좋은 부담감\" [영상] - 스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1rel9WaTNZeDZDcjB2RmhQYlFqbEhXN01SRUUxQ1psYTdtSC1vb0dPNEJJc1UwcVNWVVh2RTdFS1BjUk5DREk0N2NMNkN3MWlBRG5paE9RdUpSb2twU1VOSm5ZWU9TbkZ3RzhqbHNkekplOTA?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - RESCENE",
           "time": "18:00",
           "category": "기타",
           "members": [
@@ -4934,6 +5794,17 @@ const SITE_DATA = {
           "source_type": "news",
           "source_name": "구글 뉴스 - 리센느",
           "time": "09:03",
+          "category": "기타",
+          "members": [
+            "전체"
+          ]
+        },
+        {
+          "title": "[4K] 리센느, 이번 앨범이 시험대? “좋은 부담감” #리센느 #RESCENE - 스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NM0J3U3RBWWVDbXFuVFF4X2xaLVRjb1VtaUdxSWVMUDMtbXlFcUptby1FU1BPRDRra3R0UnRUWHlxcEFEYUs2SlN0cGNOVDVYQkJabG15ck5zQkxU?oc=5",
+          "source_type": "news",
+          "source_name": "구글 뉴스 - RESCENE",
+          "time": "09:00",
           "category": "기타",
           "members": [
             "전체"
@@ -373544,74 +374415,76 @@ const SITE_DATA = {
         "rank": 1,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "same"
         }
       },
       {
         "rank": 4,
-        "song_title": "LOVE ATTACK",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 5,
         "song_title": "백화요란 (Inside Out)",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "up",
           "delta": 1
         }
       },
       {
-        "rank": 7,
+        "rank": 5,
+        "song_title": "LOVE ATTACK",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "down",
+          "delta": 1
+        }
+      },
+      {
+        "rank": 8,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "down",
+          "delta": 1
+        }
+      },
+      {
+        "rank": 9,
+        "song_title": "Finest Thing",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "down",
+          "delta": 1
+        }
+      },
+      {
+        "rank": 10,
+        "song_title": "MEME",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "up",
           "delta": 2
         }
       },
       {
-        "rank": 8,
-        "song_title": "Finest Thing",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 10,
+        "rank": 11,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "up",
-          "delta": 3
-        }
-      },
-      {
-        "rank": 11,
-        "song_title": "Dragon",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
-        "change": {
-          "kind": "up",
+          "kind": "down",
           "delta": 1
         }
       },
       {
         "rank": 12,
-        "song_title": "MEME",
+        "song_title": "Dragon",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "down",
           "delta": 1
@@ -373621,19 +374494,18 @@ const SITE_DATA = {
         "rank": 16,
         "song_title": "Runaway",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "up",
-          "delta": 5
+          "kind": "same"
         }
       },
       {
-        "rank": 24,
+        "rank": 25,
         "song_title": "Pinball",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "up",
+          "kind": "down",
           "delta": 1
         }
       }
@@ -373643,7 +374515,7 @@ const SITE_DATA = {
         "rank": 3,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "same"
         }
@@ -373652,7 +374524,7 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "same"
         }
@@ -373661,40 +374533,39 @@ const SITE_DATA = {
         "rank": 14,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "same"
+        }
+      },
+      {
+        "rank": 16,
+        "song_title": "Pretty Girl",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "down",
+          "delta": 1
+        }
+      },
+      {
+        "rank": 17,
+        "song_title": "백화요란 (Inside Out)",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "up",
+          "delta": 11
+        }
+      },
+      {
+        "rank": 39,
+        "song_title": "Finest Thing",
+        "artist_text": "RESCENE (리센느)",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "up",
           "delta": 4
-        }
-      },
-      {
-        "rank": 15,
-        "song_title": "Pretty Girl",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
-        "change": {
-          "kind": "up",
-          "delta": 8
-        }
-      },
-      {
-        "rank": 28,
-        "song_title": "백화요란 (Inside Out)",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
-        "change": {
-          "kind": "down",
-          "delta": 20
-        }
-      },
-      {
-        "rank": 43,
-        "song_title": "Finest Thing",
-        "artist_text": "RESCENE (리센느)",
-        "checked_at": "2026-11-04 12:42",
-        "change": {
-          "kind": "down",
-          "delta": 32
         }
       }
     ],
@@ -373800,45 +374671,49 @@ const SITE_DATA = {
         "rank": 6,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "same"
         }
       },
       {
-        "rank": 10,
+        "rank": 11,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       },
       {
-        "rank": 15,
+        "rank": 17,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 2
         }
       },
       {
-        "rank": 43,
-        "song_title": "Pinball",
-        "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 47,
+        "rank": 41,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 6
+        }
+      },
+      {
+        "rank": 42,
+        "song_title": "Pinball",
+        "artist_text": "RESCENE",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "up",
+          "delta": 1
         }
       }
     ],
@@ -373846,60 +374721,66 @@ const SITE_DATA = {
     "spotify_jp": [],
     "shazam_kr": [
       {
-        "rank": 35,
+        "rank": 37,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 2
         }
       },
       {
-        "rank": 40,
+        "rank": 42,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 2
         }
       },
       {
-        "rank": 124,
+        "rank": 123,
         "song_title": "Runaway",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       },
       {
-        "rank": 148,
+        "rank": 134,
         "song_title": "Pinball",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 14
         }
       },
       {
-        "rank": 150,
+        "rank": 149,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 1
         }
       }
     ],
     "shazam_us": [],
     "shazam_jp": [
       {
-        "rank": 94,
+        "rank": 95,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       }
     ],
@@ -373908,7 +374789,7 @@ const SITE_DATA = {
         "rank": 9,
         "song_title": "LOVE ATTACK",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "same"
         }
@@ -373917,7 +374798,7 @@ const SITE_DATA = {
         "rank": 16,
         "song_title": "Deja Vu",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "same"
         }
@@ -373926,7 +374807,7 @@ const SITE_DATA = {
         "rank": 18,
         "song_title": "Pretty Girl",
         "artist_text": "RESCENE",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "same"
         }
@@ -373936,100 +374817,102 @@ const SITE_DATA = {
     "youtube_jp": [],
     "apple_music_kr": [
       {
-        "rank": 8,
-        "song_title": "LOVE ATTACK",
+        "rank": 3,
+        "song_title": "With",
         "artist_text": "리센느",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 6
+        }
+      },
+      {
+        "rank": 5,
+        "song_title": "백화요란 (Inside Out)",
+        "artist_text": "리센느",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "up",
+          "delta": 21
         }
       },
       {
         "rank": 9,
-        "song_title": "With",
+        "song_title": "LOVE ATTACK",
         "artist_text": "리센느",
-        "checked_at": "2026-11-04 12:43",
-        "change": {
-          "kind": "up",
-          "delta": 3
-        }
-      },
-      {
-        "rank": 14,
-        "song_title": "Deja Vu",
-        "artist_text": "리센느",
-        "checked_at": "2026-11-04 12:43",
-        "change": {
-          "kind": "same"
-        }
-      },
-      {
-        "rank": 26,
-        "song_title": "백화요란 (Inside Out)",
-        "artist_text": "리센느",
-        "checked_at": "2026-11-04 12:43",
-        "change": {
-          "kind": "new"
-        }
-      },
-      {
-        "rank": 27,
-        "song_title": "Finest Thing",
-        "artist_text": "리센느",
-        "checked_at": "2026-11-04 12:43",
-        "change": {
-          "kind": "up",
-          "delta": 5
-        }
-      },
-      {
-        "rank": 28,
-        "song_title": "Pinball",
-        "artist_text": "리센느",
-        "checked_at": "2026-11-04 12:43",
-        "change": {
-          "kind": "down",
-          "delta": 2
-        }
-      },
-      {
-        "rank": 45,
-        "song_title": "MEME",
-        "artist_text": "리센느",
-        "checked_at": "2026-11-04 12:43",
-        "change": {
-          "kind": "up",
-          "delta": 17
-        }
-      },
-      {
-        "rank": 56,
-        "song_title": "Pretty Girl",
-        "artist_text": "리센느",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "down",
           "delta": 1
         }
       },
       {
-        "rank": 61,
-        "song_title": "Dragon",
+        "rank": 11,
+        "song_title": "Finest Thing",
         "artist_text": "리센느",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "up",
-          "delta": 14
+          "delta": 16
         }
       },
       {
-        "rank": 87,
-        "song_title": "Runaway",
+        "rank": 15,
+        "song_title": "Deja Vu",
         "artist_text": "리센느",
-        "checked_at": "2026-11-04 12:43",
+        "checked_at": "2026-11-04 20:41",
         "change": {
           "kind": "down",
-          "delta": 2
+          "delta": 1
+        }
+      },
+      {
+        "rank": 17,
+        "song_title": "MEME",
+        "artist_text": "리센느",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "up",
+          "delta": 28
+        }
+      },
+      {
+        "rank": 21,
+        "song_title": "Dragon",
+        "artist_text": "리센느",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "up",
+          "delta": 40
+        }
+      },
+      {
+        "rank": 28,
+        "song_title": "Pinball",
+        "artist_text": "리센느",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "same"
+        }
+      },
+      {
+        "rank": 57,
+        "song_title": "Pretty Girl",
+        "artist_text": "리센느",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "down",
+          "delta": 1
+        }
+      },
+      {
+        "rank": 78,
+        "song_title": "Runaway",
+        "artist_text": "리센느",
+        "checked_at": "2026-11-04 20:41",
+        "change": {
+          "kind": "up",
+          "delta": 9
         }
       }
     ],
