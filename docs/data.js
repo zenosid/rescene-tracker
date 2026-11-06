@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-06 10:53",
+  "generated_at": "2026-11-06 14:40",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -378256,12 +378256,13 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 1,
+        "rank": 5,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-05 23:12",
+        "checked_at": "2026-11-06 14:40",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 4
         }
       }
     ]
@@ -378277,9 +378278,33 @@ const SITE_DATA = {
         "mention_count": 1
       },
       {
+        "date": "2026-11-06",
+        "type": "방송",
+        "title": "MBC <쇼!음악중심> 사전 녹화 (09:45 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
         "date": "2026-11-07",
         "type": "기타",
         "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈) (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-07",
+        "type": "방송",
+        "title": "SBS <인기가요> 사전 녹화 (09:25 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-08",
+        "type": "방송",
+        "title": "SBS <인기가요> (06:10 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
