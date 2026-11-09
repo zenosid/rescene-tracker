@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-09 19:33",
+  "generated_at": "2026-11-10 00:30",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -385026,18 +385026,59 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 9,
+        "rank": 4,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-09 14:08",
+        "checked_at": "2026-11-10 00:30",
         "change": {
-          "kind": "same"
+          "kind": "up",
+          "delta": 5
         }
       }
     ]
   },
   "schedule": {
     "upcoming": [
+      {
+        "date": "2026-11-10",
+        "type": "방송",
+        "title": "SBS M <더 쇼> 사전 녹화 (04:20 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-10",
+        "type": "방송",
+        "title": "SBS M <더 쇼> (09:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-10",
+        "type": "방송",
+        "title": "MBC M <쇼! 챔피언> 사전 녹화 (09:00 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-11",
+        "type": "방송",
+        "title": "MBC M <쇼! 챔피언> 사전 녹화 (03:50 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-11",
+        "type": "방송",
+        "title": "MBC M <쇼! 챔피언> (08:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-11-14",
         "type": "기타",
@@ -385128,6 +385169,14 @@ const SITE_DATA = {
       }
     ],
     "past": [
+      {
+        "date": "2026-11-09",
+        "type": "방송",
+        "title": "SBS M <더 쇼> 사전 녹화 (10:25 PM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-11-08",
         "type": "방송",
@@ -387398,42 +387447,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 137
+      "d_day": 136
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 197
+      "d_day": 196
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 20
+      "d_day": 19
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2027-10-11",
-      "d_day": 336
+      "d_day": 335
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2027-08-19",
-      "d_day": 283
+      "d_day": 282
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 18
+      "d_day": 17
     }
   ],
   "trophies": [
