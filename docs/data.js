@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-12 17:31",
+  "generated_at": "2026-11-12 23:48",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -392259,13 +392259,22 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 4,
+        "rank": 3,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-12 09:12",
+        "checked_at": "2026-11-12 23:48",
         "change": {
-          "kind": "down",
+          "kind": "up",
           "delta": 1
+        }
+      },
+      {
+        "rank": 9,
+        "song_title": "LOVE ATTACK",
+        "artist_text": "RESCENE (리센느)RESCENE (리센느)",
+        "checked_at": "2026-11-12 23:48",
+        "change": {
+          "kind": "new"
         }
       }
     ]
@@ -392292,6 +392301,14 @@ const SITE_DATA = {
         "date": "2026-11-14",
         "type": "기타",
         "title": "2026 멜론 뮤직 어워드 (MMA) (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-14",
+        "type": "방송",
+        "title": "MBC <쇼음악중심> 사전 녹화 (01:00 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -392372,6 +392389,14 @@ const SITE_DATA = {
         "date": "2026-12-13",
         "type": "기타",
         "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-12-24",
+        "type": "기타",
+        "title": "2026 SBS 가요대전 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
