@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-12 03:58",
+  "generated_at": "2026-11-12 09:12",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -390730,12 +390730,12 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 3,
+        "rank": 4,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-11 22:45",
+        "checked_at": "2026-11-12 09:12",
         "change": {
-          "kind": "up",
+          "kind": "down",
           "delta": 1
         }
       }
@@ -390743,6 +390743,22 @@ const SITE_DATA = {
   },
   "schedule": {
     "upcoming": [
+      {
+        "date": "2026-11-12",
+        "type": "팬사인회",
+        "title": "BIODANCE 대면 팬사인회 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-13",
+        "type": "방송",
+        "title": "KBS2 <뮤직뱅크> (08:10 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-11-14",
         "type": "기타",
