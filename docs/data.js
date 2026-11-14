@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-14 14:17",
+  "generated_at": "2026-11-14 14:26",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -395787,13 +395787,13 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 9,
+        "rank": 4,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-14 08:21",
+        "checked_at": "2026-11-14 14:26",
         "change": {
-          "kind": "down",
-          "delta": 6
+          "kind": "up",
+          "delta": 5
         }
       }
     ]
@@ -395844,6 +395844,14 @@ const SITE_DATA = {
         "date": "2026-11-22",
         "type": "팬사인회",
         "title": "[PULSE] 대면/영상통화 팬사인회 by MAKESTAR (04:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-24",
+        "type": "기타",
+        "title": "멜론 STAGE 99 (All Day)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
