@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-19 03:15",
+  "generated_at": "2026-11-19 09:00",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -404018,12 +404018,13 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 4,
+        "rank": 9,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-19 00:17",
+        "checked_at": "2026-11-19 09:00",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 5
         }
       }
     ]
