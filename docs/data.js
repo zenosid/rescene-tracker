@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-20 22:42",
+  "generated_at": "2026-11-21 04:43",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -406517,27 +406517,19 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 4,
+        "rank": 5,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-20 15:11",
+        "checked_at": "2026-11-21 04:43",
         "change": {
-          "kind": "up",
-          "delta": 5
+          "kind": "down",
+          "delta": 1
         }
       }
     ]
   },
   "schedule": {
     "upcoming": [
-      {
-        "date": "2026-11-20",
-        "type": "기타",
-        "title": "2026 MAMA AWARDS (OSAKA) (All Day)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
       {
         "date": "2026-11-22",
         "type": "팬사인회",
@@ -406587,6 +406579,14 @@ const SITE_DATA = {
         "mention_count": 1
       },
       {
+        "date": "2026-12-01",
+        "type": "기타",
+        "title": "와키윌리 팝업스토어 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
         "date": "2026-12-05",
         "type": "기타",
         "title": "AAA 2026 in Kaohsiung (12/05/2026 ~ 12/06/2026)",
@@ -406628,6 +406628,14 @@ const SITE_DATA = {
       }
     ],
     "past": [
+      {
+        "date": "2026-11-20",
+        "type": "기타",
+        "title": "2026 MAMA AWARDS (OSAKA) (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-11-15",
         "type": "방송",
@@ -408994,42 +409002,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 126
+      "d_day": 125
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 186
+      "d_day": 185
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 9
+      "d_day": 8
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2027-10-11",
-      "d_day": 325
+      "d_day": 324
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2027-08-19",
-      "d_day": 272
+      "d_day": 271
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 7
+      "d_day": 6
     }
   ],
   "trophies": [
