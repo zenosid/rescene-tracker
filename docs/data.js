@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-22 11:43",
+  "generated_at": "2026-11-22 14:38",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -408962,12 +408962,13 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 4,
+        "rank": 5,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-22 03:49",
+        "checked_at": "2026-11-22 14:38",
         "change": {
-          "kind": "same"
+          "kind": "down",
+          "delta": 1
         }
       }
     ]
@@ -408986,6 +408987,22 @@ const SITE_DATA = {
         "date": "2026-11-24",
         "type": "기타",
         "title": "멜론 STAGE 99 (All Day)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-25",
+        "type": "팬사인회",
+        "title": "할리스 미니 팬미팅 (06:30 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-25",
+        "type": "방송",
+        "title": "디즈니 <헥스:마녀왕국> 스페셜 무대인사 (09:25 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
