@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-23 22:48",
+  "generated_at": "2026-11-24 08:32",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -411065,12 +411065,12 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 5,
+        "rank": 9,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-23 15:21",
+        "checked_at": "2026-11-24 08:32",
         "change": {
-          "kind": "up",
+          "kind": "down",
           "delta": 4
         }
       }
@@ -411162,6 +411162,14 @@ const SITE_DATA = {
         "date": "2026-12-08",
         "type": "팬사인회",
         "title": "[PULSE] 영상통화 팬사인회 by WITHMUU (11:00 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-12-10",
+        "type": "팬사인회",
+        "title": "[PULSE] 영상통화 팬사인회 by WITHMUU (11:30 AM)",
         "note": "출처: Mnet Plus 공식 스케줄",
         "is_estimated": false,
         "mention_count": 1
@@ -413566,42 +413574,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 123
+      "d_day": 122
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 183
+      "d_day": 182
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 6
+      "d_day": 5
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2027-10-11",
-      "d_day": 322
+      "d_day": 321
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2027-08-19",
-      "d_day": 269
+      "d_day": 268
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 4
+      "d_day": 3
     }
   ],
   "trophies": [
