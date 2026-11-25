@@ -1,5 +1,5 @@
 const SITE_DATA = {
-  "generated_at": "2026-11-25 23:43",
+  "generated_at": "2026-11-26 06:15",
   "operator_contact": "네이버 카페 '리시안셔스' '첸드' 쪽지",
   "refresh_interval_minutes": 30,
   "archive": [
@@ -413400,35 +413400,19 @@ const SITE_DATA = {
     "apple_music_jp": [],
     "flo": [
       {
-        "rank": 7,
+        "rank": 10,
         "song_title": "With",
         "artist_text": "RESCENE (리센느)RESCENE (리센느)",
-        "checked_at": "2026-11-25 16:30",
+        "checked_at": "2026-11-26 06:15",
         "change": {
           "kind": "down",
-          "delta": 1
+          "delta": 3
         }
       }
     ]
   },
   "schedule": {
     "upcoming": [
-      {
-        "date": "2026-11-25",
-        "type": "팬사인회",
-        "title": "할리스 미니 팬미팅 (06:30 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
-      {
-        "date": "2026-11-25",
-        "type": "방송",
-        "title": "디즈니 <헥스:마녀왕국> 스페셜 무대인사 (09:25 AM)",
-        "note": "출처: Mnet Plus 공식 스케줄",
-        "is_estimated": false,
-        "mention_count": 1
-      },
       {
         "date": "2026-11-27",
         "type": "기타",
@@ -413519,6 +413503,22 @@ const SITE_DATA = {
       }
     ],
     "past": [
+      {
+        "date": "2026-11-25",
+        "type": "팬사인회",
+        "title": "할리스 미니 팬미팅 (06:30 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
+      {
+        "date": "2026-11-25",
+        "type": "방송",
+        "title": "디즈니 <헥스:마녀왕국> 스페셜 무대인사 (09:25 AM)",
+        "note": "출처: Mnet Plus 공식 스케줄",
+        "is_estimated": false,
+        "mention_count": 1
+      },
       {
         "date": "2026-11-24",
         "type": "기타",
@@ -415909,42 +415909,42 @@ const SITE_DATA = {
       "type": "데뷔",
       "name": "데뷔 3주년",
       "date": "2027-03-26",
-      "d_day": 121
+      "d_day": 120
     },
     {
       "type": "생일",
       "name": "원이 생일",
       "member": "원이",
       "date": "2027-05-25",
-      "d_day": 181
+      "d_day": 180
     },
     {
       "type": "생일",
       "name": "미나미 생일",
       "member": "미나미",
       "date": "2026-11-29",
-      "d_day": 4
+      "d_day": 3
     },
     {
       "type": "생일",
       "name": "리브 생일",
       "member": "리브",
       "date": "2027-10-11",
-      "d_day": 320
+      "d_day": 319
     },
     {
       "type": "생일",
       "name": "메이 생일",
       "member": "메이",
       "date": "2027-08-19",
-      "d_day": 267
+      "d_day": 266
     },
     {
       "type": "생일",
       "name": "제나 생일",
       "member": "제나",
       "date": "2026-11-27",
-      "d_day": 2
+      "d_day": 1
     }
   ],
   "trophies": [
